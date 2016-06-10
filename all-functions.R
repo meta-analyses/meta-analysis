@@ -14,7 +14,7 @@ function(df, kcases = F){
     df3 <- NULL
     for (i in 1:nrow(df)){
         
-        id <- rep(df[i,"id"], 10)
+        ref_number <- rep(df[i,"ref_number"], 10)
         study <- rep(df[i,"study"], 10)
         authors <- rep(df[i,"authors"], 10)
         em <- rep(df[i, "effect_measure"], 10)
@@ -28,21 +28,40 @@ function(df, kcases = F){
         
         py <- t(df[i,(grep("^person", names(df), value = T))])
         py <- gsub(",","",py)
-        
-        dose <- (t(df[i,(grep("^MMET.hr", names(df), value = T))]))
-        dose <- gsub(",","",dose)
-        
-        rr <- t(df[i,(grep("^effect[0-9]{,2}$", names(df), value = T))])
-        rr <- gsub(",","",rr)
-        
-        cases <- t(df[i,(grep("^cases", names(df), value = T))])
-        cases <- gsub(",","",cases)
-        
-        lci <- t(df[i,(grep("^lci_effect[0-9]{,2}$", names(df), value = T))])
-        uci <- t(df[i,(grep("^uci_effect[0-9]{,2}$", names(df), value = T))])
-        
-        df2 <- as.data.frame(qpcR:::cbind.na(id, study, authors, outcome, em, sex_subgroups, overall, tp, py, dose, rr, cases, lci, uci))
-        colnames(df2) <- c("id", "study", "authors", "outcome" , "effect_measure", "sex_subgroups", "overall", "totalpersons", "personyears", "dose", "rr", "cases", "lci", "uci")
+        # !is.na(trimws(df[i, "adjustments1"])) || 
+        if (trimws(df[i, "adjustments1"]) != "" ) {
+          #cat("With adjustmetns: ", df[i,"study"], "\n")
+          #cat("val: ", df[i, "adjustments1"], "\n")
+          dose <- (t(df[i,(grep("^Alt_MMET.hr", names(df), value = T))]))
+          dose <- gsub(",","",dose)
+          
+          rr <- t(df[i,(grep("^effect[0-9]{,2}_adj", names(df), value = T))])
+          rr <- gsub(",","",rr)
+          
+          cases <- t(df[i,(grep("^cases", names(df), value = T))])
+          cases <- gsub(",","",cases)
+          
+          lci <- t(df[i,(grep("^lci_effect[0-9]{,2}_adj", names(df), value = T))])
+          uci <- t(df[i,(grep("^uci_effect[0-9]{,2}_adj", names(df), value = T))])
+          
+        }else{
+          #cat("Without adjustmetns: ", df[i,"study"], "\n")
+          
+          dose <- (t(df[i,(grep("^MMET.hr", names(df), value = T))]))
+          dose <- gsub(",","",dose)
+          
+          rr <- t(df[i,(grep("^effect[0-9]{,2}$", names(df), value = T))])
+          rr <- gsub(",","",rr)
+          
+          cases <- t(df[i,(grep("^cases", names(df), value = T))])
+          cases <- gsub(",","",cases)
+          
+          lci <- t(df[i,(grep("^lci_effect[0-9]{,2}$", names(df), value = T))])
+          uci <- t(df[i,(grep("^uci_effect[0-9]{,2}$", names(df), value = T))])
+        }
+
+        df2 <- as.data.frame(qpcR:::cbind.na(ref_number, study, authors, outcome, em, sex_subgroups, overall, tp, py, dose, rr, cases, lci, uci))
+        colnames(df2) <- c("ref_number", "study", "authors", "outcome" , "effect_measure", "sex_subgroups", "overall", "totalpersons", "personyears", "dose", "rr", "cases", "lci", "uci")
         row.names(df2) <- NULL
         
         df2[,1] <- as.numeric.factor(df2[,1])
@@ -52,7 +71,7 @@ function(df, kcases = F){
             df2[,j] <- as.numeric.factor(df2[,j])
         }
         
-        df2 <- subset(df2, (!is.na(totalpersons) | !is.na(personyears)))
+        #df2 <- subset(df2, (!is.na(totalpersons) | !is.na(personyears)))
         
         df2$logrr <- log(df2$rr)
         df2$se <- with(df2, (log(uci)-log(lci))/(2*qnorm(.975)))
@@ -129,14 +148,14 @@ function(df, outcome1, paexposure, overall1, gender = NA){
     
 }
 metaAnalysis <-
-function (pa, center1 = T, intercept1 = F) 
+function (pa, center1 = T, intercept1 = F, ptitle = NA) 
 {
     library(dosresmeta)
     library(rms)
     
     k <- quantile(pa$dose, c(.1, .5, .9))
     spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = totalpersonyears, 
-                      type = rep("ir", nrow(pa)), se = se, id = as.numeric(id), 
+                      type = rep("ir", nrow(pa)), se = se, id = ref_number, 
                       center = center1, 
                       intercept = intercept1,
                       data = pa)
@@ -146,8 +165,8 @@ function (pa, center1 = T, intercept1 = F)
     #windows()
     with(pred_spl,
          matplot(newdata$dose, cbind(pred, ci.lb, ci.ub), type = "l", bty = "n",
-                 xlab = "dose", ylab = "Relative Risk", las = 1, 
-                 col = "black", lty = "solid", log = "y")
+                 xlab = "Dose", ylab = "Relative Risk", las = 1, 
+                 col = "black", lty = "solid", log = "y", main = ptitle)
     )
     
 }
