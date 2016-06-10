@@ -170,3 +170,18 @@ function (pa, center1 = T, intercept1 = F, ptitle = NA)
     )
     
 }
+
+plotMetaAnalysis <-
+  function(data, outcome, ptitle, paexposure1, overall1, gender1 = NA){
+    
+    if (is.na(gender1))
+      dt <- getDiseaseSpecificData(data, outcome, paexposure = paexposure1, overall1 = overall1)
+    
+    else
+      dt <- getDiseaseSpecificData(data, outcome, paexposure = paexposure1, gender1 = gender1)
+    
+    fdata <- formatData(dt, kcases = T)
+    # Remove all rows with missing RR and Dose
+    fdata <- subset(fdata, !is.na(rr) & !is.na(dose))
+    metaAnalysis(fdata, ptitle = ptitle)
+  }
