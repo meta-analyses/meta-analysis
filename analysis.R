@@ -61,7 +61,6 @@ chdfdata <- formatData(chddata, kcases = T)
 chdfdata <- subset(chdfdata, !is.na(rr) & !is.na(dose))
 metaAnalysis(chdfdata, ptitle = "CHD - LTPA - Total Population")
 
-
 # CHD MALE
 chdmdata <- getDiseaseSpecificData(data, "CHD", paexposure = "LTPA", gender = 1)
 chdmfdata <- formatData(chdmdata, kcases = T)
@@ -69,13 +68,34 @@ chdmfdata <- formatData(chdmdata, kcases = T)
 chdmfdata <- subset(chdmfdata, !is.na(rr) & !is.na(dose))
 metaAnalysis(chdmfdata, ptitle = "CHD - LTPA - Males")
 
-
 # CHD FEMALE
 chdfdata <- getDiseaseSpecificData(data, "CHD", paexposure = "LTPA", gender = 2)
 chdffdata <- formatData(chdfdata, kcases = T)
 # Remove all rows with missing RR and Dose
 chdffdata <- subset(chdffdata, !is.na(rr) & !is.na(dose))
 # Temporarily remove study #63
-strokeffdata <- subset(strokeffdata, !(ref_number %in% c(63)))
+chdffdata <- subset(chdffdata, !(ref_number %in% c(63)))
 metaAnalysis(chdffdata, ptitle = "CHD - LTPA - Females")
 
+## CVD
+
+# Overall CvD
+cvddata <- getDiseaseSpecificData(data, "CVD", paexposure = "LTPA", overall1 = 1)
+cvdfdata <- formatData(cvddata, kcases = T)
+# Remove all rows with missing RR and Dose
+cvdfdata <- subset(cvdfdata, !is.na(rr) & !is.na(dose))
+metaAnalysis(cvdfdata, ptitle = "CVD - LTPA - Total Population")
+
+# CHD MALE
+cvdmdata <- getDiseaseSpecificData(data, "CVD", paexposure = "LTPA", gender = 1)
+cvdmfdata <- formatData(cvdmdata, kcases = T)
+# Remove all rows with missing RR and Dose
+cvdmfdata <- subset(cvdmfdata, !is.na(rr) & !is.na(dose))
+metaAnalysis(cvdmfdata, ptitle = "CVD - LTPA - Males")
+
+# CHD FEMALE
+cvdfdata <- getDiseaseSpecificData(data, "CVD", paexposure = "LTPA", gender = 2)
+cvdffdata <- formatData(cvdfdata, kcases = T)
+# Remove all rows with missing RR and Dose
+cvdffdata <- subset(cvdffdata, !is.na(rr) & !is.na(dose))
+metaAnalysis(chdffdata, ptitle = "CVD - LTPA - Females")
