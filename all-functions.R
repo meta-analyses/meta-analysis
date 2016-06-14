@@ -87,6 +87,13 @@ function(df, kcases = F){
     
     df3$totalpersonyears <- with(df3,ifelse(is.na(personyears),totalpersons,personyears))
     
+    # convert effect_measure into a character column
+    df3$effect_measure <- as.character(df3$effect_measure)
+    df3$effect_measure <- tolower(df3$effect_measure)
+    # The values for casecontrol,incidence-rate, and cumulative incidence data are cc, ir, and ci.
+    lookup <- data.frame(code = c("or", "rr", "hr"), val = c("ir", "ir" ,"cc"))
+    df3$type <- lookup$val[match(df3$effect_measure, lookup$code)]
+    
     df3
 }
 getDataSorted <-
@@ -152,10 +159,11 @@ function (pa, center1 = T, intercept1 = F, ptitle = NA)
 {
     library(dosresmeta)
     library(rms)
-    
+
     k <- quantile(pa$dose, c(.1, .5, .9))
     spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = totalpersonyears, 
-                      type = rep("ir", nrow(pa)), se = se, id = ref_number, 
+                      type = type, se = se, id = ref_number, 
+                      # type = rep("ir", nrow(pa)), se = se, id = ref_number, 
                       center = center1, 
                       intercept = intercept1,
                       data = pa)
@@ -172,13 +180,13 @@ function (pa, center1 = T, intercept1 = F, ptitle = NA)
 }
 
 plotMetaAnalysis <-
-  function(data, outcome, ptitle, paexposure1, overall1, gender1 = NA){
+  function(data, outcome, ptitle, paexposure1, overall1, sex = NA){
     
-    if (is.na(gender1))
+    if (is.na(sex))
       dt <- getDiseaseSpecificData(data, outcome, paexposure = paexposure1, overall1 = overall1)
     
     else
-      dt <- getDiseaseSpecificData(data, outcome, paexposure = paexposure1, gender1 = gender1)
+      dt <- getDiseaseSpecificData(data, outcome, paexposure = paexposure1, gender = sex)
     
     fdata <- formatData(dt, kcases = T)
     # Remove all rows with missing RR and Dose
