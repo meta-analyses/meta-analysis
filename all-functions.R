@@ -95,6 +95,10 @@ function(df, kcases = F){
     df3$type <- lookup$val[match(df3$effect_measure, lookup$code)]
     df3$type <- as.character(df3$type)
     
+    ## Convert all lci, uci and se to zero when logrr is zero
+    
+    df3[df3$logrr == 0,]$se <- df3[df3$logrr == 0,]$lci <- df3[df3$logrr == 0,]$uci <- 0
+    
     df3
 }
 getDataSorted <-
