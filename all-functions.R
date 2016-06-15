@@ -170,7 +170,6 @@ metaAnalysis <-
     if (covMethed){
       spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = n, 
                         type = type, se = se, id = ref_number, 
-                        # type = rep("ir", nrow(pa)), se = se, id = ref_number, 
                         center = center1, 
                         intercept = intercept1,
                         covariance = "h",
@@ -179,7 +178,6 @@ metaAnalysis <-
     else{
       spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = n, 
                         type = type, se = se, id = ref_number, 
-                        # type = rep("ir", nrow(pa)), se = se, id = ref_number, 
                         center = center1, 
                         intercept = intercept1,
                         data = pa)
