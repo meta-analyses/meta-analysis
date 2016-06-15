@@ -85,14 +85,15 @@ function(df, kcases = F){
     if (kcases)
         df3 <- subset(df3, !is.na(cases))
     
-    df3$totalpersonyears <- with(df3,ifelse(is.na(personyears),totalpersons,personyears))
+    df3$n <- with(df3,ifelse(is.na(personyears),totalpersons,personyears))
     
     # convert effect_measure into a character column
     df3$effect_measure <- as.character(df3$effect_measure)
     df3$effect_measure <- tolower(df3$effect_measure)
     # The values for casecontrol,incidence-rate, and cumulative incidence data are cc, ir, and ci.
-    lookup <- data.frame(code = c("or", "rr", "hr"), val = c("ir", "ir" ,"cc"))
+    lookup <- data.frame(code = c("or", "rr", "hr"), val = c("ir", "ir" ,"ci"))
     df3$type <- lookup$val[match(df3$effect_measure, lookup$code)]
+    df3$type <- as.character(df3$type)
     
     df3
 }
@@ -161,7 +162,7 @@ function (pa, center1 = T, intercept1 = F, ptitle = NA)
     library(rms)
 
     k <- quantile(pa$dose, c(.1, .5, .9))
-    spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = totalpersonyears, 
+    spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = n, 
                       type = type, se = se, id = ref_number, 
                       # type = rep("ir", nrow(pa)), se = se, id = ref_number, 
                       center = center1, 
