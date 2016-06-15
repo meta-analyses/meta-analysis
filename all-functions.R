@@ -1,7 +1,7 @@
 as.numeric.factor <-
-function(x) {as.numeric(levels(x))[x]}
+  function(x) {as.numeric(levels(x))[x]}
 formatData <-
-function(df, kcases = F){
+  function(df, kcases = F){
     
     
     #study	authors	year	ref_number	sampl_method	n_baseline	overall	prop_male	sex_subgroups	mean_age_base	pa_domain_subgroup	age_range	menopausal_status	menopausal_def	smoking_subgroup	
@@ -13,77 +13,77 @@ function(df, kcases = F){
     #df1 <- df[,(grep("id|outcome|^totalper|^person|^MMET.hr|^effect|^cases|^lci_e|^uci_e", names(df), value = T))]
     df3 <- NULL
     for (i in 1:nrow(df)){
+      
+      ref_number <- rep(df[i,"ref_number"], 10)
+      study <- rep(df[i,"study"], 10)
+      authors <- rep(df[i,"authors"], 10)
+      em <- rep(df[i, "effect_measure"], 10)
+      
+      sex_subgroups <- rep(df[i,"sex_subgroups"], 10)
+      overall <- rep(df[i,"overall"], 10)
+      outcome <- rep(df[i,"outcome"], 10)
+      
+      tp <- (t(df[i,(grep("^totalper", names(df), value = T))]))
+      tp <- gsub(",","",tp)
+      
+      py <- t(df[i,(grep("^person", names(df), value = T))])
+      py <- gsub(",","",py)
+      # !is.na(trimws(df[i, "adjustments1"])) || 
+      if (trimws(df[i, "adjustments1"]) != "" ) {
+        #cat("With adjustmetns: ", df[i,"study"], "\n")
+        #cat("val: ", df[i, "adjustments1"], "\n")
+        dose <- (t(df[i,(grep("^Alt_MMET.hr", names(df), value = T))]))
+        dose <- gsub(",","",dose)
         
-        ref_number <- rep(df[i,"ref_number"], 10)
-        study <- rep(df[i,"study"], 10)
-        authors <- rep(df[i,"authors"], 10)
-        em <- rep(df[i, "effect_measure"], 10)
+        rr <- t(df[i,(grep("^effect[0-9]{,2}_adj", names(df), value = T))])
+        rr <- gsub(",","",rr)
         
-        sex_subgroups <- rep(df[i,"sex_subgroups"], 10)
-        overall <- rep(df[i,"overall"], 10)
-        outcome <- rep(df[i,"outcome"], 10)
+        cases <- t(df[i,(grep("^cases", names(df), value = T))])
+        cases <- gsub(",","",cases)
         
-        tp <- (t(df[i,(grep("^totalper", names(df), value = T))]))
-        tp <- gsub(",","",tp)
+        lci <- t(df[i,(grep("^lci_effect[0-9]{,2}_adj", names(df), value = T))])
+        uci <- t(df[i,(grep("^uci_effect[0-9]{,2}_adj", names(df), value = T))])
         
-        py <- t(df[i,(grep("^person", names(df), value = T))])
-        py <- gsub(",","",py)
-        # !is.na(trimws(df[i, "adjustments1"])) || 
-        if (trimws(df[i, "adjustments1"]) != "" ) {
-          #cat("With adjustmetns: ", df[i,"study"], "\n")
-          #cat("val: ", df[i, "adjustments1"], "\n")
-          dose <- (t(df[i,(grep("^Alt_MMET.hr", names(df), value = T))]))
-          dose <- gsub(",","",dose)
-          
-          rr <- t(df[i,(grep("^effect[0-9]{,2}_adj", names(df), value = T))])
-          rr <- gsub(",","",rr)
-          
-          cases <- t(df[i,(grep("^cases", names(df), value = T))])
-          cases <- gsub(",","",cases)
-          
-          lci <- t(df[i,(grep("^lci_effect[0-9]{,2}_adj", names(df), value = T))])
-          uci <- t(df[i,(grep("^uci_effect[0-9]{,2}_adj", names(df), value = T))])
-          
-        }else{
-          #cat("Without adjustmetns: ", df[i,"study"], "\n")
-          
-          dose <- (t(df[i,(grep("^MMET.hr", names(df), value = T))]))
-          dose <- gsub(",","",dose)
-          
-          rr <- t(df[i,(grep("^effect[0-9]{,2}$", names(df), value = T))])
-          rr <- gsub(",","",rr)
-          
-          cases <- t(df[i,(grep("^cases", names(df), value = T))])
-          cases <- gsub(",","",cases)
-          
-          lci <- t(df[i,(grep("^lci_effect[0-9]{,2}$", names(df), value = T))])
-          uci <- t(df[i,(grep("^uci_effect[0-9]{,2}$", names(df), value = T))])
-        }
-
-        df2 <- as.data.frame(qpcR:::cbind.na(ref_number, study, authors, outcome, em, sex_subgroups, overall, tp, py, dose, rr, cases, lci, uci))
-        colnames(df2) <- c("ref_number", "study", "authors", "outcome" , "effect_measure", "sex_subgroups", "overall", "totalpersons", "personyears", "dose", "rr", "cases", "lci", "uci")
-        row.names(df2) <- NULL
+      }else{
+        #cat("Without adjustmetns: ", df[i,"study"], "\n")
         
-        df2[,1] <- as.numeric.factor(df2[,1])
+        dose <- (t(df[i,(grep("^MMET.hr", names(df), value = T))]))
+        dose <- gsub(",","",dose)
         
-        for (j in 6:ncol(df2)){
-            
-            df2[,j] <- as.numeric.factor(df2[,j])
-        }
+        rr <- t(df[i,(grep("^effect[0-9]{,2}$", names(df), value = T))])
+        rr <- gsub(",","",rr)
         
-        #df2 <- subset(df2, (!is.na(totalpersons) | !is.na(personyears)))
+        cases <- t(df[i,(grep("^cases", names(df), value = T))])
+        cases <- gsub(",","",cases)
         
-        df2$logrr <- log(df2$rr)
-        df2$se <- with(df2, (log(uci)-log(lci))/(2*qnorm(.975)))
-        if (i == 1){
-            df3 <- df2
-        }else{
-            df3 <- rbind(df3, df2)
-        }
+        lci <- t(df[i,(grep("^lci_effect[0-9]{,2}$", names(df), value = T))])
+        uci <- t(df[i,(grep("^uci_effect[0-9]{,2}$", names(df), value = T))])
+      }
+      
+      df2 <- as.data.frame(qpcR:::cbind.na(ref_number, study, authors, outcome, em, sex_subgroups, overall, tp, py, dose, rr, cases, lci, uci))
+      colnames(df2) <- c("ref_number", "study", "authors", "outcome" , "effect_measure", "sex_subgroups", "overall", "totalpersons", "personyears", "dose", "rr", "cases", "lci", "uci")
+      row.names(df2) <- NULL
+      
+      df2[,1] <- as.numeric.factor(df2[,1])
+      
+      for (j in 6:ncol(df2)){
+        
+        df2[,j] <- as.numeric.factor(df2[,j])
+      }
+      
+      #df2 <- subset(df2, (!is.na(totalpersons) | !is.na(personyears)))
+      
+      df2$logrr <- log(df2$rr)
+      df2$se <- with(df2, (log(uci)-log(lci))/(2*qnorm(.975)))
+      if (i == 1){
+        df3 <- df2
+      }else{
+        df3 <- rbind(df3, df2)
+      }
     }
     
     if (kcases)
-        df3 <- subset(df3, !is.na(cases))
+      df3 <- subset(df3, !is.na(cases))
     
     df3$n <- with(df3,ifelse(is.na(personyears),totalpersons,personyears))
     
@@ -100,9 +100,9 @@ function(df, kcases = F){
     #df3[df3$logrr == 0,]$se <- df3[df3$logrr == 0,]$lci <- df3[df3$logrr == 0,]$uci <- 0
     
     df3
-}
+  }
 getDataSorted <-
-function(df){
+  function(df){
     
     
     #study	authors	year	ref_number	sampl_method	n_baseline	overall	prop_male	sex_subgroups	mean_age_base	pa_domain_subgroup	age_range	menopausal_status	menopausal_def	smoking_subgroup	
@@ -115,64 +115,76 @@ function(df){
     df1 <- df[,(grep("id|outcome|^totalper|^person|^MMET.hr|^effect|^cases|^lci_e|^uci_e", names(df), value = T))]
     df3 <- NULL
     for (i in 1:nrow(df1)){
+      
+      study <- rep(df1[i,"id"], 10)
+      outcome <- rep(df1[i,"outcome"], 10)
+      tp <- (t(df1[i,(grep("^totalper", names(df1), value = T))]))
+      py <- t(df1[i,(grep("^person", names(df1), value = T))])
+      dose <- (t(df1[i,(grep("^MMET.hr", names(df1), value = T))]))
+      rr <- t(df1[i,(grep("^effect[0-9]{,2}$", names(df1), value = T))])
+      cases <- t(df1[i,(grep("^cases", names(df1), value = T))])
+      lci <- t(df1[i,(grep("^lci_effect[0-9]{,2}$", names(df1), value = T))])
+      uci <- t(df1[i,(grep("^uci_effect[0-9]{,2}$", names(df1), value = T))])
+      
+      df2 <- as.data.frame(qpcR:::cbind.na(outcome, study, tp, py, dose, rr, cases, lci, uci))
+      colnames(df2) <- c("outcome", "study", "totalpersons", "personyears", "dose", "rr", "cases", "lci", "uci")
+      row.names(df2) <- NULL
+      
+      for (j in 2:ncol(df2)){
         
-        study <- rep(df1[i,"id"], 10)
-        outcome <- rep(df1[i,"outcome"], 10)
-        tp <- (t(df1[i,(grep("^totalper", names(df1), value = T))]))
-        py <- t(df1[i,(grep("^person", names(df1), value = T))])
-        dose <- (t(df1[i,(grep("^MMET.hr", names(df1), value = T))]))
-        rr <- t(df1[i,(grep("^effect[0-9]{,2}$", names(df1), value = T))])
-        cases <- t(df1[i,(grep("^cases", names(df1), value = T))])
-        lci <- t(df1[i,(grep("^lci_effect[0-9]{,2}$", names(df1), value = T))])
-        uci <- t(df1[i,(grep("^uci_effect[0-9]{,2}$", names(df1), value = T))])
-        
-        df2 <- as.data.frame(qpcR:::cbind.na(outcome, study, tp, py, dose, rr, cases, lci, uci))
-        colnames(df2) <- c("outcome", "study", "totalpersons", "personyears", "dose", "rr", "cases", "lci", "uci")
-        row.names(df2) <- NULL
-        
-        for (j in 2:ncol(df2)){
-            
-            df2[,j] <- as.numeric.factor(df2[,j])
-        }
-        
-        df2 <- subset(df2, (!is.na(totalpersons) | !is.na(personyears)))
-        
-        df2$logrr <- log(df2$rr)
-        df2$se <- with(df2, (log(uci)-log(lci))/(2*qnorm(.975)))
-        if (i == 1){
-            df3 <- df2
-        }else{
-            df3 <- rbind(df3, df2)
-        }
+        df2[,j] <- as.numeric.factor(df2[,j])
+      }
+      
+      df2 <- subset(df2, (!is.na(totalpersons) | !is.na(personyears)))
+      
+      df2$logrr <- log(df2$rr)
+      df2$se <- with(df2, (log(uci)-log(lci))/(2*qnorm(.975)))
+      if (i == 1){
+        df3 <- df2
+      }else{
+        df3 <- rbind(df3, df2)
+      }
     }
     df3
-}
+  }
 getDiseaseSpecificData <-
-function(df, outcome1, paexposure, overall1, gender = NA){
+  function(df, outcome1, paexposure, overall1, gender = NA){
     if (is.na(gender))
-        subset(df, outcome == outcome1 &
-                   pa_domain_subgroup == paexposure &
-                   overall == overall1)
+      subset(df, outcome == outcome1 &
+               pa_domain_subgroup == paexposure &
+               overall == overall1)
     else
-        subset(df, outcome == outcome1 &
-                   pa_domain_subgroup == paexposure &
-                   sex_subgroups == gender)
+      subset(df, outcome == outcome1 &
+               pa_domain_subgroup == paexposure &
+               sex_subgroups == gender)
     
-}
+  }
 metaAnalysis <-
-function (pa, center1 = T, intercept1 = F, ptitle = NA, returnval = F) 
-{
+  function (pa, center1 = T, intercept1 = F, ptitle = NA, covMethed = F,  returnval = F) 
+  {
     library(dosresmeta)
     library(rms)
-
+    
     k <- quantile(pa$dose, c(.1, .5, .9))
-    spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = n, 
-                      type = type, se = se, id = ref_number, 
-                      # type = rep("ir", nrow(pa)), se = se, id = ref_number, 
-                      center = center1, 
-                      intercept = intercept1,
-                      covariance = "h",
-                      data = pa)
+    spl <- NULL
+    if (covMethed){
+      spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = n, 
+                        type = type, se = se, id = ref_number, 
+                        # type = rep("ir", nrow(pa)), se = se, id = ref_number, 
+                        center = center1, 
+                        intercept = intercept1,
+                        covariance = "h",
+                        data = pa)
+    }
+    else{
+      spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = n, 
+                        type = type, se = se, id = ref_number, 
+                        # type = rep("ir", nrow(pa)), se = se, id = ref_number, 
+                        center = center1, 
+                        intercept = intercept1,
+                        data = pa)
+    }
+    
     newdata <- data.frame(dose = seq(min(pa$dose), max(pa$dose), length.out = 100))
     pred_spl <- predict(spl, newdata, expo = T)
     #pred_spl <- predict(spl, newdata, expo = T, xref = 0)
@@ -186,7 +198,7 @@ function (pa, center1 = T, intercept1 = F, ptitle = NA, returnval = F)
     if (returnval)
       return(list(newdata$dose,cbind(pred_spl$pred, pred_spl$ci.lb, pred_spl$ci.ub)))
     
-}
+  }
 
 plotMetaAnalysis <-
   function(data, outcome, ptitle, paexposure1, overall1, sex = NA){
