@@ -97,7 +97,7 @@ function(df, kcases = F){
     
     ## Convert all lci, uci and se to zero when logrr is zero
     
-    df3[df3$logrr == 0,]$se <- df3[df3$logrr == 0,]$lci <- df3[df3$logrr == 0,]$uci <- 0
+    #df3[df3$logrr == 0,]$se <- df3[df3$logrr == 0,]$lci <- df3[df3$logrr == 0,]$uci <- 0
     
     df3
 }
@@ -183,6 +183,7 @@ function (pa, center1 = T, intercept1 = F, ptitle = NA)
                  col = "black", lty = "solid", log = "y", main = ptitle)
     )
     
+  
 }
 
 plotMetaAnalysis <-
