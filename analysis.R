@@ -64,8 +64,6 @@ strokefdata <- getDiseaseSpecificData(data, "stroke", paexposure = "LTPA", gende
 strokeffdata <- formatData(strokefdata, kcases = T)
 # Remove all rows with missing RR and Dose
 strokeffdata <- subset(strokeffdata, !is.na(rr) & !is.na(dose))
-# Temporarily remove study #63
-strokeffdata <- subset(strokeffdata, !(ref_number %in% c(63)))
 metaAnalysis(strokeffdata, ptitle = "Stroke - LTPA - Females")
 
 
@@ -90,8 +88,6 @@ strokefdata <- getDiseaseSpecificData(data, "stroke", paexposure = "TPA", gender
 strokeffdata <- formatData(strokefdata, kcases = T)
 # Remove all rows with missing RR and Dose
 strokeffdata <- subset(strokeffdata, !is.na(rr) & !is.na(dose))
-# Temporarily remove study #63
-strokeffdata <- subset(strokeffdata, !(ref_number %in% c(63)))
 metaAnalysis(strokeffdata, ptitle = "Stroke - TPA - Females")
 
 ## CHD
@@ -115,8 +111,6 @@ chdfdata <- getDiseaseSpecificData(data, "CHD", paexposure = "LTPA", gender = 2)
 chdffdata <- formatData(chdfdata, kcases = T)
 # Remove all rows with missing RR and Dose
 chdffdata <- subset(chdffdata, !is.na(rr) & !is.na(dose))
-# Temporarily remove study #63
-chdffdata <- subset(chdffdata, !(ref_number %in% c(63)))
 metaAnalysis(chdffdata, ptitle = "CHD - LTPA - Females")
 
 ## CVD
