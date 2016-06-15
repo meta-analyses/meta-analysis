@@ -26,6 +26,23 @@ acmfdata <- getDiseaseSpecificData(data, uoutcome$outcome[1], paexposure = "LTPA
 acmffdata <- formatData(acmfdata, kcases = T)
 metaAnalysis(acmffdata, ptitle = "All Cause Mortality - LTPA - Females")
 
+## ALL CAUSE MORTALITY - TPA
+
+# Overall All Cause Mortality
+acmdata <- getDiseaseSpecificData(data, uoutcome$outcome[1], paexposure = "TPA", overall1 = 1)
+acmfdata <- formatData(acmdata, kcases = T)
+metaAnalysis(acmfdata, ptitle = "All Cause Mortality - TPA - Total Population")
+
+# All Cause Mortality - Males
+acmmdata <- getDiseaseSpecificData(data, uoutcome$outcome[1], paexposure = "TPA", gender = 1)
+acmmfdata <- formatData(acmmdata, kcases = T)
+metaAnalysis(acmmfdata, ptitle = "All Cause Mortality - TPA - Males")
+
+# All Cause Mortality - Females
+acmfdata <- getDiseaseSpecificData(data, uoutcome$outcome[1], paexposure = "TPA", gender = 2)
+acmffdata <- formatData(acmfdata, kcases = T)
+metaAnalysis(acmffdata, ptitle = "All Cause Mortality - TPA - Females")
+
 ## STROKE
 
 # Overall Stroke
@@ -51,6 +68,31 @@ strokeffdata <- subset(strokeffdata, !is.na(rr) & !is.na(dose))
 strokeffdata <- subset(strokeffdata, !(ref_number %in% c(63)))
 metaAnalysis(strokeffdata, ptitle = "Stroke - LTPA - Females")
 
+
+## STROKE - TPA
+
+# Overall Stroke
+strokedata <- getDiseaseSpecificData(data, "stroke", paexposure = "TPA", overall1 = 1)
+strokefdata <- formatData(strokedata, kcases = T)
+# Remove all rows with missing RR and Dose
+strokefdata <- subset(strokefdata, !is.na(rr) & !is.na(dose))
+metaAnalysis(strokefdata, ptitle = "Stroke - TPA - Total Population")
+
+# Stroke Male
+strokemdata <- getDiseaseSpecificData(data, "stroke", paexposure = "TPA", gender = 1)
+strokemfdata <- formatData(strokemdata, kcases = T)
+# Remove all rows with missing RR and Dose
+strokemfdata <- subset(strokemfdata, !is.na(rr) & !is.na(dose))
+metaAnalysis(strokemfdata, ptitle = "Stroke - TPA - Males")
+
+# Stroke Female
+strokefdata <- getDiseaseSpecificData(data, "stroke", paexposure = "TPA", gender = 2)
+strokeffdata <- formatData(strokefdata, kcases = T)
+# Remove all rows with missing RR and Dose
+strokeffdata <- subset(strokeffdata, !is.na(rr) & !is.na(dose))
+# Temporarily remove study #63
+strokeffdata <- subset(strokeffdata, !(ref_number %in% c(63)))
+metaAnalysis(strokeffdata, ptitle = "Stroke - TPA - Females")
 
 ## CHD
 
