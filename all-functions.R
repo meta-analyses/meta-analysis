@@ -160,7 +160,7 @@ function(df, outcome1, paexposure, overall1, gender = NA){
     
 }
 metaAnalysis <-
-function (pa, center1 = T, intercept1 = F, ptitle = NA) 
+function (pa, center1 = T, intercept1 = F, ptitle = NA, returnval = F) 
 {
     library(dosresmeta)
     library(rms)
@@ -183,7 +183,9 @@ function (pa, center1 = T, intercept1 = F, ptitle = NA)
                  col = "black", lty = "solid", log = "y", main = ptitle)
     )
     
-  
+    if (returnval)
+      return(list(newdata$dose,cbind(pred_spl$pred, pred_spl$ci.lb, pred_spl$ci.ub)))
+    
 }
 
 plotMetaAnalysis <-
