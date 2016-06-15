@@ -171,6 +171,7 @@ function (pa, center1 = T, intercept1 = F, ptitle = NA)
                       # type = rep("ir", nrow(pa)), se = se, id = ref_number, 
                       center = center1, 
                       intercept = intercept1,
+                      covariance = "h",
                       data = pa)
     newdata <- data.frame(dose = seq(min(pa$dose), max(pa$dose), length.out = 100))
     pred_spl <- predict(spl, newdata, expo = T)
