@@ -74,6 +74,7 @@ strokedata <- getDiseaseSpecificData(data, "stroke", paexposure = "TPA", overall
 strokefdata <- formatData(strokedata, kcases = T)
 # Remove all rows with missing RR and Dose
 strokefdata <- subset(strokefdata, !is.na(rr) & !is.na(dose))
+strokefdata[strokefdata$logrr == 0,]$se <- strokefdata[strokefdata$logrr == 0,]$lci <- strokefdata[strokefdata$logrr == 0,]$uci <- 0
 metaAnalysis(strokefdata, ptitle = "Stroke - TPA - Total Population")
 
 # Stroke Male
@@ -88,6 +89,7 @@ strokefdata <- getDiseaseSpecificData(data, "stroke", paexposure = "TPA", gender
 strokeffdata <- formatData(strokefdata, kcases = T)
 # Remove all rows with missing RR and Dose
 strokeffdata <- subset(strokeffdata, !is.na(rr) & !is.na(dose))
+strokeffdata[strokeffdata$logrr == 0,]$se <- strokeffdata[strokeffdata$logrr == 0,]$lci <- strokeffdata[strokeffdata$logrr == 0,]$uci <- 0
 metaAnalysis(strokeffdata, ptitle = "Stroke - TPA - Females")
 
 ## CHD
