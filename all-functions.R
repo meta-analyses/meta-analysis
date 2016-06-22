@@ -9,8 +9,6 @@ formatData <-
     # MET.hr/wk_cat4	MET.hr/wk_cat5	MET.hr/wk_cat6	MET.hr/wk_cat7	MET.hr/wk_cat8	MET.hr/wk_cat9	MET.hr/wk_cat10	MMET.hr/wk_cat1	MMET.hr/wk_cat2	MMET.hr/wk_cat3	MMET.hr/wk_cat4	MMET.hr/wk_cat5	
     #MMET.hr/wk_cat6	MMET.hr/wk_cat7	MMET.hr/wk_cat8	MMET.hr/wk_cat9	MMET.hr/wk_cat10	tot_cases	cases1	cases2	cases3	cases4	cases5	cases6	cases7	cases8	cases9	cases10	personyrs1	personyrs2	personyrs3	personyrs4	personyrs5	personyrs6	personyrs7	personyrs8	personyrs9	personyrs10	totalpersons1	totalpersons2	totalpersons3	totalpersons4	totalpersons5	totalpersons6	totalpersons7	totalpersons8	totalpersons9	totalpersons10	effect_measure	adjustments	effect1	lci_effect1	uci_effect1	effect2	lci_effect2	uci_effect2	effect3	lci_effect3	uci_effect3	effect4	lci_effect4	uci_effect4	effect5	lci_effect5	uci_effect5	effect6	lci_effect6	uci_effect6	effect7	lci_effect7	uci_effect7	effect8	lci_effect8	uci_effect8	effect9	lci_effect9	uci_effect9	effect10	lci_effect10	uci_effect10	adjustments1	effect1_adj1	lci_effect1_adj1	uci_effect1_adj1	effect2_adj1	lci_effect2_adj1	uci_effect2_adj1	effect3_adj1	lci_effect3_adj1	uci_effect3_adj1	effect4_adj1	lci_effect4_adj1	uci_effect4_adj1	effect5_adj1	lci_effect5_adj1	uci_effect5_adj1	effect6_adj1	lci_effect6_adj1	uci_effect6_adj1	effect7_adj1	lci_effect7_adj1	uci_effect7_adj1	effect8_adj1	lci_effect8_adj1	uci_effect8_adj1	effect9_adj1	lci_effect9_adj1	uci_effect9_adj1	effect10_adj1	lci_effect10_adj1	uci_effect10_adj1	METhday	obs	EM						
     
-    cnames <- c("study", "outcome")
-    #df1 <- df[,(grep("id|outcome|^totalper|^person|^MMET.hr|^effect|^cases|^lci_e|^uci_e", names(df), value = T))]
     df3 <- NULL
     for (i in 1:nrow(df)){
       
@@ -81,13 +79,9 @@ formatData <-
         df3 <- rbind(df3, df2)
       }
     }
-    
     if (kcases)
       df3 <- subset(df3, !is.na(cases))
-    
-    
-    
-    
+
     # convert effect_measure into a character column
     df3$effect_measure <- as.character(df3$effect_measure)
     df3$effect_measure <- tolower(df3$effect_measure)
@@ -95,7 +89,6 @@ formatData <-
     lookup <- data.frame(code = c("or", "rr", "hr"), val = c("ir", "ir" ,"ci"))
     df3$type <- lookup$val[match(df3$effect_measure, lookup$code)]
     df3$type <- as.character(df3$type)
-    
     
     df3[df3$effect_measure == "rr" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$totalpersons <-
       df3[df3$effect_measure == "rr" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$personyears /
@@ -113,14 +106,14 @@ formatData <-
     
     
     #df3$n <- with(df3,ifelse(is.na(personyears),totalpersons,personyears))
-    
-    
+
     ## Convert all lci, uci and se to zero when logrr is zero
     
     #df3[df3$logrr == 0,]$se <- df3[df3$logrr == 0,]$lci <- df3[df3$logrr == 0,]$uci <- 0
     
     df3
   }
+
 getDataSorted <-
   function(df){
     
@@ -188,7 +181,7 @@ metaAnalysis <-
     k <- quantile(pa$dose, c(.1, .5, .9))
     spl <- NULL
     if (covMethed){
-      spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = n, 
+      spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = ifelse(effect_measure == "rr", totalpersons, personyears),
                         type = type, se = se, id = ref_number, 
                         center = center1, 
                         intercept = intercept1,
@@ -196,7 +189,7 @@ metaAnalysis <-
                         data = pa)
     }
     else{
-      spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = n, 
+      spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = ifelse(effect_measure == "rr", totalpersons, personyears), 
                         type = type, se = se, id = ref_number, 
                         center = center1, 
                         intercept = intercept1,
