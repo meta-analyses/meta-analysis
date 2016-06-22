@@ -22,7 +22,7 @@ formatData <-
       sex_subgroups <- rep(df[i,"sex_subgroups"], 10)
       overall <- rep(df[i,"overall"], 10)
       outcome <- rep(df[i,"outcome"], 10)
-      
+      follow_up <- rep(df[i,"mean_followup"], 10)
       tp <- (t(df[i,(grep("^totalper", names(df), value = T))]))
       tp <- gsub(",","",tp)
       
@@ -60,8 +60,8 @@ formatData <-
         uci <- t(df[i,(grep("^uci_effect[0-9]{,2}$", names(df), value = T))])
       }
       
-      df2 <- as.data.frame(qpcR:::cbind.na(ref_number, study, authors, outcome, em, sex_subgroups, overall, tp, py, dose, rr, cases, lci, uci))
-      colnames(df2) <- c("ref_number", "study", "authors", "outcome" , "effect_measure", "sex_subgroups", "overall", "totalpersons", "personyears", "dose", "rr", "cases", "lci", "uci")
+      df2 <- as.data.frame(qpcR:::cbind.na(ref_number, study, authors, outcome, em, follow_up, sex_subgroups, overall, tp, py, dose, rr, cases, lci, uci))
+      colnames(df2) <- c("ref_number", "study", "authors", "outcome" , "effect_measure", "follow_up", "sex_subgroups", "overall", "totalpersons", "personyears", "dose", "rr", "cases", "lci", "uci")
       row.names(df2) <- NULL
       
       df2[,1] <- as.numeric.factor(df2[,1])
@@ -85,7 +85,8 @@ formatData <-
     if (kcases)
       df3 <- subset(df3, !is.na(cases))
     
-    df3$n <- with(df3,ifelse(is.na(personyears),totalpersons,personyears))
+    
+    
     
     # convert effect_measure into a character column
     df3$effect_measure <- as.character(df3$effect_measure)
@@ -94,6 +95,25 @@ formatData <-
     lookup <- data.frame(code = c("or", "rr", "hr"), val = c("ir", "ir" ,"ci"))
     df3$type <- lookup$val[match(df3$effect_measure, lookup$code)]
     df3$type <- as.character(df3$type)
+    
+    
+    df3[df3$effect_measure == "rr" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$totalpersons <-
+      df3[df3$effect_measure == "rr" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$personyears /
+      df3[df3$effect_measure == "rr" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$follow_up
+    
+    
+    df3[df3$effect_measure == "hr" & (is.na(df3$personyears) |  df3$personyears == 0) ,]$personyears <-
+      df3[df3$effect_measure == "hr" & (is.na(df3$personyears) |  df3$personyears == 0) ,]$totalpersons *
+      df3[df3$effect_measure == "hr" & (is.na(df3$personyears) |  df3$personyears == 0) ,]$follow_up
+    
+    
+    df3[df3$effect_measure == "or" & (is.na(df3$personyears) |  df3$personyears == 0) ,]$personyears <-
+      df3[df3$effect_measure == "or" & (is.na(df3$personyears) |  df3$personyears == 0) ,]$totalpersons *
+      df3[df3$effect_measure == "or" & (is.na(df3$personyears) |  df3$personyears == 0) ,]$follow_up
+    
+    
+    df3$n <- with(df3,ifelse(is.na(personyears),totalpersons,personyears))
+    
     
     ## Convert all lci, uci and se to zero when logrr is zero
     
