@@ -112,7 +112,7 @@ formatData <-
       df3[df3$effect_measure == "or" & (is.na(df3$personyears) |  df3$personyears == 0) ,]$follow_up
     
     
-    df3$n <- with(df3,ifelse(is.na(personyears),totalpersons,personyears))
+    #df3$n <- with(df3,ifelse(is.na(personyears),totalpersons,personyears))
     
     
     ## Convert all lci, uci and se to zero when logrr is zero
