@@ -135,7 +135,7 @@ chdfdata <- formatData(chddata, kcases = T)
 chdfdata <- subset(chdfdata, !is.na(rr) & !is.na(dose))
 # Force SE, LCI and UCI to be zero when logrr is zero
 chdfdata[chdfdata$logrr == 0,]$se <- chdfdata[chdfdata$logrr == 0,]$lci <- chdfdata[chdfdata$logrr == 0,]$uci <- 0
-metaAnalysis(chdfdata, ptitle = "CHD - LTPA - Total Population")
+metaAnalysis(chdfdata, ptitle = "CHD - TPA - Total Population")
 
 # CHD MALE
 chdmdata <- getDiseaseSpecificData(data, "CHD", paexposure = "TPA", gender = 1)
@@ -144,7 +144,7 @@ chdmfdata <- formatData(chdmdata, kcases = T)
 chdmfdata <- subset(chdmfdata, !is.na(rr) & !is.na(dose))
 # Force SE, LCI and UCI to be zero when logrr is zero
 # chdmfdata[chdmfdata$logrr == 0,]$se <- chdmfdata[chdmfdata$logrr == 0,]$lci <- chdmfdata[chdmfdata$logrr == 0,]$uci <- 0
-metaAnalysis(chdmfdata, ptitle = "CHD - LTPA - Males")
+metaAnalysis(chdmfdata, ptitle = "CHD - TPA - Males")
 
 # CHD FEMALE
 chdfdata <- getDiseaseSpecificData(data, "CHD", paexposure = "TPA", gender = 2)
@@ -190,19 +190,18 @@ cvdfdata <- formatData(cvddata, kcases = T)
 cvdfdata <- subset(cvdfdata, !is.na(rr) & !is.na(dose))
 # Remove study # 54 as it does not have either personyears or totalpersons in the data
 cvdfdata <- subset(cvdfdata, ! (ref_number  %in% 54))
-metaAnalysis(cvdfdata, ptitle = "CVD - LTPA - Total Population", covMethed = T)
+metaAnalysis(cvdfdata, ptitle = "CVD - TPA - Total Population", covMethed = T)
 
 # CVD MALE
 cvdmdata <- getDiseaseSpecificData(data, "CVD", paexposure = "TPA", gender = 1)
 cvdmfdata <- formatData(cvdmdata, kcases = T)
 # Remove all rows with missing RR and Dose
 cvdmfdata <- subset(cvdmfdata, !is.na(rr) & !is.na(dose))
-metaAnalysis(cvdmfdata, ptitle = "CVD - LTPA - Males", covMethed = T)
+metaAnalysis(cvdmfdata, ptitle = "CVD - TPA - Males", covMethed = T)
 
 # CVD FEMALE
 cvdfdata <- getDiseaseSpecificData(data, "CVD", paexposure = "TPA", gender = 2)
 cvdffdata <- formatData(cvdfdata, kcases = T)
 # Remove all rows with missing RR and Dose
 cvdffdata <- subset(cvdffdata, !is.na(rr) & !is.na(dose))
-metaAnalysis(cvdffdata, ptitle = "CVD - LTPA - Females", covMethed = T)
-
+metaAnalysis(cvdffdata, ptitle = "CVD - TPA - Females", covMethed = T)
