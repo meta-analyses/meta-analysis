@@ -28,9 +28,8 @@ formatData <-
       py <- gsub(",","",py)
       # !is.na(trimws(df[i, "adjustments1"])) || 
       if (trimws(df[i, "adjustments1"]) != "" ) {
-        #cat("With adjustmetns: ", df[i,"study"], "\n")
-        #cat("val: ", df[i, "adjustments1"], "\n")
-        dose <- (t(df[i,(grep("^Alt_MMET.hr", names(df), value = T))]))
+        # Temporarily reading MMETs instead of alternate MMETs
+        dose <- (t(df[i,(grep("^MMET.hr", names(df), value = T))]))
         dose <- gsub(",","",dose)
         
         rr <- t(df[i,(grep("^effect[0-9]{,2}_adj", names(df), value = T))])
