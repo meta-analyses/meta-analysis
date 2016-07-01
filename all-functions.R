@@ -90,20 +90,18 @@ formatData <-
     df3$type <- lookup$val[match(df3$effect_measure, lookup$code)]
     df3$type <- as.character(df3$type)
     
-    df3[df3$effect_measure == "rr" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$totalpersons <-
+    df3[df3$effect_measure == "rr" & (is.na(df3$totalpersons) | df3$totalpersons == 0) ,]$totalpersons <-
       df3[df3$effect_measure == "rr" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$personyears /
       df3[df3$effect_measure == "rr" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$follow_up
     
     
-    df3[df3$effect_measure == "hr" & (is.na(df3$personyears) |  df3$personyears == 0) ,]$personyears <-
+    df3[df3$effect_measure == "hr" & (is.na(df3$personyears) | df3$personyears == 0) ,]$personyears <-
       df3[df3$effect_measure == "hr" & (is.na(df3$personyears) |  df3$personyears == 0) ,]$totalpersons *
       df3[df3$effect_measure == "hr" & (is.na(df3$personyears) |  df3$personyears == 0) ,]$follow_up
     
-    
-    df3[df3$effect_measure == "or" & (is.na(df3$personyears) |  df3$personyears == 0) ,]$personyears <-
-      df3[df3$effect_measure == "or" & (is.na(df3$personyears) |  df3$personyears == 0) ,]$totalpersons *
-      df3[df3$effect_measure == "or" & (is.na(df3$personyears) |  df3$personyears == 0) ,]$follow_up
-    
+    df3[df3$effect_measure == "or" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$totalpersons <-
+      df3[df3$effect_measure == "or" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$personyears /
+      df3[df3$effect_measure == "or" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$follow_up
     
     #df3$n <- with(df3,ifelse(is.na(personyears),totalpersons,personyears))
 
@@ -181,7 +179,7 @@ metaAnalysis <-
     k <- quantile(pa$dose, c(.1, .5, .9))
     spl <- NULL
     if (covMethed){
-      spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = ifelse(effect_measure == "rr", totalpersons, personyears),
+      spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = ifelse(effect_measure == "hr", personyears, totalpersons),
                         type = type, se = se, id = ref_number, 
                         center = center1, 
                         intercept = intercept1,
@@ -189,7 +187,7 @@ metaAnalysis <-
                         data = pa)
     }
     else{
-      spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = ifelse(effect_measure == "rr", totalpersons, personyears), 
+      spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = ifelse(effect_measure == "hr", personyears, totalpersons), 
                         type = type, se = se, id = ref_number, 
                         center = center1, 
                         intercept = intercept1,
