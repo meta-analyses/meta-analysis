@@ -7,8 +7,7 @@ data[(is.na(data$tot_personyrs)),]$tot_personyrs <-
   data[(is.na(data$tot_personyrs)),]$mean_followup * data[(is.na(data$tot_personyrs)),]$n_baseline
 data[(is.na(data$mean_followup)),]$mean_followup <- 
   data[(is.na(data$mean_followup)),]$tot_personyrs / data[(is.na(data$mean_followup)),]$n_baseline
-data[(is.na(data$mean_followup)),]$mean_followup <- 
-  data[(is.na(data$mean_followup)),]$tot_personyrs / data[(is.na(data$mean_followup)),]$n_baseline
+
 # Read all the functions
 source("all-functions.R")
 
