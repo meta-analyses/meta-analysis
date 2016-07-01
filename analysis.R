@@ -82,6 +82,7 @@ strokedata <- getDiseaseSpecificData(data, "stroke", paexposure = "TPA", overall
 strokefdata <- formatData(strokedata, kcases = T)
 # Remove all rows with missing RR and Dose
 strokefdata <- subset(strokefdata, !is.na(rr) & !is.na(dose))
+# Force SE, LCI and UCI to be zero when logrr is zero
 strokefdata[strokefdata$logrr == 0,]$se <- strokefdata[strokefdata$logrr == 0,]$lci <- strokefdata[strokefdata$logrr == 0,]$uci <- 0
 metaAnalysis(strokefdata, ptitle = "Stroke - TPA - Total Population")
 
@@ -101,6 +102,7 @@ strokeffdata[strokeffdata$logrr == 0,]$se <- strokeffdata[strokeffdata$logrr == 
 metaAnalysis(strokeffdata, ptitle = "Stroke - TPA - Females")
 
 ## CHD
+# LTPA
 
 # Overall CHD
 chddata <- getDiseaseSpecificData(data, "CHD", paexposure = "LTPA", overall1 = 1)
@@ -122,6 +124,37 @@ chdffdata <- formatData(chdfdata, kcases = T)
 # Remove all rows with missing RR and Dose
 chdffdata <- subset(chdffdata, !is.na(rr) & !is.na(dose))
 metaAnalysis(chdffdata, ptitle = "CHD - LTPA - Females", covMethed = T)
+
+
+# TPA
+
+# Overall CHD
+chddata <- getDiseaseSpecificData(data, "CHD", paexposure = "TPA", overall1 = 1)
+chdfdata <- formatData(chddata, kcases = T)
+# Remove all rows with missing RR and Dose
+chdfdata <- subset(chdfdata, !is.na(rr) & !is.na(dose))
+# Force SE, LCI and UCI to be zero when logrr is zero
+chdfdata[chdfdata$logrr == 0,]$se <- chdfdata[chdfdata$logrr == 0,]$lci <- chdfdata[chdfdata$logrr == 0,]$uci <- 0
+metaAnalysis(chdfdata, ptitle = "CHD - LTPA - Total Population")
+
+# CHD MALE
+chdmdata <- getDiseaseSpecificData(data, "CHD", paexposure = "TPA", gender = 1)
+chdmfdata <- formatData(chdmdata, kcases = T)
+# Remove all rows with missing RR and Dose
+chdmfdata <- subset(chdmfdata, !is.na(rr) & !is.na(dose))
+# Force SE, LCI and UCI to be zero when logrr is zero
+# chdmfdata[chdmfdata$logrr == 0,]$se <- chdmfdata[chdmfdata$logrr == 0,]$lci <- chdmfdata[chdmfdata$logrr == 0,]$uci <- 0
+metaAnalysis(chdmfdata, ptitle = "CHD - LTPA - Males")
+
+# CHD FEMALE
+chdfdata <- getDiseaseSpecificData(data, "CHD", paexposure = "TPA", gender = 2)
+chdffdata <- formatData(chdfdata, kcases = T)
+# Remove all rows with missing RR and Dose
+chdffdata <- subset(chdffdata, !is.na(rr) & !is.na(dose))
+# Force SE, LCI and UCI to be zero when logrr is zero
+chdffdata[chdffdata$logrr == 0,]$se <- chdffdata[chdffdata$logrr == 0,]$lci <- chdffdata[chdffdata$logrr == 0,]$uci <- 0
+metaAnalysis(chdffdata, ptitle = "CHD - LTPA - Females")
+
 
 ## CVD
 
