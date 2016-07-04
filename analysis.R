@@ -13,6 +13,28 @@ source("all-functions.R")
 
 # Identify unique outcomes
 uoutcome <- data.frame(outcome = as.character(unique(data$outcome)))
+uoutcome$outcome <- as.character(uoutcome$outcome)
+
+for (i in 1:nrow(uoutcome)){
+  # if (! (i %in% c(3, 4, 8, 9, 10, 11, 12, 13, 14))){
+  if (! (i %in% c(12, 13))){
+    cat("Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
+    acmdata <- getDiseaseSpecificData(data, uoutcome$outcome[i], paexposure = "LTPA", overall1 = 1)
+    acmfdata <- formatData(acmdata, kcases = T)
+    # Remove all cases where both rr and dose are null
+    acmfdata <- subset(acmfdata, !is.na(rr) & !is.na(dose))
+    # Remove when totalperson is not available for hr, and personsyears for rr/or
+    acmfdata <- subset(acmfdata, !((effect_measure == "hr" & (is.na(personyears) | personyears == 0) ) | 
+                                      (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
+    # Remove outcome specific studies
+    if (i == 9){
+      # Remove studies 40 and 95
+      acmfdata <- subset(acmfdata, !(ref_number %in% c(40, 95)))
+    }
+    metaAnalysis(acmfdata, ptitle = paste( uoutcome$outcome[i], " LTPA - Total Population"), covMethed = T)
+  }
+
+}
 
 
 ## ALL CAUSE MORTALITY
