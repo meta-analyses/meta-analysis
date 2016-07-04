@@ -84,7 +84,9 @@ strokefdata <- formatData(strokedata, kcases = T)
 strokefdata <- subset(strokefdata, !is.na(rr) & !is.na(dose))
 # Force SE, LCI and UCI to be zero when logrr is zero
 strokefdata[strokefdata$logrr == 0,]$se <- strokefdata[strokefdata$logrr == 0,]$lci <- strokefdata[strokefdata$logrr == 0,]$uci <- 0
-metaAnalysis(strokefdata, ptitle = "Stroke - TPA - Total Population")
+# Remove study # 140 as it does not have either person years or total persons
+strokefdata <- subset(strokefdata, !(ref_number %in% 140))
+metaAnalysis(strokefdata, ptitle = "Stroke - TPA - Total Population", covMethed = T)
 
 # Stroke Male
 strokemdata <- getDiseaseSpecificData(data, "stroke", paexposure = "TPA", gender = 1)
@@ -99,6 +101,8 @@ strokeffdata <- formatData(strokefdata, kcases = T)
 # Remove all rows with missing RR and Dose
 strokeffdata <- subset(strokeffdata, !is.na(rr) & !is.na(dose))
 strokeffdata[strokeffdata$logrr == 0,]$se <- strokeffdata[strokeffdata$logrr == 0,]$lci <- strokeffdata[strokeffdata$logrr == 0,]$uci <- 0
+# Remove study # 140 as it does not have either person years or total persons
+strokeffdata <- subset(strokeffdata, !(ref_number %in% 140))
 metaAnalysis(strokeffdata, ptitle = "Stroke - TPA - Females")
 
 ## CHD
