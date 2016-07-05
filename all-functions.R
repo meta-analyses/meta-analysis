@@ -27,6 +27,10 @@ formatData <-
       py <- t(df[i,(grep("^person", names(df), value = T))])
       py <- gsub(",","",py)
       # !is.na(trimws(df[i, "adjustments1"])) || 
+      
+      cases <- t(df[i,(grep("^cases", names(df), value = T))])
+      cases <- gsub(",","",cases)
+      
       if (trimws(df[i, "adjustments1"]) != "" ) {
         # Temporarily reading MMETs instead of alternate MMETs
         dose <- (t(df[i,(grep("^MMET.hr", names(df), value = T))]))
@@ -34,9 +38,6 @@ formatData <-
         
         rr <- t(df[i,(grep("^effect[0-9]{,2}_adj", names(df), value = T))])
         rr <- gsub(",","",rr)
-        
-        cases <- t(df[i,(grep("^cases", names(df), value = T))])
-        cases <- gsub(",","",cases)
         
         lci <- t(df[i,(grep("^lci_effect[0-9]{,2}_adj", names(df), value = T))])
         uci <- t(df[i,(grep("^uci_effect[0-9]{,2}_adj", names(df), value = T))])
@@ -49,9 +50,6 @@ formatData <-
         
         rr <- t(df[i,(grep("^effect[0-9]{,2}$", names(df), value = T))])
         rr <- gsub(",","",rr)
-        
-        cases <- t(df[i,(grep("^cases", names(df), value = T))])
-        cases <- gsub(",","",cases)
         
         lci <- t(df[i,(grep("^lci_effect[0-9]{,2}$", names(df), value = T))])
         uci <- t(df[i,(grep("^uci_effect[0-9]{,2}$", names(df), value = T))])
@@ -101,6 +99,8 @@ formatData <-
     df3[df3$effect_measure == "or" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$totalpersons <-
       df3[df3$effect_measure == "or" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$personyears /
       df3[df3$effect_measure == "or" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$follow_up
+    
+    
     
     #df3$n <- with(df3,ifelse(is.na(personyears),totalpersons,personyears))
 
@@ -197,11 +197,14 @@ metaAnalysis <-
     pred_spl <- predict(spl, newdata, expo = T)
     #pred_spl <- predict(spl, newdata, expo = T, xref = 0)
     #windows()
+    png(filename=paste0("data/", trimws(ptitle), ".png"))
+    write.csv(pa, file = paste0("data/", trimws(ptitle), ".csv"), row.names = F)
     with(pred_spl,
          matplot(newdata$dose, cbind(pred, ci.lb, ci.ub), type = "l", bty = "n",
                  xlab = "Dose", ylab = "Relative Risk", las = 1, 
                  col = "black", lty = "solid", log = "y", main = ptitle)
     )
+    dev.off()
     
     if (returnval)
       return(list(newdata$dose,cbind(pred_spl$pred, pred_spl$ci.lb, pred_spl$ci.ub)))
