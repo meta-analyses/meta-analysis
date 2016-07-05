@@ -20,43 +20,45 @@ uoutcome$outcome <- as.character(uoutcome$outcome)
 for (i in 1:nrow(uoutcome)){
   # if (! (i %in% c(3, 4, 8, 9, 10, 11, 12, 13, 14))){
   # if (! (i %in% c(12, 13))){
-    # i = 13
-    cat("Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
-    acmdata <- getDiseaseSpecificData(data, uoutcome$outcome[i], paexposure = "LTPA", overall1 = 1)
-    acmfdata <- formatData(acmdata, kcases = T)
-    # Remove all cases where both rr and dose are null
-    acmfdata <- subset(acmfdata, !is.na(rr) & !is.na(dose))
-    # Remove when totalperson is not available for hr, and personsyears for rr/or
-    acmfdata <- subset(acmfdata, !((effect_measure == "hr" & (is.na(personyears) | personyears == 0) ) | 
-                                      (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
-    # Remove outcome specific studies
-    if (i == 9){
-      # Remove studies 40 and 95
-      acmfdata <- subset(acmfdata, !(ref_number %in% c(40, 95)))
-    }
-    metaAnalysis(acmfdata, ptitle = paste( uoutcome$outcome[i], " LTPA - Total Population"), covMethed = T)
+  # i = 13
+  cat("Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
+  acmdata <- getDiseaseSpecificData(data, uoutcome$outcome[i], paexposure = "LTPA", overall1 = 1)
+  acmfdata <- formatData(acmdata, kcases = T)
+  # Remove all cases where both rr and dose are null
+  acmfdata <- subset(acmfdata, !is.na(rr) & !is.na(dose))
+  # Remove when totalperson is not available for hr, and personsyears for rr/or
+  acmfdata <- subset(acmfdata, !((effect_measure == "hr" & (is.na(personyears) | personyears == 0) ) | 
+                                   (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
+  # Remove outcome specific studies
+  if (i == 9){
+    # Remove studies 40 and 95
+    acmfdata <- subset(acmfdata, !(ref_number %in% c(40, 95)))
+  }
+  metaAnalysis(acmfdata, ptitle = paste( uoutcome$outcome[i], " LTPA - Total Population"), covMethed = T)
   # }
-
+  
 }
 
-
 for (i in 1:nrow(uoutcome)){
-  if (! (i %in% c(4, 8, 9, 10, 12, 13))){
-    cat("Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
-    acmdata <- getDiseaseSpecificData(data, uoutcome$outcome[i], paexposure = "LTPA", gender = 1)
-    acmdata <- acmdata[!duplicated(acmdata$ref_number),]
-    acmfdata <- formatData(acmdata, kcases = T)
+  # if (! (i %in% c(4, 8, 9, 10, 12, 13))){
+  # i = 8
+  cat("Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
+  acmdata <- getDiseaseSpecificData(data, uoutcome$outcome[i], paexposure = "LTPA", gender = 1)
+  acmdata <- acmdata[!duplicated(acmdata$ref_number),]
+  if (nrow(acmdata) > 0){
+    acmfdata <- formatData(acmdata, kcases = T)  
     # Remove all cases where both rr and dose are null
     acmfdata <- subset(acmfdata, !is.na(rr) & !is.na(dose))
     # Remove when totalperson is not available for hr, and personsyears for rr/or
     acmfdata <- subset(acmfdata, !((effect_measure == "hr" & (is.na(personyears) | personyears == 0) ) | 
                                      (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
-    metaAnalysis(acmfdata, ptitle = paste( uoutcome$outcome[i], " LTPA - Male Population"), covMethed = T)
+    if (nrow(acmfdata) > 0)
+      metaAnalysis(acmfdata, ptitle = paste( uoutcome$outcome[i], " LTPA - Male Population"), covMethed = T)
   }
 }
 
 for (i in 1:nrow(uoutcome)){
-  if (! (i %in% c(4, 8, 9, 10, 12, 13))){
+  # if (! (i %in% c(4, 8, 9, 10, 12, 13))){
     cat("Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
     acmdata <- getDiseaseSpecificData(data, uoutcome$outcome[i], paexposure = "LTPA", gender = 2)
     acmdata <- acmdata[!duplicated(acmdata$ref_number),]
@@ -66,12 +68,16 @@ for (i in 1:nrow(uoutcome)){
     # Remove when totalperson is not available for hr, and personsyears for rr/or
     acmfdata <- subset(acmfdata, !((effect_measure == "hr" & (is.na(personyears) | personyears == 0) ) | 
                                      (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
+    if (i == 9){
+      # Remove studies 40 and 95
+      acmfdata <- subset(acmfdata, !(ref_number %in% c(40, 95)))
+    }
     metaAnalysis(acmfdata, ptitle = paste( uoutcome$outcome[i], " LTPA - Female Population"), covMethed = T)
-  }
+  # }
 }
 
 for (i in 1:nrow(uoutcome)){
-   if (! (i %in% c(4, 7, 8, 12, 13))){
+  if (! (i %in% c(4, 7, 8, 12, 13))){
     cat("Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
     acmdata <- getDiseaseSpecificData(data, uoutcome$outcome[i], paexposure = "TPA", overall1 = 1)
     acmfdata <- formatData(acmdata, kcases = T)
@@ -83,11 +89,11 @@ for (i in 1:nrow(uoutcome)){
     if (i %in% c(5, 6))
       acmfdata[acmfdata$logrr == 0,]$se <- acmfdata[acmfdata$logrr == 0,]$lci <- acmfdata[acmfdata$logrr == 0,]$uci <- 0
     metaAnalysis(acmfdata, ptitle = paste( uoutcome$outcome[i], " LTPA - Total Population"), covMethed = T)
-   }
+  }
 }
 
 for (i in 1:nrow(uoutcome)){
-   if (! (i %in% c(4, 7, 8, 9, 10, 12, 13))){
+  if (! (i %in% c(4, 7, 8, 9, 10, 12, 13))){
     cat("Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
     acmdata <- getDiseaseSpecificData(data, uoutcome$outcome[i], paexposure = "TPA", gender = 1)
     acmfdata <- formatData(acmdata, kcases = T)
