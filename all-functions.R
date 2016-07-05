@@ -23,14 +23,24 @@ formatData <-
       follow_up <- rep(df[i,"mean_followup"], 10)
       tp <- (t(df[i,(grep("^totalper", names(df), value = T))]))
       tp <- gsub(",","",tp)
+      tot_tp <- sum(as.integer(tp), na.rm = T)
+      
       
       py <- t(df[i,(grep("^person", names(df), value = T))])
       py <- gsub(",","",py)
+      tot_py <- sum(as.integer(py), na.rm = T)
+      
       # !is.na(trimws(df[i, "adjustments1"])) || 
       
       cases <- t(df[i,(grep("^cases", names(df), value = T))])
       cases <- gsub(",","",cases)
+      tot_cases <- sum(as.integer(cases), na.rm = T)
       
+      if (tot_py == 0 && tot_py == 0){
+        n_b <- as.integer(df[i,"n_baseline"])
+        tp <- round(as.integer(cases) / tot_cases * as.integer(n_b))
+      }
+
       if (trimws(df[i, "adjustments1"]) != "" ) {
         # Temporarily reading MMETs instead of alternate MMETs
         dose <- (t(df[i,(grep("^MMET.hr", names(df), value = T))]))
@@ -197,14 +207,14 @@ metaAnalysis <-
     pred_spl <- predict(spl, newdata, expo = T)
     #pred_spl <- predict(spl, newdata, expo = T, xref = 0)
     #windows()
-    png(filename=paste0("data/", trimws(ptitle), ".png"))
-    write.csv(pa, file = paste0("data/", trimws(ptitle), ".csv"), row.names = F)
+    #png(filename=paste0("data/", trimws(ptitle), ".png"))
+    #write.csv(pa, file = paste0("data/", trimws(ptitle), ".csv"), row.names = F)
     with(pred_spl,
          matplot(newdata$dose, cbind(pred, ci.lb, ci.ub), type = "l", bty = "n",
                  xlab = "Dose", ylab = "Relative Risk", las = 1, 
                  col = "black", lty = "solid", log = "y", main = ptitle)
     )
-    dev.off()
+    #dev.off()
     
     if (returnval)
       return(list(newdata$dose,cbind(pred_spl$pred, pred_spl$ci.lb, pred_spl$ci.ub)))
