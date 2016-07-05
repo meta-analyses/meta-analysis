@@ -20,7 +20,7 @@ uoutcome$outcome <- as.character(uoutcome$outcome)
 for (i in 1:nrow(uoutcome)){
   # if (! (i %in% c(3, 4, 8, 9, 10, 11, 12, 13, 14))){
   if (! (i %in% c(12, 13))){
-    i = 12
+    # i = 12
     cat("Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
     acmdata <- getDiseaseSpecificData(data, uoutcome$outcome[i], paexposure = "LTPA", overall1 = 1)
     acmfdata <- formatData(acmdata, kcases = T)
