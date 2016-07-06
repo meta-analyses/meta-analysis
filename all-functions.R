@@ -38,13 +38,20 @@ formatData <-
       
       if (tot_py == 0 && tot_py == 0){
         n_b <- as.integer(df[i,"n_baseline"])
-        tp <- round(as.integer(cases) / tot_cases * as.integer(n_b))
+        tp <- round( (as.integer(cases) / tot_cases) * as.integer(n_b))
       }
 
       if (trimws(df[i, "adjustments1"]) != "" ) {
-        # Temporarily reading MMETs instead of alternate MMETs
-        dose <- (t(df[i,(grep("^MMET.hr", names(df), value = T))]))
+        
+        dose <- (t(df[i,(grep("^Alt_MMET.hr", names(df), value = T))]))
         dose <- gsub(",","",dose)
+        tot_dose <- sum(as.integer(dose), na.rm = T)
+        
+        if (tot_dose == 0){
+          cat("Study: ", df[i,"ref_number"] , "\n")
+          dose <- (t(df[i,(grep("^MMET.hr", names(df), value = T))]))
+          dose <- gsub(",","",dose)
+        }
         
         rr <- t(df[i,(grep("^effect[0-9]{,2}_adj", names(df), value = T))])
         rr <- gsub(",","",rr)
