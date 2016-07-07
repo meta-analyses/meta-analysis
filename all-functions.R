@@ -8,14 +8,14 @@ formatData <-
     #smoking_def	mean_followup	sd_followup	tot_personyrs	outcome	outcome_def	pa_tool	pa_unit	pa_cat_def	pa_cat1	pa_cat2	pa_cat3	pa_cat4	pa_cat5	MET.hr/wk_cat1	MET.hr/wk_cat2	MET.hr/wk_cat3	
     # MET.hr/wk_cat4	MET.hr/wk_cat5	MET.hr/wk_cat6	MET.hr/wk_cat7	MET.hr/wk_cat8	MET.hr/wk_cat9	MET.hr/wk_cat10	MMET.hr/wk_cat1	MMET.hr/wk_cat2	MMET.hr/wk_cat3	MMET.hr/wk_cat4	MMET.hr/wk_cat5	
     #MMET.hr/wk_cat6	MMET.hr/wk_cat7	MMET.hr/wk_cat8	MMET.hr/wk_cat9	MMET.hr/wk_cat10	tot_cases	cases1	cases2	cases3	cases4	cases5	cases6	cases7	cases8	cases9	cases10	personyrs1	personyrs2	personyrs3	personyrs4	personyrs5	personyrs6	personyrs7	personyrs8	personyrs9	personyrs10	totalpersons1	totalpersons2	totalpersons3	totalpersons4	totalpersons5	totalpersons6	totalpersons7	totalpersons8	totalpersons9	totalpersons10	effect_measure	adjustments	effect1	lci_effect1	uci_effect1	effect2	lci_effect2	uci_effect2	effect3	lci_effect3	uci_effect3	effect4	lci_effect4	uci_effect4	effect5	lci_effect5	uci_effect5	effect6	lci_effect6	uci_effect6	effect7	lci_effect7	uci_effect7	effect8	lci_effect8	uci_effect8	effect9	lci_effect9	uci_effect9	effect10	lci_effect10	uci_effect10	adjustments1	effect1_adj1	lci_effect1_adj1	uci_effect1_adj1	effect2_adj1	lci_effect2_adj1	uci_effect2_adj1	effect3_adj1	lci_effect3_adj1	uci_effect3_adj1	effect4_adj1	lci_effect4_adj1	uci_effect4_adj1	effect5_adj1	lci_effect5_adj1	uci_effect5_adj1	effect6_adj1	lci_effect6_adj1	uci_effect6_adj1	effect7_adj1	lci_effect7_adj1	uci_effect7_adj1	effect8_adj1	lci_effect8_adj1	uci_effect8_adj1	effect9_adj1	lci_effect9_adj1	uci_effect9_adj1	effect10_adj1	lci_effect10_adj1	uci_effect10_adj1	METhday	obs	EM						
-    
+    # df <- acmdata
     df3 <- NULL
     for (i in 1:nrow(df)){
-      
       ref_number <- rep(df[i,"ref_number"], 10)
       study <- rep(df[i,"study"], 10)
       authors <- rep(df[i,"authors"], 10)
       em <- rep(df[i, "effect_measure"], 10)
+      type <- rep(df[i, "type"], 10)
       
       sex_subgroups <- rep(df[i,"sex_subgroups"], 10)
       overall <- rep(df[i,"overall"], 10)
@@ -34,51 +34,66 @@ formatData <-
       
       cases <- t(df[i,(grep("^cases", names(df), value = T))])
       cases <- gsub(",","",cases)
-      tot_cases <- sum(as.integer(cases), na.rm = T)
+      tot_cases <- as.integer(df[i,"tot_cases"])
+      if (tot_cases == 0)
+        tot_cases <- sum(as.integer(cases), na.rm = T)
       
       if (tot_py == 0 && tot_py == 0){
         n_b <- as.integer(df[i,"n_baseline"])
         tp <- round( (as.integer(cases) / tot_cases) * as.integer(n_b))
       }
+      
+      tot_given_cases <- as.integer(df[i,"tot_cases"])
 
-      if (trimws(df[i, "adjustments1"]) != "" ) {
-        
-        dose <- (t(df[i,(grep("^Alt_MMET.hr", names(df), value = T))]))
-        dose <- gsub(",","",dose)
-        tot_dose <- sum(as.integer(dose), na.rm = T)
-        
-        if (tot_dose == 0){
-          cat("Study: ", df[i,"ref_number"] , "\n")
-          dose <- (t(df[i,(grep("^MMET.hr", names(df), value = T))]))
-          dose <- gsub(",","",dose)
-        }
-        
-        rr <- t(df[i,(grep("^effect[0-9]{,2}_adj", names(df), value = T))])
-        rr <- gsub(",","",rr)
-        
-        lci <- t(df[i,(grep("^lci_effect[0-9]{,2}_adj", names(df), value = T))])
-        uci <- t(df[i,(grep("^uci_effect[0-9]{,2}_adj", names(df), value = T))])
-        
-      }else{
-        #cat("Without adjustmetns: ", df[i,"study"], "\n")
-        
-        dose <- (t(df[i,(grep("^MMET.hr", names(df), value = T))]))
-        dose <- gsub(",","",dose)
-        
-        rr <- t(df[i,(grep("^effect[0-9]{,2}$", names(df), value = T))])
-        rr <- gsub(",","",rr)
-        
-        lci <- t(df[i,(grep("^lci_effect[0-9]{,2}$", names(df), value = T))])
-        uci <- t(df[i,(grep("^uci_effect[0-9]{,2}$", names(df), value = T))])
+      if (sum(as.integer(cases), na.rm = T) == 0){
+        cases <- (tp * tot_given_cases) / as.integer(n_b)
       }
       
-      df2 <- as.data.frame(qpcR:::cbind.na(ref_number, study, authors, outcome, em, follow_up, sex_subgroups, overall, tp, py, dose, rr, cases, lci, uci))
-      colnames(df2) <- c("ref_number", "study", "authors", "outcome" , "effect_measure", "follow_up", "sex_subgroups", "overall", "totalpersons", "personyears", "dose", "rr", "cases", "lci", "uci")
+      dose <- (t(df[i,(grep("^Alt_MMET.hr", names(df), value = T))]))
+      dose <- gsub(",","",dose)
+      tot_dose <- sum(as.numeric(dose), na.rm = T)
+      
+      if (tot_dose == 0){
+        # cat("Study: ", df[i,"ref_number"] , "\n")
+        dose <- (t(df[i,(grep("^MMET.hr", names(df), value = T))]))
+        dose <- gsub(",","",dose)
+      }
+      
+      
+      rr <- t(df[i,(grep("^effect[0-9]{,2}_adj", names(df), value = T))])
+      rr <- gsub(",","",rr)
+      tot_rr <- sum(as.numeric(rr), na.rm = T)
+      
+      if (tot_rr == 0){
+        rr <- t(df[i,(grep("^effect[0-9]{,2}$", names(df), value = T))])
+        rr <- gsub(",","",rr)
+      }
+      
+      lci <- t(df[i,(grep("^lci_effect[0-9]{,2}_adj", names(df), value = T))])
+      lci <- gsub(",","",lci)
+      tot_lci <- sum(as.numeric(lci), na.rm = T)
+      
+      if (tot_lci == 0){
+        lci <- t(df[i,(grep("^lci_effect[0-9]{,2}$", names(df), value = T))])
+        lci <- gsub(",","",lci)  
+      }
+      
+      uci <- t(df[i,(grep("^uci_effect[0-9]{,2}_adj", names(df), value = T))])
+      uci <- gsub(",","",uci)
+      tot_uci <- sum(as.numeric(uci), na.rm = T)
+      
+      if (tot_uci == 0){
+        uci <- t(df[i,(grep("^uci_effect[0-9]{,2}$", names(df), value = T))])
+        uci <- gsub(",","",uci)
+      }
+      
+      df2 <- as.data.frame(qpcR:::cbind.na(ref_number, study, authors, outcome, em, type, follow_up, sex_subgroups, overall, tp, py, dose, rr, cases, lci, uci))
+      colnames(df2) <- c("ref_number", "study", "authors", "outcome" , "effect_measure", "type",  "follow_up", "sex_subgroups", "overall", "totalpersons", "personyears", "dose", "rr", "cases", "lci", "uci")
       row.names(df2) <- NULL
       
       df2[,1] <- as.numeric.factor(df2[,1])
       
-      for (j in 6:ncol(df2)){
+      for (j in 7:ncol(df2)){
         
         df2[,j] <- as.numeric.factor(df2[,j])
       }
@@ -95,7 +110,7 @@ formatData <-
     }
     if (kcases)
       df3 <- subset(df3, !is.na(cases))
-
+    
     # convert effect_measure into a character column
     df3$effect_measure <- as.character(df3$effect_measure)
     df3$effect_measure <- tolower(df3$effect_measure)
@@ -116,9 +131,7 @@ formatData <-
     df3[df3$effect_measure == "or" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$totalpersons <-
       df3[df3$effect_measure == "or" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$personyears /
       df3[df3$effect_measure == "or" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$follow_up
-    
-    
-    
+
     #df3$n <- with(df3,ifelse(is.na(personyears),totalpersons,personyears))
 
     ## Convert all lci, uci and se to zero when logrr is zero
