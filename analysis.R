@@ -41,7 +41,7 @@ uoutcome$outcome <- as.character(uoutcome$outcome)
 for (i in 1:nrow(uoutcome)){
   # if (! (i %in% c(3, 4, 8, 9, 10, 11, 12, 13, 14))){
   # if (! (i %in% c(12, 13))){
-  # i = 2
+  # i = 9
   cat("Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
   acmdata <- getDiseaseSpecificData(data, uoutcome$outcome[i], paexposure = "LTPA", overall1 = 1)
   acmfdata <- formatData(acmdata, kcases = T)
@@ -50,11 +50,11 @@ for (i in 1:nrow(uoutcome)){
   # Remove when totalperson is not available for hr, and personsyears for rr/or
   acmfdata <- subset(acmfdata, !((effect_measure == "hr" & (is.na(personyears) | personyears == 0) ) | 
                                    (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
-  # Remove outcome specific studies
-  if (i == 9){
-    # Remove studies 40 and 95
-    acmfdata <- subset(acmfdata, !(ref_number %in% c(40, 95)))
-  }
+#   # Remove outcome specific studies
+#   if (i == 9){
+#     # Remove studies 40 and 95
+#     acmfdata <- subset(acmfdata, !(ref_number %in% c(40, 95)))
+#   }
   metaAnalysis(acmfdata, ptitle = paste( uoutcome$outcome[i], " LTPA - Total Population"), covMethed = T)
   # }
   
@@ -77,7 +77,7 @@ for (i in 1:nrow(uoutcome)){
       #cat("Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
       metaAnalysis(acmfdata, ptitle = paste( uoutcome$outcome[i], " LTPA - Male Population"), covMethed = T)
     }else{
-      cat("Outcome: ", uoutcome$outcome[i], " and rows ", nrow(acmdata), "\n")
+      cat("LTPA - Male Population - Outcome: ", uoutcome$outcome[i], " and rows ", nrow(acmdata), "\n")
     }
   }
 }
@@ -94,10 +94,10 @@ for (i in 1:nrow(uoutcome)){
     # Remove when totalperson is not available for hr, and personsyears for rr/or
     acmfdata <- subset(acmfdata, !((effect_measure == "hr" & (is.na(personyears) | personyears == 0) ) | 
                                      (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
-    if (i == 9){
-      # Remove studies 40 and 95
-      acmfdata <- subset(acmfdata, !(ref_number %in% c(40, 95)))
-    }
+#     if (i == 9){
+#       # Remove studies 40 and 95
+#       acmfdata <- subset(acmfdata, !(ref_number %in% c(40, 95)))
+#     }
     metaAnalysis(acmfdata, ptitle = paste( uoutcome$outcome[i], " LTPA - Female Population"), covMethed = T)
   # }
 }
@@ -132,10 +132,13 @@ for (i in 1:nrow(uoutcome)){
     # Remove when totalperson is not available for hr, and personsyears for rr/or
     acmfdata <- subset(acmfdata, !((effect_measure == "hr" & (is.na(personyears) | personyears == 0) ) | 
                                      (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
-    if (i %in% c(5, 6))
-      acmfdata[acmfdata$logrr == 0,]$se <- acmfdata[acmfdata$logrr == 0,]$lci <- acmfdata[acmfdata$logrr == 0,]$uci <- 0
+    #if (i %in% c(5, 6))
+    #  acmfdata[acmfdata$logrr == 0,]$se <- acmfdata[acmfdata$logrr == 0,]$lci <- acmfdata[acmfdata$logrr == 0,]$uci <- 0
     if (nrow(acmfdata) > 0)
       metaAnalysis(acmfdata, ptitle = paste( uoutcome$outcome[i], " TPA - Male Population"), covMethed = T)
+    else
+      cat("TPA - Male Population - Outcome: ", uoutcome$outcome[i], " and rows ", nrow(acmdata), "\n")
+    
     }
 }
 
@@ -157,7 +160,8 @@ for (i in 1:nrow(uoutcome)){
       if (nrow(acmfdata) > 0){
         cat("Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
         metaAnalysis(acmfdata, ptitle = paste( uoutcome$outcome[i], " TPA - Female Population"), covMethed = T)
-      }
+      }else
+        cat("TPA - Female Population - Outcome: ", uoutcome$outcome[i], " and rows ", nrow(acmdata), "\n")
     }
   # }
 }
