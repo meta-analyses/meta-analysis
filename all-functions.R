@@ -35,7 +35,7 @@ formatData <-
       cases <- t(df[i,(grep("^cases", names(df), value = T))])
       cases <- gsub(",","",cases)
       tot_cases <- as.integer(df[i,"tot_cases"])
-      if (tot_cases == 0)
+      if (length(tot_cases) == 0 || is.na(tot_cases) || tot_cases == 0)
         tot_cases <- sum(as.integer(cases), na.rm = T)
       
       if (tot_py == 0 && tot_py == 0){
@@ -196,7 +196,7 @@ getDiseaseSpecificData <-
     else
       subset(df, outcome == outcome1 &
                pa_domain_subgroup == paexposure &
-               sex_subgroups == gender)
+               sex_subgroups == gender) #  & overall == 0)
     
   }
 metaAnalysis <-
@@ -227,6 +227,8 @@ metaAnalysis <-
     pred_spl <- predict(spl, newdata, expo = T)
     #pred_spl <- predict(spl, newdata, expo = T, xref = 0)
     #windows()
+    # Comment out capitalization of start of words
+    #ptitle <- trimws(stringi::stri_trans_totitle(ptitle))
     #png(filename=paste0("data/", trimws(ptitle), ".png"))
     #write.csv(pa, file = paste0("data/", trimws(ptitle), ".csv"), row.names = F)
     with(pred_spl,
