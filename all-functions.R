@@ -87,13 +87,17 @@ formatData <-
         uci <- gsub(",","",uci)
       }
       
-      df2 <- as.data.frame(qpcR:::cbind.na(ref_number, study, authors, outcome, em, type, follow_up, sex_subgroups, overall, tp, py, dose, rr, cases, lci, uci))
-      colnames(df2) <- c("ref_number", "study", "authors", "outcome" , "effect_measure", "type",  "follow_up", "sex_subgroups", "overall", "totalpersons", "personyears", "dose", "rr", "cases", "lci", "uci")
+      # Auto-increasing ID
+      id <- rep(i, 10)
+      
+      df2 <- as.data.frame(qpcR:::cbind.na(id, ref_number, study, authors, outcome, em, type, follow_up, sex_subgroups, overall, tp, py, dose, rr, cases, lci, uci))
+      colnames(df2) <- c("id", "ref_number", "study", "authors", "outcome" , "effect_measure", "type",  "follow_up", "sex_subgroups", "overall", "totalpersons", "personyears", "dose", "rr", "cases", "lci", "uci")
       row.names(df2) <- NULL
       
       df2[,1] <- as.numeric.factor(df2[,1])
+      df2[,2] <- as.numeric.factor(df2[,2])
       
-      for (j in 7:ncol(df2)){
+      for (j in 8:ncol(df2)){
         
         df2[,j] <- as.numeric.factor(df2[,j])
       }
@@ -189,10 +193,11 @@ getDataSorted <-
   }
 getDiseaseSpecificData <-
   function(df, outcome1, paexposure, overall1, gender = NA){
+    
     if (is.na(gender))
       subset(df, outcome == outcome1 &
-               pa_domain_subgroup == paexposure &
-               overall == overall1)
+             pa_domain_subgroup == paexposure &
+             overall == overall1)
     else
       subset(df, outcome == outcome1 &
                pa_domain_subgroup == paexposure &
@@ -209,18 +214,20 @@ metaAnalysis <-
     spl <- NULL
     if (covMethed){
       spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = ifelse(effect_measure == "hr", personyears, totalpersons),
-                        type = type, se = se, id = ref_number, 
+                        type = type, se = se, id = id, 
                         center = center1, 
                         intercept = intercept1,
                         covariance = "h",
-                        data = pa)
+                        data = pa)#,
+                        #method = "fixed")
     }
     else{
       spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = ifelse(effect_measure == "hr", personyears, totalpersons), 
-                        type = type, se = se, id = ref_number, 
+                        type = type, se = se, id = id,  
                         center = center1, 
                         intercept = intercept1,
-                        data = pa)
+                        data = pa)#,
+                        #method = "fixed")
     }
     
     newdata <- data.frame(dose = seq(min(pa$dose), max(pa$dose), length.out = 100))
