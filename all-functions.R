@@ -44,7 +44,7 @@ formatData <-
       }
       
       tot_given_cases <- as.integer(df[i,"tot_cases"])
-
+      
       if (sum(as.integer(cases), na.rm = T) == 0){
         cases <- (tp * tot_given_cases) / as.integer(n_b)
       }
@@ -135,9 +135,9 @@ formatData <-
     df3[df3$effect_measure == "or" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$totalpersons <-
       df3[df3$effect_measure == "or" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$personyears /
       df3[df3$effect_measure == "or" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$follow_up
-
+    
     #df3$n <- with(df3,ifelse(is.na(personyears),totalpersons,personyears))
-
+    
     ## Convert all lci, uci and se to zero when logrr is zero
     
     #df3[df3$logrr == 0,]$se <- df3[df3$logrr == 0,]$lci <- df3[df3$logrr == 0,]$uci <- 0
@@ -193,12 +193,30 @@ getDataSorted <-
   }
 getDiseaseSpecificData <-
   function(df, outcome1, paexposure, overall1, gender = NA){
-    
-    if (is.na(gender))
-      subset(df, outcome == outcome1 &
-             pa_domain_subgroup == paexposure &
-             overall == overall1)
-    else
+    if (is.na(gender)){
+      
+      with_overall <- subset(df, outcome == outcome1 &
+                               pa_domain_subgroup == paexposure &
+                               overall == overall1)
+      
+      without_overall <- subset(df, outcome == outcome1 &
+                                  pa_domain_subgroup == paexposure &
+                                  overall != overall1)
+      
+      td1 <- unique(with_overall$ref_number)
+      td2 <- unique(without_overall$ref_number)
+      td3 <- td2[!td2 %in% td1]
+      
+      if (length(td3) > 0){
+        temp <- subset(df, outcome == outcome1 &
+                         pa_domain_subgroup == paexposure &
+                         (ref_number %in% td3))
+        rbind(with_overall, temp)
+      }else{
+        with_overall
+      }
+      
+    }else
       subset(df, outcome == outcome1 &
                pa_domain_subgroup == paexposure &
                sex_subgroups == gender) #  & overall == 0)
@@ -219,7 +237,7 @@ metaAnalysis <-
                         intercept = intercept1,
                         covariance = "h",
                         data = pa)#,
-                        #method = "fixed")
+      #method = "fixed")
     }
     else{
       spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = ifelse(effect_measure == "hr", personyears, totalpersons), 
@@ -227,7 +245,7 @@ metaAnalysis <-
                         center = center1, 
                         intercept = intercept1,
                         data = pa)#,
-                        #method = "fixed")
+      #method = "fixed")
     }
     
     newdata <- data.frame(dose = seq(min(pa$dose), max(pa$dose), length.out = 100))
