@@ -256,11 +256,12 @@ metaAnalysis <-
     #ptitle <- trimws(stringi::stri_trans_totitle(ptitle))
     #png(filename=paste0("data/", trimws(ptitle), ".png"))
     #write.csv(pa, file = paste0("data/", trimws(ptitle), ".csv"), row.names = F)
-    with(pred_spl,
-         matplot(newdata$dose, cbind(pred, ci.lb, ci.ub), type = "l", bty = "n",
-                 xlab = "Dose", ylab = "Relative Risk", las = 1, 
-                 col = "black", lty = "solid", log = "y", main = ptitle)
-    )
+    if (!returnval)
+      with(pred_spl,
+           matplot(newdata$dose, cbind(pred, ci.lb, ci.ub), type = "l", bty = "n",
+                   xlab = "Dose", ylab = "Relative Risk", las = 1, 
+                   col = "black", lty = "solid", log = "y", main = ptitle)
+      )
     #dev.off()
     
     if (returnval)
