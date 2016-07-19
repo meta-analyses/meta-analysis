@@ -225,47 +225,49 @@ getDiseaseSpecificData <-
 metaAnalysis <-
   function (pa, center1 = T, intercept1 = F, ptitle = NA, covMethed = F,  returnval = F) 
   {
-    library(dosresmeta)
-    library(rms)
-    
-    k <- quantile(pa$dose, c(.1, .5, .9))
-    spl <- NULL
-    if (covMethed){
-      spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = ifelse(effect_measure == "hr", personyears, totalpersons),
-                        type = type, se = se, id = id, 
-                        center = center1, 
-                        intercept = intercept1,
-                        covariance = "h",
-                        data = pa)#,
-      #method = "fixed")
+    if (!is.null(pa) && nrow(pa) > 0){
+      library(dosresmeta)
+      library(rms)
+      
+      k <- quantile(pa$dose, c(.1, .5, .9))
+      spl <- NULL
+      if (covMethed){
+        spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = ifelse(effect_measure == "hr", personyears, totalpersons),
+                          type = type, se = se, id = id, 
+                          center = center1, 
+                          intercept = intercept1,
+                          covariance = "h",
+                          data = pa)#,
+        #method = "fixed")
+      }
+      else{
+        spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = ifelse(effect_measure == "hr", personyears, totalpersons), 
+                          type = type, se = se, id = id,  
+                          center = center1, 
+                          intercept = intercept1,
+                          data = pa)#,
+        #method = "fixed")
+      }
+      
+      newdata <- data.frame(dose = seq(min(pa$dose), max(pa$dose), length.out = 100))
+      pred_spl <- predict(spl, newdata, expo = T)
+      #pred_spl <- predict(spl, newdata, expo = T, xref = 0)
+      #windows()
+      # Comment out capitalization of start of words
+      #ptitle <- trimws(stringi::stri_trans_totitle(ptitle))
+      #png(filename=paste0("data/", trimws(ptitle), ".png"))
+      #write.csv(pa, file = paste0("data/", trimws(ptitle), ".csv"), row.names = F)
+      if (!returnval)
+        with(pred_spl,
+             matplot(newdata$dose, cbind(pred, ci.lb, ci.ub), type = "l", bty = "n",
+                     xlab = "Dose", ylab = "Relative Risk", las = 1, 
+                     col = "black", lty = "solid", log = "y", main = ptitle)
+        )
+      #dev.off()
+      
+      if (returnval)
+        return(list(newdata$dose,cbind(pred_spl$pred, pred_spl$ci.lb, pred_spl$ci.ub)))
     }
-    else{
-      spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = ifelse(effect_measure == "hr", personyears, totalpersons), 
-                        type = type, se = se, id = id,  
-                        center = center1, 
-                        intercept = intercept1,
-                        data = pa)#,
-      #method = "fixed")
-    }
-    
-    newdata <- data.frame(dose = seq(min(pa$dose), max(pa$dose), length.out = 100))
-    pred_spl <- predict(spl, newdata, expo = T)
-    #pred_spl <- predict(spl, newdata, expo = T, xref = 0)
-    #windows()
-    # Comment out capitalization of start of words
-    #ptitle <- trimws(stringi::stri_trans_totitle(ptitle))
-    #png(filename=paste0("data/", trimws(ptitle), ".png"))
-    #write.csv(pa, file = paste0("data/", trimws(ptitle), ".csv"), row.names = F)
-    if (!returnval)
-      with(pred_spl,
-           matplot(newdata$dose, cbind(pred, ci.lb, ci.ub), type = "l", bty = "n",
-                   xlab = "Dose", ylab = "Relative Risk", las = 1, 
-                   col = "black", lty = "solid", log = "y", main = ptitle)
-      )
-    #dev.off()
-    
-    if (returnval)
-      return(list(newdata$dose,cbind(pred_spl$pred, pred_spl$ci.lb, pred_spl$ci.ub)))
     
   }
 
