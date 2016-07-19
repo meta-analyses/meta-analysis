@@ -192,7 +192,9 @@ getDataSorted <-
     df3
   }
 getDiseaseSpecificData <-
-  function(df, outcome1, paexposure, overall1, gender = NA){
+  function(df, outcome1, paexposure, overall1, gender = NA, out_type = "all"){
+    return_df <- NULL
+    
     if (is.na(gender)){
       
       with_overall <- subset(df, outcome == outcome1 &
@@ -211,17 +213,22 @@ getDiseaseSpecificData <-
         temp <- subset(df, outcome == outcome1 &
                          pa_domain_subgroup == paexposure &
                          (ref_number %in% td3))
-        rbind(with_overall, temp)
+        return_df <- rbind(with_overall, temp)
       }else{
-        with_overall
+        return_df <- with_overall
       }
       
     }else
-      subset(df, outcome == outcome1 &
+      return_df <- subset(df, outcome == outcome1 &
                pa_domain_subgroup == paexposure &
                sex_subgroups == gender) #  & overall == 0)
     
+    if (out_type != "all")
+      subset(return_df, outcome_type == out_type)
+    else
+      return_df
   }
+
 metaAnalysis <-
   function (pa, center1 = T, intercept1 = F, ptitle = NA, covMethed = F,  returnval = F) 
   {
