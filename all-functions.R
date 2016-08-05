@@ -230,13 +230,13 @@ getDiseaseSpecificData <-
   }
 
 metaAnalysis <-
-  function (pa, center1 = T, intercept1 = F, ptitle = NA, covMethed = F,  returnval = F) 
+  function (pa, center1 = T, intercept1 = F, ptitle = NA, covMethed = F,  returnval = F, minQuantile = 0.1, maxQuantile = 0.9) 
   {
     if (!is.null(pa) && nrow(pa) > 0){
       library(dosresmeta)
       library(rms)
       
-      k <- quantile(pa$dose, c(.1, .5, .9))
+      k <- quantile(pa$dose, c(minQuantile, (minQuantile + maxQuantile) / 2, maxQuantile))
       spl <- NULL
       if (covMethed){
         spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = ifelse(effect_measure == "hr", personyears, totalpersons),
