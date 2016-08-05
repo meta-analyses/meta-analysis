@@ -190,5 +190,5 @@ ggplot(predict(spl_all_cause_women, newdata, expo = T),
    geom_line() + scale_y_continuous("Hazard Ratio", trans = "log", breaks = c(.6, .8, 1)) +
    xlab("LTPA") + theme_classic() + geom_ribbon(alpha = .1)
 
-Comment: In this case the knots location does not have an impact. There is a slight
-         increase in the risk, but also a lot of uncertainty (i.e. not significant)
+# Comment: In this case the knots location does not have an impact. There is a slight
+#          increase in the risk, but also a lot of uncertainty (i.e. not significant)
