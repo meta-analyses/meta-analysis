@@ -264,7 +264,7 @@ metaAnalysis <-
         #method = "fixed")
       }
       
-      newdata <- data.frame(dose = seq(min(pa$dose), max(pa$dose), length.out = 100))
+      newdata <- data.frame(dose = seq(min(pa$dose), max(pa$dose), length.out = 1000))
       pred_spl <- predict(spl, newdata, expo = T)
       #pred_spl <- predict(spl, newdata, expo = T, xref = 0)
       #windows()
