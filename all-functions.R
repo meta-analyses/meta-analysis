@@ -1,7 +1,7 @@
 as.numeric.factor <-
   function(x) {as.numeric(levels(x))[x]}
 formatData <-
-  function(df, kcases = F){
+  function(df, kcases = F, infertotalpersons = F){
     
     
     #study	authors	year	ref_number	sampl_method	n_baseline	overall	prop_male	sex_subgroups	mean_age_base	pa_domain_subgroup	age_range	menopausal_status	menopausal_def	smoking_subgroup	
@@ -124,8 +124,8 @@ formatData <-
     df3$type <- as.character(df3$type)
     
     df3[df3$effect_measure == "rr" & (is.na(df3$totalpersons) | df3$totalpersons == 0) ,]$totalpersons <-
-      df3[df3$effect_measure == "rr" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$personyears /
-      df3[df3$effect_measure == "rr" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$follow_up
+      round(df3[df3$effect_measure == "rr" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$personyears /
+      df3[df3$effect_measure == "rr" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$follow_up)
     
     
     df3[df3$effect_measure == "hr" & (is.na(df3$personyears) | df3$personyears == 0) ,]$personyears <-
@@ -133,8 +133,16 @@ formatData <-
       df3[df3$effect_measure == "hr" & (is.na(df3$personyears) |  df3$personyears == 0) ,]$follow_up
     
     df3[df3$effect_measure == "or" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$totalpersons <-
-      df3[df3$effect_measure == "or" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$personyears /
-      df3[df3$effect_measure == "or" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$follow_up
+      round(df3[df3$effect_measure == "or" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$personyears /
+      df3[df3$effect_measure == "or" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$follow_up)
+    
+    
+    if (infertotalpersons){
+      df3[(is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$totalpersons <-
+        round(df3[(is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$personyears /
+        df3[(is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$follow_up)
+    }
+      
     
     #df3$n <- with(df3,ifelse(is.na(personyears),totalpersons,personyears))
     
