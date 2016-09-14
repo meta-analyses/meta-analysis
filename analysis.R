@@ -18,10 +18,11 @@ uoutcome <- data.frame(outcome = as.character(unique(data$outcome)))
 uoutcome$outcome <- as.character(uoutcome$outcome)
 
 for (i in 1:nrow(uoutcome)){
-  # i = 4
+  i = 1
   cat("Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
   acmdata <- getDiseaseSpecificData(data, uoutcome$outcome[i], paexposure = "LTPA", overall1 = 1)
-  acmfdata <- formatData(acmdata, kcases = T)
+  #acmdata <- subset(acmdata, outcome_type == "mortality")
+  acmfdata <- formatData(acmdata, kcases = T, infertotalpersons = T)
   # Remove all cases where both rr and dose are null
   acmfdata <- subset(acmfdata, !is.na(rr) & !is.na(dose))
   # Remove when totalperson is not available for hr, and personsyears for rr/or
@@ -74,7 +75,8 @@ for (i in 1:nrow(uoutcome)){
 }
 
 for (i in 1:nrow(uoutcome)){
-  #cat("Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
+  if (!i %in% c(5, 6)){
+  cat("Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
   acmdata <- getDiseaseSpecificData(data, uoutcome$outcome[i], paexposure = "TPA", overall1 = 1)
   acmfdata <- formatData(acmdata, kcases = T)
   # Remove all cases where both rr and dose are null
@@ -91,6 +93,7 @@ for (i in 1:nrow(uoutcome)){
   }
   else
     cat("TPA - Total Population - Outcome: ", uoutcome$outcome[i], " and rows ", nrow(acmdata), "\n")
+  }
   
 }
 
