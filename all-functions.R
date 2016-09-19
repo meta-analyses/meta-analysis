@@ -238,7 +238,7 @@ getDiseaseSpecificData <-
   }
 
 metaAnalysis <-
-  function (pa, center1 = T, intercept1 = F, ptitle = NA, covMethed = F,  returnval = F, minQuantile = 0.1, maxQuantile = 0.9, lout = 100) 
+  function (pa, center1 = T, intercept1 = F, ptitle = NA, covMethed = F,  returnval = F, minQuantile = 0.1, maxQuantile = 0.9, lout = 100, lby = NULL) 
   {
     if (!is.null(pa) && nrow(pa) > 0){
       library(dosresmeta)
@@ -263,8 +263,12 @@ metaAnalysis <-
                           data = pa)#,
         #method = "fixed")
       }
-      
-      newdata <- data.frame(dose = seq(min(pa$dose), max(pa$dose), length.out = lout))
+      newdata <- NULL
+      if (is.null(lby))
+        newdata <- data.frame(dose = seq(min(pa$dose), max(pa$dose), length.out = lout))
+      else{
+        newdata <- data.frame(dose = seq(min(pa$dose), max(pa$dose), by = lby))
+      }
       pred_spl <- predict(spl, newdata, expo = T)
       #pred_spl <- predict(spl, newdata, expo = T, xref = 0)
       #windows()
