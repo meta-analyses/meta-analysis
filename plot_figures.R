@@ -10,6 +10,18 @@ data[(is.na(data$mean_followup)),]$mean_followup <-
 
 data$outcome <- trimws(data$outcome)
 
+# Replace 'Heart failure' with 'heart failure'
+data[data$outcome == 'Heart failure',]$outcome <- 'heart failure'
+
+# Replace "Alzheimer's Disease" with "Alzheimer's disease"
+data[data$outcome == "Alzheimer's Disease",]$outcome <- "Alzheimer's disease"
+
+# Replace "CVD" with "Cardiovascular Disease"
+data[data$outcome == "CVD",]$outcome <- "Cardiovascular Disease"
+
+# Replace "CHD" with "Coronary Heart Disease"
+data[data$outcome == "CHD",]$outcome <- "Coronary Heart Disease"
+
 # Read all the functions
 source("all-functions.R")
 
@@ -17,12 +29,11 @@ source("all-functions.R")
 uoutcome <- data.frame(outcome = as.character(unique(data$outcome)))
 uoutcome$outcome <- as.character(uoutcome$outcome)
 
-# col_pal <- brewer.pal(nrow(uoutcome), "Set1")#topo.colors(nrow(uoutcome))
 df <- NULL
 for (i in 1:nrow(uoutcome)){
   # i = 1
   cat("Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
-  acmdata <- getDiseaseSpecificData(data, uoutcome$outcome[i], paexposure = "LTPA", overall1 = 1)
+  acmdata <- getDiseaseSpecificData(data, uoutcome$outcome[i], paexposure = "LTPA", overall1 = 1, out_type = "all")
   #acmdata <- subset(acmdata, outcome_type == "mortality")
   acmfdata <- formatData(acmdata, kcases = T, infertotalpersons = T)
   # Remove all cases where both rr and dose are null
@@ -30,20 +41,57 @@ for (i in 1:nrow(uoutcome)){
   # Remove when totalperson is not available for hr, and personsyears for rr/or
   acmfdata <- subset(acmfdata, !((effect_measure == "hr" & (is.na(personyears) | personyears == 0) ) | 
                                    (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
-  #metaAnalysis(acmfdata, ptitle = paste( uoutcome$outcome[i], " LTPA - Total Population"), covMethed = T)
-  
   plot_data <- data.frame(metaAnalysis(acmfdata, ptitle = "", covMethed = T, returnval = T, minQuantile = 0, maxQuantile = 0.75 , lout = 500))
   colnames(plot_data) <- c("dose","RR", "lb", "ub")
-  
-  
-  temp_df <- data.frame(dose=plot_data$dose, RR=plot_data$RR, col = i) #col=col_pal[i])
+  temp_df <- data.frame(dose=plot_data$dose, RR=plot_data$RR, outcome = stringi::stri_trans_totitle(uoutcome$outcome[i]), col = i) #col=col_pal[i])
   df <- rbind(df,temp_df)
-  
-  # if (i == 1)
-  #   plot(plot_data$dose, plot_data$RR, ylim = c(0,1), xlab = "Dose", ylab = "Relative Risk", col = col_pal[i], cex = 0.05)
-  # else
-  #   points(plot_data$dose, plot_data$RR, col = col_pal[i], cex = 0.05)
 }
 
-ggplot(df,aes(x=dose,y=RR,group=col,colour=factor(col))) + geom_line()
+ggplot(df,aes(x=dose,y=RR,group=col,colour = outcome)) + geom_line() + labs(title="Overall Population - Outcome Type (All)")
 
+df <- NULL
+for (i in 1:nrow(uoutcome)){
+  # i = 1
+  #cat("Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
+  acmdata <- getDiseaseSpecificData(data, uoutcome$outcome[i], paexposure = "LTPA", overall1 = 1, out_type = "mortality")
+  #acmdata <- subset(acmdata, outcome_type == "mortality")
+  acmfdata <- formatData(acmdata, kcases = T, infertotalpersons = T)
+  # Remove all cases where both rr and dose are null
+  acmfdata <- subset(acmfdata, !is.na(rr) & !is.na(dose))
+  # Remove when totalperson is not available for hr, and personsyears for rr/or
+  acmfdata <- subset(acmfdata, !((effect_measure == "hr" & (is.na(personyears) | personyears == 0) ) | 
+                                   (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
+  plot_data <- data.frame(metaAnalysis(acmfdata, ptitle = "", covMethed = T, returnval = T, minQuantile = 0, maxQuantile = 0.75 , lout = 500))
+  if (nrow(plot_data) > 0){
+    colnames(plot_data) <- c("dose","RR", "lb", "ub")
+    temp_df <- data.frame(dose=plot_data$dose, RR=plot_data$RR, outcome = stringi::stri_trans_totitle(uoutcome$outcome[i]), col = i) #col=col_pal[i])
+    df <- rbind(df,temp_df)
+  }else{
+    cat("Data Not Found: Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
+  }
+}
+ggplot(df,aes(x=dose,y=RR,group=col,colour = outcome)) + geom_line() + labs(title="Overall Population - Outcome Type (Mortality)")
+
+
+df <- NULL
+for (i in 1:nrow(uoutcome)){
+  # i = 1
+  #cat("Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
+  acmdata <- getDiseaseSpecificData(data, uoutcome$outcome[i], paexposure = "LTPA", overall1 = 1, out_type = "incidence")
+  #acmdata <- subset(acmdata, outcome_type == "mortality")
+  acmfdata <- formatData(acmdata, kcases = T, infertotalpersons = T)
+  # Remove all cases where both rr and dose are null
+  acmfdata <- subset(acmfdata, !is.na(rr) & !is.na(dose))
+  # Remove when totalperson is not available for hr, and personsyears for rr/or
+  acmfdata <- subset(acmfdata, !((effect_measure == "hr" & (is.na(personyears) | personyears == 0) ) | 
+                                   (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
+  plot_data <- data.frame(metaAnalysis(acmfdata, ptitle = "", covMethed = T, returnval = T, minQuantile = 0, maxQuantile = 0.75 , lout = 500))
+  if (nrow(plot_data) > 0){
+    colnames(plot_data) <- c("dose","RR", "lb", "ub")
+    temp_df <- data.frame(dose=plot_data$dose, RR=plot_data$RR, outcome = stringi::stri_trans_totitle(uoutcome$outcome[i]), col = i) #col=col_pal[i])
+    df <- rbind(df,temp_df)
+  }else{
+    cat("Data Not Found: Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
+  }
+}
+ggplot(df,aes(x=dose,y=RR,group=col,colour = outcome)) + geom_line() + labs(title="Overall Population - Outcome Type (Incidence)")
