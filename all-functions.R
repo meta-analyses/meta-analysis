@@ -9,11 +9,80 @@ formatData <-
     # MET.hr/wk_cat4	MET.hr/wk_cat5	MET.hr/wk_cat6	MET.hr/wk_cat7	MET.hr/wk_cat8	MET.hr/wk_cat9	MET.hr/wk_cat10	MMET.hr/wk_cat1	MMET.hr/wk_cat2	MMET.hr/wk_cat3	MMET.hr/wk_cat4	MMET.hr/wk_cat5	
     #MMET.hr/wk_cat6	MMET.hr/wk_cat7	MMET.hr/wk_cat8	MMET.hr/wk_cat9	MMET.hr/wk_cat10	tot_cases	cases1	cases2	cases3	cases4	cases5	cases6	cases7	cases8	cases9	cases10	personyrs1	personyrs2	personyrs3	personyrs4	personyrs5	personyrs6	personyrs7	personyrs8	personyrs9	personyrs10	totalpersons1	totalpersons2	totalpersons3	totalpersons4	totalpersons5	totalpersons6	totalpersons7	totalpersons8	totalpersons9	totalpersons10	effect_measure	adjustments	effect1	lci_effect1	uci_effect1	effect2	lci_effect2	uci_effect2	effect3	lci_effect3	uci_effect3	effect4	lci_effect4	uci_effect4	effect5	lci_effect5	uci_effect5	effect6	lci_effect6	uci_effect6	effect7	lci_effect7	uci_effect7	effect8	lci_effect8	uci_effect8	effect9	lci_effect9	uci_effect9	effect10	lci_effect10	uci_effect10	adjustments1	effect1_adj1	lci_effect1_adj1	uci_effect1_adj1	effect2_adj1	lci_effect2_adj1	uci_effect2_adj1	effect3_adj1	lci_effect3_adj1	uci_effect3_adj1	effect4_adj1	lci_effect4_adj1	uci_effect4_adj1	effect5_adj1	lci_effect5_adj1	uci_effect5_adj1	effect6_adj1	lci_effect6_adj1	uci_effect6_adj1	effect7_adj1	lci_effect7_adj1	uci_effect7_adj1	effect8_adj1	lci_effect8_adj1	uci_effect8_adj1	effect9_adj1	lci_effect9_adj1	uci_effect9_adj1	effect10_adj1	lci_effect10_adj1	uci_effect10_adj1	METhday	obs	EM						
     # df <- acmdata
+
     df3 <- NULL
     for (i in 1:nrow(df)){
+      i <- 1
       ref_number <- rep(df[i,"ref_number"], 10)
       study <- rep(df[i,"study"], 10)
       authors <- rep(df[i,"authors"], 10)
+      year <- rep(df[i,"year"], 10)
+      location <- rep(df[i,"location"], 10)
+      study_design <- rep(df[i,"study_design"], 10)
+      pop_source <- rep(df[i,"pop_source"], 10)
+      sampl_method <- rep(df[i,"sampl_method"], 10)
+      
+      n_baseline <- rep(df[i,"n_baseline"], 10)
+      prop_male <- rep(df[i,"prop_male"], 10)
+      
+      mean_age_base <- rep(df[i,"mean_age_base"], 10)
+      sd_age_base <- rep(df[i,"sd_age_base"], 10)
+      lci_age_base <- rep(df[i,"lci_age_base"], 10)
+      uci_age_base <- rep(df[i,"uci_age_base"], 10)
+      pa_domain_subgroup <- rep(df[i,"pa_domain_subgroup"], 10)
+      sd_followup <- rep(df[i,"sd_followup"], 10)
+      tot_personyrs <- rep(df[i,"tot_personyrs"], 10)
+      outcome_type <- rep(df[i,"outcome_type"], 10)
+      outcome_def <- rep(df[i,"outcome_def"], 10)
+      outcome_tool_baseline <- rep(df[i,"outcome_tool_baseline"], 10)
+      pa_tool <- rep(df[i,"pa_tool"], 10)
+      pa_unit <- rep(df[i,"pa_unit"], 10)
+      pa_cat_def <- rep(df[i,"pa_cat_def"], 10)
+      other_pa_domains <- rep(df[i,"other_pa_domains"], 10)
+      adjustments <- rep(df[i,"adjustments"], 10)
+      adjustments1 <- rep(df[i,"adjustments1"], 10)
+      adjustments2 <- rep(df[i,"adjustments2"], 10)
+      
+      pa_cat <- (t(df[i,(grep("^pa_cat[0-9]{,2}", names(df), value = T))]))
+      pa_cat <- gsub(",", "", pa_cat)
+      
+      personyrs <- (t(df[i,(grep("^personyrs[0-9]{,2}", names(df), value = T))]))
+      personyrs <- gsub(",", "", personyrs)
+      
+      totalpersons <- (t(df[i,(grep("^totalpersons[0-9]{,2}", names(df), value = T))]))
+      totalpersons <- gsub(",", "", totalpersons)
+      
+      rr1 <- t(df[i,(grep("^effect[0-9]{,2}_adj1", names(df), value = T))])
+      rr1 <- gsub(",", "", rr1)
+      
+      rr2 <- t(df[i,(grep("^effect[0-9]{,2}_adj2", names(df), value = T))])
+      rr2 <- gsub(",", "", rr2)
+      
+      lci1 <- t(df[i,(grep("^lci_effect[0-9]{,2}_adj1", names(df), value = T))])
+      lci1 <- gsub(",","",lci1)
+      
+      uci1 <- t(df[i,(grep("^uci_effect[0-9]{,2}_adj1", names(df), value = T))])
+      uci1 <- gsub(",","",uci1)
+      
+      lci2 <- t(df[i,(grep("^lci_effect[0-9]{,2}_adj2", names(df), value = T))])
+      lci2 <- gsub(",","",lci2)
+      
+      uci2 <- t(df[i,(grep("^uci_effect[0-9]{,2}_adj2", names(df), value = T))])
+      uci2 <- gsub(",","",uci2)
+      
+      obs <- rep(df[i,"obs"], 10)
+      
+      o_ref <- ""
+      
+      notes_exposure <- ""
+      
+      ## "n_baseline",	"overall",	"prop_male",	"sex_subgroups",
+      # "mean_age_base",	"sd_age_base",	"lci_age_base",	"uci_age_base",	"pa_domain_subgroup",	"mean_followup",	"sd_followup",	"tot_personyrs",	"outcome", "outcome_type"	,"outcome_def",	"outcome_tool_baseline",
+      # "pa_tool", "pa_unit", "pa_cat_def",	"other_pa_domains", "tot_cases", "effect_measure", "adjustments", "adjustments1",	"adjustments2", "pa_cat",	"cases",	"personyrs",	"totalpersons",	"effect",	
+      # "lci_effect", "uci_effect",	"effect_adj1",	"lci_effect_adj1",	"uci_effect1_adj1" ,	"effect_adj2",	"lci_effect_adj2",	"uci_effect_adj2",	"obs",	"Other References required for dose derivation/harmonisation",	
+      # "Harmonised exposure (MMET-hrs/wk)", "Notes on exposure harmonisation"
+      # 
+      ##
       em <- rep(df[i, "effect_measure"], 10)
       type <- rep(df[i, "type"], 10)
       
@@ -90,22 +159,57 @@ formatData <-
       # Auto-increasing ID
       id <- rep(i, 10)
       
-      df2 <- as.data.frame(qpcR:::cbind.na(id, ref_number, study, authors, outcome, em, type, follow_up, sex_subgroups, overall, tp, py, dose, rr, cases, lci, uci))
-      colnames(df2) <- c("id", "ref_number", "study", "authors", "outcome" , "effect_measure", "type",  "follow_up", "sex_subgroups", "overall", "totalpersons", "personyears", "dose", "rr", "cases", "lci", "uci")
+      
+      ## Total columns ##
+      # Checked	PubmedID	DOI Weblink	study	authors	year	location	study_design	pop_source	sampl_method	n_baseline	overall	prop_male	sex_subgroups	mean_age_base	sd_age_base	lci_age_base	uci_age_base	pa_domain_subgroup	mean_followup	sd_followup	tot_personyrs	outcome	outcome_type	outcome_def	outcome_tool_baseline	pa_tool	pa_unit	pa_cat_def	other_pa_domains	tot_cases	effect_measure	adjustments	adjustments1	adjustments2	pa_cat1	cases1	personyrs1	totalpersons1	effect1	lci_effect1	uci_effect1	effect1_adj1	lci_effect1_adj1	uci_effect1_adj1	effect1_adj2	lci_effect1_adj2	uci_effect1_adj2	obs	Other References required for dose derivation/harmonisation	MMET.hr/wk_cat1	Notes on exposure harmonisation
+
+      
+      #df2 <- as.data.frame(qpcR:::cbind.na(id, ref_number, study, authors, outcome, em, type, follow_up, sex_subgroups, overall, tp, py, dose, rr, cases, lci, uci))
+      #colnames(df2) <- c("id", "ref_number", "study", "authors", "outcome" , "effect_measure", "type",  "follow_up", "sex_subgroups", "overall", "totalpersons", "personyears", "dose", "rr", "cases", "lci", "uci")
+      
+      df2 <- as.data.frame(qpcR:::cbind.na(ref_number, "", "",	"", "", study, authors, year, location, study_design, pop_source, sampl_method,	n_baseline, overall, prop_male, sex_subgroups, 
+                                           mean_age_base, sd_age_base, lci_age_base, uci_age_base, pa_domain_subgroup, follow_up, sd_followup, tot_personyrs, outcome, outcome_type, outcome_def, outcome_tool_baseline,
+                                           pa_tool, pa_unit, pa_cat_def, other_pa_domains, tot_cases, em, adjustments, adjustments1, adjustments2, pa_cat, cases, personyrs, totalpersons, rr,
+                                           lci, uci, rr1, lci1, uci1, rr2, lci2, uci2, obs, o_ref,
+                                           dose, notes_exposure))
+                                           
+                                           
+                                           #outcome, em, type, follow_up, sex_subgroups, overall, tp, py, dose, rr, cases, lci, uci))
+      
+      colnames(df2) <- c("ref_number", "Checked", "PubmedID",	"DOI", "Weblink", "study","authors",	"year",	"location",	"study_design",	"pop_source",	"sampl_method",	"n_baseline",	"overall",	"prop_male",	"sex_subgroups",
+                         "mean_age_base",	"sd_age_base",	"lci_age_base",	"uci_age_base",	"pa_domain_subgroup",	"mean_followup",	"sd_followup",	"tot_personyrs",	"outcome", "outcome_type"	,"outcome_def",	"outcome_tool_baseline",
+                         "pa_tool", "pa_unit", "pa_cat_def",	"other_pa_domains", "tot_cases", "effect_measure", "adjustments", "adjustments1",	"adjustments2", "pa_cat",	"cases",	"personyrs",	"totalpersons",	"effect",	
+                         "lci_effect", "uci_effect",	"effect_adj1",	"lci_effect_adj1",	"uci_effect1_adj1" ,	"effect_adj2",	"lci_effect_adj2",	"uci_effect_adj2",	"obs",	"Other References required for dose derivation/harmonisation",	
+                         "Harmonised exposure (MMET-hrs/wk)", "Notes on exposure harmonisation")
+                         
+
       row.names(df2) <- NULL
       
-      df2[,1] <- as.numeric.factor(df2[,1])
-      df2[,2] <- as.numeric.factor(df2[,2])
       
-      for (j in 8:ncol(df2)){
-        
-        df2[,j] <- as.numeric.factor(df2[,j])
+      
+      for (j in 1:ncol(df2)){
+        if (!(j %in% c(2,4,5,6,7,9:12,21,25:32, 34:38, 51, 52, 54))){
+          df2[,j][is.na(df2[,j])] <- ""
+          df2[,j] <- as.numeric.factor(df2[,j])
+        }
       }
+      
+      # df2$effect <- as.numeric.factor(df2$effect)
+      # df2$uci_effect <- as.numeric.factor(df2$uci_effect)
+      # df2$lci_effect <- as.numeric.factor(df2$lci_effect)
+      # 
+      # df2[,1] <- as.numeric.factor(df2[,1])
+      # df2[,2] <- as.numeric.factor(df2[,2])
+      # 
+      # for (j in 8:ncol(df2)){
+      #   
+      #   df2[,j] <- as.numeric.factor(df2[,j])
+      # }
       
       #df2 <- subset(df2, (!is.na(totalpersons) | !is.na(personyears)))
       
-      df2$logrr <- log(df2$rr)
-      df2$se <- with(df2, (log(uci)-log(lci))/(2*qnorm(.975)))
+      #df2$logrr <- log(df2$effect)
+      #df2$se <- with(df2, (log(uci_effect)-log(lci_effect))/(2*qnorm(.975)))
       if (i == 1){
         df3 <- df2
       }else{
@@ -120,27 +224,27 @@ formatData <-
     df3$effect_measure <- tolower(df3$effect_measure)
     # The values for casecontrol,incidence-rate, and cumulative incidence data are cc, ir, and ci.
     lookup <- data.frame(code = c("or", "rr", "hr"), val = c("ir", "ir" ,"ci"))
-    df3$type <- lookup$val[match(df3$effect_measure, lookup$code)]
-    df3$type <- as.character(df3$type)
+    #df3$type <- lookup$val[match(df3$effect_measure, lookup$code)]
+    #df3$type <- as.character(df3$type)
     
-    df3[df3$effect_measure == "rr" & (is.na(df3$totalpersons) | df3$totalpersons == 0) ,]$totalpersons <-
-      round(df3[df3$effect_measure == "rr" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$personyears /
-      df3[df3$effect_measure == "rr" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$follow_up)
-    
-    
-    df3[df3$effect_measure == "hr" & (is.na(df3$personyears) | df3$personyears == 0) ,]$personyears <-
-      df3[df3$effect_measure == "hr" & (is.na(df3$personyears) |  df3$personyears == 0) ,]$totalpersons *
-      df3[df3$effect_measure == "hr" & (is.na(df3$personyears) |  df3$personyears == 0) ,]$follow_up
-    
-    df3[df3$effect_measure == "or" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$totalpersons <-
-      round(df3[df3$effect_measure == "or" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$personyears /
-      df3[df3$effect_measure == "or" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$follow_up)
+    # df3[df3$effect_measure == "rr" & (is.na(df3$totalpersons) | df3$totalpersons == 0) ,]$totalpersons <-
+    #   round(df3[df3$effect_measure == "rr" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$personyears /
+    #   df3[df3$effect_measure == "rr" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$mean_followup)
+    # 
+    # 
+    # df3[df3$effect_measure == "hr" & (is.na(df3$personyears) | df3$personyears == 0) ,]$personyears <-
+    #   df3[df3$effect_measure == "hr" & (is.na(df3$personyears) |  df3$personyears == 0) ,]$totalpersons *
+    #   df3[df3$effect_measure == "hr" & (is.na(df3$personyears) |  df3$personyears == 0) ,]$mean_followup
+    # 
+    # df3[df3$effect_measure == "or" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$totalpersons <-
+    #   round(df3[df3$effect_measure == "or" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$personyears /
+    #   df3[df3$effect_measure == "or" & (is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$mean_followup)
     
     
     if (infertotalpersons){
       df3[(is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$totalpersons <-
         round(df3[(is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$personyears /
-        df3[(is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$follow_up)
+        df3[(is.na(df3$totalpersons) |  df3$totalpersons == 0) ,]$mean_followup)
     }
       
     
@@ -247,7 +351,7 @@ metaAnalysis <-
       k <- quantile(pa$dose, c(minQuantile, (minQuantile + maxQuantile) / 2, maxQuantile))
       spl <- NULL
       if (covMethed){
-        spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = ifelse(effect_measure == "hr", personyears, totalpersons),
+        spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = ifelse(effect_measure == "hr", personyrs, totalpersons),
                           type = type, se = se, id = id, 
                           center = center1, 
                           intercept = intercept1,
@@ -256,7 +360,7 @@ metaAnalysis <-
         #method = "fixed")
       }
       else{
-        spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = ifelse(effect_measure == "hr", personyears, totalpersons), 
+        spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = ifelse(effect_measure == "hr", personyrs, totalpersons), 
                           type = type, se = se, id = id,  
                           center = center1, 
                           intercept = intercept1,
@@ -304,3 +408,163 @@ plotMetaAnalysis <-
     fdata <- subset(fdata, !is.na(rr) & !is.na(dose))
     metaAnalysis(fdata, ptitle = ptitle)
   }
+
+
+
+getPIF <- function(acmfdata, plot_data){
+  
+  m <- matrix(nrow = 1, ncol = 8)
+  
+  removeNA <- F
+  
+  # Update RR from the lookup table
+  for (k in 1:nrow(acmfdata)){
+    val <- subset(plot_data, round(dose, 1) <= (acmfdata$dose[k] + 0.05) & round(dose, 1) >= (acmfdata$dose[k] - 0.05))
+    if (nrow(val) > 0){
+      acmfdata$rr[k] <- val$RR[1]
+      if (removeNA){
+        if (!is.na(acmfdata$lci[k]))
+          acmfdata$lci[k] <- val$lb[1]
+        if (!is.na(acmfdata$lci[k]))
+          acmfdata$uci[k] <- val$ub[1]
+      }else{
+        acmfdata$lci[k] <- val$lb[1]
+        acmfdata$uci[k] <- val$ub[1]
+      }
+    }
+  }
+  
+  sum_tp <- sum(acmfdata$totalpersons * acmfdata$rr, na.rm = T) 
+  
+  acmfdata_ls <- acmfdata
+  
+  #Replace lower dose with 8.75
+  acmfdata_ls[acmfdata_ls$dose < 8.75,]$dose <- 8.75
+  
+  local_var <- acmfdata_ls
+  
+  val <- subset(plot_data, round(dose, 1) <= (8.75 + 0.05) & round(dose, 1) >= (8.75 - 0.05))
+  
+  if (nrow(val) > 0)
+    acmfdata_ls[acmfdata_ls$dose == 8.75,]$rr <- val$RR[1]
+  
+  sum_ls_tp <- sum(acmfdata$totalpersons * acmfdata_ls$rr, na.rm = T)
+  
+  pert_ls <- ((sum_tp - sum_ls_tp) / sum_tp) * 100
+  
+  acmfdata_ls <- local_var
+  
+  if (nrow(val) > 0){
+    
+    if (removeNA){
+      acmfdata_ls[acmfdata_ls$dose == 8.75 & !is.na(acmfdata_ls$uci),]$uci <- val$ub[1]
+    }else{
+      acmfdata_ls[acmfdata_ls$dose == 8.75,]$uci <- val$ub[1]
+    }
+    
+  }
+  
+  sum_ls_lower_tp <- sum(acmfdata$totalpersons * acmfdata_ls$uci, na.rm = T)
+  
+  sum_tp <- sum(acmfdata$totalpersons * acmfdata$uci, na.rm = T)
+  
+  pert_ls_lower <- ((sum_tp - sum_ls_lower_tp) / sum_tp) * 100
+  
+  acmfdata_ls <- local_var
+  
+  if (nrow(val) > 0){
+    if (removeNA){
+      acmfdata_ls[acmfdata_ls$dose == 8.75 & !is.na(acmfdata_ls$uci),]$lci <- val$lb[1]
+    }else{
+      acmfdata_ls[acmfdata_ls$dose == 8.75,]$lci <- val$lb[1]
+    }
+  }
+  
+  sum(acmfdata_ls$lci, na.rm = T)
+  
+  sum(acmfdata$lci, na.rm = T)
+  
+  sum_ls_upper_tp <- sum(acmfdata$totalpersons * acmfdata_ls$lci, na.rm = T)
+  
+  sum_tp <- sum(acmfdata$totalpersons * acmfdata$lci, na.rm = T)
+  
+  pert_ls_upper <- ((sum_tp - sum_ls_upper_tp) / sum_tp) * 100
+  
+  
+  
+  m[1,1] <- stringi::stri_trans_totitle(uoutcome$outcome[i])
+  
+  m[1,2] <- stringi::stri_trans_totitle(outcome_type[j])
+  
+  m[1,3] <- round(pert_ls, 2)
+  
+  m[1,4] <- round(pert_ls_lower, 2)
+  
+  m[1,5] <- round(pert_ls_upper, 2)
+  
+  lower_guideline_value <- paste0(round(pert_ls, 2) , "% (95% CI: ", round(pert_ls_lower, 2), " - ",  round(pert_ls_upper, 2), ")" )
+  
+  acmfdata_hs <- acmfdata
+  
+  #Replace higher dose with 17.5
+  acmfdata_hs[acmfdata_hs$dose < 17.5,]$dose <- 17.5
+  
+  local_var <- acmfdata_hs
+  
+  val <- subset(plot_data, round(dose, 1) <= (17.5 + 0.05) & round(dose, 1) >= (17.5 - 0.05))
+  if (nrow(val) == 0)
+    val <- subset(plot_data, round(dose, 1) <= (17.5 + 0.1) & round(dose, 1) >= (17.5 - 0.1))
+  
+  if (nrow(val) > 0){
+    acmfdata_hs[acmfdata_hs$dose == 17.5,]$rr <- val$RR[1]
+  }
+  
+  sum_hs_tp <- sum(acmfdata$totalpersons * acmfdata_hs$rr, na.rm = T)
+  
+  sum_tp <- sum(acmfdata$totalpersons * acmfdata$rr, na.rm = T) 
+  
+  pert_hs <- ((sum_tp - sum_hs_tp) / sum_tp) * 100
+  
+  acmfdata_hs <- local_var
+  
+  if (nrow(val) > 0){
+    if (removeNA){
+      acmfdata_hs[acmfdata_hs$dose == 17.5 & !is.na(acmfdata_ls$uci),]$uci <- val$ub[1]
+    }else{
+      acmfdata_hs[acmfdata_hs$dose == 17.5,]$uci <- val$ub[1]
+    }
+  }
+  
+  sum_hs_lower_tp <- sum(acmfdata$totalpersons * acmfdata_hs$uci, na.rm = T)
+  
+  sum_tp <- sum(acmfdata$totalpersons * acmfdata$uci, na.rm = T)
+  
+  pert_hs_lower <- ((sum_tp - sum_hs_lower_tp) / sum_tp) * 100
+  
+  acmfdata_hs <- local_var
+  
+  if (nrow(val) > 0){
+    if (removeNA){
+      acmfdata_hs[acmfdata_hs$dose == 17.5 & !is.na(acmfdata_ls$uci),]$lci <- val$lb[1]
+    }else{
+      acmfdata_hs[acmfdata_hs$dose == 17.5,]$lci <- val$lb[1]
+    }
+  }
+  
+  sum_hs_upper_tp <- sum(acmfdata$totalpersons * acmfdata_hs$lci, na.rm = T)
+  
+  sum_tp <- sum(acmfdata$totalpersons * acmfdata$lci, na.rm = T)
+  
+  pert_hs_upper <- ((sum_tp - sum_hs_upper_tp) / sum_tp) * 100
+  
+  upper_guideline_value <<- paste0(round(pert_hs, 2) , "% (95% CI: ", round(pert_hs_lower, 2), " - ",  round(pert_hs_upper, 2), ")" )
+  
+  m[1,6] <- round(pert_hs, 2)
+  
+  m[1,7] <- round(pert_hs_lower, 2)
+  
+  m[1,8] <- round(pert_hs_upper, 2)
+  
+  m
+  
+}
