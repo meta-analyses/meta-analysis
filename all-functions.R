@@ -257,6 +257,80 @@ formatData <-
     df3
   }
 
+
+getMissingVariables <- 
+  function(df, infertotalpersons = F, kcases = F){
+    # df <- acmfdata
+    # infertotalpersons = T
+    # kcases = T
+    index <- 1
+    rdf <- NULL
+    urn <- NULL
+    for(i in unique(df$ref_number)){
+      urn <- subset(df, ref_number == i)
+        for(j in unique(urn$ref_number)){
+          uout <- subset(urn, ref_number == j)
+          uout$id <- index
+          
+          
+          
+          uout[uout$effect_measure == "rr" & (is.na(uout$totalpersons) | uout$totalpersons == 0) ,]$totalpersons <-
+            round(uout[uout$effect_measure == "rr" & (is.na(uout$totalpersons) |  uout$totalpersons == 0) ,]$personyrs /
+            uout[uout$effect_measure == "rr" & (is.na(uout$totalpersons) |  uout$totalpersons == 0) ,]$mean_followup)
+
+
+          uout[uout$effect_measure == "hr" & (is.na(uout$personyrs) | uout$personyrs == 0) ,]$personyrs <-
+            uout[uout$effect_measure == "hr" & (is.na(uout$personyrs) |  uout$personyrs == 0) ,]$totalpersons *
+            uout[uout$effect_measure == "hr" & (is.na(uout$personyrs) |  uout$personyrs == 0) ,]$mean_followup
+
+          uout[uout$effect_measure == "or" & (is.na(uout$totalpersons) |  uout$totalpersons == 0) ,]$totalpersons <-
+            round(uout[uout$effect_measure == "or" & (is.na(uout$totalpersons) |  uout$totalpersons == 0) ,]$personyrs /
+            uout[uout$effect_measure == "or" & (is.na(uout$totalpersons) |  uout$totalpersons == 0) ,]$mean_followup)
+          
+          
+          if (infertotalpersons){
+            uout[(is.na(uout$totalpersons) |  uout$totalpersons == 0) ,]$totalpersons <-
+              round(uout[(is.na(uout$totalpersons) |  uout$totalpersons == 0) ,]$personyrs /
+                      uout[(is.na(uout$totalpersons) |  uout$totalpersons == 0) ,]$mean_followup)
+          }
+          
+          if (kcases)
+            uout <- subset(uout, !is.na(cases))
+          
+          
+          uout$logrr <- log(uout$effect)
+          uout$se <- with(uout, (log(uci_effect)-log(lci_effect))/(2*qnorm(.975)))
+          
+          
+          
+          uout$n <- with(uout,ifelse(is.na(personyrs),totalpersons,personyrs))
+          
+          #cat(i, j, index, "\n")
+          
+          ## Convert all lci, uci and se to zero when logrr is zero
+          if (nrow(uout[!is.na(uout$logrr) & uout$logrr == 0,]) > 0)
+            uout[!is.na(uout$logrr) & uout$logrr == 0,]$se <- uout[!is.na(uout$logrr) & uout$logrr == 0,]$lci <- uout[!is.na(uout$logrr) & uout$logrr == 0,]$uci <- 0
+          
+          
+          #cat(i, j, index, "\n")
+          
+          
+          if (index == 1){
+            rdf <- uout
+          }else{
+            rdf <- rbind(rdf, uout)
+          }
+          
+          
+          index <- index + 1
+          
+        }
+    }
+    
+    rdf
+    
+  }
+
 getDataSorted <-
   function(df){
     
