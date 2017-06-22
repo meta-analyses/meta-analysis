@@ -1,8 +1,8 @@
 rm (list = ls())
 
 total_population <- F
-male_population <- T
-female_population <- F
+male_population <- F
+female_population <- T
 
 # Read the data
 raw_data <- read.csv("data/20170621_MASTER_PA_Dose_Metananalysis_Data_Extraction.csv", header = T, stringsAsFactors = F, skipNul = TRUE)
@@ -150,11 +150,6 @@ for (i in 1:nrow(uoutcome)){
   cat("Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
   acmfdata <- subset(raw_data, outcome == uoutcome$outcome[i] & pa_domain_subgroup == "LTPA" & sex_subgroups == 2)
   if (nrow(acmfdata) > 0){
-    #acmfdata$dose <- acmfdata$Final.Harmonised.exposure..MMET.hrs.wk.
-    #acmfdata$Final.Harmonised.exposure..MMET.hrs.wk. <- NULL
-    
-    #acmfdata$rr <- acmfdata$effect
-    
     acmfdata <- getMissingVariables(acmfdata, infertotalpersons = T, kcases = T)
     
     # Remove when totalperson is not available for hr, and personsyears for rr/or
@@ -175,13 +170,6 @@ for (i in 1:nrow(uoutcome)){
       #metaAnalysis(acmfdata, ptitle = paste( uoutcome$outcome[i] , " LTPA - Total Population"), covMethed = T)
     }
     
-    if (uoutcome$outcome[i] == 'endometrial cancer'){ #1 2 3 4 6 8 9
-      # 1
-      acmfdata <- subset(b, id %in% c(2:4, 6, 8, 9))
-      #metaAnalysis(acmfdata, ptitle = paste( uoutcome$outcome[i] , " LTPA - Total Population"), covMethed = T)
-    }
-    
-
     if (nrow(acmfdata) > 0){
       metaAnalysis(acmfdata, ptitle = paste( uoutcome$outcome[i] , " LTPA - Female Population"), covMethed = T)
     }
