@@ -1,7 +1,7 @@
 rm (list = ls())
 
-total_population <- T
-male_population <- F
+total_population <- F
+male_population <- T
 female_population <- F
 
 # Read the data
@@ -89,19 +89,12 @@ for (i in 1:nrow(uoutcome)){
     acmfdata <- subset(acmfdata, !((effect_measure == "hr" & (is.na(personyrs) | personyrs == 0) ) | 
                                      (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
     
+    # Subset to selected columns
+    acmfdata <- subset(acmfdata, select = c(id, ref_number, effect_measure, type, totalpersons, personyrs, dose, rr, logrr, cases, uci_effect, lci_effect, se))
     
-    
-    #cat(unique(acmfdata$id))
-    
-    b <- acmfdata
-    
-    acmfdata <- subset(b, select = c(id, ref_number, effect_measure, type, totalpersons, personyrs, dose, rr, logrr, cases, uci_effect, lci_effect, se))
-    
-    # if (uoutcome$outcome[i] == 'endometrial cancer')
-    #   acmfdata <- subset(acmfdata, !id %in% 1)
     if (uoutcome$outcome[i] == 'breast cancer'){ #1 4 5 6 7 9 10 11 12 13 14 15 16 17 19 20
       
-      
+      # Remove a study with just one exposure
       acmfdata <- subset(acmfdata, !id %in% c(14))
       
       # Set standard error to zero to the first exposure
@@ -126,52 +119,22 @@ for (i in 1:nrow(uoutcome)){
 
 if(male_population){
 for (i in 1:nrow(uoutcome)){
+  # i <- 6
   cat("Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
   acmfdata <- subset(raw_data, outcome == uoutcome$outcome[i] & pa_domain_subgroup == "LTPA" & sex_subgroups == 1)
   if (nrow(acmfdata) > 0){
-    #acmfdata$dose <- acmfdata$Final.Harmonised.exposure..MMET.hrs.wk.
-    #acmfdata$Final.Harmonised.exposure..MMET.hrs.wk. <- NULL
-    
-    #acmfdata$rr <- acmfdata$effect
-    
     acmfdata <- getMissingVariables(acmfdata, infertotalpersons = T, kcases = T)
     
     # Remove when totalperson is not available for hr, and personsyears for rr/or
     acmfdata <- subset(acmfdata, !((effect_measure == "hr" & (is.na(personyrs) | personyrs == 0) ) | 
                                      (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
     
+    # Remove where both dose and response are null
+    acmfdata <- subset(acmfdata, !is.na(rr) & !is.na(dose))
     
-    
-    #cat(unique(acmfdata$id))
-    
+    acmfdata <- subset(acmfdata, select = c(id, ref_number, effect_measure, type, totalpersons, personyrs, dose, rr, logrr, cases, uci_effect, lci_effect, se))
     b <- acmfdata
-    
-    acmfdata <- subset(b, select = c(id, ref_number, effect_measure, type, totalpersons, personyrs, dose, rr, logrr, cases, se))
-    
-    if (uoutcome$outcome[i] == 'total cancer'){#1 3 5 6
-      # 1
-      acmfdata <- subset(b, !id %in% c(1))
-      #metaAnalysis(acmfdata, ptitle = paste( uoutcome$outcome[i] , " LTPA - Total Population"))
-      
-    }
-    
-    if (uoutcome$outcome[i] == 'lung cancer'){#1 3 5 6
-      # 1
-      acmfdata <- subset(b, !id %in% c(1))
-      #metaAnalysis(acmfdata, ptitle = paste( uoutcome$outcome[i] , " LTPA - Total Population"), covMethed = T)
-      
-    }
-    
-    if (uoutcome$outcome[i] == 'CVD'){#1:10
-      # 7, 9, 10
-      acmfdata <- subset(b, id %in% c(1:6, 8))
-      #metaAnalysis(acmfdata, ptitle = paste( uoutcome$outcome[i] , " LTPA - Total Population"))
-      
-    }
-    
-    
-    #metaAnalysis(acmfdata, ptitle = paste( uoutcome$outcome[i] , " LTPA - Male Population"), covMethed = T)
-    
+
     if (nrow(acmfdata) > 0){
       metaAnalysis(acmfdata, ptitle = paste( uoutcome$outcome[i] , " LTPA - Male Population"), covMethed = T)
     }
