@@ -308,8 +308,8 @@ getMissingVariables <-
           #cat(i, j, index, "\n")
           
           ## Convert all lci, uci and se to zero when logrr is zero
-          if (nrow(uout[!is.na(uout$logrr) & uout$logrr == 0,]) > 0)
-            uout[!is.na(uout$logrr) & uout$logrr == 0,]$se <- uout[!is.na(uout$logrr) & uout$logrr == 0,]$lci <- uout[!is.na(uout$logrr) & uout$logrr == 0,]$uci <- 0
+          #if (nrow(uout[!is.na(uout$logrr) & uout$logrr == 0,]) > 0)
+          #  uout[!is.na(uout$logrr) & uout$logrr == 0,]$se <- uout[!is.na(uout$logrr) & uout$logrr == 0,]$lci <- uout[!is.na(uout$logrr) & uout$logrr == 0,]$uci <- 0
           
           
           #cat(i, j, index, "\n")
