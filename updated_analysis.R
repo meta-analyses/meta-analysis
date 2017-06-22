@@ -80,9 +80,7 @@ if (total_population){
     cat("Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
     acmfdata <- subset(raw_data, outcome == uoutcome$outcome[i] & pa_domain_subgroup == "LTPA" & (overall == 1 | sex_subgroups == 3))
     if (nrow(acmfdata) > 0){
-      #acmfdata$dose <- acmfdata$Final.Harmonised.exposure..MMET.hrs.wk.
-      #acmfdata$Final.Harmonised.exposure..MMET.hrs.wk. <- NULL
-      
+
       acmfdata <- getMissingVariables(acmfdata, infertotalpersons = T, kcases = T)
       
       # Remove when totalperson is not available for hr, and personsyears for rr/or
@@ -153,8 +151,6 @@ if(female_population){
       # Remove when totalperson is not available for hr, and personsyears for rr/or
       acmfdata <- subset(acmfdata, !((effect_measure == "hr" & (is.na(personyrs) | personyrs == 0) ) | 
                                        (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
-      
-      
       
       acmfdata <- subset(acmfdata, select = c(id, ref_number, effect_measure, type, totalpersons, personyrs, dose, rr, logrr, cases, uci_effect, lci_effect, se))
       b <- acmfdata
