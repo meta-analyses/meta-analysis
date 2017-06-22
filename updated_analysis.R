@@ -146,7 +146,7 @@ for (i in 1:nrow(uoutcome)){
 
 if(female_population){
 for (i in 1:nrow(uoutcome)){
-  #i = 11
+  # i = 3
   cat("Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
   acmfdata <- subset(raw_data, outcome == uoutcome$outcome[i] & pa_domain_subgroup == "LTPA" & sex_subgroups == 2)
   if (nrow(acmfdata) > 0){
@@ -158,16 +158,16 @@ for (i in 1:nrow(uoutcome)){
     
     
     
-    #cat(unique(acmfdata$id))
-    
+    acmfdata <- subset(acmfdata, select = c(id, ref_number, effect_measure, type, totalpersons, personyrs, dose, rr, logrr, cases, uci_effect, lci_effect, se))
     b <- acmfdata
     
-    acmfdata <- subset(b, select = c(id, ref_number, effect_measure, type, totalpersons, personyrs, dose, rr, logrr, cases, se))
-    
-    if (uoutcome$outcome[i] == 'breast cancer'){ #1 4 5 6 7 9 10 11 12 13 14 15 16 17 19 20
-      # 11, 17
-      acmfdata <- subset(b, id %in% c(1, 4:7, 9, 10, 12:16, 12, 20))
-      #metaAnalysis(acmfdata, ptitle = paste( uoutcome$outcome[i] , " LTPA - Total Population"), covMethed = T)
+    if (uoutcome$outcome[i] == 'breast cancer'){ 
+      
+      # Problematic ids: 17, 18
+      # Remove id 17 as it has only one exposure
+      acmfdata <- subset(acmfdata, !id %in% 17)
+      # Set se to zero with rr 1, other than the first rr
+      acmfdata[acmfdata$id == 18 & acmfdata$rr == 1.05 & acmfdata$cases == 210,]$se <- 0
     }
     
     if (nrow(acmfdata) > 0){
