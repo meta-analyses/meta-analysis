@@ -1,7 +1,7 @@
 rm (list = ls())
 
-total_population <- F
-male_population <- T
+total_population <- T
+male_population <- F
 female_population <- F
 
 # Read the data
@@ -75,7 +75,7 @@ raw_data <- subset(brd, select = c(ref_number, outcome, pa_domain_subgroup, over
 
 if (total_population){
   for (i in 1:nrow(uoutcome)){
-    # i = 6
+    #i = 2
     
     cat("Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
     acmfdata <- subset(raw_data, outcome == uoutcome$outcome[i] & pa_domain_subgroup == "LTPA" & (overall == 1 | sex_subgroups == 3))
@@ -108,7 +108,7 @@ if (total_population){
       }
       
       if (nrow(acmfdata) > 0){
-        metaAnalysis(acmfdata, ptitle = paste( uoutcome$outcome[i] , " (LTPA) ", " - Total Population"), covMethed = T, minQuantile = 0, maxQuantile = 0.75)
+        metaAnalysis(acmfdata, ptitle = paste0( uoutcome$outcome[i] , " (LTPA) ", " - Total Population"), covMethed = T, minQuantile = 0, maxQuantile = 0.75)
       }
     }
   }
