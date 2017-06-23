@@ -1,8 +1,8 @@
 rm (list = ls())
 
 total_population <- F
-male_population <- F
-female_population <- T
+male_population <- T
+female_population <- F
 
 # Read the data
 raw_data <- read.csv("data/20170621_MASTER_PA_Dose_Metananalysis_Data_Extraction.csv", header = T, stringsAsFactors = F, skipNul = TRUE)
@@ -108,7 +108,7 @@ if (total_population){
       }
       
       if (nrow(acmfdata) > 0){
-        metaAnalysis(acmfdata, ptitle = paste( uoutcome$outcome[i] , " LTPA - Total Population"), covMethed = T, minQuantile = 0, maxQuantile = 0.75)
+        metaAnalysis(acmfdata, ptitle = paste( uoutcome$outcome[i] , " (LTPA) ", " - Total Population"), covMethed = T, minQuantile = 0, maxQuantile = 0.75)
       }
     }
   }
@@ -134,7 +134,7 @@ if(male_population){
       b <- acmfdata
       
       if (nrow(acmfdata) > 0){
-        metaAnalysis(acmfdata, ptitle = paste( uoutcome$outcome[i] , " LTPA - Male Population"), covMethed = T)
+        metaAnalysis(acmfdata, ptitle = paste( uoutcome$outcome[i] ,  " (LTPA) ", " - Male Population"), covMethed = T, minQuantile = 0, maxQuantile = 0.75)
       }
     }
   }
@@ -165,7 +165,7 @@ if(female_population){
       }
       
       if (nrow(acmfdata) > 0){
-        metaAnalysis(acmfdata, ptitle = paste( uoutcome$outcome[i] , " LTPA - Female Population"), covMethed = T)
+        metaAnalysis(acmfdata, ptitle = paste0( uoutcome$outcome[i] ,  " (LTPA) ", " - Female Population"), covMethed = T, minQuantile = 0, maxQuantile = 0.75)
       }
     }
   }
