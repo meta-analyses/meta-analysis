@@ -458,7 +458,9 @@ metaAnalysis <-
         with(pred_spl,
              matplot(newdata$dose, cbind(pred, ci.lb, ci.ub), type = "l", bty = "n",
                      xlab = "Dose", ylab = "Relative Risk", las = 1, 
-                     col = "black", lty = "solid", log = "y", main = ptitle)
+                     col = "black", lty = "solid", log = "y", main = paste(simpleCap(ptitle), ' \n Number of samples: ', 
+                                                                           length(unique(pa$id)), 
+                                                                           ' \n Number of population: ' , sum(pa$totalpersons)))
         )
       #dev.off()
       
@@ -641,4 +643,11 @@ getPIF <- function(acmfdata, plot_data){
   
   m
   
+}
+
+
+simpleCap <- function(x) {
+  s <- strsplit(x, " ")[[1]]
+  paste(toupper(substring(s, 1,1)), substring(s, 2),
+        sep="", collapse=" ")
 }
