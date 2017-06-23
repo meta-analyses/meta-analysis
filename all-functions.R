@@ -460,7 +460,7 @@ metaAnalysis <-
                      xlab = "Dose", ylab = "Relative Risk", las = 1, xlim = c(0,80),
                      col = "black", lty = "solid", log = "y", main = paste0(simpleCap(ptitle), ' \n Number of samples: ', 
                                                                            length(unique(pa$id)), 
-                                                                           ' \n Number of people: ' , sum(pa$totalpersons)))
+                                                                           ' \n Number of people: ' , round(sum(pa$totalpersons))))
         )
       #dev.off()
       
