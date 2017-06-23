@@ -108,7 +108,9 @@ if (total_population){
       }
       
       if (nrow(acmfdata) > 0){
+        #jpeg(paste0(uoutcome$outcome[i], '.jpg'))
         metaAnalysis(acmfdata, ptitle = paste0( uoutcome$outcome[i] , " (LTPA) ", " - Total Population"), covMethed = T, minQuantile = 0, maxQuantile = 0.75)
+        #dev.off()
       }
     }
   }
