@@ -458,9 +458,9 @@ metaAnalysis <-
         with(pred_spl,
              matplot(newdata$dose, cbind(pred, ci.lb, ci.ub), type = "l", bty = "n",
                      xlab = "Dose", ylab = "Relative Risk", las = 1, 
-                     col = "black", lty = "solid", log = "y", main = paste(simpleCap(ptitle), ' \n Number of samples: ', 
+                     col = "black", lty = "solid", log = "y", main = paste0(simpleCap(ptitle), ' \n Number of samples: ', 
                                                                            length(unique(pa$id)), 
-                                                                           ' \n Number of population: ' , sum(pa$totalpersons)))
+                                                                           ' \n Number of people: ' , sum(pa$totalpersons)))
         )
       #dev.off()
       
