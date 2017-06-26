@@ -60,25 +60,13 @@ raw_data$dose <- raw_data$Final.Harmonised.exposure..MMET.hrs.wk.
 raw_data$Final.Harmonised.exposure..MMET.hrs.wk. <- NULL
 raw_data$rr <- raw_data$effect
 
-
-brd <- raw_data
-
-raw_data <- subset(brd, select = c(ref_number, outcome, pa_domain_subgroup, overall, sex_subgroups, effect_measure, type, n_baseline, totalpersons, tot_personyrs, personyrs, 
+raw_data <- subset(raw_data, select = c(ref_number, outcome, pa_domain_subgroup, overall, sex_subgroups, effect_measure, type, n_baseline, totalpersons, tot_personyrs, personyrs, 
                                    mean_followup, dose, rr, effect, uci_effect, lci_effect, cases))
 
 
 ## Populate missing totalpersons and personyrs
 
 for (i in unique(raw_data$ref_number)){
-  # td$totalpersons <- round(((td$cases) / sum(td$cases) ) * td$n_baseline)
-  # td$personyrs <- round(((td$cases) / sum(td$cases) ) * td$tot_personyrs)
-  # i <- 5
-  #cat("ref_number ", i, "\n")
-
-  # cat(raw_data[!is.na(raw_data$n_baseline) & raw_data$ref_number == i & (is.na(raw_data$totalpersons)) & (is.na(raw_data$personyrs)) & !(is.na(raw_data$cases)),]$totalpersons)
-  # cat(raw_data[!is.na(raw_data$n_baseline) & raw_data$ref_number == i & (is.na(raw_data$totalpersons)) & (is.na(raw_data$personyrs)) & !(is.na(raw_data$cases)),]$cases)
-  # cat(raw_data[!is.na(raw_data$n_baseline) & raw_data$ref_number == i & (is.na(raw_data$totalpersons)) & (is.na(raw_data$personyrs)) & !(is.na(raw_data$cases)),]$cases)
-  # cat(raw_data[!is.na(raw_data$n_baseline) & raw_data$ref_number == i & (is.na(raw_data$totalpersons)) & (is.na(raw_data$personyrs)) & !(is.na(raw_data$cases)),]$n_baseline)
 
   raw_data[!is.na(raw_data$n_baseline) & raw_data$ref_number == i & (is.na(raw_data$totalpersons)) & (is.na(raw_data$personyrs)) & !(is.na(raw_data$cases)),]$totalpersons <-
     round(raw_data[!is.na(raw_data$n_baseline) & raw_data$ref_number == i & (is.na(raw_data$totalpersons)) & (is.na(raw_data$personyrs)) & !(is.na(raw_data$cases)),]$cases /
@@ -86,29 +74,15 @@ for (i in unique(raw_data$ref_number)){
             raw_data[!is.na(raw_data$n_baseline) & raw_data$ref_number == i & (is.na(raw_data$totalpersons)) & (is.na(raw_data$personyrs)) & !(is.na(raw_data$cases)),]$n_baseline)
 }
 
-# n_baseline, totalpersons, tot_personyrs, personyrs
-
-
-#raw_data <- brd
 
 if (total_population){
   for (i in 1:nrow(uoutcome)){
     # i = 6
-    
     cat("Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
     acmfdata <- subset(raw_data, outcome == uoutcome$outcome[i] & pa_domain_subgroup == "LTPA" & (overall == 1 | sex_subgroups == 3))
     if (nrow(acmfdata) > 0){
 
       acmfdata <- getMissingVariables(acmfdata, infertotalpersons = T, kcases = T)
-      
-      # for (index in unique(acmfdata$ref_number)){
-      # 
-      #   acmfdata[!is.na(acmfdata$n_baseline) & acmfdata$ref_number == index & (is.na(acmfdata$totalpersons)) & (is.na(acmfdata$personyrs)) & !(is.na(acmfdata$cases)),]$totalpersons <- 
-      #     round(acmfdata[!is.na(acmfdata$n_baseline) & acmfdata$ref_number == index & (is.na(acmfdata$totalpersons)) & (is.na(acmfdata$personyrs)) & !(is.na(acmfdata$cases)),]$cases / 
-      #             sum(acmfdata[!is.na(acmfdata$n_baseline) & acmfdata$ref_number == index & (is.na(acmfdata$totalpersons)) & (is.na(acmfdata$personyrs)) & !(is.na(acmfdata$cases)),]$cases)  * 
-      #             acmfdata[!is.na(acmfdata$n_baseline) & acmfdata$ref_number == index & (is.na(acmfdata$totalpersons)) & (is.na(acmfdata$personyrs)) & !(is.na(acmfdata$cases)),]$n_baseline)
-      # }
-      
       
       # Remove when totalperson is not available for hr, and personsyears for rr/or
       acmfdata <- subset(acmfdata, !((effect_measure == "hr" & (is.na(personyrs) | personyrs == 0) ) | 
