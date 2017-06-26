@@ -1,8 +1,8 @@
 rm (list = ls())
 
-total_population <- T
+total_population <- F
 male_population <- F
-female_population <- F
+female_population <- T
 
 # Read the data
 raw_data <- read.csv("data/20170623_MASTER_PA_Dose_Metananalysis_Data_Extraction.csv", header = T, stringsAsFactors = F, skipNul = TRUE)
@@ -91,27 +91,8 @@ if (total_population){
       # Subset to selected columns
       acmfdata <- subset(acmfdata, select = c(id, ref_number, effect_measure, type, totalpersons, personyrs, dose, rr, logrr, cases, uci_effect, lci_effect, se))
       
-      # if (uoutcome$outcome[i] == 'breast cancer'){ #1 4 5 6 7 9 10 11 12 13 14 15 16 17 19 20
-      #   
-      #   # Remove a study with just one exposure
-      #   acmfdata <- subset(acmfdata, !id %in% c(14))
-      #   
-      #   # Set standard error to zero to the first exposure
-      #   # id == 15, rr 1.05, effect 1.05, uci_effect 1.34, lci_effect 0.82, cases == 210, 
-      #   acmfdata[acmfdata$id == 15 & acmfdata$rr == 1.05 & acmfdata$cases == 210,]$se <- 0
-      #   # acmfdata[acmfdata$id == 15 & acmfdata$rr == 1.05 & acmfdata$effect == 1.05 & acmfdata$uci_effect == 1.34 & acmfdata$lci_effect == 0.82
-      #   #          & acmfdata$cases == 210,]$se <- 0
-      #   
-      #   # # -----------------------
-      #   # # 9, 14, 15
-      #   # acmfdata <- subset(b, id %in% c(1, 4, 5, 6, 7, 10:13, 16, 17, 19, 20))
-      #   
-      # }
-      
       if (nrow(acmfdata) > 0){
-        #jpeg(paste0(uoutcome$outcome[i], '.jpg'))
         metaAnalysis(acmfdata, ptitle = paste0( uoutcome$outcome[i] , " (LTPA) ", " - Total Population"), covMethed = T, minQuantile = 0, maxQuantile = 0.75)
-        #dev.off()
       }
     }
   }
@@ -156,16 +137,6 @@ if(female_population){
                                        (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
       
       acmfdata <- subset(acmfdata, select = c(id, ref_number, effect_measure, type, totalpersons, personyrs, dose, rr, logrr, cases, uci_effect, lci_effect, se))
-      b <- acmfdata
-      
-      if (uoutcome$outcome[i] == 'breast cancer'){ 
-        
-        # Problematic ids: 17, 18
-        # Remove id 17 as it has only one exposure
-        acmfdata <- subset(acmfdata, !id %in% 17)
-        # Set se to zero with rr 1, other than the first rr
-        acmfdata[acmfdata$id == 18 & acmfdata$rr == 1.05 & acmfdata$cases == 210,]$se <- 0
-      }
       
       if (nrow(acmfdata) > 0){
         metaAnalysis(acmfdata, ptitle = paste0( uoutcome$outcome[i] ,  " (LTPA) ", " - Female Population"), covMethed = T, minQuantile = 0, maxQuantile = 0.75)
