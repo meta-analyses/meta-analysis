@@ -6,8 +6,6 @@ female_population <- F
 
 # Read the data
 raw_data <- read.csv("data/20170621_MASTER_PA_Dose_Metananalysis_Data_Extraction.csv", header = T, stringsAsFactors = F, skipNul = TRUE)
-#raw_data[is.na(raw_data)] <- ""
-#raw_data <- raw_data[!apply(raw_data == "", 1, all),]
 
 raw_data$tot_personyrs <- as.numeric(raw_data$tot_personyrs)
 #raw_data[is.na(raw_data$tot_personyrs),]$tot_personyrs <- 0
@@ -65,23 +63,52 @@ raw_data$rr <- raw_data$effect
 
 brd <- raw_data
 
-raw_data <- subset(brd, select = c(ref_number, outcome, pa_domain_subgroup, overall, sex_subgroups, effect_measure, type, totalpersons, personyrs, 
+raw_data <- subset(brd, select = c(ref_number, outcome, pa_domain_subgroup, overall, sex_subgroups, effect_measure, type, n_baseline, totalpersons, tot_personyrs, personyrs, 
                                    mean_followup, dose, rr, effect, uci_effect, lci_effect, cases))
 
 
-#effect_measure, totalpersons, personyrs, mean_followup)
+## Populate missing totalpersons and personyrs
+
+for (i in unique(raw_data$ref_number)){
+  # td$totalpersons <- round(((td$cases) / sum(td$cases) ) * td$n_baseline)
+  # td$personyrs <- round(((td$cases) / sum(td$cases) ) * td$tot_personyrs)
+  # i <- 5
+  #cat("ref_number ", i, "\n")
+
+  # cat(raw_data[!is.na(raw_data$n_baseline) & raw_data$ref_number == i & (is.na(raw_data$totalpersons)) & (is.na(raw_data$personyrs)) & !(is.na(raw_data$cases)),]$totalpersons)
+  # cat(raw_data[!is.na(raw_data$n_baseline) & raw_data$ref_number == i & (is.na(raw_data$totalpersons)) & (is.na(raw_data$personyrs)) & !(is.na(raw_data$cases)),]$cases)
+  # cat(raw_data[!is.na(raw_data$n_baseline) & raw_data$ref_number == i & (is.na(raw_data$totalpersons)) & (is.na(raw_data$personyrs)) & !(is.na(raw_data$cases)),]$cases)
+  # cat(raw_data[!is.na(raw_data$n_baseline) & raw_data$ref_number == i & (is.na(raw_data$totalpersons)) & (is.na(raw_data$personyrs)) & !(is.na(raw_data$cases)),]$n_baseline)
+
+  raw_data[!is.na(raw_data$n_baseline) & raw_data$ref_number == i & (is.na(raw_data$totalpersons)) & (is.na(raw_data$personyrs)) & !(is.na(raw_data$cases)),]$totalpersons <-
+    round(raw_data[!is.na(raw_data$n_baseline) & raw_data$ref_number == i & (is.na(raw_data$totalpersons)) & (is.na(raw_data$personyrs)) & !(is.na(raw_data$cases)),]$cases /
+            sum(raw_data[!is.na(raw_data$n_baseline) & raw_data$ref_number == i & (is.na(raw_data$totalpersons)) & (is.na(raw_data$personyrs)) & !(is.na(raw_data$cases)),]$cases)  *
+            raw_data[!is.na(raw_data$n_baseline) & raw_data$ref_number == i & (is.na(raw_data$totalpersons)) & (is.na(raw_data$personyrs)) & !(is.na(raw_data$cases)),]$n_baseline)
+}
+
+# n_baseline, totalpersons, tot_personyrs, personyrs
+
 
 #raw_data <- brd
 
 if (total_population){
   for (i in 1:nrow(uoutcome)){
-    #i = 2
+    # i = 6
     
     cat("Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
     acmfdata <- subset(raw_data, outcome == uoutcome$outcome[i] & pa_domain_subgroup == "LTPA" & (overall == 1 | sex_subgroups == 3))
     if (nrow(acmfdata) > 0){
 
       acmfdata <- getMissingVariables(acmfdata, infertotalpersons = T, kcases = T)
+      
+      # for (index in unique(acmfdata$ref_number)){
+      # 
+      #   acmfdata[!is.na(acmfdata$n_baseline) & acmfdata$ref_number == index & (is.na(acmfdata$totalpersons)) & (is.na(acmfdata$personyrs)) & !(is.na(acmfdata$cases)),]$totalpersons <- 
+      #     round(acmfdata[!is.na(acmfdata$n_baseline) & acmfdata$ref_number == index & (is.na(acmfdata$totalpersons)) & (is.na(acmfdata$personyrs)) & !(is.na(acmfdata$cases)),]$cases / 
+      #             sum(acmfdata[!is.na(acmfdata$n_baseline) & acmfdata$ref_number == index & (is.na(acmfdata$totalpersons)) & (is.na(acmfdata$personyrs)) & !(is.na(acmfdata$cases)),]$cases)  * 
+      #             acmfdata[!is.na(acmfdata$n_baseline) & acmfdata$ref_number == index & (is.na(acmfdata$totalpersons)) & (is.na(acmfdata$personyrs)) & !(is.na(acmfdata$cases)),]$n_baseline)
+      # }
+      
       
       # Remove when totalperson is not available for hr, and personsyears for rr/or
       acmfdata <- subset(acmfdata, !((effect_measure == "hr" & (is.na(personyrs) | personyrs == 0) ) | 
@@ -90,22 +117,22 @@ if (total_population){
       # Subset to selected columns
       acmfdata <- subset(acmfdata, select = c(id, ref_number, effect_measure, type, totalpersons, personyrs, dose, rr, logrr, cases, uci_effect, lci_effect, se))
       
-      if (uoutcome$outcome[i] == 'breast cancer'){ #1 4 5 6 7 9 10 11 12 13 14 15 16 17 19 20
-        
-        # Remove a study with just one exposure
-        acmfdata <- subset(acmfdata, !id %in% c(14))
-        
-        # Set standard error to zero to the first exposure
-        # id == 15, rr 1.05, effect 1.05, uci_effect 1.34, lci_effect 0.82, cases == 210, 
-        acmfdata[acmfdata$id == 15 & acmfdata$rr == 1.05 & acmfdata$cases == 210,]$se <- 0
-        # acmfdata[acmfdata$id == 15 & acmfdata$rr == 1.05 & acmfdata$effect == 1.05 & acmfdata$uci_effect == 1.34 & acmfdata$lci_effect == 0.82
-        #          & acmfdata$cases == 210,]$se <- 0
-        
-        # # -----------------------
-        # # 9, 14, 15
-        # acmfdata <- subset(b, id %in% c(1, 4, 5, 6, 7, 10:13, 16, 17, 19, 20))
-        
-      }
+      # if (uoutcome$outcome[i] == 'breast cancer'){ #1 4 5 6 7 9 10 11 12 13 14 15 16 17 19 20
+      #   
+      #   # Remove a study with just one exposure
+      #   acmfdata <- subset(acmfdata, !id %in% c(14))
+      #   
+      #   # Set standard error to zero to the first exposure
+      #   # id == 15, rr 1.05, effect 1.05, uci_effect 1.34, lci_effect 0.82, cases == 210, 
+      #   acmfdata[acmfdata$id == 15 & acmfdata$rr == 1.05 & acmfdata$cases == 210,]$se <- 0
+      #   # acmfdata[acmfdata$id == 15 & acmfdata$rr == 1.05 & acmfdata$effect == 1.05 & acmfdata$uci_effect == 1.34 & acmfdata$lci_effect == 0.82
+      #   #          & acmfdata$cases == 210,]$se <- 0
+      #   
+      #   # # -----------------------
+      #   # # 9, 14, 15
+      #   # acmfdata <- subset(b, id %in% c(1, 4, 5, 6, 7, 10:13, 16, 17, 19, 20))
+      #   
+      # }
       
       if (nrow(acmfdata) > 0){
         #jpeg(paste0(uoutcome$outcome[i], '.jpg'))
