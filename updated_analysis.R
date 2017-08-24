@@ -3,10 +3,10 @@ rm (list = ls())
 total_population <- T
 male_population <- T
 female_population <- T
-local_pa_domain_subgroup <- "TPA"
+local_pa_domain_subgroup <- "LTPA"
 
 # Read the data
-raw_data <- read.csv("data/20170626_MASTER_PA_Dose_Metananalysis_Data_Extraction.csv", header = T, stringsAsFactors = F, skipNul = TRUE)
+raw_data <- read.csv("data/20170704_MASTER_PA_Dose_Metananalysis_Data_Extraction.csv", header = T, stringsAsFactors = F, skipNul = TRUE)
 
 raw_data$tot_personyrs <- as.numeric(raw_data$tot_personyrs)
 #raw_data[is.na(raw_data$tot_personyrs),]$tot_personyrs <- 0
@@ -61,7 +61,7 @@ raw_data$dose <- raw_data$Final.Harmonised.exposure..MMET.hrs.wk.
 raw_data$Final.Harmonised.exposure..MMET.hrs.wk. <- NULL
 raw_data$rr <- raw_data$effect
 
-raw_data <- subset(raw_data, select = c(ref_number, outcome, pa_domain_subgroup, overall, sex_subgroups, effect_measure, type, n_baseline, totalpersons, tot_personyrs, personyrs, 
+raw_data <- subset(raw_data, select = c(ref_number, Author, outcome, pa_domain_subgroup, overall, sex_subgroups, effect_measure, type, n_baseline, totalpersons, tot_personyrs, personyrs, 
                                    mean_followup, dose, rr, effect, uci_effect, lci_effect, cases))
 
 
@@ -84,7 +84,7 @@ for (i in unique(raw_data$ref_number)){
 
 if (total_population){
   for (i in 1:nrow(uoutcome)){
-    i <- 6
+    i <- 5
     cat("Total Population - Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
     acmfdata <- subset(raw_data, outcome == uoutcome$outcome[i] & pa_domain_subgroup == local_pa_domain_subgroup & (overall == 1 | sex_subgroups == 3))
     if (nrow(acmfdata) > 0){
@@ -96,7 +96,7 @@ if (total_population){
                                        (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
       
       # Subset to selected columns
-      acmfdata <- subset(acmfdata, select = c(id, ref_number, effect_measure, type, totalpersons, personyrs, dose, rr, logrr, cases, uci_effect, lci_effect, se))
+      acmfdata <- subset(acmfdata, select = c(id, ref_number, Author, effect_measure, type, totalpersons, personyrs, dose, rr, logrr, cases, uci_effect, lci_effect, se))
       
       if (local_pa_domain_subgroup == "TPA" && (i == 4 || i == 10)){
         acmfdata[acmfdata$logrr == 0,]$se <- acmfdata[acmfdata$logrr == 0,]$uci_effect <- acmfdata[acmfdata$logrr == 0,]$lci_effect <- 0
@@ -139,7 +139,7 @@ if(male_population){
 
 if(female_population){
   for (i in 1:nrow(uoutcome)){
-    i <- 6
+    i <- 4
     cat("Female Population - Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
     acmfdata <- subset(raw_data, outcome == uoutcome$outcome[i] & pa_domain_subgroup == local_pa_domain_subgroup & sex_subgroups == 2)
     if (nrow(acmfdata) > 0){
@@ -149,13 +149,14 @@ if(female_population){
       acmfdata <- subset(acmfdata, !((effect_measure == "hr" & (is.na(personyrs) | personyrs == 0) ) | 
                                        (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
       
-      acmfdata <- subset(acmfdata, select = c(id, ref_number, effect_measure, type, totalpersons, personyrs, dose, rr, logrr, cases, uci_effect, lci_effect, se))
+      acmfdata <- subset(acmfdata, select = c(id, ref_number, Author, effect_measure, type, totalpersons, personyrs, dose, rr, logrr, cases, uci_effect, lci_effect, se))      
+      
       
       if (local_pa_domain_subgroup == "TPA" && (i == 4 || i == 10))
         acmfdata[acmfdata$logrr == 0,]$se <- acmfdata[acmfdata$logrr == 0,]$uci_effect <- acmfdata[acmfdata$logrr == 0,]$lci_effect <- 0
       
       if (nrow(acmfdata) > 0){
-        metaAnalysis(acmfdata, ptitle = paste0( uoutcome$outcome[i] ,  " (", local_pa_domain_subgroup,") ", " - Female Population"), covMethed = T, minQuantile = 0, maxQuantile = 0.75)
+        metaAnalysis(acmfdata, ptitle = paste0( uoutcome$outcome[i] ,  " (", local_pa_domain_subgroup,") ", " - Female Population"), covMethed = T, minQuantile = 0, maxQuantile = 0.65)
       }
     }
   }
