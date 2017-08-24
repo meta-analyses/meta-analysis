@@ -470,6 +470,62 @@ metaAnalysis <-
     
   }
 
+
+metaAnalysisInterval <-
+  function (pa, center1 = T, intercept1 = F, ptitle = NA, covMethed = F,  returnval = F, interval = c(0.1,0.9) , lout = 100, lby = NULL) 
+  {
+    if (!is.null(pa) && nrow(pa) > 0){
+      library(dosresmeta)
+      library(rms)
+      
+      k <- quantile(pa$dose, interval)
+      spl <- NULL
+      if (covMethed){
+        spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = ifelse(effect_measure == "hr", personyrs, totalpersons),
+                          type = type, se = se, id = id, 
+                          center = center1, 
+                          intercept = intercept1,
+                          covariance = "h",
+                          data = pa)#,
+        #method = "fixed")
+      }
+      else{
+        spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = ifelse(effect_measure == "hr", personyrs, totalpersons), 
+                          type = type, se = se, id = id,  
+                          center = center1, 
+                          intercept = intercept1,
+                          data = pa)#,
+        #method = "fixed")
+      }
+      newdata <- NULL
+      if (is.null(lby))
+        newdata <- data.frame(dose = seq(min(pa$dose), max(pa$dose), length.out = lout))
+      else{
+        newdata <- data.frame(dose = seq(min(pa$dose), max(pa$dose), by = lby))
+      }
+      pred_spl <- predict(spl, newdata, expo = T)
+      #pred_spl <- predict(spl, newdata, expo = T, xref = 0)
+      #windows()
+      # Comment out capitalization of start of words
+      #ptitle <- trimws(stringi::stri_trans_totitle(ptitle))
+      #png(filename=paste0("data/", trimws(ptitle), ".png"))
+      #write.csv(pa, file = paste0("data/", trimws(ptitle), ".csv"), row.names = F)
+      if (!returnval)
+        with(pred_spl,
+             matplot(newdata$dose, cbind(pred, ci.lb, ci.ub), type = "l", bty = "n",
+                     xlab = "Dose", ylab = "Relative Risk", las = 1, xlim = c(0, 90),
+                     col = "black", lty = "solid", log = "y", main = paste0(simpleCap(ptitle), ' \n Number of samples: ', 
+                                                                            length(unique(pa$id)), 
+                                                                            ' \n Number of people: ' , round(sum(pa$totalpersons))))
+        )
+      #dev.off()
+      
+      if (returnval)
+        return(list(newdata$dose,cbind(pred_spl$pred, pred_spl$ci.lb, pred_spl$ci.ub)))
+    }
+    
+  }
+
 plotMetaAnalysis <-
   function(data, outcome, ptitle, paexposure1, overall1, sex = NA){
     
