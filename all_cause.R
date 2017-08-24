@@ -39,6 +39,51 @@ ggplot(all_cause, aes(dose, rr, group = id, shape = authors)) +
    scale_y_continuous("Hazard Ratio" , trans = "log", 
                       breaks = c(.5, .75, 1))
 
+#################################################
+# descriptive plot
+## Temporarily remove ref_number 81
+# rdata <- subset(acmfdata, ref_number != 81)
+rdata <- acmfdata
+ggplot(rdata, aes(dose, rr, group = id, shape = Author)) + 
+  scale_shape_manual(values = seq_along(unique(rdata$id))) +
+  labs(shape = "Authors") +
+  geom_line() + geom_point() + theme_classic() + ylab("LnRR") +
+  xlab("LTPA") + 
+  scale_y_continuous("Hazard Ratio" , trans = "log", 
+                     breaks = c(.5, .75, 1))
+
+
+# individual analyses
+k_all_cause <- quantile(acmfdata$dose, c(0, .325, .68))
+modi_spl_all_cause <- lapply(split(acmfdata, acmfdata$id), function(d)
+  dosresmeta(logrr ~ rcs(dose, k_all_cause), id = id, cases = cases,
+             n = ifelse(effect_measure == "hr", personyrs, totalpersons), type = type, se = se, data = d))
+
+# graphical prediction with model data (only for a descriptive point of view)
+
+index <- 1
+par(mfrow = c(2, 2), bty = "n", las = 1)
+mapply(function(spl, d){
+  cat(length(spl), "\n")
+  with(d, errbar(dose, rr, lci_effect, uci_effect, add = F, log = "y", lty = 1, 
+                 xlab = "LTPA", ylab = "Hazard Ratio", main =  Author))
+  newdata <- data.frame(dose = seq(min(d$dose), max(d$dose), length.out = 50))
+  with(predict(spl, newdata, xref = d$dose[is.na(d$se)], expo = T), {
+    # matlines(newdata$dose, cbind(pred, ci.lb, ci.ub),
+    #          col = "black", lty = c(1, 2, 2))
+  })
+  # index <- index + 1
+  #title(d$authors[1])
+}, modi_spl_all_cause, split(acmfdata, acmfdata$id), SIMPLIFY = F)
+
+#########################################
+
+# individual analyses
+k_all_cause <- quantile(all_cause$dose, c(.25, .5, .75))
+modi_spl_all_cause <- lapply(split(all_cause, all_cause$id), function(d)
+  dosresmeta(logrr ~ rcs(dose, k_all_cause), id = id, cases = cases,
+             n = n, type = type, se = se, data = d))
+
 # individual analyses
 k_all_cause <- quantile(all_cause$dose, c(.25, .5, .75))
 modi_spl_all_cause <- lapply(split(all_cause, all_cause$id), function(d)
