@@ -1,8 +1,6 @@
 rm (list = ls())
 
 total_population <- T
-male_population <- T
-female_population <- T
 local_pa_domain_subgroup <- "LTPA"
 
 # Read the data
