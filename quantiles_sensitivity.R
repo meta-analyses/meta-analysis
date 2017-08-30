@@ -79,7 +79,7 @@ for (i in unique(raw_data$ref_number)){
 }
 
 
-## Quantiles with 0-0.75
+## Quantiles with 0-0.65
 ## Upward trend
 
 #for (i in 1:nrow(uoutcome)){
@@ -101,7 +101,7 @@ for (i in unique(raw_data$ref_number)){
   }
 #}
   
-## Quantiles with 0-0.65
+## Quantiles with 0-0.75
 ## Upward trend
 
 #for (i in 1:nrow(uoutcome)){
