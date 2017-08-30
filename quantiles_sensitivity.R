@@ -96,7 +96,7 @@ for (i in unique(raw_data$ref_number)){
     # Subset to selected columns
     acmfdata <- subset(acmfdata, select = c(id, ref_number, Author, effect_measure, type, totalpersons, personyrs, dose, rr, logrr, cases, uci_effect, lci_effect, se))
     if (nrow(acmfdata) > 0){
-      metaAnalysis(acmfdata, ptitle = paste0( uoutcome$outcome[i] , " (", local_pa_domain_subgroup,") ", " - Total Population"), minQuantile = 0, maxQuantile = 0.75)
+      metaAnalysis(acmfdata, ptitle = paste0( uoutcome$outcome[i] , " (", local_pa_domain_subgroup,") ", " - Total Population (0 - 0.65)"), minQuantile = 0, maxQuantile = 0.65)
     }
   }
 #}
@@ -118,7 +118,7 @@ for (i in unique(raw_data$ref_number)){
     # Subset to selected columns
     acmfdata <- subset(acmfdata, select = c(id, ref_number, Author, effect_measure, type, totalpersons, personyrs, dose, rr, logrr, cases, uci_effect, lci_effect, se))
     if (nrow(acmfdata) > 0){
-      metaAnalysis(acmfdata, ptitle = paste0( uoutcome$outcome[i] , " (", local_pa_domain_subgroup,") ", " - Total Population"), minQuantile = 0, maxQuantile = 0.75)
+      metaAnalysis(acmfdata, ptitle = paste0( uoutcome$outcome[i] , " (", local_pa_domain_subgroup,") ", " - Total Population (0 - 0.75) "), minQuantile = 0, maxQuantile = 0.75)
     }
   }
 #}
