@@ -1,4 +1,3 @@
-rm (list = ls())
 library(dosresmeta)
 library(rms)
 library(tidyverse)
@@ -7,8 +6,8 @@ library(directlabels)
 library(gridExtra)
 
 
-## LOAD functions
-source("all-functions.R")
+## Call init to load all data and functions
+source("init.R")
 
 
 ## -----------------------------------------------------------------------------
