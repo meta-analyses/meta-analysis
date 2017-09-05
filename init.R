@@ -4,7 +4,7 @@ rm (list = ls())
 local_pa_domain_subgroup <- "LTPA"
 
 # Read the data
-raw_data <- read.csv("data/20170704_MASTER_PA_Dose_Metananalysis_Data_Extraction.csv", header = T, stringsAsFactors = F, skipNul = TRUE)
+raw_data <- read.csv("data/20170905_MASTER_PA_Dose_Metananalysis_Data_Extraction.csv", header = T, stringsAsFactors = F, skipNul = TRUE)
 
 raw_data$tot_personyrs <- as.numeric(raw_data$tot_personyrs)
 #raw_data[is.na(raw_data$tot_personyrs),]$tot_personyrs <- 0
@@ -73,3 +73,6 @@ for (i in unique(raw_data$ref_number)){
             sum(raw_data[!is.na(raw_data$n_baseline) & raw_data$ref_number == i & (is.na(raw_data$totalpersons)) & (is.na(raw_data$personyrs)) & !(is.na(raw_data$cases)),]$cases)  *
             raw_data[!is.na(raw_data$n_baseline) & raw_data$ref_number == i & (is.na(raw_data$totalpersons)) & (is.na(raw_data$personyrs)) & !(is.na(raw_data$cases)),]$tot_personyrs)
 }
+
+raw_data[raw_data$overall != 1 & raw_data$sex_subgroups == 1,]$ref_number <- paste0(raw_data[raw_data$overall != 1 & raw_data$sex_subgroups == 1,]$ref_number, "-1")
+raw_data[raw_data$overall != 1 & raw_data$sex_subgroups == 2,]$ref_number <- paste0(raw_data[raw_data$overall != 1 & raw_data$sex_subgroups == 2,]$ref_number, "-2")
