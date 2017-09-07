@@ -74,5 +74,8 @@ for (i in unique(raw_data$ref_number)){
             raw_data[!is.na(raw_data$n_baseline) & raw_data$ref_number == i & (is.na(raw_data$totalpersons)) & (is.na(raw_data$personyrs)) & !(is.na(raw_data$cases)),]$tot_personyrs)
 }
 
-raw_data[raw_data$overall != 1 & raw_data$sex_subgroups == 1,]$ref_number <- paste0(raw_data[raw_data$overall != 1 & raw_data$sex_subgroups == 1,]$ref_number, "-1")
-raw_data[raw_data$overall != 1 & raw_data$sex_subgroups == 2,]$ref_number <- paste0(raw_data[raw_data$overall != 1 & raw_data$sex_subgroups == 2,]$ref_number, "-2")
+#raw_data[raw_data$overall != 1 & raw_data$sex_subgroups == 1,]$ref_number <- paste0(raw_data[raw_data$overall != 1 & raw_data$sex_subgroups == 1,]$ref_number, "-1")
+#raw_data[raw_data$overall != 1 & raw_data$sex_subgroups == 2,]$ref_number <- paste0(raw_data[raw_data$overall != 1 & raw_data$sex_subgroups == 2,]$ref_number, "-2")
+
+
+
