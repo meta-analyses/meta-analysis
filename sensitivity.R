@@ -9,6 +9,8 @@ library(gridExtra)
 ## Call init to load all data and functions
 source("init.R")
 
+# Remove all studies with less than 40k n_baseline for all-cause mortality, and 10k for the rest
+raw_data <- subset(raw_data, (outcome == 'all-cause mortality' & n_baseline >= 40000) | (outcome != 'all-cause mortality' & n_baseline >= 1000))
 
 ## -----------------------------------------------------------------------------
 ## select data of interest
@@ -39,7 +41,7 @@ ggplotly(
 ## individual curves
 
 # choose the knot you're interested
-last_k <- .65
+last_k <- .75
 k <- quantile(acmfdata$dose, c(0, last_k/2, last_k))
 spli <- lapply(split(acmfdata, acmfdata$id), function(d)
   dosresmeta(logrr ~ rcs(dose, k), id = id, type = type, se = se, cases = cases,
@@ -95,7 +97,8 @@ spl_k <- lapply(klist, function(k)
 pred_k <- cbind(newd, do.call("cbind", lapply(spl_k, function(m)
   predict(m, newdata = newd, exp = T)$pred)))
 colnames(pred_k)[-1] <- round(sapply(klist, function(k) k[3]), 0)
-pred_k <- gather(pred_k, last_knot, pred, 2:(length(last_k) + 1))
+range <- 2:(length(last_k) + 1)
+pred_k <- gather(pred_k, last_knot, pred, 2:10)
 
 ggplot(pred_k, aes(dose, pred, label = last_knot, col = last_knot)) + 
   geom_line() +
@@ -134,6 +137,7 @@ newd5 %>%
   geom_ribbon(alpha = .1) +
   scale_y_continuous(trans = "log", breaks = seq(.25, 2, .25)) +
   theme_classic()
+
 
 
 ## -----------------------------------------------------------------------------
