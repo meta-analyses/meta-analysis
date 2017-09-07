@@ -1,4 +1,4 @@
-source("init.R")
+source("filter_studies.R")
 
 total_population <- T
 male_population <- T
@@ -6,9 +6,9 @@ female_population <- T
 
 if (total_population){
   for (i in 1:nrow(uoutcome)){
-    i <- 5
+    #i <- 5
     cat("Total Population - Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
-    acmfdata <- subset(raw_data, outcome == uoutcome$outcome[i] & pa_domain_subgroup == local_pa_domain_subgroup & (overall == 1 | sex_subgroups == 3))
+    acmfdata <- subset(raw_data_tp_ltpa, outcome == uoutcome$outcome[i] & pa_domain_subgroup == local_pa_domain_subgroup)
     if (nrow(acmfdata) > 0){
 
       acmfdata <- getMissingVariables(acmfdata, infertotalpersons = T, kcases = T)
@@ -20,12 +20,18 @@ if (total_population){
       # Subset to selected columns
       acmfdata <- subset(acmfdata, select = c(id, ref_number, Author, effect_measure, type, totalpersons, personyrs, dose, rr, logrr, cases, uci_effect, lci_effect, se))
       
+      #acmfdata <- subset(acmfdata, !is.na(rr))
+      
+      #if (i == 5)
+      #  acmfdata <- subset(acmfdata, !is.na(rr))
+      
+      
       if (local_pa_domain_subgroup == "TPA" && (i == 4 || i == 10)){
         acmfdata[acmfdata$logrr == 0,]$se <- acmfdata[acmfdata$logrr == 0,]$uci_effect <- acmfdata[acmfdata$logrr == 0,]$lci_effect <- 0
       }
       
       if (nrow(acmfdata) > 0){
-        metaAnalysis(acmfdata, ptitle = paste0( uoutcome$outcome[i] , " (", local_pa_domain_subgroup,") ", " - Total Population"), covMethed = T, minQuantile = 0, maxQuantile = 0.75)
+        metaAnalysis(acmfdata, ptitle = paste0( uoutcome$outcome[i] , " (", local_pa_domain_subgroup,") ", " - Total Population"), maxQuantile = 0.65)
       }
     }
   }
