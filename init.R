@@ -32,6 +32,9 @@ uoutcome <- data.frame(outcome = as.character(unique(raw_data$outcome)))
 uoutcome$outcome <- as.character(uoutcome$outcome)
 # Sort
 uoutcome$outcome <- sort(uoutcome$outcome)
+# Remove the blank outcome
+uoutcome <- dplyr::filter(uoutcome, outcome != "")
+
 
 raw_data$totalpersons <- as.numeric(raw_data$totalpersons)
 raw_data$personyrs <- as.numeric(raw_data$personyrs)
