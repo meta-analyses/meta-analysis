@@ -712,7 +712,7 @@ simpleCap <- function(x) {
 get_last_knot <- function(acmfdata, personyrs_pert = 0.25){
   
   top_df <- subset(acmfdata, dose >= (as.numeric(quantile(acmfdata$dose)[4])))
-  bottom_df <- setdiff(acmfdata, top_df)
+  bottom_df <- sqldf::sqldf("select * from acmfdata except select * from top_df")
   max_pert <- 0.25
   
   continue <- TRUE
