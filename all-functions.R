@@ -707,3 +707,35 @@ simpleCap <- function(x) {
   paste(toupper(substring(s, 1,1)), substring(s, 2),
         sep="", collapse=" ")
 }
+
+
+get_last_knot <- function(acmfdata){
+  
+  top_df <- subset(acmfdata, dose >= (as.numeric(quantile(acmfdata$dose)[4])))
+  bottom_df <- setdiff(acmfdata, top_df)
+  personyrs_pert <- 0.25
+  max_pert <- 0.25
+  
+  continue <- TRUE
+  
+  max_dose <- 0
+  
+  percentile <- ecdf(acmfdata$dose)
+  
+  while(continue)
+  {
+    if (sum(top_df$totalpersons, na.rm = T) >= (personyrs_pert * sum(acmfdata$totalpersons, na.rm = T)) ){
+      
+      continue <- FALSE
+    }else{
+      max_dose <- max(bottom_df$dose)
+      row_df <- subset(bottom_df, dose == max_dose)
+      top_df <- rbind(top_df, row_df)
+      bottom_df <- subset(bottom_df, dose != max_dose)
+    }
+  }
+  
+  percentile(max_dose)
+  
+  
+}
