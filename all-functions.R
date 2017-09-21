@@ -709,22 +709,21 @@ simpleCap <- function(x) {
 }
 
 
-get_last_knot <- function(acmfdata){
+get_last_knot <- function(acmfdata, personyrs_pert = 0.25){
   
   top_df <- subset(acmfdata, dose >= (as.numeric(quantile(acmfdata$dose)[4])))
   bottom_df <- setdiff(acmfdata, top_df)
-  personyrs_pert <- 0.25
   max_pert <- 0.25
   
   continue <- TRUE
   
-  max_dose <- 0
+  max_dose <- max(bottom_df$dose)
   
   percentile <- ecdf(acmfdata$dose)
   
   while(continue)
   {
-    if (sum(top_df$totalpersons, na.rm = T) >= (personyrs_pert * sum(acmfdata$totalpersons, na.rm = T)) ){
+    if (sum(top_df$personyrs, na.rm = T) >= (personyrs_pert * sum(acmfdata$personyrs, na.rm = T)) ){
       
       continue <- FALSE
     }else{
@@ -735,7 +734,7 @@ get_last_knot <- function(acmfdata){
     }
   }
   
-  percentile(max_dose)
+  return(c(max_dose, percentile(max_dose)))
   
   
 }
