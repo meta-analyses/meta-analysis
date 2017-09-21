@@ -84,9 +84,10 @@ if (total_population){
 
 if(male_population){
   for (i in 1:nrow(uoutcome)){
-    #i <- 11
+    #i <- 10
     cat("Male Population - Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
-    acmfdata <- subset(raw_data, outcome == uoutcome$outcome[i] & pa_domain_subgroup == local_pa_domain_subgroup & sex_subgroups == 1)
+    acmfdata <- subset(raw_data_gsp_ltpa, outcome == uoutcome$outcome[i] & pa_domain_subgroup == local_pa_domain_subgroup & sex_subgroups == 2)
+    
     if (nrow(acmfdata) > 0){
       acmfdata <- getMissingVariables(acmfdata, infertotalpersons = T, kcases = T)
       
@@ -99,11 +100,54 @@ if(male_population){
       
       acmfdata <- subset(acmfdata, select = c(id, ref_number, effect_measure, type, totalpersons, personyrs, dose, rr, logrr, cases, uci_effect, lci_effect, se))
       
-      if (local_pa_domain_subgroup == "TPA" && (i == 11) )# Remove duplicate rows for ref_number 73
+      local_personyrs_pert <- 0.25
+      if (i == 4 || i == 9)
+        local_personyrs_pert <- 0.1
+      
+      last_knot <- get_last_knot(acmfdata, personyrs_pert = local_personyrs_pert)
+      
+      cat(last_knot, "\n")
+      
+      last_knot <- last_knot[2]
+      
+      
+      if (local_pa_domain_subgroup == "TPA" && (i == 10) )# Remove duplicate rows for ref_number 73
         acmfdata <- acmfdata[!duplicated(acmfdata[c("id", "dose")]),]
       
       if (nrow(acmfdata) > 0){
-        metaAnalysis(acmfdata, ptitle = paste( uoutcome$outcome[i] ,  " (", local_pa_domain_subgroup,") ", " - Male Population"), covMethed = T, minQuantile = 0, maxQuantile = 0.75)
+        
+        dataset <- data.frame(metaAnalysis(acmfdata, returnval = T, 
+                                                        ptitle = "", covMethed = T, minQuantile = 0, maxQuantile = last_knot))
+        colnames(dataset) <- c("dose","RR", "lb", "ub")
+        
+        plotTitle <- paste0( uoutcome$outcome[i] ,  " (", local_pa_domain_subgroup,") ", " - Female Population")
+        
+        
+        
+        q<- quantile(dataset$dose, c(0, last_knot / 2, last_knot))
+        
+        xlab = "Marginal MET hours per week" 
+        #windows()
+        print(
+        ggplot(dataset, aes(dose, RR)) + 
+          geom_line(data = dataset) + 
+          geom_ribbon(data = dataset, aes(ymin=`lb`,ymax=`ub`),alpha=0.4) +
+          #coord_cartesian(ylim = c(0, 1), xlim = c(0, xMax)) +
+          scale_x_continuous(expand = c(0, 0)) + scale_y_continuous(expand = c(0, 0)) + 
+          # coord_cartesian(xlim = c(0, 70)) +
+          xlab(paste("\n", xlab, "\n")) +
+          ylab("\nRelative Risk\n") +
+          geom_vline(xintercept= q, linetype="dotted", alpha=0.4) + 
+          
+          theme(
+            plot.margin = unit(c(2, 1, 1, 1), "cm"), 
+            plot.title = element_text(size = 12, colour = "black", vjust = 7),
+            plot.subtitle = element_text(size = 10, hjust=0.5, face="italic", color="black"),
+            legend.direction = "horizontal",
+            legend.position = c(0.1, 1.05)) + 
+          labs(title = paste(plotTitle)) #+ labs(fill = "")
+        )
+        
       }
     }
   }
