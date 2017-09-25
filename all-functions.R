@@ -713,8 +713,6 @@ get_last_knot <- function(acmfdata, dose_pert = 0.75, personyrs_pert = 0.25){
   
   top_df <- subset(acmfdata, dose >= (as.numeric(quantile(acmfdata$dose, c(0, dose_pert / 2, dose_pert))[3])))
   bottom_df <- sqldf::sqldf("select * from acmfdata except select * from top_df")
-  max_pert <- 0.25
-  
   continue <- TRUE
   
   max_dose <- max(bottom_df$dose)
