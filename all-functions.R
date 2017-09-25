@@ -709,7 +709,7 @@ simpleCap <- function(x) {
 }
 
 
-get_last_knot <- function(acmfdata, dose_pert = 0.75, personyrs_pert = 0.25){
+get_last_knot <- function(acmfdata, dose_pert = 0.75, personyrs_pert = 0.75){
   
   top_df <- subset(acmfdata, dose >= (as.numeric(quantile(acmfdata$dose, c(0, dose_pert / 2, dose_pert))[3])))
   bottom_df <- sqldf::sqldf("select * from acmfdata except select * from top_df")
@@ -721,7 +721,7 @@ get_last_knot <- function(acmfdata, dose_pert = 0.75, personyrs_pert = 0.25){
   
   while(continue)
   {
-    if (sum(top_df$personyrs, na.rm = T) >= (personyrs_pert * sum(acmfdata$personyrs, na.rm = T)) ){
+    if (sum(top_df$personyrs, na.rm = T) >= ( (1 - personyrs_pert) * sum(acmfdata$personyrs, na.rm = T)) ){
       
       continue <- FALSE
     }else{
