@@ -4,7 +4,7 @@ rm (list = ls())
 local_pa_domain_subgroup <- "LTPA"
 
 # Read the data
-raw_data <- read.csv("data/20170908_MASTER_PA_Dose_Metananalysis_Data_Extraction.csv", header = T, stringsAsFactors = F, skipNul = TRUE)
+raw_data <- read.csv("data/20170925_MASTER_PA_Dose_Metananalysis_Data_Extraction.csv", header = T, stringsAsFactors = F, skipNul = TRUE)
 
 raw_data$tot_personyrs <- as.numeric(raw_data$tot_personyrs)
 #raw_data[is.na(raw_data$tot_personyrs),]$tot_personyrs <- 0
@@ -18,6 +18,8 @@ raw_data[(is.na(raw_data$mean_followup)),]$mean_followup <-
   raw_data[(is.na(raw_data$mean_followup)),]$tot_personyrs / raw_data[(is.na(raw_data$mean_followup)),]$n_baseline
 
 raw_data$outcome <- trimws(raw_data$outcome)
+
+raw_data$effect_measure <- trimws(raw_data$effect_measure)
 
 raw_data$outcome <- trimws(raw_data$outcome)
 raw_data$pa_domain_subgroup <- trimws(raw_data$pa_domain_subgroup)
@@ -58,7 +60,7 @@ raw_data$Final.Harmonised.exposure..MMET.hrs.wk. <- NULL
 raw_data$rr <- raw_data$effect
 
 raw_data <- subset(raw_data, select = c(ref_number, Author, outcome, pa_domain_subgroup, overall, sex_subgroups, effect_measure, type, n_baseline, totalpersons, tot_personyrs, personyrs, 
-                                        mean_followup, dose, rr, effect, uci_effect, lci_effect, cases))
+                                        mean_followup, dose, rr, effect, uci_effect, lci_effect, tot_cases, cases))
 
 
 ## Populate missing totalpersons and personyrs
