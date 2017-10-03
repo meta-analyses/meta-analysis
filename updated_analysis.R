@@ -1,7 +1,7 @@
 source("filter_studies.R")
 
-total_population <- T
-male_population <- T
+total_population <- F
+male_population <- F
 female_population <- T
 
 local_last_knot <- 0.75
@@ -71,8 +71,6 @@ if (total_population){
         plotTitle <-  paste0(simpleCap(plotTitle), ' \n Number of samples: ', 
               length(unique(acmfdata$id)), 
               ' \n Number of people: ' , round(sum(acmfdata$totalpersons)))
-        
-        
         
         q<- quantile(dataset$dose, c(0, last_knot / 2, last_knot))
         
@@ -149,6 +147,10 @@ if(male_population){
         
         plotTitle <- paste0( uoutcome$outcome[i] ,  " (", local_pa_domain_subgroup,") ", " - Male Population")
         
+        plotTitle <-  paste0(simpleCap(plotTitle), ' \n Number of samples: ', 
+              length(unique(acmfdata$id)), 
+              ' \n Number of people: ' , round(sum(acmfdata$totalpersons)))
+        
         
         
         q<- quantile(dataset$dose, c(0, last_knot / 2, last_knot))
@@ -181,8 +183,8 @@ if(male_population){
 }
 
 if(female_population){
-  for (i in c(1:8, 10)){#nrow(uoutcome)){
-    # i <- 1
+  for (i in c(1:10)){#nrow(uoutcome)){
+    i <- 4
     cat("Female Population - Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
     acmfdata <- subset(raw_data_gsp_ltpa, outcome == uoutcome$outcome[i] & pa_domain_subgroup == local_pa_domain_subgroup & sex_subgroups == 2)
     
@@ -214,7 +216,9 @@ if(female_population){
         
         plotTitle <- paste0( uoutcome$outcome[i] ,  " (", local_pa_domain_subgroup,") ", " - Female Population")
         
-        
+        plotTitle <-  paste0(simpleCap(plotTitle), ' \n Number of samples: ', 
+              length(unique(acmfdata$id)), 
+              ' \n Number of people: ' , round(sum(acmfdata$totalpersons)))
         
         q<- quantile(dataset$dose, c(0, last_knot / 2, last_knot))
         
