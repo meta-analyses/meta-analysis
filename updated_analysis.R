@@ -8,7 +8,7 @@ local_last_knot <- 0.75
 
 if (total_population){
   for (i in 1:nrow(uoutcome)){
-    i <- 1
+    # i <- 1
     cat("Total Population - Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
     acmfdata <- subset(raw_data_tp_ltpa, outcome == uoutcome$outcome[i] & pa_domain_subgroup == local_pa_domain_subgroup)
     
@@ -50,13 +50,56 @@ if (total_population){
         acmfdata[acmfdata$logrr == 0,]$se <- acmfdata[acmfdata$logrr == 0,]$uci_effect <- acmfdata[acmfdata$logrr == 0,]$lci_effect <- 0
       }
       
+      # Remove ref_number 146 from i == 1
+      if (i == 1){
+        acmfdata <- filter(acmfdata, ref_number != 146)
+      }
+      
       # acmfdata[acmfdata$id == 23 & acmfdata$logrr == 0, ]$lci_effect <- NA
       # acmfdata[acmfdata$id == 23 & acmfdata$logrr == 0, ]$uci_effect <- NA
       # acmfdata[acmfdata$id == 23 & acmfdata$logrr == 0, ]$se <- NA
 
       if (nrow(acmfdata) > 0){
-        metaAnalysis(acmfdata, ptitle = paste0( uoutcome$outcome[i] , " (", local_pa_domain_subgroup,") ", " - Total Population"),
-                     covMethed = T, maxQuantile = last_knot)
+        
+        dataset <- data.frame(metaAnalysis(acmfdata, returnval = T, 
+                                           ptitle = "", covMethed = T, minQuantile = 0, maxQuantile = last_knot))
+        colnames(dataset) <- c("dose","RR", "lb", "ub")
+        
+        plotTitle <- paste0( uoutcome$outcome[i] ,  " (", local_pa_domain_subgroup,") ", " - Total Population")
+        
+        
+        plotTitle <-  paste0(simpleCap(plotTitle), ' \n Number of samples: ', 
+              length(unique(acmfdata$id)), 
+              ' \n Number of people: ' , round(sum(acmfdata$totalpersons)))
+        
+        
+        
+        q<- quantile(dataset$dose, c(0, last_knot / 2, last_knot))
+        
+        xlab = "Marginal MET hours per week" 
+        #windows()
+        print(
+          ggplot(dataset, aes(dose, RR)) + 
+            geom_line(data = dataset) + 
+            geom_ribbon(data = dataset, aes(ymin=`lb`,ymax=`ub`),alpha=0.4) +
+            #coord_cartesian(ylim = c(0, 1), xlim = c(0, xMax)) +
+            scale_x_continuous(expand = c(0, 0)) + scale_y_continuous(expand = c(0, 0)) + 
+            # coord_cartesian(xlim = c(0, 70)) +
+            xlab(paste("\n", xlab, "\n")) +
+            ylab("\nRelative Risk\n") +
+            geom_vline(xintercept= q, linetype="dotted", alpha=0.4) + 
+            
+            theme(
+              plot.margin = unit(c(2, 1, 1, 1), "cm"), 
+              plot.title = element_text(size = 12, colour = "black", vjust = 7),
+              plot.subtitle = element_text(size = 10, hjust=0.5, face="italic", color="black"),
+              legend.direction = "horizontal",
+              legend.position = c(0.1, 1.05)) + 
+            labs(title = paste(plotTitle)) #+ labs(fill = "")
+        )
+        
+        # metaAnalysis(acmfdata, ptitle = paste0( uoutcome$outcome[i] , " (", local_pa_domain_subgroup,") ", " - Total Population"),
+        #              covMethed = T, maxQuantile = last_knot)
       }
     }
   }
