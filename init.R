@@ -59,7 +59,7 @@ raw_data$dose <- raw_data$Final.Harmonised.exposure..MMET.hrs.wk.
 raw_data$Final.Harmonised.exposure..MMET.hrs.wk. <- NULL
 raw_data$rr <- raw_data$effect
 
-raw_data <- subset(raw_data, select = c(ref_number, Author, outcome, pa_domain_subgroup, overall, sex_subgroups, effect_measure, type, n_baseline, totalpersons, tot_personyrs, personyrs, 
+raw_data <- subset(raw_data, select = c(ref_number, Study, Author, outcome, pa_domain_subgroup, overall, sex_subgroups, effect_measure, type, n_baseline, totalpersons, tot_personyrs, personyrs, 
                                         mean_followup, dose, rr, effect, uci_effect, lci_effect, tot_cases, cases))
 
 
