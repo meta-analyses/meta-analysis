@@ -80,22 +80,64 @@ for (i in 1:nrow(uoutcome)){
 for (i in 1:nrow(uoutcome)){
   acmfdata <- subset(raw_data_tp_ltpa, outcome == uoutcome$outcome[i] & pa_domain_subgroup == local_pa_domain_subgroup)
   acmfdata <- getMissingVariables(acmfdata, infertotalpersons = T, kcases = T)
-  
+
   # Remove when totalperson is not available for hr, and personsyears for rr/or
-  acmfdata <- subset(acmfdata, !((effect_measure == "hr" & (is.na(personyrs) | personyrs == 0) ) | 
+  acmfdata <- subset(acmfdata, !((effect_measure == "hr" & (is.na(personyrs) | personyrs == 0) ) |
                                    (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
+  acmfdata$ref_number <- sapply(strsplit(acmfdata$ref_number," "), `[`, 1)
+  cat(length(unique(acmfdata$id)), " ", length(unique(acmfdata$Study)), "\n")
+  td <- acmfdata %>% select(ref_number, Study) %>% distinct()
+  #
+  td <- td %>% group_by(Study) %>% filter( n() > 1 )
+  if (nrow(td) > 0){
+    td$outcome <- uoutcome$outcome[i]
+    td$population <- "total population"
+
+    write.table(td, "test.csv", sep = ",", col.names = F, row.names = F, append = T)
+  }
   
+  # i <- 1
+  acmfdata <- subset(raw_data_gsp_ltpa, outcome == uoutcome$outcome[i] & 
+                       pa_domain_subgroup == local_pa_domain_subgroup & 
+                       sex_subgroups == 1)
   
-  for (j in unique(acmfdata$id)){
-    d <- subset(acmfdata, id == j & rr == 1)
+  acmfdata <- getMissingVariables(acmfdata, infertotalpersons = T, kcases = T)
+  acmfdata[acmfdata$ref_number == "18 -1",]$Study <- "EPIC-Spain"
+  if (!is.null(acmfdata) && nrow(acmfdata) > 0){
+    # Remove when totalperson is not available for hr, and personsyears for rr/or
+    acmfdata <- subset(acmfdata, !((effect_measure == "hr" & (is.na(personyrs) | personyrs == 0) ) | 
+                                     (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
     
-    if (!is.na(d) && nrow(d) == 1 && (d$dose > 10)){
-      cat("Unexpected high referent  dose ", uoutcome$outcome[i], " ", d$dose, " ", unique(d$ref_number), "\n")
+    acmfdata$ref_number <- sapply(strsplit(acmfdata$ref_number," "), `[`, 1)
+    
+    cat(uoutcome$outcome[i], " " , length(unique(acmfdata$id)), " ", length(unique(acmfdata$Study)), "\n")
+    td <- acmfdata %>% select(ref_number, Study) %>% distinct()
+    
+    td <- td %>% group_by(Study) %>% filter( n() > 1 )
+    if (nrow(td) > 0){
+      cat("male population for ", uoutcome$outcome[i], "\n")
+      td$outcome <- uoutcome$outcome[i]
+      td$population <- "male population"
     }
-    
-    u <- subset(acmfdata, id == j)
-    if (max(u$dose) > 80){
-      cat("Unexpected high dose ", uoutcome$outcome[i], " ", max(u$dose), " ", unique(d$ref_number), "\n")
+  }
+  
+  acmfdata <- subset(raw_data_gsp_ltpa, outcome == uoutcome$outcome[i] & pa_domain_subgroup == local_pa_domain_subgroup & sex_subgroups == 2)
+  acmfdata <- getMissingVariables(acmfdata, infertotalpersons = T, kcases = T)
+  if (!is.null(acmfdata) && nrow(acmfdata) > 0){
+    # Remove when totalperson is not available for hr, and personsyears for rr/or
+    acmfdata <- subset(acmfdata, !((effect_measure == "hr" & (is.na(personyrs) | personyrs == 0) ) |
+                                     (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
+    acmfdata$ref_number <- sapply(strsplit(acmfdata$ref_number," "), `[`, 1)
+    cat(length(unique(acmfdata$id)), " ", length(unique(acmfdata$Study)), "\n")
+    td <- acmfdata %>% select(ref_number, Study) %>% distinct()
+
+    td <- td %>% group_by(Study) %>% filter( n() > 1 )
+    if (nrow(td) > 0){
+      td$outcome <- uoutcome$outcome[i]
+      td$population <- "female population"
+      write.table(td, "test.csv", sep = ",", col.names = F, row.names = F, append = T)
     }
   }
 }
+
+
