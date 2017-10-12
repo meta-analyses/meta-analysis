@@ -1,8 +1,8 @@
 source("filter_studies.R")
 
-total_population <- F
+total_population <- T
 male_population <- F
-female_population <- T
+female_population <- F
 
 local_last_knot <- 0.75
 
@@ -51,9 +51,9 @@ if (total_population){
       }
       
       # Remove ref_number 146 from i == 1
-      if (i == 1){
-        acmfdata <- filter(acmfdata, ref_number != 146)
-      }
+      # if (i == 1){
+      #   acmfdata <- filter(acmfdata, ref_number != 146)
+      # }
       
       # acmfdata[acmfdata$id == 23 & acmfdata$logrr == 0, ]$lci_effect <- NA
       # acmfdata[acmfdata$id == 23 & acmfdata$logrr == 0, ]$uci_effect <- NA
@@ -184,9 +184,13 @@ if(male_population){
 
 if(female_population){
   for (i in c(1:10)){#nrow(uoutcome)){
-    i <- 4
+    # i <- 9
     cat("Female Population - Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
-    acmfdata <- subset(raw_data_gsp_ltpa, outcome == uoutcome$outcome[i] & pa_domain_subgroup == local_pa_domain_subgroup & sex_subgroups == 2)
+    acmfdata <- subset(raw_data_gsp_ltpa, outcome == uoutcome$outcome[i] & 
+                         pa_domain_subgroup == local_pa_domain_subgroup & 
+                         sex_subgroups == 2)
+    
+    acmfdata <- subset(acmfdata, n_baseline >= 10000)
     
     if (nrow(acmfdata) > 0){
       acmfdata <- getMissingVariables(acmfdata, infertotalpersons = T, kcases = T)
@@ -211,7 +215,7 @@ if(female_population){
       
       if (nrow(acmfdata) > 0){
         dataset <- data.frame(metaAnalysis(acmfdata, returnval = T, 
-                                           ptitle = "", covMethed = T, minQuantile = 0, maxQuantile = last_knot))
+                                           ptitle = "", covMethed = T, minQuantile = 0, maxQuantile = 0.59))
         colnames(dataset) <- c("dose","RR", "lb", "ub")
         
         plotTitle <- paste0( uoutcome$outcome[i] ,  " (", local_pa_domain_subgroup,") ", " - Female Population")
