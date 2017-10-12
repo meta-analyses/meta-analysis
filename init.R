@@ -4,7 +4,7 @@ rm (list = ls())
 local_pa_domain_subgroup <- "LTPA"
 
 # Read the data
-raw_data <- read.csv("data/20170928_MASTER_PA_Dose_Metananalysis_Data_Extraction.csv", header = T, stringsAsFactors = F, skipNul = TRUE)
+raw_data <- read.csv("data/20171010_MASTER_PA_Dose_Metananalysis_Data_Extraction.csv", header = T, stringsAsFactors = F, skipNul = TRUE)
 
 raw_data$tot_personyrs <- as.numeric(raw_data$tot_personyrs)
 #raw_data[is.na(raw_data$tot_personyrs),]$tot_personyrs <- 0
@@ -60,7 +60,7 @@ raw_data$Final.Harmonised.exposure..MMET.hrs.wk. <- NULL
 raw_data$rr <- raw_data$effect
 
 raw_data <- subset(raw_data, select = c(ref_number, Study, Author, outcome, pa_domain_subgroup, overall, sex_subgroups, effect_measure, type, n_baseline, totalpersons, tot_personyrs, personyrs, 
-                                        mean_followup, dose, rr, effect, uci_effect, lci_effect, tot_cases, cases))
+                                        mean_followup, dose, rr, effect, uci_effect, lci_effect, tot_cases, cases, objective_calibration))
 
 
 ## Populate missing totalpersons and personyrs
