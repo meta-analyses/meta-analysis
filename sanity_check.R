@@ -140,4 +140,28 @@ for (i in 1:nrow(uoutcome)){
   }
 }
 
+## Identify studies with 10 or greater than 10 referent dose
+
+for (i in 1:nrow(uoutcome)){
+  # i <- 1
+  require(dplyr)
+  acmfdata <- subset(raw_data_tp_ltpa, outcome == uoutcome$outcome[i] & pa_domain_subgroup == local_pa_domain_subgroup)
+  acmfdata <- getMissingVariables(acmfdata, infertotalpersons = T, kcases = T)
+  
+  # Remove when totalperson is not available for hr, and personsyears for rr/or
+  acmfdata <- subset(acmfdata, !((effect_measure == "hr" & (is.na(personyrs) | personyrs == 0) ) | 
+                                   (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
+  
+  
+  for (j in unique(acmfdata$id)){
+    # j <- 1
+    d <- subset(acmfdata, id == j & (is.na(se))) # %>% select(dose) %>% as.numeric()
+    # cat("Referent dose: ", uoutcome$outcome[i], " ", d, " ", unique(d$ref_number), "\n")
+    
+    if (as.numeric(d$dose) > 8){
+      cat("Referent dose: ", d$dose, " for ", uoutcome$outcome[i], " with ref_number ", unique(d$ref_number), "\n")
+    }
+    
+  }
+}
 
