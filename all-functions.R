@@ -730,7 +730,7 @@ get_last_knot <- function(acmfdata, dose_pert = 0.75, personyrs_pert = 0.75){
       top_df <- rbind(top_df, row_df)
       
       bottom_df <- subset(bottom_df, dose != max_dose)
-      # cat(percentile(max_dose), " ", max_dose, "\n")
+      cat(percentile(max_dose), " ", max_dose, "\n")
     }
   }
   
