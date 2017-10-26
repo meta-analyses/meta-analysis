@@ -418,29 +418,65 @@ getDiseaseSpecificData <-
 metaAnalysis <-
   function (pa, center1 = T, intercept1 = F, ptitle = NA, covMethed = F,  returnval = F, minQuantile = 0.1, maxQuantile = 0.9, lout = 100, lby = NULL) 
   {
+    
+    
     if (!is.null(pa) && nrow(pa) > 0){
       library(dosresmeta)
       library(rms)
       
       k <- quantile(pa$dose, c(minQuantile, (minQuantile + maxQuantile) / 2, maxQuantile))
+      
       spl <- NULL
+      
       if (covMethed){
-        spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = ifelse(effect_measure == "hr", personyrs, totalpersons),
+        spl <- tryCatch({
+          dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = ifelse(effect_measure == "hr", personyrs, totalpersons),
                           type = type, se = se, id = id, 
                           center = center1, 
                           intercept = intercept1,
                           covariance = "h",
                           data = pa)#,
-        #method = "fixed")
+        },error=function(cond) {
+          message(cond)
+          # Choose a return value in case of error
+          return(NA)
+        },
+        warning=function(cond) {
+          message(cond)
+          # Choose a return value in case of warning
+          return(NULL)
+        },
+        finally={
+          message("Done calculations")
+        })
       }
       else{
-        spl <- dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = ifelse(effect_measure == "hr", personyrs, totalpersons), 
-                          type = type, se = se, id = id,  
-                          center = center1, 
-                          intercept = intercept1,
-                          data = pa)#,
-        #method = "fixed")
+        spl <- tryCatch({
+          dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = ifelse(effect_measure == "hr", personyrs, totalpersons), 
+                     type = type, se = se, id = id,  
+                     center = center1, 
+                     intercept = intercept1,
+                     data = pa)
+        },error=function(cond) {
+          message(cond)
+          # Choose a return value in case of error
+          return(NA)
+        },
+        warning=function(cond) {
+          message(cond)
+          # Choose a return value in case of warning
+          return(NULL)
+        },
+        finally={
+          #message("Done calculations")
+        })
+        
       }
+      
+      if (returnval && (is.na(spl) || is.null(spl))){
+        return(c())
+      }
+
       newdata <- NULL
       if (is.null(lby))
         newdata <- data.frame(dose = seq(min(pa$dose), max(pa$dose), length.out = lout))
@@ -465,7 +501,7 @@ metaAnalysis <-
       #dev.off()
       
       if (returnval)
-        return(list(newdata$dose,cbind(pred_spl$pred, pred_spl$ci.lb, pred_spl$ci.ub)))
+        return(list(newdata$dose,cbind(pred_spl$pred, pred_spl$ci.lb, pred_spl$ci.ub)))#, spl))
     }
     
   }
@@ -730,11 +766,21 @@ get_last_knot <- function(acmfdata, dose_pert = 0.75, personyrs_pert = 0.75){
       top_df <- rbind(top_df, row_df)
       
       bottom_df <- subset(bottom_df, dose != max_dose)
-      cat(percentile(max_dose), " ", max_dose, "\n")
+      #cat(percentile(max_dose), " ", max_dose, "\n")
     }
   }
   
   return(c(max_dose, percentile(max_dose)))
   
   
+}
+
+
+get_ma_table <- function(plot_data, colname = RR){
+  
+  c(round(plot_data[[colname]][which.min(abs(plot_data$dose - 4.375))], 2),
+    round(plot_data[[colname]][which.min(abs(plot_data$dose - 8.75))], 2),
+    round(plot_data[[colname]][which.min(abs(plot_data$dose - 17.5))], 2))
+  
+
 }
