@@ -12,7 +12,6 @@ for (i in 1:nrow(uoutcome)){
     if (length(usexgroups) > 2 && length(uoverall) > 1){
       # Remove gender specific from total_population
       raw_data_tp_ltpa <- subset(raw_data_tp_ltpa, (ref_number == unique(dat1$ref_number) & !sex_subgroups %in% c(1,2)) | (ref_number != unique(dat1$ref_number))) 
-      cat(uoutcome$outcome[i], " - ", unique(dat1$ref_number), " - ", unique(dat1$overall), " - ", unique(dat1$sex_subgroups), "\n")
     }
     
   }
@@ -29,7 +28,6 @@ for (i in 1:nrow(uoutcome)){
       if (length(usexgroups) == 1){
         # Remove single gender specific studies
         raw_data_gsp_ltpa <- subset(raw_data_gsp_ltpa,(ref_number != unique(dat1$ref_number))) 
-        cat(uoutcome$outcome[i], " - ", unique(dat1$ref_number), " - ", unique(dat1$overall), " - ", unique(dat1$sex_subgroups), "\n")
       }
     }
   }
