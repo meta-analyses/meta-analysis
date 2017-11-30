@@ -416,9 +416,8 @@ getDiseaseSpecificData <-
   }
 
 metaAnalysis <-
-  function (pa, center1 = T, intercept1 = F, ptitle = NA, covMethed = F,  returnval = F, minQuantile = 0.1, maxQuantile = 0.9, lout = 100, lby = NULL) 
+  function (pa, center1 = T, intercept1 = F, ptitle = NA, covMethed = F,  returnval = F, minQuantile = 0, maxQuantile = 0.9, lout = 100, lby = NULL) 
   {
-    
     
     if (!is.null(pa) && nrow(pa) > 0){
       library(dosresmeta)
