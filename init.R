@@ -4,7 +4,7 @@ rm (list = ls())
 local_pa_domain_subgroup <- "LTPA"
 
 # Read the data
-raw_data <- read.csv("data/20171020_MASTER_PA_Dose_Metananalysis_Data_Extraction.csv", header = T, stringsAsFactors = F, skipNul = TRUE)
+raw_data <- read.csv("data/20171129_MASTER_PA_Dose_Metananalysis_Data_Extraction.csv", header = T, stringsAsFactors = F, skipNul = TRUE)
 
 raw_data$tot_personyrs <- as.numeric(raw_data$tot_personyrs)
 #raw_data[is.na(raw_data$tot_personyrs),]$tot_personyrs <- 0
@@ -41,13 +41,13 @@ uoutcome <- dplyr::filter(uoutcome, outcome != "")
 raw_data$totalpersons <- as.numeric(raw_data$totalpersons)
 raw_data$personyrs <- as.numeric(raw_data$personyrs)
 
-raw_data[raw_data$effect_measure == "RR",]$effect_measure <- "rr"
+raw_data[raw_data$effect_measure == "RR",]$effect_measure <- "RR"
 raw_data[raw_data$effect_measure == "HR",]$effect_measure <- "hr"
 
 raw_data$type <- ""
 
 raw_data[raw_data$effect_measure == "or",]$type <- "ir"
-raw_data[raw_data$effect_measure == "rr",]$type <- "ir"
+raw_data[raw_data$effect_measure == "RR",]$type <- "ir"
 raw_data[raw_data$effect_measure == "hr",]$type <- "ci"
 raw_data$type <- as.character(raw_data$type)
 
@@ -57,10 +57,10 @@ raw_data$cases <- as.numeric(raw_data$cases)
 
 raw_data$dose <- raw_data$Final.Harmonised.exposure..MMET.hrs.wk.
 raw_data$Final.Harmonised.exposure..MMET.hrs.wk. <- NULL
-raw_data$rr <- raw_data$effect
+raw_data$RR <- raw_data$effect
 
 raw_data <- subset(raw_data, select = c(ref_number, Study, Author, outcome, outcome_type, pa_domain_subgroup, overall, sex_subgroups, effect_measure, type, n_baseline, totalpersons, tot_personyrs, personyrs, 
-                                        mean_followup, dose, rr, effect, uci_effect, lci_effect, tot_cases, cases, objective_calibration))
+                                        mean_followup, dose, RR, effect, uci_effect, lci_effect, tot_cases, cases, objective_calibration))
 
 
 ## Populate missing totalpersons and personyrs
