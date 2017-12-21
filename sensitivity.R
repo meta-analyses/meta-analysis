@@ -15,7 +15,7 @@ raw_data <- subset(raw_data, (outcome == 'all-cause mortality' & n_baseline >= 4
 ## -----------------------------------------------------------------------------
 ## select data of interest
 
-i <- 5
+i <- 1
 cat("Total Population - Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
 acmfdata <- subset(raw_data, outcome == uoutcome$outcome[i] & pa_domain_subgroup == local_pa_domain_subgroup & (overall == 1 | sex_subgroups == 3))
 acmfdata <- getMissingVariables(acmfdata, infertotalpersons = T, kcases = T)
@@ -30,7 +30,7 @@ table(acmfdata$id)
 group_by(acmfdata, id) %>% select(dose, se) %>%
   summarise(min = min(dose), max = max(dose), ref = dose[is.na(se)])
 ggplotly(
-  ggplot(acmfdata, aes(dose, rr, col = factor(id))) + geom_point() +
+  ggplot(acmfdata, aes(dose, rr, col = factor(id), label = personyrs)) + geom_point() +
     geom_line() +
     scale_y_continuous(trans = "log", breaks = c(.1, .25, .5, .75, 1, 1.25)) +
     theme_classic() + guides(col = FALSE)
@@ -103,7 +103,7 @@ pred_k <- gather(pred_k, last_knot, pred, 2:10)
 ggplot(pred_k, aes(dose, pred, label = last_knot, col = last_knot)) + 
   geom_line() +
   scale_colour_discrete(guide = 'none') +
-  geom_dl(aes(label = last_knot), method = list(dl.trans(x = x + .6), 'last.bumpup', hjust = 1)) +
+  geom_dl(aes(label = 1), method = list(dl.trans(x = x + .6), 'last.bumpup', hjust = 1)) +
   labs(x = "MET-minutes/week", y = "Hazard Ratio", title = "Different knots location") +   theme_classic() +
   theme(plot.title = element_text(hjust = 0.5))
 
