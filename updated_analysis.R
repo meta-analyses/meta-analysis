@@ -7,7 +7,7 @@ local_last_knot <- 0.75
 
 if (total_population){
   for (i in 1:nrow(uoutcome)){
-    i <- 1
+    # i <- 1
     cat("Total Population - Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
     acmfdata <- subset(raw_data_tp_ltpa, outcome == uoutcome$outcome[i] & pa_domain_subgroup == local_pa_domain_subgroup & outcome_type == "mortality")
     acmfdata <- subset(acmfdata, n_baseline >= 10000)
@@ -70,7 +70,7 @@ if (total_population){
 
 if(male_population){
   for (i in 1:nrow(uoutcome)){
-    i <- 5
+    # i <- 5
     cat("Male Population - Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
     mdata <- subset(raw_data_gsp_ltpa, outcome == uoutcome$outcome[i] & pa_domain_subgroup == local_pa_domain_subgroup & sex_subgroups == 1)
     wdata <- subset(raw_data_gsp_ltpa, outcome == uoutcome$outcome[i] & pa_domain_subgroup == local_pa_domain_subgroup & sex_subgroups == 2)
@@ -166,7 +166,7 @@ if(male_population){
 
 if(female_population){
   for (i in c(1:10)){#nrow(uoutcome)){
-    i <- 1
+    # i <- 1
     gender <- 1
     gender_title <- "Male"
     
