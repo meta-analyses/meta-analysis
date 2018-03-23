@@ -415,6 +415,39 @@ getDiseaseSpecificData <-
       return_df
   }
 
+
+metaAnalysisObj <-
+  function (pa, center1 = T, in_proc = "2stage", intercept1 = F, ptitle = NA, covMethed = F,  returnval = F, minQuantile = 0, maxQuantile = 0.9, lout = 100, lby = NULL) 
+  {
+    if (!is.null(pa) && nrow(pa) > 0){
+      library(dosresmeta)
+      library(rms)
+      k <- quantile(pa$dose, c(minQuantile, (minQuantile + maxQuantile) / 2, maxQuantile))
+      spl <- NULL
+      if (covMethed){
+        spl <- dosresmeta(logrr ~ dose, cases = cases, n = ifelse(effect_measure == "hr", personyrs, totalpersons),
+                     type = type, se = se, id = id, 
+                     center = center1, 
+                     intercept = intercept1,
+                     covariance = "h",
+                     proc = in_proc,
+                     data = pa)#,
+        }else{
+          spl <- 
+          dosresmeta(logrr ~ dose, cases = cases, n = ifelse(effect_measure == "hr", personyrs, totalpersons), 
+                     type = type, se = se, id = id,  
+                     center = center1, 
+                     intercept = intercept1,
+                     proc = in_proc,
+                     data = pa)
+        }
+      cat(class(spl), "\n")
+      return (spl)
+        
+      }
+  }
+    
+
 metaAnalysis <-
   function (pa, center1 = T, intercept1 = F, ptitle = NA, covMethed = F,  returnval = F, minQuantile = 0, maxQuantile = 0.9, lout = 100, lby = NULL) 
   {
@@ -429,7 +462,7 @@ metaAnalysis <-
       
       if (covMethed){
         spl <- tryCatch({
-          dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = ifelse(effect_measure == "hr", personyrs, totalpersons),
+          dosresmeta(logrr ~ rcs(dose,k), cases = cases, n = ifelse(effect_measure == "hr", personyrs, totalpersons),
                           type = type, se = se, id = id, 
                           center = center1, 
                           intercept = intercept1,
@@ -451,7 +484,7 @@ metaAnalysis <-
       }
       else{
         spl <- tryCatch({
-          dosresmeta(logrr ~ rcs(dose, k), cases = cases, n = ifelse(effect_measure == "hr", personyrs, totalpersons), 
+          dosresmeta(logrr ~ rcs(dose,k), cases = cases, n = ifelse(effect_measure == "hr", personyrs, totalpersons), 
                      type = type, se = se, id = id,  
                      center = center1, 
                      intercept = intercept1,
@@ -501,6 +534,7 @@ metaAnalysis <-
       
       if (returnval)
         return(list(newdata$dose,cbind(pred_spl$pred, pred_spl$ci.lb, pred_spl$ci.ub)))#, spl))
+      
     }
     
   }
