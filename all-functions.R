@@ -449,7 +449,7 @@ metaAnalysisObj <-
     
 
 metaAnalysis <-
-  function (pa, center1 = T, intercept1 = F, ptitle = NA, covMethed = F,  returnval = F, minQuantile = 0, maxQuantile = 0.9, lout = 100, lby = NULL) 
+  function (pa, center1 = T, intercept1 = F, ptitle = NA, covMethed = F,  returnval = F, minQuantile = 0, maxQuantile = 0.9, lout = 100, lby = NULL, returnObj = F) 
   {
     
     if (!is.null(pa) && nrow(pa) > 0){
@@ -535,6 +535,8 @@ metaAnalysis <-
       if (returnval)
         return(list(newdata$dose,cbind(pred_spl$pred, pred_spl$ci.lb, pred_spl$ci.ub)))#, spl))
       
+      if (returnObj)
+        spl
     }
     
   }
