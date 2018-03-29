@@ -72,12 +72,12 @@ for (i in 1:nrow(uoutcome)){
         # Remove when totalperson is not available for hr, and personsyears for rr/or
         acmfdata <- subset(acmfdata, !((effect_measure == "hr" & (is.na(personyrs) | personyrs == 0) ) |
                                          (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
-        # Filter studies by study size
-        acmfdata <- subset(acmfdata, n_baseline >= 10000)
         if (uoutcome$outcome[i] == "Coronary heart disease")
           local_last_knot <- 0.77
         else
           local_last_knot <- 0.75
+        
+        
         last_knot <- get_last_knot(acmfdata, personyrs_pert = local_last_knot, dose_pert = local_last_knot)
         last_knot <- last_knot[2]
         
