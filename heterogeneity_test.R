@@ -67,6 +67,7 @@ for (i in 1:nrow(uoutcome)){
       acmfdata <- subset(raw_data_gsp_ltpa, outcome == uoutcome$outcome[i] & 
                            pa_domain_subgroup == "LTPA" & 
                            outcome_type == ot & sex_subgroups == g)
+      
       if (nrow(acmfdata) > 0){
         acmfdata <- getMissingVariables(acmfdata, infertotalpersons = T, kcases = T)
         # Remove when totalperson is not available for hr, and personsyears for rr/or
@@ -77,6 +78,10 @@ for (i in 1:nrow(uoutcome)){
         else
           local_last_knot <- 0.75
         
+        if (uoutcome$outcome[i] == "Colon cancer")
+          local_last_knot <- 0.78
+        else
+          local_last_knot <- 0.75
         
         last_knot <- get_last_knot(acmfdata, personyrs_pert = local_last_knot, dose_pert = local_last_knot)
         last_knot <- last_knot[2]
