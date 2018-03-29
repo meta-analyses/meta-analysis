@@ -90,7 +90,8 @@ for (i in 1:nrow(uoutcome)){
         # Create a dosresmeta obj
         obj <- dosresmeta(logrr ~ rcs(dose,k), cases = cases, n = ifelse(effect_measure == "hr", personyrs, totalpersons), 
                           type = type, 
-                          se = se, 
+                          lb = lci_effect,
+                          ub = uci_effect,
                           id = id,  
                           # proc = "2stage",
                           covariance = ifelse(local_cov, "h", "gl"),
