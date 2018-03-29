@@ -109,6 +109,7 @@ for (i in 1:nrow(uoutcome)){
           pvalue <- formatC(qt$pvalue, digits = 3, format = "f")
           i2 <- formatC(pmax((qt$Q - qt$df)/qt$Q * 100,
                              0), digits = 1, format = "f")
+          cat("No of studies ", obj$dim$m, "\n")
           cat("Univariate ", "Cochran Q-test for ", "residual ",
               "heterogeneity:", "\n", sep = "")
           cat("Q = ", Q[1], " (df = ", qt$df[1], "), p-value = ",
