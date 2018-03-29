@@ -64,8 +64,9 @@ gender <- c(1, 2)
 for (i in 1:nrow(uoutcome)){
   for (ot in otype){
     for (g in gender){
-      # i <- 5
-      acmfdata <- subset(raw_data_tp_ltpa, outcome == uoutcome$outcome[i] & pa_domain_subgroup == "LTPA" & outcome_type == ot & sex_subgroups == g) #"All-cause mortality"
+      acmfdata <- subset(raw_data_gsp_ltpa, outcome == uoutcome$outcome[i] & 
+                           pa_domain_subgroup == "LTPA" & 
+                           outcome_type == ot & sex_subgroups == g)
       if (nrow(acmfdata) > 0){
         acmfdata <- getMissingVariables(acmfdata, infertotalpersons = T, kcases = T)
         # Remove when totalperson is not available for hr, and personsyears for rr/or
@@ -88,12 +89,15 @@ for (i in 1:nrow(uoutcome)){
         k <- quantile(acmfdata$dose, c(0, (last_knot) / 2, last_knot))
         # Create a dosresmeta obj
         obj <- dosresmeta(logrr ~ rcs(dose,k), cases = cases, n = ifelse(effect_measure == "hr", personyrs, totalpersons), 
-                          type = type, se = se, id = id,  
+                          type = type, 
+                          se = se, 
+                          id = id,  
                           # proc = "2stage",
                           covariance = ifelse(local_cov, "h", "gl"),
                           data = acmfdata)
+        cat(ifelse(g  == 1 ,"Males - ", "Females - "), "Outcome: ", uoutcome$outcome[i], " - ", ot,  "\n")
         if (obj$proc == "2stage"){
-          cat(ifelse(g  == 1 ,"Males - ", "Females - "), "Outcome: ", uoutcome$outcome[i], " - ", ot,  "\n")
+          # cat(ifelse(g  == 1 ,"Males - ", "Females - "), "Outcome: ", uoutcome$outcome[i], " - ", ot,  "\n")
           qt <- qtest(obj)
           Q <- formatC(qt$Q, digits = 3, format = "f")
           pvalue <- formatC(qt$pvalue, digits = 3, format = "f")
