@@ -1,0 +1,38 @@
+ref_number,Study,Outcome,Population
+6,Black Women’s Health Study,breast cancer,female population
+12,California Teachers Study,breast cancer,female population
+151,E3N Cohort,breast cancer,female population
+23,Black Women’s Health Study,breast cancer,female population
+25,California Teachers Study,breast cancer,female population
+37,E3N Cohort,breast cancer,female population
+86,NIH-AARP Diet and Health Study,endometrial cancer,female population
+87,NIH-AARP Diet and Health Study,endometrial cancer,female population
+6,Black Women’s Health Study,breast cancer,total population
+12,California Teachers Study,breast cancer,total population
+151,E3N Cohort,breast cancer,total population
+23,Black Women’s Health Study,breast cancer,total population
+25,California Teachers Study,breast cancer,total population
+37,E3N Cohort,breast cancer,total population
+102,Nurses' Health Study,CHD,total population
+103,Nurses' Health Study,CHD,total population
+105,Nurses' Health Study,CHD,total population
+134,Women's Health Initiative Observational Study,CHD,total population
+135,Women's Health Initiative Observational Study,CHD,total population
+86,NIH-AARP Diet and Health Study,colon cancer,total population
+91,NIH-AARP Diet and Health Study,colon cancer,total population
+107,Nurses' Health Study,colon cancer,total population
+108,Nurses' Health Study,colon cancer,total population
+61,Health Professionals Follow-up Study,CVD,total population
+62,Health Professionals Follow-up Study,CVD,total population
+93,Nord-Trondelag Health Study (HUNT) ,CVD,total population
+94,Nord-Trondelag Health Study (HUNT) ,CVD,total population
+134,Women's Health Initiative Observational Study,CVD,total population
+135,Women's Health Initiative Observational Study,CVD,total population
+86,NIH-AARP Diet and Health Study,endometrial cancer,total population
+87,NIH-AARP Diet and Health Study,endometrial cancer,total population
+86,NIH-AARP Diet and Health Study,lung cancer,total population
+89,NIH-AARP Diet and Health Study,lung cancer,total population
+90,NIH-AARP Diet and Health Study,lung cancer,total population
+86,NIH-AARP Diet and Health Study,total cancer,total population
+88,NIH-AARP Diet and Health Study,total cancer,total population
+92,NIH-AARP Diet and Health Study,total cancer,total population
