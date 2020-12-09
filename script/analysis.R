@@ -8,6 +8,7 @@ local_last_knot <- 0.75
 if (total_population){
   for (i in 1:nrow(uoutcome)){
     if (!i %in% c(1:3)){
+      # i <- 4
     cat("Total Population - Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
     acmfdata <- subset(raw_data_tp_ltpa, outcome == uoutcome$outcome[i] & pa_domain_subgroup == local_pa_domain_subgroup & outcome_type == "Fatal")
     acmfdata <- subset(acmfdata, n_baseline >= 10000)
@@ -63,7 +64,7 @@ if (total_population){
             ylab("\nRelative Risk\n") +
             labs(title = paste(plotTitle))
           print(p)
-          ggsave(paste0(uoutcome$outcome[i], "-mortality", ".png"), height=5, width=10, units='in', dpi=600, scale = 1)
+          ggsave(paste0('plots/', uoutcome$outcome[i], "-mortality", ".png"), height=5, width=10, units='in', dpi=600, scale = 1)
         }
       }
     }
