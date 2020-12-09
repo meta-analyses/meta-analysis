@@ -43,7 +43,7 @@ if (total_population){
           plotTitle <- paste0( uoutcome$outcome[i] ,  " - Mortality - Total Population")
           plotTitle <-  paste0(simpleCap(plotTitle), ' \nNumber of entries: ',
                                length(unique(acmfdata$id)),
-                               ' \nNumber of people: ' , round(sum(acmfdata$totalpersons)))#, " ", local_last_knot)
+                               ' \nNumber of people: ' , round(sum(acmfdata$totalpersons, na.rm = T)))#, " ", local_last_knot)
           p <- ggplot() +
             geom_line(data = dataset, aes(dose, RR, col = factor(ref_number), label = personyrs)) +
             geom_point(data = dataset, aes(dose, RR, col = factor(ref_number)), size = 4 * (dataset$personyrs - min(dataset$personyrs))/diff(range(dataset$personyrs))) +
