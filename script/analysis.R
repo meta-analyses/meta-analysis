@@ -8,7 +8,7 @@ local_last_knot <- 0.75
 if (total_population){
   for (i in 1:nrow(uoutcome)){
     if (!i %in% c(1:3)){
-      # i <- 4
+    # i <- 7
     cat("Total Population - Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
     acmfdata <- subset(raw_data_tp_ltpa, outcome == uoutcome$outcome[i] & pa_domain_subgroup == local_pa_domain_subgroup & outcome_type == "Fatal")
     acmfdata <- subset(acmfdata, n_baseline >= 10000)
@@ -20,12 +20,13 @@ if (total_population){
       acmfdata <- subset(acmfdata, !((effect_measure == "hr" & (is.na(personyrs) | personyrs == 0) ) | 
                                        (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
       acmfdata <- subset(acmfdata, select = c(ref_number, first_author, effect_measure, outcome_type, type, totalpersons, personyrs, dose, RR, logrr, cases, uci_effect, lci_effect, se))
+      acmfdata$id <- as.integer(as.factor(acmfdata$ref_number))
       last_knot <- get_last_knot(acmfdata, dose_pert = local_last_knot , personyrs_pert = local_last_knot)
       # cat("dose_pert and person_years_pert ", last_knot, "\n")
       last_knot <- last_knot[2]
       if (nrow(acmfdata) > 0){
         dataset <- acmfdata
-        dataset$id <- as.integer(as.factor(dataset$ref_number))
+        
         q <- quantile(dataset$dose, c(0, last_knot / 2, last_knot))
         if (!is.null(dataset)){
           dataset$personyrs <- round(dataset$personyrs)
