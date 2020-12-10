@@ -8,19 +8,17 @@ local_last_knot <- 0.75
 if (total_population){
   for (i in 1:nrow(uoutcome)){
     if (!i %in% c(1:3)){
-    # i <- 7
+    # i <- 2
     cat("Total Population - Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
     acmfdata <- subset(raw_data_tp_ltpa, outcome == uoutcome$outcome[i] & pa_domain_subgroup == local_pa_domain_subgroup & outcome_type == "Fatal")
     acmfdata <- subset(acmfdata, n_baseline >= 10000)
-    acmfdata$effect <- acmfdata$most_adj_effect
     local_cov_method <- T
     # if (i == 3 || i == 4) local_cov_method <- T
     if (nrow(acmfdata) > 0){
       acmfdata <- getMissingVariables(acmfdata, infertotalpersons = T, kcases = T)
-      acmfdata <- subset(acmfdata, !((effect_measure == "hr" & (is.na(personyrs) | personyrs == 0) ) | 
-                                       (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
-      acmfdata <- subset(acmfdata, select = c(ref_number, first_author, effect_measure, outcome_type, type, totalpersons, personyrs, dose, RR, logrr, cases, uci_effect, lci_effect, se))
-      acmfdata$id <- as.integer(as.factor(acmfdata$ref_number))
+      acmfdata <- subset(acmfdata, !((effect == "hr" & (is.na(personyrs) | personyrs == 0) ) | 
+                                       (effect != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
+      acmfdata <- subset(acmfdata, select = c(ref_number, first_author, effect, outcome_type, type, totalpersons, personyrs, dose, RR, logrr, cases, uci_effect, lci_effect, se))
       last_knot <- get_last_knot(acmfdata, dose_pert = local_last_knot , personyrs_pert = local_last_knot)
       # cat("dose_pert and person_years_pert ", last_knot, "\n")
       last_knot <- last_knot[2]
@@ -65,7 +63,7 @@ if (total_population){
             ylab("\nRelative Risk\n") +
             labs(title = paste(plotTitle))
           print(p)
-          ggsave(paste0('plots/', uoutcome$outcome[i], "-mortality", ".png"), height=5, width=10, units='in', dpi=600, scale = 1)
+          ggsave(paste0('plots/mortality/', uoutcome$outcome[i], "-mortality", ".png"), height=5, width=10, units='in', dpi=600, scale = 1)
         }
       }
     }
@@ -85,13 +83,13 @@ if(male_population){
       mdata <- getMissingVariables(mdata, infertotalpersons = T, kcases = T)
       
       # Remove when totalperson is not available for hr, and personsyears for rr/or
-      mdata <- subset(mdata, !((effect_measure == "hr" & (is.na(personyrs) | personyrs == 0) ) | 
-                                       (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
+      mdata <- subset(mdata, !((effect == "hr" & (is.na(personyrs) | personyrs == 0) ) | 
+                                       (effect != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
       
       # Remove where both dose and response are null
       mdata <- subset(mdata, !is.na(RR) & !is.na(dose))
       
-      mdata <- subset(mdata, select = c(id, ref_number, effect_measure, outcome_type, type, totalpersons, personyrs, dose, RR, logrr, cases, uci_effect, lci_effect, se))
+      mdata <- subset(mdata, select = c(id, ref_number, effect, outcome_type, type, totalpersons, personyrs, dose, RR, logrr, cases, uci_effect, lci_effect, se))
       
       m_last_knot <- get_last_knot(mdata, dose_pert = local_last_knot, personyrs_pert = local_last_knot)
       cat("dose_pert and person_years_pert ", m_last_knot, "\n")
@@ -111,13 +109,13 @@ if(male_population){
       wdata <- getMissingVariables(wdata, infertotalpersons = T, kcases = T)
       
       # Remove when totalperson is not available for hr, and personsyears for rr/or
-      wdata <- subset(wdata, !((effect_measure == "hr" & (is.na(personyrs) | personyrs == 0) ) | 
-                                 (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
+      wdata <- subset(wdata, !((effect == "hr" & (is.na(personyrs) | personyrs == 0) ) | 
+                                 (effect != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
       
       # Remove where both dose and response are null
       wdata <- subset(wdata, !is.na(RR) & !is.na(dose))
       
-      wdata <- subset(wdata, select = c(id, ref_number, effect_measure, outcome_type, type, totalpersons, personyrs, dose, RR, logrr, cases, uci_effect, lci_effect, se))
+      wdata <- subset(wdata, select = c(id, ref_number, effect, outcome_type, type, totalpersons, personyrs, dose, RR, logrr, cases, uci_effect, lci_effect, se))
       
       w_last_knot <- get_last_knot(wdata, dose_pert = local_last_knot, personyrs_pert = local_last_knot)
       cat("dose_pert and person_years_pert ", w_last_knot, "\n")
@@ -199,13 +197,13 @@ if(female_population){
       acmfdata <- getMissingVariables(acmfdata, infertotalpersons = T, kcases = T)
       
       # Remove when totalperson is not available for hr, and personsyears for rr/or
-      acmfdata <- subset(acmfdata, !((effect_measure == "hr" & (is.na(personyrs) | personyrs == 0) ) | 
-                                       (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
+      acmfdata <- subset(acmfdata, !((effect == "hr" & (is.na(personyrs) | personyrs == 0) ) | 
+                                       (effect != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
       
       # Remove where both dose and response are null
       acmfdata <- subset(acmfdata, !is.na(RR) & !is.na(dose))
       
-      acmfdata <- subset(acmfdata, select = c(id, ref_number, effect_measure, outcome_type, type, totalpersons, personyrs, dose, RR, logrr, cases, uci_effect, lci_effect, se))
+      acmfdata <- subset(acmfdata, select = c(id, ref_number, effect, outcome_type, type, totalpersons, personyrs, dose, RR, logrr, cases, uci_effect, lci_effect, se))
       
       last_knot <- get_last_knot(acmfdata, dose_pert = local_last_knot, personyrs_pert = local_last_knot)
       cat("dose_pert and person_years_pert ", last_knot, "\n")
