@@ -10,8 +10,10 @@ if (total_population){
     for (local_outcome_type in c('Fatal', 'Non-fatal')){
       if (!i %in% c(1:3)){
         dir_name <- ifelse(local_outcome_type == 'Fatal', 'mortality', 'incidence')
-        # i <- 4
-        cat("Total Population - Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
+        # dir_name <- 'Fatal'
+        # i <- 3
+        cat("Total Population - Outcome: ", uoutcome$outcome[i], " , outcome type ", 
+            dir_name, " and index ", i, "\n")
         acmfdata <- subset(raw_data_tp_ltpa, outcome == uoutcome$outcome[i] & pa_domain_subgroup == local_pa_domain_subgroup & outcome_type == "Fatal")
         acmfdata <- subset(acmfdata, n_baseline >= 10000)
         local_cov_method <- T
@@ -34,12 +36,26 @@ if (total_population){
                 summarise(min = min(dose), max = max(dose), ref = dose[is.na(se)])
               pa <- acmfdata
               
-              dataset2 <- data.frame(metaAnalysis(dataset, ptitle = "", returnval = T, covMethed = local_cov_method, minQuantile = 0, maxQuantile = last_knot, lout = 1000))
+              local_filter <- dataset %>% group_by(id) %>% summarise(c = sum(is.na(se))) %>% filter(c > 1) %>% dplyr::select(id)
+              # print(dataset %>% group_by(id) %>% summarise(c = sum(is.na(se))) %>% filter(c > 1) %>% dplyr::select(id))
+              ld <- NULL
+              if (nrow(local_filter) > 0){
+                ld <- dataset %>% filter(!id %in% local_filter)
+              }else{
+                ld <- dataset
+              }
+              
+              dataset2 <- data.frame(metaAnalysis(ld, ptitle = "", returnval = T, covMethed = T, minQuantile = 0, maxQuantile = last_knot, lout = 1000))
+              
+              # for (local_id in unique(dataset$id)){
+              #   # problematic id for i = 1 is 19
+              #   # problematic id for i = 2 is 24
+              #   ld <- dataset %>% filter(id != 40)
+              #   print(local_id)
+              #   
+              # }
               colnames(dataset2) <- c("dose","RR", "lb", "ub")
               
-              #obj <- metaAnalysis(acmfdata, returnval = T, ptitle = "", covMethed = T, minQuantile = 0, maxQuantile = last_knot, lout = 1000)
-              #dataset2 <- data.frame(dose = obj[1], RR = as.data.frame(obj[2])[1], lb = as.data.frame(obj[2])[2], ub = as.data.frame(obj[2])[3])
-              # colnames(dataset2) <- c("dose","RR", "lb", "ub")
               plotTitle <- paste0( uoutcome$outcome[i] ,  " - ", simpleCap(dir_name), " - Total Population")
               plotTitle <-  paste0(simpleCap(plotTitle), ' \nNumber of entries: ',
                                    length(unique(acmfdata$id)),
@@ -57,8 +73,6 @@ if (total_population){
                 scale_y_continuous(expand = c(0, 0),
                                    breaks = seq(from = 0, to = max(dataset2$ub), by = 0.2),
                                    limits = c(0, NA)) +
-                # coord_cartesian(ylim = c(min(dataset$RR) - 0.2, max(dataset$RR) + 0.2), 
-                #                 xlim = c(0, max(dataset$dose) + 3)) + 
                 theme(legend.position="none",
                       plot.title = element_text(hjust = 0.5)) +
                 xlab("\nMarginal MET hours per week\n") +
