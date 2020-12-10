@@ -14,7 +14,7 @@ if (total_population){
         # i <- 3
         cat("Total Population - Outcome: ", uoutcome$outcome[i], " , outcome type ", 
             dir_name, " and index ", i, "\n")
-        acmfdata <- subset(raw_data_tp_ltpa, outcome == uoutcome$outcome[i] & pa_domain_subgroup == local_pa_domain_subgroup & outcome_type == "Fatal")
+        acmfdata <- subset(raw_data_tp_ltpa, outcome == uoutcome$outcome[i] & pa_domain_subgroup == local_pa_domain_subgroup & outcome_type == local_outcome_type)
         acmfdata <- subset(acmfdata, n_baseline >= 10000)
         local_cov_method <- T
         # if (i == 3 || i == 4) local_cov_method <- T
