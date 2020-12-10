@@ -5,7 +5,7 @@ require(tidyverse)
 local_pa_domain_subgroup <- "LTPA" 
 
 # Read the data
-raw_data <- read.csv("data/R_variables_final (1).csv", header = T, stringsAsFactors = F, skipNul = TRUE)
+raw_data <- read.csv("data/R_variables_10122020.csv", header = T, stringsAsFactors = F, skipNul = TRUE)
 
 raw_data$mean_followup <- as.numeric(raw_data$mean_followup)
 raw_data$n_baseline <- as.numeric(raw_data$n_baseline)
