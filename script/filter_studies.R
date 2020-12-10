@@ -46,10 +46,16 @@ for (i in 1:nrow(uoutcome)){
 raw_data_tp_ltpa[raw_data_tp_ltpa$overall != 1 & raw_data_tp_ltpa$sex_subgroups == 1,]$ref_number <- paste(raw_data_tp_ltpa[raw_data_tp_ltpa$overall != 1 & raw_data_tp_ltpa$sex_subgroups == 1,]$ref_number, "-1")
 raw_data_tp_ltpa[raw_data_tp_ltpa$overall != 1 & raw_data_tp_ltpa$sex_subgroups == 2,]$ref_number <- paste(raw_data_tp_ltpa[raw_data_tp_ltpa$overall != 1 & raw_data_tp_ltpa$sex_subgroups == 2,]$ref_number, "-2")
 
+# Create ID column
+raw_data_tp_ltpa$id <- as.integer(as.factor(raw_data_tp_ltpa$ref_number))
+
 raw_data_tp_ltpa <- plyr::arrange(raw_data_tp_ltpa, outcome)
 
 
 raw_data_gsp_ltpa[raw_data_gsp_ltpa$sex_subgroups == 1,]$ref_number <- paste0(raw_data_gsp_ltpa[raw_data_gsp_ltpa$sex_subgroups == 1,]$ref_number, "-1")
 raw_data_gsp_ltpa[raw_data_gsp_ltpa$sex_subgroups == 2,]$ref_number <- paste0(raw_data_gsp_ltpa[raw_data_gsp_ltpa$sex_subgroups == 2,]$ref_number, "-2")
+
+# Create ID column
+raw_data_gsp_ltpa$id <- as.integer(as.factor(raw_data_gsp_ltpa$ref_number))
 
 raw_data_gsp_ltpa <- plyr::arrange(raw_data_gsp_ltpa, outcome)
