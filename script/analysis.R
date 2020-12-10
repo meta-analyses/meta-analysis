@@ -8,7 +8,7 @@ local_last_knot <- 0.75
 if (total_population){
   for (i in 1:nrow(uoutcome)){
     if (!i %in% c(1:3)){
-    # i <- 2
+    # i <- 4
     cat("Total Population - Outcome: ", uoutcome$outcome[i], " and i ", i, "\n")
     acmfdata <- subset(raw_data_tp_ltpa, outcome == uoutcome$outcome[i] & pa_domain_subgroup == local_pa_domain_subgroup & outcome_type == "Fatal")
     acmfdata <- subset(acmfdata, n_baseline >= 10000)
@@ -18,7 +18,7 @@ if (total_population){
       acmfdata <- getMissingVariables(acmfdata, infertotalpersons = T, kcases = T)
       acmfdata <- subset(acmfdata, !((effect == "hr" & (is.na(personyrs) | personyrs == 0) ) | 
                                        (effect != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
-      acmfdata <- subset(acmfdata, select = c(ref_number, first_author, effect, outcome_type, type, totalpersons, personyrs, dose, RR, logrr, cases, uci_effect, lci_effect, se))
+      acmfdata <- subset(acmfdata, select = c(id, first_author, effect_measure, outcome_type, type, totalpersons, personyrs, dose, RR, logrr, cases, uci_effect, lci_effect, se))
       last_knot <- get_last_knot(acmfdata, dose_pert = local_last_knot , personyrs_pert = local_last_knot)
       # cat("dose_pert and person_years_pert ", last_knot, "\n")
       last_knot <- last_knot[2]
@@ -43,8 +43,8 @@ if (total_population){
                                length(unique(acmfdata$id)),
                                ' \nNumber of people: ' , round(sum(acmfdata$totalpersons, na.rm = T)))#, " ", local_last_knot)
           p <- ggplot() +
-            geom_line(data = dataset, aes(dose, RR, col = factor(ref_number), label = personyrs)) +
-            geom_point(data = dataset, aes(dose, RR, col = factor(ref_number)), size = 4 * (dataset$personyrs - min(dataset$personyrs))/diff(range(dataset$personyrs))) +
+            geom_line(data = dataset, aes(dose, RR, col = factor(id), label = personyrs)) +
+            geom_point(data = dataset, aes(dose, RR, col = factor(id)), size = 4 * (dataset$personyrs - min(dataset$personyrs))/diff(range(dataset$personyrs))) +
             geom_line(data = subset(dataset2, dose < as.numeric(q[3])), aes(x = dose, y = RR)) +
             geom_line(data = subset(dataset2, dose >= as.numeric(q[3])), aes(x = dose, y = RR), linetype = "dashed") +
             geom_ribbon(data = subset(dataset2, dose < as.numeric(q[3])), aes(x = dose, ymin=`lb`,ymax=`ub`), alpha = 0.25) +
