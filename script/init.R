@@ -54,7 +54,7 @@ raw_data$dose <- round(raw_data$m_met_h_wk, 2)
 raw_data$RR <- raw_data$effect
 
 raw_data <- subset(raw_data, select = c(ref_number, first_author, outcome, outcome_type, sex_subgroups, type, n_baseline, totalpersons, tot_personyrs, personyrs,
-                                        mean_followup, dose, RR, effect, lci_effect, uci_effect, cases, overall, pa_domain_subgroup))
+                                        mean_followup, dose, RR, effect, effect_measure, lci_effect, uci_effect, cases, overall, pa_domain_subgroup))
 
 
 ## Populate missing totalpersons and personyrs
