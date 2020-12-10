@@ -37,10 +37,9 @@ raw_data$type <- as.character(raw_data$type)
 
 ## RENAME columns
 
-raw_data$cases <- as.numeric(raw_data$cases_per_category)
-raw_data$uci_effect <- as.numeric(raw_data$most_adj_uci)
-raw_data$lci_effect <- as.numeric(raw_data$most_adj_lci)
-
+raw_data <- raw_data %>% rename(effect = most_adj_effect, cases = cases_per_category,
+                                uci_effect = most_adj_uci, lci_effect = most_adj_lci) %>% 
+  mutate(cases = as.numeric(cases), uci_effect = as.numeric(uci_effect), lci_effect = as.numeric(lci_effect))
 
 
 
@@ -52,10 +51,10 @@ raw_data$lci_effect <- as.numeric(raw_data$most_adj_lci)
 raw_data$dose <- round(raw_data$m_met_h_wk, 2)
 
 #raw_data$Final.Harmonised.exposure..MMET.hrs.wk. <- NULL
-raw_data$RR <- raw_data$most_adj_effect
+raw_data$RR <- raw_data$effect
 
-raw_data <- subset(raw_data, select = c(ref_number, first_author, outcome, outcome_type, sex_subgroups, effect_measure, type, n_baseline, totalpersons, tot_personyrs, personyrs,
-                                        mean_followup, dose, RR, most_adj_effect, lci_effect, uci_effect, cases, overall, pa_domain_subgroup))
+raw_data <- subset(raw_data, select = c(ref_number, first_author, outcome, outcome_type, sex_subgroups, type, n_baseline, totalpersons, tot_personyrs, personyrs,
+                                        mean_followup, dose, RR, effect, lci_effect, uci_effect, cases, overall, pa_domain_subgroup))
 
 
 ## Populate missing totalpersons and personyrs
