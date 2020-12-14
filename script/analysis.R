@@ -70,6 +70,14 @@ if (total_population){
             
             res <- metaAnalysis(ld, ptitle = "", returnval = T, covMethed = T, minQuantile = 0, maxQuantile = last_knot, lout = 1000)
             
+            if (is.null(res) || is.na(res)){
+              res <- metaAnalysis(ld, ptitle = "", returnval = T, covMethed = F, minQuantile = 0, maxQuantile = last_knot, lout = 1000)
+            }
+            
+            if (is.null(res) || is.na(res)){
+              res <- metaAnalysis(ld, ptitle = "", returnval = T, covMethed = F, minQuantile = 0, maxQuantile = 0.9, lout = 1000)
+            }
+            
             dataset2 <- data.frame(res)
             
             # for (local_id in unique(dataset$id)){
