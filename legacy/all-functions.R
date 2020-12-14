@@ -497,7 +497,7 @@ metaAnalysis <-
         warning=function(cond) {
           message(cond)
           # Choose a return value in case of warning
-          return(NULL)
+          return(NA)
         },
         finally={
           #message("Done calculations")
@@ -508,7 +508,7 @@ metaAnalysis <-
       if (returnval && (is.na(spl) || is.null(spl))){
         return(c())
       }
-
+      
       newdata <- NULL
       if (is.null(lby))
         newdata <- data.frame(dose = seq(min(pa$dose), max(pa$dose), length.out = lout))
