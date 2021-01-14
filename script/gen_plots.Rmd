@@ -1,0 +1,43 @@
+---
+title: "Meta-Analysis plots"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+    toc: true
+    toc_depth: 5
+    toc_float: true
+---
+
+# Outcome type: fatal
+
+```{r fatal, echo=FALSE, out.width = '100%'}
+fatal_images <- '../plots/Fatal/'
+files <- list.files(path = fatal_images, 
+                    full.names = TRUE)
+
+knitr::include_graphics(files)
+
+```
+
+# Outcome type: non-fatal
+
+```{r non-fatal, echo=FALSE, out.width = '100%'}
+fatal_images <- '../plots/Non-fatal/'
+files <- list.files(path = fatal_images, 
+                    full.names = TRUE)
+
+knitr::include_graphics(files)
+
+```
+
+
+# Outcome type: fatal and non-fatal
+
+```{r fatal-non-fatal, echo=FALSE, out.width = '100%'}
+fatal_images <- '../plots/Fatal and non-fatal/'
+files <- list.files(path = fatal_images, 
+                    full.names = TRUE)
+
+knitr::include_graphics(files)
+
+```
