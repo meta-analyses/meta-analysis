@@ -23,13 +23,13 @@ if (total_population){
       
       # Select output directory according to outcome type
       if (local_outcome_type == 'Fatal'){
-        dir_name <- 'mortality'
+        dir_name <- 'Fatal'
       }
       else if (local_outcome_type == 'Non-fatal'){
-        dir_name <- 'incidence'
+        dir_name <- 'Non-fatal'
       }
       else{
-        dir_name <- 'both'
+        dir_name <- 'Fatal and non-fatal'
         
       }
       
