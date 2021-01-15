@@ -48,6 +48,12 @@ if (total_population){
       if (nrow(acmfdata) > 0){
         # Fill missing values by inferring to useful columns
         acmfdata <- getMissingVariables(acmfdata, infertotalpersons = T, kcases = T)
+        
+        # Remove all studies with missing RRs
+        missing_RR_ids <- subset(acmfdata, is.na(RR)) %>% select(id)
+        if (nrow(missing_RR_ids) > 0)
+          acmfdata <- subset(acmfdata, !id %in% missing_RR_ids)
+        
         # Remove all studies with mandatory info
         acmfdata <- subset(acmfdata, !((effect_measure == "hr" & (is.na(personyrs) | personyrs == 0) ) | 
                                          (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
