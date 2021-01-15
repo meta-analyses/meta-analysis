@@ -54,6 +54,11 @@ if (total_population){
         if (nrow(missing_RR_ids) > 0)
           acmfdata <- subset(acmfdata, !id %in% missing_RR_ids)
         
+        # Remove all studies with negative standard error (SE)
+        negative_SE_ids <- subset(acmfdata, se < 0) %>% select(id)
+        if (nrow(negative_SE_ids) > 0)
+          acmfdata <- subset(acmfdata, !id %in% negative_SE_ids)
+        
         # Remove all studies with mandatory info
         acmfdata <- subset(acmfdata, !((effect_measure == "hr" & (is.na(personyrs) | personyrs == 0) ) | 
                                          (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
