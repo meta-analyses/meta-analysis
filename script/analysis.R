@@ -60,8 +60,8 @@ if (total_population){
         # Fill missing values by inferring to useful columns
         acmfdata <- getMissingVariables(acmfdata, infertotalpersons = T, kcases = T)
         # Remove all studies with mandatory info
-        acmfdata <- subset(acmfdata, !((effect == "hr" & (is.na(personyrs) | personyrs == 0) ) | 
-                                         (effect != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
+        acmfdata <- subset(acmfdata, !((effect_measure == "hr" & (is.na(personyrs) | personyrs == 0) ) | 
+                                         (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
         # Select subset of columns
         acmfdata <- subset(acmfdata, select = c(id, ref_number, first_author, effect_measure, outcome_type, type, totalpersons, personyrs, dose, RR, logrr, cases, uci_effect, lci_effect, se))
         # Get last knot based on 75% of person years
