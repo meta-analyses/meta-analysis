@@ -10,17 +10,6 @@ if (total_population){
     # Loop through all three outcome types
     for (local_outcome_type in c('Fatal', 'Non-fatal', 'Both')){
       
-      # Ignore (3) All-cause mortality
-      if (i %in% c(3) & local_outcome_type == 'Fatal')
-        next
-      
-      # Ignore (3) All-cause mortality
-      # Ignore (18) Prostate cancer
-      # Ignore (19) Rectum cancer
-      # Ignore (20) Stroke
-      if (i %in% c(3, 18, 19, 20) & local_outcome_type == 'Both')
-        next
-      
       # Select output directory according to outcome type
       if (local_outcome_type == 'Fatal'){
         dir_name <- 'Fatal'
