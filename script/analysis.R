@@ -12,7 +12,7 @@ if (total_population){
   for (i in 1:nrow(uoutcome)){
     # Loop through all three outcome types
     for (local_outcome_type in c('Fatal', 'Non-fatal', 'Both')){
-      # local_outcome_type <- 'Fatal'; i <- 3
+      # local_outcome_type <- 'Both'; i <- 3
       
       # Select output directory according to outcome type
       if (local_outcome_type == 'Fatal'){
@@ -43,6 +43,8 @@ if (total_population){
         add_fdata <- subset(add_fdata, !id %in% acmfdata$id)
         # Add additional rows
         if (nrow(add_fdata) > 0){
+            if (nrow(acmfdata) == 0)
+              next()
           acmfdata <- rbind(acmfdata, add_fdata)
         }
       }
