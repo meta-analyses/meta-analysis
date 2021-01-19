@@ -1,0 +1,22 @@
+ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,totalpersons,tot_personyrs,personyrs,mean_followup,dose,RR,effect,effect_measure,lci_effect,uci_effect,cases,overall,pa_domain_subgroup,id,logrr,se,n,reason
+348,Lee D.,All-cause mortality,Fatal,3,ci,23257723,5820213,124965824.2,NA,6,0,1,1,hr,NA,NA,200401,1,LTPA,31,0,NA,5820213,missing either person years or total persons
+348,Lee D.,All-cause mortality,Fatal,3,ci,23257723,5702853,124965824.2,NA,6,5.21,0.75,0.75,hr,0.74,0.76,96728,1,LTPA,31,-0.2876820724517809,0.006803249266955171,5702853,missing either person years or total persons
+348,Lee D.,All-cause mortality,Fatal,3,ci,23257723,4404731,124965824.2,NA,6,9.25,0.74,0.74,hr,0.73,0.75,89089,1,LTPA,31,-0.3011050927839216,0.006895196187562135,4404731,missing either person years or total persons
+348,Lee D.,All-cause mortality,Fatal,3,ci,23257723,1706967,124965824.2,NA,6,13.37,0.68,0.68,hr,0.67,0.68,31196,1,LTPA,31,-0.3856624808119846,0.0037794280665359504,1706967,missing either person years or total persons
+348,Lee D.,All-cause mortality,Fatal,3,ci,23257723,746318,124965824.2,NA,6,17.53,0.65,0.65,hr,0.63,0.66,12799,1,LTPA,31,-0.4307829160924542,0.011867568996633828,746318,missing either person years or total persons
+348,Lee D.,All-cause mortality,Fatal,3,ci,23257723,351460,124965824.2,NA,6,21.72,0.66,0.66,hr,0.65,0.68,8660,1,LTPA,31,-0.4155154439616658,0.01151052663119676,351460,missing either person years or total persons
+348,Lee D.,All-cause mortality,Fatal,3,ci,23257723,319465,124965824.2,NA,6,25.94,0.7,0.7,hr,0.69,0.71,11262,1,LTPA,31,-0.35667494393873245,0.007289259565338746,319465,missing either person years or total persons
+124,Arrieta A.,All-cause mortality,Fatal,3,ci,10474,4430,NA,NA,NA,0,1,1,hr,NA,NA,1874,1,LTPA,40,0,NA,4430,missing either person years or total persons
+124,Arrieta A.,All-cause mortality,Fatal,3,ci,10474,3596,NA,NA,NA,3.75,0.83,0.83,hr,0.75,0.92,1220,1,LTPA,40,-0.18632957819149348,0.05211842287006954,3596,missing either person years or total persons
+124,Arrieta A.,All-cause mortality,Fatal,3,ci,10474,1585,NA,NA,NA,9.38,0.82,0.82,hr,0.72,0.94,499,1,LTPA,40,-0.19845093872383832,0.0680187659969983,1585,missing either person years or total persons
+137,Moore S.,Prostate cancer,Both,1,ci,163677,34088,1145739,NA,7,2.56,1,1,hr,NA,NA,1852,1,LTPA,10,0,NA,34088,missing either person years or total persons
+137,Moore S.,Prostate cancer,Both,1,ci,163677,34088,1145739,NA,7,14.69,1.02,1.02,hr,0.96,1.09,2429,1,LTPA,10,0.01980262729617973,0.03239847562584439,34088,missing either person years or total persons
+137,Moore S.,Prostate cancer,Both,1,ci,163677,34088,1145739,NA,7,27.29,1.07,1.07,hr,1,1.14,1573,1,LTPA,10,0.06765864847381486,0.03342619135860104,34088,missing either person years or total persons
+137,Moore S.,Prostate cancer,Both,1,ci,163677,34088,1145739,NA,7,37.91,1.04,1.04,hr,0.98,1.1,2172,1,LTPA,10,0.03922071315328133,0.029468114728891794,34088,missing either person years or total persons
+137,Moore S.,Prostate cancer,Both,1,ci,163677,34088,1145739,NA,7,46.46,1.01,1.01,hr,0.95,1.08,1969,1,LTPA,10,0.009950330853168092,0.03271854394655536,34088,missing either person years or total persons
+183,McDonell,Stroke,Both,3,ci,27348,8187,155884,46666,5.7,0,NA,NA,hr,NA,NA,254,1,LTPA,14,NA,NA,46666,missing RRs
+183,McDonell,Stroke,Both,3,ci,27348,10003,155884,57018,5.7,5.25,3.48,3.48,hr,2.85,4.26,334,1,LTPA,14,1.247032293786383,0.10254019185333292,57018,missing RRs
+183,McDonell,Stroke,Both,3,ci,27348,9158,155884,52201,5.7,13.13,3.03,3.03,hr,2.54,3.62,330,1,LTPA,14,1.1085626195212777,0.09038685088144123,52201,missing RRs
+6,Sieverdes et al.,Stroke,Both,1,ci,45689,16862,800225,330188,17.51460964345904,0.33,1,1,hr,NA,NA,275,1,LTPA,5,0,NA,330188,negative error
+6,Sieverdes et al.,Stroke,Both,1,ci,45689,19780,800225,332152,17.51460964345904,15.53,1.09,1.09,hr,0.89,1.35,264,1,LTPA,5,0.08617769624105241,0.10628726139681147,332152,negative error
+6,Sieverdes et al.,Stroke,Both,1,ci,45689,9047,800225,137885,17.51460964345904,4.99,0.8,0.8,hr,0.8,0.6,80,1,LTPA,5,-0.2231435513142097,-0.073389632340436,137885,negative error
