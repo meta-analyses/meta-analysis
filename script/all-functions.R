@@ -273,25 +273,25 @@ getMissingVariables <-
           uout$id <- index
           
           
-          # uout[uout$effect_measure == "rr" & (is.na(uout$totalpersons) | uout$totalpersons == 0) ,]$totalpersons <-
-          #   round(uout[uout$effect_measure == "rr" & (is.na(uout$totalpersons) |  uout$totalpersons == 0) ,]$personyrs /
-          #   uout[uout$effect_measure == "rr" & (is.na(uout$totalpersons) |  uout$totalpersons == 0) ,]$mean_followup)
-          # 
-          # 
-          # uout[uout$effect_measure == "hr" & (is.na(uout$personyrs) | uout$personyrs == 0) ,]$personyrs <-
-          #   uout[uout$effect_measure == "hr" & (is.na(uout$personyrs) |  uout$personyrs == 0) ,]$totalpersons *
-          #   uout[uout$effect_measure == "hr" & (is.na(uout$personyrs) |  uout$personyrs == 0) ,]$mean_followup
-          # 
-          # uout[uout$effect_measure == "or" & (is.na(uout$totalpersons) |  uout$totalpersons == 0) ,]$totalpersons <-
-          #   round(uout[uout$effect_measure == "or" & (is.na(uout$totalpersons) |  uout$totalpersons == 0) ,]$personyrs /
-          #   uout[uout$effect_measure == "or" & (is.na(uout$totalpersons) |  uout$totalpersons == 0) ,]$mean_followup)
-          # 
-          # 
-          # if (infertotalpersons){
-          #   uout[(is.na(uout$totalpersons) |  uout$totalpersons == 0) ,]$totalpersons <-
-          #     round(uout[(is.na(uout$totalpersons) |  uout$totalpersons == 0) ,]$personyrs /
-          #             uout[(is.na(uout$totalpersons) |  uout$totalpersons == 0) ,]$mean_followup)
-          # }
+          uout[uout$effect_measure == "rr" & (is.na(uout$totalpersons) | uout$totalpersons == 0) ,]$totalpersons <-
+            round(uout[uout$effect_measure == "rr" & (is.na(uout$totalpersons) |  uout$totalpersons == 0) ,]$personyrs /
+            uout[uout$effect_measure == "rr" & (is.na(uout$totalpersons) |  uout$totalpersons == 0) ,]$mean_followup)
+
+
+          uout[uout$effect_measure == "hr" & (is.na(uout$personyrs) | uout$personyrs == 0) ,]$personyrs <-
+            uout[uout$effect_measure == "hr" & (is.na(uout$personyrs) |  uout$personyrs == 0) ,]$totalpersons *
+            uout[uout$effect_measure == "hr" & (is.na(uout$personyrs) |  uout$personyrs == 0) ,]$mean_followup
+
+          uout[uout$effect_measure == "or" & (is.na(uout$totalpersons) |  uout$totalpersons == 0) ,]$totalpersons <-
+            round(uout[uout$effect_measure == "or" & (is.na(uout$totalpersons) |  uout$totalpersons == 0) ,]$personyrs /
+            uout[uout$effect_measure == "or" & (is.na(uout$totalpersons) |  uout$totalpersons == 0) ,]$mean_followup)
+
+
+          if (infertotalpersons){
+            uout[(is.na(uout$totalpersons) |  uout$totalpersons == 0) ,]$totalpersons <-
+              round(uout[(is.na(uout$totalpersons) |  uout$totalpersons == 0) ,]$personyrs /
+                      uout[(is.na(uout$totalpersons) |  uout$totalpersons == 0) ,]$mean_followup)
+          }
           
           if (kcases)
             uout <- subset(uout, !is.na(cases))
