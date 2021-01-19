@@ -22,8 +22,8 @@ knitr::include_graphics(files)
 # Outcome type: non-fatal
 
 ```{r non-fatal, echo=FALSE, out.width = '100%'}
-fatal_images <- '../plots/Non-fatal/'
-files <- list.files(path = fatal_images, 
+non_fatal_images <- '../plots/Non-fatal/'
+files <- list.files(path = non_fatal_images, 
                     full.names = TRUE)
 
 knitr::include_graphics(files)
@@ -34,8 +34,8 @@ knitr::include_graphics(files)
 # Outcome type: fatal and non-fatal
 
 ```{r fatal-non-fatal, echo=FALSE, out.width = '100%'}
-fatal_images <- '../plots/Fatal and non-fatal/'
-files <- list.files(path = fatal_images, 
+fatal_non_fatal_images <- '../plots/Fatal and non-fatal/'
+files <- list.files(path = fatal_non_fatal_images, 
                     full.names = TRUE)
 
 knitr::include_graphics(files)
