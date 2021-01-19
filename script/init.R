@@ -1,6 +1,9 @@
 # Remove all elements from the memory
 rm (list = ls())
-require(tidyverse)
+library(tidyverse, warn.conflicts = FALSE)
+
+# Suppress summarise info
+options(dplyr.summarise.inform = FALSE)
 
 local_pa_domain_subgroup <- "LTPA" 
 
@@ -61,17 +64,16 @@ raw_data <- subset(raw_data, select = c(ref_number, first_author, outcome, outco
 ## Populate missing totalpersons and personyrs
 
 for (i in unique(raw_data$ref_number)){
-  
   raw_data[!is.na(raw_data$n_baseline) & raw_data$ref_number == i & (is.na(raw_data$totalpersons)) & !(is.na(raw_data$personyrs)) & !(is.na(raw_data$tot_personyrs)),]$totalpersons <-
     round(raw_data[!is.na(raw_data$n_baseline) & raw_data$ref_number == i & (is.na(raw_data$totalpersons)) & !(is.na(raw_data$personyrs)) & !(is.na(raw_data$tot_personyrs)),]$personyrs /
             sum(raw_data[!is.na(raw_data$n_baseline) & raw_data$ref_number == i & (is.na(raw_data$totalpersons)) & !(is.na(raw_data$personyrs)) & !(is.na(raw_data$tot_personyrs)),]$tot_personyrs)  *
             raw_data[!is.na(raw_data$n_baseline) & raw_data$ref_number == i & (is.na(raw_data$totalpersons)) & !(is.na(raw_data$personyrs)) & !(is.na(raw_data$tot_personyrs)),]$n_baseline)
   
   
-  raw_data[!is.na(raw_data$n_baseline) & raw_data$ref_number == i & (is.na(raw_data$totalpersons)) & (is.na(raw_data$personyrs)) & !(is.na(raw_data$cases)),]$personyrs <-
-    round(raw_data[!is.na(raw_data$n_baseline) & raw_data$ref_number == i & (is.na(raw_data$totalpersons)) & (is.na(raw_data$personyrs)) & !(is.na(raw_data$cases)),]$cases /
-            sum(raw_data[!is.na(raw_data$n_baseline) & raw_data$ref_number == i & (is.na(raw_data$totalpersons)) & (is.na(raw_data$personyrs)) & !(is.na(raw_data$cases)),]$cases)  *
-            raw_data[!is.na(raw_data$n_baseline) & raw_data$ref_number == i & (is.na(raw_data$totalpersons)) & (is.na(raw_data$personyrs)) & !(is.na(raw_data$cases)),]$tot_personyrs)
+  raw_data[!is.na(raw_data$n_baseline) & raw_data$ref_number == i & (!is.na(raw_data$totalpersons)) & (is.na(raw_data$personyrs)) & !(is.na(raw_data$cases)),]$personyrs <-
+    round(raw_data[!is.na(raw_data$n_baseline) & raw_data$ref_number == i & (!is.na(raw_data$totalpersons)) & (is.na(raw_data$personyrs)) & !(is.na(raw_data$cases)),]$cases /
+            sum(raw_data[!is.na(raw_data$n_baseline) & raw_data$ref_number == i & (!is.na(raw_data$totalpersons)) & (is.na(raw_data$personyrs)) & !(is.na(raw_data$cases)),]$cases)  *
+            raw_data[!is.na(raw_data$n_baseline) & raw_data$ref_number == i & (!is.na(raw_data$totalpersons)) & (is.na(raw_data$personyrs)) & !(is.na(raw_data$cases)),]$tot_personyrs)
 }
 
 # Replace 'Heart failure' with 'heart failure'
