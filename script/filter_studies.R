@@ -1,4 +1,4 @@
-library(tidyverse)
+library(tidyverse, warn.conflicts = FALSE)
 
 source("script/init.R")
 
