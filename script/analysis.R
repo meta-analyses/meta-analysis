@@ -1,4 +1,5 @@
 source("script/filter_studies.R")
+options(warn=-1)
 
 total_population <- T
 
@@ -16,20 +17,18 @@ if (file.exists(record_removed_entries)) {
 
 if (total_population){
   for (i in 1:nrow(uoutcome)){
-    # Loop through all three outcome types
+    #Loop through all three outcome types
     for (local_outcome_type in c('Fatal', 'Non-fatal', 'Both')){
-      # local_outcome_type <- 'Both'; i <- 8
+      # local_outcome_type <- 'Both'
+      # i <- 1
       
       # Select output directory according to outcome type
       if (local_outcome_type == 'Fatal'){
         dir_name <- 'Fatal'
-      }
-      else if (local_outcome_type == 'Non-fatal'){
+      } else if (local_outcome_type == 'Non-fatal'){
         dir_name <- 'Non-fatal'
-      }
-      else{
+      } else {
         dir_name <- 'Fatal and non-fatal'
-        
       }
       
       # Print basic info re outcome, outcome type and index
@@ -37,9 +36,11 @@ if (total_population){
           dir_name, " and index ", i, "\n")
       
       # Subset according to outcome, domain and outcome type
-      acmfdata <- subset(raw_data_tp_ltpa, outcome == uoutcome$outcome[i] & pa_domain_subgroup == local_pa_domain_subgroup & outcome_type == local_outcome_type)
+      acmfdata <- subset(raw_data_tp_ltpa, outcome == uoutcome$outcome[i] & 
+                           pa_domain_subgroup == local_pa_domain_subgroup & 
+                           outcome_type == local_outcome_type)
       #cat("\n Outcome: ", uoutcome$outcome[i], " , outcome type ", 
-       #   dir_name, " and index ", i, "\n",file = record_removed_entries, append = T)
+      #   dir_name, " and index ", i, "\n",file = record_removed_entries, append = T)
       
       # Add additional 'fatal' studies that had no 'both' types
       if (local_outcome_type == 'Both'){
@@ -49,17 +50,42 @@ if (total_population){
         add_fdata <- subset(add_fdata, !id %in% acmfdata$id)
         # Add additional rows
         if (nrow(add_fdata) > 0){
-            if (nrow(acmfdata) == 0)
-              next()
+          #if (nrow(acmfdata) == 0)
+          #  next()
           acmfdata <- rbind(acmfdata, add_fdata)
         }
+        
+        # Subset Non-fatal types
+        add_nfdata <- subset(raw_data_tp_ltpa, outcome == uoutcome$outcome[i] & pa_domain_subgroup == local_pa_domain_subgroup & outcome_type == 'Non-fatal')
+        
+        # ONLY add those studies that have no 'both' studies
+        add_nfdata <- subset(add_nfdata, !id %in% acmfdata$id)
+        # Add additional rows
+        if (nrow(add_nfdata) > 0){
+          acmfdata <- rbind(acmfdata, add_nfdata)
+        }
       }
+      
+      print(length(unique(acmfdata$ref_number)))
       
       # Use default covariance method
       local_cov_method <- T
       if (nrow(acmfdata) > 0){
         # Fill missing values by inferring to useful columns
-        acmfdata <- getMissingVariables(acmfdata, infertotalpersons = T, kcases = T)
+        acmfdata <- getMissingVariables(acmfdata, infertotalpersons = T, kcases = F)
+        
+        # Before removing any lines with n requirement less than 10k
+        missing_cases <- acmfdata
+        
+        # Keep only those studies with cases present
+        acmfdata <- subset(acmfdata, !is.na(cases))
+        
+        # Keep only those studies with n_baseline greater than 10k
+        missing_cases <- setdiff(missing_cases, acmfdata )
+        if (nrow(missing_cases) > 0){
+          missing_cases$reason <- 'missing cases'
+          readr::write_csv(missing_cases, record_removed_entries, append = T)
+        }
         
         # Before removing any lines with n requirement less than 10k
         n_subset <- acmfdata
