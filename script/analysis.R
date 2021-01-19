@@ -12,7 +12,7 @@ if (total_population){
   for (i in 1:nrow(uoutcome)){
     # Loop through all three outcome types
     for (local_outcome_type in c('Fatal', 'Non-fatal', 'Both')){
-      # local_outcome_type <- 'Both'; i <- 3
+      # local_outcome_type <- 'Both'; i <- 8
       
       # Select output directory according to outcome type
       if (local_outcome_type == 'Fatal'){
@@ -49,25 +49,24 @@ if (total_population){
         }
       }
       
-      # Before removing any lines with n requirement less than 10k
-      n_subset <- acmfdata
-      
-      # Keep only those studies with n_baseline greater than 10k
-      acmfdata <- subset(acmfdata, n_baseline >= 10000)
-      
-      # Keep only those studies with n_baseline greater than 10k
-      n_subset <- setdiff(acmfdata, n_subset)
-      if (nrow(n_subset) > 0){
-        stop("stopped")
-        n_subset$reason <- 'n_baseline < 10k'
-        readr::write_csv(n_subset, record_removed_entries, append = T)
-      }
-      
       # Use default covariance method
       local_cov_method <- T
       if (nrow(acmfdata) > 0){
         # Fill missing values by inferring to useful columns
         acmfdata <- getMissingVariables(acmfdata, infertotalpersons = T, kcases = T)
+        
+        # Before removing any lines with n requirement less than 10k
+        n_subset <- acmfdata
+        
+        # Keep only those studies with n_baseline greater than 10k
+        acmfdata <- subset(acmfdata, n_baseline >= 10000)
+        
+        # Keep only those studies with n_baseline greater than 10k
+        n_subset <- setdiff(n_subset, acmfdata )
+        if (nrow(n_subset) > 0){
+          n_subset$reason <- 'n_baseline < 10k'
+          readr::write_csv(n_subset, record_removed_entries, append = T)
+        }
         
         # Remove all studies with missing RRs
         missing_RR_ids <- subset(acmfdata, is.na(RR)) %>% select(id)
