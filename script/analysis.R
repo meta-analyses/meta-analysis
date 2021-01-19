@@ -5,10 +5,14 @@ total_population <- T
 # Set fixed last knot to 75th of person years
 local_last_knot <- 0.75
 
+# Set log file
+record_removed_entries = 'missing_entries.csv'
+
 if (total_population){
   for (i in 1:nrow(uoutcome)){
     # Loop through all three outcome types
     for (local_outcome_type in c('Fatal', 'Non-fatal', 'Both')){
+      # local_outcome_type <- 'Fatal'; i <- 3
       
       # Select output directory according to outcome type
       if (local_outcome_type == 'Fatal'){
@@ -28,6 +32,8 @@ if (total_population){
       
       # Subset according to outcome, domain and outcome type
       acmfdata <- subset(raw_data_tp_ltpa, outcome == uoutcome$outcome[i] & pa_domain_subgroup == local_pa_domain_subgroup & outcome_type == local_outcome_type)
+      #cat("\n Outcome: ", uoutcome$outcome[i], " , outcome type ", 
+       #   dir_name, " and index ", i, "\n",file = record_removed_entries, append = T)
       
       # Add additional 'fatal' studies that had no 'both' types
       if (local_outcome_type == 'Both'){
@@ -40,8 +46,20 @@ if (total_population){
           acmfdata <- rbind(acmfdata, add_fdata)
         }
       }
+      
+      # Before removing any lines with n requirement less than 10k
+      n_subset <- acmfdata
+      
       # Keep only those studies with n_baseline greater than 10k
       acmfdata <- subset(acmfdata, n_baseline >= 10000)
+      
+      # Keep only those studies with n_baseline greater than 10k
+      n_subset <- setdiff(acmfdata, n_subset)
+      if (nrow(n_subset) > 0){
+        stop("stopped")
+        n_subset$reason <- 'n_baseline < 10k'
+        readr::write_csv(n_subset, record_removed_entries, append = T)
+      }
       
       # Use default covariance method
       local_cov_method <- T
@@ -51,17 +69,36 @@ if (total_population){
         
         # Remove all studies with missing RRs
         missing_RR_ids <- subset(acmfdata, is.na(RR)) %>% select(id)
-        if (nrow(missing_RR_ids) > 0)
+        if (nrow(missing_RR_ids) > 0){
+          temp <- subset(acmfdata, id %in% missing_RR_ids)
+          temp$reason <- 'missing RRs'
+          readr::write_csv(temp, record_removed_entries, append = T)
           acmfdata <- subset(acmfdata, !id %in% missing_RR_ids)
+        }
         
         # Remove all studies with negative standard error (SE)
         negative_SE_ids <- subset(acmfdata, se < 0) %>% select(id)
-        if (nrow(negative_SE_ids) > 0)
+        if (nrow(negative_SE_ids) > 0){
+          temp <- subset(acmfdata, id %in% negative_SE_ids)
+          temp$reason <- 'negative error'
+          readr::write_csv(temp, record_removed_entries, append = T)
           acmfdata <- subset(acmfdata, !id %in% negative_SE_ids)
+        }
+        
+        # Before removing any lines with n requirement less than 10k
+        n_missing <- acmfdata
         
         # Remove all studies with mandatory info
         acmfdata <- subset(acmfdata, !((effect_measure == "hr" & (is.na(personyrs) | personyrs == 0) ) | 
                                          (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
+        n_missing <- setdiff(n_missing, acmfdata)
+        if (nrow(n_missing) > 0){
+          n_missing$reason <- 'missing either person years or total persons'
+          readr::write_csv(n_missing, record_removed_entries, append = T)
+        }
+        
+        orig_col_names <- colnames(acmfdata)
+        
         # Select subset of columns
         acmfdata <- subset(acmfdata, select = c(id, ref_number, first_author, effect_measure, outcome_type, type, totalpersons, personyrs, dose, RR, logrr, cases, uci_effect, lci_effect, se))
         # Get last knot based on 75% of person years
@@ -110,6 +147,17 @@ if (total_population){
             # Assign names
             colnames(dataset2) <- c("dose","RR", "lb", "ub")
             
+            if (length(unique(dataset$id)) > 5){
+              # 20% + median
+              med_val <- (median(dataset2$dose, na.rm = T) * (20/100 * last_knot + last_knot))
+              
+              print(med_val)
+              
+              dataset2 <- subset(dataset2, dose < med_val)
+              
+              dataset <- subset(dataset, dose < med_val)
+            }
+            
             # Create plot title 
             plotTitle <- paste0( uoutcome$outcome[i] ,  " - ", simpleCap(dir_name), " - Total Population")
             plotTitle <-  paste0(simpleCap(plotTitle), ' \nNumber of entries: ',
@@ -152,3 +200,10 @@ if (total_population){
     }
   }
 }
+
+# Read csv file and append column name
+temp <- read_csv('missing_entries.csv', col_names = F)
+colnames(temp) <- append(orig_col_names, 'reason')
+temp <- temp[!duplicated(temp),]
+readr::write_csv(temp, 'missing_entries.csv')
+
