@@ -6,7 +6,13 @@ total_population <- T
 local_last_knot <- 0.75
 
 # Set log file
-record_removed_entries = 'missing_entries.csv'
+record_removed_entries <- 'missing_entries.csv'
+
+#Check its existence
+if (file.exists(record_removed_entries)) {
+  #Delete file if it exists
+  file.remove(record_removed_entries)
+}
 
 if (total_population){
   for (i in 1:nrow(uoutcome)){
