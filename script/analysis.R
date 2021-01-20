@@ -26,8 +26,7 @@ if (total_population){
   for (i in 1:nrow(uoutcome)){
     #Loop through all three outcome types
     for (local_outcome_type in c('Fatal', 'Non-fatal', 'Both')){
-      # local_outcome_type <- 'Both'; i <- 20
-      # i <- 1
+      # local_outcome_type <- 'Fatal'; i <- 1
       
       # Select output directory according to outcome type
       if (local_outcome_type == 'Fatal'){
@@ -46,8 +45,6 @@ if (total_population){
       acmfdata <- subset(raw_data_tp_ltpa, outcome == uoutcome$outcome[i] & 
                            pa_domain_subgroup == local_pa_domain_subgroup & 
                            outcome_type == local_outcome_type)
-      #cat("\n Outcome: ", uoutcome$outcome[i], " , outcome type ", 
-      #   dir_name, " and index ", i, "\n",file = record_removed_entries, append = T)
       
       # Add additional 'fatal' studies that had no 'both' types
       if (local_outcome_type == 'Both'){
@@ -80,6 +77,8 @@ if (total_population){
       if (nrow(acmfdata) > 0){
         # Fill missing values by inferring to useful columns
         acmfdata <- getMissingVariables(acmfdata, infertotalpersons = T, kcases = F)
+        
+        acmfdata$analysis_outcome_type <- local_outcome_type
         
         # Before removing any lines with n requirement less than 10k
         missing_cases <- acmfdata
@@ -145,6 +144,7 @@ if (total_population){
         
         # Remove all such studies altogether - which is a temp fix
         if (nrow(local_filter) > 0){
+          
           temp <- subset(acmfdata, id %in% local_filter)
           temp$reason <- 'multiple stratification'
           readr::write_csv(temp, record_removed_entries, append = T)
