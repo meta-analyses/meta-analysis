@@ -15,11 +15,18 @@ if (file.exists(record_removed_entries)) {
   file.remove(record_removed_entries)
 }
 
+fold <- 'plots/'
+
+# get all files in the directories, recursively
+f <- list.files(fold, include.dirs = F, full.names = T, recursive = T)
+# remove the files
+file.remove(f)
+
 if (total_population){
   for (i in 1:nrow(uoutcome)){
     #Loop through all three outcome types
     for (local_outcome_type in c('Fatal', 'Non-fatal', 'Both')){
-      # local_outcome_type <- 'Both'
+      # local_outcome_type <- 'Both'; i <- 20
       # i <- 1
       
       # Select output directory according to outcome type
@@ -130,6 +137,20 @@ if (total_population){
           readr::write_csv(n_missing, record_removed_entries, append = T)
         }
         
+        # NOTE TO MATT/LEANDRO
+        # This removes all studies with repeating rows such as studies with both sex and ethnicity entries
+        # Won't need it if we remove all such rows from the dataset
+        # Identify all studies with repeating IDs
+        local_filter <- acmfdata %>% group_by(id) %>% summarise(c = sum(is.na(se))) %>% filter(c > 1) %>% dplyr::select(id)
+        
+        # Remove all such studies altogether - which is a temp fix
+        if (nrow(local_filter) > 0){
+          temp <- subset(acmfdata, id %in% local_filter)
+          temp$reason <- 'multiple stratification'
+          readr::write_csv(temp, record_removed_entries, append = T)
+          acmfdata <- acmfdata %>% filter(!id %in% local_filter)
+        }
+        
         orig_col_names <- colnames(acmfdata)
         
         # Select subset of columns
@@ -147,31 +168,17 @@ if (total_population){
               summarise(min = min(dose), max = max(dose), ref = dose[is.na(se)])
             pa <- acmfdata
             
-            # NOTE TO MATT/LEANDRO
-            # This removes all studies with repeating rows such as studies with both sex and ethnicity entries
-            # Won't need it if we remove all such rows from the dataset
-            # Identify all studies with repeating IDs
-            local_filter <- dataset %>% group_by(id) %>% summarise(c = sum(is.na(se))) %>% filter(c > 1) %>% dplyr::select(id)
-            
-            # Remove all such studies altogether - which is a temp fix
-            ld <- NULL
-            if (nrow(local_filter) > 0){
-              ld <- dataset %>% filter(!id %in% local_filter)
-            }else{
-              ld <- dataset
-            }
-            
             # By default run the analysis with Hamling method to approximate covariance
-            res <- metaAnalysis(ld, ptitle = "", returnval = T, covMethed = T, minQuantile = 0, maxQuantile = last_knot, lout = 1000)
+            res <- metaAnalysis(dataset, ptitle = "", returnval = T, covMethed = T, minQuantile = 0, maxQuantile = last_knot, lout = 1000)
             
             # If it fails, use the default by Greenland and Longnecker (gl)
             if (is.null(res) || is.na(res)){
-              res <- metaAnalysis(ld, ptitle = "", returnval = T, covMethed = F, minQuantile = 0, maxQuantile = last_knot, lout = 1000)
+              res <- metaAnalysis(dataset, ptitle = "", returnval = T, covMethed = F, minQuantile = 0, maxQuantile = last_knot, lout = 1000)
             }
             
             # If this too fails, increase maxQuantile to 90th percent
             if (is.null(res) || is.na(res)){
-              res <- metaAnalysis(ld, ptitle = "", returnval = T, covMethed = F, minQuantile = 0, maxQuantile = 0.9, lout = 1000)
+              res <- metaAnalysis(dataset, ptitle = "", returnval = T, covMethed = F, minQuantile = 0, maxQuantile = 0.9, lout = 1000)
             }
             
             # Save results as data frame
