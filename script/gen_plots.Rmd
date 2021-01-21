@@ -30,7 +30,6 @@ knitr::include_graphics(files)
 
 ```
 
-
 # Outcome type: fatal and non-fatal
 
 ```{r fatal-non-fatal, echo=FALSE, out.width = '100%'}
