@@ -504,12 +504,12 @@ ref_number,pa_domain_subgroup,line_id,delete,only_stratified_data?,stratified_by
 13,LTPA,7,,No,,Autenrieth et al.,Stroke,1,Both,Both,3,13069,19,225570,0,740,,127264,496,HR,1,,,1,,,1,,,1,3,0
 13,LTPA,8,,No,,Autenrieth et al.,Stroke,1,Both,Both,3,13069,19,225570,0,740,,57604,147,HR,0.78,0.65,0.95,0.83,0.68,1,0.93,0.76,1.14,2,3,4.38
 13,LTPA,9,,No,,Autenrieth et al.,Stroke,1,Both,Both,3,13069,19,225570,0,740,,40703,97,HR,0.72,0.57,0.9,0.78,0.62,0.97,0.84,0.65,1.07,3,3,13.13
-6,LTPA,1,,No,,Sieverdes et al.,Stroke,1,Fatal,Men,1,45689,,782669,0,175,16862,325605,87,HR,1,,,1,,,1,,,1,1,0.33
+6,LTPA,1,,No,,Sieverdes et al.,Stroke,1,Fatal,Men,1,45689,,782669,0,175,16862,325605,87,HR,1.00,,,1.00,,,1.00,,,1,1,0.33
 6,LTPA,2,,No,,Sieverdes et al.,Stroke,1,Fatal,Men,1,45689,,782669,0,175,19780,344253,68,HR,1.06,0.75,1.49,1.38,0.92,2.07,1.38,0.92,2.07,2,1,15.53
-6,LTPA,3,,No,,Sieverdes et al.,Stroke,1,Fatal,Men,1,45689,,782669,0,175,9047,112811,20,HR,0.84,0.5,1.4,0.92,0.53,1.58,0.92,0.53,1.58,3,1,4.99
-6,LTPA,7,,No,,Sieverdes et al.,Stroke,1,Both,Men,1,45689,,800225,0,619,16862,330188,275,HR,1,,,1,,,1,,,1,3,0.33
+6,LTPA,3,,No,,Sieverdes et al.,Stroke,1,Fatal,Men,1,45689,,782669,0,175,9047,112811,20,HR,0.84,0.50,1.40,0.92,0.53,1.58,0.92,0.53,1.58,3,1,4.99
+6,LTPA,7,,No,,Sieverdes et al.,Stroke,1,Both,Men,1,45689,,800225,0,619,16862,330188,275,HR,1.00,,,1.00,,,1.00,,,1,3,0.33
 6,LTPA,8,,No,,Sieverdes et al.,Stroke,1,Both,Men,1,45689,,800225,0,619,19780,332152,264,HR,0.89,0.74,1.06,1.09,0.89,1.35,1.09,0.89,1.35,2,3,15.53
-6,LTPA,9,,No,,Sieverdes et al.,Stroke,1,Both,Men,1,45689,,800225,0,619,9047,137885,80,HR,0.74,0.57,0.95,0.8,0.8,0.6,0.8,0.8,0.6,3,3,4.99
+6,LTPA,9,,No,,Sieverdes et al.,Stroke,1,Both,Men,1,45689,,800225,0,619,9047,137885,80,HR,0.74,0.57,0.95,0.80,0.60,1.05,0.80,0.60,1.05,3,3,4.99
 2,LTPA,10,,No,,Fraser G.,Coronary heart disease,1,Fatal,Both,3,27658,6,139654,0,244,11315,57135,129,RR,1,,,,,,1,,,1,4,0
 2,LTPA,11,,No,,Fraser G.,Coronary heart disease,1,Fatal,Both,3,27658,6,139654,0,244,5265,26584,47,RR,0.65,0.45,0.92,,,,0.65,0.45,0.92,2,4,7.88
 2,LTPA,12,,No,,Fraser G.,Coronary heart disease,1,Fatal,Both,3,27658,6,139654,0,244,11078,55935,68,RR,0.49,0.36,0.67,,,,0.49,0.36,0.67,3,4,15.75
@@ -744,9 +744,9 @@ ref_number,pa_domain_subgroup,line_id,delete,only_stratified_data?,stratified_by
 117,LTPA,4,,Yes,Sex,Bellocco R.,All-cause mortality,0,Fatal,Women,2,26144,9.7,248857,0,822,8716,82731,384,HR,1,,,1,,,1,,,1,2,0
 117,LTPA,5,,Yes,Sex,Bellocco R.,All-cause mortality,0,Fatal,Women,2,26144,9.7,248857,0,822,8717,83294,217,HR,0.85,0.72,1,0.85,0.72,1,0.91,0.74,1.11,2,2,51.8
 117,LTPA,6,,Yes,Sex,Bellocco R.,All-cause mortality,0,Fatal,Women,2,26144,9.7,248857,0,822,8711,82832,221,HR,0.91,0.77,1.08,0.91,0.77,1.08,0.94,0.77,1.15,3,2,103.6
-118,LTPA,1,,No,,Bellocco R.,Breast cancer,1,Both,Women,2,17474,13.2,175668,0,568,5824,58697,151,HR,1,,,1,,,1,,,1,1,0
+118,LTPA,1,,No,,Bellocco R.,Breast cancer,1,Both,Women,2,17474,13.2,175668,0,568,5824,58697,151,HR,1.00,,,1.00,,,1.00,,,1,1,0
 118,LTPA,2,,No,,Bellocco R.,Breast cancer,1,Both,Women,2,17474,13.2,175668,0,568,5824,57193,178,HR,0.78,0.61,0.98,0.82,0.63,1.07,0.82,0.63,1.07,2,1,44.1
-118,LTPA,3,,No,,Bellocco R.,Breast cancer,1,Both,Women,2,17474,13.2,175668,0,568,5826,59778,239,HR,0.65,0.53,0.8,0.71,0.57,0.9,0.71,0.57,0.9,3,1,92.4
+118,LTPA,3,,No,,Bellocco R.,Breast cancer,1,Both,Women,2,17474,13.2,175668,0,568,5826,59778,239,HR,0.65,0.53,0.80,0.71,0.57,0.90,0.71,0.57,0.90,3,1,92.4
 119,LTPA,1,,No,,Grotta A,Prostate cancer,1,Both,Men,1,13109,13,,0,700,,,176,HR,1,,,1,,,1,,,1,1,8.37
 119,LTPA,2,,No,,Grotta A,Prostate cancer,1,Both,Men,1,13109,13,,0,700,,,277,HR,1,0.84,1.18,1,0.84,1.18,1.1,0.91,1.34,2,1,24.51
 119,LTPA,3,,No,,Grotta A,Prostate cancer,1,Both,Men,1,13109,13,,0,700,,,247,HR,0.9,0.76,1.07,0.9,0.76,1.07,0.93,0.76,1.14,3,1,38.27
@@ -800,18 +800,18 @@ ref_number,pa_domain_subgroup,line_id,delete,only_stratified_data?,stratified_by
 201,LTPA,2,,No,,"Bergstrom, A. ",Kidney cancer,1,Both,Both,3,17241,22.6,389190,0,102,1109,26768,6,HR,1,0.37,2.67,.,.,.,1,0.37,2.67,2,1,15.75
 201,LTPA,3,,No,,"Bergstrom, A. ",Kidney cancer,1,Both,Both,3,17241,22.6,389190,0,102,11493,265909,60,HR,1,0.57,1.76,.,.,.,1,0.57,1.76,3,1,2.63
 201,LTPA,4,,No,,"Bergstrom, A. ",Kidney cancer,1,Both,Both,3,17241,22.6,389190,0,102,2097,44881,11,HR,1,,,.,.,.,1,,,4,1,0
-202,LTPA,1,,Yes,Sex,"Carlsson, S. ",All-cause mortality,0,Fatal,Men,1,13109 twins,,322258,24,1014,,64499,263,HR,1,,,1,,,1,,,1,1,0
-202,LTPA,2,,Yes,Sex,"Carlsson, S. ",All-cause mortality,0,Fatal,Men,1,13109 twins,,322258,24,1014,,202864,661,HR,0.84,0.72,0.98,0.84,0.72,0.98,0.84,0.72,0.98,2,1,5.25
-202,LTPA,3,,Yes,Sex,"Carlsson, S. ",All-cause mortality,0,Fatal,Men,1,13109 twins,,322258,24,1014,,54895,90,HR,0.64,0.5,0.83,0.64,0.5,0.83,0.64,0.5,0.83,3,1,13.13
-202,LTPA,4,,Yes,Sex,"Carlsson, S. ",All-cause mortality,0,Fatal,Women,2,13109 twins,,368097,24,786,,90897,241,HR,1,,,1,,,1,,,1,2,0
-202,LTPA,5,,Yes,Sex,"Carlsson, S. ",All-cause mortality,0,Fatal,Women,2,13109 twins,,368097,24,786,,258012,518,HR,0.82,0.7,0.96,0.82,0.7,0.96,0.82,0.7,0.96,2,2,5.25
-202,LTPA,6,,Yes,Sex,"Carlsson, S. ",All-cause mortality,0,Fatal,Women,2,13109 twins,,368097,24,786,,19188,27,HR,0.75,0.5,1.14,0.75,0.5,1.14,0.75,0.5,1.14,3,2,13.13
-202,LTPA,7,,Yes,Sex,"Carlsson, S. ",All-cause CVD ,0,Fatal,Men,1,13109 twins,,322258,24,434,,64499,113,HR,1,,,1,,,1,,,1,3,0
-202,LTPA,8,,Yes,Sex,"Carlsson, S. ",All-cause CVD ,0,Fatal,Men,1,13109 twins,,322258,24,434,,202864,292,HR,0.86,0.68,1,0.86,0.68,1,0.86,0.68,1,2,3,5.25
-202,LTPA,9,,Yes,Sex,"Carlsson, S. ",All-cause CVD ,0,Fatal,Men,1,13109 twins,,322258,24,434,,54895,29,HR,0.55,0.36,0.8,0.55,0.36,0.8,0.55,0.36,0.8,3,3,13.13
-202,LTPA,10,,Yes,Sex,"Carlsson, S. ",All-cause CVD ,0,Fatal,Women,2,13109 twins,,368097,24,249,,90897,76,HR,1,,,1,,,1,,,1,4,0
-202,LTPA,11,,Yes,Sex,"Carlsson, S. ",All-cause CVD ,0,Fatal,Women,2,13109 twins,,368097,24,249,,258012,169,HR,0.85,0.64,1.1,0.85,0.64,1.1,0.85,0.64,1.1,2,4,5.25
-202,LTPA,12,,Yes,Sex,"Carlsson, S. ",All-cause CVD ,0,Fatal,Women,2,13109 twins,,368097,24,249,,19188,4,HR,0.34,0.12,0.9,0.34,0.12,0.9,0.34,0.12,0.9,3,4,13.13
+202,LTPA,1,,Yes,Sex,"Carlsson, S. ",All-cause mortality,0,Fatal,Men,1,12312,,322258,24,1014,,64499,263,HR,1,,,1,,,1,,,1,1,0
+202,LTPA,2,,Yes,Sex,"Carlsson, S. ",All-cause mortality,0,Fatal,Men,1,12312,,322258,24,1014,,202864,661,HR,0.84,0.72,0.98,0.84,0.72,0.98,0.84,0.72,0.98,2,1,5.25
+202,LTPA,3,,Yes,Sex,"Carlsson, S. ",All-cause mortality,0,Fatal,Men,1,12312,,322258,24,1014,,54895,90,HR,0.64,0.5,0.83,0.64,0.5,0.83,0.64,0.5,0.83,3,1,13.13
+202,LTPA,4,,Yes,Sex,"Carlsson, S. ",All-cause mortality,0,Fatal,Women,2,13906,,368097,24,786,,90897,241,HR,1,,,1,,,1,,,1,2,0
+202,LTPA,5,,Yes,Sex,"Carlsson, S. ",All-cause mortality,0,Fatal,Women,2,13906,,368097,24,786,,258012,518,HR,0.82,0.7,0.96,0.82,0.7,0.96,0.82,0.7,0.96,2,2,5.25
+202,LTPA,6,,Yes,Sex,"Carlsson, S. ",All-cause mortality,0,Fatal,Women,2,13906,,368097,24,786,,19188,27,HR,0.75,0.5,1.14,0.75,0.5,1.14,0.75,0.5,1.14,3,2,13.13
+202,LTPA,7,,Yes,Sex,"Carlsson, S. ",All-cause CVD ,0,Fatal,Men,1,12312,,322258,24,434,,64499,113,HR,1,,,1,,,1,,,1,3,0
+202,LTPA,8,,Yes,Sex,"Carlsson, S. ",All-cause CVD ,0,Fatal,Men,1,12312,,322258,24,434,,202864,292,HR,0.86,0.68,1,0.86,0.68,1,0.86,0.68,1,2,3,5.25
+202,LTPA,9,,Yes,Sex,"Carlsson, S. ",All-cause CVD ,0,Fatal,Men,1,12312,,322258,24,434,,54895,29,HR,0.55,0.36,0.8,0.55,0.36,0.8,0.55,0.36,0.8,3,3,13.13
+202,LTPA,10,,Yes,Sex,"Carlsson, S. ",All-cause CVD ,0,Fatal,Women,2,13906,,368097,24,249,,90897,76,HR,1,,,1,,,1,,,1,4,0
+202,LTPA,11,,Yes,Sex,"Carlsson, S. ",All-cause CVD ,0,Fatal,Women,2,13906,,368097,24,249,,258012,169,HR,0.85,0.64,1.1,0.85,0.64,1.1,0.85,0.64,1.1,2,4,5.25
+202,LTPA,12,,Yes,Sex,"Carlsson, S. ",All-cause CVD ,0,Fatal,Women,2,13906,,368097,24,249,,19188,4,HR,0.34,0.12,0.9,0.34,0.12,0.9,0.34,0.12,0.9,3,4,13.13
 205,LTPA,1,,No,,"Morris, JS. ",Colon cancer,1,Both,Both,3,430584,5.6,2381872,0,1557,,629134,449,HR,1,,,1,,,1,,,1,1,3.29
 205,LTPA,2,,No,,"Morris, JS. ",Colon cancer,1,Both,Both,3,430584,5.6,2381872,0,1557,,508673,356,HR,0.98,0.85,1.12,0.98,0.85,1.12,1,0.87,1.15,2,1,11.34
 205,LTPA,3,,No,,"Morris, JS. ",Colon cancer,1,Both,Both,3,430584,5.6,2381872,0,1557,,579190,323,HR,0.78,0.67,0.9,0.78,0.67,0.9,0.81,0.7,0.94,3,1,23.87
@@ -1570,14 +1570,6 @@ ref_number,pa_domain_subgroup,line_id,delete,only_stratified_data?,stratified_by
 339,LTPA,2,,No,,"Baumeister, S. E.",Liver cancer,1,Both,Both,3,467336,14.9,6508182,24,275,,2066038,83,HR,0.65,0.46,0.9,0.65,0.46,0.9,0.65,0.46,0.9,2,1,9.34
 339,LTPA,3,,No,,"Baumeister, S. E.",Liver cancer,1,Both,Both,3,467336,14.9,6508182,24,275,,1465342,48,HR,0.53,0.36,0.78,0.53,0.36,0.78,0.53,0.36,0.78,3,1,16.71
 339,LTPA,4,,No,,"Baumeister, S. E.",Liver cancer,1,Both,Both,3,467336,14.9,6508182,24,275,,1504439,53,HR,0.57,0.39,0.83,0.57,0.39,0.83,0.57,0.39,0.83,4,1,26.37
-339,LTPA,5,,No,,"Baumeister, S. E.",Liver cancer,1,Both,Both,3,467336,14.9,6508182,24,93,,1385090,26,HR,1,,,1,,,1,,,1,2,0
-339,LTPA,6,,No,,"Baumeister, S. E.",Liver cancer,1,Both,Both,3,467336,14.9,6508182,24,93,,2146810,27,HR,0.67,0.37,1.19,0.67,0.37,1.19,0.67,0.37,1.19,2,2,9.34
-339,LTPA,7,,No,,"Baumeister, S. E.",Liver cancer,1,Both,Both,3,467336,14.9,6508182,24,93,,1695040,21,HR,0.66,0.35,1.24,0.66,0.35,1.24,0.66,0.35,1.24,3,2,16.71
-339,LTPA,8,,No,,"Baumeister, S. E.",Liver cancer,1,Both,Both,3,467336,14.9,6508182,24,93,,1281242,19,HR,0.79,0.41,1.52,0.79,0.41,1.52,0.79,0.41,1.52,4,2,26.37
-339,LTPA,9,,No,,"Baumeister, S. E.",Liver cancer,1,Both,Both,3,467336,14.9,6508182,24,164,,1325554,39,HR,1,,,1,,,1,,,1,3,0
-339,LTPA,10,,No,,"Baumeister, S. E.",Liver cancer,1,Both,Both,3,467336,14.9,6508182,24,164,,2004453,46,HR,0.78,0.48,1.26,0.78,0.48,1.26,0.78,0.48,1.26,2,3,9.34
-339,LTPA,11,,No,,"Baumeister, S. E.",Liver cancer,1,Both,Both,3,467336,14.9,6508182,24,164,,1799394,36,HR,0.68,0.4,1.16,0.68,0.4,1.16,0.68,0.4,1.16,3,3,16.71
-339,LTPA,12,,No,,"Baumeister, S. E.",Liver cancer,1,Both,Both,3,467336,14.9,6508182,24,164,,1378781,43,HR,1.06,0.68,1.74,1.06,0.68,1.74,1.06,0.68,1.74,4,3,26.37
 341,LTPA,1,,No,,"Cho, J.",All-cause mortality,1,Fatal,Both,3,15416,3,46248,12,718,11357,34678,766,HR,1,,,1,,,1,,,1,1,0
 341,LTPA,2,,No,,"Cho, J.",All-cause mortality,1,Fatal,Both,3,15416,3,46248,12,718,959,2928,41,HR,0.71,0.51,0.99,1.05,0.73,1.5,1.23,0.82,1.83,2,1,4.38
 341,LTPA,3,,No,,"Cho, J.",All-cause mortality,1,Fatal,Both,3,15416,3,46248,12,718,2830,8641,96,HR,0.48,0.38,0.61,0.72,0.54,0.95,0.75,0.54,1.04,3,1,13.13
@@ -1597,10 +1589,6 @@ ref_number,pa_domain_subgroup,line_id,delete,only_stratified_data?,stratified_by
 340,LTPA,2,,No,,"Murphy, N.",Colon cancer,1,Both,Both,3,481874,14.9,,0,1838,,2184965,605,HR,0.78,0.69,0.89,,,,0.78,0.69,0.89,2,1,9.34
 340,LTPA,3,,No,,"Murphy, N.",Colon cancer,1,Both,Both,3,481874,14.9,,0,1838,,1748711,416,HR,0.78,0.67,0.9,,,,0.78,0.67,0.9,3,1,16.71
 340,LTPA,4,,No,,"Murphy, N.",Colon cancer,1,Both,Both,3,481874,14.9,,0,1838,,1217616,293,HR,0.74,0.63,0.87,,,,0.74,0.63,0.87,4,1,26.37
-340,LTPA,5,,No,,"Murphy, N.",Colon cancer,1,Both,Both,3,481874,14.9,,0,1717,,1356890,436,HR,1,,,,,,1,,,1,2,0
-340,LTPA,6,,No,,"Murphy, N.",Colon cancer,1,Both,Both,3,481874,14.9,,0,1717,,2184965,588,HR,0.93,0.81,1.06,,,,0.93,0.81,1.06,2,2,9.34
-340,LTPA,7,,No,,"Murphy, N.",Colon cancer,1,Both,Both,3,481874,14.9,,0,1717,,1748711,367,HR,0.8,0.68,0.94,,,,0.8,0.68,0.94,3,2,16.71
-340,LTPA,8,,No,,"Murphy, N.",Colon cancer,1,Both,Both,3,481874,14.9,,0,1717,,1217616,326,HR,0.89,0.76,1.05,,,,0.89,0.76,1.05,4,2,26.37
 340,LTPA,9,,No,,"Murphy, N.",Rectum cancer,1,Both,Both,3,481874,14.9,,0,2056,,1356890,457,HR,1,,,,,,1,,,1,3,0
 340,LTPA,10,,No,,"Murphy, N.",Rectum cancer,1,Both,Both,3,481874,14.9,,0,2056,,2184965,662,HR,0.97,0.85,1.1,,,,0.97,0.85,1.1,2,3,9.34
 340,LTPA,11,,No,,"Murphy, N.",Rectum cancer,1,Both,Both,3,481874,14.9,,0,2056,,1748711,490,HR,0.97,0.84,1.11,,,,0.97,0.84,1.11,3,3,16.71
@@ -2043,12 +2031,12 @@ ref_number,pa_domain_subgroup,line_id,delete,only_stratified_data?,stratified_by
 193,LTPA,46,,,Sex_combined,Matthews C,All-cause cancer,1,Fatal,Both,3,63308,6.4,405171,0,905,15877,101613,219,HR,0.82,0.69,0.98,,,,0.82,0.68,0.98,,,10.66
 193,LTPA,47,,,Sex_combined,Matthews C,All-cause cancer,1,Fatal,Both,3,63308,6.4,405171,0,905,15798,101107,179,HR,0.8,0.66,0.97,,,,0.79,0.65,0.96,,,20.05
 193,LTPA,48,,,Sex_combined,Matthews C,All-cause cancer,1,Fatal,Both,3,63308,6.4,405171,0,905,15832,101325,179,HR,0.78,0.64,0.96,,,,0.78,0.63,0.96,,,31.63
-202,LTPA,13,,,Sex_combined,"Carlsson, S. ",All-cause mortality,1,Fatal,Both,3,13109 twins,,690355,24,1800,,155396,504,HR,1,,,1,,,1,,,,,0
-202,LTPA,14,,,Sex_combined,"Carlsson, S. ",All-cause mortality,1,Fatal,Both,3,13109 twins,,690355,24,1800,,460876,1179,HR,0.83,0.74,0.93,0.83,0.74,0.93,0.83,0.74,0.93,,,5.25
-202,LTPA,15,,,Sex_combined,"Carlsson, S. ",All-cause mortality,1,Fatal,Both,3,13109 twins,,690355,24,1800,,74083,117,HR,0.67,0.54,0.83,0.67,0.54,0.83,0.67,0.54,0.83,,,13.13
-202,LTPA,16,,,Sex_combined,"Carlsson, S. ",All-cause CVD ,1,Fatal,Both,3,13109,,690355,24,683,,155396,189,HR,1,,,1,,,1,,,,,0
-202,LTPA,17,,,Sex_combined,"Carlsson, S. ",All-cause CVD ,1,Fatal,Both,3,13109,,690355,24,683,,460876,461,HR,0.86,0.73,1,0.86,0.73,1,0.86,0.73,1,,,5.25
-202,LTPA,18,,,Sex_combined,"Carlsson, S. ",All-cause CVD ,1,Fatal,Both,3,13109,,690355,24,683,,74083,33,HR,0.52,0.36,0.75,0.52,0.36,0.75,0.52,0.36,0.75,,,13.13
+202,LTPA,13,,,Sex_combined,"Carlsson, S. ",All-cause mortality,1,Fatal,Both,3,26218,,690355,24,1800,,155396,504,HR,1,,,1,,,1,,,,,0
+202,LTPA,14,,,Sex_combined,"Carlsson, S. ",All-cause mortality,1,Fatal,Both,3,26218,,690355,24,1800,,460876,1179,HR,0.83,0.74,0.93,0.83,0.74,0.93,0.83,0.74,0.93,,,5.25
+202,LTPA,15,,,Sex_combined,"Carlsson, S. ",All-cause mortality,1,Fatal,Both,3,26218,,690355,24,1800,,74083,117,HR,0.67,0.54,0.83,0.67,0.54,0.83,0.67,0.54,0.83,,,13.13
+202,LTPA,16,,,Sex_combined,"Carlsson, S. ",All-cause CVD ,1,Fatal,Both,3,26218,,690355,24,683,,155396,189,HR,1,,,1,,,1,,,,,0
+202,LTPA,17,,,Sex_combined,"Carlsson, S. ",All-cause CVD ,1,Fatal,Both,3,26218,,690355,24,683,,460876,461,HR,0.86,0.73,1,0.86,0.73,1,0.86,0.73,1,,,5.25
+202,LTPA,18,,,Sex_combined,"Carlsson, S. ",All-cause CVD ,1,Fatal,Both,3,26218,,690355,24,683,,74083,33,HR,0.52,0.36,0.75,0.52,0.36,0.75,0.52,0.36,0.75,,,13.13
 212,LTPA,19,,,Sex_combined,Hu G,All-cause mortality,1,Fatal,Both,3,47212,17.7,836288,0,7394,5745,94196,1381,HR,1,,,1,,,1,,,,,0
 212,LTPA,20,,,Sex_combined,Hu G,All-cause mortality,1,Fatal,Both,3,47212,17.7,836288,0,7394,21441,375811,3432,HR,0.62,0.58,0.66,0.62,0.58,0.66,0.69,0.65,0.74,,,13.13
 212,LTPA,21,,,Sex_combined,Hu G,All-cause mortality,1,Fatal,Both,3,47212,17.7,836288,0,7394,20026,360281,2581,HR,0.53,0.49,0.56,0.53,0.49,0.56,0.61,0.57,0.65,,,26.25
