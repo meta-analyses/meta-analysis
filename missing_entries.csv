@@ -1,14 +1,8 @@
 ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,totalpersons,tot_personyrs,personyrs,mean_followup,dose,RR,effect,effect_measure,lci_effect,uci_effect,cases,overall,pa_domain_subgroup,id,logrr,se,n,analysis_outcome_type,reason
-91,Suzuki,All-cause cancer,Fatal,3,ci,NA,NA,1103895,128676,NA,1.75,1,1,hr,NA,NA,729,1,LTPA,18,0,NA,128676,Fatal,n_baseline < 10k
-91,Suzuki,All-cause cancer,Fatal,3,ci,NA,NA,1103895,164754,NA,5.25,0.95,0.95,hr,0.88,1.03,690,1,LTPA,18,-0.05129329438755058,0.040151802531301274,164754,Fatal,n_baseline < 10k
-91,Suzuki,All-cause cancer,Fatal,3,ci,NA,NA,1103895,801465,NA,12.25,0.91,0.91,hr,0.84,0.99,3234,1,LTPA,18,-0.09431067947124129,0.04191481389129543,801465,Fatal,n_baseline < 10k
 295,Kabat G.,All-cause cancer,Both,3,ci,476396,NA,5002158,NA,10.5,0.98,1,1,hr,NA,NA,NA,1,LTPA,5,0,NA,NA,Both,missing cases
 295,Kabat G.,All-cause cancer,Both,3,ci,476396,NA,5002158,NA,10.5,3.94,0.99,0.99,hr,0.97,1.01,NA,1,LTPA,5,-0.01005033585350145,0.010308745124048696,NA,Both,missing cases
 295,Kabat G.,All-cause cancer,Both,3,ci,476396,NA,5002158,NA,10.5,9.19,0.99,0.99,hr,0.97,1.01,NA,1,LTPA,5,-0.01005033585350145,0.010308745124048696,NA,Both,missing cases
 295,Kabat G.,All-cause cancer,Both,3,ci,476396,NA,5002158,NA,10.5,14.44,0.97,0.97,hr,0.95,0.99,NA,1,LTPA,5,-0.030459207484708574,0.010521356223728684,NA,Both,missing cases
-91,Suzuki,All-cause cancer,Fatal,3,ci,NA,NA,1103895,128676,NA,1.75,1,1,hr,NA,NA,729,1,LTPA,25,0,NA,128676,Both,n_baseline < 10k
-91,Suzuki,All-cause cancer,Fatal,3,ci,NA,NA,1103895,164754,NA,5.25,0.95,0.95,hr,0.88,1.03,690,1,LTPA,25,-0.05129329438755058,0.040151802531301274,164754,Both,n_baseline < 10k
-91,Suzuki,All-cause cancer,Fatal,3,ci,NA,NA,1103895,801465,NA,12.25,0.91,0.91,hr,0.84,0.99,3234,1,LTPA,25,-0.09431067947124129,0.04191481389129543,801465,Both,n_baseline < 10k
 103,Paganini-Hill A.,All-cause cvd,Fatal,3,ci,13296,2694,179496,36369,13.5,0,1,1,hr,NA,NA,NA,1,LTPA,22,0,NA,36369,Fatal,missing cases
 103,Paganini-Hill A.,All-cause cvd,Fatal,3,ci,13296,4121,179496,55633.5,13.5,6.13,0.85,0.85,hr,0.8,0.91,NA,1,LTPA,22,-0.16251892949777494,0.03286613245426593,55633.5,Fatal,missing cases
 103,Paganini-Hill A.,All-cause cvd,Fatal,3,ci,13296,4492,179496,60642,13.5,21.44,0.77,0.77,hr,0.72,0.83,NA,1,LTPA,22,-0.2613647641344075,0.036269668703608045,60642,Fatal,missing cases
@@ -25,9 +19,6 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 229,Brown et al.,All-cause mortality,Fatal,3,ci,18106,NA,199166,NA,11,10.32,0.76,0.76,hr,0.7,0.82,NA,1,LTPA,45,-0.2744368457017603,0.04036400833457782,NA,Fatal,missing cases
 229,Brown et al.,All-cause mortality,Fatal,3,ci,18106,NA,199166,NA,11,16.53,0.78,0.78,hr,0.71,0.85,NA,1,LTPA,45,-0.2484613592984996,0.04591190982808674,NA,Fatal,missing cases
 229,Brown et al.,All-cause mortality,Fatal,3,ci,18106,NA,199166,NA,11,22.82,0.7,0.7,hr,0.65,0.76,NA,1,LTPA,45,-0.35667494393873245,0.039884934525310625,NA,Fatal,missing cases
-91,Suzuki,All-cause mortality,Fatal,3,ci,NA,NA,1103895,128676,NA,1.75,1,1,hr,NA,NA,1922,1,LTPA,37,0,NA,128676,Fatal,n_baseline < 10k
-91,Suzuki,All-cause mortality,Fatal,3,ci,NA,NA,1103895,164754,NA,5.25,0.9,0.9,hr,0.87,0.94,1849,1,LTPA,37,-0.10536051565782628,0.019741858581544425,164754,Fatal,n_baseline < 10k
-91,Suzuki,All-cause mortality,Fatal,3,ci,NA,NA,1103895,801465,NA,12.25,0.79,0.79,hr,0.75,0.84,8989,1,LTPA,37,-0.23572233352106983,0.028910910149606152,801465,Fatal,n_baseline < 10k
 124,Arrieta A.,All-cause mortality,Fatal,3,ci,10474,4430,NA,NA,NA,0,1,1,hr,NA,NA,1874,1,LTPA,41,0,NA,4430,Fatal,missing either person years or total persons
 124,Arrieta A.,All-cause mortality,Fatal,3,ci,10474,3596,NA,NA,NA,3.75,0.83,0.83,hr,0.75,0.92,1220,1,LTPA,41,-0.18632957819149348,0.05211842287006954,3596,Fatal,missing either person years or total persons
 124,Arrieta A.,All-cause mortality,Fatal,3,ci,10474,1585,NA,NA,NA,9.38,0.82,0.82,hr,0.72,0.94,499,1,LTPA,41,-0.19845093872383832,0.0680187659969983,1585,Fatal,missing either person years or total persons
@@ -39,80 +30,22 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 229,Brown et al.,All-cause mortality,Fatal,3,ci,18106,NA,199166,NA,11,10.32,0.76,0.76,hr,0.7,0.82,NA,1,LTPA,45,-0.2744368457017603,0.04036400833457782,NA,Both,missing cases
 229,Brown et al.,All-cause mortality,Fatal,3,ci,18106,NA,199166,NA,11,16.53,0.78,0.78,hr,0.71,0.85,NA,1,LTPA,45,-0.2484613592984996,0.04591190982808674,NA,Both,missing cases
 229,Brown et al.,All-cause mortality,Fatal,3,ci,18106,NA,199166,NA,11,22.82,0.7,0.7,hr,0.65,0.76,NA,1,LTPA,45,-0.35667494393873245,0.039884934525310625,NA,Both,missing cases
-91,Suzuki,All-cause mortality,Fatal,3,ci,NA,NA,1103895,128676,NA,1.75,1,1,hr,NA,NA,1922,1,LTPA,37,0,NA,128676,Both,n_baseline < 10k
-91,Suzuki,All-cause mortality,Fatal,3,ci,NA,NA,1103895,164754,NA,5.25,0.9,0.9,hr,0.87,0.94,1849,1,LTPA,37,-0.10536051565782628,0.019741858581544425,164754,Both,n_baseline < 10k
-91,Suzuki,All-cause mortality,Fatal,3,ci,NA,NA,1103895,801465,NA,12.25,0.79,0.79,hr,0.75,0.84,8989,1,LTPA,37,-0.23572233352106983,0.028910910149606152,801465,Both,n_baseline < 10k
 124,Arrieta A.,All-cause mortality,Fatal,3,ci,10474,4430,NA,NA,NA,0,1,1,hr,NA,NA,1874,1,LTPA,41,0,NA,4430,Both,missing either person years or total persons
 124,Arrieta A.,All-cause mortality,Fatal,3,ci,10474,3596,NA,NA,NA,3.75,0.83,0.83,hr,0.75,0.92,1220,1,LTPA,41,-0.18632957819149348,0.05211842287006954,3596,Both,missing either person years or total persons
 124,Arrieta A.,All-cause mortality,Fatal,3,ci,10474,1585,NA,NA,NA,9.38,0.82,0.82,hr,0.72,0.94,499,1,LTPA,41,-0.19845093872383832,0.0680187659969983,1585,Both,missing either person years or total persons
-91,Suzuki,Colon cancer,Fatal,3,ci,NA,NA,1103895,128676,NA,1.75,1,1,hr,NA,NA,61,1,LTPA,2,0,NA,128676,Fatal,n_baseline < 10k
-91,Suzuki,Colon cancer,Fatal,3,ci,NA,NA,1103895,164754,NA,5.25,1.25,1.25,hr,0.99,1.58,60,1,LTPA,2,0.22314355131420976,0.11925606454500227,164754,Fatal,n_baseline < 10k
-91,Suzuki,Colon cancer,Fatal,3,ci,NA,NA,1103895,801465,NA,12.25,1.2,1.2,hr,0.9,1.61,225,1,LTPA,2,0.1823215567939546,0.1483687198442785,801465,Fatal,n_baseline < 10k
-91,Suzuki,Colon cancer,Fatal,3,ci,NA,NA,1103895,128676,NA,1.75,1,1,hr,NA,NA,61,1,LTPA,20,0,NA,128676,Both,n_baseline < 10k
-91,Suzuki,Colon cancer,Fatal,3,ci,NA,NA,1103895,164754,NA,5.25,1.25,1.25,hr,0.99,1.58,60,1,LTPA,20,0.22314355131420976,0.11925606454500227,164754,Both,n_baseline < 10k
-91,Suzuki,Colon cancer,Fatal,3,ci,NA,NA,1103895,801465,NA,12.25,1.2,1.2,hr,0.9,1.61,225,1,LTPA,20,0.1823215567939546,0.1483687198442785,801465,Both,n_baseline < 10k
 235,Pedersen et al.,Coronary heart disease,Fatal,3,ci,11914,NA,238280,NA,20,1.5,1,1,hr,NA,NA,1978,1,LTPA,11,0,NA,NA,Fatal,missing either person years or total persons
 235,Pedersen et al.,Coronary heart disease,Fatal,3,ci,11914,NA,238280,NA,20,10.5,0.71,0.71,hr,0.61,0.83,5770,1,LTPA,11,-0.342490308946776,0.07856438844093287,NA,Fatal,missing either person years or total persons
 235,Pedersen et al.,Coronary heart disease,Fatal,3,ci,11914,NA,238280,NA,20,17.5,0.71,0.71,hr,0.61,0.83,4166,1,LTPA,11,-0.342490308946776,0.07856438844093287,NA,Fatal,missing either person years or total persons
 235,Pedersen et al.,Coronary heart disease,Fatal,3,ci,11914,NA,238280,NA,20,1.5,1,1,hr,NA,NA,1978,1,LTPA,24,0,NA,NA,Both,missing either person years or total persons
 235,Pedersen et al.,Coronary heart disease,Fatal,3,ci,11914,NA,238280,NA,20,10.5,0.71,0.71,hr,0.61,0.83,5770,1,LTPA,24,-0.342490308946776,0.07856438844093287,NA,Both,missing either person years or total persons
 235,Pedersen et al.,Coronary heart disease,Fatal,3,ci,11914,NA,238280,NA,20,17.5,0.71,0.71,hr,0.61,0.83,4166,1,LTPA,24,-0.342490308946776,0.07856438844093287,NA,Both,missing either person years or total persons
-91,Suzuki,Esophageal cancer,Fatal,3,ci,NA,NA,1103895,128676,NA,1.75,1,1,hr,NA,NA,21,1,LTPA,2,0,NA,128676,Fatal,n_baseline < 10k
-91,Suzuki,Esophageal cancer,Fatal,3,ci,NA,NA,1103895,164754,NA,5.25,1.15,1.15,hr,0.77,1.73,26,1,LTPA,2,0.13976194237515863,0.20650536923872556,164754,Fatal,n_baseline < 10k
-91,Suzuki,Esophageal cancer,Fatal,3,ci,NA,NA,1103895,801465,NA,12.25,0.81,0.81,hr,0.5,1.32,100,1,LTPA,2,-0.21072103131565253,0.24765223361643512,801465,Fatal,n_baseline < 10k
-91,Suzuki,Esophageal cancer,Fatal,3,ci,NA,NA,1103895,128676,NA,1.75,1,1,hr,NA,NA,21,1,LTPA,6,0,NA,128676,Both,n_baseline < 10k
-91,Suzuki,Esophageal cancer,Fatal,3,ci,NA,NA,1103895,164754,NA,5.25,1.15,1.15,hr,0.77,1.73,26,1,LTPA,6,0.13976194237515863,0.20650536923872556,164754,Both,n_baseline < 10k
-91,Suzuki,Esophageal cancer,Fatal,3,ci,NA,NA,1103895,801465,NA,12.25,0.81,0.81,hr,0.5,1.32,100,1,LTPA,6,-0.21072103131565253,0.24765223361643512,801465,Both,n_baseline < 10k
-91,Suzuki,Kidney cancer,Fatal,3,ci,NA,NA,1103895,128676,NA,1.75,1,1,hr,NA,NA,8,1,LTPA,2,0,NA,128676,Fatal,n_baseline < 10k
-91,Suzuki,Kidney cancer,Fatal,3,ci,NA,NA,1103895,164754,NA,5.25,0.72,0.72,hr,0.31,1.63,6,1,LTPA,2,-0.3285040669720361,0.4234167080144368,164754,Fatal,n_baseline < 10k
-91,Suzuki,Kidney cancer,Fatal,3,ci,NA,NA,1103895,801465,NA,12.25,0.81,0.81,hr,0.37,1.78,37,1,LTPA,2,-0.21072103131565253,0.40073839367423303,801465,Fatal,n_baseline < 10k
-91,Suzuki,Kidney cancer,Fatal,3,ci,NA,NA,1103895,128676,NA,1.75,1,1,hr,NA,NA,8,1,LTPA,6,0,NA,128676,Both,n_baseline < 10k
-91,Suzuki,Kidney cancer,Fatal,3,ci,NA,NA,1103895,164754,NA,5.25,0.72,0.72,hr,0.31,1.63,6,1,LTPA,6,-0.3285040669720361,0.4234167080144368,164754,Both,n_baseline < 10k
-91,Suzuki,Kidney cancer,Fatal,3,ci,NA,NA,1103895,801465,NA,12.25,0.81,0.81,hr,0.37,1.78,37,1,LTPA,6,-0.21072103131565253,0.40073839367423303,801465,Both,n_baseline < 10k
 72,"Setiawan, V.",Kidney cancer,Both,3,ci,161126,NA,1337345.8,NA,8.3,0,1,1,hr,NA,NA,100,1,LTPA,4,0,NA,NA,Both,missing either person years or total persons
 72,"Setiawan, V.",Kidney cancer,Both,3,ci,161126,NA,1337345.8,NA,8.3,24.38,0.98,0.98,hr,0.74,1.3,95,1,LTPA,4,-0.020202707317519466,0.14374482431717808,NA,Both,missing either person years or total persons
 72,"Setiawan, V.",Kidney cancer,Both,3,ci,161126,NA,1337345.8,NA,8.3,46.93,0.71,0.71,hr,0.52,0.96,68,1,LTPA,4,-0.342490308946776,0.15640707628367123,NA,Both,missing either person years or total persons
 72,"Setiawan, V.",Kidney cancer,Both,3,ci,161126,NA,1337345.8,NA,8.3,68.83,0.77,0.77,hr,0.63,0.96,84,1,LTPA,4,-0.2613647641344075,0.10745438905989643,NA,Both,missing either person years or total persons
-91,Suzuki,Liver cancer,Fatal,3,ci,NA,NA,1103895,128676,NA,1.75,1,1,hr,NA,NA,61,1,LTPA,2,0,NA,128676,Fatal,n_baseline < 10k
-91,Suzuki,Liver cancer,Fatal,3,ci,NA,NA,1103895,164754,NA,5.25,1.02,1.02,hr,0.81,1.3,74,1,LTPA,2,0.01980262729617973,0.12068724209087009,164754,Fatal,n_baseline < 10k
-91,Suzuki,Liver cancer,Fatal,3,ci,NA,NA,1103895,801465,NA,12.25,0.81,0.81,hr,0.61,1.06,330,1,LTPA,2,-0.21072103131565253,0.1409631080717095,801465,Fatal,n_baseline < 10k
-91,Suzuki,Liver cancer,Fatal,3,ci,NA,NA,1103895,128676,NA,1.75,1,1,hr,NA,NA,61,1,LTPA,5,0,NA,128676,Both,n_baseline < 10k
-91,Suzuki,Liver cancer,Fatal,3,ci,NA,NA,1103895,164754,NA,5.25,1.02,1.02,hr,0.81,1.3,74,1,LTPA,5,0.01980262729617973,0.12068724209087009,164754,Both,n_baseline < 10k
-91,Suzuki,Liver cancer,Fatal,3,ci,NA,NA,1103895,801465,NA,12.25,0.81,0.81,hr,0.61,1.06,330,1,LTPA,5,-0.21072103131565253,0.1409631080717095,801465,Both,n_baseline < 10k
-91,Suzuki,Lung cancer,Fatal,3,ci,NA,NA,1103895,128676,NA,1.75,1,1,hr,NA,NA,167,1,LTPA,3,0,NA,128676,Fatal,n_baseline < 10k
-91,Suzuki,Lung cancer,Fatal,3,ci,NA,NA,1103895,164754,NA,5.25,0.84,0.84,hr,0.7,1.01,119,1,LTPA,3,-0.1743533871447778,0.0935285744237634,164754,Fatal,n_baseline < 10k
-91,Suzuki,Lung cancer,Fatal,3,ci,NA,NA,1103895,801465,NA,12.25,0.99,0.99,hr,0.83,1.18,614,1,LTPA,3,-0.01005033585350145,0.0897577760214901,801465,Fatal,n_baseline < 10k
-91,Suzuki,Lung cancer,Fatal,3,ci,NA,NA,1103895,128676,NA,1.75,1,1,hr,NA,NA,167,1,LTPA,14,0,NA,128676,Both,n_baseline < 10k
-91,Suzuki,Lung cancer,Fatal,3,ci,NA,NA,1103895,164754,NA,5.25,0.84,0.84,hr,0.7,1.01,119,1,LTPA,14,-0.1743533871447778,0.0935285744237634,164754,Both,n_baseline < 10k
-91,Suzuki,Lung cancer,Fatal,3,ci,NA,NA,1103895,801465,NA,12.25,0.99,0.99,hr,0.83,1.18,614,1,LTPA,14,-0.01005033585350145,0.0897577760214901,801465,Both,n_baseline < 10k
-91,Suzuki,Myeloid leukemia,Fatal,3,ci,NA,NA,1103895,128676,NA,1.75,1,1,hr,NA,NA,11,1,LTPA,2,0,NA,128676,Fatal,n_baseline < 10k
-91,Suzuki,Myeloid leukemia,Fatal,3,ci,NA,NA,1103895,164754,NA,5.25,0.9,0.9,hr,0.45,1.8,9,1,LTPA,2,-0.10536051565782628,0.3536530191510671,164754,Fatal,n_baseline < 10k
-91,Suzuki,Myeloid leukemia,Fatal,3,ci,NA,NA,1103895,801465,NA,12.25,1.2,1.2,hr,0.61,2.39,42,1,LTPA,2,0.1823215567939546,0.34837111766588497,801465,Fatal,n_baseline < 10k
-91,Suzuki,Myeloid leukemia,Fatal,3,ci,NA,NA,1103895,128676,NA,1.75,1,1,hr,NA,NA,11,1,LTPA,4,0,NA,128676,Both,n_baseline < 10k
-91,Suzuki,Myeloid leukemia,Fatal,3,ci,NA,NA,1103895,164754,NA,5.25,0.9,0.9,hr,0.45,1.8,9,1,LTPA,4,-0.10536051565782628,0.3536530191510671,164754,Both,n_baseline < 10k
-91,Suzuki,Myeloid leukemia,Fatal,3,ci,NA,NA,1103895,801465,NA,12.25,1.2,1.2,hr,0.61,2.39,42,1,LTPA,4,0.1823215567939546,0.34837111766588497,801465,Both,n_baseline < 10k
-91,Suzuki,Myeloma,Fatal,3,ci,NA,NA,1103895,128676,NA,1.75,1,1,hr,NA,NA,7,1,LTPA,2,0,NA,128676,Fatal,n_baseline < 10k
-91,Suzuki,Myeloma,Fatal,3,ci,NA,NA,1103895,164754,NA,5.25,1.24,1.24,hr,0.66,2.3,12,1,LTPA,2,0.2151113796169455,0.31848150699303246,164754,Fatal,n_baseline < 10k
-91,Suzuki,Myeloma,Fatal,3,ci,NA,NA,1103895,801465,NA,12.25,0.74,0.74,hr,0.33,1.64,46,1,LTPA,2,-0.3011050927839216,0.4090276349475829,801465,Fatal,n_baseline < 10k
-91,Suzuki,Myeloma,Fatal,3,ci,NA,NA,1103895,128676,NA,1.75,1,1,hr,NA,NA,7,1,LTPA,4,0,NA,128676,Both,n_baseline < 10k
-91,Suzuki,Myeloma,Fatal,3,ci,NA,NA,1103895,164754,NA,5.25,1.24,1.24,hr,0.66,2.3,12,1,LTPA,4,0.2151113796169455,0.31848150699303246,164754,Both,n_baseline < 10k
-91,Suzuki,Myeloma,Fatal,3,ci,NA,NA,1103895,801465,NA,12.25,0.74,0.74,hr,0.33,1.64,46,1,LTPA,4,-0.3011050927839216,0.4090276349475829,801465,Both,n_baseline < 10k
-338,"Barberio, A. M.",Prostate cancer,Both,1,ci,9999,56,107989,29686,10.8,2.29,1,1,hr,NA,NA,81,1,LTPA,10,0,NA,29686,Both,n_baseline < 10k
-338,"Barberio, A. M.",Prostate cancer,Both,1,ci,9999,47,107989,24854,10.8,9.5,0.79,0.79,hr,0.57,1.12,59,1,LTPA,10,-0.23572233352106983,0.1723112283665387,24854,Both,n_baseline < 10k
-338,"Barberio, A. M.",Prostate cancer,Both,1,ci,9999,50,107989,26552,10.8,21.34,0.86,0.86,hr,0.62,1.2,71,1,LTPA,10,-0.15082288973458366,0.16846160514830097,26552,Both,n_baseline < 10k
-338,"Barberio, A. M.",Prostate cancer,Both,1,ci,9999,51,107989,26896,10.8,34.8,1.04,1.04,hr,0.76,1.43,91,1,LTPA,10,0.03922071315328133,0.16125584320926034,26896,Both,n_baseline < 10k
 119,Grotta A,Prostate cancer,Both,1,ci,13109,NA,170417,NA,13,8.37,1,1,hr,NA,NA,176,1,LTPA,5,0,NA,NA,Both,missing either person years or total persons
 119,Grotta A,Prostate cancer,Both,1,ci,13109,NA,170417,NA,13,24.51,1.1,1.1,hr,0.91,1.34,277,1,LTPA,5,0.09531017980432493,0.09872127663735472,NA,Both,missing either person years or total persons
 119,Grotta A,Prostate cancer,Both,1,ci,13109,NA,170417,NA,13,38.27,0.93,0.93,hr,0.76,1.14,247,1,LTPA,5,-0.07257069283483537,0.10343687723509754,NA,Both,missing either person years or total persons
-91,Suzuki,Rectum cancer,Fatal,3,ci,NA,NA,1103895,128676,NA,1.75,1,1,hr,NA,NA,23,1,LTPA,2,0,NA,128676,Fatal,n_baseline < 10k
-91,Suzuki,Rectum cancer,Fatal,3,ci,NA,NA,1103895,164754,NA,5.25,1.06,1.06,hr,0.74,1.52,32,1,LTPA,2,0.058268908123975824,0.18362975884248872,164754,Fatal,n_baseline < 10k
-91,Suzuki,Rectum cancer,Fatal,3,ci,NA,NA,1103895,801465,NA,12.25,0.73,0.73,hr,0.47,1.14,137,1,LTPA,2,-0.31471074483970024,0.2260375327489416,801465,Fatal,n_baseline < 10k
-91,Suzuki,Rectum cancer,Fatal,3,ci,NA,NA,1103895,128676,NA,1.75,1,1,hr,NA,NA,23,1,LTPA,14,0,NA,128676,Both,n_baseline < 10k
-91,Suzuki,Rectum cancer,Fatal,3,ci,NA,NA,1103895,164754,NA,5.25,1.06,1.06,hr,0.74,1.52,32,1,LTPA,14,0.058268908123975824,0.18362975884248872,164754,Both,n_baseline < 10k
-91,Suzuki,Rectum cancer,Fatal,3,ci,NA,NA,1103895,801465,NA,12.25,0.73,0.73,hr,0.47,1.14,137,1,LTPA,14,-0.31471074483970024,0.2260375327489416,801465,Both,n_baseline < 10k
-104,Paganini-Hill A,Stroke,Both,3,ir,8471,4078,148876,40952,17.574784559083934,6.13,1,1,rr,NA,NA,626,1,LTPA,14,0,NA,40952,Both,n_baseline < 10k
-104,Paganini-Hill A,Stroke,Both,3,ir,8471,3683,148876,42057,17.574784559083934,18.38,0.88,0.88,rr,0.76,1.01,560,1,LTPA,14,-0.12783337150988489,0.07254908222756598,42057,Both,n_baseline < 10k
-104,Paganini-Hill A,Stroke,Both,3,ir,8471,5406,148876,86790,17.574784559083934,36.75,0.83,0.83,rr,0.73,0.95,785,1,LTPA,14,-0.18632957819149348,0.06719956400473502,86790,Both,n_baseline < 10k
 183,McDonell,Stroke,Both,3,ci,27348,8187,155884,46666,5.7,0,NA,NA,hr,NA,NA,254,1,LTPA,15,NA,NA,46666,Both,missing RRs
 183,McDonell,Stroke,Both,3,ci,27348,10003,155884,57018,5.7,5.25,3.48,3.48,hr,2.85,4.26,334,1,LTPA,15,1.247032293786383,0.10254019185333292,57018,Both,missing RRs
 183,McDonell,Stroke,Both,3,ci,27348,9158,155884,52201,5.7,13.13,3.03,3.03,hr,2.54,3.62,330,1,LTPA,15,1.1085626195212777,0.09038685088144123,52201,Both,missing RRs
