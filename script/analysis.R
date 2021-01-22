@@ -162,6 +162,7 @@ if (total_population){
           dataset <- acmfdata
           # Get quantiles (0th, 37.5th and 75th)
           q <- quantile(dataset$dose, c(0, last_knot / 2, last_knot))
+          last_knot_title <- paste0(names(q)[3], ' (using ', (local_last_knot * 100), '% person years)')
           if (!is.null(dataset)){
             dataset$personyrs <- round(dataset$personyrs)
             group_by(dataset, id) %>% select(dose, se) %>%
@@ -175,6 +176,8 @@ if (total_population){
             if (is.null(res) || is.na(res)){
               res <- metaAnalysis(dataset, ptitle = "", returnval = T, covMethed = F, minQuantile = 0, maxQuantile = last_knot, lout = 1000)
             }
+            
+            last_q <- gsub("%", "", names(q)[3]) %>% as.numeric()
             
             # If this too fails, increase maxQuantile to 90th percent
             if (is.null(res) || is.na(res)){
@@ -202,17 +205,12 @@ if (total_population){
             plotTitle <- paste0( uoutcome$outcome[i] ,  " - ", simpleCap(dir_name), " - Total Population")
             plotTitle <-  paste0(simpleCap(plotTitle), ' \nNumber of entries: ',
                                  length(unique(acmfdata$id)),
-                                 ' \nNumber of people: ' , round(sum(acmfdata$totalpersons, na.rm = T)))#, " ", local_last_knot)
+                                 ' \nNumber of people: ' , round(sum(acmfdata$totalpersons, na.rm = T)), 
+                                 "\n ", last_knot_title)
             # Create plot
             p <- ggplot() +
               geom_line(data = dataset, aes(dose, RR, col = factor(id), group = ref_number)) +
               geom_point(data = dataset, aes(dose, RR, col = factor(id), label = first_author), size = 4 * (dataset$personyrs - min(dataset$personyrs))/diff(range(dataset$personyrs))) +
-              # geom_dl(data = dataset, aes(dose, RR, label = ref_number), method=list(
-              #   cex=0.8,
-              #   directlabels::polygon.method(
-              #     "top",
-              #     offset.cm=0.5,
-              #     padding.cm=0.05)))  + 
               geom_line(data = subset(dataset2, dose < as.numeric(q[3])), aes(x = dose, y = RR)) +
               geom_line(data = subset(dataset2, dose >= as.numeric(q[3])), aes(x = dose, y = RR), linetype = "dashed") +
               geom_ribbon(data = subset(dataset2, dose < as.numeric(q[3])), aes(x = dose, ymin=`lb`,ymax=`ub`), alpha = 0.25) +
