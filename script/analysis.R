@@ -162,7 +162,7 @@ if (total_population){
           dataset <- acmfdata
           # Get quantiles (0th, 37.5th and 75th)
           q <- quantile(dataset$dose, c(0, last_knot / 2, last_knot))
-          last_knot_title <- paste0(names(q)[3], ' (using ', (local_last_knot * 100), '% person years)')
+          last_knot_title <- paste0(round(names(q)[3], 1), ' (using ', (local_last_knot * 100), '% person years)')
           if (!is.null(dataset)){
             dataset$personyrs <- round(dataset$personyrs)
             group_by(dataset, id) %>% select(dose, se) %>%
@@ -187,7 +187,7 @@ if (total_population){
                 q <- quantile(dataset$dose, c(0, nq / 2, nq))
                 res <- metaAnalysis(dataset, ptitle = "", returnval = T, covMethed = F, minQuantile = 0, maxQuantile = nq, lout = 1000)
                 if (!is.null(res)){
-                  last_knot_title <- paste0(names(q)[3])
+                  last_knot_title <- paste0(round(names(q)[3], 1))
                   break
                 }
               }            
