@@ -201,16 +201,16 @@ if (total_population){
             # Assign names
             colnames(dataset2) <- c("dose","RR", "lb", "ub")
             
-            if (length(unique(dataset$id)) > 5){
-              # 20% + median
-              med_val <- (median(dataset2$dose, na.rm = T) * (20/100 * last_knot + last_knot))
-              
-              print(med_val)
-              
-              dataset2 <- subset(dataset2, dose < med_val)
-              
-              dataset <- subset(dataset, dose < med_val)
-            }
+            # if (length(unique(dataset$id)) > 5){
+            #   # 20% + median
+            #   med_val <- (median(dataset2$dose, na.rm = T) * (20/100 * last_knot + last_knot))
+            #   
+            #   print(med_val)
+            #   
+            #   dataset2 <- subset(dataset2, dose < med_val)
+            #   
+            #   dataset <- subset(dataset, dose < med_val)
+            # }
             
             # Create plot title 
             plotTitle <- paste0( uoutcome$outcome[i] ,  " - ", simpleCap(dir_name), " - Total Population")
@@ -228,9 +228,6 @@ if (total_population){
               geom_ribbon(data = subset(dataset2, dose >= as.numeric(q[3])), aes(x = dose, ymin=`lb`,ymax=`ub`), alpha = 0.10) +
               geom_vline(xintercept= q, linetype="dotted", alpha = 0.6) +
               coord_fixed(ylim = c(0, 1.5), x = c(0,40), ratio = 10) + 
-              # scale_y_continuous(limits = c(0, 1.2), breaks = seq(0, 1.2, 0.2)) +
-              # scale_x_continuous(expand = c(0,0),
-              #                    limits = c(0, 40)) +
               theme(legend.position="none",
                     plot.title = element_text(hjust = 0.5)) +
               xlab("\nMarginal MET hours per week\n") +
