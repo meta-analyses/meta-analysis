@@ -217,7 +217,7 @@ if (total_population){
             plotTitle <-  paste0(simpleCap(plotTitle), ' \nNumber of entries: ',
                                  length(unique(acmfdata$id)),
                                  ' \nNumber of people: ' , round(sum(acmfdata$totalpersons, na.rm = T)), 
-                                 "\n ", last_knot_title)
+                                 "\n Last knot: ", last_knot_title)
             # Create plot
             p <- ggplot() +
               geom_line(data = dataset, aes(dose, RR, col = factor(id), group = ref_number)) +
