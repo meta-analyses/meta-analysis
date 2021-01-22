@@ -1,8 +1,4 @@
 ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,totalpersons,tot_personyrs,personyrs,mean_followup,dose,RR,effect,effect_measure,lci_effect,uci_effect,cases,overall,pa_domain_subgroup,id,logrr,se,n,analysis_outcome_type,reason
-295,Kabat G.,All-cause cancer,Both,3,ci,476396,NA,5002158,NA,10.5,0.98,1,1,hr,NA,NA,NA,1,LTPA,5,0,NA,NA,Both,missing cases
-295,Kabat G.,All-cause cancer,Both,3,ci,476396,NA,5002158,NA,10.5,3.94,0.99,0.99,hr,0.97,1.01,NA,1,LTPA,5,-0.01005033585350145,0.010308745124048696,NA,Both,missing cases
-295,Kabat G.,All-cause cancer,Both,3,ci,476396,NA,5002158,NA,10.5,9.19,0.99,0.99,hr,0.97,1.01,NA,1,LTPA,5,-0.01005033585350145,0.010308745124048696,NA,Both,missing cases
-295,Kabat G.,All-cause cancer,Both,3,ci,476396,NA,5002158,NA,10.5,14.44,0.97,0.97,hr,0.95,0.99,NA,1,LTPA,5,-0.030459207484708574,0.010521356223728684,NA,Both,missing cases
 103,Paganini-Hill A.,All-cause cvd,Fatal,3,ci,13296,2694,179496,36369,13.5,0,1,1,hr,NA,NA,NA,1,LTPA,22,0,NA,36369,Fatal,missing cases
 103,Paganini-Hill A.,All-cause cvd,Fatal,3,ci,13296,4121,179496,55633.5,13.5,6.13,0.85,0.85,hr,0.8,0.91,NA,1,LTPA,22,-0.16251892949777494,0.03286613245426593,55633.5,Fatal,missing cases
 103,Paganini-Hill A.,All-cause cvd,Fatal,3,ci,13296,4492,179496,60642,13.5,21.44,0.77,0.77,hr,0.72,0.83,NA,1,LTPA,22,-0.2613647641344075,0.036269668703608045,60642,Fatal,missing cases
@@ -11,41 +7,6 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 103,Paganini-Hill A.,All-cause cvd,Fatal,3,ci,13296,4121,179496,55633.5,13.5,6.13,0.85,0.85,hr,0.8,0.91,NA,1,LTPA,30,-0.16251892949777494,0.03286613245426593,55633.5,Both,missing cases
 103,Paganini-Hill A.,All-cause cvd,Fatal,3,ci,13296,4492,179496,60642,13.5,21.44,0.77,0.77,hr,0.72,0.83,NA,1,LTPA,30,-0.2613647641344075,0.036269668703608045,60642,Both,missing cases
 103,Paganini-Hill A.,All-cause cvd,Fatal,3,ci,13296,2089,179496,28201.5,13.5,52.06,0.74,0.74,hr,0.68,0.81,NA,1,LTPA,30,-0.3011050927839216,0.044628740853466686,28201.5,Both,missing cases
-348,Lee D.,All-cause mortality,Fatal,3,ci,23257723,4205716,124965824.2,25234296,6,1.4,0.81,0.81,hr,0.81,0.82,NA,1,LTPA,31,-0.21072103131565253,0.0031301831790275605,25234296,Fatal,missing cases
-229,Brown et al.,All-cause mortality,Fatal,3,ci,18106,NA,199166,NA,11,0,1,1,hr,NA,NA,NA,1,LTPA,45,0,NA,NA,Fatal,missing cases
-229,Brown et al.,All-cause mortality,Fatal,3,ci,18106,NA,199166,NA,11,1.4,0.85,0.85,hr,0.77,0.93,NA,1,LTPA,45,-0.16251892949777494,0.048162637882317165,NA,Fatal,missing cases
-229,Brown et al.,All-cause mortality,Fatal,3,ci,18106,NA,199166,NA,11,4.26,0.77,0.77,hr,0.69,0.86,NA,1,LTPA,45,-0.2613647641344075,0.056184907833378504,NA,Fatal,missing cases
-229,Brown et al.,All-cause mortality,Fatal,3,ci,18106,NA,199166,NA,11,6.25,0.8,0.8,hr,0.72,0.88,NA,1,LTPA,45,-0.2231435513142097,0.051192444617609335,NA,Fatal,missing cases
-229,Brown et al.,All-cause mortality,Fatal,3,ci,18106,NA,199166,NA,11,10.32,0.76,0.76,hr,0.7,0.82,NA,1,LTPA,45,-0.2744368457017603,0.04036400833457782,NA,Fatal,missing cases
-229,Brown et al.,All-cause mortality,Fatal,3,ci,18106,NA,199166,NA,11,16.53,0.78,0.78,hr,0.71,0.85,NA,1,LTPA,45,-0.2484613592984996,0.04591190982808674,NA,Fatal,missing cases
-229,Brown et al.,All-cause mortality,Fatal,3,ci,18106,NA,199166,NA,11,22.82,0.7,0.7,hr,0.65,0.76,NA,1,LTPA,45,-0.35667494393873245,0.039884934525310625,NA,Fatal,missing cases
-124,Arrieta A.,All-cause mortality,Fatal,3,ci,10474,4430,NA,NA,NA,0,1,1,hr,NA,NA,1874,1,LTPA,41,0,NA,4430,Fatal,missing either person years or total persons
-124,Arrieta A.,All-cause mortality,Fatal,3,ci,10474,3596,NA,NA,NA,3.75,0.83,0.83,hr,0.75,0.92,1220,1,LTPA,41,-0.18632957819149348,0.05211842287006954,3596,Fatal,missing either person years or total persons
-124,Arrieta A.,All-cause mortality,Fatal,3,ci,10474,1585,NA,NA,NA,9.38,0.82,0.82,hr,0.72,0.94,499,1,LTPA,41,-0.19845093872383832,0.0680187659969983,1585,Fatal,missing either person years or total persons
-348,Lee D.,All-cause mortality,Fatal,3,ci,23257723,4205716,124965824.2,25234296,6,1.4,0.81,0.81,hr,0.81,0.82,NA,1,LTPA,31,-0.21072103131565253,0.0031301831790275605,25234296,Both,missing cases
-229,Brown et al.,All-cause mortality,Fatal,3,ci,18106,NA,199166,NA,11,0,1,1,hr,NA,NA,NA,1,LTPA,45,0,NA,NA,Both,missing cases
-229,Brown et al.,All-cause mortality,Fatal,3,ci,18106,NA,199166,NA,11,1.4,0.85,0.85,hr,0.77,0.93,NA,1,LTPA,45,-0.16251892949777494,0.048162637882317165,NA,Both,missing cases
-229,Brown et al.,All-cause mortality,Fatal,3,ci,18106,NA,199166,NA,11,4.26,0.77,0.77,hr,0.69,0.86,NA,1,LTPA,45,-0.2613647641344075,0.056184907833378504,NA,Both,missing cases
-229,Brown et al.,All-cause mortality,Fatal,3,ci,18106,NA,199166,NA,11,6.25,0.8,0.8,hr,0.72,0.88,NA,1,LTPA,45,-0.2231435513142097,0.051192444617609335,NA,Both,missing cases
-229,Brown et al.,All-cause mortality,Fatal,3,ci,18106,NA,199166,NA,11,10.32,0.76,0.76,hr,0.7,0.82,NA,1,LTPA,45,-0.2744368457017603,0.04036400833457782,NA,Both,missing cases
-229,Brown et al.,All-cause mortality,Fatal,3,ci,18106,NA,199166,NA,11,16.53,0.78,0.78,hr,0.71,0.85,NA,1,LTPA,45,-0.2484613592984996,0.04591190982808674,NA,Both,missing cases
-229,Brown et al.,All-cause mortality,Fatal,3,ci,18106,NA,199166,NA,11,22.82,0.7,0.7,hr,0.65,0.76,NA,1,LTPA,45,-0.35667494393873245,0.039884934525310625,NA,Both,missing cases
-124,Arrieta A.,All-cause mortality,Fatal,3,ci,10474,4430,NA,NA,NA,0,1,1,hr,NA,NA,1874,1,LTPA,41,0,NA,4430,Both,missing either person years or total persons
-124,Arrieta A.,All-cause mortality,Fatal,3,ci,10474,3596,NA,NA,NA,3.75,0.83,0.83,hr,0.75,0.92,1220,1,LTPA,41,-0.18632957819149348,0.05211842287006954,3596,Both,missing either person years or total persons
-124,Arrieta A.,All-cause mortality,Fatal,3,ci,10474,1585,NA,NA,NA,9.38,0.82,0.82,hr,0.72,0.94,499,1,LTPA,41,-0.19845093872383832,0.0680187659969983,1585,Both,missing either person years or total persons
-235,Pedersen et al.,Coronary heart disease,Fatal,3,ci,11914,NA,238280,NA,20,1.5,1,1,hr,NA,NA,1978,1,LTPA,11,0,NA,NA,Fatal,missing either person years or total persons
-235,Pedersen et al.,Coronary heart disease,Fatal,3,ci,11914,NA,238280,NA,20,10.5,0.71,0.71,hr,0.61,0.83,5770,1,LTPA,11,-0.342490308946776,0.07856438844093287,NA,Fatal,missing either person years or total persons
-235,Pedersen et al.,Coronary heart disease,Fatal,3,ci,11914,NA,238280,NA,20,17.5,0.71,0.71,hr,0.61,0.83,4166,1,LTPA,11,-0.342490308946776,0.07856438844093287,NA,Fatal,missing either person years or total persons
-235,Pedersen et al.,Coronary heart disease,Fatal,3,ci,11914,NA,238280,NA,20,1.5,1,1,hr,NA,NA,1978,1,LTPA,24,0,NA,NA,Both,missing either person years or total persons
-235,Pedersen et al.,Coronary heart disease,Fatal,3,ci,11914,NA,238280,NA,20,10.5,0.71,0.71,hr,0.61,0.83,5770,1,LTPA,24,-0.342490308946776,0.07856438844093287,NA,Both,missing either person years or total persons
-235,Pedersen et al.,Coronary heart disease,Fatal,3,ci,11914,NA,238280,NA,20,17.5,0.71,0.71,hr,0.61,0.83,4166,1,LTPA,24,-0.342490308946776,0.07856438844093287,NA,Both,missing either person years or total persons
-72,"Setiawan, V.",Kidney cancer,Both,3,ci,161126,NA,1337345.8,NA,8.3,0,1,1,hr,NA,NA,100,1,LTPA,4,0,NA,NA,Both,missing either person years or total persons
-72,"Setiawan, V.",Kidney cancer,Both,3,ci,161126,NA,1337345.8,NA,8.3,24.38,0.98,0.98,hr,0.74,1.3,95,1,LTPA,4,-0.020202707317519466,0.14374482431717808,NA,Both,missing either person years or total persons
-72,"Setiawan, V.",Kidney cancer,Both,3,ci,161126,NA,1337345.8,NA,8.3,46.93,0.71,0.71,hr,0.52,0.96,68,1,LTPA,4,-0.342490308946776,0.15640707628367123,NA,Both,missing either person years or total persons
-72,"Setiawan, V.",Kidney cancer,Both,3,ci,161126,NA,1337345.8,NA,8.3,68.83,0.77,0.77,hr,0.63,0.96,84,1,LTPA,4,-0.2613647641344075,0.10745438905989643,NA,Both,missing either person years or total persons
 119,Grotta A,Prostate cancer,Both,1,ci,13109,NA,170417,NA,13,8.37,1,1,hr,NA,NA,176,1,LTPA,5,0,NA,NA,Both,missing either person years or total persons
 119,Grotta A,Prostate cancer,Both,1,ci,13109,NA,170417,NA,13,24.51,1.1,1.1,hr,0.91,1.34,277,1,LTPA,5,0.09531017980432493,0.09872127663735472,NA,Both,missing either person years or total persons
 119,Grotta A,Prostate cancer,Both,1,ci,13109,NA,170417,NA,13,38.27,0.93,0.93,hr,0.76,1.14,247,1,LTPA,5,-0.07257069283483537,0.10343687723509754,NA,Both,missing either person years or total persons
-183,McDonell,Stroke,Both,3,ci,27348,8187,155884,46666,5.7,0,NA,NA,hr,NA,NA,254,1,LTPA,15,NA,NA,46666,Both,missing RRs
-183,McDonell,Stroke,Both,3,ci,27348,10003,155884,57018,5.7,5.25,3.48,3.48,hr,2.85,4.26,334,1,LTPA,15,1.247032293786383,0.10254019185333292,57018,Both,missing RRs
-183,McDonell,Stroke,Both,3,ci,27348,9158,155884,52201,5.7,13.13,3.03,3.03,hr,2.54,3.62,330,1,LTPA,15,1.1085626195212777,0.09038685088144123,52201,Both,missing RRs
