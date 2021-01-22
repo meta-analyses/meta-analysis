@@ -227,11 +227,10 @@ if (total_population){
               geom_ribbon(data = subset(dataset2, dose < as.numeric(q[3])), aes(x = dose, ymin=`lb`,ymax=`ub`), alpha = 0.25) +
               geom_ribbon(data = subset(dataset2, dose >= as.numeric(q[3])), aes(x = dose, ymin=`lb`,ymax=`ub`), alpha = 0.10) +
               geom_vline(xintercept= q, linetype="dotted", alpha = 0.6) +
-              scale_x_continuous(expand = c(0, 0),
-                                 breaks = seq(from = 0, to = 80, by = 10)) + 
-              scale_y_continuous(expand = c(0, 0),
-                                 breaks = seq(from = 0, to = max(dataset2$ub), by = 0.2),
-                                 limits = c(0, NA)) +
+              coord_fixed(ylim = c(0, 1.5), x = c(0,40), ratio = 10) + 
+              # scale_y_continuous(limits = c(0, 1.2), breaks = seq(0, 1.2, 0.2)) +
+              # scale_x_continuous(expand = c(0,0),
+              #                    limits = c(0, 40)) +
               theme(legend.position="none",
                     plot.title = element_text(hjust = 0.5)) +
               xlab("\nMarginal MET hours per week\n") +
