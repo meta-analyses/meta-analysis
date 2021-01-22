@@ -179,10 +179,18 @@ if (total_population){
             
             last_q <- gsub("%", "", names(q)[3]) %>% as.numeric()
             
-            # If this too fails, increase maxQuantile to 90th percent
+            # If this too fails, increase last_knot by 5% until it converges
             if (is.null(res) || is.na(res)){
-              res <- metaAnalysis(dataset, ptitle = "", returnval = T, covMethed = F, minQuantile = 0, maxQuantile = 0.9, lout = 1000)
-            }
+              
+              for (nq in seq(from = round(last_q + 5), 100, 5)){
+                nq <- nq / 100
+                q <- quantile(dataset$dose, c(0, nq / 2, nq))
+                res <- metaAnalysis(dataset, ptitle = "", returnval = T, covMethed = F, minQuantile = 0, maxQuantile = nq, lout = 1000)
+                if (!is.null(res)){
+                  last_knot_title <- paste0(names(q)[3])
+                  break
+                }
+              }            }
             
             # Save results as data frame
             dataset2 <- data.frame(res)
