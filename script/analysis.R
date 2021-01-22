@@ -96,16 +96,6 @@ if (total_population){
         # Before removing any lines with n requirement less than 10k
         n_subset <- acmfdata
         
-        # Keep only those studies with n_baseline greater than 10k
-        acmfdata <- subset(acmfdata, n_baseline >= 10000)
-        
-        # Keep only those studies with n_baseline greater than 10k
-        n_subset <- setdiff(n_subset, acmfdata )
-        if (nrow(n_subset) > 0){
-          n_subset$reason <- 'n_baseline < 10k'
-          readr::write_csv(n_subset, record_removed_entries, append = T)
-        }
-        
         # Remove all studies with missing RRs
         missing_RR_ids <- subset(acmfdata, is.na(RR)) %>% select(id)
         if (nrow(missing_RR_ids) > 0){
