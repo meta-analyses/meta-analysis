@@ -200,18 +200,7 @@ if (total_population){
             
             # Assign names
             colnames(dataset2) <- c("dose","RR", "lb", "ub")
-            
-            # if (length(unique(dataset$id)) > 5){
-            #   # 20% + median
-            #   med_val <- (median(dataset2$dose, na.rm = T) * (20/100 * last_knot + last_knot))
-            #   
-            #   print(med_val)
-            #   
-            #   dataset2 <- subset(dataset2, dose < med_val)
-            #   
-            #   dataset <- subset(dataset, dose < med_val)
-            # }
-            
+
             # Create plot title 
             plotTitle <- paste0( uoutcome$outcome[i] ,  " - ", simpleCap(dir_name), " - Total Population")
             plotTitle <-  paste0(simpleCap(plotTitle), ' \nNumber of entries: ',
