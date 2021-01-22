@@ -190,7 +190,8 @@ if (total_population){
                   last_knot_title <- paste0(names(q)[3])
                   break
                 }
-              }            }
+              }            
+            }
             
             # Save results as data frame
             dataset2 <- data.frame(res)
