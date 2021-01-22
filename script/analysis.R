@@ -158,11 +158,14 @@ if (total_population){
         # Get last knot based on 75% of person years
         last_knot <- get_last_knot(acmfdata, dose_pert = local_last_knot , personyrs_pert = local_last_knot)
         last_knot <- last_knot[2]
+        
         if (nrow(acmfdata) > 0){
           dataset <- acmfdata
           # Get quantiles (0th, 37.5th and 75th)
           q <- quantile(dataset$dose, c(0, last_knot / 2, last_knot))
-          last_knot_title <- paste0(round(names(q)[3], 1), ' (using ', (local_last_knot * 100), '% person years)')
+          last_quintile <- gsub("%", "", names(q)[3]) %>% as.numeric() %>% round(1)
+          
+          last_knot_title <- paste0(last_quintile, '% dose (using ', (local_last_knot * 100), '% person years)')
           if (!is.null(dataset)){
             dataset$personyrs <- round(dataset$personyrs)
             group_by(dataset, id) %>% select(dose, se) %>%
@@ -177,17 +180,16 @@ if (total_population){
               res <- metaAnalysis(dataset, ptitle = "", returnval = T, covMethed = F, minQuantile = 0, maxQuantile = last_knot, lout = 1000)
             }
             
-            last_q <- gsub("%", "", names(q)[3]) %>% as.numeric()
-            
             # If this too fails, increase last_knot by 5% until it converges
             if (is.null(res) || is.na(res)){
               
-              for (nq in seq(from = round(last_q + 5), 100, 5)){
+              for (nq in seq(from = round(last_quintile + 5), 100, 5)){
                 nq <- nq / 100
                 q <- quantile(dataset$dose, c(0, nq / 2, nq))
                 res <- metaAnalysis(dataset, ptitle = "", returnval = T, covMethed = F, minQuantile = 0, maxQuantile = nq, lout = 1000)
                 if (!is.null(res)){
-                  last_knot_title <- paste0(round(names(q)[3], 1))
+                  last_quintile <- gsub("%", "", names(q)[3]) %>% as.numeric() %>% round(1)
+                  last_knot_title <- paste0(last_quintile, '% dose')
                   break
                 }
               }            
