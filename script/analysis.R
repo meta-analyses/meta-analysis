@@ -185,6 +185,9 @@ if (total_population){
               }            
             }
             
+            if (length(unique(dataset$id)) < 4)
+              next
+            
             # Save results as data frame
             dataset2 <- data.frame(res)
             
