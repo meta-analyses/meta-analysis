@@ -228,8 +228,10 @@ if (total_population){
 # Read csv file and append column name
 if (file.exists("missing_entries.csv")){
   temp <- read_csv('missing_entries.csv', col_names = F)
-  colnames(temp) <- append(orig_col_names, 'reason')
-  temp <- temp[!duplicated(temp),]
-  readr::write_csv(temp, 'missing_entries.csv')
+  if (!any(colnames(temp) == 'reason')){
+    colnames(temp) <- append(orig_col_names, 'reason')
+    temp <- temp[!duplicated(temp),]
+    readr::write_csv(temp, 'missing_entries.csv')
+  }
 }
 
