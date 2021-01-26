@@ -8,7 +8,7 @@ options(dplyr.summarise.inform = FALSE)
 local_pa_domain_subgroup <- "LTPA" 
 
 # Read the data
-raw_data <- read.csv("data/R_variables_07012021.csv", header = T, stringsAsFactors = F, skipNul = TRUE)
+raw_data <- read.csv("data/R_variables_25012021.csv", header = T, stringsAsFactors = F, skipNul = TRUE)
 
 
 raw_data$mean_followup <- as.numeric(raw_data$mean_followup)
