@@ -24,6 +24,7 @@ raw_data$outcome <- trimws(raw_data$outcome)
 raw_data$pa_domain_subgroup <- trimws(raw_data$pa_domain_subgroup) 
 raw_data$overall <- trimws(raw_data$overall) 
 raw_data$sex_subgroups <- trimws(raw_data$sex_subgroups)
+raw_data$outcome_type <- trimws(raw_data$outcome_type)
 
 raw_data$totalpersons <- as.numeric(raw_data$n_per_category)
 raw_data$personyrs <- as.numeric(raw_data$person_years_per_category)
