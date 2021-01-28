@@ -1,8 +1,9 @@
 source("script/init.R")
 
-
+# Filter by overall 1 for total population
 raw_data_tp_ltpa <- subset(raw_data, pa_domain_subgroup == "LTPA" & overall == 1)
 
+# Filter by sex subgroups for both men and female
 raw_data_gsp_ltpa <- subset(raw_data, pa_domain_subgroup == "LTPA" & (sex_subgroups %in% c(1,2)))
 
 for (i in 1:nrow(uoutcome)){
