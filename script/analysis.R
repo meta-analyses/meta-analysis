@@ -198,7 +198,7 @@ if (total_population){
             plotTitle <- paste0( uoutcome$outcome[i] ,  " - ", simpleCap(dir_name), " - Total Population")
             plotTitle <-  paste0(simpleCap(plotTitle), ' \nNumber of entries: ',
                                  length(unique(acmfdata$id)),
-                                 ' \nNumber of people: ' , round(sum(acmfdata$totalpersons, na.rm = T)), 
+                                 ' \nPerson-years: ' , round(sum(acmfdata$personyrs, na.rm = T)), 
                                  "\n Last knot: ", last_knot_title)
             # Create plot
             p <- ggplot() +
