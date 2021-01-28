@@ -1,23 +1,7 @@
 source("script/init.R")
 
-### Remove studies with less than 40k for all-cause, or 10k for the rest outcomes
-#raw_data <- subset(raw_data, (outcome == "all-cause mortality" & n_baseline >= 40000 ) |
-                        #    (outcome != "all-cause mortality" & n_baseline >= 10000 ))
 
 raw_data_tp_ltpa <- subset(raw_data, pa_domain_subgroup == "LTPA" & overall == 1)
-# for (i in 1:nrow(uoutcome)){
-#   dat <- subset(raw_data_tp_ltpa, outcome == uoutcome$outcome[i])
-#   for (j in 1:length(unique(dat$ref_number))){
-#     dat1 <- subset(dat, ref_number == (unique(dat$ref_number))[j]) 
-#     uoverall <- unique(dat1$overall)
-#     usexgroups <- unique(dat1$sex_subgroups)
-#     if (length(usexgroups) > 2 && length(uoverall) > 1){
-#       # Remove gender specific from total_population
-#       raw_data_tp_ltpa <- subset(raw_data_tp_ltpa, (ref_number == unique(dat1$ref_number) & !sex_subgroups %in% c(1,2)) | (ref_number != unique(dat1$ref_number))) 
-#     }
-#     
-#   }
-# }
 
 raw_data_gsp_ltpa <- subset(raw_data, pa_domain_subgroup == "LTPA" & (sex_subgroups %in% c(1,2)))
 
