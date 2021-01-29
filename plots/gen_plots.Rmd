@@ -1,0 +1,47 @@
+---
+title: "Meta-Analysis plots"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+    toc: true
+    toc_depth: 5
+    toc_float: true
+    
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+require(plotly)
+
+```
+
+# Outcome type: fatal
+
+```{r fatal, echo=FALSE, out.width = '100%'}
+
+load("../plots/html_widgets/fatal_plots.RData")
+
+fatal_plots %>% layout(margin = list(t = 100))
+
+```
+
+# Outcome type: non-fatal
+
+```{r non-fatal, echo=FALSE, out.width = '100%'}
+
+load("../plots/html_widgets/non_fatal_plots.RData")
+
+non_fatal_plots %>% layout(margin = list(t = 100))
+
+```
+
+# Outcome type: fatal and non-fatal
+
+```{r fatal-non-fatal, echo=FALSE, out.width = '100%'}
+
+load("../plots/html_widgets/fatal_non_fatal_plots.RData")
+
+fatal_non_fatal_plots %>% layout(margin = list(t = 100))
+
+```
