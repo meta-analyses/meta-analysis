@@ -8,35 +8,39 @@ output:
     toc_float: true
 ---
 
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+require(plotly)
+
+```
+
 # Outcome type: fatal
 
 ```{r fatal, echo=FALSE, out.width = '100%'}
-fatal_images <- '../plots/Fatal/'
-files <- list.files(path = fatal_images, 
-                    full.names = TRUE)
 
-knitr::include_graphics(files)
+load("../plots/html_widgets/fatal_plots.RData")
+
+fatal_plots %>% layout(margin = list(t = 100))
 
 ```
 
 # Outcome type: non-fatal
 
 ```{r non-fatal, echo=FALSE, out.width = '100%'}
-non_fatal_images <- '../plots/Non-fatal/'
-files <- list.files(path = non_fatal_images, 
-                    full.names = TRUE)
 
-knitr::include_graphics(files)
+load("../plots/html_widgets/non_fatal_plots.RData")
+
+non_fatal_plots %>% layout(margin = list(t = 100))
 
 ```
 
 # Outcome type: fatal and non-fatal
 
 ```{r fatal-non-fatal, echo=FALSE, out.width = '100%'}
-fatal_non_fatal_images <- '../plots/Fatal and non-fatal/'
-files <- list.files(path = fatal_non_fatal_images, 
-                    full.names = TRUE)
 
-knitr::include_graphics(files)
+load("../plots/html_widgets/fatal_non_fatal_plots.RData")
+
+fatal_non_fatal_plots %>% layout(margin = list(t = 100))
 
 ```
