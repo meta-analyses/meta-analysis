@@ -152,8 +152,8 @@ if (total_population){
         if (nrow(acmfdata) > 0){
           dataset <- acmfdata
           # Get quantiles (0th, 37.5th and 75th)
-          q <- quantile(dataset$dose, c(0, last_knot / 2, last_knot))
-          last_quintile <- gsub("%", "", names(q)[3]) %>% as.numeric() %>% round(1)
+          q <- quantile(dataset$dose, prob = last_knot)
+          last_quintile <- gsub("%", "", names(q)) %>% as.numeric() %>% round(1)
           
           last_knot_title <- paste0(last_quintile, '% dose (using ', (local_last_knot * 100), '% person years)')
           if (!is.null(dataset)){
