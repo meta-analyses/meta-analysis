@@ -22,6 +22,10 @@ f <- list.files(fold, include.dirs = F, full.names = T, recursive = T)
 # remove the files
 file.remove(f)
 
+fatal_plots <- htmltools::tagList()
+non_fatal_plots <- htmltools::tagList()
+fatal_non_fatal_plots <- htmltools::tagList()
+
 if (total_population){
   for (i in 1:nrow(uoutcome)){
     # Loop through all three outcome types
@@ -38,7 +42,7 @@ if (total_population){
       }
       
       # Print basic info re outcome, outcome type and index
-      cat("Total Population - Outcome: ", uoutcome$outcome[i], " , outcome type ", 
+      cat("Total Population - Outcome: ", uoutcome$outcom[i], " , outcome type ", 
           dir_name, " and index ", i, "\n")
       
       # Subset according to outcome, domain and outcome type
@@ -201,24 +205,38 @@ if (total_population){
                                  length(unique(acmfdata$id)),
                                  ' \nPerson-years: ' , round(sum(acmfdata$personyrs, na.rm = T)), 
                                  "\n Last knot: ", last_knot_title)
+            
+            dataset$ref_number <- as.factor(dataset$ref_number)
             # Create plot
             p <- ggplot() +
-              geom_line(data = dataset, aes(dose, RR, col = factor(id), group = ref_number)) +
-              geom_point(data = dataset, aes(dose, RR, col = factor(id), label = first_author), size = 4 * (dataset$personyrs - min(dataset$personyrs))/diff(range(dataset$personyrs))) +
-              geom_line(data = subset(dataset2, dose < as.numeric(q[3])), aes(x = dose, y = RR)) +
-              geom_line(data = subset(dataset2, dose >= as.numeric(q[3])), aes(x = dose, y = RR), linetype = "dashed") +
-              geom_ribbon(data = subset(dataset2, dose < as.numeric(q[3])), aes(x = dose, ymin=`lb`,ymax=`ub`), alpha = 0.25) +
-              geom_ribbon(data = subset(dataset2, dose >= as.numeric(q[3])), aes(x = dose, ymin=`lb`,ymax=`ub`), alpha = 0.10) +
+              geom_line(data = dataset, aes(dose, RR, col = ref_number, group = ref_number)) +
+              geom_point(data = dataset, aes(dose, RR, col = ref_number, label = first_author), size = 4 * (dataset$personyrs - min(dataset$personyrs))/diff(range(dataset$personyrs))) +
+              geom_line(data = subset(dataset2, dose < as.numeric(q)), aes(x = dose, y = RR)) +
+              geom_line(data = subset(dataset2, dose >= as.numeric(q)), aes(x = dose, y = RR), linetype = "dashed") +
+              geom_ribbon(data = subset(dataset2, dose < as.numeric(q)), aes(x = dose, ymin=`lb`,ymax=`ub`), alpha = 0.25) +
+              geom_ribbon(data = subset(dataset2, dose >= as.numeric(q)), aes(x = dose, ymin=`lb`,ymax=`ub`), alpha = 0.10) +
               geom_vline(xintercept= q, linetype="dotted", alpha = 0.6) +
               coord_fixed(ylim = c(0, 1.5), x = c(0,40), ratio = 10) + 
               theme(legend.position="none",
-                    plot.title = element_text(hjust = 0.5)) +
+                    plot.title = element_text(hjust = 0.5, size = 9)) +
               xlab("\nMarginal MET hours per week\n") +
               ylab("\nRelative Risk\n") +
               labs(title = paste(plotTitle))
             
             # Print plot
             print(p)
+            
+            # Save the plot as a .Rds file
+            # saveRDS(p, paste0('plots/', dir_name, '/', uoutcome$outcome[i], "-", dir_name, ".Rds"), version = 2)
+            
+            if (local_outcome_type == 'Fatal'){
+              fatal_plots[[length(fatal_plots) + 1]] <- as.widget(plotly::ggplotly(p))
+            } else if (local_outcome_type == 'Non-fatal'){
+              non_fatal_plots[[length(non_fatal_plots) + 1]] <- as.widget(plotly::ggplotly(p))
+            } else {
+              fatal_non_fatal_plots[[length(fatal_non_fatal_plots) + 1]] <- as.widget(plotly::ggplotly(p))
+            }
+            
             
             # Save plot
             ggsave(paste0('plots/', dir_name, '/', uoutcome$outcome[i], "-", dir_name, ".png"), height=5, width=10, units='in', dpi=600, scale = 1)
@@ -228,6 +246,10 @@ if (total_population){
     }
   }
 }
+
+save(fatal_plots, file="plots/html_widgets/fatal_plots.RData")
+save(non_fatal_plots, file="plots/html_widgets/non_fatal_plots.RData")
+save(fatal_non_fatal_plots, file="plots/html_widgets/fatal_non_fatal_plots.RData")
 
 # Read csv file and append column name
 if (file.exists("missing_entries.csv")){
