@@ -20,7 +20,7 @@ require(plotly)
 
 ```{r fatal, echo=FALSE, out.width = '100%'}
 
-load("../plots/html_widgets/fatal_plots.RData")
+load("html_widgets/fatal_plots.RData")
 
 fatal_plots %>% layout(margin = list(t = 100))
 
@@ -30,7 +30,7 @@ fatal_plots %>% layout(margin = list(t = 100))
 
 ```{r non-fatal, echo=FALSE, out.width = '100%'}
 
-load("../plots/html_widgets/non_fatal_plots.RData")
+load("html_widgets/non_fatal_plots.RData")
 
 non_fatal_plots %>% layout(margin = list(t = 100))
 
@@ -40,7 +40,7 @@ non_fatal_plots %>% layout(margin = list(t = 100))
 
 ```{r fatal-non-fatal, echo=FALSE, out.width = '100%'}
 
-load("../plots/html_widgets/fatal_non_fatal_plots.RData")
+load("html_widgets/fatal_non_fatal_plots.RData")
 
 fatal_non_fatal_plots %>% layout(margin = list(t = 100))
 
