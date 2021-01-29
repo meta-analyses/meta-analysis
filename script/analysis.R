@@ -24,7 +24,7 @@ file.remove(f)
 
 if (total_population){
   for (i in 1:nrow(uoutcome)){
-    #Loop through all three outcome types
+    # Loop through all three outcome types
     for (local_outcome_type in c('Fatal', 'Non-fatal', 'Both')){
       # local_outcome_type <- 'Fatal'; i <- 1
       
@@ -173,13 +173,14 @@ if (total_population){
             # If this too fails, increase last_knot by 5% until it converges
             if (is.null(res) || is.na(res)){
               
-              for (nq in seq(from = round(last_quintile + 5), 100, 5)){
-                nq <- nq / 100
-                q <- quantile(dataset$dose, c(0, nq / 2, nq))
-                res <- metaAnalysis(dataset, ptitle = "", returnval = T, covMethed = F, minQuantile = 0, maxQuantile = nq, lout = 1000)
+              for (nq in seq(from = local_last_knot, to = 1, by = 0.01)){
+                print(nq)
+                last_knot <- get_last_knot(acmfdata, dose_pert = nq , personyrs_pert = nq)
+                q <- quantile(dataset$dose, prob = last_knot[2])
+                res <- metaAnalysis(dataset, ptitle = "", returnval = T, covMethed = F, minQuantile = 0, maxQuantile = last_knot[2], lout = 1000)
                 if (!is.null(res)){
-                  last_quintile <- gsub("%", "", names(q)[3]) %>% as.numeric() %>% round(1)
-                  last_knot_title <- paste0(last_quintile, '% dose')
+                  last_quintile <- gsub("%", "", names(q)) %>% as.numeric() %>% round(1)
+                  last_knot_title <- paste0(last_quintile, '% dose (using ', (nq * 100), '% person years)')
                   break
                 }
               }            
