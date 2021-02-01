@@ -1,6 +1,7 @@
 # Remove all elements from the memory
 rm (list = ls())
 library(tidyverse, warn.conflicts = FALSE)
+library(plotly)
 
 # Suppress summarise info
 options(dplyr.summarise.inform = FALSE)
