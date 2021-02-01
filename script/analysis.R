@@ -17,8 +17,8 @@ if (file.exists(record_removed_entries)) {
 
 fold <- "plots/"
 
-# get all files in the directories, recursively
-f <- list.files(fold, include.dirs = FALSE, full.names = TRUE, recursive = TRUE)
+# get all png files in the directories, recursively
+f <- list.files(fold, pattern = ".png", include.dirs = FALSE, full.names = TRUE, recursive = TRUE)
 # remove the files
 file.remove(f)
 
