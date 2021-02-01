@@ -1,5 +1,5 @@
 source("script/filter_studies.R")
-options(warn=-1)
+options(warn = -1)
 
 total_population <- T
 
@@ -7,7 +7,7 @@ total_population <- T
 local_last_knot <- 0.75
 
 # Set log file
-record_removed_entries <- 'missing_entries.csv'
+record_removed_entries <- "missing_entries.csv"
 
 #Check its existence
 if (file.exists(record_removed_entries)) {
@@ -15,7 +15,7 @@ if (file.exists(record_removed_entries)) {
   file.remove(record_removed_entries)
 }
 
-fold <- 'plots/'
+fold <- "plots/"
 
 # get all files in the directories, recursively
 f <- list.files(fold, include.dirs = F, full.names = T, recursive = T)
@@ -29,16 +29,16 @@ fatal_non_fatal_plots <- htmltools::tagList()
 if (total_population){
   for (i in 1:nrow(uoutcome)){
     # Loop through all three outcome types
-    for (local_outcome_type in c('Fatal', 'Non-fatal', 'Both')){
-      # local_outcome_type <- 'Fatal'; i <- 1
+    for (local_outcome_type in c("Fatal", "Non-fatal", "Both")){
+      local_outcome_type <- "Fatal"; i <- 1
       
       # Select output directory according to outcome type
-      if (local_outcome_type == 'Fatal'){
-        dir_name <- 'Fatal'
-      } else if (local_outcome_type == 'Non-fatal'){
-        dir_name <- 'Non-fatal'
+      if (local_outcome_type == "Fatal"){
+        dir_name <- "Fatal"
+      } else if (local_outcome_type == "Non-fatal"){
+        dir_name <- "Non-fatal"
       } else {
-        dir_name <- 'Fatal and non-fatal'
+        dir_name <- "Fatal and non-fatal"
       }
       
       # Print basic info re outcome, outcome type and index
@@ -50,11 +50,11 @@ if (total_population){
                            pa_domain_subgroup == local_pa_domain_subgroup & 
                            outcome_type == local_outcome_type)
       
-      # Add additional 'fatal' studies that had no 'both' types
-      if (local_outcome_type == 'Both'){
+      # Add additional "fatal" studies that had no "both" types
+      if (local_outcome_type == "Both"){
         # Subset fatal types
-        add_fdata <- subset(raw_data_tp_ltpa, outcome == uoutcome$outcome[i] & pa_domain_subgroup == local_pa_domain_subgroup & outcome_type == 'Fatal')
-        # ONLY add those studies that have no 'both' studies
+        add_fdata <- subset(raw_data_tp_ltpa, outcome == uoutcome$outcome[i] & pa_domain_subgroup == local_pa_domain_subgroup & outcome_type == "Fatal")
+        # ONLY add those studies that have no "both" studies
         add_fdata <- subset(add_fdata, !id %in% acmfdata$id)
         # Add additional rows
         if (nrow(add_fdata) > 0){
@@ -64,9 +64,9 @@ if (total_population){
         }
         
         # Subset Non-fatal types
-        add_nfdata <- subset(raw_data_tp_ltpa, outcome == uoutcome$outcome[i] & pa_domain_subgroup == local_pa_domain_subgroup & outcome_type == 'Non-fatal')
+        add_nfdata <- subset(raw_data_tp_ltpa, outcome == uoutcome$outcome[i] & pa_domain_subgroup == local_pa_domain_subgroup & outcome_type == "Non-fatal")
         
-        # ONLY add those studies that have no 'both' studies
+        # ONLY add those studies that have no "both" studies
         add_nfdata <- subset(add_nfdata, !id %in% acmfdata$id)
         # Add additional rows
         if (nrow(add_nfdata) > 0){
@@ -93,7 +93,7 @@ if (total_population){
         # Keep only those studies with n_baseline greater than 10k
         missing_cases <- setdiff(missing_cases, acmfdata )
         if (nrow(missing_cases) > 0){
-          missing_cases$reason <- 'missing cases'
+          missing_cases$reason <- "missing cases"
           readr::write_csv(missing_cases, record_removed_entries, append = T)
         }
         
@@ -104,7 +104,7 @@ if (total_population){
         missing_RR_ids <- subset(acmfdata, is.na(RR)) %>% select(id)
         if (nrow(missing_RR_ids) > 0){
           temp <- subset(acmfdata, id %in% missing_RR_ids)
-          temp$reason <- 'missing RRs'
+          temp$reason <- "missing RRs"
           readr::write_csv(temp, record_removed_entries, append = T)
           acmfdata <- subset(acmfdata, !id %in% missing_RR_ids)
         }
@@ -113,7 +113,7 @@ if (total_population){
         negative_SE_ids <- subset(acmfdata, se < 0) %>% select(id)
         if (nrow(negative_SE_ids) > 0){
           temp <- subset(acmfdata, id %in% negative_SE_ids)
-          temp$reason <- 'negative error'
+          temp$reason <- "negative error"
           readr::write_csv(temp, record_removed_entries, append = T)
           acmfdata <- subset(acmfdata, !id %in% negative_SE_ids)
         }
@@ -126,7 +126,7 @@ if (total_population){
                                          (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0) ) ) ))
         n_missing <- setdiff(n_missing, acmfdata)
         if (nrow(n_missing) > 0){
-          n_missing$reason <- 'missing either person years or total persons'
+          n_missing$reason <- "missing either person years or total persons"
           readr::write_csv(n_missing, record_removed_entries, append = T)
         }
         
@@ -140,7 +140,7 @@ if (total_population){
         if (nrow(local_filter) > 0){
           
           temp <- subset(acmfdata, id %in% local_filter)
-          temp$reason <- 'multiple stratification'
+          temp$reason <- "multiple stratification"
           readr::write_csv(temp, record_removed_entries, append = T)
           acmfdata <- acmfdata %>% filter(!id %in% local_filter)
         }
@@ -159,7 +159,7 @@ if (total_population){
           q <- quantile(dataset$dose, prob = last_knot)
           last_quintile <- gsub("%", "", names(q)) %>% as.numeric() %>% round(1)
           
-          last_knot_title <- paste0(last_quintile, '% dose (using ', (local_last_knot * 100), '% person years)')
+          last_knot_title <- paste0(last_quintile, "% dose (using ", (local_last_knot * 100), "% person years)")
           if (!is.null(dataset)){
             dataset$personyrs <- round(dataset$personyrs)
             group_by(dataset, id) %>% select(dose, se) %>%
@@ -184,7 +184,7 @@ if (total_population){
                 res <- metaAnalysis(dataset, ptitle = "", returnval = T, covMethed = F, minQuantile = 0, maxQuantile = last_knot[2], lout = 1000)
                 if (!is.null(res)){
                   last_quintile <- gsub("%", "", names(q)) %>% as.numeric() %>% round(1)
-                  last_knot_title <- paste0(last_quintile, '% dose (using ', (nq * 100), '% person years)')
+                  last_knot_title <- paste0(last_quintile, "% dose (using ", (nq * 100), "% person years)")
                   break
                 }
               }            
@@ -201,9 +201,9 @@ if (total_population){
             
             # Create plot title 
             plotTitle <- paste0( uoutcome$outcome[i] ,  " - ", simpleCap(dir_name), " - Total Population")
-            plotTitle <-  paste0(simpleCap(plotTitle), ' \nNumber of entries: ',
+            plotTitle <-  paste0(simpleCap(plotTitle), " \nNumber of entries: ",
                                  length(unique(acmfdata$id)),
-                                 ' \nPerson-years: ' , round(sum(acmfdata$personyrs, na.rm = T)), 
+                                 " \nPerson-years: " , round(sum(acmfdata$personyrs, na.rm = T)), 
                                  "\n Last knot: ", last_knot_title)
             
             dataset$ref_number <- as.factor(dataset$ref_number)
@@ -227,11 +227,11 @@ if (total_population){
             print(p)
             
             # Save the plot as a .Rds file
-            # saveRDS(p, paste0('plots/', dir_name, '/', uoutcome$outcome[i], "-", dir_name, ".Rds"), version = 2)
+            # saveRDS(p, paste0("plots/", dir_name, "/", uoutcome$outcome[i], "-", dir_name, ".Rds"), version = 2)
             
-            if (local_outcome_type == 'Fatal'){
+            if (local_outcome_type == "Fatal"){
               fatal_plots[[length(fatal_plots) + 1]] <- as.widget(plotly::ggplotly(p))
-            } else if (local_outcome_type == 'Non-fatal'){
+            } else if (local_outcome_type == "Non-fatal"){
               non_fatal_plots[[length(non_fatal_plots) + 1]] <- as.widget(plotly::ggplotly(p))
             } else {
               fatal_non_fatal_plots[[length(fatal_non_fatal_plots) + 1]] <- as.widget(plotly::ggplotly(p))
@@ -239,7 +239,7 @@ if (total_population){
             
             
             # Save plot
-            ggsave(paste0('plots/', dir_name, '/', uoutcome$outcome[i], "-", dir_name, ".png"), height=5, width=10, units='in', dpi=600, scale = 1)
+            ggsave(paste0("plots/", dir_name, "/", uoutcome$outcome[i], "-", dir_name, ".png"), height=5, width=10, units="in", dpi=600, scale = 1)
           }
         }
       }
@@ -253,11 +253,10 @@ save(fatal_non_fatal_plots, file="plots/html_widgets/fatal_non_fatal_plots.RData
 
 # Read csv file and append column name
 if (file.exists("missing_entries.csv")){
-  temp <- read_csv('missing_entries.csv', col_names = F)
-  if (!any(colnames(temp) == 'reason')){
-    colnames(temp) <- append(orig_col_names, 'reason')
+  temp <- read_csv("missing_entries.csv", col_names = F)
+  if (!any(colnames(temp) == "reason")){
+    colnames(temp) <- append(orig_col_names, "reason")
     temp <- temp[!duplicated(temp),]
-    readr::write_csv(temp, 'missing_entries.csv')
+    readr::write_csv(temp, "missing_entries.csv")
   }
 }
-
