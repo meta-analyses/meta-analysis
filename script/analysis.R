@@ -18,7 +18,7 @@ if (file.exists(record_removed_entries)) {
 fold <- "plots/"
 
 # get all files in the directories, recursively
-f <- list.files(fold, include.dirs = F, full.names = TRUE, recursive = TRUE)
+f <- list.files(fold, include.dirs = FALSE, full.names = TRUE, recursive = TRUE)
 # remove the files
 file.remove(f)
 
@@ -80,7 +80,7 @@ if (total_population){
       local_cov_method <- TRUE
       if (nrow(acmfdata) > 0){
         # Fill missing values by inferring to useful columns
-        acmfdata <- getMissingVariables(acmfdata, infertotalpersons = TRUE, kcases = F)
+        acmfdata <- getMissingVariables(acmfdata, infertotalpersons = TRUE, kcases = FALSE)
         
         acmfdata$analysis_outcome_type <- local_outcome_type
         
@@ -171,7 +171,7 @@ if (total_population){
             
             # If it fails, use the default by Greenland and Longnecker (gl)
             if (is.null(res) || is.na(res)){
-              res <- metaAnalysis(dataset, ptitle = "", returnval = TRUE, covMethed = F, minQuantile = 0, maxQuantile = last_knot, lout = 1000)
+              res <- metaAnalysis(dataset, ptitle = "", returnval = TRUE, covMethed = FALSE, minQuantile = 0, maxQuantile = last_knot, lout = 1000)
             }
             
             # If this too fails, increase last_knot by 5% until it converges
@@ -181,7 +181,7 @@ if (total_population){
                 print(nq)
                 last_knot <- get_last_knot(acmfdata, dose_pert = nq , personyrs_pert = nq)
                 q <- quantile(dataset$dose, prob = last_knot[2])
-                res <- metaAnalysis(dataset, ptitle = "", returnval = TRUE, covMethed = F, minQuantile = 0, maxQuantile = last_knot[2], lout = 1000)
+                res <- metaAnalysis(dataset, ptitle = "", returnval = TRUE, covMethed = FALSE, minQuantile = 0, maxQuantile = last_knot[2], lout = 1000)
                 if (!is.null(res)){
                   last_quintile <- gsub("%", "", names(q)) %>% as.numeric() %>% round(1)
                   last_knot_title <- paste0(last_quintile, "% dose (using ", (nq * 100), "% person years)")
@@ -253,7 +253,7 @@ save(fatal_non_fatal_plots, file="plots/html_widgets/fatal_non_fatal_plots.RData
 
 # Read csv file and append column name
 if (file.exists("missing_entries.csv")){
-  temp <- read_csv("missing_entries.csv", col_names = F)
+  temp <- read_csv("missing_entries.csv", col_names = FALSE)
   if (!any(colnames(temp) == "reason")){
     colnames(temp) <- append(orig_col_names, "reason")
     temp <- temp[!duplicated(temp),]
