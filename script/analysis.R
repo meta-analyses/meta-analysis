@@ -30,7 +30,7 @@ if (total_population){
   for (i in 1:nrow(uoutcome)){
     # Loop through all three outcome types
     for (local_outcome_type in c("Fatal", "Non-fatal", "Both")){
-      local_outcome_type <- "Fatal"; i <- 1
+      # local_outcome_type <- "Fatal"; i <- 1
       
       # Select output directory according to outcome type
       if (local_outcome_type == "Fatal"){
