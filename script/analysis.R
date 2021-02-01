@@ -1,7 +1,7 @@
 source("script/filter_studies.R")
 options(warn = -1)
 
-total_population <- T
+total_population <- TRUE
 
 # Set fixed last knot to 75th of person years
 local_last_knot <- 0.75
@@ -18,7 +18,7 @@ if (file.exists(record_removed_entries)) {
 fold <- "plots/"
 
 # get all files in the directories, recursively
-f <- list.files(fold, include.dirs = F, full.names = T, recursive = T)
+f <- list.files(fold, include.dirs = F, full.names = TRUE, recursive = TRUE)
 # remove the files
 file.remove(f)
 
@@ -77,10 +77,10 @@ if (total_population){
       print(length(unique(acmfdata$ref_number)))
       
       # Use default covariance method
-      local_cov_method <- T
+      local_cov_method <- TRUE
       if (nrow(acmfdata) > 0){
         # Fill missing values by inferring to useful columns
-        acmfdata <- getMissingVariables(acmfdata, infertotalpersons = T, kcases = F)
+        acmfdata <- getMissingVariables(acmfdata, infertotalpersons = TRUE, kcases = F)
         
         acmfdata$analysis_outcome_type <- local_outcome_type
         
@@ -94,7 +94,7 @@ if (total_population){
         missing_cases <- setdiff(missing_cases, acmfdata )
         if (nrow(missing_cases) > 0){
           missing_cases$reason <- "missing cases"
-          readr::write_csv(missing_cases, record_removed_entries, append = T)
+          readr::write_csv(missing_cases, record_removed_entries, append = TRUE)
         }
         
         # Before removing any lines with n requirement less than 10k
@@ -105,7 +105,7 @@ if (total_population){
         if (nrow(missing_RR_ids) > 0){
           temp <- subset(acmfdata, id %in% missing_RR_ids)
           temp$reason <- "missing RRs"
-          readr::write_csv(temp, record_removed_entries, append = T)
+          readr::write_csv(temp, record_removed_entries, append = TRUE)
           acmfdata <- subset(acmfdata, !id %in% missing_RR_ids)
         }
         
@@ -114,7 +114,7 @@ if (total_population){
         if (nrow(negative_SE_ids) > 0){
           temp <- subset(acmfdata, id %in% negative_SE_ids)
           temp$reason <- "negative error"
-          readr::write_csv(temp, record_removed_entries, append = T)
+          readr::write_csv(temp, record_removed_entries, append = TRUE)
           acmfdata <- subset(acmfdata, !id %in% negative_SE_ids)
         }
         
@@ -127,12 +127,12 @@ if (total_population){
         n_missing <- setdiff(n_missing, acmfdata)
         if (nrow(n_missing) > 0){
           n_missing$reason <- "missing either person years or total persons"
-          readr::write_csv(n_missing, record_removed_entries, append = T)
+          readr::write_csv(n_missing, record_removed_entries, append = TRUE)
         }
         
         # NOTE TO MATT/LEANDRO
         # This removes all studies with repeating rows such as studies with both sex and ethnicity entries
-        # Won't need it if we remove all such rows from the dataset
+        # Won'TRUE need it if we remove all such rows from the dataset
         # Identify all studies with repeating IDs
         local_filter <- acmfdata %>% group_by(id) %>% summarise(c = sum(is.na(se))) %>% filter(c > 1) %>% dplyr::select(id)
         
@@ -141,7 +141,7 @@ if (total_population){
           
           temp <- subset(acmfdata, id %in% local_filter)
           temp$reason <- "multiple stratification"
-          readr::write_csv(temp, record_removed_entries, append = T)
+          readr::write_csv(temp, record_removed_entries, append = TRUE)
           acmfdata <- acmfdata %>% filter(!id %in% local_filter)
         }
         
@@ -167,11 +167,11 @@ if (total_population){
             pa <- acmfdata
             
             # By default run the analysis with Hamling method to approximate covariance
-            res <- metaAnalysis(dataset, ptitle = "", returnval = T, covMethed = T, minQuantile = 0, maxQuantile = last_knot, lout = 1000)
+            res <- metaAnalysis(dataset, ptitle = "", returnval = TRUE, covMethed = TRUE, minQuantile = 0, maxQuantile = last_knot, lout = 1000)
             
             # If it fails, use the default by Greenland and Longnecker (gl)
             if (is.null(res) || is.na(res)){
-              res <- metaAnalysis(dataset, ptitle = "", returnval = T, covMethed = F, minQuantile = 0, maxQuantile = last_knot, lout = 1000)
+              res <- metaAnalysis(dataset, ptitle = "", returnval = TRUE, covMethed = F, minQuantile = 0, maxQuantile = last_knot, lout = 1000)
             }
             
             # If this too fails, increase last_knot by 5% until it converges
@@ -181,7 +181,7 @@ if (total_population){
                 print(nq)
                 last_knot <- get_last_knot(acmfdata, dose_pert = nq , personyrs_pert = nq)
                 q <- quantile(dataset$dose, prob = last_knot[2])
-                res <- metaAnalysis(dataset, ptitle = "", returnval = T, covMethed = F, minQuantile = 0, maxQuantile = last_knot[2], lout = 1000)
+                res <- metaAnalysis(dataset, ptitle = "", returnval = TRUE, covMethed = F, minQuantile = 0, maxQuantile = last_knot[2], lout = 1000)
                 if (!is.null(res)){
                   last_quintile <- gsub("%", "", names(q)) %>% as.numeric() %>% round(1)
                   last_knot_title <- paste0(last_quintile, "% dose (using ", (nq * 100), "% person years)")
@@ -203,7 +203,7 @@ if (total_population){
             plotTitle <- paste0( uoutcome$outcome[i] ,  " - ", simpleCap(dir_name), " - Total Population")
             plotTitle <-  paste0(simpleCap(plotTitle), " \nNumber of entries: ",
                                  length(unique(acmfdata$id)),
-                                 " \nPerson-years: " , round(sum(acmfdata$personyrs, na.rm = T)), 
+                                 " \nPerson-years: " , round(sum(acmfdata$personyrs, na.rm = TRUE)), 
                                  "\n Last knot: ", last_knot_title)
             
             dataset$ref_number <- as.factor(dataset$ref_number)
