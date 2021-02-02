@@ -227,7 +227,8 @@ if (total_population) {
             plot_title <- paste0(
               simpleCap(plot_title), " \nNumber of entries: ",
               length(unique(acmfdata$id)),
-              " \nPerson-years: ", round(sum(acmfdata$personyrs, na.rm = TRUE)), clipped_personyrs_title, 
+              " \nPerson-years: ", format(round(sum(dataset$personyrs, na.rm = TRUE)), scientific = FALSE, big.mark = ','), 
+              clipped_personyrs_title, 
               "\n Last knot: ", last_knot_title
             )
 
