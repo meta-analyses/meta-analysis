@@ -22,7 +22,7 @@ require(plotly)
 
 load("html_widgets/fatal_plots.RData")
 
-fatal_plots %>% layout(margin = list(t = 100))
+fatal_plots
 
 ```
 
