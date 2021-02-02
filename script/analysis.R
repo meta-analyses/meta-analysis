@@ -212,13 +212,22 @@ if (total_population) {
 
             # Assign names
             colnames(dataset2) <- c("dose", "RR", "lb", "ub")
+            
+            # Identify personyrs above 40
+            clipped_personyrs <- filter(dataset, dose > 40) %>% summarise(v = sum(personyrs) / sum(dataset$personyrs, na.rm = T) * 100) %>% dplyr::select(v) %>% round(1)
+            
+            clipped_personyrs_title <- ""
+            
+            if (clipped_personyrs$v > 5){
+              clipped_personyrs_title <- paste0(" clipped personyrs (", clipped_personyrs$v, "%)")
+            }
 
             # Create plot title
             plot_title <- paste0(uoutcome$outcome[i], " - ", simpleCap(dir_name), " - Total Population")
             plot_title <- paste0(
               simpleCap(plot_title), " \nNumber of entries: ",
               length(unique(acmfdata$id)),
-              " \nPerson-years: ", round(sum(acmfdata$personyrs, na.rm = TRUE)),
+              " \nPerson-years: ", round(sum(acmfdata$personyrs, na.rm = TRUE)), clipped_personyrs_title, 
               "\n Last knot: ", last_knot_title
             )
 
