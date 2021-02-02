@@ -226,7 +226,7 @@ if (total_population) {
             # Create plot
             p <- ggplot() +
               geom_line(data = dataset, aes(dose, RR, col = ref_number, group = ref_number)) +
-              geom_point(data = dataset, aes(dose, RR, col = ref_number, label = first_author), size = 4 * (dataset$personyrs - min(dataset$personyrs)) / diff(range(dataset$personyrs))) +
+              geom_point(data = dataset, aes(dose, RR, col = ref_number, label = first_author, group = personyrs), size = 4 * (dataset$personyrs - min(dataset$personyrs)) / diff(range(dataset$personyrs))) +
               geom_line(data = subset(dataset2, dose < as.numeric(q)), aes(x = dose, y = RR)) +
               geom_line(data = subset(dataset2, dose >= as.numeric(q)), aes(x = dose, y = RR), linetype = "dashed") +
               geom_ribbon(data = subset(dataset2, dose < as.numeric(q)), aes(x = dose, ymin = `lb`, ymax = `ub`), alpha = 0.25) +
