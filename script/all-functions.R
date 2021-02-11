@@ -532,7 +532,7 @@ metaAnalysis <-
       #dev.off()
       
       if (returnval)
-        return(list(newdata$dose,cbind(pred_spl$pred, pred_spl$ci.lb, pred_spl$ci.ub)))#, spl))
+        return(list(newdata$dose,cbind(pred_spl$pred, pred_spl$ci.lb, pred_spl$ci.ub), spl))
       
       if (returnObj)
         spl
