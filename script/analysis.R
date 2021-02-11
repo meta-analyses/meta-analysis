@@ -206,9 +206,24 @@ if (total_population) {
             if (length(unique(dataset$id)) < 4) {
               next
             }
+            
+            stats_Q_lbl <- ""
+            stats_I_lbl <- ""
+            
+            if (res[[3]]$proc == "2stage"){
+              qt <- qtest(res[[3]])
+              Q <- formatC(qt$Q, digits = 3, format = "f")
+              pvalue <- formatC(qt$pvalue, digits = 3, format = "f")
+              i2 <- formatC(pmax((qt$Q - qt$df)/qt$Q * 100,
+                                 0), digits = 1, format = "f")
+              stats_Q_lbl <- paste0("Q-test = ", Q[1], 
+                           " (df = ", qt$df[1], "), p-value = ", 
+                           pvalue[1])
+              stats_I_lbl <- paste0("I-square statistic = ", i2[1], "%")
+            }
 
             # Save results as data frame
-            dataset2 <- data.frame(res)
+            dataset2 <- data.frame(cbind(res[[1]], res[[2]]))
 
             # Assign names
             colnames(dataset2) <- c("dose", "RR", "lb", "ub")
@@ -236,6 +251,8 @@ if (total_population) {
             # Create plot
             p <- ggplot() +
               geom_line(data = dataset, aes(dose, RR, col = ref_number, group = ref_number)) +
+              annotate("text",  x = 30, y = 0.2, hjust = 0, vjust = 0, label = stats_Q_lbl, size = 3) +
+              annotate("text",  x = 30, y = 0, hjust = 0, vjust = 0, label = stats_I_lbl, size = 3) +
               geom_point(data = dataset, aes(dose, RR, col = ref_number, label = first_author, group = personyrs), size = 4 * (dataset$personyrs - min(dataset$personyrs)) / diff(range(dataset$personyrs))) +
               geom_line(data = subset(dataset2, dose < as.numeric(q)), aes(x = dose, y = RR)) +
               geom_line(data = subset(dataset2, dose >= as.numeric(q)), aes(x = dose, y = RR), linetype = "dashed") +
