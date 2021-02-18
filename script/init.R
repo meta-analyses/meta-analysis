@@ -52,9 +52,16 @@ raw_data <- raw_data %>% rename(effect = most_adj_effect, cases = cases_per_cate
 # ## FOR SENSITIVITY ANALYSIS
 #raw_data$dose <- raw_data$Final.Harmonised.exposure..MMET.hrs.wk...FOR.SENSITIVITY.ANALYSIS
 
+# Set ALT to TRUE
+ALT <- FALSE
 
 ## FOR THE CURRENT ASSUMPTIONS
-raw_data$dose <- round(raw_data$m_met_h_wk, 2)
+# raw_data$dose <- round(ifelse(ALT, raw_data$m_met_h_wk_alt, raw_data$m_met_h_wk), 2)
+if (ALT){
+  raw_data$dose <- round(raw_data$m_met_h_wk_alt, 2)
+}else{
+  raw_data$dose <- round(raw_data$m_met_h_wk, 2)
+}
 
 #raw_data$Final.Harmonised.exposure..MMET.hrs.wk. <- NULL
 raw_data$RR <- raw_data$effect
