@@ -15,7 +15,7 @@ if (file.exists(record_removed_entries)) {
   file.remove(record_removed_entries)
 }
 
-fold <- "plots/"
+fold <- ifelse(ALT, "plots/alt/", "plots/")
 
 # get all png files in the directories, recursively
 f <- list.files(fold, pattern = ".png", include.dirs = FALSE, full.names = TRUE, recursive = TRUE)
@@ -202,6 +202,9 @@ if (total_population) {
                 }
               }
             }
+            
+            # if (!is.null(res))
+            #   next()
 
             if (length(unique(dataset$id)) < 4) {
               next
@@ -281,10 +284,18 @@ if (total_population) {
             } else {
               fatal_non_fatal_plots[[length(fatal_non_fatal_plots) + 1]] <- as.widget(plotly::ggplotly(p))
             }
-
-
+            
+            
             # Save plot
-            ggsave(paste0("plots/", dir_name, "/", uoutcome$outcome[i], "-", dir_name, ".png"), height = 5, width = 10, units = "in", dpi = 600, scale = 1)
+            ggsave(paste0(fold, dir_name, "/", uoutcome$outcome[i], "-", dir_name, ".png"), height = 5, width = 10, units = "in", dpi = 600, scale = 1)
+            
+            q <- ggplot(subset(dataset, se != 0),
+                        aes(dose, vpc(res[[3]]))) +
+              geom_point() + 
+              geom_smooth(method = "loess", se = F, col = "black") +
+              labs(y = "VPC", x = "Dose")
+            
+            ggsave(paste0(fold, "vpc/", uoutcome$outcome[i], "-", dir_name, ".png"), height = 5, width = 10, units = "in", dpi = 600, scale = 1)
           }
         }
       }
@@ -292,9 +303,9 @@ if (total_population) {
   }
 }
 
-save(fatal_plots, file = "plots/html_widgets/fatal_plots.RData")
-save(non_fatal_plots, file = "plots/html_widgets/non_fatal_plots.RData")
-save(fatal_non_fatal_plots, file = "plots/html_widgets/fatal_non_fatal_plots.RData")
+save(fatal_plots, file = paste0(fold, "html_widgets/fatal_plots.RData"))
+save(non_fatal_plots, file = paste0(fold, "html_widgets/non_fatal_plots.RData"))
+save(fatal_non_fatal_plots, file = paste0(fold, "html_widgets/fatal_non_fatal_plots.RData"))
 
 # Read csv file and append column name
 if (file.exists("missing_entries.csv")) {
