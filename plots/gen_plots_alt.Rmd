@@ -1,5 +1,5 @@
 ---
-title: "Meta-Analysis plots "
+title: "Meta-Analysis alternate plots "
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
   html_document:
