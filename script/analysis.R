@@ -26,6 +26,8 @@ fatal_plots <- htmltools::tagList()
 non_fatal_plots <- htmltools::tagList()
 fatal_non_fatal_plots <- htmltools::tagList()
 
+df <- NULL
+
 if (total_population) {
   for (i in 1:nrow(uoutcome)) {
     # Loop through all three outcome types
@@ -296,6 +298,17 @@ if (total_population) {
               labs(y = "VPC", x = "Dose")
             
             ggsave(paste0(fold, "vpc/", uoutcome$outcome[i], "-", dir_name, ".png"), height = 5, width = 10, units = "in", dpi = 600, scale = 1)
+            
+            m <- getPIF(acmfdata, dataset2, uoutcome$outcom[i], local_outcome_type)
+            
+            if (nrow(m) > 0){
+              
+              temp_df <- data.frame(outcome = m[1,1], outcome_type = m[1,2], lower_guideline = m[1,3],
+                                    lower_CFI = paste("(",m[1,4], ",", m[1,5], ")"), higher_guideline = m[1,6],
+                                    higher_CFI = paste("(",m[1,7], ",", m[1,8], ")"))
+              
+              df <- rbind(df,temp_df)
+            }
           }
         }
       }
