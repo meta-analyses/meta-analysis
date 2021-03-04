@@ -613,7 +613,7 @@ plotMetaAnalysis <-
 
 
 
-getPIF <- function(acmfdata, plot_data){
+getPIF <- function(acmfdata, plot_data, outcome, outcome_type){
   
   m <- matrix(nrow = 1, ncol = 8)
   
@@ -694,9 +694,9 @@ getPIF <- function(acmfdata, plot_data){
   
   
   
-  m[1,1] <- stringi::stri_trans_totitle(uoutcome$outcome[i])
+  m[1,1] <- stringi::stri_trans_totitle(outcome)
   
-  m[1,2] <- stringi::stri_trans_totitle(outcome_type[j])
+  m[1,2] <- stringi::stri_trans_totitle(outcome_type)
   
   m[1,3] <- round(pert_ls, 2)
   
