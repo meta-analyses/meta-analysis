@@ -890,3 +890,93 @@ get_ma_table <- function(plot_data, colname = RR){
   
 
 }
+
+get_pif_values <- function(dataset, plot_data, dose_value){
+  
+  dataset <- rename(dataset, lci = lci_effect, uci = uci_effect)
+  
+  removeNA <- F
+  
+  # Update RR from the lookup table
+  for (i in 1:nrow(dataset)){
+    val_rr <- plot_data[["RR"]][which.min(abs(plot_data$dose - dataset$dose[i]))]
+    val <- subset(plot_data, RR == val_rr)
+    if (nrow(val) > 0){
+      dataset$RR[i] <- val$RR[1]
+      if (removeNA){
+        if (!is.na(dataset$lci[i]))
+          dataset$lci[i] <- val$lb[1]
+        if (!is.na(dataset$lci[i]))
+          dataset$uci[i] <- val$ub[1]
+      }else{
+        dataset$lci[i] <- val$lb[1]
+        dataset$uci[i] <- val$ub[1]
+      }
+    }
+  }
+  
+  sum_tp <- sum(dataset$totalpersons * dataset$RR, na.rm = T)
+  
+  dataset_ls <- dataset
+  
+  #Replace lower dose with 8.75
+  dataset_ls[dataset_ls$dose < dose_value,]$dose <- dose_value
+  
+  local_var <- dataset_ls
+  
+  #val <- subset(plot_data, round(dose, 1) <= (dose_value + 0.05) & round(dose, 1) >= (dose_value - 0.05))
+  val_rr <- plot_data[["RR"]][which.min(abs(plot_data$dose - dose_value))]
+  val <- subset(plot_data, RR == val_rr)
+  
+  if (nrow(val) > 0)
+    dataset_ls[dataset_ls$dose == dose_value,]$RR <- val$RR[1]
+  
+  sum_ls_tp <- sum(dataset$totalpersons * dataset_ls$RR, na.rm = T)
+  
+  pert_ls <- ((sum_tp - sum_ls_tp) / sum_tp) * 100
+  
+  dataset_ls <- local_var
+  
+  if (nrow(val) > 0){
+    
+    if (removeNA){
+      dataset_ls[dataset_ls$dose == dose_value & !is.na(dataset_ls$uci),]$uci <- val$ub[1]
+    }else{
+      dataset_ls[dataset_ls$dose == dose_value,]$uci <- val$ub[1]
+    }
+    
+  }
+  
+  sum_ls_lower_tp <- sum(dataset$totalpersons * dataset_ls$uci, na.rm = T)
+  
+  sum_tp <- sum(dataset$totalpersons * dataset$uci, na.rm = T)
+  
+  pert_ls_lower <- ((sum_tp - sum_ls_lower_tp) / sum_tp) * 100
+  
+  dataset_ls <- local_var
+  
+  if (nrow(val) > 0){
+    if (removeNA){
+      dataset_ls[dataset_ls$dose == dose_value & !is.na(dataset_ls$uci),]$lci <- val$lb[1]
+    }else{
+      dataset_ls[dataset_ls$dose == dose_value,]$lci <- val$lb[1]
+    }
+  }
+  
+  sum(dataset_ls$lci, na.rm = T)
+  
+  sum(dataset$lci, na.rm = T)
+  
+  sum_ls_upper_tp <- sum(dataset$totalpersons * dataset_ls$lci, na.rm = T)
+  
+  sum_tp <- sum(dataset$totalpersons * dataset$lci, na.rm = T)
+  
+  pert_ls_upper <- ((sum_tp - sum_ls_upper_tp) / sum_tp) * 100
+  
+  lower_guideline_value <- paste0(round(pert_ls, 1) , "% (", round(pert_ls_lower, 1), " - ",  round(pert_ls_upper, 1), ")" )
+  
+  return(c(pert_ls, pert_ls_lower, pert_ls_upper))
+  
+  
+  
+}
