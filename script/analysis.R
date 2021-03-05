@@ -318,6 +318,9 @@ if (total_population) {
   }
 }
 
+# Save PIF table
+write_csv(df, "data/output/PIF-main-analysis-total-pop.csv")
+
 save(fatal_plots, file = paste0(fold, "html_widgets/fatal_plots.RData"))
 save(non_fatal_plots, file = paste0(fold, "html_widgets/non_fatal_plots.RData"))
 save(fatal_non_fatal_plots, file = paste0(fold, "html_widgets/fatal_non_fatal_plots.RData"))
