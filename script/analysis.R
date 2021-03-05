@@ -15,7 +15,7 @@ if (file.exists(record_removed_entries)) {
   file.remove(record_removed_entries)
 }
 
-fold <- ifelse(ALT, "plots/alt/", "plots/")
+fold <- ifelse(ALT, "plots/alt_analysis/", "plots/main_analysis/")
 
 # get all png files in the directories, recursively
 f <- list.files(fold, pattern = ".png", include.dirs = FALSE, full.names = TRUE, recursive = TRUE)
