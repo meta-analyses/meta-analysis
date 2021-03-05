@@ -614,8 +614,13 @@ plotMetaAnalysis <-
 
 
 getPIF <- function(acmfdata, plot_data, outcome, outcome_type){
+  # plot_data <- dataset2
+  # outcome <- uoutcome$outcome[1]
+  # outcome_type <- local_outcome_type
   
-  m <- matrix(nrow = 1, ncol = 8)
+  m <- matrix(nrow = 1, ncol = 11)
+  
+  acmfdata <- rename(acmfdata, lci = lci_effect, uci = uci_effect)
   
   removeNA <- F
   
@@ -623,7 +628,7 @@ getPIF <- function(acmfdata, plot_data, outcome, outcome_type){
   for (k in 1:nrow(acmfdata)){
     val <- subset(plot_data, round(dose, 1) <= (acmfdata$dose[k] + 0.05) & round(dose, 1) >= (acmfdata$dose[k] - 0.05))
     if (nrow(val) > 0){
-      acmfdata$rr[k] <- val$RR[1]
+      acmfdata$RR[k] <- val$RR[1]
       if (removeNA){
         if (!is.na(acmfdata$lci[k]))
           acmfdata$lci[k] <- val$lb[1]
@@ -636,21 +641,21 @@ getPIF <- function(acmfdata, plot_data, outcome, outcome_type){
     }
   }
   
-  sum_tp <- sum(acmfdata$totalpersons * acmfdata$rr, na.rm = T) 
+  sum_tp <- sum(acmfdata$totalpersons * acmfdata$RR, na.rm = T) 
   
   acmfdata_ls <- acmfdata
   
-  #Replace lower dose with 8.75
-  acmfdata_ls[acmfdata_ls$dose < 8.75,]$dose <- 8.75
+  #Replace lower dose with 4.375
+  acmfdata_ls[acmfdata_ls$dose < 4.375,]$dose <- 4.375
   
   local_var <- acmfdata_ls
   
-  val <- subset(plot_data, round(dose, 1) <= (8.75 + 0.05) & round(dose, 1) >= (8.75 - 0.05))
+  val <- subset(plot_data, round(dose, 1) <= (4.375 + 0.05) & round(dose, 1) >= (4.375 - 0.05))
   
   if (nrow(val) > 0)
-    acmfdata_ls[acmfdata_ls$dose == 8.75,]$rr <- val$RR[1]
+    acmfdata_ls[acmfdata_ls$dose == 4.375,]$RR <- val$RR[1]
   
-  sum_ls_tp <- sum(acmfdata$totalpersons * acmfdata_ls$rr, na.rm = T)
+  sum_ls_tp <- sum(acmfdata$totalpersons * acmfdata_ls$RR, na.rm = T)
   
   pert_ls <- ((sum_tp - sum_ls_tp) / sum_tp) * 100
   
@@ -659,16 +664,16 @@ getPIF <- function(acmfdata, plot_data, outcome, outcome_type){
   if (nrow(val) > 0){
     
     if (removeNA){
-      acmfdata_ls[acmfdata_ls$dose == 8.75 & !is.na(acmfdata_ls$uci),]$uci <- val$ub[1]
+      acmfdata_ls[acmfdata_ls$dose == 4.375 & !is.na(acmfdata_ls$lci),]$lci <- val$lb[1]
     }else{
-      acmfdata_ls[acmfdata_ls$dose == 8.75,]$uci <- val$ub[1]
+      acmfdata_ls[acmfdata_ls$dose == 4.375,]$lci <- val$lb[1]
     }
     
   }
   
-  sum_ls_lower_tp <- sum(acmfdata$totalpersons * acmfdata_ls$uci, na.rm = T)
+  sum_ls_lower_tp <- sum(acmfdata$totalpersons * acmfdata_ls$lci, na.rm = T)
   
-  sum_tp <- sum(acmfdata$totalpersons * acmfdata$uci, na.rm = T)
+  sum_tp <- sum(acmfdata$totalpersons * acmfdata$lci, na.rm = T)
   
   pert_ls_lower <- ((sum_tp - sum_ls_lower_tp) / sum_tp) * 100
   
@@ -676,9 +681,9 @@ getPIF <- function(acmfdata, plot_data, outcome, outcome_type){
   
   if (nrow(val) > 0){
     if (removeNA){
-      acmfdata_ls[acmfdata_ls$dose == 8.75 & !is.na(acmfdata_ls$uci),]$lci <- val$lb[1]
+      acmfdata_ls[acmfdata_ls$dose == 4.375 & !is.na(acmfdata_ls$uci),]$uci <- val$ub[1]
     }else{
-      acmfdata_ls[acmfdata_ls$dose == 8.75,]$lci <- val$lb[1]
+      acmfdata_ls[acmfdata_ls$dose == 4.375,]$uci <- val$ub[1]
     }
   }
   
@@ -686,9 +691,9 @@ getPIF <- function(acmfdata, plot_data, outcome, outcome_type){
   
   sum(acmfdata$lci, na.rm = T)
   
-  sum_ls_upper_tp <- sum(acmfdata$totalpersons * acmfdata_ls$lci, na.rm = T)
+  sum_ls_upper_tp <- sum(acmfdata$totalpersons * acmfdata_ls$uci, na.rm = T)
   
-  sum_tp <- sum(acmfdata$totalpersons * acmfdata$lci, na.rm = T)
+  sum_tp <- sum(acmfdata$totalpersons * acmfdata$uci, na.rm = T)
   
   pert_ls_upper <- ((sum_tp - sum_ls_upper_tp) / sum_tp) * 100
   
@@ -706,6 +711,71 @@ getPIF <- function(acmfdata, plot_data, outcome, outcome_type){
   
   lower_guideline_value <- paste0(round(pert_ls, 2) , "% (95% CI: ", round(pert_ls_lower, 2), " - ",  round(pert_ls_upper, 2), ")" )
   
+  
+  acmfdata_ms <- acmfdata
+  
+  #Replace lower dose with 8.750
+  acmfdata_ms[acmfdata_ms$dose < 8.750,]$dose <- 8.750
+  
+  local_var <- acmfdata_ms
+  
+  val <- subset(plot_data, round(dose, 1) <= (8.750 + 0.05) & round(dose, 1) >= (8.750 - 0.05))
+  
+  if (nrow(val) > 0)
+    acmfdata_ms[acmfdata_ms$dose == 8.750,]$RR <- val$RR[1]
+  
+  sum_tp <- sum(acmfdata$totalpersons * acmfdata$RR, na.rm = T) 
+  
+  sum_ms_tp <- sum(acmfdata$totalpersons * acmfdata_ms$RR, na.rm = T)
+  
+  pert_ms <- ((sum_tp - sum_ms_tp) / sum_tp) * 100
+  
+  acmfdata_ms <- local_var
+  
+  if (nrow(val) > 0){
+    
+    if (removeNA){
+      acmfdata_ms[acmfdata_ms$dose == 8.750 & !is.na(acmfdata_ms$lci),]$lci <- val$lb[1]
+    }else{
+      acmfdata_ms[acmfdata_ms$dose == 8.750,]$lci <- val$lb[1]
+    }
+    
+  }
+  
+  sum_ms_lower_tp <- sum(acmfdata$totalpersons * acmfdata_ms$lci, na.rm = T)
+  
+  sum_tp <- sum(acmfdata$totalpersons * acmfdata$lci, na.rm = T)
+  
+  pert_ms_lower <- ((sum_tp - sum_ms_lower_tp) / sum_tp) * 100
+  
+  acmfdata_ms <- local_var
+  
+  if (nrow(val) > 0){
+    if (removeNA){
+      acmfdata_ms[acmfdata_ms$dose == 8.750 & !is.na(acmfdata_ms$uci),]$uci <- val$ub[1]
+    }else{
+      acmfdata_ms[acmfdata_ms$dose == 8.750,]$uci <- val$ub[1]
+    }
+  }
+  
+  sum(acmfdata_ms$lci, na.rm = T)
+  
+  sum(acmfdata$lci, na.rm = T)
+  
+  sum_ms_upper_tp <- sum(acmfdata$totalpersons * acmfdata_ms$uci, na.rm = T)
+  
+  sum_tp <- sum(acmfdata$totalpersons * acmfdata$uci, na.rm = T)
+  
+  pert_ms_upper <- ((sum_tp - sum_ms_upper_tp) / sum_tp) * 100
+  
+  m[1,6] <- round(pert_ms, 2)
+  
+  m[1,7] <- round(pert_ms_lower, 2)
+  
+  m[1,8] <- round(pert_ms_upper, 2)
+  
+  mid_guideline_value <- paste0(round(pert_ms, 2) , "% (95% CI: ", round(pert_ms_lower, 2), " - ",  round(pert_ms_upper, 2), ")" )
+  
   acmfdata_hs <- acmfdata
   
   #Replace higher dose with 17.5
@@ -718,12 +788,12 @@ getPIF <- function(acmfdata, plot_data, outcome, outcome_type){
     val <- subset(plot_data, round(dose, 1) <= (17.5 + 0.1) & round(dose, 1) >= (17.5 - 0.1))
   
   if (nrow(val) > 0){
-    acmfdata_hs[acmfdata_hs$dose == 17.5,]$rr <- val$RR[1]
+    acmfdata_hs[acmfdata_hs$dose == 17.5,]$RR <- val$RR[1]
   }
   
-  sum_hs_tp <- sum(acmfdata$totalpersons * acmfdata_hs$rr, na.rm = T)
+  sum_hs_tp <- sum(acmfdata$totalpersons * acmfdata_hs$RR, na.rm = T)
   
-  sum_tp <- sum(acmfdata$totalpersons * acmfdata$rr, na.rm = T) 
+  sum_tp <- sum(acmfdata$totalpersons * acmfdata$RR, na.rm = T) 
   
   pert_hs <- ((sum_tp - sum_hs_tp) / sum_tp) * 100
   
@@ -731,15 +801,15 @@ getPIF <- function(acmfdata, plot_data, outcome, outcome_type){
   
   if (nrow(val) > 0){
     if (removeNA){
-      acmfdata_hs[acmfdata_hs$dose == 17.5 & !is.na(acmfdata_ls$uci),]$uci <- val$ub[1]
+      acmfdata_hs[acmfdata_hs$dose == 17.5 & !is.na(acmfdata_ls$lci) & !is.na(acmfdata_ms$lci),]$lci <- val$lb[1]
     }else{
-      acmfdata_hs[acmfdata_hs$dose == 17.5,]$uci <- val$ub[1]
+      acmfdata_hs[acmfdata_hs$dose == 17.5,]$lci <- val$lb[1]
     }
   }
   
-  sum_hs_lower_tp <- sum(acmfdata$totalpersons * acmfdata_hs$uci, na.rm = T)
+  sum_hs_lower_tp <- sum(acmfdata$totalpersons * acmfdata_hs$lci, na.rm = T)
   
-  sum_tp <- sum(acmfdata$totalpersons * acmfdata$uci, na.rm = T)
+  sum_tp <- sum(acmfdata$totalpersons * acmfdata$lci, na.rm = T)
   
   pert_hs_lower <- ((sum_tp - sum_hs_lower_tp) / sum_tp) * 100
   
@@ -747,25 +817,27 @@ getPIF <- function(acmfdata, plot_data, outcome, outcome_type){
   
   if (nrow(val) > 0){
     if (removeNA){
-      acmfdata_hs[acmfdata_hs$dose == 17.5 & !is.na(acmfdata_ls$uci),]$lci <- val$lb[1]
+      acmfdata_hs[acmfdata_hs$dose == 17.5 & !is.na(acmfdata_ls$uci) & !is.na(acmfdata_ms$uci),]$uci <- val$ub[1]
     }else{
-      acmfdata_hs[acmfdata_hs$dose == 17.5,]$lci <- val$lb[1]
+      acmfdata_hs[acmfdata_hs$dose == 17.5,]$uci <- val$ub[1]
     }
   }
   
-  sum_hs_upper_tp <- sum(acmfdata$totalpersons * acmfdata_hs$lci, na.rm = T)
+  sum_hs_upper_tp <- sum(acmfdata$totalpersons * acmfdata_hs$uci, na.rm = T)
   
-  sum_tp <- sum(acmfdata$totalpersons * acmfdata$lci, na.rm = T)
+  sum_tp <- sum(acmfdata$totalpersons * acmfdata$uci, na.rm = T)
   
   pert_hs_upper <- ((sum_tp - sum_hs_upper_tp) / sum_tp) * 100
   
   upper_guideline_value <<- paste0(round(pert_hs, 2) , "% (95% CI: ", round(pert_hs_lower, 2), " - ",  round(pert_hs_upper, 2), ")" )
   
-  m[1,6] <- round(pert_hs, 2)
+  m[1,9] <- round(pert_hs, 2)
   
-  m[1,7] <- round(pert_hs_lower, 2)
+  m[1,10] <- round(pert_hs_lower, 2)
   
-  m[1,8] <- round(pert_hs_upper, 2)
+  m[1,11] <- round(pert_hs_upper, 2)
+  
+  # browser()
   
   m
   
