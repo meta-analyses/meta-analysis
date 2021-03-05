@@ -977,6 +977,4 @@ get_pif_values <- function(dataset, plot_data, dose_value){
   
   return(c(pert_ls, pert_ls_lower, pert_ls_upper))
   
-  
-  
 }
