@@ -33,7 +33,7 @@ if (total_population) {
     # Loop through all three outcome types
     for (local_outcome_type in c("Fatal", "Non-fatal", "Both")) {
       # local_outcome_type <- "Fatal"; i <- 1
-
+      
       # Select output directory according to outcome type
       if (local_outcome_type == "Fatal") {
         dir_name <- "Fatal"
@@ -42,18 +42,18 @@ if (total_population) {
       } else {
         dir_name <- "Fatal and non-fatal"
       }
-
+      
       # Print basic info re outcome, outcome type and index
       cat(
         "Total Population - Outcome: ", uoutcome$outcom[i], " , outcome type ",
         dir_name, " and index ", i, "\n"
       )
-
+      
       # Subset according to outcome, domain and outcome type
       acmfdata <- subset(raw_data_tp_ltpa, outcome == uoutcome$outcome[i] &
-        pa_domain_subgroup == local_pa_domain_subgroup &
-        outcome_type == local_outcome_type)
-
+                           pa_domain_subgroup == local_pa_domain_subgroup &
+                           outcome_type == local_outcome_type)
+      
       # Add additional "fatal" studies that had no "both" types
       if (local_outcome_type == "Both") {
         # Subset fatal types
@@ -68,12 +68,12 @@ if (total_population) {
           #  next()
           acmfdata <- rbind(acmfdata, add_fdata)
         }
-
+        
         # Subset Non-fatal types
         add_nfdata <- subset(raw_data_tp_ltpa, outcome == uoutcome$outcome[i] & 
                                pa_domain_subgroup == local_pa_domain_subgroup & 
                                outcome_type == "Non-fatal")
-
+        
         # ONLY add those studies that have no "both" studies
         add_nfdata <- subset(add_nfdata, !id %in% acmfdata$id)
         # Add additional rows
@@ -81,33 +81,33 @@ if (total_population) {
           acmfdata <- rbind(acmfdata, add_nfdata)
         }
       }
-
+      
       print(length(unique(acmfdata$ref_number)))
-
+      
       # Use default covariance method
       local_cov_method <- TRUE
       if (nrow(acmfdata) > 0) {
         # Fill missing values by inferring to useful columns
         acmfdata <- getMissingVariables(acmfdata, infertotalpersons = TRUE, kcases = FALSE)
-
+        
         acmfdata$analysis_outcome_type <- local_outcome_type
-
+        
         # Before removing any lines with n requirement less than 10k
         missing_cases <- acmfdata
-
+        
         # Keep only those studies with cases present
         acmfdata <- subset(acmfdata, !is.na(cases))
-
+        
         # Keep only those studies with n_baseline greater than 10k
         missing_cases <- setdiff(missing_cases, acmfdata)
         if (nrow(missing_cases) > 0) {
           missing_cases$reason <- "missing cases"
           readr::write_csv(missing_cases, record_removed_entries, append = TRUE)
         }
-
+        
         # Before removing any lines with n requirement less than 10k
         n_subset <- acmfdata
-
+        
         # Remove all studies with missing RRs
         missing_RR_ids <- subset(acmfdata, is.na(RR)) %>% select(id)
         if (nrow(missing_RR_ids) > 0) {
@@ -116,7 +116,7 @@ if (total_population) {
           readr::write_csv(temp, record_removed_entries, append = TRUE)
           acmfdata <- subset(acmfdata, !id %in% missing_RR_ids)
         }
-
+        
         # Remove all studies with negative standard error (SE)
         negative_SE_ids <- subset(acmfdata, se < 0) %>% select(id)
         if (nrow(negative_SE_ids) > 0) {
@@ -125,19 +125,19 @@ if (total_population) {
           readr::write_csv(temp, record_removed_entries, append = TRUE)
           acmfdata <- subset(acmfdata, !id %in% negative_SE_ids)
         }
-
+        
         # Before removing any lines with n requirement less than 10k
         n_missing <- acmfdata
-
+        
         # Remove all studies with mandatory info
         acmfdata <- subset(acmfdata, !((effect_measure == "hr" & (is.na(personyrs) | personyrs == 0)) |
-          (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0)))))
+                                         (effect_measure != "hr" & (is.na(totalpersons | totalpersons == 0)))))
         n_missing <- setdiff(n_missing, acmfdata)
         if (nrow(n_missing) > 0) {
           n_missing$reason <- "missing either person years or total persons"
           readr::write_csv(n_missing, record_removed_entries, append = TRUE)
         }
-
+        
         # NOTE TO MATT/LEANDRO
         # This removes all studies with repeating rows such as studies with both sex and ethnicity entries
         # Won'TRUE need it if we remove all such rows from the dataset
@@ -147,7 +147,7 @@ if (total_population) {
           summarise(c = sum(is.na(se))) %>%
           filter(c > 1) %>%
           dplyr::select(id)
-
+        
         # Remove all such studies altogether - which is a temp fix
         if (nrow(local_filter) > 0) {
           temp <- subset(acmfdata, id %in% local_filter)
@@ -155,15 +155,15 @@ if (total_population) {
           readr::write_csv(temp, record_removed_entries, append = TRUE)
           acmfdata <- acmfdata %>% filter(!id %in% local_filter)
         }
-
+        
         orig_col_names <- colnames(acmfdata)
-
+        
         # Select subset of columns
         acmfdata <- subset(acmfdata, select = c(id, ref_number, first_author, effect_measure, outcome_type, type, totalpersons, personyrs, dose, RR, logrr, cases, uci_effect, lci_effect, se))
         # Get last knot based on 75% of person years
         last_knot <- get_last_knot(acmfdata, dose_pert = local_last_knot, personyrs_pert = local_last_knot)
         last_knot <- last_knot[2]
-
+        
         if (nrow(acmfdata) > 0) {
           dataset <- acmfdata
           # Get quantiles (0th, 37.5th and 75th)
@@ -171,7 +171,7 @@ if (total_population) {
           last_quintile <- gsub("%", "", names(q)) %>%
             as.numeric() %>%
             round(1)
-
+          
           last_knot_title <- paste0(last_quintile, "% dose (using ", (local_last_knot * 100), "% person years)")
           if (!is.null(dataset)) {
             dataset$personyrs <- round(dataset$personyrs)
@@ -179,15 +179,15 @@ if (total_population) {
               select(dose, se) %>%
               summarise(min = min(dose), max = max(dose), ref = dose[is.na(se)])
             pa <- acmfdata
-
+            
             # By default run the analysis with Hamling method to approximate covariance
             res <- metaAnalysis(dataset, ptitle = "", returnval = TRUE, covMethed = TRUE, minQuantile = 0, maxQuantile = last_knot, lout = 1000)
-
+            
             # If it fails, use the default by Greenland and Longnecker (gl)
             if (is.null(res) || is.na(res)) {
               res <- metaAnalysis(dataset, ptitle = "", returnval = TRUE, covMethed = FALSE, minQuantile = 0, maxQuantile = last_knot, lout = 1000)
             }
-
+            
             # If this too fails, increase last_knot by 5% until it converges
             if (is.null(res) || is.na(res)) {
               for (nq in seq(from = local_last_knot, to = 1, by = 0.01)) {
@@ -207,7 +207,7 @@ if (total_population) {
             
             # if (!is.null(res))
             #   next()
-
+            
             if (length(unique(dataset$id)) < 4) {
               next
             }
@@ -222,14 +222,14 @@ if (total_population) {
               i2 <- formatC(pmax((qt$Q - qt$df)/qt$Q * 100,
                                  0), digits = 1, format = "f")
               stats_Q_lbl <- paste0("Q-test = ", Q[1], 
-                           " (df = ", qt$df[1], "), p-value = ", 
-                           pvalue[1])
+                                    " (df = ", qt$df[1], "), p-value = ", 
+                                    pvalue[1])
               stats_I_lbl <- paste0("I-square statistic = ", i2[1], "%")
             }
-
+            
             # Save results as data frame
             dataset2 <- data.frame(cbind(res[[1]], res[[2]]))
-
+            
             # Assign names
             colnames(dataset2) <- c("dose", "RR", "lb", "ub")
             
@@ -241,7 +241,7 @@ if (total_population) {
             if (clipped_personyrs$v > 5){
               clipped_personyrs_title <- paste0(" clipped personyrs (", clipped_personyrs$v, "%)")
             }
-
+            
             # Create plot title
             plot_title <- paste0(uoutcome$outcome[i], " - ", simpleCap(dir_name), " - Total Population")
             plot_title <- paste0(
@@ -251,7 +251,7 @@ if (total_population) {
               clipped_personyrs_title, 
               "\n Last knot: ", last_knot_title
             )
-
+            
             dataset$ref_number <- as.factor(dataset$ref_number)
             # Create plot
             p <- ggplot() +
@@ -272,13 +272,13 @@ if (total_population) {
               xlab("\nMarginal MET hours per week\n") +
               ylab("\nRelative Risk\n") +
               labs(title = paste(plot_title))
-
+            
             # Print plot
             print(p)
-
+            
             # Save the plot as a .Rds file
             # saveRDS(p, paste0("plots/", dir_name, "/", uoutcome$outcome[i], "-", dir_name, ".Rds"), version = 2)
-
+            
             if (local_outcome_type == "Fatal") {
               fatal_plots[[length(fatal_plots) + 1]] <- as.widget(plotly::ggplotly(p))
             } else if (local_outcome_type == "Non-fatal") {
@@ -299,16 +299,20 @@ if (total_population) {
             
             ggsave(paste0(fold, "vpc/", uoutcome$outcome[i], "-", dir_name, ".png"), height = 5, width = 10, units = "in", dpi = 600, scale = 1)
             
-            m <- getPIF(acmfdata, dataset2, uoutcome$outcom[i], local_outcome_type)
+            # m <- getPIF(acmfdata, dataset2, uoutcome$outcom[i], local_outcome_type)
             
-            if (nrow(m) > 0){
-              
-              temp_df <- data.frame(outcome = m[1,1], outcome_type = m[1,2], lower_guideline = m[1,3],
-                                    lower_CFI = paste("(",m[1,4], ",", m[1,5], ")"), higher_guideline = m[1,6],
-                                    higher_CFI = paste("(",m[1,7], ",", m[1,8], ")"))
-              
-              df <- rbind(df,temp_df)
-            }
+            # at 4.375, 8.750, and 17.500 
+            
+            lowest_PIF <- round(get_pif_values(acmfdata, dataset2, 4.375), 3)
+            mid_PIF <- round(get_pif_values(acmfdata, dataset2, 8.75), 3)
+            highest_PIF <- round(get_pif_values(acmfdata, dataset2, 17.5), 3)
+            
+            temp_df <- data.frame(outcome = uoutcome$outcome[i], outcome_type = local_outcome_type, lowest_guideline = lowest_PIF[1],
+                                  lowest_CFI = paste("(",lowest_PIF[2], ",", lowest_PIF[3], ")"), mid_guideline = mid_PIF[1],
+                                  mid_CFI = paste("(", mid_PIF[2], ",", mid_PIF[3], ")"), highest_guideline = highest_PIF[1],
+                                  highest_CFI = paste("(", highest_PIF[2], ",", highest_PIF[3], ")"))
+            
+            df <- rbind(df,temp_df)
           }
         }
       }
