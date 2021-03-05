@@ -299,18 +299,16 @@ if (total_population) {
             
             ggsave(paste0(fold, "vpc/", uoutcome$outcome[i], "-", dir_name, ".png"), height = 5, width = 10, units = "in", dpi = 600, scale = 1)
             
-            # m <- getPIF(acmfdata, dataset2, uoutcome$outcom[i], local_outcome_type)
-            
             # at 4.375, 8.750, and 17.500 
             
-            lowest_PIF <- round(get_pif_values(acmfdata, dataset2, 4.375), 3)
-            mid_PIF <- round(get_pif_values(acmfdata, dataset2, 8.75), 3)
-            highest_PIF <- round(get_pif_values(acmfdata, dataset2, 17.5), 3)
+            lowest_PIF <- round(get_pif_values(acmfdata, dataset2, 4.375), 2)
+            mid_PIF <- round(get_pif_values(acmfdata, dataset2, 8.75), 2)
+            highest_PIF <- round(get_pif_values(acmfdata, dataset2, 17.5), 2)
             
             temp_df <- data.frame(outcome = uoutcome$outcome[i], outcome_type = local_outcome_type, lowest_guideline = lowest_PIF[1],
-                                  lowest_CFI = paste("(",lowest_PIF[2], ",", lowest_PIF[3], ")"), mid_guideline = mid_PIF[1],
-                                  mid_CFI = paste("(", mid_PIF[2], ",", mid_PIF[3], ")"), highest_guideline = highest_PIF[1],
-                                  highest_CFI = paste("(", highest_PIF[2], ",", highest_PIF[3], ")"))
+                                  lowest_CFI = paste0("(",lowest_PIF[2], " - ", lowest_PIF[3], ")"), mid_guideline = mid_PIF[1],
+                                  mid_CFI = paste0("(", mid_PIF[2], " - ", mid_PIF[3], ")"), highest_guideline = highest_PIF[1],
+                                  highest_CFI = paste0("(", highest_PIF[2], " - ", highest_PIF[3], ")"))
             
             df <- rbind(df,temp_df)
           }
