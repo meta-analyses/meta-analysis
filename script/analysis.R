@@ -26,7 +26,7 @@ fatal_plots <- htmltools::tagList()
 non_fatal_plots <- htmltools::tagList()
 fatal_non_fatal_plots <- htmltools::tagList()
 
-df <- NULL
+PIF_df <- NULL
 test_df <- NULL
 
 if (total_population) {
@@ -311,7 +311,7 @@ if (total_population) {
                                   mid_CFI = paste0("(", mid_PIF[2], " - ", mid_PIF[3], ")"), highest_guideline = highest_PIF[1],
                                   highest_CFI = paste0("(", highest_PIF[2], " - ", highest_PIF[3], ")"))
             
-            df <- rbind(df,temp_df)
+            PIF_df <- rbind(PIF_df,temp_df)
             
             test_labels <- data.frame(outcome = uoutcome$outcome[i], outcome_type = local_outcome_type, 
                                       q_test = stats_Q_lbl, i_test = stats_I_lbl)
@@ -330,7 +330,7 @@ if (total_population) {
 sub_title <- ifelse(ALT, "alt", "main")
 
 # Save PIF table
-write_csv(df, paste0("data/output/PIF-", sub_title, "-analysis-total-pop.csv"))
+write_csv(PIF_df, paste0("data/output/PIF-", sub_title, "-analysis-total-pop.csv"))
 
 # Save test table
 write_csv(test_df, paste0("data/output/statistical-tests-", sub_title, "-analysis-total-pop.csv"))
