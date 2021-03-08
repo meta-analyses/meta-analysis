@@ -341,6 +341,9 @@ if (total_population) {
 # Adjust subtitle acc. to analysis
 sub_title <- ifelse(ALT, "alt", "main")
 
+# Save rr_conf_df table
+write_csv(rr_conf_df, paste0("data/output/rr-", sub_title, "-analysis-total-pop.csv"))
+
 # Save PIF table
 write_csv(PIF_df, paste0("data/output/PIF-", sub_title, "-analysis-total-pop.csv"))
 
