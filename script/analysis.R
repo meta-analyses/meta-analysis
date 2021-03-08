@@ -27,6 +27,7 @@ non_fatal_plots <- htmltools::tagList()
 fatal_non_fatal_plots <- htmltools::tagList()
 
 df <- NULL
+test_df <- NULL
 
 if (total_population) {
   for (i in 1:nrow(uoutcome)) {
@@ -311,6 +312,13 @@ if (total_population) {
                                   highest_CFI = paste0("(", highest_PIF[2], " - ", highest_PIF[3], ")"))
             
             df <- rbind(df,temp_df)
+            
+            test_labels <- data.frame(outcome = uoutcome$outcome[i], outcome_type = local_outcome_type, 
+                                      q_test = stats_Q_lbl, i_test = stats_I_lbl)
+            
+            test_df <- rbind(test_df, test_labels)
+            
+            
           }
         }
       }
@@ -318,8 +326,14 @@ if (total_population) {
   }
 }
 
+# Adjust subtitle acc. to analysis
+sub_title <- ifelse(ALT, "alt", "main")
+
 # Save PIF table
-write_csv(df, "data/output/PIF-main-analysis-total-pop.csv")
+write_csv(df, paste0("data/output/PIF-", sub_title, "-analysis-total-pop.csv"))
+
+# Save test table
+write_csv(test_df, paste0("data/output/statistical-tests-", sub_title, "-analysis-total-pop.csv"))
 
 save(fatal_plots, file = paste0(fold, "html_widgets/fatal_plots.RData"))
 save(non_fatal_plots, file = paste0(fold, "html_widgets/non_fatal_plots.RData"))
