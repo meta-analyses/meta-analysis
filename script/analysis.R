@@ -28,6 +28,7 @@ fatal_non_fatal_plots <- htmltools::tagList()
 
 PIF_df <- NULL
 test_df <- NULL
+rr_conf_df <- NULL
 
 if (total_population) {
   for (i in 1:nrow(uoutcome)) {
@@ -312,6 +313,17 @@ if (total_population) {
                                   highest_CFI = paste0("(", highest_PIF[2], " - ", highest_PIF[3], ")"))
             
             PIF_df <- rbind(PIF_df,temp_df)
+            
+            rr_df <- get_ma_table(dataset2, "RR")
+            lb_df <- get_ma_table(dataset2, "lb")
+            ub_df <- get_ma_table(dataset2, "ub")
+            
+            rr_conf <- data.frame(outcome = uoutcome$outcome[i], outcome_type = local_outcome_type, lowest_guideline = rr_df[1],
+                                  lowest_CFI = paste0("(",lb_df[1], " - ", ub_df[1], ")"), mid_guideline = rr_df[2],
+                                  mid_CFI = paste0("(", lb_df[2], " - ", ub_df[2], ")"), highest_guideline = rr_df[3],
+                                  highest_CFI = paste0("(", lb_df[3], " - ", ub_df[3], ")"))
+            
+            rr_conf_df <- rbind(rr_conf, rr_conf_df)
             
             test_labels <- data.frame(outcome = uoutcome$outcome[i], outcome_type = local_outcome_type, 
                                       q_test = stats_Q_lbl, i_test = stats_I_lbl)
