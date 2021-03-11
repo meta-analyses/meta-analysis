@@ -310,7 +310,7 @@ if (total_population) {
               mid_PIF <- round(get_pif_values(acmfdata, dataset2, 8.75), 2)
               highest_PIF <- round(get_pif_values(acmfdata, dataset2, 17.5), 2)
               
-              temp_df <- data.frame(outcome = uoutcome$outcome[i], outcome_type = local_outcome_type, lowest_guideline = lowest_PIF[1],
+              temp_df <- data.frame(outcome = uoutcome$outcome[i], population = gg_title, outcome_type = local_outcome_type, lowest_guideline = lowest_PIF[1],
                                     lowest_CFI = paste0("(",lowest_PIF[2], " - ", lowest_PIF[3], ")"), mid_guideline = mid_PIF[1],
                                     mid_CFI = paste0("(", mid_PIF[2], " - ", mid_PIF[3], ")"), highest_guideline = highest_PIF[1],
                                     highest_CFI = paste0("(", highest_PIF[2], " - ", highest_PIF[3], ")"))
@@ -321,14 +321,14 @@ if (total_population) {
               lb_df <- get_ma_table(dataset2, "lb")
               ub_df <- get_ma_table(dataset2, "ub")
               
-              rr_conf <- data.frame(outcome = uoutcome$outcome[i], outcome_type = local_outcome_type, lowest_guideline = rr_df[1],
+              rr_conf <- data.frame(outcome = uoutcome$outcome[i], population = gg_title, outcome_type = local_outcome_type, lowest_guideline = rr_df[1],
                                     lowest_CFI = paste0("(",lb_df[1], " - ", ub_df[1], ")"), mid_guideline = rr_df[2],
                                     mid_CFI = paste0("(", lb_df[2], " - ", ub_df[2], ")"), highest_guideline = rr_df[3],
                                     highest_CFI = paste0("(", lb_df[3], " - ", ub_df[3], ")"))
               
               rr_conf_df <- rbind(rr_conf, rr_conf_df)
               
-              test_labels <- data.frame(outcome = uoutcome$outcome[i], outcome_type = local_outcome_type, 
+              test_labels <- data.frame(outcome = uoutcome$outcome[i], population = gg_title, outcome_type = local_outcome_type, 
                                         q_test = stats_Q_lbl, i_test = stats_I_lbl)
               
               test_df <- rbind(test_df, test_labels)
@@ -346,13 +346,13 @@ if (total_population) {
 sub_title <- ifelse(ALT, "alt", "main")
 
 # Save rr_conf_df table
-#write_csv(rr_conf_df, paste0("data/output/rr-", sub_title, "-analysis-total-pop.csv"))
+write_csv(rr_conf_df, paste0("data/output/rr-", sub_title, "-analysis-gendered-pop.csv"))
 
 # Save PIF table
-#write_csv(PIF_df, paste0("data/output/PIF-", sub_title, "-analysis-total-pop.csv"))
+write_csv(PIF_df, paste0("data/output/PIF-", sub_title, "-analysis-gendered-pop.csv"))
 
 # Save test table
-#write_csv(test_df, paste0("data/output/statistical-tests-", sub_title, "-analysis-total-pop.csv"))
+write_csv(test_df, paste0("data/output/statistical-tests-", sub_title, "-analysis-gendered-pop.csv"))
 
 #save(fatal_plots, file = paste0(fold, "html_widgets/fatal_plots.RData"))
 #save(non_fatal_plots, file = paste0(fold, "html_widgets/non_fatal_plots.RData"))
