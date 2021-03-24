@@ -9,7 +9,7 @@ options(dplyr.summarise.inform = FALSE)
 local_pa_domain_subgroup <- "LTPA" 
 
 # Read the data
-raw_data <- read.csv("data/R_variables_25012021.csv", header = T, stringsAsFactors = F, skipNul = TRUE)
+raw_data <- read.csv("data/R_variables_March23.csv", header = T, stringsAsFactors = F, skipNul = TRUE)
 
 
 raw_data$mean_followup <- as.numeric(raw_data$mean_followup)
@@ -32,10 +32,12 @@ raw_data$personyrs <- as.numeric(raw_data$person_years_per_category)
 
 raw_data[raw_data$effect_measure == "RR",]$effect_measure <- "rr"
 raw_data[raw_data$effect_measure == "HR",]$effect_measure <- "hr"
+raw_data[raw_data$effect_measure == "OR",]$effect_measure <- "or"
+
 
 raw_data$type <- ""
 
-#raw_data[raw_data$effect_measure == "or",]$type <- "ir" #no odds ratio
+raw_data[raw_data$effect_measure == "or",]$type <- "ir" 
 raw_data[raw_data$effect_measure == "rr",]$type <- "ir"
 raw_data[raw_data$effect_measure == "hr",]$type <- "ci"
 raw_data$type <- as.character(raw_data$type)
