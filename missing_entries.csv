@@ -1,0 +1,15 @@
+ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,totalpersons,tot_personyrs,personyrs,mean_followup,dose,RR,effect,effect_measure,lci_effect,uci_effect,cases,overall,pa_domain_subgroup,id,logrr,se,n,analysis_outcome_type,reason
+9921,Williams T.,Alzheimer disease,Fatal,3,ci,153536,NA,1781017.5999999999,NA,11.6,2.33,1,1,hr,NA,NA,NA,1,LTPA,1,0,NA,NA,Fatal,missing cases
+9921,Williams T.,Alzheimer disease,Fatal,3,ci,153536,NA,1781017.5999999999,NA,11.6,7.27,0.94,0.94,hr,0.59,1.46,NA,1,LTPA,1,-0.06187540371808753,0.23114434370977616,NA,Fatal,missing cases
+9921,Williams T.,Alzheimer disease,Fatal,3,ci,153536,NA,1781017.5999999999,NA,11.6,14.57,0.75,0.75,hr,0.5,1.13,NA,1,LTPA,1,-0.2876820724517809,0.20800505002022696,NA,Fatal,missing cases
+9921,Williams T.,Alzheimer disease,Fatal,3,ci,153536,NA,1781017.5999999999,NA,11.6,25.13,0.6,0.6,hr,0.37,0.97,NA,1,LTPA,1,-0.5108256237659907,0.24587009594600598,NA,Fatal,missing cases
+9921,Williams T.,Alzheimer disease,Fatal,3,ci,153536,NA,1781017.5999999999,NA,11.6,2.33,1,1,hr,NA,NA,NA,1,LTPA,2,0,NA,NA,Both,missing cases
+9921,Williams T.,Alzheimer disease,Fatal,3,ci,153536,NA,1781017.5999999999,NA,11.6,7.27,0.94,0.94,hr,0.59,1.46,NA,1,LTPA,2,-0.06187540371808753,0.23114434370977616,NA,Both,missing cases
+9921,Williams T.,Alzheimer disease,Fatal,3,ci,153536,NA,1781017.5999999999,NA,11.6,14.57,0.75,0.75,hr,0.5,1.13,NA,1,LTPA,2,-0.2876820724517809,0.20800505002022696,NA,Both,missing cases
+9921,Williams T.,Alzheimer disease,Fatal,3,ci,153536,NA,1781017.5999999999,NA,11.6,25.13,0.6,0.6,hr,0.37,0.97,NA,1,LTPA,2,-0.5108256237659907,0.24587009594600598,NA,Both,missing cases
+991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,NA,31171,NA,6.1,0,1,1,or,NA,NA,NA,1,LTPA,1,0,NA,NA,Non-fatal,missing cases
+991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,NA,31171,NA,6.1,2.65,1.15,1.15,or,0.87,1.52,NA,1,LTPA,1,0.13976194237515863,0.1423425140953885,NA,Non-fatal,missing cases
+991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,NA,31171,NA,6.1,9.29,0.85,0.85,or,0.63,1.05,NA,1,LTPA,1,-0.16251892949777494,0.1303150536936694,NA,Non-fatal,missing cases
+991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,NA,31171,NA,6.1,0,1,1,or,NA,NA,NA,1,LTPA,1,0,NA,NA,Both,missing cases
+991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,NA,31171,NA,6.1,2.65,1.15,1.15,or,0.87,1.52,NA,1,LTPA,1,0.13976194237515863,0.1423425140953885,NA,Both,missing cases
+991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,NA,31171,NA,6.1,9.29,0.85,0.85,or,0.63,1.05,NA,1,LTPA,1,-0.16251892949777494,0.1303150536936694,NA,Both,missing cases
