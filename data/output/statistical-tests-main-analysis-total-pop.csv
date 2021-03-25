@@ -3,12 +3,12 @@ All-cause cancer,Fatal,"Q-test = 117.518 (df = 46), p-value = 0.000",I-square st
 All-cause cancer,Both,"Q-test = 243.056 (df = 60), p-value = 0.000",I-square statistic = 75.3%
 All-cause cvd,Fatal,"Q-test = 247.981 (df = 56), p-value = 0.000",I-square statistic = 77.4%
 All-cause cvd,Both,"Q-test = 331.035 (df = 72), p-value = 0.000",I-square statistic = 78.3%
-All-cause dementia,Non-fatal,"Q-test = 92.328 (df = 22), p-value = 0.000",I-square statistic = 76.2%
-All-cause dementia,Both,"Q-test = 143.038 (df = 34), p-value = 0.000",I-square statistic = 76.2%
+All-cause dementia,Non-fatal,"Q-test = 85.833 (df = 22), p-value = 0.000",I-square statistic = 74.4%
+All-cause dementia,Both,"Q-test = 121.570 (df = 34), p-value = 0.000",I-square statistic = 72.0%
 All-cause mortality,Fatal,"Q-test = 1606.243 (df = 96), p-value = 0.000",I-square statistic = 94.0%
 All-cause mortality,Both,"Q-test = 1606.243 (df = 96), p-value = 0.000",I-square statistic = 94.0%
-Alzheimer disease,Non-fatal,"Q-test = 6.184 (df = 6), p-value = 0.403",I-square statistic = 3.0%
-Alzheimer disease,Both,"Q-test = 10.126 (df = 10), p-value = 0.430",I-square statistic = 1.2%
+Alzheimer disease,Non-fatal,"Q-test = 6.468 (df = 6), p-value = 0.373",I-square statistic = 7.2%
+Alzheimer disease,Both,"Q-test = 13.375 (df = 10), p-value = 0.203",I-square statistic = 25.2%
 Bladder cancer,Both,"Q-test = 4.237 (df = 6), p-value = 0.645",I-square statistic = 0.0%
 Breast cancer,Fatal,"Q-test = 31.375 (df = 8), p-value = 0.000",I-square statistic = 74.5%
 Breast cancer,Both,"Q-test = 81.537 (df = 56), p-value = 0.015",I-square statistic = 31.3%
@@ -37,4 +37,4 @@ Prostate cancer,Both,"Q-test = 30.864 (df = 30), p-value = 0.422",I-square stati
 Rectum cancer,Both,"Q-test = 33.541 (df = 28), p-value = 0.216",I-square statistic = 16.5%
 Stroke,Fatal,"Q-test = 31.536 (df = 14), p-value = 0.005",I-square statistic = 55.6%
 Stroke,Both,"Q-test = 184.715 (df = 48), p-value = 0.000",I-square statistic = 74.0%
-Vascular dementia,Both,"Q-test = 5.584 (df = 6), p-value = 0.471",I-square statistic = 0.0%
+Vascular dementia,Both,"Q-test = 6.252 (df = 6), p-value = 0.396",I-square statistic = 4.0%
