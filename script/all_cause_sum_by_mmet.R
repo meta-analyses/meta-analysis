@@ -22,11 +22,15 @@ curve(dlnorm(x, fit$estimate[1], fit$estimate[2]), col="red", lwd=2, add=T)
 # 0-6 MET.hrs/week
 # 6+ MET.hrs/week
 
-acm %>% filter(dose == 0) %>% dplyr::select(totalpersons) %>% colSums(na.rm = T)
+three_exposures <- data.frame(dose = c("0", "0 - 6", "6+"), sum_total_persons = c(
 
-acm %>% filter(dose <= 6) %>% dplyr::select(totalpersons) %>% colSums(na.rm = T)
+acm %>% filter(dose == 0) %>% dplyr::select(totalpersons) %>% colSums(na.rm = T),
 
-acm %>% filter(dose > 6) %>% dplyr::select(totalpersons) %>% colSums(na.rm = T)
+acm %>% filter(dose <= 6) %>% dplyr::select(totalpersons) %>% colSums(na.rm = T),
+
+acm %>% filter(dose > 6) %>% dplyr::select(totalpersons) %>% colSums(na.rm = T)))
+
+write_csv(three_exposures, "data/csv/acm_sum_total_persons_three_exp.csv")
 
 # For the study with 4 levels of exposure:
 #   
@@ -35,11 +39,17 @@ acm %>% filter(dose > 6) %>% dplyr::select(totalpersons) %>% colSums(na.rm = T)
 # 9-20 met.hrs/week
 # 20+ met.hrs/week
 
-acm %>% filter(dose == 0 & dose <= 5) %>% dplyr::select(totalpersons) %>% colSums(na.rm = T)
+four_exposures <- data.frame(dose = c("0 - 5", "5 - 9", "9 - 20", "20+"), sum_total_persons = c(
 
-acm %>% filter(dose > 5 & dose <= 9) %>% dplyr::select(totalpersons) %>% colSums(na.rm = T)
+acm %>% filter(dose == 0 & dose <= 5) %>% dplyr::select(totalpersons) %>% colSums(na.rm = T),
 
-acm %>% filter(dose > 9 & dose <= 20) %>% dplyr::select(totalpersons) %>% colSums(na.rm = T)
+acm %>% filter(dose > 5 & dose <= 9) %>% dplyr::select(totalpersons) %>% colSums(na.rm = T),
 
-acm %>% filter(dose > 20) %>% dplyr::select(totalpersons) %>% colSums(na.rm = T)
+acm %>% filter(dose > 9 & dose <= 20) %>% dplyr::select(totalpersons) %>% colSums(na.rm = T),
+
+acm %>% filter(dose > 20) %>% dplyr::select(totalpersons) %>% colSums(na.rm = T)))
+
+write_csv(four_exposures, "data/csv/acm_sum_total_persons_four_exp.csv")
+
+
 
