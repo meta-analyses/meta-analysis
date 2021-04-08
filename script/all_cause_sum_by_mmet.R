@@ -16,19 +16,19 @@ fit
 hist(my_data, pch=20, breaks=25, prob=TRUE, main="")
 curve(dlnorm(x, fit$estimate[1], fit$estimate[2]), col="red", lwd=2, add=T)
 
+overall_sum_total_persons <- sum(acm$totalpersons, na.rm = T)
+
 # For the study with 3 levels of exposure:
 #   
 # 0
 # 0-6 MET.hrs/week
 # 6+ MET.hrs/week
 
-three_exposures <- data.frame(dose = c("0", "0 - 6", "6+"), sum_total_persons = c(
-
-acm %>% filter(dose == 0) %>% dplyr::select(totalpersons) %>% colSums(na.rm = T),
-
-acm %>% filter(dose <= 6) %>% dplyr::select(totalpersons) %>% colSums(na.rm = T),
-
-acm %>% filter(dose > 6) %>% dplyr::select(totalpersons) %>% colSums(na.rm = T)))
+three_exposures <- acm %>% mutate(dose_range = case_when(dose == 0 ~ "0",
+                                                         dose <= 6 ~ "0 - 6",
+                                                         dose > 6 ~ "6+")) %>% 
+  group_by(dose_range) %>%
+  summarise(sum_total_persons = sum(totalpersons, na.rm = T), 'percentage (%)' = round(sum_total_persons / overall_sum_total_persons * 100, 2))
 
 write_csv(three_exposures, "data/csv/acm_sum_total_persons_three_exp.csv")
 
@@ -39,16 +39,13 @@ write_csv(three_exposures, "data/csv/acm_sum_total_persons_three_exp.csv")
 # 9-20 met.hrs/week
 # 20+ met.hrs/week
 
-four_exposures <- data.frame(dose = c("0 - 5", "5 - 9", "9 - 20", "20+"), sum_total_persons = c(
-
-acm %>% filter(dose == 0 & dose <= 5) %>% dplyr::select(totalpersons) %>% colSums(na.rm = T),
-
-acm %>% filter(dose > 5 & dose <= 9) %>% dplyr::select(totalpersons) %>% colSums(na.rm = T),
-
-acm %>% filter(dose > 9 & dose <= 20) %>% dplyr::select(totalpersons) %>% colSums(na.rm = T),
-
-acm %>% filter(dose > 20) %>% dplyr::select(totalpersons) %>% colSums(na.rm = T)))
-
+four_exposures <- acm %>% mutate(dose_range = case_when(dose <= 5 ~ "0 - 5",
+                                                        dose > 5 & dose <= 9 ~ "5 - 9",
+                                                        dose > 9 & dose <= 20 ~ "9 - 20",
+                                                        dose > 20 ~ "20+")) %>% 
+  group_by(dose_range) %>%
+  summarise(sum_total_persons = sum(totalpersons, na.rm = T), 'percentage (%)' = round(sum_total_persons / overall_sum_total_persons * 100, 2))
+  
 write_csv(four_exposures, "data/csv/acm_sum_total_persons_four_exp.csv")
 
 
