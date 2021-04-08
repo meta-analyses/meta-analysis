@@ -1,4 +1,4 @@
-dose,sum_total_persons
-0,6300743
-0 - 6,16930639
-6+,8819504
+dose_range,sum_total_persons,percentage (%)
+0,6300743,24.47
+0 - 6,10629896,41.28
+6+,8819504,34.25
