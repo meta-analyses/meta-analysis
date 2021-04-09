@@ -54,6 +54,8 @@ raw_data <- raw_data %>% rename(effect = most_adj_effect, cases = cases_per_cate
 # ## FOR SENSITIVITY ANALYSIS
 #raw_data$dose <- raw_data$Final.Harmonised.exposure..MMET.hrs.wk...FOR.SENSITIVITY.ANALYSIS
 
+# MAIN <- TRUE
+
 # Set ALT to TRUE
 ALT <- FALSE
 
@@ -63,6 +65,14 @@ if (ALT){
   raw_data$dose <- round(raw_data$m_met_h_wk_alt, 2)
 }else{
   raw_data$dose <- round(raw_data$m_met_h_wk, 2)
+}
+
+BMI_EFFECT <- FALSE
+
+if (BMI_EFFECT){
+  raw_data$effect <- raw_data$no_bmi_effect
+  raw_data$lci_effect <- raw_data$no_bmi_lci
+  raw_data$uci_effect <- raw_data$no_bmi_uci
 }
 
 #raw_data$Final.Harmonised.exposure..MMET.hrs.wk. <- NULL
