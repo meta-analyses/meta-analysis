@@ -294,7 +294,7 @@ if (total_population) {
               
               
               # Save plot
-              ggsave(paste0(fold, dir_name, "/", uoutcome$outcome[i], "-", dir_name, ".png"), height = 5, width = 10, units = "in", dpi = 600, scale = 1)
+              ggsave(paste0(fold, dir_name, "/", uoutcome$outcome[i], "-", gg_title, "-", dir_name, ".png"), height = 5, width = 10, units = "in", dpi = 600, scale = 1)
               
               q <- ggplot(subset(dataset, se != 0),
                           aes(dose, vpc(res[[3]]))) +
