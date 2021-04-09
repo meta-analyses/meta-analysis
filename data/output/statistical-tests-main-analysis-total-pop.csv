@@ -8,7 +8,7 @@ All-cause dementia,Both,"Q-test = 121.570 (df = 34), p-value = 0.000",I-square s
 All-cause mortality,Fatal,"Q-test = 1606.243 (df = 96), p-value = 0.000",I-square statistic = 94.0%
 All-cause mortality,Both,"Q-test = 1606.243 (df = 96), p-value = 0.000",I-square statistic = 94.0%
 Alzheimer disease,Non-fatal,"Q-test = 6.468 (df = 6), p-value = 0.373",I-square statistic = 7.2%
-Alzheimer disease,Both,"Q-test = 13.375 (df = 10), p-value = 0.203",I-square statistic = 25.2%
+Alzheimer disease,Both,"Q-test = 16.584 (df = 12), p-value = 0.166",I-square statistic = 27.6%
 Bladder cancer,Both,"Q-test = 4.237 (df = 6), p-value = 0.645",I-square statistic = 0.0%
 Breast cancer,Fatal,"Q-test = 31.375 (df = 8), p-value = 0.000",I-square statistic = 74.5%
 Breast cancer,Both,"Q-test = 81.537 (df = 56), p-value = 0.015",I-square statistic = 31.3%
@@ -17,8 +17,8 @@ Coronary heart disease,Fatal,"Q-test = 42.132 (df = 22), p-value = 0.006",I-squa
 Coronary heart disease,Both,"Q-test = 234.939 (df = 50), p-value = 0.000",I-square statistic = 78.7%
 Depression,Non-fatal,"Q-test = 27.911 (df = 14), p-value = 0.015",I-square statistic = 49.8%
 Depression,Both,"Q-test = 27.911 (df = 14), p-value = 0.015",I-square statistic = 49.8%
-Depressive symptoms,Non-fatal,"Q-test = 82.996 (df = 10), p-value = 0.000",I-square statistic = 88.0%
-Depressive symptoms,Both,"Q-test = 82.996 (df = 10), p-value = 0.000",I-square statistic = 88.0%
+Depressive symptoms,Non-fatal,"Q-test = 87.153 (df = 12), p-value = 0.000",I-square statistic = 86.2%
+Depressive symptoms,Both,"Q-test = 87.153 (df = 12), p-value = 0.000",I-square statistic = 86.2%
 Endometrial cancer,Both,"Q-test = 27.344 (df = 24), p-value = 0.289",I-square statistic = 12.2%
 Esophageal cancer,Both,"Q-test = 13.281 (df = 12), p-value = 0.349",I-square statistic = 9.6%
 Gastric cardia cancer,Both,"Q-test = 12.061 (df = 8), p-value = 0.149",I-square statistic = 33.7%
