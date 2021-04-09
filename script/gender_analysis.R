@@ -354,9 +354,9 @@ write_csv(PIF_df, paste0("data/output/PIF-", sub_title, "-analysis-gendered-pop.
 # Save test table
 write_csv(test_df, paste0("data/output/statistical-tests-", sub_title, "-analysis-gendered-pop.csv"))
 
-#save(fatal_plots, file = paste0(fold, "html_widgets/fatal_plots.RData"))
-#save(non_fatal_plots, file = paste0(fold, "html_widgets/non_fatal_plots.RData"))
-#save(fatal_non_fatal_plots, file = paste0(fold, "html_widgets/fatal_non_fatal_plots.RData"))
+save(fatal_plots, file = paste0(fold, "html_widgets/fatal_plots.RData"))
+save(non_fatal_plots, file = paste0(fold, "html_widgets/non_fatal_plots.RData"))
+save(fatal_non_fatal_plots, file = paste0(fold, "html_widgets/fatal_non_fatal_plots.RData"))
 
 # Read csv file and append column name
 if (file.exists("missing_entries.csv")) {
