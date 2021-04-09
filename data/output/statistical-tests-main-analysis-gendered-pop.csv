@@ -7,6 +7,8 @@ All-cause cvd,Male Population,Fatal,"Q-test = 40.028 (df = 18), p-value = 0.002"
 All-cause cvd,Male Population,Both,"Q-test = 43.450 (df = 24), p-value = 0.009",I-square statistic = 44.8%
 All-cause cvd,Female Population,Fatal,"Q-test = 68.362 (df = 18), p-value = 0.000",I-square statistic = 73.7%
 All-cause cvd,Female Population,Both,"Q-test = 88.993 (df = 24), p-value = 0.000",I-square statistic = 73.0%
+All-cause dementia,Male Population,Both,"Q-test = 9.014 (df = 6), p-value = 0.173",I-square statistic = 33.4%
+All-cause dementia,Female Population,Both,"Q-test = 24.121 (df = 6), p-value = 0.000",I-square statistic = 75.1%
 All-cause mortality,Male Population,Fatal,"Q-test = 146.950 (df = 34), p-value = 0.000",I-square statistic = 76.9%
 All-cause mortality,Male Population,Both,"Q-test = 146.950 (df = 34), p-value = 0.000",I-square statistic = 76.9%
 All-cause mortality,Female Population,Fatal,"Q-test = 197.143 (df = 34), p-value = 0.000",I-square statistic = 82.8%
@@ -19,6 +21,10 @@ Coronary heart disease,Male Population,Both,"Q-test = 21.824 (df = 12), p-value 
 Coronary heart disease,Female Population,Fatal,"Q-test = 8.868 (df = 8), p-value = 0.354",I-square statistic = 9.8%
 Coronary heart disease,Female Population,Both,"Q-test = 35.164 (df = 12), p-value = 0.000",I-square statistic = 65.9%
 Endometrial cancer,Female Population,Both,"Q-test = 23.481 (df = 20), p-value = 0.266",I-square statistic = 14.8%
+Parkinson disease,Male Population,Non-fatal,"Q-test = 9.983 (df = 6), p-value = 0.125",I-square statistic = 39.9%
+Parkinson disease,Male Population,Both,"Q-test = 9.983 (df = 6), p-value = 0.125",I-square statistic = 39.9%
+Parkinson disease,Female Population,Non-fatal,"Q-test = 9.631 (df = 6), p-value = 0.141",I-square statistic = 37.7%
+Parkinson disease,Female Population,Both,"Q-test = 9.631 (df = 6), p-value = 0.141",I-square statistic = 37.7%
 Rectum cancer,Male Population,Both,"Q-test = 8.617 (df = 6), p-value = 0.196",I-square statistic = 30.4%
 Rectum cancer,Female Population,Both,"Q-test = 11.873 (df = 6), p-value = 0.065",I-square statistic = 49.5%
 Stroke,Male Population,Both,"Q-test = 23.700 (df = 18), p-value = 0.165",I-square statistic = 24.0%
