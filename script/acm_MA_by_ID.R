@@ -17,8 +17,34 @@ res <- list()
 rr_conf_df <- NULL
 
 for (uid in unique(acm$id)){ 
+  
+  
   acm_by_id <- filter(acm, id == uid)
+  
+  # By default run the analysis with Hamling method to approximate covariance
   res[[uid]] <- metaAnalysis(acm_by_id, ptitle = "", returnval = TRUE, covMethed = TRUE, minQuantile = 0, maxQuantile = last_knot, lout = 1000)
+  
+  # If it fails, use the default by Greenland and Longnecker (gl)
+  if (is.null(res[[uid]]) || is.na(res[[uid]])) {
+    res[[uid]] <- metaAnalysis(acm_by_id, ptitle = "", returnval = TRUE, covMethed = FALSE, minQuantile = 0, maxQuantile = last_knot, lout = 1000)
+  }
+  
+  # If this too fails, increase last_knot by 5% until it converges
+  if (is.null(res[[uid]]) || is.na(res[[uid]])) {
+    for (nq in seq(from = local_last_knot, to = 1, by = 0.01)) {
+      print(nq)
+      last_knot <- get_last_knot(acm_by_id, dose_pert = nq, personyrs_pert = nq)
+      q <- quantile(acm_by_id$dose, prob = last_knot[2])
+      res[[uid]] <- metaAnalysis(acm_by_id, ptitle = "", returnval = TRUE, covMethed = FALSE, minQuantile = 0, maxQuantile = last_knot[2], lout = 1000)
+      if (!is.null(res[[uid]])) {
+        last_quintile <- gsub("%", "", names(q)) %>%
+          as.numeric() %>%
+          round(1)
+        last_knot_title <- paste0(last_quintile, "% dose (using ", (nq * 100), "% person years)")
+        break
+      }
+    }
+  }
   
   # Save results as data frame
   dataset2 <- data.frame(cbind(res[[uid]][[1]], res[[uid]][[2]]))
