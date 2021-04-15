@@ -266,6 +266,8 @@ if (total_population) {
               "\n Last knot: ", last_knot_title
             )
             
+            write_csv(dataset, paste0("data/csv/", ifelse(ALT, "ALT", "main"), "-", uoutcome$outcome[i], "-", dir_name, ".csv"))
+            
             dataset$ref_number <- as.factor(dataset$ref_number)
             # Create plot
             p <- ggplot() +
