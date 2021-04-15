@@ -1,0 +1,25 @@
+outcome,outcome_type,q_test,i_test
+All-cause cancer,Fatal,"Q-test = 88.650 (df = 24), p-value = 0.000",I-square statistic = 72.9%
+All-cause cancer,Both,"Q-test = 126.044 (df = 32), p-value = 0.000",I-square statistic = 74.6%
+All-cause cvd,Fatal,"Q-test = 289.373 (df = 36), p-value = 0.000",I-square statistic = 87.6%
+All-cause cvd,Both,"Q-test = 384.894 (df = 52), p-value = 0.000",I-square statistic = 86.5%
+All-cause mortality,Fatal,"Q-test = 1370.940 (df = 56), p-value = 0.000",I-square statistic = 95.9%
+All-cause mortality,Both,"Q-test = 1370.940 (df = 56), p-value = 0.000",I-square statistic = 95.9%
+Breast cancer,Fatal,"Q-test = 28.042 (df = 6), p-value = 0.000",I-square statistic = 78.6%
+Breast cancer,Both,"Q-test = 79.319 (df = 44), p-value = 0.001",I-square statistic = 44.5%
+Colon cancer,Both,"Q-test = 32.622 (df = 22), p-value = 0.067",I-square statistic = 32.6%
+Coronary heart disease,Fatal,"Q-test = 20.874 (df = 14), p-value = 0.105",I-square statistic = 32.9%
+Coronary heart disease,Both,"Q-test = 746.461 (df = 40), p-value = 0.000",I-square statistic = 94.6%
+Endometrial cancer,Both,"Q-test = 35.414 (df = 18), p-value = 0.008",I-square statistic = 49.2%
+Esophageal cancer,Both,"Q-test = 11.054 (df = 8), p-value = 0.199",I-square statistic = 27.6%
+Gastric cardia cancer,Both,"Q-test = 6.027 (df = 6), p-value = 0.420",I-square statistic = 0.5%
+Head and neck cancer,Both,"Q-test = 12.045 (df = 6), p-value = 0.061",I-square statistic = 50.2%
+Heart failure,Both,"Q-test = 95.360 (df = 14), p-value = 0.000",I-square statistic = 85.3%
+Kidney cancer,Both,"Q-test = 4.774 (df = 8), p-value = 0.781",I-square statistic = 0.0%
+Liver cancer,Both,"Q-test = 24.777 (df = 8), p-value = 0.002",I-square statistic = 67.7%
+Lung cancer,Both,"Q-test = 101.388 (df = 18), p-value = 0.000",I-square statistic = 82.2%
+Prostate cancer,Fatal,"Q-test = 5.971 (df = 6), p-value = 0.426",I-square statistic = 0.0%
+Prostate cancer,Both,"Q-test = 39.445 (df = 22), p-value = 0.013",I-square statistic = 44.2%
+Rectum cancer,Both,"Q-test = 10.323 (df = 14), p-value = 0.738",I-square statistic = 0.0%
+Stroke,Fatal,"Q-test = 15.235 (df = 10), p-value = 0.124",I-square statistic = 34.4%
+Stroke,Both,"Q-test = 263.501 (df = 38), p-value = 0.000",I-square statistic = 85.6%
