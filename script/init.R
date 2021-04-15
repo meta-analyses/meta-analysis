@@ -67,7 +67,7 @@ if (ALT){
   raw_data$dose <- round(raw_data$m_met_h_wk, 2)
 }
 
-NO_BMI_EFFECT <- TRUE
+NO_BMI_EFFECT <- FALSE
 
 if (NO_BMI_EFFECT){
   raw_data$effect <- as.numeric(raw_data$no_bmi_effect)
