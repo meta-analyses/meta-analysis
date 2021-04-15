@@ -57,7 +57,7 @@ raw_data <- raw_data %>% rename(effect = most_adj_effect, cases = cases_per_cate
 # MAIN <- TRUE
 
 # Set ALT to TRUE
-ALT <- TRUE
+ALT <- FALSE
 
 ## FOR THE CURRENT ASSUMPTIONS
 # raw_data$dose <- round(ifelse(ALT, raw_data$m_met_h_wk_alt, raw_data$m_met_h_wk), 2)
