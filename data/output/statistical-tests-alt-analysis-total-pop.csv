@@ -7,8 +7,8 @@ All-cause dementia,Non-fatal,"Q-test = 94.743 (df = 22), p-value = 0.000",I-squa
 All-cause dementia,Both,"Q-test = 131.855 (df = 34), p-value = 0.000",I-square statistic = 74.2%
 All-cause mortality,Fatal,"Q-test = 1570.905 (df = 96), p-value = 0.000",I-square statistic = 93.9%
 All-cause mortality,Both,"Q-test = 1570.905 (df = 96), p-value = 0.000",I-square statistic = 93.9%
-Alzheimer disease,Non-fatal,"Q-test = 6.777 (df = 6), p-value = 0.342",I-square statistic = 11.5%
-Alzheimer disease,Both,"Q-test = 19.622 (df = 12), p-value = 0.075",I-square statistic = 38.8%
+Alzheimer's disease,Non-fatal,"Q-test = 6.777 (df = 6), p-value = 0.342",I-square statistic = 11.5%
+Alzheimer's disease,Both,"Q-test = 19.622 (df = 12), p-value = 0.075",I-square statistic = 38.8%
 Bladder cancer,Both,"Q-test = 4.291 (df = 6), p-value = 0.637",I-square statistic = 0.0%
 Breast cancer,Fatal,"Q-test = 31.374 (df = 8), p-value = 0.000",I-square statistic = 74.5%
 Breast cancer,Both,"Q-test = 82.854 (df = 56), p-value = 0.011",I-square statistic = 32.4%
@@ -30,8 +30,8 @@ Lung cancer,Fatal,"Q-test = 26.207 (df = 6), p-value = 0.000",I-square statistic
 Lung cancer,Both,"Q-test = 158.073 (df = 28), p-value = 0.000",I-square statistic = 82.3%
 Myeloid leukemia,Both,"Q-test = 5.848 (df = 6), p-value = 0.440",I-square statistic = 0.0%
 Myeloma,Both,"Q-test = 7.431 (df = 6), p-value = 0.283",I-square statistic = 19.3%
-Parkinson disease,Non-fatal,"Q-test = 9.556 (df = 6), p-value = 0.145",I-square statistic = 37.2%
-Parkinson disease,Both,"Q-test = 10.483 (df = 8), p-value = 0.233",I-square statistic = 23.7%
+Parkinson's disease,Non-fatal,"Q-test = 9.556 (df = 6), p-value = 0.145",I-square statistic = 37.2%
+Parkinson's disease,Both,"Q-test = 10.483 (df = 8), p-value = 0.233",I-square statistic = 23.7%
 Prostate cancer,Fatal,"Q-test = 6.638 (df = 8), p-value = 0.576",I-square statistic = 0.0%
 Prostate cancer,Both,"Q-test = 30.570 (df = 30), p-value = 0.437",I-square statistic = 1.9%
 Rectum cancer,Both,"Q-test = 32.077 (df = 28), p-value = 0.271",I-square statistic = 12.7%
