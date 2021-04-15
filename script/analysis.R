@@ -15,16 +15,18 @@ if (file.exists(record_removed_entries)) {
   file.remove(record_removed_entries)
 }
 
-fold <- ifelse(ALT, "plots/alt_analysis/", "plots/main_analysis/")
-
-# get all png files in the directories, recursively
-f <- list.files(fold, pattern = ".png", include.dirs = FALSE, full.names = TRUE, recursive = TRUE)
-# remove the files
-file.remove(f)
-
-fatal_plots <- htmltools::tagList()
-non_fatal_plots <- htmltools::tagList()
-fatal_non_fatal_plots <- htmltools::tagList()
+if (!NO_BMI_EFFECT){
+  fold <- ifelse(ALT, "plots/alt_analysis/", "plots/main_analysis/")
+  
+  # get all png files in the directories, recursively
+  f <- list.files(fold, pattern = ".png", include.dirs = FALSE, full.names = TRUE, recursive = TRUE)
+  # remove the files
+  file.remove(f)
+  
+  fatal_plots <- htmltools::tagList()
+  non_fatal_plots <- htmltools::tagList()
+  fatal_non_fatal_plots <- htmltools::tagList()
+}
 
 PIF_df <- NULL
 test_df <- NULL
@@ -116,6 +118,8 @@ if (total_population) {
         if (length(missing_RR_ids) > 0) {
           temp <- subset(acmfdata, id %in% missing_RR_ids)
           temp$reason <- "missing RRs"
+          temp$NO_BMI_EFFECT <- NO_BMI_EFFECT
+          temp[["is_alt_analysis"]] <- ALT
           readr::write_csv(temp, record_removed_entries, append = TRUE)
           acmfdata <- subset(acmfdata, !id %in% missing_RR_ids)
         }
@@ -125,6 +129,8 @@ if (total_population) {
         if (length(negative_SE_ids) > 0) {
           temp <- subset(acmfdata, id %in% negative_SE_ids)
           temp$reason <- "negative error"
+          temp$NO_BMI_EFFECT <- NO_BMI_EFFECT
+          temp[["is_alt_analysis"]] <- ALT
           readr::write_csv(temp, record_removed_entries, append = TRUE)
           acmfdata <- subset(acmfdata, !id %in% negative_SE_ids)
         }
@@ -155,6 +161,8 @@ if (total_population) {
         if (length(local_filter) > 0) {
           temp <- subset(acmfdata, id %in% local_filter)
           temp$reason <- "multiple stratification"
+          temp$NO_BMI_EFFECT <- NO_BMI_EFFECT
+          temp[["is_alt_analysis"]] <- ALT
           readr::write_csv(temp, record_removed_entries, append = TRUE)
           acmfdata <- acmfdata %>% filter(!id %in% local_filter)
         }
@@ -283,7 +291,7 @@ if (total_population) {
             # Save the plot as a .Rds file
             # saveRDS(p, paste0("plots/", dir_name, "/", uoutcome$outcome[i], "-", dir_name, ".Rds"), version = 2)
             
-            if (!BMI_EFFECT){
+            if (!NO_BMI_EFFECT){
             
               if (local_outcome_type == "Fatal") {
                 fatal_plots[[length(fatal_plots) + 1]] <- as.widget(plotly::ggplotly(p))
@@ -343,8 +351,12 @@ if (total_population) {
   }
 }
 
-# Adjust subtitle acc. to analysis
-sub_title <- ifelse(ALT, "alt", "main")
+sub_title <- "no_bmi_effect"
+
+if (!NO_BMI_EFFECT){
+  # Adjust subtitle acc. to analysis
+  sub_title <- ifelse(ALT, "alt", "main")
+}
 
 # Save rr_conf_df table
 write_csv(rr_conf_df, paste0("data/output/rr-", sub_title, "-analysis-total-pop.csv"))
@@ -355,9 +367,11 @@ write_csv(PIF_df, paste0("data/output/PIF-", sub_title, "-analysis-total-pop.csv
 # Save test table
 write_csv(test_df, paste0("data/output/statistical-tests-", sub_title, "-analysis-total-pop.csv"))
 
-save(fatal_plots, file = paste0(fold, "html_widgets/fatal_plots.RData"))
-save(non_fatal_plots, file = paste0(fold, "html_widgets/non_fatal_plots.RData"))
-save(fatal_non_fatal_plots, file = paste0(fold, "html_widgets/fatal_non_fatal_plots.RData"))
+if (!NO_BMI_EFFECT){
+  save(fatal_plots, file = paste0(fold, "html_widgets/fatal_plots.RData"))
+  save(non_fatal_plots, file = paste0(fold, "html_widgets/non_fatal_plots.RData"))
+  save(fatal_non_fatal_plots, file = paste0(fold, "html_widgets/fatal_non_fatal_plots.RData"))
+}
 
 # Read csv file and append column name
 if (file.exists("missing_entries.csv")) {
