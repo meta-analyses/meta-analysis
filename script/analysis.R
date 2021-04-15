@@ -111,8 +111,9 @@ if (total_population) {
         n_subset <- acmfdata
         
         # Remove all studies with missing RRs
-        missing_RR_ids <- subset(acmfdata, is.na(RR)) %>% select(id)
-        if (nrow(missing_RR_ids) > 0) {
+        missing_RR_ids <- subset(acmfdata, is.na(RR)) %>% select(id) %>% pull()
+        
+        if (length(missing_RR_ids) > 0) {
           temp <- subset(acmfdata, id %in% missing_RR_ids)
           temp$reason <- "missing RRs"
           readr::write_csv(temp, record_removed_entries, append = TRUE)
@@ -120,8 +121,8 @@ if (total_population) {
         }
         
         # Remove all studies with negative standard error (SE)
-        negative_SE_ids <- subset(acmfdata, se < 0) %>% select(id)
-        if (nrow(negative_SE_ids) > 0) {
+        negative_SE_ids <- subset(acmfdata, se < 0) %>% select(id) %>% pull()
+        if (length(negative_SE_ids) > 0) {
           temp <- subset(acmfdata, id %in% negative_SE_ids)
           temp$reason <- "negative error"
           readr::write_csv(temp, record_removed_entries, append = TRUE)
@@ -148,10 +149,10 @@ if (total_population) {
           group_by(id) %>%
           summarise(c = sum(is.na(se))) %>%
           filter(c > 1) %>%
-          dplyr::select(id)
+          dplyr::select(id) %>% pull()
         
         # Remove all such studies altogether - which is a temp fix
-        if (nrow(local_filter) > 0) {
+        if (length(local_filter) > 0) {
           temp <- subset(acmfdata, id %in% local_filter)
           temp$reason <- "multiple stratification"
           readr::write_csv(temp, record_removed_entries, append = TRUE)
@@ -162,11 +163,12 @@ if (total_population) {
         
         # Select subset of columns
         acmfdata <- subset(acmfdata, select = c(id, ref_number, first_author, effect_measure, outcome_type, type, totalpersons, personyrs, dose, RR, logrr, cases, uci_effect, lci_effect, se))
-        # Get last knot based on 75% of person years
-        last_knot <- get_last_knot(acmfdata, dose_pert = local_last_knot, personyrs_pert = local_last_knot)
-        last_knot <- last_knot[2]
-        
         if (nrow(acmfdata) > 0) {
+          
+          # Get last knot based on 75% of person years
+          last_knot <- get_last_knot(acmfdata, dose_pert = local_last_knot, personyrs_pert = local_last_knot)
+          last_knot <- last_knot[2]
+          
           dataset <- acmfdata
           # Get quantiles (0th, 37.5th and 75th)
           q <- quantile(dataset$dose, prob = last_knot)
