@@ -70,9 +70,9 @@ if (ALT){
 BMI_EFFECT <- FALSE
 
 if (BMI_EFFECT){
-  raw_data$effect <- raw_data$no_bmi_effect
-  raw_data$lci_effect <- raw_data$no_bmi_lci
-  raw_data$uci_effect <- raw_data$no_bmi_uci
+  raw_data$effect <- as.numeric(raw_data$no_bmi_effect)
+  raw_data$lci_effect <- as.numeric(raw_data$no_bmi_lci)
+  raw_data$uci_effect <- as.numeric(raw_data$no_bmi_uci)
 }
 
 #raw_data$Final.Harmonised.exposure..MMET.hrs.wk. <- NULL
