@@ -283,25 +283,28 @@ if (total_population) {
             # Save the plot as a .Rds file
             # saveRDS(p, paste0("plots/", dir_name, "/", uoutcome$outcome[i], "-", dir_name, ".Rds"), version = 2)
             
-            if (local_outcome_type == "Fatal") {
-              fatal_plots[[length(fatal_plots) + 1]] <- as.widget(plotly::ggplotly(p))
-            } else if (local_outcome_type == "Non-fatal") {
-              non_fatal_plots[[length(non_fatal_plots) + 1]] <- as.widget(plotly::ggplotly(p))
-            } else {
-              fatal_non_fatal_plots[[length(fatal_non_fatal_plots) + 1]] <- as.widget(plotly::ggplotly(p))
+            if (!BMI_EFFECT){
+            
+              if (local_outcome_type == "Fatal") {
+                fatal_plots[[length(fatal_plots) + 1]] <- as.widget(plotly::ggplotly(p))
+              } else if (local_outcome_type == "Non-fatal") {
+                non_fatal_plots[[length(non_fatal_plots) + 1]] <- as.widget(plotly::ggplotly(p))
+              } else {
+                fatal_non_fatal_plots[[length(fatal_non_fatal_plots) + 1]] <- as.widget(plotly::ggplotly(p))
+              }
+              
+              
+              # Save plot
+              ggsave(paste0(fold, dir_name, "/", uoutcome$outcome[i], "-", dir_name, ".png"), height = 5, width = 10, units = "in", dpi = 600, scale = 1)
+              
+              q <- ggplot(subset(dataset, se != 0),
+                          aes(dose, vpc(res[[3]]))) +
+                geom_point() + 
+                geom_smooth(method = "loess", se = F, col = "black") +
+                labs(y = "VPC", x = "Dose")
+              
+              ggsave(paste0(fold, "vpc/", uoutcome$outcome[i], "-", dir_name, ".png"), height = 5, width = 10, units = "in", dpi = 600, scale = 1)
             }
-            
-            
-            # Save plot
-            ggsave(paste0(fold, dir_name, "/", uoutcome$outcome[i], "-", dir_name, ".png"), height = 5, width = 10, units = "in", dpi = 600, scale = 1)
-            
-            q <- ggplot(subset(dataset, se != 0),
-                        aes(dose, vpc(res[[3]]))) +
-              geom_point() + 
-              geom_smooth(method = "loess", se = F, col = "black") +
-              labs(y = "VPC", x = "Dose")
-            
-            ggsave(paste0(fold, "vpc/", uoutcome$outcome[i], "-", dir_name, ".png"), height = 5, width = 10, units = "in", dpi = 600, scale = 1)
             
             # at 4.375, 8.750, and 17.500 
             
