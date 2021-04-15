@@ -106,6 +106,8 @@ if (total_population) {
         missing_cases <- setdiff(missing_cases, acmfdata)
         if (nrow(missing_cases) > 0) {
           missing_cases$reason <- "missing cases"
+          missing_cases$NO_BMI_EFFECT <- NO_BMI_EFFECT
+          missing_cases[["is_alt_analysis"]] <- ALT
           readr::write_csv(missing_cases, record_removed_entries, append = TRUE)
         }
         
@@ -377,7 +379,7 @@ if (!NO_BMI_EFFECT){
 if (file.exists("missing_entries.csv")) {
   temp <- read_csv("missing_entries.csv", col_names = FALSE)
   if (!any(colnames(temp) == "reason")) {
-    colnames(temp) <- append(orig_col_names, "reason")
+    colnames(temp) <- append(orig_col_names, c("reason", "NO_BMI_EFFECT", "is_alt_analysis"))
     temp <- temp[!duplicated(temp), ]
     readr::write_csv(temp, "missing_entries.csv")
   }
