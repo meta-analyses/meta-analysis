@@ -57,7 +57,7 @@ for (uid in unique(acm$id)){
   ub_df <- get_ma_table(dataset2, "ub")
   
   
-  rr_conf <- data.frame(outcome = "All-cause mortality", id = uid, ref_id=acm_by_id$ref_number, lowest_guideline = rr_df[1],
+  rr_conf <- data.frame(outcome = "All-cause mortality", id = uid, ref_number = unique(acm_by_id$ref_number), lowest_guideline = rr_df[1],
                         lowest_CFI = paste0("(",lb_df[1], " - ", ub_df[1], ")"), mid_guideline = rr_df[2],
                         mid_CFI = paste0("(", lb_df[2], " - ", ub_df[2], ")"), mid_lb=lb_df[2], mid_ub=ub_df[2],
                           highest_guideline = rr_df[3],
@@ -132,7 +132,7 @@ for (uid in unique(acm$id)){
   ub_df <- get_ma_table(dataset2, "ub")
   
   
-  rr_conf <- data.frame(outcome = "All-cause cancer", id = uid, ref_id=acm_by_id$ref_number, lowest_guideline = rr_df[1],
+  rr_conf <- data.frame(outcome = "All-cause cancer", id = uid, ref_number = unique(acm_by_id$ref_number), lowest_guideline = rr_df[1],
                         lowest_CFI = paste0("(",lb_df[1], " - ", ub_df[1], ")"), mid_guideline = rr_df[2],
                         mid_CFI = paste0("(", lb_df[2], " - ", ub_df[2], ")"), mid_lb=lb_df[2], mid_ub=ub_df[2],
                         highest_guideline = rr_df[3],
@@ -205,7 +205,7 @@ for (uid in unique(acm$id)){
   ub_df <- get_ma_table(dataset2, "ub")
   
   
-  rr_conf <- data.frame(outcome = "All-cause cvd", id = uid, ref_id=acm_by_id$ref_number, lowest_guideline = rr_df[1],
+  rr_conf <- data.frame(outcome = "All-cause cvd", id = uid, ref_number = unique(acm_by_id$ref_number), lowest_guideline = rr_df[1],
                         lowest_CFI = paste0("(",lb_df[1], " - ", ub_df[1], ")"), mid_guideline = rr_df[2],
                         mid_CFI = paste0("(", lb_df[2], " - ", ub_df[2], ")"), mid_lb=lb_df[2], mid_ub=ub_df[2],
                         highest_guideline = rr_df[3],
@@ -278,7 +278,7 @@ for (uid in unique(acm$id)){
   ub_df <- get_ma_table(dataset2, "ub")
   
   
-  rr_conf <- data.frame(outcome = "All-cause dementia", id = uid, ref_id=acm_by_id$ref_number, lowest_guideline = rr_df[1],
+  rr_conf <- data.frame(outcome = "All-cause dementia", id = uid, ref_number = unique(acm_by_id$ref_number), lowest_guideline = rr_df[1],
                         lowest_CFI = paste0("(",lb_df[1], " - ", ub_df[1], ")"), mid_guideline = rr_df[2],
                         mid_CFI = paste0("(", lb_df[2], " - ", ub_df[2], ")"), mid_lb=lb_df[2], mid_ub=ub_df[2],
                         highest_guideline = rr_df[3],
@@ -351,7 +351,7 @@ for (uid in unique(acm$id)){
   ub_df <- get_ma_table(dataset2, "ub")
   
   
-  rr_conf <- data.frame(outcome = "Bladder cancer", id = uid, ref_id=acm_by_id$ref_number, lowest_guideline = rr_df[1],
+  rr_conf <- data.frame(outcome = "Bladder cancer", id = uid, ref_number = unique(acm_by_id$ref_number), lowest_guideline = rr_df[1],
                         lowest_CFI = paste0("(",lb_df[1], " - ", ub_df[1], ")"), mid_guideline = rr_df[2],
                         mid_CFI = paste0("(", lb_df[2], " - ", ub_df[2], ")"), mid_lb=lb_df[2], mid_ub=ub_df[2],
                         highest_guideline = rr_df[3],
@@ -425,7 +425,7 @@ for (uid in unique(acm$id)){
   ub_df <- get_ma_table(dataset2, "ub")
   
   
-  rr_conf <- data.frame(outcome = "Alzheimer's disease", id = uid, ref_id=acm_by_id$ref_number, lowest_guideline = rr_df[1],
+  rr_conf <- data.frame(outcome = "Alzheimer's disease", id = uid, ref_number = unique(acm_by_id$ref_number), lowest_guideline = rr_df[1],
                         lowest_CFI = paste0("(",lb_df[1], " - ", ub_df[1], ")"), mid_guideline = rr_df[2],
                         mid_CFI = paste0("(", lb_df[2], " - ", ub_df[2], ")"), mid_lb=lb_df[2], mid_ub=ub_df[2],
                         highest_guideline = rr_df[3],
@@ -498,7 +498,7 @@ for (uid in unique(acm$id)){
   ub_df <- get_ma_table(dataset2, "ub")
   
   
-  rr_conf <- data.frame(outcome = "Breast cancer", id = uid, ref_id=acm_by_id$ref_number, lowest_guideline = rr_df[1],
+  rr_conf <- data.frame(outcome = "Breast cancer", id = uid, ref_number = unique(acm_by_id$ref_number), lowest_guideline = rr_df[1],
                         lowest_CFI = paste0("(",lb_df[1], " - ", ub_df[1], ")"), mid_guideline = rr_df[2],
                         mid_CFI = paste0("(", lb_df[2], " - ", ub_df[2], ")"), mid_lb=lb_df[2], mid_ub=ub_df[2],
                         highest_guideline = rr_df[3],
@@ -572,7 +572,7 @@ for (uid in unique(acm$id)){
   ub_df <- get_ma_table(dataset2, "ub")
   
   
-  rr_conf <- data.frame(outcome = "Colon cancer", id = uid, ref_id=acm_by_id$ref_number, lowest_guideline = rr_df[1],
+  rr_conf <- data.frame(outcome = "Colon cancer", id = uid, ref_number = unique(acm_by_id$ref_number), lowest_guideline = rr_df[1],
                         lowest_CFI = paste0("(",lb_df[1], " - ", ub_df[1], ")"), mid_guideline = rr_df[2],
                         mid_CFI = paste0("(", lb_df[2], " - ", ub_df[2], ")"), mid_lb=lb_df[2], mid_ub=ub_df[2],
                         highest_guideline = rr_df[3],
@@ -647,7 +647,7 @@ for (uid in unique(acm$id)){
   ub_df <- get_ma_table(dataset2, "ub")
   
   
-  rr_conf <- data.frame(outcome = "Coronary heart disease", id = uid, ref_id=acm_by_id$ref_number, lowest_guideline = rr_df[1],
+  rr_conf <- data.frame(outcome = "Coronary heart disease", id = uid, ref_number = unique(acm_by_id$ref_number), lowest_guideline = rr_df[1],
                         lowest_CFI = paste0("(",lb_df[1], " - ", ub_df[1], ")"), mid_guideline = rr_df[2],
                         mid_CFI = paste0("(", lb_df[2], " - ", ub_df[2], ")"), mid_lb=lb_df[2], mid_ub=ub_df[2],
                         highest_guideline = rr_df[3],
@@ -722,7 +722,7 @@ for (uid in unique(acm$id)){
   ub_df <- get_ma_table(dataset2, "ub")
   
   
-  rr_conf <- data.frame(outcome = "Depression", id = uid, ref_id=acm_by_id$ref_number, lowest_guideline = rr_df[1],
+  rr_conf <- data.frame(outcome = "Depression", id = uid, ref_number = unique(acm_by_id$ref_number), lowest_guideline = rr_df[1],
                         lowest_CFI = paste0("(",lb_df[1], " - ", ub_df[1], ")"), mid_guideline = rr_df[2],
                         mid_CFI = paste0("(", lb_df[2], " - ", ub_df[2], ")"), mid_lb=lb_df[2], mid_ub=ub_df[2],
                         highest_guideline = rr_df[3],
@@ -797,7 +797,7 @@ for (uid in unique(acm$id)){
   ub_df <- get_ma_table(dataset2, "ub")
   
   
-  rr_conf <- data.frame(outcome = "Depressive symptoms", id = uid, ref_id=acm_by_id$ref_number, lowest_guideline = rr_df[1],
+  rr_conf <- data.frame(outcome = "Depressive symptoms", id = uid, ref_number = unique(acm_by_id$ref_number), lowest_guideline = rr_df[1],
                         lowest_CFI = paste0("(",lb_df[1], " - ", ub_df[1], ")"), mid_guideline = rr_df[2],
                         mid_CFI = paste0("(", lb_df[2], " - ", ub_df[2], ")"), mid_lb=lb_df[2], mid_ub=ub_df[2],
                         highest_guideline = rr_df[3],
@@ -872,7 +872,7 @@ for (uid in unique(acm$id)){
   ub_df <- get_ma_table(dataset2, "ub")
   
   
-  rr_conf <- data.frame(outcome = "Endometrial cancer", id = uid, ref_id=acm_by_id$ref_number, lowest_guideline = rr_df[1],
+  rr_conf <- data.frame(outcome = "Endometrial cancer", id = uid, ref_number = unique(acm_by_id$ref_number), lowest_guideline = rr_df[1],
                         lowest_CFI = paste0("(",lb_df[1], " - ", ub_df[1], ")"), mid_guideline = rr_df[2],
                         mid_CFI = paste0("(", lb_df[2], " - ", ub_df[2], ")"), mid_lb=lb_df[2], mid_ub=ub_df[2],
                         highest_guideline = rr_df[3],
@@ -947,7 +947,7 @@ for (uid in unique(acm$id)){
   ub_df <- get_ma_table(dataset2, "ub")
   
   
-  rr_conf <- data.frame(outcome = "Esopahgeal cancer", id = uid, ref_id=acm_by_id$ref_number, lowest_guideline = rr_df[1],
+  rr_conf <- data.frame(outcome = "Esopahgeal cancer", id = uid, ref_number = unique(acm_by_id$ref_number), lowest_guideline = rr_df[1],
                         lowest_CFI = paste0("(",lb_df[1], " - ", ub_df[1], ")"), mid_guideline = rr_df[2],
                         mid_CFI = paste0("(", lb_df[2], " - ", ub_df[2], ")"), mid_lb=lb_df[2], mid_ub=ub_df[2],
                         highest_guideline = rr_df[3],
@@ -1024,7 +1024,7 @@ for (uid in unique(acm$id)){
   ub_df <- get_ma_table(dataset2, "ub")
   
   
-  rr_conf <- data.frame(outcome = "Gastric cardia cancer", id = uid, ref_id=acm_by_id$ref_number, lowest_guideline = rr_df[1],
+  rr_conf <- data.frame(outcome = "Gastric cardia cancer", id = uid, ref_number = unique(acm_by_id$ref_number), lowest_guideline = rr_df[1],
                         lowest_CFI = paste0("(",lb_df[1], " - ", ub_df[1], ")"), mid_guideline = rr_df[2],
                         mid_CFI = paste0("(", lb_df[2], " - ", ub_df[2], ")"), mid_lb=lb_df[2], mid_ub=ub_df[2],
                         highest_guideline = rr_df[3],
@@ -1098,7 +1098,7 @@ for (uid in unique(acm$id)){
   ub_df <- get_ma_table(dataset2, "ub")
   
   
-  rr_conf <- data.frame(outcome = "Head and neck cancer", id = uid, ref_id=acm_by_id$ref_number, lowest_guideline = rr_df[1],
+  rr_conf <- data.frame(outcome = "Head and neck cancer", id = uid, ref_number = unique(acm_by_id$ref_number), lowest_guideline = rr_df[1],
                         lowest_CFI = paste0("(",lb_df[1], " - ", ub_df[1], ")"), mid_guideline = rr_df[2],
                         mid_CFI = paste0("(", lb_df[2], " - ", ub_df[2], ")"), mid_lb=lb_df[2], mid_ub=ub_df[2],
                         highest_guideline = rr_df[3],
@@ -1172,7 +1172,7 @@ for (uid in unique(acm$id)){
   ub_df <- get_ma_table(dataset2, "ub")
   
   
-  rr_conf <- data.frame(outcome = "Heart failure", id = uid, ref_id=acm_by_id$ref_number, lowest_guideline = rr_df[1],
+  rr_conf <- data.frame(outcome = "Heart failure", id = uid, ref_number = unique(acm_by_id$ref_number), lowest_guideline = rr_df[1],
                         lowest_CFI = paste0("(",lb_df[1], " - ", ub_df[1], ")"), mid_guideline = rr_df[2],
                         mid_CFI = paste0("(", lb_df[2], " - ", ub_df[2], ")"), mid_lb=lb_df[2], mid_ub=ub_df[2],
                         highest_guideline = rr_df[3],
@@ -1246,7 +1246,7 @@ for (uid in unique(acm$id)){
   ub_df <- get_ma_table(dataset2, "ub")
   
   
-  rr_conf <- data.frame(outcome = "Kidney cancer", id = uid, ref_id=acm_by_id$ref_number, lowest_guideline = rr_df[1],
+  rr_conf <- data.frame(outcome = "Kidney cancer", id = uid, ref_number = unique(acm_by_id$ref_number), lowest_guideline = rr_df[1],
                         lowest_CFI = paste0("(",lb_df[1], " - ", ub_df[1], ")"), mid_guideline = rr_df[2],
                         mid_CFI = paste0("(", lb_df[2], " - ", ub_df[2], ")"), mid_lb=lb_df[2], mid_ub=ub_df[2],
                         highest_guideline = rr_df[3],
@@ -1319,7 +1319,7 @@ for (uid in unique(acm$id)){
   ub_df <- get_ma_table(dataset2, "ub")
   
   
-  rr_conf <- data.frame(outcome = "Lung cancer", id = uid, ref_id=acm_by_id$ref_number, lowest_guideline = rr_df[1],
+  rr_conf <- data.frame(outcome = "Lung cancer", id = uid, ref_number = unique(acm_by_id$ref_number), lowest_guideline = rr_df[1],
                         lowest_CFI = paste0("(",lb_df[1], " - ", ub_df[1], ")"), mid_guideline = rr_df[2],
                         mid_CFI = paste0("(", lb_df[2], " - ", ub_df[2], ")"), mid_lb=lb_df[2], mid_ub=ub_df[2],
                         highest_guideline = rr_df[3],
@@ -1393,7 +1393,7 @@ for (uid in unique(acm$id)){
   ub_df <- get_ma_table(dataset2, "ub")
   
   
-  rr_conf <- data.frame(outcome = "Liver cancer", id = uid, ref_id=acm_by_id$ref_number, lowest_guideline = rr_df[1],
+  rr_conf <- data.frame(outcome = "Liver cancer", id = uid, ref_number = unique(acm_by_id$ref_number), lowest_guideline = rr_df[1],
                         lowest_CFI = paste0("(",lb_df[1], " - ", ub_df[1], ")"), mid_guideline = rr_df[2],
                         mid_CFI = paste0("(", lb_df[2], " - ", ub_df[2], ")"), mid_lb=lb_df[2], mid_ub=ub_df[2],
                         highest_guideline = rr_df[3],
@@ -1470,7 +1470,7 @@ for (uid in unique(acm$id)){
   ub_df <- get_ma_table(dataset2, "ub")
   
   
-  rr_conf <- data.frame(outcome = "Myeloid leukemia", id = uid, ref_id=acm_by_id$ref_number, lowest_guideline = rr_df[1],
+  rr_conf <- data.frame(outcome = "Myeloid leukemia", id = uid, ref_number = unique(acm_by_id$ref_number), lowest_guideline = rr_df[1],
                         lowest_CFI = paste0("(",lb_df[1], " - ", ub_df[1], ")"), mid_guideline = rr_df[2],
                         mid_CFI = paste0("(", lb_df[2], " - ", ub_df[2], ")"), mid_lb=lb_df[2], mid_ub=ub_df[2],
                         highest_guideline = rr_df[3],
@@ -1543,7 +1543,7 @@ for (uid in unique(acm$id)){
   ub_df <- get_ma_table(dataset2, "ub")
   
   
-  rr_conf <- data.frame(outcome = "Myeloma", id = uid, ref_id=acm_by_id$ref_number, lowest_guideline = rr_df[1],
+  rr_conf <- data.frame(outcome = "Myeloma", id = uid, ref_number = unique(acm_by_id$ref_number), lowest_guideline = rr_df[1],
                         lowest_CFI = paste0("(",lb_df[1], " - ", ub_df[1], ")"), mid_guideline = rr_df[2],
                         mid_CFI = paste0("(", lb_df[2], " - ", ub_df[2], ")"), mid_lb=lb_df[2], mid_ub=ub_df[2],
                         highest_guideline = rr_df[3],
@@ -1617,7 +1617,7 @@ for (uid in unique(acm$id)){
   ub_df <- get_ma_table(dataset2, "ub")
   
   
-  rr_conf <- data.frame(outcome = "Parkinson's disease", id = uid, ref_id=acm_by_id$ref_number, lowest_guideline = rr_df[1],
+  rr_conf <- data.frame(outcome = "Parkinson's disease", id = uid, ref_number = unique(acm_by_id$ref_number), lowest_guideline = rr_df[1],
                         lowest_CFI = paste0("(",lb_df[1], " - ", ub_df[1], ")"), mid_guideline = rr_df[2],
                         mid_CFI = paste0("(", lb_df[2], " - ", ub_df[2], ")"), mid_lb=lb_df[2], mid_ub=ub_df[2],
                         highest_guideline = rr_df[3],
@@ -1691,7 +1691,7 @@ for (uid in unique(acm$id)){
   ub_df <- get_ma_table(dataset2, "ub")
   
   
-  rr_conf <- data.frame(outcome = "Prostate cancer", id = uid, ref_id=acm_by_id$ref_number, lowest_guideline = rr_df[1],
+  rr_conf <- data.frame(outcome = "Prostate cancer", id = uid, ref_number = unique(acm_by_id$ref_number), lowest_guideline = rr_df[1],
                         lowest_CFI = paste0("(",lb_df[1], " - ", ub_df[1], ")"), mid_guideline = rr_df[2],
                         mid_CFI = paste0("(", lb_df[2], " - ", ub_df[2], ")"), mid_lb=lb_df[2], mid_ub=ub_df[2],
                         highest_guideline = rr_df[3],
@@ -1764,7 +1764,7 @@ for (uid in unique(acm$id)){
   ub_df <- get_ma_table(dataset2, "ub")
   
   
-  rr_conf <- data.frame(outcome = "Rectum cancer", id = uid, ref_id=acm_by_id$ref_number, lowest_guideline = rr_df[1],
+  rr_conf <- data.frame(outcome = "Rectum cancer", id = uid, ref_number = unique(acm_by_id$ref_number), lowest_guideline = rr_df[1],
                         lowest_CFI = paste0("(",lb_df[1], " - ", ub_df[1], ")"), mid_guideline = rr_df[2],
                         mid_CFI = paste0("(", lb_df[2], " - ", ub_df[2], ")"), mid_lb=lb_df[2], mid_ub=ub_df[2],
                         highest_guideline = rr_df[3],
@@ -1837,7 +1837,7 @@ for (uid in unique(acm$id)){
   ub_df <- get_ma_table(dataset2, "ub")
   
   
-  rr_conf <- data.frame(outcome = "Stroke", id = uid, ref_id=acm_by_id$ref_number, lowest_guideline = rr_df[1],
+  rr_conf <- data.frame(outcome = "Stroke", id = uid, ref_number = unique(acm_by_id$ref_number), lowest_guideline = rr_df[1],
                         lowest_CFI = paste0("(",lb_df[1], " - ", ub_df[1], ")"), mid_guideline = rr_df[2],
                         mid_CFI = paste0("(", lb_df[2], " - ", ub_df[2], ")"), mid_lb=lb_df[2], mid_ub=ub_df[2],
                         highest_guideline = rr_df[3],
@@ -1910,7 +1910,7 @@ for (uid in unique(acm$id)){
   ub_df <- get_ma_table(dataset2, "ub")
   
   
-  rr_conf <- data.frame(outcome = "Vascular dementia", id = uid, ref_id=acm_by_id$ref_number, lowest_guideline = rr_df[1],
+  rr_conf <- data.frame(outcome = "Vascular dementia", id = uid, ref_number = unique(acm_by_id$ref_number), lowest_guideline = rr_df[1],
                         lowest_CFI = paste0("(",lb_df[1], " - ", ub_df[1], ")"), mid_guideline = rr_df[2],
                         mid_CFI = paste0("(", lb_df[2], " - ", ub_df[2], ")"), mid_lb=lb_df[2], mid_ub=ub_df[2],
                         highest_guideline = rr_df[3],
