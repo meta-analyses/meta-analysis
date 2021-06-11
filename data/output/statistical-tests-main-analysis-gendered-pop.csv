@@ -21,10 +21,6 @@ Coronary heart disease,Male Population,Both,"Q-test = 21.824 (df = 12), p-value 
 Coronary heart disease,Female Population,Fatal,"Q-test = 8.868 (df = 8), p-value = 0.354",I-square statistic = 9.8%
 Coronary heart disease,Female Population,Both,"Q-test = 35.164 (df = 12), p-value = 0.000",I-square statistic = 65.9%
 Endometrial cancer,Female Population,Both,"Q-test = 23.481 (df = 20), p-value = 0.266",I-square statistic = 14.8%
-Parkinson disease,Male Population,Non-fatal,"Q-test = 9.983 (df = 6), p-value = 0.125",I-square statistic = 39.9%
-Parkinson disease,Male Population,Both,"Q-test = 9.983 (df = 6), p-value = 0.125",I-square statistic = 39.9%
-Parkinson disease,Female Population,Non-fatal,"Q-test = 9.631 (df = 6), p-value = 0.141",I-square statistic = 37.7%
-Parkinson disease,Female Population,Both,"Q-test = 9.631 (df = 6), p-value = 0.141",I-square statistic = 37.7%
 Rectum cancer,Male Population,Both,"Q-test = 8.617 (df = 6), p-value = 0.196",I-square statistic = 30.4%
 Rectum cancer,Female Population,Both,"Q-test = 11.873 (df = 6), p-value = 0.065",I-square statistic = 49.5%
 Stroke,Male Population,Both,"Q-test = 23.700 (df = 18), p-value = 0.165",I-square statistic = 24.0%
