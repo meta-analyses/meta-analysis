@@ -30,8 +30,8 @@ Lung cancer,Fatal,"Q-test = 26.728 (df = 6), p-value = 0.000",I-square statistic
 Lung cancer,Both,"Q-test = 152.877 (df = 28), p-value = 0.000",I-square statistic = 81.7%
 Myeloid leukemia,Both,"Q-test = 5.406 (df = 6), p-value = 0.493",I-square statistic = 0.0%
 Myeloma,Both,"Q-test = 7.678 (df = 6), p-value = 0.263",I-square statistic = 21.9%
-Parkinson's disease,Non-fatal,"Q-test = 7.782 (df = 6), p-value = 0.255",I-square statistic = 22.9%
-Parkinson's disease,Both,"Q-test = 9.884 (df = 8), p-value = 0.273",I-square statistic = 19.1%
+Parkinson's disease,Non-fatal,"Q-test = 12.192 (df = 10), p-value = 0.272",I-square statistic = 18.0%
+Parkinson's disease,Both,"Q-test = 14.081 (df = 12), p-value = 0.296",I-square statistic = 14.8%
 Prostate cancer,Fatal,"Q-test = 5.813 (df = 8), p-value = 0.668",I-square statistic = 0.0%
 Prostate cancer,Both,"Q-test = 30.864 (df = 30), p-value = 0.422",I-square statistic = 2.8%
 Rectum cancer,Both,"Q-test = 33.541 (df = 28), p-value = 0.216",I-square statistic = 16.5%
