@@ -36,6 +36,9 @@ PIF_df <- NULL
 test_df <- NULL
 rr_conf_df <- NULL
 
+# Variable to save MA tables for DRPA package
+create_MA_tables <- FALSE
+
 if (total_population) {
   for (i in 1:nrow(uoutcome)) {
     # Loop through all three outcome types
@@ -275,16 +278,11 @@ if (total_population) {
             snake_case_outcome <- gsub(x = uoutcome$outcome[i], pattern = " ", replacement = "-") %>% tolower()
             snake_case_outcome_type <- gsub(x = dir_name, pattern = " ", replacement = "-") %>% tolower()
             ma_filename <- paste0(snake_case_outcome, "-", snake_case_outcome_type)
-
-            write_csv(dataset2, paste0("data/csv/MA-DR/", ma_filename, ".csv"))
             
-            last_quantile_df[last_quantile_df$disease == snake_case_outcome,][[snake_case_outcome_type]] <- as.numeric(q)
-            
-            #last_quintile_filename <- "data/csv/MA-DR/75p_diseases.csv.csv")
-            #if (file.exists())
-            #write_csv(missing_cases, record_removed_entries, append = TRUE)
-            
-            
+            if (create_MA_tables){
+              write_csv(dataset2, paste0("data/csv/MA-DR/", ma_filename, ".csv"))
+              last_quantile_df[last_quantile_df$disease == snake_case_outcome,][[snake_case_outcome_type]] <- as.numeric(q)
+            }
             
             dataset$ref_number <- as.factor(dataset$ref_number)
             # Create plot
@@ -389,8 +387,10 @@ write_csv(PIF_df, paste0("data/output/PIF-", sub_title, "-analysis-total-pop.csv
 # Save test table
 write_csv(test_df, paste0("data/output/statistical-tests-", sub_title, "-analysis-total-pop.csv"))
 
-# Save last quantile for each outcome and outcome type for MA
-write_csv(last_quantile_df, "data/csv/MA-DR/75p_diseases.csv.csv")
+if (create_MA_tables){
+  # Save last quantile for each outcome and outcome type for MA
+  write_csv(last_quantile_df, "data/csv/MA-DR/75p_diseases.csv.csv")
+}
 
 if (!NO_BMI_EFFECT){
   save(fatal_plots, file = paste0(fold, "html_widgets/fatal_plots.RData"))
