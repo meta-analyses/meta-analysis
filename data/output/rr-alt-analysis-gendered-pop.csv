@@ -15,6 +15,8 @@ All-cause mortality,Female Population,Both,0.84,(0.8 - 0.88),0.75,(0.7 - 0.8),0.
 All-cause mortality,Female Population,Fatal,0.84,(0.8 - 0.88),0.75,(0.7 - 0.8),0.7,(0.65 - 0.76)
 All-cause mortality,Male Population,Both,0.86,(0.83 - 0.89),0.8,(0.77 - 0.84),0.83,(0.73 - 0.95)
 All-cause mortality,Male Population,Fatal,0.86,(0.83 - 0.89),0.8,(0.77 - 0.84),0.83,(0.73 - 0.95)
+All-cause dementia,Female Population,Both,0.93,(0.77 - 1.14),0.96,(0.79 - 1.16),1.09,(0.99 - 1.19)
+All-cause dementia,Male Population,Both,0.9,(0.79 - 1.04),0.88,(0.74 - 1.04),0.89,(0.76 - 1.04)
 All-cause cvd,Female Population,Both,0.79,(0.71 - 0.88),0.7,(0.61 - 0.81),0.69,(0.61 - 0.77)
 All-cause cvd,Female Population,Fatal,0.76,(0.68 - 0.84),0.67,(0.58 - 0.77),0.66,(0.58 - 0.75)
 All-cause cvd,Male Population,Both,0.87,(0.82 - 0.91),0.8,(0.74 - 0.86),0.76,(0.71 - 0.81)

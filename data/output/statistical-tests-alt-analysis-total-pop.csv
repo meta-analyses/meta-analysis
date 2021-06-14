@@ -17,8 +17,8 @@ Coronary heart disease,Fatal,"Q-test = 44.159 (df = 22), p-value = 0.003",I-squa
 Coronary heart disease,Both,"Q-test = 278.568 (df = 50), p-value = 0.000",I-square statistic = 82.1%
 Depression,Non-fatal,"Q-test = 28.329 (df = 14), p-value = 0.013",I-square statistic = 50.6%
 Depression,Both,"Q-test = 28.329 (df = 14), p-value = 0.013",I-square statistic = 50.6%
-Depressive symptoms,Non-fatal,"Q-test = 84.164 (df = 12), p-value = 0.000",I-square statistic = 85.7%
-Depressive symptoms,Both,"Q-test = 84.164 (df = 12), p-value = 0.000",I-square statistic = 85.7%
+Depressive symptoms,Non-fatal,"Q-test = 92.588 (df = 16), p-value = 0.000",I-square statistic = 82.7%
+Depressive symptoms,Both,"Q-test = 92.588 (df = 16), p-value = 0.000",I-square statistic = 82.7%
 Endometrial cancer,Both,"Q-test = 27.889 (df = 24), p-value = 0.265",I-square statistic = 13.9%
 Esophageal cancer,Both,"Q-test = 12.991 (df = 12), p-value = 0.370",I-square statistic = 7.6%
 Gastric cardia cancer,Both,"Q-test = 12.748 (df = 8), p-value = 0.121",I-square statistic = 37.2%
@@ -30,8 +30,8 @@ Lung cancer,Fatal,"Q-test = 26.207 (df = 6), p-value = 0.000",I-square statistic
 Lung cancer,Both,"Q-test = 158.073 (df = 28), p-value = 0.000",I-square statistic = 82.3%
 Myeloid leukemia,Both,"Q-test = 5.848 (df = 6), p-value = 0.440",I-square statistic = 0.0%
 Myeloma,Both,"Q-test = 7.431 (df = 6), p-value = 0.283",I-square statistic = 19.3%
-Parkinson's disease,Non-fatal,"Q-test = 9.556 (df = 6), p-value = 0.145",I-square statistic = 37.2%
-Parkinson's disease,Both,"Q-test = 10.483 (df = 8), p-value = 0.233",I-square statistic = 23.7%
+Parkinson's disease,Non-fatal,"Q-test = 13.583 (df = 10), p-value = 0.193",I-square statistic = 26.4%
+Parkinson's disease,Both,"Q-test = 14.970 (df = 12), p-value = 0.243",I-square statistic = 19.8%
 Prostate cancer,Fatal,"Q-test = 6.638 (df = 8), p-value = 0.576",I-square statistic = 0.0%
 Prostate cancer,Both,"Q-test = 30.570 (df = 30), p-value = 0.437",I-square statistic = 1.9%
 Rectum cancer,Both,"Q-test = 32.077 (df = 28), p-value = 0.271",I-square statistic = 12.7%

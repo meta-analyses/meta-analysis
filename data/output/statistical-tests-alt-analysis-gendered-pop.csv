@@ -7,6 +7,8 @@ All-cause cvd,Male Population,Fatal,"Q-test = 35.582 (df = 18), p-value = 0.008"
 All-cause cvd,Male Population,Both,"Q-test = 39.182 (df = 24), p-value = 0.026",I-square statistic = 38.7%
 All-cause cvd,Female Population,Fatal,"Q-test = 66.024 (df = 18), p-value = 0.000",I-square statistic = 72.7%
 All-cause cvd,Female Population,Both,"Q-test = 88.793 (df = 24), p-value = 0.000",I-square statistic = 73.0%
+All-cause dementia,Male Population,Both,"Q-test = 8.826 (df = 6), p-value = 0.184",I-square statistic = 32.0%
+All-cause dementia,Female Population,Both,"Q-test = 25.344 (df = 6), p-value = 0.000",I-square statistic = 76.3%
 All-cause mortality,Male Population,Fatal,"Q-test = 229.143 (df = 34), p-value = 0.000",I-square statistic = 85.2%
 All-cause mortality,Male Population,Both,"Q-test = 229.143 (df = 34), p-value = 0.000",I-square statistic = 85.2%
 All-cause mortality,Female Population,Fatal,"Q-test = 255.058 (df = 34), p-value = 0.000",I-square statistic = 86.7%
