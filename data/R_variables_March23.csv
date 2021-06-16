@@ -2220,59 +2220,59 @@ ref_number,pa_domain_subgroup,line_id,delete,only_stratified_data?,stratified_by
 3284,LTPA,5,,No,,"Arem, H.",All-cause mortality,1,Fatal,Women,2,32768,4,131072,0,241,,20889,36,HR,0.4,0.26,0.62,,,,0.4,0.26,0.62,5,4,24.92,24.92,1,0
 3284,LTPA,6,,No,,"Arem, H.",All-cause mortality,1,Fatal,Women,2,32768,4,131072,0,241,,9409,15,HR,0.37,0.2,0.65,,,,0.37,0.2,0.65,6,4,47.27,47.27,1,0
 3284,LTPA,7,,No,,"Arem, H.",All-cause mortality,1,Fatal,Women,2,32768,4,131072,0,241,,696,3,HR,1,0.31,3.2,,,,1,0.31,3.2,7,4,77.39,77.39,1,0
-991,LTPA,1,,,,Espana-Romero V.,Depressive symptoms,1,Non-fatal,Both,3,5110,6.1,,0,641,1250,,161,OR,1,,,,,,1,,,,,0,0,1,0
-991,LTPA,2,,,,Espana-Romero V.,Depressive symptoms,1,Non-fatal,Both,3,5110,6.1,,0,641,2109,,304,OR,1.12,0.85,1.47,,,,1.15,0.87,1.52,,,2.6472084,2.6472084,1,0
-991,LTPA,3,,,,Espana-Romero V.,Depressive symptoms,1,Non-fatal,Both,3,5110,6.1,,0,641,1751,,176,OR,0.78,0.63,0.95,,,,0.85,0.63,1.05,,,9.291621714,9.291621714,1,0
-992,LTPA,1,,,,Camacho T.,Depressive symptoms,0,Non-fatal,Men,1,1714,9,,0,342.8,470,,29,OR,1,,,,,,1,,,,,6.4,5,4,0
-992,LTPA,2,,,,Camacho T.,Depressive symptoms,0,Non-fatal,Men,1,1714,9,,0,342.8,819,,157,OR,0.66,0.61,0.72,,,,0.83,0.57,1.2,,,21,16,4,0
-992,LTPA,3,,,,Camacho T.,Depressive symptoms,0,Non-fatal,Men,1,1714,9,,0,342.8,425,,50,OR,0.4,0.36,0.46,,,,0.57,0.34,0.94,,,37,28,4,0
-992,LTPA,4,,,,Camacho T.,Depressive symptoms,0,Non-fatal,Women,2,1950,9,,0,390,703,,223,OR,1,,,,,,1,,,,,6.4,5,4,0
-992,LTPA,5,,,,Camacho T.,Depressive symptoms,0,Non-fatal,Women,2,1950,9,,0,390,890,,128,OR,0.45,0.35,0.58,,,,0.59,0.42,0.94,,,21,16,4,0
-992,LTPA,6,,,,Camacho T.,Depressive symptoms,0,Non-fatal,Women,2,1950,9,,0,390,357,,39,OR,0.35,0.23,0.54,,,,0.59,0.37,0.82,,,37,28,4,0
-992,LTPA,7,,,,Camacho T.,Depressive symptoms,1,Non-fatal,Both,3,3664,9,,0,733,1173,,252,OR,1,,,,,,1,,,,,6.4,5,4,0
-992,LTPA,8,,,,Camacho T.,Depressive symptoms,1,Non-fatal,Both,3,3664,9,,0,733,1709,,285,OR,0.71,0.54,0.93,,,,0.71,0.54,0.93,,,21,16,4,0
-992,LTPA,9,,,,Camacho T.,Depressive symptoms,1,Non-fatal,Both,3,3664,9,,0,733,782,,89,OR,0.58,0.43,0.8,,,,0.58,0.43,0.8,,,37,28,4,0
-993,LTPA,1,,,,Pavey T.,Depressive symptoms,1,Non-fatal,Women,2,12094,3,0,0,2418.8,5034,,1501,OR,1,,,,,,1,,,,,0,0,1,0
-993,LTPA,2,,,,Pavey T.,Depressive symptoms,1,Non-fatal,Women,2,12094,3,0,0,2418.8,358,,63,OR,0.59,0.45,0.78,,,,0.76,0.57,1.01,,,2.6472084,2.6472084,1,0
-993,LTPA,3,,,,Pavey T.,Depressive symptoms,1,Non-fatal,Women,2,12094,3,0,0,2418.8,1160,,156,OR,0.45,0.37,0.53,,,,0.58,0.49,0.7,,,9.291621714,9.291621714,1,0
-993,LTPA,4,,,,Pavey T.,Depressive symptoms,1,Non-fatal,Women,2,12094,3,0,0,2418.8,1454,,186,OR,0.43,0.36,0.51,,,,0.56,0.47,0.68,,,16.17882442,16.17882442,1,0
-993,LTPA,5,,,,Pavey T.,Depressive symptoms,1,Non-fatal,Women,2,12094,3,0,0,2418.8,1495,,187,OR,0.42,0.36,0.48,,,,0.58,0.48,0.69,,,23.16646519,23.16646519,1,0
-993,LTPA,6,,,,Pavey T.,Depressive symptoms,1,Non-fatal,Women,2,12094,3,0,0,2418.8,2593,,325,OR,0.42,0.36,0.48,,,,0.54,0.47,0.63,,,30.2131277,30.2131277,1,0
-994,LTPA,1,,,,Wise L.,Depressive symptoms,1,Non-fatal,Women,2,35224,4,,0,9465,8437,,2488.915,OR,1,,,,,,1,,,,,0,0,3,0
-994,LTPA,2,,,,Wise L.,Depressive symptoms,1,Non-fatal,Women,2,35224,4,,0,9465,8852,,2478.56,OR,0.93,0.87,1,,,,0.89,0.83,0.95,,,3.5,3,3,0
-994,LTPA,3,,,,Wise L.,Depressive symptoms,1,Non-fatal,Women,2,35224,4,,0,9465,5900,,1581.2,OR,0.88,0.81,0.94,,,,0.85,0.78,0.92,,,7,6,3,0
-994,LTPA,4,,,,Wise L.,Depressive symptoms,1,Non-fatal,Women,2,35224,4,,0,9465,4692,,1116.696,OR,0.75,0.69,0.81,,,,0.74,0.68,0.81,,,14,12,3,0
-994,LTPA,5,,,,Wise L.,Depressive symptoms,1,Non-fatal,Women,2,35224,4,,0,9465,3775,,879.575,OR,0.73,0.66,0.79,,,,0.72,0.66,0.8,,,24.5,21,3,0
-994,LTPA,6,,,,Wise L.,Depressive symptoms,1,Non-fatal,Women,2,35224,4,,0,9465,2139,,562.557,OR,0.85,0.77,0.95,,,,0.81,0.72,0.92,,,38.5,33,3,0
-994,LTPA,7,,,,Wise L.,Depressive symptoms,1,Non-fatal,Women,2,35224,4,,0,9465,1429,,357.25,OR,0.8,0.7,0.91,,,,0.75,0.65,0.87,,,52.5,45,3,0
-995,LTPA,1,,,,Laurin D.,All-cause dementia,1,Non-fatal,Both,3,3927,5,,0,248,1213,,110,OR,1,,,,,,1,,,,,0,0,3,0
-995,LTPA,2,,,,Laurin D.,All-cause dementia,1,Non-fatal,Both,3,3927,5,,0,248,513,,28,OR,0.64,0.41,1.02,,,,0.64,0.41,1.02,,,5.90625,2.8125,3,0
-995,LTPA,3,,,,Laurin D.,All-cause dementia,1,Non-fatal,Both,3,3927,5,,0,248,1439,,79,OR,0.69,0.5,0.95,,,,0.69,0.5,0.95,,,11.8125,5.625,3,0
-995,LTPA,4,,,,Laurin D.,All-cause dementia,1,Non-fatal,Both,3,3927,5,,0,248,762,,31,OR,0.63,0.4,0.98,,,,0.63,0.4,0.98,,,23.625,13.5,3,0
-995,LTPA,5,,,,Laurin D.,All-cause dementia,0,Non-fatal,Women,2,2360,5,,0,154,790,,80,OR,1,,,,,,1,,,,,0,0,3,0
-995,LTPA,6,,,,Laurin D.,All-cause dementia,0,Non-fatal,Women,2,2360,5,,0,154,332,,16,OR,0.55,0.31,0.97,,,,0.63,0.32,1.25,,,5.90625,2.8125,3,0
-995,LTPA,7,,,,Laurin D.,All-cause dementia,0,Non-fatal,Women,2,2360,5,,0,154,881,,46,OR,0.64,0.43,0.95,,,,0.87,0.55,1.39,,,11.8125,5.625,3,0
-995,LTPA,8,,,,Laurin D.,All-cause dementia,0,Non-fatal,Women,2,2360,5,,0,154,357,,12,OR,0.48,0.25,0.94,,,,0.55,0.25,1.21,,,23.625,13.5,3,0
-995,LTPA,9,,,,Laurin D.,All-cause dementia,0,Non-fatal,Men,1,1567,5,,0,94,423,,30,OR,1,,,,,,1,,,,,0,0,3,0
-995,LTPA,10,,,,Laurin D.,All-cause dementia,0,Non-fatal,Men,1,1567,5,,0,94,181,,12,OR,0.88,0.42,1.86,,,,0.96,1.4,2.31,,,5.90625,2.8125,3,0
-995,LTPA,11,,,,Laurin D.,All-cause dementia,0,Non-fatal,Men,1,1567,5,,0,94,558,,33,OR,0.82,0.48,1.41,,,,0.72,0.38,1.38,,,11.8125,5.625,3,0
-995,LTPA,12,,,,Laurin D.,All-cause dementia,0,Non-fatal,Men,1,1567,5,,0,94,405,,19,OR,0.83,0.45,1.55,,,,0.91,0.45,1.83,,,23.625,13.5,3,0
-995,LTPA,13,,,,Laurin D.,Alzheimer's disease,1,Non-fatal,Both,3,3848,5,,0,169,1183,,80,OR,1,,,,,,1,,,,,0,0,3,0
-995,LTPA,14,,,,Laurin D.,Alzheimer's disease,1,Non-fatal,Both,3,3848,5,,0,169,506,,21,OR,0.67,0.39,1.14,,,,0.67,0.39,1.14,,,5.90625,2.8125,3,0
-995,LTPA,15,,,,Laurin D.,Alzheimer's disease,1,Non-fatal,Both,3,3848,5,,0,169,1412,,52,OR,0.67,0.46,0.98,,,,0.67,0.46,0.98,,,11.8125,5.625,3,0
-995,LTPA,16,,,,Laurin D.,Alzheimer's disease,1,Non-fatal,Both,3,3848,5,,0,169,747,,16,OR,0.5,0.28,0.9,,,,0.5,0.28,0.9,,,23.625,13.5,3,0
-995,LTPA,17,,,,Laurin D.,Alzheimer's disease,0,Non-fatal,Women,2,2322,5,,0,116,771,,61,OR,1,,,,,,1,,,,,0,0,3,0
-995,LTPA,18,,,,Laurin D.,Alzheimer's disease,0,Non-fatal,Women,2,2322,5,,0,116,329,,13,OR,0.6,0.31,1.14,,,,0.7,0.33,1.49,,,5.90625,2.8125,3,0
-995,LTPA,19,,,,Laurin D.,Alzheimer's disease,0,Non-fatal,Women,2,2322,5,,0,116,870,,35,OR,0.67,0.42,1.06,,,,0.87,0.51,1.48,,,11.8125,5.625,3,0
-995,LTPA,20,,,,Laurin D.,Alzheimer's disease,0,Non-fatal,Women,2,2322,5,,0,116,352,,7,OR,0.38,0.16,0.91,,,,0.27,0.08,0.9,,,23.625,13.5,3,0
-995,LTPA,21,,,,Laurin D.,Alzheimer's disease,0,Non-fatal,Men,1,1526,5,,0,53,412,,19,OR,1,,,,,,1,,,,,0,0,3,0
-995,LTPA,22,,,,Laurin D.,Alzheimer's disease,0,Non-fatal,Men,1,1526,5,,0,53,177,,8,OR,0.87,0.34,2.19,,,,0.87,0.26,2.9,,,5.90625,2.8125,3,0
-995,LTPA,23,,,,Laurin D.,Alzheimer's disease,0,Non-fatal,Men,1,1526,5,,0,53,542,,17,OR,0.68,0.34,1.37,,,,0.61,0.25,1.5,,,11.8125,5.625,3,0
-995,LTPA,24,,,,Laurin D.,Alzheimer's disease,0,Non-fatal,Men,1,1526,5,,0,53,395,,9,OR,0.67,0.29,1.54,,,,0.73,0.27,1.98,,,23.625,13.5,3,0
-995,LTPA,25,,,,Laurin D.,Vascular dementia,1,Non-fatal,Both,3,3733,5,,0,54,1126,,23,OR,1,,,,,,1,,,,,0,0,3,0
-995,LTPA,26,,,,Laurin D.,Vascular dementia,1,Non-fatal,Both,3,3733,5,,0,54,490,,5,OR,0.54,0.2,1.44,,,,0.54,0.2,1.44,,,5.90625,2.8125,3,0
-995,LTPA,27,,,,Laurin D.,Vascular dementia,1,Non-fatal,Both,3,3733,5,,0,54,1378,,18,OR,0.7,0.37,1.31,,,,0.7,0.37,1.31,,,11.8125,5.625,3,0
-995,LTPA,28,,,,Laurin D.,Vascular dementia,1,Non-fatal,Both,3,3733,5,,0,54,739,,8,OR,0.63,0.27,1.44,,,,0.63,0.27,1.44,,,23.625,13.5,3,0
+991,LTPA,1,,,,Espana-Romero V.,Depressive symptoms,1,Non-fatal,Both,3,5110,6.1,,0,641,1250,7625,161,OR,1,,,,,,1,,,,,0,0,1,0
+991,LTPA,2,,,,Espana-Romero V.,Depressive symptoms,1,Non-fatal,Both,3,5110,6.1,,0,641,2109,12864.9,304,OR,1.12,0.85,1.47,,,,1.15,0.87,1.52,,,2.6472084,2.6472084,1,0
+991,LTPA,3,,,,Espana-Romero V.,Depressive symptoms,1,Non-fatal,Both,3,5110,6.1,,0,641,1751,10681.1,176,OR,0.78,0.63,0.95,,,,0.85,0.63,1.05,,,9.291621714,9.291621714,1,0
+992,LTPA,1,,,,Camacho T.,Depressive symptoms,0,Non-fatal,Men,1,1714,9,,0,342.8,470,4230,29,OR,1,,,,,,1,,,,,6.4,5,4,0
+992,LTPA,2,,,,Camacho T.,Depressive symptoms,0,Non-fatal,Men,1,1714,9,,0,342.8,819,7371,157,OR,0.66,0.61,0.72,,,,0.83,0.57,1.2,,,21,16,4,0
+992,LTPA,3,,,,Camacho T.,Depressive symptoms,0,Non-fatal,Men,1,1714,9,,0,342.8,425,3825,50,OR,0.4,0.36,0.46,,,,0.57,0.34,0.94,,,37,28,4,0
+992,LTPA,4,,,,Camacho T.,Depressive symptoms,0,Non-fatal,Women,2,1950,9,,0,390,703,6327,223,OR,1,,,,,,1,,,,,6.4,5,4,0
+992,LTPA,5,,,,Camacho T.,Depressive symptoms,0,Non-fatal,Women,2,1950,9,,0,390,890,8010,128,OR,0.45,0.35,0.58,,,,0.59,0.42,0.94,,,21,16,4,0
+992,LTPA,6,,,,Camacho T.,Depressive symptoms,0,Non-fatal,Women,2,1950,9,,0,390,357,3213,39,OR,0.35,0.23,0.54,,,,0.59,0.37,0.82,,,37,28,4,0
+992,LTPA,7,,,,Camacho T.,Depressive symptoms,1,Non-fatal,Both,3,3664,9,,0,733,1173,10557,252,OR,1,,,,,,1,,,,,6.4,5,4,0
+992,LTPA,8,,,,Camacho T.,Depressive symptoms,1,Non-fatal,Both,3,3664,9,,0,733,1709,15381,285,OR,0.71,0.54,0.93,,,,0.71,0.54,0.93,,,21,16,4,0
+992,LTPA,9,,,,Camacho T.,Depressive symptoms,1,Non-fatal,Both,3,3664,9,,0,733,782,7038,89,OR,0.58,0.43,0.8,,,,0.58,0.43,0.8,,,37,28,4,0
+993,LTPA,1,,,,Pavey T.,Depressive symptoms,1,Non-fatal,Women,2,12094,3,,0,2418.8,5034,15102,1501,OR,1,,,,,,1,,,,,0,0,1,0
+993,LTPA,2,,,,Pavey T.,Depressive symptoms,1,Non-fatal,Women,2,12094,3,,0,2418.8,358,1074,63,OR,0.59,0.45,0.78,,,,0.76,0.57,1.01,,,2.6472084,2.6472084,1,0
+993,LTPA,3,,,,Pavey T.,Depressive symptoms,1,Non-fatal,Women,2,12094,3,,0,2418.8,1160,3480,156,OR,0.45,0.37,0.53,,,,0.58,0.49,0.7,,,9.291621714,9.291621714,1,0
+993,LTPA,4,,,,Pavey T.,Depressive symptoms,1,Non-fatal,Women,2,12094,3,,0,2418.8,1454,4362,186,OR,0.43,0.36,0.51,,,,0.56,0.47,0.68,,,16.17882442,16.17882442,1,0
+993,LTPA,5,,,,Pavey T.,Depressive symptoms,1,Non-fatal,Women,2,12094,3,,0,2418.8,1495,4485,187,OR,0.42,0.36,0.48,,,,0.58,0.48,0.69,,,23.16646519,23.16646519,1,0
+993,LTPA,6,,,,Pavey T.,Depressive symptoms,1,Non-fatal,Women,2,12094,3,,0,2418.8,2593,7779,325,OR,0.42,0.36,0.48,,,,0.54,0.47,0.63,,,30.2131277,30.2131277,1,0
+994,LTPA,1,,,,Wise L.,Depressive symptoms,1,Non-fatal,Women,2,35224,4,,0,9465,8437,33748,2488.915,OR,1,,,,,,1,,,,,0,0,3,0
+994,LTPA,2,,,,Wise L.,Depressive symptoms,1,Non-fatal,Women,2,35224,4,,0,9465,8852,35408,2478.56,OR,0.93,0.87,1,,,,0.89,0.83,0.95,,,3.5,3,3,0
+994,LTPA,3,,,,Wise L.,Depressive symptoms,1,Non-fatal,Women,2,35224,4,,0,9465,5900,23600,1581.2,OR,0.88,0.81,0.94,,,,0.85,0.78,0.92,,,7,6,3,0
+994,LTPA,4,,,,Wise L.,Depressive symptoms,1,Non-fatal,Women,2,35224,4,,0,9465,4692,18768,1116.696,OR,0.75,0.69,0.81,,,,0.74,0.68,0.81,,,14,12,3,0
+994,LTPA,5,,,,Wise L.,Depressive symptoms,1,Non-fatal,Women,2,35224,4,,0,9465,3775,15100,879.575,OR,0.73,0.66,0.79,,,,0.72,0.66,0.8,,,24.5,21,3,0
+994,LTPA,6,,,,Wise L.,Depressive symptoms,1,Non-fatal,Women,2,35224,4,,0,9465,2139,8556,562.557,OR,0.85,0.77,0.95,,,,0.81,0.72,0.92,,,38.5,33,3,0
+994,LTPA,7,,,,Wise L.,Depressive symptoms,1,Non-fatal,Women,2,35224,4,,0,9465,1429,5716,357.25,OR,0.8,0.7,0.91,,,,0.75,0.65,0.87,,,52.5,45,3,0
+995,LTPA,1,,,,Laurin D.,All-cause dementia,1,Non-fatal,Both,3,3927,5,,0,248,1213,6065,110,OR,1,,,,,,1,,,,,0,0,3,0
+995,LTPA,2,,,,Laurin D.,All-cause dementia,1,Non-fatal,Both,3,3927,5,,0,248,513,2565,28,OR,0.64,0.41,1.02,,,,0.64,0.41,1.02,,,5.90625,2.8125,3,0
+995,LTPA,3,,,,Laurin D.,All-cause dementia,1,Non-fatal,Both,3,3927,5,,0,248,1439,7195,79,OR,0.69,0.5,0.95,,,,0.69,0.5,0.95,,,11.8125,5.625,3,0
+995,LTPA,4,,,,Laurin D.,All-cause dementia,1,Non-fatal,Both,3,3927,5,,0,248,762,3810,31,OR,0.63,0.4,0.98,,,,0.63,0.4,0.98,,,23.625,13.5,3,0
+995,LTPA,5,,,,Laurin D.,All-cause dementia,0,Non-fatal,Women,2,2360,5,,0,154,790,3950,80,OR,1,,,,,,1,,,,,0,0,3,0
+995,LTPA,6,,,,Laurin D.,All-cause dementia,0,Non-fatal,Women,2,2360,5,,0,154,332,1660,16,OR,0.55,0.31,0.97,,,,0.63,0.32,1.25,,,5.90625,2.8125,3,0
+995,LTPA,7,,,,Laurin D.,All-cause dementia,0,Non-fatal,Women,2,2360,5,,0,154,881,4405,46,OR,0.64,0.43,0.95,,,,0.87,0.55,1.39,,,11.8125,5.625,3,0
+995,LTPA,8,,,,Laurin D.,All-cause dementia,0,Non-fatal,Women,2,2360,5,,0,154,357,1785,12,OR,0.48,0.25,0.94,,,,0.55,0.25,1.21,,,23.625,13.5,3,0
+995,LTPA,9,,,,Laurin D.,All-cause dementia,0,Non-fatal,Men,1,1567,5,,0,94,423,2115,30,OR,1,,,,,,1,,,,,0,0,3,0
+995,LTPA,10,,,,Laurin D.,All-cause dementia,0,Non-fatal,Men,1,1567,5,,0,94,181,905,12,OR,0.88,0.42,1.86,,,,0.96,1.4,2.31,,,5.90625,2.8125,3,0
+995,LTPA,11,,,,Laurin D.,All-cause dementia,0,Non-fatal,Men,1,1567,5,,0,94,558,2790,33,OR,0.82,0.48,1.41,,,,0.72,0.38,1.38,,,11.8125,5.625,3,0
+995,LTPA,12,,,,Laurin D.,All-cause dementia,0,Non-fatal,Men,1,1567,5,,0,94,405,2025,19,OR,0.83,0.45,1.55,,,,0.91,0.45,1.83,,,23.625,13.5,3,0
+995,LTPA,13,,,,Laurin D.,Alzheimer's disease,1,Non-fatal,Both,3,3848,5,,0,169,1183,5915,80,OR,1,,,,,,1,,,,,0,0,3,0
+995,LTPA,14,,,,Laurin D.,Alzheimer's disease,1,Non-fatal,Both,3,3848,5,,0,169,506,2530,21,OR,0.67,0.39,1.14,,,,0.67,0.39,1.14,,,5.90625,2.8125,3,0
+995,LTPA,15,,,,Laurin D.,Alzheimer's disease,1,Non-fatal,Both,3,3848,5,,0,169,1412,7060,52,OR,0.67,0.46,0.98,,,,0.67,0.46,0.98,,,11.8125,5.625,3,0
+995,LTPA,16,,,,Laurin D.,Alzheimer's disease,1,Non-fatal,Both,3,3848,5,,0,169,747,3735,16,OR,0.5,0.28,0.9,,,,0.5,0.28,0.9,,,23.625,13.5,3,0
+995,LTPA,17,,,,Laurin D.,Alzheimer's disease,0,Non-fatal,Women,2,2322,5,,0,116,771,3855,61,OR,1,,,,,,1,,,,,0,0,3,0
+995,LTPA,18,,,,Laurin D.,Alzheimer's disease,0,Non-fatal,Women,2,2322,5,,0,116,329,1645,13,OR,0.6,0.31,1.14,,,,0.7,0.33,1.49,,,5.90625,2.8125,3,0
+995,LTPA,19,,,,Laurin D.,Alzheimer's disease,0,Non-fatal,Women,2,2322,5,,0,116,870,4350,35,OR,0.67,0.42,1.06,,,,0.87,0.51,1.48,,,11.8125,5.625,3,0
+995,LTPA,20,,,,Laurin D.,Alzheimer's disease,0,Non-fatal,Women,2,2322,5,,0,116,352,1760,7,OR,0.38,0.16,0.91,,,,0.27,0.08,0.9,,,23.625,13.5,3,0
+995,LTPA,21,,,,Laurin D.,Alzheimer's disease,0,Non-fatal,Men,1,1526,5,,0,53,412,2060,19,OR,1,,,,,,1,,,,,0,0,3,0
+995,LTPA,22,,,,Laurin D.,Alzheimer's disease,0,Non-fatal,Men,1,1526,5,,0,53,177,885,8,OR,0.87,0.34,2.19,,,,0.87,0.26,2.9,,,5.90625,2.8125,3,0
+995,LTPA,23,,,,Laurin D.,Alzheimer's disease,0,Non-fatal,Men,1,1526,5,,0,53,542,2710,17,OR,0.68,0.34,1.37,,,,0.61,0.25,1.5,,,11.8125,5.625,3,0
+995,LTPA,24,,,,Laurin D.,Alzheimer's disease,0,Non-fatal,Men,1,1526,5,,0,53,395,1975,9,OR,0.67,0.29,1.54,,,,0.73,0.27,1.98,,,23.625,13.5,3,0
+995,LTPA,25,,,,Laurin D.,Vascular dementia,1,Non-fatal,Both,3,3733,5,,0,54,1126,5630,23,OR,1,,,,,,1,,,,,0,0,3,0
+995,LTPA,26,,,,Laurin D.,Vascular dementia,1,Non-fatal,Both,3,3733,5,,0,54,490,2450,5,OR,0.54,0.2,1.44,,,,0.54,0.2,1.44,,,5.90625,2.8125,3,0
+995,LTPA,27,,,,Laurin D.,Vascular dementia,1,Non-fatal,Both,3,3733,5,,0,54,1378,6890,18,OR,0.7,0.37,1.31,,,,0.7,0.37,1.31,,,11.8125,5.625,3,0
+995,LTPA,28,,,,Laurin D.,Vascular dementia,1,Non-fatal,Both,3,3733,5,,0,54,739,3695,8,OR,0.63,0.27,1.44,,,,0.63,0.27,1.44,,,23.625,13.5,3,0
 996,LTPA,1,,,,Thacker E.,Parkinson's disease,0,Non-fatal,Women,2,78868,9,662974,0,145,,57920,10,HR,1,,,,,,1,,,,,0,0,1,0
 996,LTPA,2,,,,Thacker E.,Parkinson's disease,0,Non-fatal,Women,2,78868,9,662974,0,145,,197527,40,HR,1.2,0.6,2.5,,,,1.2,0.6,2.5,,,2.142188723,2.142188723,1,0
 996,LTPA,3,,,,Thacker E.,Parkinson's disease,0,Non-fatal,Women,2,78868,9,662974,0,145,,102492,32,HR,1.8,0.8,3.7,,,,1.8,0.8,3.7,,,4.263879125,4.263879125,1,0
@@ -2288,39 +2288,39 @@ ref_number,pa_domain_subgroup,line_id,delete,only_stratified_data?,stratified_by
 996,LTPA,13,,,,Thacker E.,Parkinson's disease,1,Non-fatal,Both,3,141339,9,646417,48,256,,105565,46,HR,1.1,0.7,1.9,,,,1.1,0.7,1.9,,,5.252994154,5.252994154,1,0
 996,LTPA,14,,,,Thacker E.,Parkinson's disease,1,Non-fatal,Both,3,141339,9,646417,48,256,,153733,74,HR,1.2,0.7,1.9,,,,1.2,0.7,1.9,,,12.06417565,12.06417565,1,0
 996,LTPA,15,,,,Thacker E.,Parkinson's disease,1,Non-fatal,Both,3,141339,9,646417,48,256,,143028,46,HR,0.8,0.5,1.3,,,,0.8,0.5,1.3,,,19.76835516,19.76835516,1,0
-997,LTPA,1,,,,Podewils LJ.,All-cause dementia,1,Non-fatal,Both,3,3373,5.4,0,0,479,844,4372.881356,129,HR,1,,,,,,1,,,,,0.723648778,0.723648778,1,0
-997,LTPA,2,,,,Podewils LJ.,All-cause dementia,1,Non-fatal,Both,3,3373,5.4,0,0,479,842,4503.311258,136,HR,1.03,0.81,1.31,,,,1.22,0.93,1.6,,,4.178809549,4.178809549,1,0
-997,LTPA,3,,,,Podewils LJ.,All-cause dementia,1,Non-fatal,Both,3,3373,5.4,0,0,479,844,4644.351464,111,HR,0.81,0.63,1.05,,,,0.94,0.69,1.28,,,11.2514978,11.2514978,1,0
-997,LTPA,4,,,,Podewils LJ.,All-cause dementia,1,Non-fatal,Both,3,3373,5.4,0,0,479,843,4724.770642,103,HR,0.74,0.57,0.96,,,,0.85,0.61,1.19,,,20.69566785,20.69566785,1,0
-997,LTPA,5,,,,Podewils LJ.,Alzheimer's disease,1,Non-fatal,Both,3,3373,5.4,0,0,245,844,4367.088608,69,HR,1,,,,,,1,,,,,0.723648778,0.723648778,1,0
-997,LTPA,6,,,,Podewils LJ.,Alzheimer's disease,1,Non-fatal,Both,3,3373,5.4,0,0,245,842,4516.129032,70,HR,0.99,0.71,1.38,,,,1.07,0.73,1.57,,,4.178809549,4.178809549,1,0
-997,LTPA,7,,,,Podewils LJ.,Alzheimer's disease,1,Non-fatal,Both,3,3373,5.4,0,0,245,844,4640,58,HR,0.79,0.56,1.12,,,,0.92,0.62,1.39,,,11.2514978,11.2514978,1,0
-997,LTPA,8,,,,Podewils LJ.,Alzheimer's disease,1,Non-fatal,Both,3,3373,5.4,0,0,245,843,4705.882353,48,HR,0.64,0.45,0.93,,,,0.7,0.44,1.13,,,20.69566785,20.69566785,1,0
-997,LTPA,9,,,,Podewils LJ.,Vascular dementia,1,Non-fatal,Both,3,3373,5.4,0,0,213,844,4365.079365,55,HR,1,,,,,,1,,,,,0.723648778,0.723648778,1,0
-997,LTPA,10,,,,Podewils LJ.,Vascular dementia,1,Non-fatal,Both,3,3373,5.4,0,0,213,842,4496.124031,58,HR,1.04,0.72,1.5,,,,1.32,0.89,1.96,,,4.178809549,4.178809549,1,0
-997,LTPA,11,,,,Podewils LJ.,Vascular dementia,1,Non-fatal,Both,3,3373,5.4,0,0,213,844,4642.857143,52,HR,0.9,0.62,1.31,,,,0.99,0.63,1.57,,,11.2514978,11.2514978,1,0
-997,LTPA,12,,,,Podewils LJ.,Vascular dementia,1,Non-fatal,Both,3,3373,5.4,0,0,213,843,4705.882353,48,HR,0.82,0.56,1.21,,,,1.03,0.64,1.67,,,20.69566785,20.69566785,1,0
+997,LTPA,1,,,,Podewils LJ.,All-cause dementia,1,Non-fatal,Both,3,3373,5.4,,0,479,844,4372.881356,129,HR,1,,,,,,1,,,,,0.723648778,0.723648778,1,0
+997,LTPA,2,,,,Podewils LJ.,All-cause dementia,1,Non-fatal,Both,3,3373,5.4,,0,479,842,4503.311258,136,HR,1.03,0.81,1.31,,,,1.22,0.93,1.6,,,4.178809549,4.178809549,1,0
+997,LTPA,3,,,,Podewils LJ.,All-cause dementia,1,Non-fatal,Both,3,3373,5.4,,0,479,844,4644.351464,111,HR,0.81,0.63,1.05,,,,0.94,0.69,1.28,,,11.2514978,11.2514978,1,0
+997,LTPA,4,,,,Podewils LJ.,All-cause dementia,1,Non-fatal,Both,3,3373,5.4,,0,479,843,4724.770642,103,HR,0.74,0.57,0.96,,,,0.85,0.61,1.19,,,20.69566785,20.69566785,1,0
+997,LTPA,5,,,,Podewils LJ.,Alzheimer's disease,1,Non-fatal,Both,3,3373,5.4,,0,245,844,4367.088608,69,HR,1,,,,,,1,,,,,0.723648778,0.723648778,1,0
+997,LTPA,6,,,,Podewils LJ.,Alzheimer's disease,1,Non-fatal,Both,3,3373,5.4,,0,245,842,4516.129032,70,HR,0.99,0.71,1.38,,,,1.07,0.73,1.57,,,4.178809549,4.178809549,1,0
+997,LTPA,7,,,,Podewils LJ.,Alzheimer's disease,1,Non-fatal,Both,3,3373,5.4,,0,245,844,4640,58,HR,0.79,0.56,1.12,,,,0.92,0.62,1.39,,,11.2514978,11.2514978,1,0
+997,LTPA,8,,,,Podewils LJ.,Alzheimer's disease,1,Non-fatal,Both,3,3373,5.4,,0,245,843,4705.882353,48,HR,0.64,0.45,0.93,,,,0.7,0.44,1.13,,,20.69566785,20.69566785,1,0
+997,LTPA,9,,,,Podewils LJ.,Vascular dementia,1,Non-fatal,Both,3,3373,5.4,,0,213,844,4365.079365,55,HR,1,,,,,,1,,,,,0.723648778,0.723648778,1,0
+997,LTPA,10,,,,Podewils LJ.,Vascular dementia,1,Non-fatal,Both,3,3373,5.4,,0,213,842,4496.124031,58,HR,1.04,0.72,1.5,,,,1.32,0.89,1.96,,,4.178809549,4.178809549,1,0
+997,LTPA,11,,,,Podewils LJ.,Vascular dementia,1,Non-fatal,Both,3,3373,5.4,,0,213,844,4642.857143,52,HR,0.9,0.62,1.31,,,,0.99,0.63,1.57,,,11.2514978,11.2514978,1,0
+997,LTPA,12,,,,Podewils LJ.,Vascular dementia,1,Non-fatal,Both,3,3373,5.4,,0,213,843,4705.882353,48,HR,0.82,0.56,1.21,,,,1.03,0.64,1.67,,,20.69566785,20.69566785,1,0
 998,LTPA,1,,,,Rosness T.,All-cause dementia,1,Fatal,Both,3,26055,10.3,,0,1296,2921,30086.3,206,HR,1,,,,,,1,,,,,0,0,3,0
 998,LTPA,2,,,,Rosness T.,All-cause dementia,1,Fatal,Both,3,26055,10.3,,0,1296,7541,77672.3,420,HR,0.74,0.63,0.87,,,,0.74,0.62,0.88,,,2.25,2.25,3,0
 998,LTPA,3,,,,Rosness T.,All-cause dementia,1,Fatal,Both,3,26055,10.3,,0,1296,6664,68639.2,343,HR,0.64,0.54,0.76,,,,0.61,0.51,0.73,,,6.75,6.75,3,0
 998,LTPA,4,,,,Rosness T.,All-cause dementia,1,Fatal,Both,3,26055,10.3,,0,1296,6851,70565.3,242,HR,0.5,0.41,0.6,,,,0.5,0.41,0.61,,,5.25,3.75,3,0
 998,LTPA,5,,,,Rosness T.,All-cause dementia,1,Fatal,Both,3,26055,10.3,,0,1296,2077,21393.1,86,HR,0.56,0.44,0.72,,,,0.56,0.43,0.72,,,15.75,11.25,3,0
-999,LTPA,1,,,,Mikkelsen S. ,Depression,0,Non-fatal,Women,2,8804,* up to 26 years,,0,301,1936.88,50358.88,55,HR,0.58,0.43,79,,,,0.56,0.39,0.79,,,13.5,10.5,3,0
-999,LTPA,2,,,,Mikkelsen S. ,Depression,0,Non-fatal,Women,2,8804,* up to 26 years,,0,301,5282.4,137342.4,170,HR,0.66,0.52,0.84,,,,0.66,0.46,0.8,,,4.5,5,3,0
-999,LTPA,3,,,,Mikkelsen S. ,Depression,0,Non-fatal,Women,2,8804,* up to 26 years,,0,301,1584.72,41202.72,77,HR,1,,,,,,1,,,,,0.75,1,3,0
-999,LTPA,4,,,,Mikkelsen S. ,Depression,0,Non-fatal,Men,1,7704,* up to 26 years,,0,135,2542.32,66100.32,37,HR,0.63,0.4,1,,,,0.71,0.42,1.22,,,13.5,10.5,3,0
-999,LTPA,5,,,,Mikkelsen S. ,Depression,0,Non-fatal,Men,1,7704,* up to 26 years,,0,135,3774.96,98148.96,65,HR,0.75,0.5,1.13,,,,0.75,0.46,1.22,,,4.5,5,3,0
-999,LTPA,6,,,,Mikkelsen S. ,Depression,0,Non-fatal,Men,1,7704,* up to 26 years,,0,135,1386.72,36054.72,32,HR,1,,,,,,1,,,,,0.75,1,3,0
-999,LTPA,7,,,,Mikkelsen S. ,Depression,1,Non-fatal,Both,3,16508,* up to 26 years,,0,436,4479.200195,116459.2031,92,HR,0.6,0.45,0.81,,,,0.6,0.45,0.81,,,13.5,10.5,3,0
-999,LTPA,8,,,,Mikkelsen S. ,Depression,1,Non-fatal,Both,3,16508,* up to 26 years,,0,436,9057.360352,235491.3594,235,HR,0.68,0.54,0.87,,,,0.68,0.54,0.87,,,4.5,5,3,0
-999,LTPA,9,,,,Mikkelsen S. ,Depression,1,Non-fatal,Both,3,16508,* up to 26 years,,0,436,2971.439941,77257.4375,109,HR,1,,,,,,1,,,,,0.75,1,3,0
-9910,LTPA,1,,,,Hamer M.,Depression,1,Non-fatal,Both,3,4323,4,,0,348,674,,108,OR,1,,,,,,1,,,,,0.84375,0.5625,3,0
-9910,LTPA,2,,,,Hamer M.,Depression,1,Non-fatal,Both,3,4323,4,,0,348,2142,,161,OR,0.48,0.37,0.63,,,,0.73,0.55,0.96,,,3.9375,1.875,3,0
-9910,LTPA,3,,,,Hamer M.,Depression,1,Non-fatal,Both,3,4323,4,,0,348,1507,,79,OR,0.35,0.26,0.48,,,,0.6,0.43,0.84,,,7.875,4.5,3,0
-9911,LTPA,1,,,,Soni M.,All-cause dementia,1,Non-fatal,Both,3,11025,8 to 10,,0,378,1065,9585,76,HR,1,,,,,,1,,,,,0.5625,0.375,3,0
-9911,LTPA,2,,,,Soni M.,All-cause dementia,1,Non-fatal,Both,3,11025,8 to 10,,0,378,1597,14373,83,HR,0.69,0.5,0.95,,,,0.67,0.49,0.93,,,1.125,0.75,3,0
-9911,LTPA,3,,,,Soni M.,All-cause dementia,1,Non-fatal,Both,3,11025,8 to 10,,0,378,1597,14373,60,HR,0.66,0.46,0.94,,,,0.66,0.46,0.94,,,2.625,1.25,3,0
-9911,LTPA,4,,,,Soni M.,All-cause dementia,1,Non-fatal,Both,3,11025,8 to 10,,0,378,6388,57492,159,HR,0.5,0.37,0.67,,,,0.51,0.38,0.7,,,7.875,3.75,3,0
+999,LTPA,1,,,,Mikkelsen S. ,Depression,0,Non-fatal,Women,2,8804,26,,0,301,1936.88,50358.88,55,HR,0.58,0.43,79,,,,0.56,0.39,0.79,,,13.5,10.5,3,0
+999,LTPA,2,,,,Mikkelsen S. ,Depression,0,Non-fatal,Women,2,8804,26,,0,301,5282.4,137342.4,170,HR,0.66,0.52,0.84,,,,0.66,0.46,0.8,,,4.5,5,3,0
+999,LTPA,3,,,,Mikkelsen S. ,Depression,0,Non-fatal,Women,2,8804,26,,0,301,1584.72,41202.72,77,HR,1,,,,,,1,,,,,0.75,1,3,0
+999,LTPA,4,,,,Mikkelsen S. ,Depression,0,Non-fatal,Men,1,7704,26,,0,135,2542.32,66100.32,37,HR,0.63,0.4,1,,,,0.71,0.42,1.22,,,13.5,10.5,3,0
+999,LTPA,5,,,,Mikkelsen S. ,Depression,0,Non-fatal,Men,1,7704,26,,0,135,3774.96,98148.96,65,HR,0.75,0.5,1.13,,,,0.75,0.46,1.22,,,4.5,5,3,0
+999,LTPA,6,,,,Mikkelsen S. ,Depression,0,Non-fatal,Men,1,7704,26,,0,135,1386.72,36054.72,32,HR,1,,,,,,1,,,,,0.75,1,3,0
+999,LTPA,7,,,,Mikkelsen S. ,Depression,1,Non-fatal,Both,3,16508,26,,0,436,4479.200195,116459.2031,92,HR,0.6,0.45,0.81,,,,0.6,0.45,0.81,,,13.5,10.5,3,0
+999,LTPA,8,,,,Mikkelsen S. ,Depression,1,Non-fatal,Both,3,16508,26,,0,436,9057.360352,235491.3594,235,HR,0.68,0.54,0.87,,,,0.68,0.54,0.87,,,4.5,5,3,0
+999,LTPA,9,,,,Mikkelsen S. ,Depression,1,Non-fatal,Both,3,16508,26,,0,436,2971.439941,77257.4375,109,HR,1,,,,,,1,,,,,0.75,1,3,0
+9910,LTPA,1,,,,Hamer M.,Depression,1,Non-fatal,Both,3,4323,4,,0,348,674,2696,108,OR,1,,,,,,1,,,,,0.84375,0.5625,3,0
+9910,LTPA,2,,,,Hamer M.,Depression,1,Non-fatal,Both,3,4323,4,,0,348,2142,8568,161,OR,0.48,0.37,0.63,,,,0.73,0.55,0.96,,,3.9375,1.875,3,0
+9910,LTPA,3,,,,Hamer M.,Depression,1,Non-fatal,Both,3,4323,4,,0,348,1507,6028,79,OR,0.35,0.26,0.48,,,,0.6,0.43,0.84,,,7.875,4.5,3,0
+9911,LTPA,1,,,,Soni M.,All-cause dementia,1,Non-fatal,Both,3,11025,9,,0,378,1065,9585,76,HR,1,,,,,,1,,,,,0.5625,0.375,3,0
+9911,LTPA,2,,,,Soni M.,All-cause dementia,1,Non-fatal,Both,3,11025,9,,0,378,1597,14373,83,HR,0.69,0.5,0.95,,,,0.67,0.49,0.93,,,1.125,0.75,3,0
+9911,LTPA,3,,,,Soni M.,All-cause dementia,1,Non-fatal,Both,3,11025,9,,0,378,1597,14373,60,HR,0.66,0.46,0.94,,,,0.66,0.46,0.94,,,2.625,1.25,3,0
+9911,LTPA,4,,,,Soni M.,All-cause dementia,1,Non-fatal,Both,3,11025,9,,0,378,6388,57492,159,HR,0.5,0.37,0.67,,,,0.51,0.38,0.7,,,7.875,3.75,3,0
 9912,LTPA,1,,,,Saaksjarvi K.,Parkinson's disease,1,Non-fatal,Both,3,5047,15.3,77219,120,66,1366,22752,23,HR,1,,,,,,1,,,,,0,0,3,0
 9912,LTPA,2,,,,Saaksjarvi K.,Parkinson's disease,1,Non-fatal,Both,3,5047,15.3,77219,120,66,3280,50071,41,HR,0.81,0.53,1.24,,,,0.65,0.38,1.1,,,9,9,3,0
 9912,LTPA,3,,,,Saaksjarvi K.,Parkinson's disease,1,Non-fatal,Both,3,5047,15.3,77219,120,66,401,4396,2,HR,0.45,0.17,1.27,,,,0.25,0.06,1.09,,,15.75,11.25,3,0
@@ -2334,23 +2334,23 @@ ref_number,pa_domain_subgroup,line_id,delete,only_stratified_data?,stratified_by
 9913,LTPA,8,,,,Tan Z.,Alzheimer's disease,1,Non-fatal,Both,3,2958,10,29580,0,153,591.6,5916,29,HR,0.73,0.48,1.13,,,,0.91,0.57,1.46,,,7.46,7.46,3,1
 9913,LTPA,9,,,,Tan Z.,Alzheimer's disease,1,Non-fatal,Both,3,2958,10,29580,0,153,591.6,5916,28,HR,0.71,0.45,1.1,,,,0.74,0.45,1.23,,,18.3,18.3,3,1
 9913,LTPA,10,,,,Tan Z.,Alzheimer's disease,1,Non-fatal,Both,3,2958,10,29580,0,153,591.6,5916,36,HR,0.9,0.59,1.37,,,,0.93,0.58,1.49,,,25.68,25.68,3,1
-9914,LTPA,1,,,,Paffenbarger Jr R.,Depression,1,Non-fatal,Men,1,10201,23 to 27,244220,0,387,3468,83035,154,RR,1,,,,,,1,,,,,4.733051483,4.733051483,1,0
-9914,LTPA,2,,,,Paffenbarger Jr R.,Depression,1,Non-fatal,Men,1,10201,23 to 27,244220,0,387,3468,83035,129,RR,0.83,0.29296,1.36704,,,,0.83,0.29296,1.36704,,,18.78889113,18.78889113,1,0
-9914,LTPA,3,,,,Paffenbarger Jr R.,Depression,1,Non-fatal,Men,1,10201,23 to 27,244220,0,387,3264,78150,104,RR,0.72,0.18296,1.25704,,,,0.72,0.18296,1.25704,,,36.15577978,36.15577978,1,0
-9915,LTPA,1,,,,Logroscino G.,Parkinson's disease,1,Both,Men,1,7858,6,0,0,78,,12363,19,HR,1,,,,,,1,,,,,4.733051483,4.733051483,1,0
-9915,LTPA,2,,,,Logroscino G.,Parkinson's disease,1,Both,Men,1,7858,6,0,0,78,,14976,29,HR,1.26,0.71,2.25,,,,1.22,0.68,2.19,,,15.92943199,15.92943199,1,0
-9915,LTPA,3,,,,Logroscino G.,Parkinson's disease,1,Both,Men,1,7858,6,0,0,78,,10191,13,HR,0.83,0.41,1.68,,,,0.75,0.36,1.56,,,27.43699332,27.43699332,1,0
-9915,LTPA,4,,,,Logroscino G.,Parkinson's disease,1,Both,Men,1,7858,6,0,0,78,,9619,17,HR,1.15,0.6,2.23,,,,1.12,0.58,2.17,,,39.07328515,39.07328515,1,0
-99161,LTPA,1,,,,Chen H.,Parkinson's disease,1,Non-fatal,Women,2,77213,,891238,48,94,,170212,13,HR,1,,,,,,1,,,,,0.400923588,0.400923588,1,0
-99161,LTPA,2,,,,Chen H.,Parkinson's disease,1,Non-fatal,Women,2,77213,,891238,48,94,,185227,16,HR,1.1,0.6,2.1,,,,0.8,0.4,1.7,,,2.029699145,2.029699145,1,0
-99161,LTPA,3,,,,Chen H.,Parkinson's disease,1,Non-fatal,Women,2,77213,,891238,48,94,,178980,30,HR,2.1,1.2,3.7,,,,1.9,1,3.7,,,5.292783547,5.292783547,1,0
-99161,LTPA,4,,,,Chen H.,Parkinson's disease,1,Non-fatal,Women,2,77213,,891238,48,94,,176761,15,HR,1.1,0.6,2,,,,0.9,0.5,1.9,,,12.24994338,12.24994338,1,0
-99161,LTPA,5,,,,Chen H.,Parkinson's disease,1,Non-fatal,Women,2,77213,,891238,48,94,,180058,20,HR,1.4,0.8,2.5,,,,1.1,0.5,2.2,,,21.59515924,21.59515924,1,0
-99162,LTPA,1,,,,Chen H.,Parkinson's disease,1,Non-fatal,Men,1,48390,,616665,120,68,,119516,14,HR,1,,,,,,1,,,,,0.630040354,0.630040354,1,0
-99162,LTPA,2,,,,Chen H.,Parkinson's disease,1,Non-fatal,Men,1,48390,,616665,120,68,,120276,18,HR,1.2,0.8,1.6,,,,1.1,0.6,2.1,,,3.481882992,3.481882992,1,0
-99162,LTPA,3,,,,Chen H.,Parkinson's disease,1,Non-fatal,Men,1,48390,,616665,120,68,,124340,17,HR,1.2,0.9,1.7,,,,0.6,0.3,1.3,,,9.169090872,9.169090872,1,0
-99162,LTPA,4,,,,Chen H.,Parkinson's disease,1,Non-fatal,Men,1,48390,,616665,120,68,,125293,13,HR,0.9,0.6,1.3,,,,0.5,0.2,1.1,,,20.08298873,20.08298873,1,0
-99162,LTPA,5,,,,Chen H.,Parkinson's disease,1,Non-fatal,Men,1,48390,,616665,120,68,,127230,7,HR,0.5,0.3,0.8,,,,0.5,0.2,1.1,,,34.4611474,34.4611474,1,0
+9914,LTPA,1,,,,Paffenbarger Jr R.,Depression,1,Non-fatal,Men,1,10201,25,244220,0,387,3468,83035,154,RR,1,,,,,,1,,,,,4.733051483,4.733051483,1,0
+9914,LTPA,2,,,,Paffenbarger Jr R.,Depression,1,Non-fatal,Men,1,10201,25,244220,0,387,3468,83035,129,RR,0.83,0.29296,1.36704,,,,0.83,0.29296,1.36704,,,18.78889113,18.78889113,1,0
+9914,LTPA,3,,,,Paffenbarger Jr R.,Depression,1,Non-fatal,Men,1,10201,25,244220,0,387,3264,78150,104,RR,0.72,0.18296,1.25704,,,,0.72,0.18296,1.25704,,,36.15577978,36.15577978,1,0
+9915,LTPA,1,,,,Logroscino G.,Parkinson's disease,1,Both,Men,1,7858,6,,0,78,,12363,19,HR,1,,,,,,1,,,,,4.733051483,4.733051483,1,0
+9915,LTPA,2,,,,Logroscino G.,Parkinson's disease,1,Both,Men,1,7858,6,,0,78,,14976,29,HR,1.26,0.71,2.25,,,,1.22,0.68,2.19,,,15.92943199,15.92943199,1,0
+9915,LTPA,3,,,,Logroscino G.,Parkinson's disease,1,Both,Men,1,7858,6,,0,78,,10191,13,HR,0.83,0.41,1.68,,,,0.75,0.36,1.56,,,27.43699332,27.43699332,1,0
+9915,LTPA,4,,,,Logroscino G.,Parkinson's disease,1,Both,Men,1,7858,6,,0,78,,9619,17,HR,1.15,0.6,2.23,,,,1.12,0.58,2.17,,,39.07328515,39.07328515,1,0
+99161,LTPA,1,,,,Chen H.,Parkinson's disease,1,Non-fatal,Women,2,77213,22,891238,48,94,,170212,13,HR,1,,,,,,1,,,,,0.400923588,0.400923588,1,0
+99161,LTPA,2,,,,Chen H.,Parkinson's disease,1,Non-fatal,Women,2,77213,22,891238,48,94,,185227,16,HR,1.1,0.6,2.1,,,,0.8,0.4,1.7,,,2.029699145,2.029699145,1,0
+99161,LTPA,3,,,,Chen H.,Parkinson's disease,1,Non-fatal,Women,2,77213,22,891238,48,94,,178980,30,HR,2.1,1.2,3.7,,,,1.9,1,3.7,,,5.292783547,5.292783547,1,0
+99161,LTPA,4,,,,Chen H.,Parkinson's disease,1,Non-fatal,Women,2,77213,22,891238,48,94,,176761,15,HR,1.1,0.6,2,,,,0.9,0.5,1.9,,,12.24994338,12.24994338,1,0
+99161,LTPA,5,,,,Chen H.,Parkinson's disease,1,Non-fatal,Women,2,77213,22,891238,48,94,,180058,20,HR,1.4,0.8,2.5,,,,1.1,0.5,2.2,,,21.59515924,21.59515924,1,0
+99162,LTPA,1,,,,Chen H.,Parkinson's disease,1,Non-fatal,Men,1,48390,24,616665,120,68,,119516,14,HR,1,,,,,,1,,,,,0.630040354,0.630040354,1,0
+99162,LTPA,2,,,,Chen H.,Parkinson's disease,1,Non-fatal,Men,1,48390,24,616665,120,68,,120276,18,HR,1.2,0.8,1.6,,,,1.1,0.6,2.1,,,3.481882992,3.481882992,1,0
+99162,LTPA,3,,,,Chen H.,Parkinson's disease,1,Non-fatal,Men,1,48390,24,616665,120,68,,124340,17,HR,1.2,0.9,1.7,,,,0.6,0.3,1.3,,,9.169090872,9.169090872,1,0
+99162,LTPA,4,,,,Chen H.,Parkinson's disease,1,Non-fatal,Men,1,48390,24,616665,120,68,,125293,13,HR,0.9,0.6,1.3,,,,0.5,0.2,1.1,,,20.08298873,20.08298873,1,0
+99162,LTPA,5,,,,Chen H.,Parkinson's disease,1,Non-fatal,Men,1,48390,24,616665,120,68,,127230,7,HR,0.5,0.3,0.8,,,,0.5,0.2,1.1,,,34.4611474,34.4611474,1,0
 9918,LTPA,1,,,,Hessler J.,All-cause dementia,1,Non-fatal,Both,3,3547,6.7,23765,0,296,1672,11202.4,89,HR,0.28,0.21,0.38,,,,0.55,0.4,0.76,,,9.1875,4.375,3,1
 9918,LTPA,2,,,,Hessler J.,All-cause dementia,1,Non-fatal,Both,3,3547,6.7,23765,0,296,1384,9272.8,126,HR,0.51,0.39,0.67,,,,0.76,0.56,1.04,,,3.9375,1.875,3,1
 9918,LTPA,3,,,,Hessler J.,All-cause dementia,1,Non-fatal,Both,3,3547,6.7,23765,0,296,491,3289.7,81,HR,1,,,,,,1,,,,,0,0,3,1
@@ -2369,10 +2369,10 @@ ref_number,pa_domain_subgroup,line_id,delete,only_stratified_data?,stratified_by
 9920,LTPA,7,,,,Yang F.,Parkinson's disease,0,Non-fatal,Men,1,13705,12.6,,0,158,3323,41869.8,57,HR,1,,,,,,1,,,,,5.133721851,5.133721851,1,0
 9920,LTPA,8,,,,Yang F.,Parkinson's disease,0,Non-fatal,Men,1,13705,12.6,,0,158,4127,52000.2,61,HR,0.99,0.69,1.4,,,,1.04,0.72,1.52,,,29.57708521,29.57708521,1,0
 9920,LTPA,9,,,,Yang F.,Parkinson's disease,0,Non-fatal,Men,1,13705,12.6,,0,158,6255,78813,40,HR,0.56,0.36,0.86,,,,0.53,0.33,0.85,,,45.68529494,45.68529494,1,0
-9921,LTPA,1,,,,Williams T.,Alzheimer's disease,1,Fatal,Both,3,153536,11.6,,0,175,66389,,85,HR,1,,,,,,1,,,,,2.326873334,2.326873334,1,0
-9921,LTPA,2,,,,Williams T.,Alzheimer's disease,1,Fatal,Both,3,153536,11.6,,0,175,35298,,42,HR,0.94,0.59,1.46,,,,0.94,0.59,1.46,,,7.267245487,7.267245487,1,0
-9921,LTPA,3,,,,Williams T.,Alzheimer's disease,1,Fatal,Both,3,153536,11.6,,0,175,43696,,42,HR,0.75,0.5,1.13,,,,0.75,0.5,1.13,,,14.56965134,14.56965134,1,0
-9921,LTPA,4,,,,Williams T.,Alzheimer's disease,1,Fatal,Both,3,153536,11.6,,0,175,8153,,6,HR,0.6,0.37,0.97,,,,0.6,0.37,0.97,,,25.13462827,25.13462827,1,0
+9921,LTPA,1,,,,Williams T.,Alzheimer's disease,1,Fatal,Both,3,153536,11.6,,0,175,66389,770112.4,85,HR,1,,,,,,1,,,,,2.326873334,2.326873334,1,0
+9921,LTPA,2,,,,Williams T.,Alzheimer's disease,1,Fatal,Both,3,153536,11.6,,0,175,35298,409456.8,42,HR,0.94,0.59,1.46,,,,0.94,0.59,1.46,,,7.267245487,7.267245487,1,0
+9921,LTPA,3,,,,Williams T.,Alzheimer's disease,1,Fatal,Both,3,153536,11.6,,0,175,43696,506873.6,42,HR,0.75,0.5,1.13,,,,0.75,0.5,1.13,,,14.56965134,14.56965134,1,0
+9921,LTPA,4,,,,Williams T.,Alzheimer's disease,1,Fatal,Both,3,153536,11.6,,0,175,8153,94574.8,6,HR,0.6,0.37,0.97,,,,0.6,0.37,0.97,,,25.13462827,25.13462827,1,0
 9922,LTPA,1,,,,Ten Have M.,Depression,1,Non-fatal,Both,3,3998,3,,0,244,1799.971564,5399.914692,132,OR,1,,,,,,1,,,,,0,0,3,0
 9922,LTPA,2,,,,Ten Have M.,Depression,1,Non-fatal,Both,3,3998,3,,0,244,1267.949708,3803.849124,58,OR,0.63,0.45,0.88,,,,0.63,0.45,0.88,,,7,5,3,0
 9922,LTPA,3,,,,Ten Have M.,Depression,1,Non-fatal,Both,3,3998,3,,0,244,930.078728,2790.236184,54,OR,0.79,0.55,1.13,,,,0.79,0.55,1.13,,,15.75,11.25,3,0
@@ -2380,27 +2380,27 @@ ref_number,pa_domain_subgroup,line_id,delete,only_stratified_data?,stratified_by
 9923,LTPA,2,,,,Llamas-Velasco S.,All-cause dementia,1,Non-fatal,Both,3,3105,3,9315,0,134,865,2595,30,HR,0.4,0.26,0.62,,,,0.53,0.34,0.82,,,2.25,1.5,4,0
 9923,LTPA,3,,,,Llamas-Velasco S.,All-cause dementia,1,Non-fatal,Both,3,3105,3,9315,0,134,681,2043,19,HR,0.32,0.2,0.54,,,,0.45,0.27,0.76,,,5.25,2.5,4,0
 9923,LTPA,4,,,,Llamas-Velasco S.,All-cause dementia,1,Non-fatal,Both,3,3105,3,9315,0,134,769,2307,15,HR,0.23,0.13,0.4,,,,0.29,0.16,0.52,,,13.125,6.25,4,0
-9924,LTPA,1,,,, Xu Q. ,Parkinson's disease,1,Non-fatal,Both,3,212582,,,up to 48,764,27740,,114,OR,1,,,,,,1,,,,,0,0,3,0
-9924,LTPA,2,,,, Xu Q. ,Parkinson's disease,1,Non-fatal,Both,3,212582,,,up to 48,764,21762,,90,OR,1.02,0.77,1.34,,,,1.02,0.77,1.34,,,0.875,0.625,3,0
-9924,LTPA,3,,,, Xu Q. ,Parkinson's disease,1,Non-fatal,Both,3,212582,,,up to 48,764,54058,,195,OR,0.85,0.67,1.07,,,,0.85,0.67,1.07,,,3.5,2.5,3,0
-9924,LTPA,4,,,, Xu Q. ,Parkinson's disease,1,Non-fatal,Both,3,212582,,,up to 48,764,56704,,207,OR,0.82,0.65,1.03,,,,0.82,0.65,1.03,,,9.625,6.875,3,0
-9924,LTPA,5,,,, Xu Q. ,Parkinson's disease,1,Non-fatal,Both,3,212582,,,up to 48,764,52318,,158,OR,0.65,0.51,0.83,,,,0.65,0.51,0.83,,,14.875,10.625,3,0
-9924,LTPA,6,,,, Xu Q. ,Parkinson's disease,0,Non-fatal,Women,2,89528,,,up to 48,198,11929,,33,OR,1,,,,,,1,,,,,0,0,3,0
-9924,LTPA,7,,,, Xu Q. ,Parkinson's disease,0,Non-fatal,Women,2,89528,,,up to 48,198,9336,,31,OR,1.21,0.74,1.97,,,,1.21,0.74,1.97,,,0.875,0.625,3,0
-9924,LTPA,8,,,, Xu Q. ,Parkinson's disease,0,Non-fatal,Women,2,89528,,,up to 48,198,23055,,45,OR,0.69,0.44,1.08,,,,0.69,0.44,1.08,,,3.5,2.5,3,0
-9924,LTPA,9,,,, Xu Q. ,Parkinson's disease,0,Non-fatal,Women,2,89528,,,up to 48,198,23554,,51,OR,0.74,0.48,1.15,,,,0.74,0.48,1.15,,,9.625,6.875,3,0
-9924,LTPA,10,,,, Xu Q. ,Parkinson's disease,0,Non-fatal,Women,2,89528,,,up to 48,198,21654,,38,OR,0.6,0.37,0.95,,,,0.6,0.37,0.95,,,14.875,10.625,3,0
-9924,LTPA,11,,,, Xu Q. ,Parkinson's disease,0,Non-fatal,Men,1,123055,,,up to 48,566,15811,,81,OR,1,,,,,,1,,,,,0,0,3,0
-9924,LTPA,12,,,, Xu Q. ,Parkinson's disease,0,Non-fatal,Men,1,123055,,,up to 48,566,12426,,59,OR,0.94,0.67,1.32,,,,0.94,0.67,1.32,,,0.875,0.625,3,0
-9924,LTPA,13,,,, Xu Q. ,Parkinson's disease,0,Non-fatal,Men,1,123055,,,up to 48,566,31004,,150,OR,0.92,0.7,1.21,,,,0.92,0.7,1.21,,,3.5,2.5,3,0
-9924,LTPA,14,,,, Xu Q. ,Parkinson's disease,0,Non-fatal,Men,1,123055,,,up to 48,566,33150,,156,OR,0.86,0.65,1.12,,,,0.86,0.65,1.12,,,9.625,6.875,3,0
-9924,LTPA,15,,,, Xu Q. ,Parkinson's disease,0,Non-fatal,Men,1,123055,,,up to 48,566,30664,,120,OR,0.68,0.51,0.9,,,,0.68,0.51,0.9,,,14.875,10.625,3,0
-9925,LTPA,1,,,,Harvey S.,Depressive symptoms,1,Non-fatal,Both,3,22564,11,,0,1578,2818.836969,,277,OR,1,,,,,,1,,,,,0,0,3,0
-9925,LTPA,2,,,,Harvey S.,Depressive symptoms,1,Non-fatal,Both,3,22564,11,,0,1578,5688.396374,,427,OR,0.76,0.64,0.91,,,,0.83,0.68,1.01,,,0.875,0.625,3,0
-9925,LTPA,3,,,,Harvey S.,Depressive symptoms,1,Non-fatal,Both,3,22564,11,,0,1578,5411.501769,,359,OR,0.67,0.56,0.81,,,,0.77,0.63,0.94,,,2.625,1.875,3,0
-9925,LTPA,4,,,,Harvey S.,Depressive symptoms,1,Non-fatal,Both,3,22564,11,,0,1578,4509.307636,,262,OR,0.59,0.49,0.72,,,,0.69,0.56,0.86,,,5.25,3.75,3,0
-9925,LTPA,5,,,,Harvey S.,Depressive symptoms,1,Non-fatal,Both,3,22564,11,,0,1578,2144.478037,,135,OR,0.64,0.5,0.81,,,,0.72,0.56,0.93,,,10.5,7.5,3,0
-9925,LTPA,6,,,,Harvey S.,Depressive symptoms,1,Non-fatal,Both,3,22564,11,,0,1578,1991.479216,,119,OR,0.61,0.48,0.78,,,,0.69,0.53,0.89,,,17.5,12.5,3,0
+9924,LTPA,1,,,, Xu Q. ,Parkinson's disease,1,Non-fatal,Both,3,212582,9,,up to 48,764,27740,249660,114,OR,1,,,,,,1,,,,,0,0,3,0
+9924,LTPA,2,,,, Xu Q. ,Parkinson's disease,1,Non-fatal,Both,3,212582,9,,up to 48,764,21762,195858,90,OR,1.02,0.77,1.34,,,,1.02,0.77,1.34,,,0.875,0.625,3,0
+9924,LTPA,3,,,, Xu Q. ,Parkinson's disease,1,Non-fatal,Both,3,212582,9,,up to 48,764,54058,486522,195,OR,0.85,0.67,1.07,,,,0.85,0.67,1.07,,,3.5,2.5,3,0
+9924,LTPA,4,,,, Xu Q. ,Parkinson's disease,1,Non-fatal,Both,3,212582,9,,up to 48,764,56704,510336,207,OR,0.82,0.65,1.03,,,,0.82,0.65,1.03,,,9.625,6.875,3,0
+9924,LTPA,5,,,, Xu Q. ,Parkinson's disease,1,Non-fatal,Both,3,212582,9,,up to 48,764,52318,470862,158,OR,0.65,0.51,0.83,,,,0.65,0.51,0.83,,,14.875,10.625,3,0
+9924,LTPA,6,,,, Xu Q. ,Parkinson's disease,0,Non-fatal,Women,2,89528,9,,up to 48,198,11929,107361,33,OR,1,,,,,,1,,,,,0,0,3,0
+9924,LTPA,7,,,, Xu Q. ,Parkinson's disease,0,Non-fatal,Women,2,89528,9,,up to 48,198,9336,84024,31,OR,1.21,0.74,1.97,,,,1.21,0.74,1.97,,,0.875,0.625,3,0
+9924,LTPA,8,,,, Xu Q. ,Parkinson's disease,0,Non-fatal,Women,2,89528,9,,up to 48,198,23055,207495,45,OR,0.69,0.44,1.08,,,,0.69,0.44,1.08,,,3.5,2.5,3,0
+9924,LTPA,9,,,, Xu Q. ,Parkinson's disease,0,Non-fatal,Women,2,89528,9,,up to 48,198,23554,211986,51,OR,0.74,0.48,1.15,,,,0.74,0.48,1.15,,,9.625,6.875,3,0
+9924,LTPA,10,,,, Xu Q. ,Parkinson's disease,0,Non-fatal,Women,2,89528,9,,up to 48,198,21654,194886,38,OR,0.6,0.37,0.95,,,,0.6,0.37,0.95,,,14.875,10.625,3,0
+9924,LTPA,11,,,, Xu Q. ,Parkinson's disease,0,Non-fatal,Men,1,123055,9,,up to 48,566,15811,142299,81,OR,1,,,,,,1,,,,,0,0,3,0
+9924,LTPA,12,,,, Xu Q. ,Parkinson's disease,0,Non-fatal,Men,1,123055,9,,up to 48,566,12426,111834,59,OR,0.94,0.67,1.32,,,,0.94,0.67,1.32,,,0.875,0.625,3,0
+9924,LTPA,13,,,, Xu Q. ,Parkinson's disease,0,Non-fatal,Men,1,123055,9,,up to 48,566,31004,279036,150,OR,0.92,0.7,1.21,,,,0.92,0.7,1.21,,,3.5,2.5,3,0
+9924,LTPA,14,,,, Xu Q. ,Parkinson's disease,0,Non-fatal,Men,1,123055,9,,up to 48,566,33150,298350,156,OR,0.86,0.65,1.12,,,,0.86,0.65,1.12,,,9.625,6.875,3,0
+9924,LTPA,15,,,, Xu Q. ,Parkinson's disease,0,Non-fatal,Men,1,123055,9,,up to 48,566,30664,275976,120,OR,0.68,0.51,0.9,,,,0.68,0.51,0.9,,,14.875,10.625,3,0
+9925,LTPA,1,,,,Harvey S.,Depressive symptoms,1,Non-fatal,Both,3,22564,11,,0,1578,2818.836969,31007.20666,277,OR,1,,,,,,1,,,,,0,0,3,0
+9925,LTPA,2,,,,Harvey S.,Depressive symptoms,1,Non-fatal,Both,3,22564,11,,0,1578,5688.396374,62572.36011,427,OR,0.76,0.64,0.91,,,,0.83,0.68,1.01,,,0.875,0.625,3,0
+9925,LTPA,3,,,,Harvey S.,Depressive symptoms,1,Non-fatal,Both,3,22564,11,,0,1578,5411.501769,59526.51946,359,OR,0.67,0.56,0.81,,,,0.77,0.63,0.94,,,2.625,1.875,3,0
+9925,LTPA,4,,,,Harvey S.,Depressive symptoms,1,Non-fatal,Both,3,22564,11,,0,1578,4509.307636,49602.384,262,OR,0.59,0.49,0.72,,,,0.69,0.56,0.86,,,5.25,3.75,3,0
+9925,LTPA,5,,,,Harvey S.,Depressive symptoms,1,Non-fatal,Both,3,22564,11,,0,1578,2144.478037,23589.25841,135,OR,0.64,0.5,0.81,,,,0.72,0.56,0.93,,,10.5,7.5,3,0
+9925,LTPA,6,,,,Harvey S.,Depressive symptoms,1,Non-fatal,Both,3,22564,11,,0,1578,1991.479216,21906.27138,119,OR,0.61,0.48,0.78,,,,0.69,0.53,0.89,,,17.5,12.5,3,0
 9926,LTPA,1,,,,Chang S.,Depressive symptoms,1,Non-fatal,Women,2,21728,8,,24,3945,,24206,334,HR,1.04,0.91,1.2,,,,1.02,0.88,1.17,,,21.875,15.625,3,0
 9926,LTPA,2,,,,Chang S.,Depressive symptoms,1,Non-fatal,Women,2,21728,8,,24,3945,,24678,435,HR,0.96,0.82,1.14,,,,0.91,0.77,1.07,,,13.125,9.375,3,0
 9926,LTPA,3,,,,Chang S.,Depressive symptoms,1,Non-fatal,Women,2,21728,8,,24,3945,,23689,475,HR,0.91,0.78,1.06,,,,0.96,0.82,1.11,,,4.375,3.125,3,0
@@ -2421,19 +2421,19 @@ ref_number,pa_domain_subgroup,line_id,delete,only_stratified_data?,stratified_by
 9928,LTPA,1,,,,S‡nchez-Villegas A.,Depression,1,Non-fatal,Both,3,11800,8.5,100874,0,806,,35697,316,HR,1,,,,,,1,,,,,1.992307418,1.992307418,1,0
 9928,LTPA,2,,,,S‡nchez-Villegas A.,Depression,1,Non-fatal,Both,3,11800,8.5,100874,0,806,,32459,269,HR,0.95,0.81,1.12,,,,0.97,0.82,1.14,,,11.75479581,11.75479581,1,0
 9928,LTPA,3,,,,S‡nchez-Villegas A.,Depression,1,Non-fatal,Both,3,11800,8.5,100874,0,806,,32718,221,HR,0.8,0.67,0.95,,,,0.84,0.71,1,,,21.34291687,21.34291687,1,0
-9929,LTPA,1,,,,Cabello M.,Depression,1,Non-fatal,Both,3,5970,,,0,594,3973,,381,OR,1,,,,,,1,,,,,25,25,1,1
-9929,LTPA,2,,,,Cabello M.,Depression,1,Non-fatal,Both,3,5970,,,0,594,903,,84,OR,0.79,0.59,1.06,,,,0.79,0.59,1.06,,,10,10,1,1
-9929,LTPA,3,,,,Cabello M.,Depression,1,Non-fatal,Both,3,5970,,,0,594,1094,,129,OR,0.81,0.59,1.12,,,,0.81,0.59,1.12,,,0,0,1,1
-9930,LTPA,1,,,,Yaffe K.,All-cause dementia,1,Non-fatal,Women,2,5921,7.5,,0,1178,1470,,354,OR,1,,,,,,1,,,,,2.310940026,2.310940026,1,0
-9930,LTPA,2,,,,Yaffe K.,All-cause dementia,1,Non-fatal,Women,2,5921,7.5,,0,1178,1491,,306,OR,0.81,0.69,0.96,,,,0.9,0.74,1.09,,,9.99925004,9.99925004,1,0
-9930,LTPA,3,,,,Yaffe K.,All-cause dementia,1,Non-fatal,Women,2,5921,7.5,,0,1178,1480,,266,OR,0.69,0.58,0.83,,,,0.78,0.64,0.96,,,18.74674749,18.74674749,1,0
-9930,LTPA,4,,,,Yaffe K.,All-cause dementia,1,Non-fatal,Women,2,5921,7.5,,0,1178,1480,,252,OR,0.65,0.54,0.78,,,,0.74,0.6,0.9,,,31.02341382,31.02341382,1,0
+9929,LTPA,1,,,,Cabello M.,Depression,1,Non-fatal,Both,3,5970,5.5,,0,594,3973,21851.5,381,OR,1,,,,,,1,,,,,25,25,1,1
+9929,LTPA,2,,,,Cabello M.,Depression,1,Non-fatal,Both,3,5970,5.5,,0,594,903,4966.5,84,OR,0.79,0.59,1.06,,,,0.79,0.59,1.06,,,10,10,1,1
+9929,LTPA,3,,,,Cabello M.,Depression,1,Non-fatal,Both,3,5970,5.5,,0,594,1094,6017,129,OR,0.81,0.59,1.12,,,,0.81,0.59,1.12,,,0,0,1,1
+9930,LTPA,1,,,,Yaffe K.,All-cause dementia,1,Non-fatal,Women,2,5921,7.5,,0,1178,1470,11025,354,OR,1,,,,,,1,,,,,2.310940026,2.310940026,1,0
+9930,LTPA,2,,,,Yaffe K.,All-cause dementia,1,Non-fatal,Women,2,5921,7.5,,0,1178,1491,11182.5,306,OR,0.81,0.69,0.96,,,,0.9,0.74,1.09,,,9.99925004,9.99925004,1,0
+9930,LTPA,3,,,,Yaffe K.,All-cause dementia,1,Non-fatal,Women,2,5921,7.5,,0,1178,1480,11100,266,OR,0.69,0.58,0.83,,,,0.78,0.64,0.96,,,18.74674749,18.74674749,1,0
+9930,LTPA,4,,,,Yaffe K.,All-cause dementia,1,Non-fatal,Women,2,5921,7.5,,0,1178,1480,11100,252,OR,0.65,0.54,0.78,,,,0.74,0.6,0.9,,,31.02341382,31.02341382,1,0
 9931,LTPA,1,,,,Sabia S. ,All-cause dementia,1,Both,Both,3,10308,26.6,,0,329,4285,113981,142,HR,1,,,,,,1,,,,,0,0,3,0
 9931,LTPA,2,,,,Sabia S. ,All-cause dementia,1,Both,Both,3,10308,26.6,,0,329,3451,91796.6,71,HR,0.89,0.67,1.18,,,,0.97,0.72,1.29,,,21,15,3,0
 9931,LTPA,3,,,,Sabia S. ,All-cause dementia,1,Both,Both,3,10308,26.6,,0,329,2572,68415.2,116,HR,1.03,0.8,1.32,,,,1.05,0.82,1.36,,,35,25,3,0
-9932,LTPA,1,,,,Chang M.,All-cause dementia,1,Non-fatal,Both,3,4945,26,,0,184,3413,,145,OR,1,,,,,,1,,,,,0,0,3,0
-9932,LTPA,2,,,,Chang M.,All-cause dementia,1,Non-fatal,Both,3,4945,26,,0,184,1309,,32,OR,0.59,0.4,0.87,,,,0.59,0.4,0.88,,,8.75,6.25,3,0
-9932,LTPA,3,,,,Chang M.,All-cause dementia,1,Non-fatal,Both,3,4945,26,,0,184,223,,7,OR,0.74,0.34,1.62,,,,0.76,0.34,1.63,,,26.25,18.75,3,0
+9932,LTPA,1,,,,Chang M.,All-cause dementia,1,Non-fatal,Both,3,4945,26,,0,184,3413,88738,145,OR,1,,,,,,1,,,,,0,0,3,0
+9932,LTPA,2,,,,Chang M.,All-cause dementia,1,Non-fatal,Both,3,4945,26,,0,184,1309,34034,32,OR,0.59,0.4,0.87,,,,0.59,0.4,0.88,,,8.75,6.25,3,0
+9932,LTPA,3,,,,Chang M.,All-cause dementia,1,Non-fatal,Both,3,4945,26,,0,184,223,5798,7,OR,0.74,0.34,1.62,,,,0.76,0.34,1.63,,,26.25,18.75,3,0
 9933,LTPA,1,,,,Zhao M.,Alzheimer's disease,1,Fatal,Both,3,479856,8.75,4198740,0,1470,268193,2346688.75,1091,HR,1,,,,,,1,,,,,4.375,3.125,3,0
 9933,LTPA,2,,,,Zhao M.,Alzheimer's disease,1,Fatal,Both,3,479856,8.75,4198740,0,1470,21428,187495,63,HR,0.86,0.62,1.18,,,,0.88,0.64,1.23,,,7.875,3.75,3,0
 9933,LTPA,3,,,,Zhao M.,Alzheimer's disease,1,Fatal,Both,3,479856,8.75,4198740,0,1470,113851,996196.25,250,HR,0.71,0.61,0.84,,,,0.74,0.62,0.87,,,13.125,9.375,3,0
@@ -2492,15 +2492,15 @@ ref_number,pa_domain_subgroup,line_id,delete,only_stratified_data?,stratified_by
 9941,LTPA,1,,,,Hallgren M.,Depression,1,Non-fatal,Both,3,20594,13,,0,289,4854.761129,63111.89467,80,HR,1,,,,,,1,,,,,4.345833333,3.104166667,3,0
 9941,LTPA,2,,,,Hallgren M.,Depression,1,Non-fatal,Both,3,20594,13,,0,289,7865.584561,102252.5993,111,HR,0.85,0.66,1.09,,,,0.86,0.64,1.14,,,13.125,9.375,3,0
 9941,LTPA,3,,,,Hallgren M.,Depression,1,Non-fatal,Both,3,20594,13,,0,289,7873.65431,102357.506,98,HR,0.75,0.58,0.97,,,,0.71,0.53,0.96,,,21.875,15.625,3,0
-9942,LTPA,1,,,,Liu Y.,All-cause dementia,1,Non-fatal,Both,3,47491,,296620.5,24,10281,28724,176511,6434,HR,1,,,,,,1,,,,,1.3125,0.9375,3,0
-9942,LTPA,2,,,,Liu Y.,All-cause dementia,1,Non-fatal,Both,3,47491,,296620.5,24,10281,9033,57672.5,1531,HR,0.72,0.68,0.76,,,,0.81,0.77,0.97,,,10.5,7.5,3,0
-9942,LTPA,3,,,,Liu Y.,All-cause dementia,1,Non-fatal,Both,3,47491,,296620.5,24,10281,10184,62437,2316,HR,1.02,0.97,1.07,,,,0.94,0.89,0.99,,,18.375,13.125,3,0
-9942,LTPA,4,,,,Liu Y.,All-cause dementia,0,Non-fatal,Men,1,,,,24,18054,9833,55400,9833,HR,1,,,,,,1,,,,,1.3125,0.9375,3,0
-9942,LTPA,5,,,,Liu Y.,All-cause dementia,0,Non-fatal,Men,1,,,,24,18054,3367,20421,3367,HR,0.8,0.72,0.89,,,,0.8,0.72,0.89,,,10.5,7.5,3,0
-9942,LTPA,6,,,,Liu Y.,All-cause dementia,0,Non-fatal,Men,1,,,,24,18054,4854,27960,4854,HR,0.83,0.76,0.91,,,,0.83,0.76,0.91,,,18.375,13.125,3,0
-9942,LTPA,7,,,,Liu Y.,All-cause dementia,0,Non-fatal,Women,2,,,,24,9281,21205,123391,6135,HR,1,,,,,,1,,,,,1.3125,0.9375,3,0
-9942,LTPA,8,,,,Liu Y.,All-cause dementia,0,Non-fatal,Women,2,,,,24,9281,6104,37699,1271,HR,0.82,0.76,0.89,,,,0.82,0.76,0.89,,,10.5,7.5,3,0
-9942,LTPA,9,,,,Liu Y.,All-cause dementia,0,Non-fatal,Women,2,,,,24,9281,6114,35259,1875,HR,1,0.94,1.07,,,,1,0.94,1.07,,,18.375,13.125,3,0
-9943,LTPA,1,,,,Nabe-Nielsen K.,All-cause dementia,1,Both,Men,1,4721,,86558,60,697,811,14119,127,RR,1,,,,,,1,,,,,0,0,4,0
-9943,LTPA,2,,,,Nabe-Nielsen K.,All-cause dementia,1,Both,Men,1,4721,,86558,60,697,3396,63081,492,RR,0.81,0.67,0.99,,,,0.81,0.66,0.99,,,9,9,4,0
-9943,LTPA,3,,,,Nabe-Nielsen K.,All-cause dementia,1,Both,Men,1,4721,,86558,60,697,514,9358,78,RR,0.89,0.67,1.18,,,,0.8,0.6,1.08,,,31.5,27,4,0
+9942,LTPA,1,,,,Liu Y.,All-cause dementia,1,Non-fatal,Both,3,47491,7,296620.5,24,10281,28724,176511,6434,HR,1,,,,,,1,,,,,1.3125,0.9375,3,0
+9942,LTPA,2,,,,Liu Y.,All-cause dementia,1,Non-fatal,Both,3,47491,7,296620.5,24,10281,9033,57672.5,1531,HR,0.72,0.68,0.76,,,,0.81,0.77,0.97,,,10.5,7.5,3,0
+9942,LTPA,3,,,,Liu Y.,All-cause dementia,1,Non-fatal,Both,3,47491,7,296620.5,24,10281,10184,62437,2316,HR,1.02,0.97,1.07,,,,0.94,0.89,0.99,,,18.375,13.125,3,0
+9942,LTPA,4,,,,Liu Y.,All-cause dementia,0,Non-fatal,Men,1,,7,,24,18054,9833,55400,9833,HR,1,,,,,,1,,,,,1.3125,0.9375,3,0
+9942,LTPA,5,,,,Liu Y.,All-cause dementia,0,Non-fatal,Men,1,,7,,24,18054,3367,20421,3367,HR,0.8,0.72,0.89,,,,0.8,0.72,0.89,,,10.5,7.5,3,0
+9942,LTPA,6,,,,Liu Y.,All-cause dementia,0,Non-fatal,Men,1,,7,,24,18054,4854,27960,4854,HR,0.83,0.76,0.91,,,,0.83,0.76,0.91,,,18.375,13.125,3,0
+9942,LTPA,7,,,,Liu Y.,All-cause dementia,0,Non-fatal,Women,2,,7,,24,9281,21205,123391,6135,HR,1,,,,,,1,,,,,1.3125,0.9375,3,0
+9942,LTPA,8,,,,Liu Y.,All-cause dementia,0,Non-fatal,Women,2,,7,,24,9281,6104,37699,1271,HR,0.82,0.76,0.89,,,,0.82,0.76,0.89,,,10.5,7.5,3,0
+9942,LTPA,9,,,,Liu Y.,All-cause dementia,0,Non-fatal,Women,2,,7,,24,9281,6114,35259,1875,HR,1,0.94,1.07,,,,1,0.94,1.07,,,18.375,13.125,3,0
+9943,LTPA,1,,,,Nabe-Nielsen K.,All-cause dementia,1,Both,Men,1,4721,18,86558,60,697,811,14119,127,RR,1,,,,,,1,,,,,0,0,4,0
+9943,LTPA,2,,,,Nabe-Nielsen K.,All-cause dementia,1,Both,Men,1,4721,18,86558,60,697,3396,63081,492,RR,0.81,0.67,0.99,,,,0.81,0.66,0.99,,,9,9,4,0
+9943,LTPA,3,,,,Nabe-Nielsen K.,All-cause dementia,1,Both,Men,1,4721,18,86558,60,697,514,9358,78,RR,0.89,0.67,1.18,,,,0.8,0.6,1.08,,,31.5,27,4,0
