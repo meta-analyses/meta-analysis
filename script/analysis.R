@@ -6,11 +6,11 @@ total_population <- TRUE
 # Set log file
 record_removed_entries <- "missing_entries.csv"
 
-# Check its existence
-if (file.exists(record_removed_entries)) {
-  # Delete file if it exists
-  file.remove(record_removed_entries)
-}
+# # Check its existence
+# if (file.exists(record_removed_entries)) {
+#   # Delete file if it exists
+#   file.remove(record_removed_entries)
+# }
 
 last_quantile_df <- data.frame(matrix (ncol = 4, nrow = length(uoutcome$outcome)))
 names(last_quantile_df) <- c('disease', 'fatal', 'non-fatal', 'fatal-and-non-fatal')

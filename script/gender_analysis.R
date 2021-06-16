@@ -4,11 +4,11 @@ options(warn = -1)
 # Set log file
 record_removed_entries <- "missing_entries.csv"
 
-# Check its existence
-if (file.exists(record_removed_entries)) {
-  # Delete file if it exists
-  file.remove(record_removed_entries)
-}
+# # Check its existence
+# if (file.exists(record_removed_entries)) {
+#   # Delete file if it exists
+#   file.remove(record_removed_entries)
+# }
 if (!NO_BMI_EFFECT && local_last_knot == 0.75){
   fold <- ifelse(ALT, "plots/gender/alt_analysis/", "plots/gender/main_analysis/")
   
