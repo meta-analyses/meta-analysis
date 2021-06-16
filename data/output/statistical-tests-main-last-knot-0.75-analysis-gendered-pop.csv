@@ -1,0 +1,9 @@
+outcome,population,outcome_type,q_test,i_test
+All-cause cancer,Male Population,Fatal,"Q-test = 15.957 (df = 14), p-value = 0.316",I-square statistic = 12.3%
+All-cause cancer,Female Population,Fatal,"Q-test = 18.853 (df = 14), p-value = 0.171",I-square statistic = 25.7%
+All-cause cvd,Male Population,Fatal,"Q-test = 40.028 (df = 18), p-value = 0.002",I-square statistic = 55.0%
+All-cause cvd,Female Population,Fatal,"Q-test = 68.362 (df = 18), p-value = 0.000",I-square statistic = 73.7%
+All-cause mortality,Male Population,Fatal,"Q-test = 146.950 (df = 34), p-value = 0.000",I-square statistic = 76.9%
+All-cause mortality,Female Population,Fatal,"Q-test = 197.143 (df = 34), p-value = 0.000",I-square statistic = 82.8%
+Coronary heart disease,Male Population,Fatal,"Q-test = 10.087 (df = 8), p-value = 0.259",I-square statistic = 20.7%
+Coronary heart disease,Female Population,Fatal,"Q-test = 8.868 (df = 8), p-value = 0.354",I-square statistic = 9.8%
