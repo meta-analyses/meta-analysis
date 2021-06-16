@@ -4,7 +4,7 @@ options(warn = -1)
 total_population <- TRUE
 
 # Set fixed last knot to 75th of person years
-local_last_knot <- 0.75
+local_last_knot <- 0.85
 
 # Set log file
 record_removed_entries <- "missing_entries.csv"
@@ -19,7 +19,7 @@ last_quantile_df <- data.frame(matrix (ncol = 4, nrow = length(uoutcome$outcome)
 names(last_quantile_df) <- c('disease', 'fatal', 'non-fatal', 'fatal-and-non-fatal')
 last_quantile_df$disease <- gsub(x = uoutcome$outcome, pattern = " ", replacement = "-") %>% tolower()
 
-if (!NO_BMI_EFFECT){
+if (!NO_BMI_EFFECT && local_last_knot == 0.75){
   fold <- ifelse(ALT, "plots/alt_analysis/", "plots/main_analysis/")
   
   # get all png files in the directories, recursively
@@ -273,13 +273,14 @@ if (total_population) {
               "\n Last knot: ", last_knot_title
             )
             
-            write_csv(dataset, paste0("data/csv/", ifelse(ALT, "ALT", "main"), "-", uoutcome$outcome[i], "-", dir_name, ".csv"))
+            if (local_last_knot == 0.75)
+              write_csv(dataset, paste0("data/csv/", ifelse(ALT, "ALT", "main"), "-", uoutcome$outcome[i], "-", dir_name, ".csv"))
             
             snake_case_outcome <- gsub(x = uoutcome$outcome[i], pattern = " ", replacement = "-") %>% tolower()
             snake_case_outcome_type <- gsub(x = dir_name, pattern = " ", replacement = "-") %>% tolower()
             ma_filename <- paste0(snake_case_outcome, "-", snake_case_outcome_type)
             
-            if (create_MA_tables){
+            if (create_MA_tables && local_last_knot == 0.75){
               write_csv(dataset2, paste0("data/csv/MA-DR/", ma_filename, ".csv"))
               last_quantile_df[last_quantile_df$disease == snake_case_outcome,][[snake_case_outcome_type]] <- as.numeric(q)
             }
@@ -311,7 +312,7 @@ if (total_population) {
             # Save the plot as a .Rds file
             # saveRDS(p, paste0("plots/", dir_name, "/", uoutcome$outcome[i], "-", dir_name, ".Rds"), version = 2)
             
-            if (!NO_BMI_EFFECT){
+            if (!NO_BMI_EFFECT && local_last_knot == 0.75){
             
               if (local_outcome_type == "Fatal") {
                 fatal_plots[[length(fatal_plots) + 1]] <- as.widget(plotly::ggplotly(p))
@@ -379,20 +380,20 @@ if (!NO_BMI_EFFECT){
 }
 
 # Save rr_conf_df table
-write_csv(rr_conf_df, paste0("data/output/rr-", sub_title, "-analysis-total-pop.csv"))
+write_csv(rr_conf_df, paste0("data/output/rr-", sub_title,"-last-knot-", local_last_knot, "-analysis-total-pop.csv"))
 
 # Save PIF table
-write_csv(PIF_df, paste0("data/output/PIF-", sub_title, "-analysis-total-pop.csv"))
+write_csv(PIF_df, paste0("data/output/PIF-", sub_title, "-last-knot-", local_last_knot, "-analysis-total-pop.csv"))
 
 # Save test table
-write_csv(test_df, paste0("data/output/statistical-tests-", sub_title, "-analysis-total-pop.csv"))
+write_csv(test_df, paste0("data/output/statistical-tests-", sub_title, "-last-knot-", local_last_knot, "-analysis-total-pop.csv"))
 
 if (create_MA_tables){
   # Save last quantile for each outcome and outcome type for MA
   write_csv(last_quantile_df, "data/csv/MA-DR/75p_diseases.csv.csv")
 }
 
-if (!NO_BMI_EFFECT){
+if (!NO_BMI_EFFECT && local_last_knot == 0.75){
   save(fatal_plots, file = paste0(fold, "html_widgets/fatal_plots.RData"))
   save(non_fatal_plots, file = paste0(fold, "html_widgets/non_fatal_plots.RData"))
   save(fatal_non_fatal_plots, file = paste0(fold, "html_widgets/fatal_non_fatal_plots.RData"))
