@@ -1,5 +1,3 @@
-# Remove all elements from the memory
-rm (list = ls())
 library(tidyverse, warn.conflicts = FALSE)
 library(plotly)
 
@@ -56,9 +54,6 @@ raw_data <- raw_data %>% rename(effect = most_adj_effect, cases = cases_per_cate
 
 # MAIN <- TRUE
 
-# Set ALT to TRUE
-ALT <- FALSE
-
 ## FOR THE CURRENT ASSUMPTIONS
 # raw_data$dose <- round(ifelse(ALT, raw_data$m_met_h_wk_alt, raw_data$m_met_h_wk), 2)
 if (ALT){
@@ -66,8 +61,6 @@ if (ALT){
 }else{
   raw_data$dose <- round(raw_data$m_met_h_wk, 2)
 }
-
-NO_BMI_EFFECT <- FALSE
 
 if (NO_BMI_EFFECT){
   raw_data$effect <- as.numeric(raw_data$no_bmi_effect)
