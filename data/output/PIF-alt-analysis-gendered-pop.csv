@@ -1,9 +1,0 @@
-outcome,population,outcome_type,lowest_guideline,lowest_CFI,mid_guideline,mid_CFI,highest_guideline,highest_CFI
-All-cause cancer,Male Population,Fatal,3.42,(2.42 - 4.44),8.02,(5.79 - 10.23),11.56,(8.62 - 14.44)
-All-cause cancer,Female Population,Fatal,2.11,(0.89 - 3.36),5.19,(2.35 - 8.01),9.54,(5.18 - 13.78)
-All-cause cvd,Male Population,Fatal,4.4,(2.32 - 6.5),9.27,(5.77 - 12.7),12.86,(11.15 - 14.61)
-All-cause cvd,Female Population,Fatal,8.67,(5.07 - 12.33),16.22,(10.41 - 21.88),17.8,(13.84 - 21.79)
-All-cause mortality,Male Population,Fatal,3.75,(0.35 - 6.19),6.81,(0.7 - 10.6),3.86,(-0.61 - 14.94)
-All-cause mortality,Female Population,Fatal,5.34,(3.7 - 7.07),10.66,(7.64 - 13.75),15.11,(11.53 - 18.7)
-Coronary heart disease,Male Population,Fatal,6.61,(-0.39 - 14.24),9.77,(0.07 - 19.8),9.5,(1.75 - 17.77)
-Coronary heart disease,Female Population,Fatal,14.38,(7.96 - 20.89),21.32,(12.67 - 29.71),23.08,(14.78 - 31.12)
