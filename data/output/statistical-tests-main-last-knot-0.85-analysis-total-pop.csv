@@ -1,0 +1,40 @@
+outcome,outcome_type,q_test,i_test
+All-cause cancer,Fatal,"Q-test = 127.136 (df = 46), p-value = 0.000",I-square statistic = 63.8%
+All-cause cancer,Both,"Q-test = 236.711 (df = 60), p-value = 0.000",I-square statistic = 74.7%
+All-cause cvd,Fatal,"Q-test = 265.652 (df = 56), p-value = 0.000",I-square statistic = 78.9%
+All-cause cvd,Both,"Q-test = 346.044 (df = 72), p-value = 0.000",I-square statistic = 79.2%
+All-cause dementia,Non-fatal,"Q-test = 85.206 (df = 22), p-value = 0.000",I-square statistic = 74.2%
+All-cause dementia,Both,"Q-test = 123.667 (df = 34), p-value = 0.000",I-square statistic = 72.5%
+All-cause mortality,Fatal,"Q-test = 1692.238 (df = 96), p-value = 0.000",I-square statistic = 94.3%
+All-cause mortality,Both,"Q-test = 1692.238 (df = 96), p-value = 0.000",I-square statistic = 94.3%
+Alzheimer's disease,Non-fatal,"Q-test = 6.398 (df = 6), p-value = 0.380",I-square statistic = 6.2%
+Alzheimer's disease,Both,"Q-test = 22.491 (df = 12), p-value = 0.032",I-square statistic = 46.6%
+Bladder cancer,Both,"Q-test = 4.349 (df = 6), p-value = 0.630",I-square statistic = 0.0%
+Breast cancer,Fatal,"Q-test = 30.166 (df = 8), p-value = 0.000",I-square statistic = 73.5%
+Breast cancer,Both,"Q-test = 80.968 (df = 56), p-value = 0.016",I-square statistic = 30.8%
+Colon cancer,Both,"Q-test = 67.626 (df = 38), p-value = 0.002",I-square statistic = 43.8%
+Coronary heart disease,Fatal,"Q-test = 41.668 (df = 22), p-value = 0.007",I-square statistic = 47.2%
+Coronary heart disease,Both,"Q-test = 282.279 (df = 50), p-value = 0.000",I-square statistic = 82.3%
+Depression,Non-fatal,"Q-test = 28.469 (df = 14), p-value = 0.012",I-square statistic = 50.8%
+Depression,Both,"Q-test = 28.469 (df = 14), p-value = 0.012",I-square statistic = 50.8%
+Depressive symptoms,Non-fatal,"Q-test = 93.859 (df = 16), p-value = 0.000",I-square statistic = 83.0%
+Depressive symptoms,Both,"Q-test = 93.859 (df = 16), p-value = 0.000",I-square statistic = 83.0%
+Endometrial cancer,Both,"Q-test = 26.539 (df = 24), p-value = 0.326",I-square statistic = 9.6%
+Esophageal cancer,Both,"Q-test = 13.351 (df = 12), p-value = 0.344",I-square statistic = 10.1%
+Gastric cardia cancer,Both,"Q-test = 11.773 (df = 8), p-value = 0.162",I-square statistic = 32.0%
+Head and neck cancer,Both,"Q-test = 10.499 (df = 6), p-value = 0.105",I-square statistic = 42.9%
+Heart failure,Both,"Q-test = 340.106 (df = 20), p-value = 0.000",I-square statistic = 94.1%
+Kidney cancer,Both,"Q-test = 17.891 (df = 12), p-value = 0.119",I-square statistic = 32.9%
+Liver cancer,Both,"Q-test = 19.938 (df = 10), p-value = 0.030",I-square statistic = 49.8%
+Lung cancer,Fatal,"Q-test = 27.314 (df = 6), p-value = 0.000",I-square statistic = 78.0%
+Lung cancer,Both,"Q-test = 155.798 (df = 28), p-value = 0.000",I-square statistic = 82.0%
+Myeloid leukemia,Both,"Q-test = 5.595 (df = 6), p-value = 0.470",I-square statistic = 0.0%
+Myeloma,Both,"Q-test = 7.435 (df = 6), p-value = 0.282",I-square statistic = 19.3%
+Parkinson's disease,Non-fatal,"Q-test = 11.826 (df = 10), p-value = 0.297",I-square statistic = 15.4%
+Parkinson's disease,Both,"Q-test = 13.643 (df = 12), p-value = 0.324",I-square statistic = 12.0%
+Prostate cancer,Fatal,"Q-test = 6.261 (df = 8), p-value = 0.618",I-square statistic = 0.0%
+Prostate cancer,Both,"Q-test = 30.070 (df = 30), p-value = 0.462",I-square statistic = 0.2%
+Rectum cancer,Both,"Q-test = 34.173 (df = 28), p-value = 0.195",I-square statistic = 18.1%
+Stroke,Fatal,"Q-test = 32.901 (df = 14), p-value = 0.003",I-square statistic = 57.4%
+Stroke,Both,"Q-test = 201.059 (df = 48), p-value = 0.000",I-square statistic = 76.1%
+Vascular dementia,Both,"Q-test = 5.968 (df = 6), p-value = 0.427",I-square statistic = 0.0%
