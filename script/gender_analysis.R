@@ -351,13 +351,13 @@ for (i in 1:nrow(uoutcome)) {
 sub_title <- ifelse(ALT, "alt", "main")
 
 # Save rr_conf_df table
-write_csv(rr_conf_df, paste0("data/output/rr-", sub_title, "-analysis-gendered-pop.csv"))
+write_csv(rr_conf_df, paste0("data/output/rr-", sub_title, "-last-knot-", local_last_knot,  "-analysis-gendered-pop.csv"))
 
 # Save PIF table
-write_csv(PIF_df, paste0("data/output/PIF-", sub_title, "-analysis-gendered-pop.csv"))
+write_csv(PIF_df, paste0("data/output/PIF-", sub_title, "-last-knot-", local_last_knot,  "-analysis-gendered-pop.csv"))
 
 # Save test table
-write_csv(test_df, paste0("data/output/statistical-tests-", sub_title, "-analysis-gendered-pop.csv"))
+write_csv(test_df, paste0("data/output/statistical-tests-", sub_title, "-last-knot-", local_last_knot, "-analysis-gendered-pop.csv"))
 
 if (!NO_BMI_EFFECT && local_last_knot == 0.75){
   save(fatal_plots, file = paste0(fold, "html_widgets/fatal_plots.RData"))
