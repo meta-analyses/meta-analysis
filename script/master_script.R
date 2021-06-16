@@ -10,6 +10,11 @@ if (file.exists(record_removed_entries)) {
   file.remove(record_removed_entries)
 }
 
+# Loop through three global variables
+# 1. Last knot which has 0.75 and 0.85 as values
+# 2. Alternate assumptions for MMETs - on or off
+# 3. NO_BMI_EFFECT - on or off
+# Set these variables for total and gendered analysis
 
 for(local_last_knot in c(0.75, 0.85))
   for(ALT in c(TRUE, FALSE))
@@ -19,5 +24,7 @@ for(local_last_knot in c(0.75, 0.85))
       source("script/gender_analysis.R")
       
     }
+
+# Once these lines are executed, the markdown documents can be knitted to produce plots
 
 
