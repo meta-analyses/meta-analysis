@@ -2314,9 +2314,9 @@ ref_number,pa_domain_subgroup,line_id,delete,only_stratified_data?,stratified_by
 999,LTPA,7,,,,Mikkelsen S. ,Depression,1,Non-fatal,Both,3,16508,26,,0,436,4479.200195,116459.2031,92,HR,0.6,0.45,0.81,,,,0.6,0.45,0.81,,,13.5,10.5,3,0
 999,LTPA,8,,,,Mikkelsen S. ,Depression,1,Non-fatal,Both,3,16508,26,,0,436,9057.360352,235491.3594,235,HR,0.68,0.54,0.87,,,,0.68,0.54,0.87,,,4.5,5,3,0
 999,LTPA,9,,,,Mikkelsen S. ,Depression,1,Non-fatal,Both,3,16508,26,,0,436,2971.439941,77257.4375,109,HR,1,,,,,,1,,,,,0.75,1,3,0
-9910,LTPA,1,,,,Hamer M.,Depression,1,Non-fatal,Both,3,4323,4,,0,348,674,2696,108,OR,1,,,,,,1,,,,,0.84375,0.5625,3,0
-9910,LTPA,2,,,,Hamer M.,Depression,1,Non-fatal,Both,3,4323,4,,0,348,2142,8568,161,OR,0.48,0.37,0.63,,,,0.73,0.55,0.96,,,3.9375,1.875,3,0
-9910,LTPA,3,,,,Hamer M.,Depression,1,Non-fatal,Both,3,4323,4,,0,348,1507,6028,79,OR,0.35,0.26,0.48,,,,0.6,0.43,0.84,,,7.875,4.5,3,0
+9910,LTPA,1,,,,Hamer M.,Depressive symptoms,1,Non-fatal,Both,3,4323,4,,0,348,674,2696,108,OR,1,,,,,,1,,,,,0.84375,0.5625,3,0
+9910,LTPA,2,,,,Hamer M.,Depressive symptoms,1,Non-fatal,Both,3,4323,4,,0,348,2142,8568,161,OR,0.48,0.37,0.63,,,,0.73,0.55,0.96,,,3.9375,1.875,3,0
+9910,LTPA,3,,,,Hamer M.,Depressive symptoms,1,Non-fatal,Both,3,4323,4,,0,348,1507,6028,79,OR,0.35,0.26,0.48,,,,0.6,0.43,0.84,,,7.875,4.5,3,0
 9911,LTPA,1,,,,Soni M.,All-cause dementia,1,Non-fatal,Both,3,11025,9,,0,378,1065,9585,76,HR,1,,,,,,1,,,,,0.5625,0.375,3,0
 9911,LTPA,2,,,,Soni M.,All-cause dementia,1,Non-fatal,Both,3,11025,9,,0,378,1597,14373,83,HR,0.69,0.5,0.95,,,,0.67,0.49,0.93,,,1.125,0.75,3,0
 9911,LTPA,3,,,,Soni M.,All-cause dementia,1,Non-fatal,Both,3,11025,9,,0,378,1597,14373,60,HR,0.66,0.46,0.94,,,,0.66,0.46,0.94,,,2.625,1.25,3,0
@@ -2401,11 +2401,11 @@ ref_number,pa_domain_subgroup,line_id,delete,only_stratified_data?,stratified_by
 9925,LTPA,4,,,,Harvey S.,Depressive symptoms,1,Non-fatal,Both,3,22564,11,,0,1578,4509.307636,49602.384,262,OR,0.59,0.49,0.72,,,,0.69,0.56,0.86,,,5.25,3.75,3,0
 9925,LTPA,5,,,,Harvey S.,Depressive symptoms,1,Non-fatal,Both,3,22564,11,,0,1578,2144.478037,23589.25841,135,OR,0.64,0.5,0.81,,,,0.72,0.56,0.93,,,10.5,7.5,3,0
 9925,LTPA,6,,,,Harvey S.,Depressive symptoms,1,Non-fatal,Both,3,22564,11,,0,1578,1991.479216,21906.27138,119,OR,0.61,0.48,0.78,,,,0.69,0.53,0.89,,,17.5,12.5,3,0
-9926,LTPA,1,,,,Chang S.,Depressive symptoms,1,Non-fatal,Women,2,21728,8,,24,3945,,24206,334,HR,1.04,0.91,1.2,,,,1.02,0.88,1.17,,,21.875,15.625,3,0
-9926,LTPA,2,,,,Chang S.,Depressive symptoms,1,Non-fatal,Women,2,21728,8,,24,3945,,24678,435,HR,0.96,0.82,1.14,,,,0.91,0.77,1.07,,,13.125,9.375,3,0
-9926,LTPA,3,,,,Chang S.,Depressive symptoms,1,Non-fatal,Women,2,21728,8,,24,3945,,23689,475,HR,0.91,0.78,1.06,,,,0.96,0.82,1.11,,,4.375,3.125,3,0
-9926,LTPA,4,,,,Chang S.,Depressive symptoms,1,Non-fatal,Women,2,21728,8,,24,3945,,29928,780,HR,0.88,0.78,0.98,,,,0.85,0.76,0.96,,,1.75,1.25,3,0
-9926,LTPA,5,,,,Chang S.,Depressive symptoms,1,Non-fatal,Women,2,21728,8,,24,3945,,77639,1921,HR,1,,,,,,1,,,,,0,0,3,0
+9926,LTPA,1,,,,Chang S.,Depression,1,Non-fatal,Women,2,21728,8,,24,3945,,24206,334,HR,1.04,0.91,1.2,,,,1.02,0.88,1.17,,,21.875,15.625,3,0
+9926,LTPA,2,,,,Chang S.,Depression,1,Non-fatal,Women,2,21728,8,,24,3945,,24678,435,HR,0.96,0.82,1.14,,,,0.91,0.77,1.07,,,13.125,9.375,3,0
+9926,LTPA,3,,,,Chang S.,Depression,1,Non-fatal,Women,2,21728,8,,24,3945,,23689,475,HR,0.91,0.78,1.06,,,,0.96,0.82,1.11,,,4.375,3.125,3,0
+9926,LTPA,4,,,,Chang S.,Depression,1,Non-fatal,Women,2,21728,8,,24,3945,,29928,780,HR,0.88,0.78,0.98,,,,0.85,0.76,0.96,,,1.75,1.25,3,0
+9926,LTPA,5,,,,Chang S.,Depression,1,Non-fatal,Women,2,21728,8,,24,3945,,77639,1921,HR,1,,,,,,1,,,,,0,0,3,0
 9927,LTPA,1,,,,Neergaard J.,All-cause dementia,1,Both,Women,2,5512,11.9,,0,592,1696,20182.4,227,HR,1,,,,,,1,,,,,0,0,3,0
 9927,LTPA,2,,,,Neergaard J.,All-cause dementia,1,Both,Women,2,5512,11.9,,0,592,1167,13887.3,118,HR,0.76,0.61,0.95,,,,0.77,0.61,0.96,,,2.625,1.25,3,0
 9927,LTPA,3,,,,Neergaard J.,All-cause dementia,1,Both,Women,2,5512,11.9,,0,592,713,8484.7,74,HR,0.78,0.6,1.02,,,,0.8,0.61,1.04,,,5.25,2.5,3,0
