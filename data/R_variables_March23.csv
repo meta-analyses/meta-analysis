@@ -2421,8 +2421,8 @@ ref_number,pa_domain_subgroup,line_id,delete,only_stratified_data?,stratified_by
 9928,LTPA,1,,,,S‡nchez-Villegas A.,Depression,1,Non-fatal,Both,3,11800,8.5,100874,0,806,,35697,316,HR,1,,,,,,1,,,,,1.992307418,1.992307418,1,0
 9928,LTPA,2,,,,S‡nchez-Villegas A.,Depression,1,Non-fatal,Both,3,11800,8.5,100874,0,806,,32459,269,HR,0.95,0.81,1.12,,,,0.97,0.82,1.14,,,11.75479581,11.75479581,1,0
 9928,LTPA,3,,,,S‡nchez-Villegas A.,Depression,1,Non-fatal,Both,3,11800,8.5,100874,0,806,,32718,221,HR,0.8,0.67,0.95,,,,0.84,0.71,1,,,21.34291687,21.34291687,1,0
-9929,LTPA,1,,,,Cabello M.,Depression,1,Non-fatal,Both,3,5970,5.5,,0,594,3973,21851.5,381,OR,1,,,,,,1,,,,,25,25,1,1
-9929,LTPA,2,,,,Cabello M.,Depression,1,Non-fatal,Both,3,5970,5.5,,0,594,903,4966.5,84,OR,0.79,0.59,1.06,,,,0.79,0.59,1.06,,,10,10,1,1
+9929,LTPA,1,,,,Cabello M.,Depression,1,Non-fatal,Both,3,5970,5.5,,0,594,3973,21851.5,381,OR,1,,,,,,1,,,,,22,22,1,1
+9929,LTPA,2,,,,Cabello M.,Depression,1,Non-fatal,Both,3,5970,5.5,,0,594,903,4966.5,84,OR,0.79,0.59,1.06,,,,0.79,0.59,1.06,,,9,9,1,1
 9929,LTPA,3,,,,Cabello M.,Depression,1,Non-fatal,Both,3,5970,5.5,,0,594,1094,6017,129,OR,0.81,0.59,1.12,,,,0.81,0.59,1.12,,,0,0,1,1
 9930,LTPA,1,,,,Yaffe K.,All-cause dementia,1,Non-fatal,Women,2,5921,7.5,,0,1178,1470,11025,354,OR,1,,,,,,1,,,,,2.310940026,2.310940026,1,0
 9930,LTPA,2,,,,Yaffe K.,All-cause dementia,1,Non-fatal,Women,2,5921,7.5,,0,1178,1491,11182.5,306,OR,0.81,0.69,0.96,,,,0.9,0.74,1.09,,,9.99925004,9.99925004,1,0
