@@ -2418,9 +2418,9 @@ ref_number,pa_domain_subgroup,line_id,delete,only_stratified_data?,stratified_by
 9927,LTPA,10,,,,Neergaard J.,Vascular dementia,1,Both,Women,2,4963,11.9,,0,43,1057,12578.3,8,HR,0.51,0.23,1.15,,,,0.55,0.24,1.25,,,2.625,1.25,3,0
 9927,LTPA,11,,,,Neergaard J.,Vascular dementia,1,Both,Women,2,4963,11.9,,0,43,643,7651.7,4,HR,0.41,0.14,1.2,,,,0.46,0.16,1.35,,,5.25,2.5,3,0
 9927,LTPA,12,,,,Neergaard J.,Vascular dementia,1,Both,Women,2,4963,11.9,,0,43,1772,21086.8,9,HR,0.39,0.18,0.85,,,,0.42,0.19,0.93,,,9.1875,4.375,3,0
-9929,LTPA,1,,,,Cabello M.,Depression,1,Non-fatal,Both,3,5970,5.5,,0,594,3973,21851.5,381,OR,1,,,,,,1,,,,,22,22,1,1
+9929,LTPA,1,,,,Cabello M.,Depression,1,Non-fatal,Both,3,5970,5.5,,0,594,3973,21851.5,381,OR,1,,,,,,1,,,,,0,0,1,1
 9929,LTPA,2,,,,Cabello M.,Depression,1,Non-fatal,Both,3,5970,5.5,,0,594,903,4966.5,84,OR,0.79,0.59,1.06,,,,0.79,0.59,1.06,,,9,9,1,1
-9929,LTPA,3,,,,Cabello M.,Depression,1,Non-fatal,Both,3,5970,5.5,,0,594,1094,6017,129,OR,0.81,0.59,1.12,,,,0.81,0.59,1.12,,,0,0,1,1
+9929,LTPA,3,,,,Cabello M.,Depression,1,Non-fatal,Both,3,5970,5.5,,0,594,1094,6017,129,OR,0.81,0.59,1.12,,,,0.81,0.59,1.12,,,22,22,1,1
 9930,LTPA,1,,,,Yaffe K.,All-cause dementia,1,Non-fatal,Women,2,5921,7.5,,0,1178,1470,11025,354,OR,1,,,,,,1,,,,,2.310940026,2.310940026,1,0
 9930,LTPA,2,,,,Yaffe K.,All-cause dementia,1,Non-fatal,Women,2,5921,7.5,,0,1178,1491,11182.5,306,OR,0.81,0.69,0.96,,,,0.9,0.74,1.09,,,9.99925004,9.99925004,1,0
 9930,LTPA,3,,,,Yaffe K.,All-cause dementia,1,Non-fatal,Women,2,5921,7.5,,0,1178,1480,11100,266,OR,0.69,0.58,0.83,,,,0.78,0.64,0.96,,,18.74674749,18.74674749,1,0
