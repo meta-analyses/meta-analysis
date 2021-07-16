@@ -2455,12 +2455,7 @@ ref_number,pa_domain_subgroup,line_id,delete,only_stratified_data?,stratified_by
 9937,LTPA,2,,,,Hughes K.,Depressive symptoms,1,Non-fatal,Men,1,6311,22,,0,788,1262.2,27768.4,157.775,OR,0.8,0.6,1.07,,,,0.82,0.62,1.1,,,3.443044709,3.443044709,1,0
 9937,LTPA,3,,,,Hughes K.,Depressive symptoms,1,Non-fatal,Men,1,6311,22,,0,788,1262.2,27768.4,150.2018,OR,0.8,0.6,1.06,,,,0.84,0.63,1.13,,,8.883450647,8.883450647,1,0
 9937,LTPA,4,,,,Hughes K.,Depressive symptoms,1,Non-fatal,Men,1,6311,22,,0,788,1262.2,27768.4,155.2506,OR,0.86,0.65,1.15,,,,0.92,0.68,1.23,,,18.15560277,18.15560277,1,0
-99389,LTPA,5,,,,Hughes K.,Depressive symptoms,1,Non-fatal,Men,1,6311,22,,0,788,1262.2,27768.4,132.531,OR,0.76,0.57,1.03,,,,0.83,0.61,1.13,,,48.04017894,48.04017894,1,0
-99389,LTPA,6,,,,Hughes K.,Depressive symptoms,1,Non-fatal,Women,2,11673,22,,0,1875,2334.6,51361.2,436.5702,OR,1,,,,,,1,,,,,0.3692615,0.3692615,1,0
-99389,LTPA,7,,,,Hughes K.,Depressive symptoms,1,Non-fatal,Women,2,11673,22,,0,1875,2334.6,51361.2,380.5398,OR,0.87,0.72,1.06,,,,0.9,0.74,1.09,,,2.142188723,2.142188723,1,0
-99389,LTPA,8,,,,Hughes K.,Depressive symptoms,1,Non-fatal,Women,2,11673,22,,0,1875,2334.6,51361.2,368.8668,OR,0.74,0.61,0.9,,,,0.78,0.64,0.95,,,5.651577172,5.651577172,1,0
-99389,LTPA,9,,,,Hughes K.,Depressive symptoms,1,Non-fatal,Women,2,11673,22,,0,1875,2334.6,51361.2,340.8516,OR,0.74,0.6,0.9,,,,0.79,0.64,0.96,,,12.4977923,12.4977923,1,0
-99389,LTPA,10,,,,Hughes K.,Depressive symptoms,1,Non-fatal,Women,2,11673,22,,0,1875,2334.6,51361.2,347.8554,OR,0.78,0.64,0.95,,,,0.81,0.66,1,,,36.07860354,36.07860354,1,0
+9937,LTPA,5,,,,Hughes K.,Depressive symptoms,1,Non-fatal,Men,1,6311,22,,0,788,1262.2,27768.4,132.531,OR,0.76,0.57,1.03,,,,0.83,0.61,1.13,,,48.04017894,48.04017894,1,0
 9938,LTPA,1,,,,Koolhaas C. ,All-cause dementia,1,Fatal,Both,3,5046,13.1,,120,339,1682,22034.2,97,HR,1,,,,,,1,,,,,0,0,1,0
 9938,LTPA,2,,,,Koolhaas C. ,All-cause dementia,1,Fatal,Both,3,5046,13.1,,120,339,1682,22034.2,122,HR,1.26,0.87,1.81,,,,1.26,0.87,1.81,,,31,31,1,0
 9938,LTPA,3,,,,Koolhaas C. ,All-cause dementia,1,Fatal,Both,3,5046,13.1,,120,339,1682,22034.2,119,HR,1.23,0.85,1.79,,,,1.23,0.85,1.79,,,73,73,1,0
@@ -2501,3 +2496,77 @@ ref_number,pa_domain_subgroup,line_id,delete,only_stratified_data?,stratified_by
 9943,LTPA,1,,,,Nabe-Nielsen K.,All-cause dementia,1,Both,Men,1,4721,18,86558,60,697,811,14119,127,RR,1,,,,,,1,,,,,0,0,4,0
 9943,LTPA,2,,,,Nabe-Nielsen K.,All-cause dementia,1,Both,Men,1,4721,18,86558,60,697,3396,63081,492,RR,0.81,0.67,0.99,,,,0.81,0.66,0.99,,,9,9,4,0
 9943,LTPA,3,,,,Nabe-Nielsen K.,All-cause dementia,1,Both,Men,1,4721,18,86558,60,697,514,9358,78,RR,0.89,0.67,1.18,,,,0.8,0.6,1.08,,,31.5,27,4,0
+991,LTPA,1,,,,Espana-Romero V.,Depression or depressive symptoms,1,Non-fatal,Both,3,5110,6.1,,0,641,1250,7625,161,OR,1,,,,,,1,,,,,0,0,1,0
+991,LTPA,2,,,,Espana-Romero V.,Depression or depressive symptoms,1,Non-fatal,Both,3,5110,6.1,,0,641,2109,12864.9,304,OR,1.12,0.85,1.47,,,,1.15,0.87,1.52,,,2.6472084,2.6472084,1,0
+991,LTPA,3,,,,Espana-Romero V.,Depression or depressive symptoms,1,Non-fatal,Both,3,5110,6.1,,0,641,1751,10681.1,176,OR,0.78,0.63,0.95,,,,0.85,0.63,1.05,,,9.291621714,9.291621714,1,0
+992,LTPA,1,,,,Camacho T.,Depression or depressive symptoms,0,Non-fatal,Men,1,1714,9,,0,342.8,470,4230,29,OR,1,,,,,,1,,,,,6.4,5,4,0
+992,LTPA,2,,,,Camacho T.,Depression or depressive symptoms,0,Non-fatal,Men,1,1714,9,,0,342.8,819,7371,157,OR,0.66,0.61,0.72,,,,0.83,0.57,1.2,,,21,16,4,0
+992,LTPA,3,,,,Camacho T.,Depression or depressive symptoms,0,Non-fatal,Men,1,1714,9,,0,342.8,425,3825,50,OR,0.4,0.36,0.46,,,,0.57,0.34,0.94,,,37,28,4,0
+992,LTPA,4,,,,Camacho T.,Depression or depressive symptoms,0,Non-fatal,Women,2,1950,9,,0,390,703,6327,223,OR,1,,,,,,1,,,,,6.4,5,4,0
+992,LTPA,5,,,,Camacho T.,Depression or depressive symptoms,0,Non-fatal,Women,2,1950,9,,0,390,890,8010,128,OR,0.45,0.35,0.58,,,,0.59,0.42,0.94,,,21,16,4,0
+992,LTPA,6,,,,Camacho T.,Depression or depressive symptoms,0,Non-fatal,Women,2,1950,9,,0,390,357,3213,39,OR,0.35,0.23,0.54,,,,0.59,0.37,0.82,,,37,28,4,0
+992,LTPA,7,,,,Camacho T.,Depression or depressive symptoms,1,Non-fatal,Both,3,3664,9,,0,733,1173,10557,252,OR,1,,,,,,1,,,,,6.4,5,4,0
+992,LTPA,8,,,,Camacho T.,Depression or depressive symptoms,1,Non-fatal,Both,3,3664,9,,0,733,1709,15381,285,OR,0.71,0.54,0.93,,,,0.71,0.54,0.93,,,21,16,4,0
+992,LTPA,9,,,,Camacho T.,Depression or depressive symptoms,1,Non-fatal,Both,3,3664,9,,0,733,782,7038,89,OR,0.58,0.43,0.8,,,,0.58,0.43,0.8,,,37,28,4,0
+993,LTPA,1,,,,Pavey T.,Depression or depressive symptoms,1,Non-fatal,Women,2,12094,3,,0,2418.8,5034,15102,1501,OR,1,,,,,,1,,,,,0,0,1,0
+993,LTPA,2,,,,Pavey T.,Depression or depressive symptoms,1,Non-fatal,Women,2,12094,3,,0,2418.8,358,1074,63,OR,0.59,0.45,0.78,,,,0.76,0.57,1.01,,,2.6472084,2.6472084,1,0
+993,LTPA,3,,,,Pavey T.,Depression or depressive symptoms,1,Non-fatal,Women,2,12094,3,,0,2418.8,1160,3480,156,OR,0.45,0.37,0.53,,,,0.58,0.49,0.7,,,9.291621714,9.291621714,1,0
+993,LTPA,4,,,,Pavey T.,Depression or depressive symptoms,1,Non-fatal,Women,2,12094,3,,0,2418.8,1454,4362,186,OR,0.43,0.36,0.51,,,,0.56,0.47,0.68,,,16.17882442,16.17882442,1,0
+993,LTPA,5,,,,Pavey T.,Depression or depressive symptoms,1,Non-fatal,Women,2,12094,3,,0,2418.8,1495,4485,187,OR,0.42,0.36,0.48,,,,0.58,0.48,0.69,,,23.16646519,23.16646519,1,0
+993,LTPA,6,,,,Pavey T.,Depression or depressive symptoms,1,Non-fatal,Women,2,12094,3,,0,2418.8,2593,7779,325,OR,0.42,0.36,0.48,,,,0.54,0.47,0.63,,,30.2131277,30.2131277,1,0
+994,LTPA,1,,,,Wise L.,Depression or depressive symptoms,1,Non-fatal,Women,2,35224,4,,0,9465,8437,33748,2488.915,OR,1,,,,,,1,,,,,0,0,3,0
+994,LTPA,2,,,,Wise L.,Depression or depressive symptoms,1,Non-fatal,Women,2,35224,4,,0,9465,8852,35408,2478.56,OR,0.93,0.87,1,,,,0.89,0.83,0.95,,,3.5,3,3,0
+994,LTPA,3,,,,Wise L.,Depression or depressive symptoms,1,Non-fatal,Women,2,35224,4,,0,9465,5900,23600,1581.2,OR,0.88,0.81,0.94,,,,0.85,0.78,0.92,,,7,6,3,0
+994,LTPA,4,,,,Wise L.,Depression or depressive symptoms,1,Non-fatal,Women,2,35224,4,,0,9465,4692,18768,1116.696,OR,0.75,0.69,0.81,,,,0.74,0.68,0.81,,,14,12,3,0
+994,LTPA,5,,,,Wise L.,Depression or depressive symptoms,1,Non-fatal,Women,2,35224,4,,0,9465,3775,15100,879.575,OR,0.73,0.66,0.79,,,,0.72,0.66,0.8,,,24.5,21,3,0
+994,LTPA,6,,,,Wise L.,Depression or depressive symptoms,1,Non-fatal,Women,2,35224,4,,0,9465,2139,8556,562.557,OR,0.85,0.77,0.95,,,,0.81,0.72,0.92,,,38.5,33,3,0
+994,LTPA,7,,,,Wise L.,Depression or depressive symptoms,1,Non-fatal,Women,2,35224,4,,0,9465,1429,5716,357.25,OR,0.8,0.7,0.91,,,,0.75,0.65,0.87,,,52.5,45,3,0
+999,LTPA,1,,,,Mikkelsen S. ,Depression or depressive symptoms,0,Non-fatal,Women,2,8804,26,,0,301,1936.88,50358.88,55,HR,0.58,0.43,79,,,,0.56,0.39,0.79,,,13.5,10.5,3,0
+999,LTPA,2,,,,Mikkelsen S. ,Depression or depressive symptoms,0,Non-fatal,Women,2,8804,26,,0,301,5282.4,137342.4,170,HR,0.66,0.52,0.84,,,,0.66,0.46,0.8,,,4.5,5,3,0
+999,LTPA,3,,,,Mikkelsen S. ,Depression or depressive symptoms,0,Non-fatal,Women,2,8804,26,,0,301,1584.72,41202.72,77,HR,1,,,,,,1,,,,,0.75,1,3,0
+999,LTPA,4,,,,Mikkelsen S. ,Depression or depressive symptoms,0,Non-fatal,Men,1,7704,26,,0,135,2542.32,66100.32,37,HR,0.63,0.4,1,,,,0.71,0.42,1.22,,,13.5,10.5,3,0
+999,LTPA,5,,,,Mikkelsen S. ,Depression or depressive symptoms,0,Non-fatal,Men,1,7704,26,,0,135,3774.96,98148.96,65,HR,0.75,0.5,1.13,,,,0.75,0.46,1.22,,,4.5,5,3,0
+999,LTPA,6,,,,Mikkelsen S. ,Depression or depressive symptoms,0,Non-fatal,Men,1,7704,26,,0,135,1386.72,36054.72,32,HR,1,,,,,,1,,,,,0.75,1,3,0
+999,LTPA,7,,,,Mikkelsen S. ,Depression or depressive symptoms,1,Non-fatal,Both,3,16508,26,,0,436,4479.200195,116459.2031,92,HR,0.6,0.45,0.81,,,,0.6,0.45,0.81,,,13.5,10.5,3,0
+999,LTPA,8,,,,Mikkelsen S. ,Depression or depressive symptoms,1,Non-fatal,Both,3,16508,26,,0,436,9057.360352,235491.3594,235,HR,0.68,0.54,0.87,,,,0.68,0.54,0.87,,,4.5,5,3,0
+999,LTPA,9,,,,Mikkelsen S. ,Depression or depressive symptoms,1,Non-fatal,Both,3,16508,26,,0,436,2971.439941,77257.4375,109,HR,1,,,,,,1,,,,,0.75,1,3,0
+9910,LTPA,1,,,,Hamer M.,Depression or depressive symptoms,1,Non-fatal,Both,3,4323,4,,0,348,674,2696,108,OR,1,,,,,,1,,,,,0.84375,0.5625,3,0
+9910,LTPA,2,,,,Hamer M.,Depression or depressive symptoms,1,Non-fatal,Both,3,4323,4,,0,348,2142,8568,161,OR,0.48,0.37,0.63,,,,0.73,0.55,0.96,,,3.9375,1.875,3,0
+9910,LTPA,3,,,,Hamer M.,Depression or depressive symptoms,1,Non-fatal,Both,3,4323,4,,0,348,1507,6028,79,OR,0.35,0.26,0.48,,,,0.6,0.43,0.84,,,7.875,4.5,3,0
+9914,LTPA,1,,,,Paffenbarger Jr R.,Depression or depressive symptoms,1,Non-fatal,Men,1,10201,25,244220,0,387,3468,83035,154,RR,1,,,,,,1,,,,,4.733051483,4.733051483,1,0
+9914,LTPA,2,,,,Paffenbarger Jr R.,Depression or depressive symptoms,1,Non-fatal,Men,1,10201,25,244220,0,387,3468,83035,129,RR,0.83,0.29296,1.36704,,,,0.83,0.29296,1.36704,,,18.78889113,18.78889113,1,0
+9914,LTPA,3,,,,Paffenbarger Jr R.,Depression or depressive symptoms,1,Non-fatal,Men,1,10201,25,244220,0,387,3264,78150,104,RR,0.72,0.18296,1.25704,,,,0.72,0.18296,1.25704,,,36.15577978,36.15577978,1,0
+9919,LTPA,1,,,,Kuwahara K.,Depression or depressive symptoms,1,Non-fatal,Both,3,29082,4.7,135747,0,6177,17704,82641,3954,HR,1,,,,,,1,,,,,0,0,1,0
+9919,LTPA,2,,,,Kuwahara K.,Depression or depressive symptoms,1,Non-fatal,Both,3,29082,4.7,135747,0,6177,2753,12860,603,HR,0.98,0.9,1.06,,,,0.97,0.89,1.05,,,0.95613439,0.95613439,1,0
+9919,LTPA,3,,,,Kuwahara K.,Depression or depressive symptoms,1,Non-fatal,Both,3,29082,4.7,135747,0,6177,2627,12255,516,HR,0.88,0.81,0.97,,,,0.9,0.82,0.98,,,4.165627438,4.165627438,1,0
+9919,LTPA,4,,,,Kuwahara K.,Depression or depressive symptoms,1,Non-fatal,Both,3,29082,4.7,135747,0,6177,3422,15983,650,HR,0.85,0.78,0.92,,,,0.92,0.84,0.99,,,8.883450647,8.883450647,1,0
+9919,LTPA,5,,,,Kuwahara K.,Depression or depressive symptoms,1,Non-fatal,Both,3,29082,4.7,135747,0,6177,1284,5984,209,HR,0.73,0.64,0.84,,,,0.85,0.74,0.98,,,16.31779703,16.31779703,1,0
+9919,LTPA,6,,,,Kuwahara K.,Depression or depressive symptoms,1,Non-fatal,Both,3,29082,4.7,135747,0,6177,1292,6024,245,HR,0.85,0.74,0.96,,,,0.95,0.83,1.08,,,23.86888981,23.86888981,1,0
+9922,LTPA,1,,,,Ten Have M.,Depression or depressive symptoms,1,Non-fatal,Both,3,3998,3,,0,244,1799.971564,5399.914692,132,OR,1,,,,,,1,,,,,0,0,3,0
+9922,LTPA,2,,,,Ten Have M.,Depression or depressive symptoms,1,Non-fatal,Both,3,3998,3,,0,244,1267.949708,3803.849124,58,OR,0.63,0.45,0.88,,,,0.63,0.45,0.88,,,7,5,3,0
+9922,LTPA,3,,,,Ten Have M.,Depression or depressive symptoms,1,Non-fatal,Both,3,3998,3,,0,244,930.078728,2790.236184,54,OR,0.79,0.55,1.13,,,,0.79,0.55,1.13,,,15.75,11.25,3,0
+9925,LTPA,1,,,,Harvey S.,Depression or depressive symptoms,1,Non-fatal,Both,3,22564,11,,0,1578,2818.836969,31007.20666,277,OR,1,,,,,,1,,,,,0,0,3,0
+9925,LTPA,2,,,,Harvey S.,Depression or depressive symptoms,1,Non-fatal,Both,3,22564,11,,0,1578,5688.396374,62572.36011,427,OR,0.76,0.64,0.91,,,,0.83,0.68,1.01,,,0.875,0.625,3,0
+9925,LTPA,3,,,,Harvey S.,Depression or depressive symptoms,1,Non-fatal,Both,3,22564,11,,0,1578,5411.501769,59526.51946,359,OR,0.67,0.56,0.81,,,,0.77,0.63,0.94,,,2.625,1.875,3,0
+9925,LTPA,4,,,,Harvey S.,Depression or depressive symptoms,1,Non-fatal,Both,3,22564,11,,0,1578,4509.307636,49602.384,262,OR,0.59,0.49,0.72,,,,0.69,0.56,0.86,,,5.25,3.75,3,0
+9925,LTPA,5,,,,Harvey S.,Depression or depressive symptoms,1,Non-fatal,Both,3,22564,11,,0,1578,2144.478037,23589.25841,135,OR,0.64,0.5,0.81,,,,0.72,0.56,0.93,,,10.5,7.5,3,0
+9925,LTPA,6,,,,Harvey S.,Depression or depressive symptoms,1,Non-fatal,Both,3,22564,11,,0,1578,1991.479216,21906.27138,119,OR,0.61,0.48,0.78,,,,0.69,0.53,0.89,,,17.5,12.5,3,0
+9926,LTPA,1,,,,Chang S.,Depression or depressive symptoms,1,Non-fatal,Women,2,21728,8,,24,3945,,24206,334,HR,1.04,0.91,1.2,,,,1.02,0.88,1.17,,,21.875,15.625,3,0
+9926,LTPA,2,,,,Chang S.,Depression or depressive symptoms,1,Non-fatal,Women,2,21728,8,,24,3945,,24678,435,HR,0.96,0.82,1.14,,,,0.91,0.77,1.07,,,13.125,9.375,3,0
+9926,LTPA,3,,,,Chang S.,Depression or depressive symptoms,1,Non-fatal,Women,2,21728,8,,24,3945,,23689,475,HR,0.91,0.78,1.06,,,,0.96,0.82,1.11,,,4.375,3.125,3,0
+9926,LTPA,4,,,,Chang S.,Depression or depressive symptoms,1,Non-fatal,Women,2,21728,8,,24,3945,,29928,780,HR,0.88,0.78,0.98,,,,0.85,0.76,0.96,,,1.75,1.25,3,0
+9926,LTPA,5,,,,Chang S.,Depression or depressive symptoms,1,Non-fatal,Women,2,21728,8,,24,3945,,77639,1921,HR,1,,,,,,1,,,,,0,0,3,0
+9929,LTPA,1,,,,Cabello M.,Depression or depressive symptoms,1,Non-fatal,Both,3,5970,5.5,,0,594,3973,21851.5,381,OR,1,,,,,,1,,,,,0,0,1,1
+9929,LTPA,2,,,,Cabello M.,Depression or depressive symptoms,1,Non-fatal,Both,3,5970,5.5,,0,594,903,4966.5,84,OR,0.79,0.59,1.06,,,,0.79,0.59,1.06,,,9,9,1,1
+9929,LTPA,3,,,,Cabello M.,Depression or depressive symptoms,1,Non-fatal,Both,3,5970,5.5,,0,594,1094,6017,129,OR,0.81,0.59,1.12,,,,0.81,0.59,1.12,,,22,22,1,1
+9934,LTPA,1,,,,Fernandez-Montero A.,Depression or depressive symptoms,1,Non-fatal,Both,3,15488,10.5,163059,0,870,5597,59193,366,HR,1,,,,,,1,,,,,3.287970573,3.287970573,1,0
+9934,LTPA,2,,,,Fernandez-Montero A.,Depression or depressive symptoms,1,Non-fatal,Both,3,15488,10.5,163059,0,870,3548,37606,193,HR,0.88,0.74,1.05,,,,0.88,0.74,1.05,,,11.34275881,11.34275881,1,0
+9934,LTPA,3,,,,Fernandez-Montero A.,Depression or depressive symptoms,1,Non-fatal,Both,3,15488,10.5,163059,0,870,6343,66260,311,HR,0.84,0.72,0.99,,,,0.84,0.72,0.99,,,19.6635095,19.6635095,1,0
+9937,LTPA,1,,,,Hughes K.,Depression or depressive symptoms,1,Non-fatal,Men,1,6311,22,,0,788,1262.2,27768.4,191.8544,OR,1,,,,,,1,,,,,0.3692615,0.3692615,1,0
+9937,LTPA,2,,,,Hughes K.,Depression or depressive symptoms,1,Non-fatal,Men,1,6311,22,,0,788,1262.2,27768.4,157.775,OR,0.8,0.6,1.07,,,,0.82,0.62,1.1,,,3.443044709,3.443044709,1,0
+9937,LTPA,3,,,,Hughes K.,Depression or depressive symptoms,1,Non-fatal,Men,1,6311,22,,0,788,1262.2,27768.4,150.2018,OR,0.8,0.6,1.06,,,,0.84,0.63,1.13,,,8.883450647,8.883450647,1,0
+9937,LTPA,4,,,,Hughes K.,Depression or depressive symptoms,1,Non-fatal,Men,1,6311,22,,0,788,1262.2,27768.4,155.2506,OR,0.86,0.65,1.15,,,,0.92,0.68,1.23,,,18.15560277,18.15560277,1,0
+9937,LTPA,5,,,,Hughes K.,Depression or depressive symptoms,1,Non-fatal,Men,1,6311,22,,0,788,1262.2,27768.4,132.531,OR,0.76,0.57,1.03,,,,0.83,0.61,1.13,,,48.04017894,48.04017894,1,0
+9941,LTPA,1,,,,Hallgren M.,Depression or depressive symptoms,1,Non-fatal,Both,3,20594,13,,0,289,4854.761129,63111.89467,80,HR,1,,,,,,1,,,,,4.345833333,3.104166667,3,0
+9941,LTPA,2,,,,Hallgren M.,Depression or depressive symptoms,1,Non-fatal,Both,3,20594,13,,0,289,7865.584561,102252.5993,111,HR,0.85,0.66,1.09,,,,0.86,0.64,1.14,,,13.125,9.375,3,0
+9941,LTPA,3,,,,Hallgren M.,Depression or depressive symptoms,1,Non-fatal,Both,3,20594,13,,0,289,7873.65431,102357.506,98,HR,0.75,0.58,0.97,,,,0.71,0.53,0.96,,,21.875,15.625,3,0
