@@ -55,11 +55,11 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 295,Kabat G.,All-cause cancer,Both,3,ci,476396,103502,5002159,1086777,10.5,1.88,NA,NA,hr,NA,NA,17052,1,LTPA,3,NA,NA,1086777,Both,missing RRs,TRUE,TRUE
 295,Kabat G.,All-cause cancer,Both,3,ci,476396,128885,5002159,1353282,10.5,4.38,NA,NA,hr,NA,NA,20324,1,LTPA,3,NA,NA,1353282,Both,missing RRs,TRUE,TRUE
 295,Kabat G.,All-cause cancer,Both,3,ci,476396,92603,5002159,972331,10.5,6.88,NA,NA,hr,NA,NA,14378,1,LTPA,3,NA,NA,972331,Both,missing RRs,TRUE,TRUE
-300,McKenzie,All-cause cancer,Both,3,ci,121200,2424,4345837,869167.4,35.85674092,0,NA,NA,hr,NA,NA,5882,1,LTPA,4,NA,NA,869167.4,Both,missing RRs,TRUE,TRUE
-300,McKenzie,All-cause cancer,Both,3,ci,121200,2424,4345837,869167.4,35.85674092,20.44,NA,NA,hr,NA,NA,5820,1,LTPA,4,NA,NA,869167.4,Both,missing RRs,TRUE,TRUE
-300,McKenzie,All-cause cancer,Both,3,ci,121200,2424,4345837,869167.4,35.85674092,42.36,NA,NA,hr,NA,NA,5671,1,LTPA,4,NA,NA,869167.4,Both,missing RRs,TRUE,TRUE
-300,McKenzie,All-cause cancer,Both,3,ci,121200,2424,4345837,869167.4,35.85674092,70.45,NA,NA,hr,NA,NA,5616,1,LTPA,4,NA,NA,869167.4,Both,missing RRs,TRUE,TRUE
-300,McKenzie,All-cause cancer,Both,3,ci,121200,2424,4345837,869167.4,35.85674092,103.45,NA,NA,hr,NA,NA,5525,1,LTPA,4,NA,NA,869167.4,Both,missing RRs,TRUE,TRUE
+300,McKenzie,All-cause cancer,Both,3,ci,121200,2424,4345837,869167.4,35.856740924092406,0,NA,NA,hr,NA,NA,5882,1,LTPA,4,NA,NA,869167.4,Both,missing RRs,TRUE,TRUE
+300,McKenzie,All-cause cancer,Both,3,ci,121200,2424,4345837,869167.4,35.856740924092406,20.44,NA,NA,hr,NA,NA,5820,1,LTPA,4,NA,NA,869167.4,Both,missing RRs,TRUE,TRUE
+300,McKenzie,All-cause cancer,Both,3,ci,121200,2424,4345837,869167.4,35.856740924092406,42.36,NA,NA,hr,NA,NA,5671,1,LTPA,4,NA,NA,869167.4,Both,missing RRs,TRUE,TRUE
+300,McKenzie,All-cause cancer,Both,3,ci,121200,2424,4345837,869167.4,35.856740924092406,70.45,NA,NA,hr,NA,NA,5616,1,LTPA,4,NA,NA,869167.4,Both,missing RRs,TRUE,TRUE
+300,McKenzie,All-cause cancer,Both,3,ci,121200,2424,4345837,869167.4,35.856740924092406,103.45,NA,NA,hr,NA,NA,5525,1,LTPA,4,NA,NA,869167.4,Both,missing RRs,TRUE,TRUE
 26,Orsini N,All-cause cancer,Fatal,1,ir,28880,7662,272425,68106,7,0,NA,NA,rr,NA,NA,217,1,LTPA,8,NA,NA,68106,Both,missing RRs,TRUE,TRUE
 26,Orsini N,All-cause cancer,Fatal,1,ir,28880,7662,272426,68106,7,18.13,NA,NA,rr,NA,NA,181,1,LTPA,8,NA,NA,68106,Both,missing RRs,TRUE,TRUE
 26,Orsini N,All-cause cancer,Fatal,1,ir,28880,7662,272427,68106,7,36.31,NA,NA,rr,NA,NA,197,1,LTPA,8,NA,NA,68106,Both,missing RRs,TRUE,TRUE
@@ -201,17 +201,17 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 998,Rosness T.,All-cause dementia,Fatal,3,ci,26055,6664,268366.5,68639.2,10.3,6.75,NA,NA,hr,NA,NA,343,1,LTPA,1,NA,NA,68639.2,Fatal,missing RRs,TRUE,TRUE
 998,Rosness T.,All-cause dementia,Fatal,3,ci,26055,6851,268366.5,70565.3,10.3,3.75,NA,NA,hr,NA,NA,242,1,LTPA,1,NA,NA,70565.3,Fatal,missing RRs,TRUE,TRUE
 998,Rosness T.,All-cause dementia,Fatal,3,ci,26055,2077,268366.5,21393.1,10.3,11.25,NA,NA,hr,NA,NA,86,1,LTPA,1,NA,NA,21393.1,Fatal,missing RRs,TRUE,TRUE
-9938,Koolhaas C.,All-cause dementia,Fatal,3,ci,5046,1682,66102.6,22034.2,13.1,0,NA,NA,hr,NA,NA,97,1,LTPA,2,NA,NA,22034.2,Fatal,missing RRs,TRUE,TRUE
-9938,Koolhaas C.,All-cause dementia,Fatal,3,ci,5046,1682,66102.6,22034.2,13.1,31,NA,NA,hr,NA,NA,122,1,LTPA,2,NA,NA,22034.2,Fatal,missing RRs,TRUE,TRUE
-9938,Koolhaas C.,All-cause dementia,Fatal,3,ci,5046,1682,66102.6,22034.2,13.1,73,NA,NA,hr,NA,NA,119,1,LTPA,2,NA,NA,22034.2,Fatal,missing RRs,TRUE,TRUE
+9938,Koolhaas C.,All-cause dementia,Fatal,3,ci,5046,1682,66102.59999999999,22034.2,13.1,0,NA,NA,hr,NA,NA,97,1,LTPA,2,NA,NA,22034.2,Fatal,missing RRs,TRUE,TRUE
+9938,Koolhaas C.,All-cause dementia,Fatal,3,ci,5046,1682,66102.59999999999,22034.2,13.1,31,NA,NA,hr,NA,NA,122,1,LTPA,2,NA,NA,22034.2,Fatal,missing RRs,TRUE,TRUE
+9938,Koolhaas C.,All-cause dementia,Fatal,3,ci,5046,1682,66102.59999999999,22034.2,13.1,73,NA,NA,hr,NA,NA,119,1,LTPA,2,NA,NA,22034.2,Fatal,missing RRs,TRUE,TRUE
 995,Laurin D.,All-cause dementia,Non-fatal,3,ir,3927,1213,19635,6065,5,0,NA,NA,or,NA,NA,110,1,LTPA,1,NA,NA,6065,Non-fatal,missing RRs,TRUE,TRUE
 995,Laurin D.,All-cause dementia,Non-fatal,3,ir,3927,513,19635,2565,5,2.81,NA,NA,or,NA,NA,28,1,LTPA,1,NA,NA,2565,Non-fatal,missing RRs,TRUE,TRUE
 995,Laurin D.,All-cause dementia,Non-fatal,3,ir,3927,1439,19635,7195,5,5.62,NA,NA,or,NA,NA,79,1,LTPA,1,NA,NA,7195,Non-fatal,missing RRs,TRUE,TRUE
 995,Laurin D.,All-cause dementia,Non-fatal,3,ir,3927,762,19635,3810,5,13.5,NA,NA,or,NA,NA,31,1,LTPA,1,NA,NA,3810,Non-fatal,missing RRs,TRUE,TRUE
-997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,844,18214.2,4372.881356,5.4,0.72,NA,NA,hr,NA,NA,129,1,LTPA,2,NA,NA,4372.881356,Non-fatal,missing RRs,TRUE,TRUE
-997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,842,18214.2,4503.311258,5.4,4.18,NA,NA,hr,NA,NA,136,1,LTPA,2,NA,NA,4503.311258,Non-fatal,missing RRs,TRUE,TRUE
-997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,844,18214.2,4644.351464,5.4,11.25,NA,NA,hr,NA,NA,111,1,LTPA,2,NA,NA,4644.351464,Non-fatal,missing RRs,TRUE,TRUE
-997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,843,18214.2,4724.770642,5.4,20.7,NA,NA,hr,NA,NA,103,1,LTPA,2,NA,NA,4724.770642,Non-fatal,missing RRs,TRUE,TRUE
+997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,844,18214.2,4372.881356,5.4,1.01,NA,NA,hr,NA,NA,129,1,LTPA,2,NA,NA,4372.881356,Non-fatal,missing RRs,TRUE,TRUE
+997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,842,18214.2,4503.311258,5.4,5.51,NA,NA,hr,NA,NA,136,1,LTPA,2,NA,NA,4503.311258,Non-fatal,missing RRs,TRUE,TRUE
+997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,844,18214.2,4644.351464,5.4,14.61,NA,NA,hr,NA,NA,111,1,LTPA,2,NA,NA,4644.351464,Non-fatal,missing RRs,TRUE,TRUE
+997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,843,18214.2,4724.770642,5.4,26.73,NA,NA,hr,NA,NA,103,1,LTPA,2,NA,NA,4724.770642,Non-fatal,missing RRs,TRUE,TRUE
 9911,Soni M.,All-cause dementia,Non-fatal,3,ci,11025,1065,99225,9585,9,0.38,NA,NA,hr,NA,NA,76,1,LTPA,3,NA,NA,9585,Non-fatal,missing RRs,TRUE,TRUE
 9911,Soni M.,All-cause dementia,Non-fatal,3,ci,11025,1597,99225,14373,9,0.75,NA,NA,hr,NA,NA,83,1,LTPA,3,NA,NA,14373,Non-fatal,missing RRs,TRUE,TRUE
 9911,Soni M.,All-cause dementia,Non-fatal,3,ci,11025,1597,99225,14373,9,1.25,NA,NA,hr,NA,NA,60,1,LTPA,3,NA,NA,14373,Non-fatal,missing RRs,TRUE,TRUE
@@ -228,10 +228,10 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 9923,Llamas-Velasco S.,All-cause dementia,Non-fatal,3,ci,3105,865,9315,2595,3,1.5,NA,NA,hr,NA,NA,30,1,LTPA,6,NA,NA,2595,Non-fatal,missing RRs,TRUE,TRUE
 9923,Llamas-Velasco S.,All-cause dementia,Non-fatal,3,ci,3105,681,9315,2043,3,2.5,NA,NA,hr,NA,NA,19,1,LTPA,6,NA,NA,2043,Non-fatal,missing RRs,TRUE,TRUE
 9923,Llamas-Velasco S.,All-cause dementia,Non-fatal,3,ci,3105,769,9315,2307,3,6.25,NA,NA,hr,NA,NA,15,1,LTPA,6,NA,NA,2307,Non-fatal,missing RRs,TRUE,TRUE
-9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1470,44407.5,11025,7.5,2.31,NA,NA,or,NA,NA,354,1,LTPA,7,NA,NA,11025,Non-fatal,missing RRs,TRUE,TRUE
-9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1491,44407.5,11182.5,7.5,10,NA,NA,or,NA,NA,306,1,LTPA,7,NA,NA,11182.5,Non-fatal,missing RRs,TRUE,TRUE
-9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1480,44407.5,11100,7.5,18.75,NA,NA,or,NA,NA,266,1,LTPA,7,NA,NA,11100,Non-fatal,missing RRs,TRUE,TRUE
-9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1480,44407.5,11100,7.5,31.02,NA,NA,or,NA,NA,252,1,LTPA,7,NA,NA,11100,Non-fatal,missing RRs,TRUE,TRUE
+9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1470,44407.5,11025,7.5,3.44,NA,NA,or,NA,NA,354,1,LTPA,7,NA,NA,11025,Non-fatal,missing RRs,TRUE,TRUE
+9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1491,44407.5,11182.5,7.5,14.38,NA,NA,or,NA,NA,306,1,LTPA,7,NA,NA,11182.5,Non-fatal,missing RRs,TRUE,TRUE
+9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1480,44407.5,11100,7.5,26.74,NA,NA,or,NA,NA,266,1,LTPA,7,NA,NA,11100,Non-fatal,missing RRs,TRUE,TRUE
+9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1480,44407.5,11100,7.5,44.03,NA,NA,or,NA,NA,252,1,LTPA,7,NA,NA,11100,Non-fatal,missing RRs,TRUE,TRUE
 9932,Chang M.,All-cause dementia,Non-fatal,3,ir,4945,3413,128570,88738,26,0,NA,NA,or,NA,NA,145,1,LTPA,8,NA,NA,88738,Non-fatal,missing RRs,TRUE,TRUE
 9932,Chang M.,All-cause dementia,Non-fatal,3,ir,4945,1309,128570,34034,26,6.25,NA,NA,or,NA,NA,32,1,LTPA,8,NA,NA,34034,Non-fatal,missing RRs,TRUE,TRUE
 9932,Chang M.,All-cause dementia,Non-fatal,3,ir,4945,223,128570,5798,26,18.75,NA,NA,or,NA,NA,7,1,LTPA,8,NA,NA,5798,Non-fatal,missing RRs,TRUE,TRUE
@@ -256,10 +256,10 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 9931,Sabia S.,All-cause dementia,Both,3,ci,10308,4285,274192.8,113981,26.6,0,NA,NA,hr,NA,NA,142,1,LTPA,2,NA,NA,113981,Both,missing RRs,TRUE,TRUE
 9931,Sabia S.,All-cause dementia,Both,3,ci,10308,3451,274192.8,91796.6,26.6,15,NA,NA,hr,NA,NA,71,1,LTPA,2,NA,NA,91796.6,Both,missing RRs,TRUE,TRUE
 9931,Sabia S.,All-cause dementia,Both,3,ci,10308,2572,274192.8,68415.2,26.6,25,NA,NA,hr,NA,NA,116,1,LTPA,2,NA,NA,68415.2,Both,missing RRs,TRUE,TRUE
-9940,Palta P.,All-cause dementia,Both,3,ci,10705,3590,186267,62466,17.4,0,NA,NA,hr,NA,NA,379,1,LTPA,3,NA,NA,62466,Both,missing RRs,TRUE,TRUE
-9940,Palta P.,All-cause dementia,Both,3,ci,10705,2372,186267,41272.8,17.4,3.34,NA,NA,hr,NA,NA,235,1,LTPA,3,NA,NA,41272.8,Both,missing RRs,TRUE,TRUE
-9940,Palta P.,All-cause dementia,Both,3,ci,10705,2372,186267,41272.8,17.4,11.21,NA,NA,hr,NA,NA,233,1,LTPA,3,NA,NA,41272.8,Both,missing RRs,TRUE,TRUE
-9940,Palta P.,All-cause dementia,Both,3,ci,10705,2371,186267,41255.4,17.4,19.03,NA,NA,hr,NA,NA,216,1,LTPA,3,NA,NA,41255.4,Both,missing RRs,TRUE,TRUE
+9940,Palta P.,All-cause dementia,Both,3,ci,10705,3590,186266.99999999997,62466,17.4,0,NA,NA,hr,NA,NA,379,1,LTPA,3,NA,NA,62466,Both,missing RRs,TRUE,TRUE
+9940,Palta P.,All-cause dementia,Both,3,ci,10705,2372,186266.99999999997,41272.8,17.4,3.34,NA,NA,hr,NA,NA,235,1,LTPA,3,NA,NA,41272.8,Both,missing RRs,TRUE,TRUE
+9940,Palta P.,All-cause dementia,Both,3,ci,10705,2372,186266.99999999997,41272.8,17.4,11.21,NA,NA,hr,NA,NA,233,1,LTPA,3,NA,NA,41272.8,Both,missing RRs,TRUE,TRUE
+9940,Palta P.,All-cause dementia,Both,3,ci,10705,2371,186266.99999999997,41255.4,17.4,19.03,NA,NA,hr,NA,NA,216,1,LTPA,3,NA,NA,41255.4,Both,missing RRs,TRUE,TRUE
 9943,Nabe-Nielsen K.,All-cause dementia,Both,1,ir,4721,811,86558,14119,18,0,NA,NA,rr,NA,NA,127,1,LTPA,4,NA,NA,14119,Both,missing RRs,TRUE,TRUE
 9943,Nabe-Nielsen K.,All-cause dementia,Both,1,ir,4721,3396,86558,63081,18,9,NA,NA,rr,NA,NA,492,1,LTPA,4,NA,NA,63081,Both,missing RRs,TRUE,TRUE
 9943,Nabe-Nielsen K.,All-cause dementia,Both,1,ir,4721,514,86558,9358,18,27,NA,NA,rr,NA,NA,78,1,LTPA,4,NA,NA,9358,Both,missing RRs,TRUE,TRUE
@@ -268,17 +268,17 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 998,Rosness T.,All-cause dementia,Fatal,3,ci,26055,6664,268366.5,68639.2,10.3,6.75,NA,NA,hr,NA,NA,343,1,LTPA,5,NA,NA,68639.2,Both,missing RRs,TRUE,TRUE
 998,Rosness T.,All-cause dementia,Fatal,3,ci,26055,6851,268366.5,70565.3,10.3,3.75,NA,NA,hr,NA,NA,242,1,LTPA,5,NA,NA,70565.3,Both,missing RRs,TRUE,TRUE
 998,Rosness T.,All-cause dementia,Fatal,3,ci,26055,2077,268366.5,21393.1,10.3,11.25,NA,NA,hr,NA,NA,86,1,LTPA,5,NA,NA,21393.1,Both,missing RRs,TRUE,TRUE
-9938,Koolhaas C.,All-cause dementia,Fatal,3,ci,5046,1682,66102.6,22034.2,13.1,0,NA,NA,hr,NA,NA,97,1,LTPA,6,NA,NA,22034.2,Both,missing RRs,TRUE,TRUE
-9938,Koolhaas C.,All-cause dementia,Fatal,3,ci,5046,1682,66102.6,22034.2,13.1,31,NA,NA,hr,NA,NA,122,1,LTPA,6,NA,NA,22034.2,Both,missing RRs,TRUE,TRUE
-9938,Koolhaas C.,All-cause dementia,Fatal,3,ci,5046,1682,66102.6,22034.2,13.1,73,NA,NA,hr,NA,NA,119,1,LTPA,6,NA,NA,22034.2,Both,missing RRs,TRUE,TRUE
+9938,Koolhaas C.,All-cause dementia,Fatal,3,ci,5046,1682,66102.59999999999,22034.2,13.1,0,NA,NA,hr,NA,NA,97,1,LTPA,6,NA,NA,22034.2,Both,missing RRs,TRUE,TRUE
+9938,Koolhaas C.,All-cause dementia,Fatal,3,ci,5046,1682,66102.59999999999,22034.2,13.1,31,NA,NA,hr,NA,NA,122,1,LTPA,6,NA,NA,22034.2,Both,missing RRs,TRUE,TRUE
+9938,Koolhaas C.,All-cause dementia,Fatal,3,ci,5046,1682,66102.59999999999,22034.2,13.1,73,NA,NA,hr,NA,NA,119,1,LTPA,6,NA,NA,22034.2,Both,missing RRs,TRUE,TRUE
 995,Laurin D.,All-cause dementia,Non-fatal,3,ir,3927,1213,19635,6065,5,0,NA,NA,or,NA,NA,110,1,LTPA,7,NA,NA,6065,Both,missing RRs,TRUE,TRUE
 995,Laurin D.,All-cause dementia,Non-fatal,3,ir,3927,513,19635,2565,5,2.81,NA,NA,or,NA,NA,28,1,LTPA,7,NA,NA,2565,Both,missing RRs,TRUE,TRUE
 995,Laurin D.,All-cause dementia,Non-fatal,3,ir,3927,1439,19635,7195,5,5.62,NA,NA,or,NA,NA,79,1,LTPA,7,NA,NA,7195,Both,missing RRs,TRUE,TRUE
 995,Laurin D.,All-cause dementia,Non-fatal,3,ir,3927,762,19635,3810,5,13.5,NA,NA,or,NA,NA,31,1,LTPA,7,NA,NA,3810,Both,missing RRs,TRUE,TRUE
-997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,844,18214.2,4372.881356,5.4,0.72,NA,NA,hr,NA,NA,129,1,LTPA,8,NA,NA,4372.881356,Both,missing RRs,TRUE,TRUE
-997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,842,18214.2,4503.311258,5.4,4.18,NA,NA,hr,NA,NA,136,1,LTPA,8,NA,NA,4503.311258,Both,missing RRs,TRUE,TRUE
-997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,844,18214.2,4644.351464,5.4,11.25,NA,NA,hr,NA,NA,111,1,LTPA,8,NA,NA,4644.351464,Both,missing RRs,TRUE,TRUE
-997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,843,18214.2,4724.770642,5.4,20.7,NA,NA,hr,NA,NA,103,1,LTPA,8,NA,NA,4724.770642,Both,missing RRs,TRUE,TRUE
+997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,844,18214.2,4372.881356,5.4,1.01,NA,NA,hr,NA,NA,129,1,LTPA,8,NA,NA,4372.881356,Both,missing RRs,TRUE,TRUE
+997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,842,18214.2,4503.311258,5.4,5.51,NA,NA,hr,NA,NA,136,1,LTPA,8,NA,NA,4503.311258,Both,missing RRs,TRUE,TRUE
+997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,844,18214.2,4644.351464,5.4,14.61,NA,NA,hr,NA,NA,111,1,LTPA,8,NA,NA,4644.351464,Both,missing RRs,TRUE,TRUE
+997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,843,18214.2,4724.770642,5.4,26.73,NA,NA,hr,NA,NA,103,1,LTPA,8,NA,NA,4724.770642,Both,missing RRs,TRUE,TRUE
 9911,Soni M.,All-cause dementia,Non-fatal,3,ci,11025,1065,99225,9585,9,0.38,NA,NA,hr,NA,NA,76,1,LTPA,9,NA,NA,9585,Both,missing RRs,TRUE,TRUE
 9911,Soni M.,All-cause dementia,Non-fatal,3,ci,11025,1597,99225,14373,9,0.75,NA,NA,hr,NA,NA,83,1,LTPA,9,NA,NA,14373,Both,missing RRs,TRUE,TRUE
 9911,Soni M.,All-cause dementia,Non-fatal,3,ci,11025,1597,99225,14373,9,1.25,NA,NA,hr,NA,NA,60,1,LTPA,9,NA,NA,14373,Both,missing RRs,TRUE,TRUE
@@ -295,10 +295,10 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 9923,Llamas-Velasco S.,All-cause dementia,Non-fatal,3,ci,3105,865,9315,2595,3,1.5,NA,NA,hr,NA,NA,30,1,LTPA,12,NA,NA,2595,Both,missing RRs,TRUE,TRUE
 9923,Llamas-Velasco S.,All-cause dementia,Non-fatal,3,ci,3105,681,9315,2043,3,2.5,NA,NA,hr,NA,NA,19,1,LTPA,12,NA,NA,2043,Both,missing RRs,TRUE,TRUE
 9923,Llamas-Velasco S.,All-cause dementia,Non-fatal,3,ci,3105,769,9315,2307,3,6.25,NA,NA,hr,NA,NA,15,1,LTPA,12,NA,NA,2307,Both,missing RRs,TRUE,TRUE
-9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1470,44407.5,11025,7.5,2.31,NA,NA,or,NA,NA,354,1,LTPA,13,NA,NA,11025,Both,missing RRs,TRUE,TRUE
-9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1491,44407.5,11182.5,7.5,10,NA,NA,or,NA,NA,306,1,LTPA,13,NA,NA,11182.5,Both,missing RRs,TRUE,TRUE
-9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1480,44407.5,11100,7.5,18.75,NA,NA,or,NA,NA,266,1,LTPA,13,NA,NA,11100,Both,missing RRs,TRUE,TRUE
-9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1480,44407.5,11100,7.5,31.02,NA,NA,or,NA,NA,252,1,LTPA,13,NA,NA,11100,Both,missing RRs,TRUE,TRUE
+9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1470,44407.5,11025,7.5,3.44,NA,NA,or,NA,NA,354,1,LTPA,13,NA,NA,11025,Both,missing RRs,TRUE,TRUE
+9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1491,44407.5,11182.5,7.5,14.38,NA,NA,or,NA,NA,306,1,LTPA,13,NA,NA,11182.5,Both,missing RRs,TRUE,TRUE
+9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1480,44407.5,11100,7.5,26.74,NA,NA,or,NA,NA,266,1,LTPA,13,NA,NA,11100,Both,missing RRs,TRUE,TRUE
+9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1480,44407.5,11100,7.5,44.03,NA,NA,or,NA,NA,252,1,LTPA,13,NA,NA,11100,Both,missing RRs,TRUE,TRUE
 9932,Chang M.,All-cause dementia,Non-fatal,3,ir,4945,3413,128570,88738,26,0,NA,NA,or,NA,NA,145,1,LTPA,14,NA,NA,88738,Both,missing RRs,TRUE,TRUE
 9932,Chang M.,All-cause dementia,Non-fatal,3,ir,4945,1309,128570,34034,26,6.25,NA,NA,or,NA,NA,32,1,LTPA,14,NA,NA,34034,Both,missing RRs,TRUE,TRUE
 9932,Chang M.,All-cause dementia,Non-fatal,3,ir,4945,223,128570,5798,26,18.75,NA,NA,or,NA,NA,7,1,LTPA,14,NA,NA,5798,Both,missing RRs,TRUE,TRUE
@@ -502,10 +502,10 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 3284,"Arem, H.",All-cause mortality,Fatal,2,ci,32768,746,131072,20889,4,24.92,NA,NA,hr,NA,NA,36,1,LTPA,49,NA,NA,20889,Both,missing RRs,TRUE,TRUE
 3284,"Arem, H.",All-cause mortality,Fatal,2,ci,32768,336,131072,9409,4,47.27,NA,NA,hr,NA,NA,15,1,LTPA,49,NA,NA,9409,Both,missing RRs,TRUE,TRUE
 3284,"Arem, H.",All-cause mortality,Fatal,2,ci,32768,25,131072,696,4,77.39,NA,NA,hr,NA,NA,3,1,LTPA,49,NA,NA,696,Both,missing RRs,TRUE,TRUE
-9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,66389,1781017.6,770112.4,11.6,2.33,NA,NA,hr,NA,NA,85,1,LTPA,1,NA,NA,770112.4,Fatal,missing RRs,TRUE,TRUE
-9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,35298,1781017.6,409456.8,11.6,7.27,NA,NA,hr,NA,NA,42,1,LTPA,1,NA,NA,409456.8,Fatal,missing RRs,TRUE,TRUE
-9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,43696,1781017.6,506873.6,11.6,14.57,NA,NA,hr,NA,NA,42,1,LTPA,1,NA,NA,506873.6,Fatal,missing RRs,TRUE,TRUE
-9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,8153,1781017.6,94574.8,11.6,25.13,NA,NA,hr,NA,NA,6,1,LTPA,1,NA,NA,94574.8,Fatal,missing RRs,TRUE,TRUE
+9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,66389,1781017.5999999999,770112.4,11.6,2.33,NA,NA,hr,NA,NA,85,1,LTPA,1,NA,NA,770112.4,Fatal,missing RRs,TRUE,TRUE
+9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,35298,1781017.5999999999,409456.8,11.6,7.27,NA,NA,hr,NA,NA,42,1,LTPA,1,NA,NA,409456.8,Fatal,missing RRs,TRUE,TRUE
+9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,43696,1781017.5999999999,506873.6,11.6,14.57,NA,NA,hr,NA,NA,42,1,LTPA,1,NA,NA,506873.6,Fatal,missing RRs,TRUE,TRUE
+9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,8153,1781017.5999999999,94574.8,11.6,25.13,NA,NA,hr,NA,NA,6,1,LTPA,1,NA,NA,94574.8,Fatal,missing RRs,TRUE,TRUE
 9933,Zhao M.,Alzheimer's disease,Fatal,3,ci,479856,268193,4198740,2346688.75,8.75,3.12,NA,NA,hr,NA,NA,1091,1,LTPA,2,NA,NA,2346688.75,Fatal,missing RRs,TRUE,TRUE
 9933,Zhao M.,Alzheimer's disease,Fatal,3,ci,479856,21428,4198740,187495,8.75,3.75,NA,NA,hr,NA,NA,63,1,LTPA,2,NA,NA,187495,Fatal,missing RRs,TRUE,TRUE
 9933,Zhao M.,Alzheimer's disease,Fatal,3,ci,479856,113851,4198740,996196.25,8.75,9.38,NA,NA,hr,NA,NA,250,1,LTPA,2,NA,NA,996196.25,Fatal,missing RRs,TRUE,TRUE
@@ -514,10 +514,10 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 995,Laurin D.,Alzheimer's disease,Non-fatal,3,ir,3848,506,19240,2530,5,2.81,NA,NA,or,NA,NA,21,1,LTPA,1,NA,NA,2530,Non-fatal,missing RRs,TRUE,TRUE
 995,Laurin D.,Alzheimer's disease,Non-fatal,3,ir,3848,1412,19240,7060,5,5.62,NA,NA,or,NA,NA,52,1,LTPA,1,NA,NA,7060,Non-fatal,missing RRs,TRUE,TRUE
 995,Laurin D.,Alzheimer's disease,Non-fatal,3,ir,3848,747,19240,3735,5,13.5,NA,NA,or,NA,NA,16,1,LTPA,1,NA,NA,3735,Non-fatal,missing RRs,TRUE,TRUE
-997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,844,18214.2,4367.088608,5.4,0.72,NA,NA,hr,NA,NA,69,1,LTPA,2,NA,NA,4367.088608,Non-fatal,missing RRs,TRUE,TRUE
-997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,842,18214.2,4516.129032,5.4,4.18,NA,NA,hr,NA,NA,70,1,LTPA,2,NA,NA,4516.129032,Non-fatal,missing RRs,TRUE,TRUE
-997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,844,18214.2,4640,5.4,11.25,NA,NA,hr,NA,NA,58,1,LTPA,2,NA,NA,4640,Non-fatal,missing RRs,TRUE,TRUE
-997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,843,18214.2,4705.882353,5.4,20.7,NA,NA,hr,NA,NA,48,1,LTPA,2,NA,NA,4705.882353,Non-fatal,missing RRs,TRUE,TRUE
+997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,844,18214.2,4367.088608,5.4,1.01,NA,NA,hr,NA,NA,69,1,LTPA,2,NA,NA,4367.088608,Non-fatal,missing RRs,TRUE,TRUE
+997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,842,18214.2,4516.129032,5.4,5.51,NA,NA,hr,NA,NA,70,1,LTPA,2,NA,NA,4516.129032,Non-fatal,missing RRs,TRUE,TRUE
+997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,844,18214.2,4640,5.4,14.61,NA,NA,hr,NA,NA,58,1,LTPA,2,NA,NA,4640,Non-fatal,missing RRs,TRUE,TRUE
+997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,843,18214.2,4705.882353,5.4,26.73,NA,NA,hr,NA,NA,48,1,LTPA,2,NA,NA,4705.882353,Non-fatal,missing RRs,TRUE,TRUE
 9913,Tan Z.,Alzheimer's disease,Non-fatal,3,ci,2958,591.6,29580,5916,10,0.2,NA,NA,hr,NA,NA,40,1,LTPA,3,NA,NA,5916,Non-fatal,missing RRs,TRUE,TRUE
 9913,Tan Z.,Alzheimer's disease,Non-fatal,3,ci,2958,591.6,29580,5916,10,2,NA,NA,hr,NA,NA,20,1,LTPA,3,NA,NA,5916,Non-fatal,missing RRs,TRUE,TRUE
 9913,Tan Z.,Alzheimer's disease,Non-fatal,3,ci,2958,591.6,29580,5916,10,7.46,NA,NA,hr,NA,NA,29,1,LTPA,3,NA,NA,5916,Non-fatal,missing RRs,TRUE,TRUE
@@ -530,10 +530,10 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 9927,Neergaard J.,Alzheimer's disease,Both,2,ci,5270,1197,62713,14244.3,11.9,1.25,NA,NA,hr,NA,NA,48,1,LTPA,1,NA,NA,14244.3,Both,missing RRs,TRUE,TRUE
 9927,Neergaard J.,Alzheimer's disease,Both,2,ci,5270,674,62713,8020.6,11.9,2.5,NA,NA,hr,NA,NA,35,1,LTPA,1,NA,NA,8020.6,Both,missing RRs,TRUE,TRUE
 9927,Neergaard J.,Alzheimer's disease,Both,2,ci,5270,1849,62713,22003.1,11.9,4.38,NA,NA,hr,NA,NA,86,1,LTPA,1,NA,NA,22003.1,Both,missing RRs,TRUE,TRUE
-9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,66389,1781017.6,770112.4,11.6,2.33,NA,NA,hr,NA,NA,85,1,LTPA,2,NA,NA,770112.4,Both,missing RRs,TRUE,TRUE
-9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,35298,1781017.6,409456.8,11.6,7.27,NA,NA,hr,NA,NA,42,1,LTPA,2,NA,NA,409456.8,Both,missing RRs,TRUE,TRUE
-9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,43696,1781017.6,506873.6,11.6,14.57,NA,NA,hr,NA,NA,42,1,LTPA,2,NA,NA,506873.6,Both,missing RRs,TRUE,TRUE
-9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,8153,1781017.6,94574.8,11.6,25.13,NA,NA,hr,NA,NA,6,1,LTPA,2,NA,NA,94574.8,Both,missing RRs,TRUE,TRUE
+9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,66389,1781017.5999999999,770112.4,11.6,2.33,NA,NA,hr,NA,NA,85,1,LTPA,2,NA,NA,770112.4,Both,missing RRs,TRUE,TRUE
+9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,35298,1781017.5999999999,409456.8,11.6,7.27,NA,NA,hr,NA,NA,42,1,LTPA,2,NA,NA,409456.8,Both,missing RRs,TRUE,TRUE
+9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,43696,1781017.5999999999,506873.6,11.6,14.57,NA,NA,hr,NA,NA,42,1,LTPA,2,NA,NA,506873.6,Both,missing RRs,TRUE,TRUE
+9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,8153,1781017.5999999999,94574.8,11.6,25.13,NA,NA,hr,NA,NA,6,1,LTPA,2,NA,NA,94574.8,Both,missing RRs,TRUE,TRUE
 9933,Zhao M.,Alzheimer's disease,Fatal,3,ci,479856,268193,4198740,2346688.75,8.75,3.12,NA,NA,hr,NA,NA,1091,1,LTPA,3,NA,NA,2346688.75,Both,missing RRs,TRUE,TRUE
 9933,Zhao M.,Alzheimer's disease,Fatal,3,ci,479856,21428,4198740,187495,8.75,3.75,NA,NA,hr,NA,NA,63,1,LTPA,3,NA,NA,187495,Both,missing RRs,TRUE,TRUE
 9933,Zhao M.,Alzheimer's disease,Fatal,3,ci,479856,113851,4198740,996196.25,8.75,9.38,NA,NA,hr,NA,NA,250,1,LTPA,3,NA,NA,996196.25,Both,missing RRs,TRUE,TRUE
@@ -542,10 +542,10 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 995,Laurin D.,Alzheimer's disease,Non-fatal,3,ir,3848,506,19240,2530,5,2.81,NA,NA,or,NA,NA,21,1,LTPA,4,NA,NA,2530,Both,missing RRs,TRUE,TRUE
 995,Laurin D.,Alzheimer's disease,Non-fatal,3,ir,3848,1412,19240,7060,5,5.62,NA,NA,or,NA,NA,52,1,LTPA,4,NA,NA,7060,Both,missing RRs,TRUE,TRUE
 995,Laurin D.,Alzheimer's disease,Non-fatal,3,ir,3848,747,19240,3735,5,13.5,NA,NA,or,NA,NA,16,1,LTPA,4,NA,NA,3735,Both,missing RRs,TRUE,TRUE
-997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,844,18214.2,4367.088608,5.4,0.72,NA,NA,hr,NA,NA,69,1,LTPA,5,NA,NA,4367.088608,Both,missing RRs,TRUE,TRUE
-997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,842,18214.2,4516.129032,5.4,4.18,NA,NA,hr,NA,NA,70,1,LTPA,5,NA,NA,4516.129032,Both,missing RRs,TRUE,TRUE
-997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,844,18214.2,4640,5.4,11.25,NA,NA,hr,NA,NA,58,1,LTPA,5,NA,NA,4640,Both,missing RRs,TRUE,TRUE
-997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,843,18214.2,4705.882353,5.4,20.7,NA,NA,hr,NA,NA,48,1,LTPA,5,NA,NA,4705.882353,Both,missing RRs,TRUE,TRUE
+997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,844,18214.2,4367.088608,5.4,1.01,NA,NA,hr,NA,NA,69,1,LTPA,5,NA,NA,4367.088608,Both,missing RRs,TRUE,TRUE
+997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,842,18214.2,4516.129032,5.4,5.51,NA,NA,hr,NA,NA,70,1,LTPA,5,NA,NA,4516.129032,Both,missing RRs,TRUE,TRUE
+997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,844,18214.2,4640,5.4,14.61,NA,NA,hr,NA,NA,58,1,LTPA,5,NA,NA,4640,Both,missing RRs,TRUE,TRUE
+997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,843,18214.2,4705.882353,5.4,26.73,NA,NA,hr,NA,NA,48,1,LTPA,5,NA,NA,4705.882353,Both,missing RRs,TRUE,TRUE
 9913,Tan Z.,Alzheimer's disease,Non-fatal,3,ci,2958,591.6,29580,5916,10,0.2,NA,NA,hr,NA,NA,40,1,LTPA,6,NA,NA,5916,Both,missing RRs,TRUE,TRUE
 9913,Tan Z.,Alzheimer's disease,Non-fatal,3,ci,2958,591.6,29580,5916,10,2,NA,NA,hr,NA,NA,20,1,LTPA,6,NA,NA,5916,Both,missing RRs,TRUE,TRUE
 9913,Tan Z.,Alzheimer's disease,Non-fatal,3,ci,2958,591.6,29580,5916,10,7.46,NA,NA,hr,NA,NA,29,1,LTPA,6,NA,NA,5916,Both,missing RRs,TRUE,TRUE
@@ -628,9 +628,9 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 238,Chao et al.,Colon cancer,Both,3,ci,151174,3041,907044,218960,6,14.24,NA,NA,hr,NA,NA,216,1,LTPA,12,NA,NA,218960,Both,missing RRs,TRUE,TRUE
 238,Chao et al.,Colon cancer,Both,3,ci,151174,1207,907044,86917,6,20.92,NA,NA,hr,NA,NA,93,1,LTPA,12,NA,NA,86917,Both,missing RRs,TRUE,TRUE
 238,Chao et al.,Colon cancer,Both,3,ci,151174,1111,907044,80003,6,25.98,NA,NA,hr,NA,NA,93,1,LTPA,12,NA,NA,80003,Both,missing RRs,TRUE,TRUE
-255,Thune et al.,Colon cancer,Both,3,ci,81457,21280,1305607,347116,16.02817437,0,NA,NA,hr,NA,NA,70,1,LTPA,13,NA,NA,347116,Both,missing RRs,TRUE,TRUE
-255,Thune et al.,Colon cancer,Both,3,ci,81457,58080,1305607,947392,16.02817437,10,NA,NA,hr,NA,NA,231,1,LTPA,13,NA,NA,947392,Both,missing RRs,TRUE,TRUE
-255,Thune et al.,Colon cancer,Both,3,ci,81457,27044,1305607,441138,16.02817437,24,NA,NA,hr,NA,NA,98,1,LTPA,13,NA,NA,441138,Both,missing RRs,TRUE,TRUE
+255,Thune et al.,Colon cancer,Both,3,ci,81457,21280,1305607,347116,16.028174374209705,0,NA,NA,hr,NA,NA,70,1,LTPA,13,NA,NA,347116,Both,missing RRs,TRUE,TRUE
+255,Thune et al.,Colon cancer,Both,3,ci,81457,58080,1305607,947392,16.028174374209705,10,NA,NA,hr,NA,NA,231,1,LTPA,13,NA,NA,947392,Both,missing RRs,TRUE,TRUE
+255,Thune et al.,Colon cancer,Both,3,ci,81457,27044,1305607,441138,16.028174374209705,24,NA,NA,hr,NA,NA,98,1,LTPA,13,NA,NA,441138,Both,missing RRs,TRUE,TRUE
 340,"Murphy, N.",Colon cancer,Both,3,ci,481874,12558,6508182,1356890,14.9,0,NA,NA,hr,NA,NA,524,1,LTPA,17,NA,NA,1356890,Both,missing RRs,TRUE,TRUE
 340,"Murphy, N.",Colon cancer,Both,3,ci,481874,20222,6508182,2184965,14.9,9.34,NA,NA,hr,NA,NA,605,1,LTPA,17,NA,NA,2184965,Both,missing RRs,TRUE,TRUE
 340,"Murphy, N.",Colon cancer,Both,3,ci,481874,16185,6508182,1748711,14.9,16.71,NA,NA,hr,NA,NA,416,1,LTPA,17,NA,NA,1748711,Both,missing RRs,TRUE,TRUE
@@ -650,9 +650,9 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 38,"Zhou, Y",Coronary heart disease,Fatal,3,ci,24606,4995,125591,25495,5.1,46.2,NA,NA,hr,NA,NA,25,1,LTPA,2,NA,NA,25495,Fatal,missing RRs,TRUE,TRUE
 38,"Zhou, Y",Coronary heart disease,Fatal,3,ci,24606,1411,125591,7202,5.1,78.47,NA,NA,hr,NA,NA,8,1,LTPA,2,NA,NA,7202,Fatal,missing RRs,TRUE,TRUE
 120,Williams P,Coronary heart disease,Fatal,3,ci,42022,9624,403411,92390,9.6,2.33,1,1,hr,NA,NA,108,1,LTPA,4,0,NA,92390,Fatal,missing RRs,TRUE,TRUE
-120,Williams P,Coronary heart disease,Fatal,3,ci,42022,6759,403411,64886,9.6,7.3,0.87,0.87,hr,0.66,1.15,76,1,LTPA,4,-0.139262067,0.141654997,64886,Fatal,missing RRs,TRUE,TRUE
-120,Williams P,Coronary heart disease,Fatal,3,ci,42022,13985,403411,134256,9.6,14.57,0.69,0.69,hr,0.62,1.02,144,1,LTPA,4,-0.371063681,0.127001933,134256,Fatal,missing RRs,TRUE,TRUE
-120,Williams P,Coronary heart disease,Fatal,3,ci,42022,11654,403411,111878,9.6,25.13,NA,NA,hr,0.52,0.91,114,1,LTPA,4,NA,0.142761753,111878,Fatal,missing RRs,TRUE,TRUE
+120,Williams P,Coronary heart disease,Fatal,3,ci,42022,6759,403411,64886,9.6,7.3,0.87,0.87,hr,0.66,1.15,76,1,LTPA,4,-0.13926206733350766,0.14165499741749893,64886,Fatal,missing RRs,TRUE,TRUE
+120,Williams P,Coronary heart disease,Fatal,3,ci,42022,13985,403411,134256,9.6,14.57,0.69,0.69,hr,0.62,1.02,144,1,LTPA,4,-0.37106368139083207,0.12700193273092406,134256,Fatal,missing RRs,TRUE,TRUE
+120,Williams P,Coronary heart disease,Fatal,3,ci,42022,11654,403411,111878,9.6,25.13,NA,NA,hr,0.52,0.91,114,1,LTPA,4,NA,0.14276175285607307,111878,Fatal,missing RRs,TRUE,TRUE
 258,Wen et al.,Coronary heart disease,Fatal,3,ci,360318,201307,2900560,1620521,8.1,0.88,NA,NA,hr,NA,NA,98,1,LTPA,7,NA,NA,1620521,Fatal,missing RRs,TRUE,TRUE
 258,Wen et al.,Coronary heart disease,Fatal,3,ci,360318,79709,2900560,641657,8.1,4.09,NA,NA,hr,NA,NA,26,1,LTPA,7,NA,NA,641657,Fatal,missing RRs,TRUE,TRUE
 258,Wen et al.,Coronary heart disease,Fatal,3,ci,360318,46513,2900560,374430,8.1,8.29,NA,NA,hr,NA,NA,27,1,LTPA,7,NA,NA,374430,Fatal,missing RRs,TRUE,TRUE
@@ -672,9 +672,9 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 38,"Zhou, Y",Coronary heart disease,Fatal,3,ci,24606,4995,125591,25495,5.1,46.2,NA,NA,hr,NA,NA,25,1,LTPA,15,NA,NA,25495,Both,missing RRs,TRUE,TRUE
 38,"Zhou, Y",Coronary heart disease,Fatal,3,ci,24606,1411,125591,7202,5.1,78.47,NA,NA,hr,NA,NA,8,1,LTPA,15,NA,NA,7202,Both,missing RRs,TRUE,TRUE
 120,Williams P,Coronary heart disease,Fatal,3,ci,42022,9624,403411,92390,9.6,2.33,1,1,hr,NA,NA,108,1,LTPA,17,0,NA,92390,Both,missing RRs,TRUE,TRUE
-120,Williams P,Coronary heart disease,Fatal,3,ci,42022,6759,403411,64886,9.6,7.3,0.87,0.87,hr,0.66,1.15,76,1,LTPA,17,-0.139262067,0.141654997,64886,Both,missing RRs,TRUE,TRUE
-120,Williams P,Coronary heart disease,Fatal,3,ci,42022,13985,403411,134256,9.6,14.57,0.69,0.69,hr,0.62,1.02,144,1,LTPA,17,-0.371063681,0.127001933,134256,Both,missing RRs,TRUE,TRUE
-120,Williams P,Coronary heart disease,Fatal,3,ci,42022,11654,403411,111878,9.6,25.13,NA,NA,hr,0.52,0.91,114,1,LTPA,17,NA,0.142761753,111878,Both,missing RRs,TRUE,TRUE
+120,Williams P,Coronary heart disease,Fatal,3,ci,42022,6759,403411,64886,9.6,7.3,0.87,0.87,hr,0.66,1.15,76,1,LTPA,17,-0.13926206733350766,0.14165499741749893,64886,Both,missing RRs,TRUE,TRUE
+120,Williams P,Coronary heart disease,Fatal,3,ci,42022,13985,403411,134256,9.6,14.57,0.69,0.69,hr,0.62,1.02,144,1,LTPA,17,-0.37106368139083207,0.12700193273092406,134256,Both,missing RRs,TRUE,TRUE
+120,Williams P,Coronary heart disease,Fatal,3,ci,42022,11654,403411,111878,9.6,25.13,NA,NA,hr,0.52,0.91,114,1,LTPA,17,NA,0.14276175285607307,111878,Both,missing RRs,TRUE,TRUE
 258,Wen et al.,Coronary heart disease,Fatal,3,ci,360318,201307,2900560,1620521,8.1,0.88,NA,NA,hr,NA,NA,98,1,LTPA,20,NA,NA,1620521,Both,missing RRs,TRUE,TRUE
 258,Wen et al.,Coronary heart disease,Fatal,3,ci,360318,79709,2900560,641657,8.1,4.09,NA,NA,hr,NA,NA,26,1,LTPA,20,NA,NA,641657,Both,missing RRs,TRUE,TRUE
 258,Wen et al.,Coronary heart disease,Fatal,3,ci,360318,46513,2900560,374430,8.1,8.29,NA,NA,hr,NA,NA,27,1,LTPA,20,NA,NA,374430,Both,missing RRs,TRUE,TRUE
@@ -684,58 +684,130 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 196,"de Souto Barreto, P.",Coronary heart disease,Non-fatal,3,ci,47723,2500,214754,11250,4.5,0.63,NA,NA,hr,NA,NA,137,1,LTPA,26,NA,NA,11250,Both,missing RRs,TRUE,TRUE
 196,"de Souto Barreto, P.",Coronary heart disease,Non-fatal,3,ci,47723,6199,214754,27896,4.5,1.25,NA,NA,hr,NA,NA,354,1,LTPA,26,NA,NA,27896,Both,missing RRs,TRUE,TRUE
 196,"de Souto Barreto, P.",Coronary heart disease,Non-fatal,3,ci,47723,34505,214754,155273,4.5,1.88,NA,NA,hr,NA,NA,1728,1,LTPA,26,NA,NA,155273,Both,missing RRs,TRUE,TRUE
-999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,4479.200195,429208,116459.2031,26,10.5,NA,NA,hr,NA,NA,92,1,LTPA,1,NA,NA,116459.2031,Non-fatal,missing RRs,TRUE,TRUE
-999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,9057.360352,429208,235491.3594,26,5,NA,NA,hr,NA,NA,235,1,LTPA,1,NA,NA,235491.3594,Non-fatal,missing RRs,TRUE,TRUE
-999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,2971.439941,429208,77257.4375,26,1,NA,NA,hr,NA,NA,109,1,LTPA,1,NA,NA,77257.4375,Non-fatal,missing RRs,TRUE,TRUE
-9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,4.73,NA,NA,rr,NA,NA,154,1,LTPA,2,NA,NA,83035,Non-fatal,missing RRs,TRUE,TRUE
-9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,18.79,NA,NA,rr,NA,NA,129,1,LTPA,2,NA,NA,83035,Non-fatal,missing RRs,TRUE,TRUE
-9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3264,244220,78150,25,36.16,NA,NA,rr,NA,NA,104,1,LTPA,2,NA,NA,78150,Non-fatal,missing RRs,TRUE,TRUE
-9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1799.971564,11994,5399.914692,3,0,NA,NA,or,NA,NA,132,1,LTPA,3,NA,NA,5399.914692,Non-fatal,missing RRs,TRUE,TRUE
-9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1267.949708,11994,3803.849124,3,5,NA,NA,or,NA,NA,58,1,LTPA,3,NA,NA,3803.849124,Non-fatal,missing RRs,TRUE,TRUE
-9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,930.078728,11994,2790.236184,3,11.25,NA,NA,or,NA,NA,54,1,LTPA,3,NA,NA,2790.236184,Non-fatal,missing RRs,TRUE,TRUE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,605,173824,24206,8,15.62,NA,NA,hr,NA,NA,334,1,LTPA,4,NA,NA,24206,Non-fatal,missing RRs,TRUE,TRUE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,617,173824,24678,8,9.38,NA,NA,hr,NA,NA,435,1,LTPA,4,NA,NA,24678,Non-fatal,missing RRs,TRUE,TRUE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,592,173824,23689,8,3.12,NA,NA,hr,NA,NA,475,1,LTPA,4,NA,NA,23689,Non-fatal,missing RRs,TRUE,TRUE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,748,173824,29928,8,1.25,NA,NA,hr,NA,NA,780,1,LTPA,4,NA,NA,29928,Non-fatal,missing RRs,TRUE,TRUE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,1941,173824,77639,8,0,NA,NA,hr,NA,NA,1921,1,LTPA,4,NA,NA,77639,Non-fatal,missing RRs,TRUE,TRUE
-9928,S‡nchez-Villegas A.,Depression,Non-fatal,3,ci,11800,1392,100874,35697,8.5,1.99,NA,NA,hr,NA,NA,316,1,LTPA,5,NA,NA,35697,Non-fatal,missing RRs,TRUE,TRUE
-9928,S‡nchez-Villegas A.,Depression,Non-fatal,3,ci,11800,1266,100874,32459,8.5,11.75,NA,NA,hr,NA,NA,269,1,LTPA,5,NA,NA,32459,Non-fatal,missing RRs,TRUE,TRUE
-9928,S‡nchez-Villegas A.,Depression,Non-fatal,3,ci,11800,1276,100874,32718,8.5,21.34,NA,NA,hr,NA,NA,221,1,LTPA,5,NA,NA,32718,Non-fatal,missing RRs,TRUE,TRUE
-9929,Cabello M.,Depression,Non-fatal,3,ir,5970,3973,32835,21851.5,5.5,25,NA,NA,or,NA,NA,381,1,LTPA,6,NA,NA,21851.5,Non-fatal,missing RRs,TRUE,TRUE
-9929,Cabello M.,Depression,Non-fatal,3,ir,5970,903,32835,4966.5,5.5,10,NA,NA,or,NA,NA,84,1,LTPA,6,NA,NA,4966.5,Non-fatal,missing RRs,TRUE,TRUE
-9929,Cabello M.,Depression,Non-fatal,3,ir,5970,1094,32835,6017,5.5,0,NA,NA,or,NA,NA,129,1,LTPA,6,NA,NA,6017,Non-fatal,missing RRs,TRUE,TRUE
-9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,5597,163059,59193,10.5,3.29,NA,NA,hr,NA,NA,366,1,LTPA,7,NA,NA,59193,Non-fatal,missing RRs,TRUE,TRUE
-9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,3548,163059,37606,10.5,11.34,NA,NA,hr,NA,NA,193,1,LTPA,7,NA,NA,37606,Non-fatal,missing RRs,TRUE,TRUE
-9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,6343,163059,66260,10.5,19.66,NA,NA,hr,NA,NA,311,1,LTPA,7,NA,NA,66260,Non-fatal,missing RRs,TRUE,TRUE
-9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,4854.761129,267722,63111.89467,13,3.1,NA,NA,hr,NA,NA,80,1,LTPA,8,NA,NA,63111.89467,Non-fatal,missing RRs,TRUE,TRUE
-9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7865.584561,267722,102252.5993,13,9.38,NA,NA,hr,NA,NA,111,1,LTPA,8,NA,NA,102252.5993,Non-fatal,missing RRs,TRUE,TRUE
-9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7873.65431,267722,102357.506,13,15.62,NA,NA,hr,NA,NA,98,1,LTPA,8,NA,NA,102357.506,Non-fatal,missing RRs,TRUE,TRUE
-999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,4479.200195,429208,116459.2031,26,10.5,NA,NA,hr,NA,NA,92,1,LTPA,1,NA,NA,116459.2031,Both,missing RRs,TRUE,TRUE
-999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,9057.360352,429208,235491.3594,26,5,NA,NA,hr,NA,NA,235,1,LTPA,1,NA,NA,235491.3594,Both,missing RRs,TRUE,TRUE
-999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,2971.439941,429208,77257.4375,26,1,NA,NA,hr,NA,NA,109,1,LTPA,1,NA,NA,77257.4375,Both,missing RRs,TRUE,TRUE
-9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,4.73,NA,NA,rr,NA,NA,154,1,LTPA,2,NA,NA,83035,Both,missing RRs,TRUE,TRUE
-9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,18.79,NA,NA,rr,NA,NA,129,1,LTPA,2,NA,NA,83035,Both,missing RRs,TRUE,TRUE
-9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3264,244220,78150,25,36.16,NA,NA,rr,NA,NA,104,1,LTPA,2,NA,NA,78150,Both,missing RRs,TRUE,TRUE
-9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1799.971564,11994,5399.914692,3,0,NA,NA,or,NA,NA,132,1,LTPA,3,NA,NA,5399.914692,Both,missing RRs,TRUE,TRUE
-9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1267.949708,11994,3803.849124,3,5,NA,NA,or,NA,NA,58,1,LTPA,3,NA,NA,3803.849124,Both,missing RRs,TRUE,TRUE
-9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,930.078728,11994,2790.236184,3,11.25,NA,NA,or,NA,NA,54,1,LTPA,3,NA,NA,2790.236184,Both,missing RRs,TRUE,TRUE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,605,173824,24206,8,15.62,NA,NA,hr,NA,NA,334,1,LTPA,4,NA,NA,24206,Both,missing RRs,TRUE,TRUE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,617,173824,24678,8,9.38,NA,NA,hr,NA,NA,435,1,LTPA,4,NA,NA,24678,Both,missing RRs,TRUE,TRUE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,592,173824,23689,8,3.12,NA,NA,hr,NA,NA,475,1,LTPA,4,NA,NA,23689,Both,missing RRs,TRUE,TRUE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,748,173824,29928,8,1.25,NA,NA,hr,NA,NA,780,1,LTPA,4,NA,NA,29928,Both,missing RRs,TRUE,TRUE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,1941,173824,77639,8,0,NA,NA,hr,NA,NA,1921,1,LTPA,4,NA,NA,77639,Both,missing RRs,TRUE,TRUE
-9928,S‡nchez-Villegas A.,Depression,Non-fatal,3,ci,11800,1392,100874,35697,8.5,1.99,NA,NA,hr,NA,NA,316,1,LTPA,5,NA,NA,35697,Both,missing RRs,TRUE,TRUE
-9928,S‡nchez-Villegas A.,Depression,Non-fatal,3,ci,11800,1266,100874,32459,8.5,11.75,NA,NA,hr,NA,NA,269,1,LTPA,5,NA,NA,32459,Both,missing RRs,TRUE,TRUE
-9928,S‡nchez-Villegas A.,Depression,Non-fatal,3,ci,11800,1276,100874,32718,8.5,21.34,NA,NA,hr,NA,NA,221,1,LTPA,5,NA,NA,32718,Both,missing RRs,TRUE,TRUE
-9929,Cabello M.,Depression,Non-fatal,3,ir,5970,3973,32835,21851.5,5.5,25,NA,NA,or,NA,NA,381,1,LTPA,6,NA,NA,21851.5,Both,missing RRs,TRUE,TRUE
-9929,Cabello M.,Depression,Non-fatal,3,ir,5970,903,32835,4966.5,5.5,10,NA,NA,or,NA,NA,84,1,LTPA,6,NA,NA,4966.5,Both,missing RRs,TRUE,TRUE
-9929,Cabello M.,Depression,Non-fatal,3,ir,5970,1094,32835,6017,5.5,0,NA,NA,or,NA,NA,129,1,LTPA,6,NA,NA,6017,Both,missing RRs,TRUE,TRUE
-9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,5597,163059,59193,10.5,3.29,NA,NA,hr,NA,NA,366,1,LTPA,7,NA,NA,59193,Both,missing RRs,TRUE,TRUE
-9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,3548,163059,37606,10.5,11.34,NA,NA,hr,NA,NA,193,1,LTPA,7,NA,NA,37606,Both,missing RRs,TRUE,TRUE
-9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,6343,163059,66260,10.5,19.66,NA,NA,hr,NA,NA,311,1,LTPA,7,NA,NA,66260,Both,missing RRs,TRUE,TRUE
-9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,4854.761129,267722,63111.89467,13,3.1,NA,NA,hr,NA,NA,80,1,LTPA,8,NA,NA,63111.89467,Both,missing RRs,TRUE,TRUE
-9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7865.584561,267722,102252.5993,13,9.38,NA,NA,hr,NA,NA,111,1,LTPA,8,NA,NA,102252.5993,Both,missing RRs,TRUE,TRUE
-9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7873.65431,267722,102357.506,13,15.62,NA,NA,hr,NA,NA,98,1,LTPA,8,NA,NA,102357.506,Both,missing RRs,TRUE,TRUE
+991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,1250,31171,7625,6.1,0,NA,NA,or,NA,NA,161,1,LTPA,1,NA,NA,7625,Non-fatal,missing RRs,TRUE,TRUE
+991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,2109,31171,12864.9,6.1,2.65,NA,NA,or,NA,NA,304,1,LTPA,1,NA,NA,12864.9,Non-fatal,missing RRs,TRUE,TRUE
+991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,1751,31171,10681.1,6.1,9.29,NA,NA,or,NA,NA,176,1,LTPA,1,NA,NA,10681.1,Non-fatal,missing RRs,TRUE,TRUE
+992,Camacho T.,Depression,Non-fatal,3,ir,3664,1173,32976,10557,9,5,NA,NA,or,NA,NA,252,1,LTPA,2,NA,NA,10557,Non-fatal,missing RRs,TRUE,TRUE
+992,Camacho T.,Depression,Non-fatal,3,ir,3664,1709,32976,15381,9,16,NA,NA,or,NA,NA,285,1,LTPA,2,NA,NA,15381,Non-fatal,missing RRs,TRUE,TRUE
+992,Camacho T.,Depression,Non-fatal,3,ir,3664,782,32976,7038,9,28,NA,NA,or,NA,NA,89,1,LTPA,2,NA,NA,7038,Non-fatal,missing RRs,TRUE,TRUE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,5034,36282,15102,3,0,NA,NA,or,NA,NA,1501,1,LTPA,3,NA,NA,15102,Non-fatal,missing RRs,TRUE,TRUE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,358,36282,1074,3,2.65,NA,NA,or,NA,NA,63,1,LTPA,3,NA,NA,1074,Non-fatal,missing RRs,TRUE,TRUE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,1160,36282,3480,3,9.29,NA,NA,or,NA,NA,156,1,LTPA,3,NA,NA,3480,Non-fatal,missing RRs,TRUE,TRUE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,1454,36282,4362,3,16.18,NA,NA,or,NA,NA,186,1,LTPA,3,NA,NA,4362,Non-fatal,missing RRs,TRUE,TRUE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,1495,36282,4485,3,23.17,NA,NA,or,NA,NA,187,1,LTPA,3,NA,NA,4485,Non-fatal,missing RRs,TRUE,TRUE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,2593,36282,7779,3,30.21,NA,NA,or,NA,NA,325,1,LTPA,3,NA,NA,7779,Non-fatal,missing RRs,TRUE,TRUE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,8437,140896,33748,4,0,NA,NA,or,NA,NA,2488.915,1,LTPA,4,NA,NA,33748,Non-fatal,missing RRs,TRUE,TRUE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,8852,140896,35408,4,3,NA,NA,or,NA,NA,2478.56,1,LTPA,4,NA,NA,35408,Non-fatal,missing RRs,TRUE,TRUE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,5900,140896,23600,4,6,NA,NA,or,NA,NA,1581.2,1,LTPA,4,NA,NA,23600,Non-fatal,missing RRs,TRUE,TRUE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,4692,140896,18768,4,12,NA,NA,or,NA,NA,1116.696,1,LTPA,4,NA,NA,18768,Non-fatal,missing RRs,TRUE,TRUE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,3775,140896,15100,4,21,NA,NA,or,NA,NA,879.575,1,LTPA,4,NA,NA,15100,Non-fatal,missing RRs,TRUE,TRUE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,2139,140896,8556,4,33,NA,NA,or,NA,NA,562.557,1,LTPA,4,NA,NA,8556,Non-fatal,missing RRs,TRUE,TRUE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,1429,140896,5716,4,45,NA,NA,or,NA,NA,357.25,1,LTPA,4,NA,NA,5716,Non-fatal,missing RRs,TRUE,TRUE
+999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,4479.200195,429208,116459.2031,26,10.5,NA,NA,hr,NA,NA,92,1,LTPA,5,NA,NA,116459.2031,Non-fatal,missing RRs,TRUE,TRUE
+999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,9057.360352,429208,235491.3594,26,5,NA,NA,hr,NA,NA,235,1,LTPA,5,NA,NA,235491.3594,Non-fatal,missing RRs,TRUE,TRUE
+999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,2971.439941,429208,77257.4375,26,1,NA,NA,hr,NA,NA,109,1,LTPA,5,NA,NA,77257.4375,Non-fatal,missing RRs,TRUE,TRUE
+9910,Hamer M.,Depression,Non-fatal,3,ir,4323,674,17292,2696,4,0.56,NA,NA,or,NA,NA,108,1,LTPA,6,NA,NA,2696,Non-fatal,missing RRs,TRUE,TRUE
+9910,Hamer M.,Depression,Non-fatal,3,ir,4323,2142,17292,8568,4,1.88,NA,NA,or,NA,NA,161,1,LTPA,6,NA,NA,8568,Non-fatal,missing RRs,TRUE,TRUE
+9910,Hamer M.,Depression,Non-fatal,3,ir,4323,1507,17292,6028,4,4.5,NA,NA,or,NA,NA,79,1,LTPA,6,NA,NA,6028,Non-fatal,missing RRs,TRUE,TRUE
+9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,4.73,NA,NA,rr,NA,NA,154,1,LTPA,7,NA,NA,83035,Non-fatal,missing RRs,TRUE,TRUE
+9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,18.79,NA,NA,rr,NA,NA,129,1,LTPA,7,NA,NA,83035,Non-fatal,missing RRs,TRUE,TRUE
+9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3264,244220,78150,25,36.16,NA,NA,rr,NA,NA,104,1,LTPA,7,NA,NA,78150,Non-fatal,missing RRs,TRUE,TRUE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,17704,135747,82641,4.7,43.52,NA,NA,hr,NA,NA,3954,1,LTPA,8,NA,NA,82641,Non-fatal,missing RRs,TRUE,TRUE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,2753,135747,12860,4.7,0.96,NA,NA,hr,NA,NA,603,1,LTPA,8,NA,NA,12860,Non-fatal,missing RRs,TRUE,TRUE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,2627,135747,12255,4.7,4.17,NA,NA,hr,NA,NA,516,1,LTPA,8,NA,NA,12255,Non-fatal,missing RRs,TRUE,TRUE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,3422,135747,15983,4.7,8.88,NA,NA,hr,NA,NA,650,1,LTPA,8,NA,NA,15983,Non-fatal,missing RRs,TRUE,TRUE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,1284,135747,5984,4.7,16.32,NA,NA,hr,NA,NA,209,1,LTPA,8,NA,NA,5984,Non-fatal,missing RRs,TRUE,TRUE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,1292,135747,6024,4.7,23.87,NA,NA,hr,NA,NA,245,1,LTPA,8,NA,NA,6024,Non-fatal,missing RRs,TRUE,TRUE
+9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1799.971564,11994,5399.914692,3,0,NA,NA,or,NA,NA,132,1,LTPA,9,NA,NA,5399.914692,Non-fatal,missing RRs,TRUE,TRUE
+9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1267.949708,11994,3803.849124,3,5,NA,NA,or,NA,NA,58,1,LTPA,9,NA,NA,3803.849124,Non-fatal,missing RRs,TRUE,TRUE
+9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,930.078728,11994,2790.236184,3,11.25,NA,NA,or,NA,NA,54,1,LTPA,9,NA,NA,2790.236184,Non-fatal,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,2818.836969,248204,31007.20666,11,0,NA,NA,or,NA,NA,277,1,LTPA,10,NA,NA,31007.20666,Non-fatal,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,5688.396374,248204,62572.36011,11,0.62,NA,NA,or,NA,NA,427,1,LTPA,10,NA,NA,62572.36011,Non-fatal,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,5411.501769,248204,59526.51946,11,1.88,NA,NA,or,NA,NA,359,1,LTPA,10,NA,NA,59526.51946,Non-fatal,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,4509.307636,248204,49602.384,11,3.75,NA,NA,or,NA,NA,262,1,LTPA,10,NA,NA,49602.384,Non-fatal,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,2144.478037,248204,23589.25841,11,7.5,NA,NA,or,NA,NA,135,1,LTPA,10,NA,NA,23589.25841,Non-fatal,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,1991.479216,248204,21906.27138,11,12.5,NA,NA,or,NA,NA,119,1,LTPA,10,NA,NA,21906.27138,Non-fatal,missing RRs,TRUE,TRUE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,303,173824,24206,8,15.62,NA,NA,hr,NA,NA,334,1,LTPA,11,NA,NA,24206,Non-fatal,missing RRs,TRUE,TRUE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,308,173824,24678,8,9.38,NA,NA,hr,NA,NA,435,1,LTPA,11,NA,NA,24678,Non-fatal,missing RRs,TRUE,TRUE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,296,173824,23689,8,3.12,NA,NA,hr,NA,NA,475,1,LTPA,11,NA,NA,23689,Non-fatal,missing RRs,TRUE,TRUE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,374,173824,29928,8,1.25,NA,NA,hr,NA,NA,780,1,LTPA,11,NA,NA,29928,Non-fatal,missing RRs,TRUE,TRUE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,970,173824,77639,8,0,NA,NA,hr,NA,NA,1921,1,LTPA,11,NA,NA,77639,Non-fatal,missing RRs,TRUE,TRUE
+9929,Cabello M.,Depression,Non-fatal,3,ir,5970,3973,32835,21851.5,5.5,0,NA,NA,or,NA,NA,381,1,LTPA,12,NA,NA,21851.5,Non-fatal,missing RRs,TRUE,TRUE
+9929,Cabello M.,Depression,Non-fatal,3,ir,5970,903,32835,4966.5,5.5,9,NA,NA,or,NA,NA,84,1,LTPA,12,NA,NA,4966.5,Non-fatal,missing RRs,TRUE,TRUE
+9929,Cabello M.,Depression,Non-fatal,3,ir,5970,1094,32835,6017,5.5,22,NA,NA,or,NA,NA,129,1,LTPA,12,NA,NA,6017,Non-fatal,missing RRs,TRUE,TRUE
+9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,5597,163059,59193,10.5,3.29,NA,NA,hr,NA,NA,366,1,LTPA,13,NA,NA,59193,Non-fatal,missing RRs,TRUE,TRUE
+9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,3548,163059,37606,10.5,11.34,NA,NA,hr,NA,NA,193,1,LTPA,13,NA,NA,37606,Non-fatal,missing RRs,TRUE,TRUE
+9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,6343,163059,66260,10.5,19.66,NA,NA,hr,NA,NA,311,1,LTPA,13,NA,NA,66260,Non-fatal,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,0.37,NA,NA,or,NA,NA,191.8544,1,LTPA,14,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,3.44,NA,NA,or,NA,NA,157.775,1,LTPA,14,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,8.88,NA,NA,or,NA,NA,150.2018,1,LTPA,14,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,18.16,NA,NA,or,NA,NA,155.2506,1,LTPA,14,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,48.04,NA,NA,or,NA,NA,132.531,1,LTPA,14,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,TRUE
+9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,4854.761129,267722,63111.89467,13,3.1,NA,NA,hr,NA,NA,80,1,LTPA,15,NA,NA,63111.89467,Non-fatal,missing RRs,TRUE,TRUE
+9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7865.584561,267722,102252.5993,13,9.38,NA,NA,hr,NA,NA,111,1,LTPA,15,NA,NA,102252.5993,Non-fatal,missing RRs,TRUE,TRUE
+9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7873.65431,267722,102357.506,13,15.62,NA,NA,hr,NA,NA,98,1,LTPA,15,NA,NA,102357.506,Non-fatal,missing RRs,TRUE,TRUE
+991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,1250,31171,7625,6.1,0,NA,NA,or,NA,NA,161,1,LTPA,1,NA,NA,7625,Both,missing RRs,TRUE,TRUE
+991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,2109,31171,12864.9,6.1,2.65,NA,NA,or,NA,NA,304,1,LTPA,1,NA,NA,12864.9,Both,missing RRs,TRUE,TRUE
+991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,1751,31171,10681.1,6.1,9.29,NA,NA,or,NA,NA,176,1,LTPA,1,NA,NA,10681.1,Both,missing RRs,TRUE,TRUE
+992,Camacho T.,Depression,Non-fatal,3,ir,3664,1173,32976,10557,9,5,NA,NA,or,NA,NA,252,1,LTPA,2,NA,NA,10557,Both,missing RRs,TRUE,TRUE
+992,Camacho T.,Depression,Non-fatal,3,ir,3664,1709,32976,15381,9,16,NA,NA,or,NA,NA,285,1,LTPA,2,NA,NA,15381,Both,missing RRs,TRUE,TRUE
+992,Camacho T.,Depression,Non-fatal,3,ir,3664,782,32976,7038,9,28,NA,NA,or,NA,NA,89,1,LTPA,2,NA,NA,7038,Both,missing RRs,TRUE,TRUE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,5034,36282,15102,3,0,NA,NA,or,NA,NA,1501,1,LTPA,3,NA,NA,15102,Both,missing RRs,TRUE,TRUE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,358,36282,1074,3,2.65,NA,NA,or,NA,NA,63,1,LTPA,3,NA,NA,1074,Both,missing RRs,TRUE,TRUE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,1160,36282,3480,3,9.29,NA,NA,or,NA,NA,156,1,LTPA,3,NA,NA,3480,Both,missing RRs,TRUE,TRUE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,1454,36282,4362,3,16.18,NA,NA,or,NA,NA,186,1,LTPA,3,NA,NA,4362,Both,missing RRs,TRUE,TRUE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,1495,36282,4485,3,23.17,NA,NA,or,NA,NA,187,1,LTPA,3,NA,NA,4485,Both,missing RRs,TRUE,TRUE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,2593,36282,7779,3,30.21,NA,NA,or,NA,NA,325,1,LTPA,3,NA,NA,7779,Both,missing RRs,TRUE,TRUE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,8437,140896,33748,4,0,NA,NA,or,NA,NA,2488.915,1,LTPA,4,NA,NA,33748,Both,missing RRs,TRUE,TRUE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,8852,140896,35408,4,3,NA,NA,or,NA,NA,2478.56,1,LTPA,4,NA,NA,35408,Both,missing RRs,TRUE,TRUE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,5900,140896,23600,4,6,NA,NA,or,NA,NA,1581.2,1,LTPA,4,NA,NA,23600,Both,missing RRs,TRUE,TRUE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,4692,140896,18768,4,12,NA,NA,or,NA,NA,1116.696,1,LTPA,4,NA,NA,18768,Both,missing RRs,TRUE,TRUE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,3775,140896,15100,4,21,NA,NA,or,NA,NA,879.575,1,LTPA,4,NA,NA,15100,Both,missing RRs,TRUE,TRUE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,2139,140896,8556,4,33,NA,NA,or,NA,NA,562.557,1,LTPA,4,NA,NA,8556,Both,missing RRs,TRUE,TRUE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,1429,140896,5716,4,45,NA,NA,or,NA,NA,357.25,1,LTPA,4,NA,NA,5716,Both,missing RRs,TRUE,TRUE
+999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,4479.200195,429208,116459.2031,26,10.5,NA,NA,hr,NA,NA,92,1,LTPA,5,NA,NA,116459.2031,Both,missing RRs,TRUE,TRUE
+999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,9057.360352,429208,235491.3594,26,5,NA,NA,hr,NA,NA,235,1,LTPA,5,NA,NA,235491.3594,Both,missing RRs,TRUE,TRUE
+999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,2971.439941,429208,77257.4375,26,1,NA,NA,hr,NA,NA,109,1,LTPA,5,NA,NA,77257.4375,Both,missing RRs,TRUE,TRUE
+9910,Hamer M.,Depression,Non-fatal,3,ir,4323,674,17292,2696,4,0.56,NA,NA,or,NA,NA,108,1,LTPA,6,NA,NA,2696,Both,missing RRs,TRUE,TRUE
+9910,Hamer M.,Depression,Non-fatal,3,ir,4323,2142,17292,8568,4,1.88,NA,NA,or,NA,NA,161,1,LTPA,6,NA,NA,8568,Both,missing RRs,TRUE,TRUE
+9910,Hamer M.,Depression,Non-fatal,3,ir,4323,1507,17292,6028,4,4.5,NA,NA,or,NA,NA,79,1,LTPA,6,NA,NA,6028,Both,missing RRs,TRUE,TRUE
+9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,4.73,NA,NA,rr,NA,NA,154,1,LTPA,7,NA,NA,83035,Both,missing RRs,TRUE,TRUE
+9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,18.79,NA,NA,rr,NA,NA,129,1,LTPA,7,NA,NA,83035,Both,missing RRs,TRUE,TRUE
+9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3264,244220,78150,25,36.16,NA,NA,rr,NA,NA,104,1,LTPA,7,NA,NA,78150,Both,missing RRs,TRUE,TRUE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,17704,135747,82641,4.7,43.52,NA,NA,hr,NA,NA,3954,1,LTPA,8,NA,NA,82641,Both,missing RRs,TRUE,TRUE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,2753,135747,12860,4.7,0.96,NA,NA,hr,NA,NA,603,1,LTPA,8,NA,NA,12860,Both,missing RRs,TRUE,TRUE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,2627,135747,12255,4.7,4.17,NA,NA,hr,NA,NA,516,1,LTPA,8,NA,NA,12255,Both,missing RRs,TRUE,TRUE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,3422,135747,15983,4.7,8.88,NA,NA,hr,NA,NA,650,1,LTPA,8,NA,NA,15983,Both,missing RRs,TRUE,TRUE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,1284,135747,5984,4.7,16.32,NA,NA,hr,NA,NA,209,1,LTPA,8,NA,NA,5984,Both,missing RRs,TRUE,TRUE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,1292,135747,6024,4.7,23.87,NA,NA,hr,NA,NA,245,1,LTPA,8,NA,NA,6024,Both,missing RRs,TRUE,TRUE
+9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1799.971564,11994,5399.914692,3,0,NA,NA,or,NA,NA,132,1,LTPA,9,NA,NA,5399.914692,Both,missing RRs,TRUE,TRUE
+9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1267.949708,11994,3803.849124,3,5,NA,NA,or,NA,NA,58,1,LTPA,9,NA,NA,3803.849124,Both,missing RRs,TRUE,TRUE
+9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,930.078728,11994,2790.236184,3,11.25,NA,NA,or,NA,NA,54,1,LTPA,9,NA,NA,2790.236184,Both,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,2818.836969,248204,31007.20666,11,0,NA,NA,or,NA,NA,277,1,LTPA,10,NA,NA,31007.20666,Both,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,5688.396374,248204,62572.36011,11,0.62,NA,NA,or,NA,NA,427,1,LTPA,10,NA,NA,62572.36011,Both,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,5411.501769,248204,59526.51946,11,1.88,NA,NA,or,NA,NA,359,1,LTPA,10,NA,NA,59526.51946,Both,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,4509.307636,248204,49602.384,11,3.75,NA,NA,or,NA,NA,262,1,LTPA,10,NA,NA,49602.384,Both,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,2144.478037,248204,23589.25841,11,7.5,NA,NA,or,NA,NA,135,1,LTPA,10,NA,NA,23589.25841,Both,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,1991.479216,248204,21906.27138,11,12.5,NA,NA,or,NA,NA,119,1,LTPA,10,NA,NA,21906.27138,Both,missing RRs,TRUE,TRUE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,303,173824,24206,8,15.62,NA,NA,hr,NA,NA,334,1,LTPA,11,NA,NA,24206,Both,missing RRs,TRUE,TRUE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,308,173824,24678,8,9.38,NA,NA,hr,NA,NA,435,1,LTPA,11,NA,NA,24678,Both,missing RRs,TRUE,TRUE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,296,173824,23689,8,3.12,NA,NA,hr,NA,NA,475,1,LTPA,11,NA,NA,23689,Both,missing RRs,TRUE,TRUE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,374,173824,29928,8,1.25,NA,NA,hr,NA,NA,780,1,LTPA,11,NA,NA,29928,Both,missing RRs,TRUE,TRUE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,970,173824,77639,8,0,NA,NA,hr,NA,NA,1921,1,LTPA,11,NA,NA,77639,Both,missing RRs,TRUE,TRUE
+9929,Cabello M.,Depression,Non-fatal,3,ir,5970,3973,32835,21851.5,5.5,0,NA,NA,or,NA,NA,381,1,LTPA,12,NA,NA,21851.5,Both,missing RRs,TRUE,TRUE
+9929,Cabello M.,Depression,Non-fatal,3,ir,5970,903,32835,4966.5,5.5,9,NA,NA,or,NA,NA,84,1,LTPA,12,NA,NA,4966.5,Both,missing RRs,TRUE,TRUE
+9929,Cabello M.,Depression,Non-fatal,3,ir,5970,1094,32835,6017,5.5,22,NA,NA,or,NA,NA,129,1,LTPA,12,NA,NA,6017,Both,missing RRs,TRUE,TRUE
+9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,5597,163059,59193,10.5,3.29,NA,NA,hr,NA,NA,366,1,LTPA,13,NA,NA,59193,Both,missing RRs,TRUE,TRUE
+9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,3548,163059,37606,10.5,11.34,NA,NA,hr,NA,NA,193,1,LTPA,13,NA,NA,37606,Both,missing RRs,TRUE,TRUE
+9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,6343,163059,66260,10.5,19.66,NA,NA,hr,NA,NA,311,1,LTPA,13,NA,NA,66260,Both,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,0.37,NA,NA,or,NA,NA,191.8544,1,LTPA,14,NA,NA,27768.4,Both,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,3.44,NA,NA,or,NA,NA,157.775,1,LTPA,14,NA,NA,27768.4,Both,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,8.88,NA,NA,or,NA,NA,150.2018,1,LTPA,14,NA,NA,27768.4,Both,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,18.16,NA,NA,or,NA,NA,155.2506,1,LTPA,14,NA,NA,27768.4,Both,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,48.04,NA,NA,or,NA,NA,132.531,1,LTPA,14,NA,NA,27768.4,Both,missing RRs,TRUE,TRUE
+9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,4854.761129,267722,63111.89467,13,3.1,NA,NA,hr,NA,NA,80,1,LTPA,15,NA,NA,63111.89467,Both,missing RRs,TRUE,TRUE
+9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7865.584561,267722,102252.5993,13,9.38,NA,NA,hr,NA,NA,111,1,LTPA,15,NA,NA,102252.5993,Both,missing RRs,TRUE,TRUE
+9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7873.65431,267722,102357.506,13,15.62,NA,NA,hr,NA,NA,98,1,LTPA,15,NA,NA,102357.506,Both,missing RRs,TRUE,TRUE
 991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,1250,31171,7625,6.1,0,NA,NA,or,NA,NA,161,1,LTPA,1,NA,NA,7625,Non-fatal,missing RRs,TRUE,TRUE
 991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,2109,31171,12864.9,6.1,2.65,NA,NA,or,NA,NA,304,1,LTPA,1,NA,NA,12864.9,Non-fatal,missing RRs,TRUE,TRUE
 991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,1751,31171,10681.1,6.1,9.29,NA,NA,or,NA,NA,176,1,LTPA,1,NA,NA,10681.1,Non-fatal,missing RRs,TRUE,TRUE
@@ -774,12 +846,7 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,3.44,NA,NA,or,NA,NA,157.775,1,LTPA,8,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,TRUE
 9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,8.88,NA,NA,or,NA,NA,150.2018,1,LTPA,8,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,TRUE
 9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,18.16,NA,NA,or,NA,NA,155.2506,1,LTPA,8,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,TRUE
-99389,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,48.04,NA,NA,or,NA,NA,132.531,1,LTPA,9,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,TRUE
-99389,Hughes K.,Depressive symptoms,Non-fatal,2,ir,11673,2334.6,256806,51361.2,22,0.37,NA,NA,or,NA,NA,436.5702,1,LTPA,9,NA,NA,51361.2,Non-fatal,missing RRs,TRUE,TRUE
-99389,Hughes K.,Depressive symptoms,Non-fatal,2,ir,11673,2334.6,256806,51361.2,22,2.14,NA,NA,or,NA,NA,380.5398,1,LTPA,9,NA,NA,51361.2,Non-fatal,missing RRs,TRUE,TRUE
-99389,Hughes K.,Depressive symptoms,Non-fatal,2,ir,11673,2334.6,256806,51361.2,22,5.65,NA,NA,or,NA,NA,368.8668,1,LTPA,9,NA,NA,51361.2,Non-fatal,missing RRs,TRUE,TRUE
-99389,Hughes K.,Depressive symptoms,Non-fatal,2,ir,11673,2334.6,256806,51361.2,22,12.5,NA,NA,or,NA,NA,340.8516,1,LTPA,9,NA,NA,51361.2,Non-fatal,missing RRs,TRUE,TRUE
-99389,Hughes K.,Depressive symptoms,Non-fatal,2,ir,11673,2334.6,256806,51361.2,22,36.08,NA,NA,or,NA,NA,347.8554,1,LTPA,9,NA,NA,51361.2,Non-fatal,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,48.04,NA,NA,or,NA,NA,132.531,1,LTPA,8,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,TRUE
 991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,1250,31171,7625,6.1,0,NA,NA,or,NA,NA,161,1,LTPA,1,NA,NA,7625,Both,missing RRs,TRUE,TRUE
 991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,2109,31171,12864.9,6.1,2.65,NA,NA,or,NA,NA,304,1,LTPA,1,NA,NA,12864.9,Both,missing RRs,TRUE,TRUE
 991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,1751,31171,10681.1,6.1,9.29,NA,NA,or,NA,NA,176,1,LTPA,1,NA,NA,10681.1,Both,missing RRs,TRUE,TRUE
@@ -818,12 +885,7 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,3.44,NA,NA,or,NA,NA,157.775,1,LTPA,8,NA,NA,27768.4,Both,missing RRs,TRUE,TRUE
 9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,8.88,NA,NA,or,NA,NA,150.2018,1,LTPA,8,NA,NA,27768.4,Both,missing RRs,TRUE,TRUE
 9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,18.16,NA,NA,or,NA,NA,155.2506,1,LTPA,8,NA,NA,27768.4,Both,missing RRs,TRUE,TRUE
-99389,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,48.04,NA,NA,or,NA,NA,132.531,1,LTPA,9,NA,NA,27768.4,Both,missing RRs,TRUE,TRUE
-99389,Hughes K.,Depressive symptoms,Non-fatal,2,ir,11673,2334.6,256806,51361.2,22,0.37,NA,NA,or,NA,NA,436.5702,1,LTPA,9,NA,NA,51361.2,Both,missing RRs,TRUE,TRUE
-99389,Hughes K.,Depressive symptoms,Non-fatal,2,ir,11673,2334.6,256806,51361.2,22,2.14,NA,NA,or,NA,NA,380.5398,1,LTPA,9,NA,NA,51361.2,Both,missing RRs,TRUE,TRUE
-99389,Hughes K.,Depressive symptoms,Non-fatal,2,ir,11673,2334.6,256806,51361.2,22,5.65,NA,NA,or,NA,NA,368.8668,1,LTPA,9,NA,NA,51361.2,Both,missing RRs,TRUE,TRUE
-99389,Hughes K.,Depressive symptoms,Non-fatal,2,ir,11673,2334.6,256806,51361.2,22,12.5,NA,NA,or,NA,NA,340.8516,1,LTPA,9,NA,NA,51361.2,Both,missing RRs,TRUE,TRUE
-99389,Hughes K.,Depressive symptoms,Non-fatal,2,ir,11673,2334.6,256806,51361.2,22,36.08,NA,NA,or,NA,NA,347.8554,1,LTPA,9,NA,NA,51361.2,Both,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,48.04,NA,NA,or,NA,NA,132.531,1,LTPA,8,NA,NA,27768.4,Both,missing RRs,TRUE,TRUE
 332,"Arem, H",Endometrial cancer,Fatal,2,ci,121913,17166,1475147,207707,12.1,0,NA,NA,hr,NA,NA,23,1,LTPA,1,NA,NA,207707,Fatal,missing RRs,TRUE,TRUE
 332,"Arem, H",Endometrial cancer,Fatal,2,ci,121913,12998,1475147,157273,12.1,1.25,NA,NA,hr,NA,NA,24,1,LTPA,1,NA,NA,157273,Fatal,missing RRs,TRUE,TRUE
 332,"Arem, H",Endometrial cancer,Fatal,2,ci,121913,31142,1475147,376817,12.1,5,NA,NA,hr,NA,NA,27,1,LTPA,1,NA,NA,376817,Fatal,missing RRs,TRUE,TRUE
@@ -868,10 +930,10 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 27,"Rahman, I",Heart failure,Both,1,ci,31141,7981,450523,115463,13,24.18,NA,NA,hr,NA,NA,885,1,LTPA,3,NA,NA,115463,Both,missing RRs,TRUE,TRUE
 27,"Rahman, I",Heart failure,Both,1,ci,31141,7619,450523,110226,13,45.42,NA,NA,hr,NA,NA,845,1,LTPA,3,NA,NA,110226,Both,missing RRs,TRUE,TRUE
 27,"Rahman, I",Heart failure,Both,1,ci,31141,7614,450523,110153,13,63.67,NA,NA,hr,NA,NA,1025,1,LTPA,3,NA,NA,110153,Both,missing RRs,TRUE,TRUE
-220,"Pandey, A.",Heart failure,Both,3,ci,51451,10623,645515,133278,12.54620901,0,NA,NA,hr,NA,NA,742,1,LTPA,8,NA,NA,133278,Both,missing RRs,TRUE,TRUE
-220,"Pandey, A.",Heart failure,Both,3,ci,51451,17714,645515,222244,12.54620901,2.33,NA,NA,hr,NA,NA,1163,1,LTPA,8,NA,NA,222244,Both,missing RRs,TRUE,TRUE
-220,"Pandey, A.",Heart failure,Both,3,ci,51451,9349,645515,117295,12.54620901,8.72,NA,NA,hr,NA,NA,555,1,LTPA,8,NA,NA,117295,Both,missing RRs,TRUE,TRUE
-220,"Pandey, A.",Heart failure,Both,3,ci,51451,13765,645515,172699,12.54620901,21.76,NA,NA,hr,NA,NA,721,1,LTPA,8,NA,NA,172699,Both,missing RRs,TRUE,TRUE
+220,"Pandey, A.",Heart failure,Both,3,ci,51451,10623,645515,133278,12.546209014402052,0,NA,NA,hr,NA,NA,742,1,LTPA,8,NA,NA,133278,Both,missing RRs,TRUE,TRUE
+220,"Pandey, A.",Heart failure,Both,3,ci,51451,17714,645515,222244,12.546209014402052,2.33,NA,NA,hr,NA,NA,1163,1,LTPA,8,NA,NA,222244,Both,missing RRs,TRUE,TRUE
+220,"Pandey, A.",Heart failure,Both,3,ci,51451,9349,645515,117295,12.546209014402052,8.72,NA,NA,hr,NA,NA,555,1,LTPA,8,NA,NA,117295,Both,missing RRs,TRUE,TRUE
+220,"Pandey, A.",Heart failure,Both,3,ci,51451,13765,645515,172699,12.546209014402052,21.76,NA,NA,hr,NA,NA,721,1,LTPA,8,NA,NA,172699,Both,missing RRs,TRUE,TRUE
 332,"Arem, H",Kidney cancer,Fatal,3,ci,293511,41165,3551483,498097,12.1,0,NA,NA,hr,NA,NA,47,1,LTPA,2,NA,NA,498097,Fatal,missing RRs,TRUE,TRUE
 332,"Arem, H",Kidney cancer,Fatal,3,ci,293511,31095,3551483,376250,12.1,1.25,NA,NA,hr,NA,NA,36,1,LTPA,2,NA,NA,376250,Fatal,missing RRs,TRUE,TRUE
 332,"Arem, H",Kidney cancer,Fatal,3,ci,293511,74502,3551483,901474,12.1,5,NA,NA,hr,NA,NA,85,1,LTPA,2,NA,NA,901474,Fatal,missing RRs,TRUE,TRUE
@@ -929,6 +991,52 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 332,"Arem, H",Lung cancer,Fatal,3,ci,293511,74502,3551483,901474,12.1,5,NA,NA,hr,NA,NA,1258,1,LTPA,14,NA,NA,901474,Both,missing RRs,TRUE,TRUE
 332,"Arem, H",Lung cancer,Fatal,3,ci,293511,76049,3551483,920193,12.1,13.75,NA,NA,hr,NA,NA,1095,1,LTPA,14,NA,NA,920193,Both,missing RRs,TRUE,TRUE
 332,"Arem, H",Lung cancer,Fatal,3,ci,293511,70700,3551483,855470,12.1,23.75,NA,NA,hr,NA,NA,1073,1,LTPA,14,NA,NA,855470,Both,missing RRs,TRUE,TRUE
+999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,4479.200195,429208,116459.2031,26,10.5,NA,NA,hr,NA,NA,92,1,LTPA,1,NA,NA,116459.2031,Non-fatal,missing RRs,TRUE,TRUE
+999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,9057.360352,429208,235491.3594,26,5,NA,NA,hr,NA,NA,235,1,LTPA,1,NA,NA,235491.3594,Non-fatal,missing RRs,TRUE,TRUE
+999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,2971.439941,429208,77257.4375,26,1,NA,NA,hr,NA,NA,109,1,LTPA,1,NA,NA,77257.4375,Non-fatal,missing RRs,TRUE,TRUE
+9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3468,244220,83035,25,4.73,NA,NA,rr,NA,NA,154,1,LTPA,2,NA,NA,83035,Non-fatal,missing RRs,TRUE,TRUE
+9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3468,244220,83035,25,18.79,NA,NA,rr,NA,NA,129,1,LTPA,2,NA,NA,83035,Non-fatal,missing RRs,TRUE,TRUE
+9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3264,244220,78150,25,36.16,NA,NA,rr,NA,NA,104,1,LTPA,2,NA,NA,78150,Non-fatal,missing RRs,TRUE,TRUE
+9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,1799.971564,11994,5399.914692,3,0,NA,NA,or,NA,NA,132,1,LTPA,3,NA,NA,5399.914692,Non-fatal,missing RRs,TRUE,TRUE
+9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,1267.949708,11994,3803.849124,3,5,NA,NA,or,NA,NA,58,1,LTPA,3,NA,NA,3803.849124,Non-fatal,missing RRs,TRUE,TRUE
+9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,930.078728,11994,2790.236184,3,11.25,NA,NA,or,NA,NA,54,1,LTPA,3,NA,NA,2790.236184,Non-fatal,missing RRs,TRUE,TRUE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,303,173824,24206,8,15.62,NA,NA,hr,NA,NA,334,1,LTPA,4,NA,NA,24206,Non-fatal,missing RRs,TRUE,TRUE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,308,173824,24678,8,9.38,NA,NA,hr,NA,NA,435,1,LTPA,4,NA,NA,24678,Non-fatal,missing RRs,TRUE,TRUE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,296,173824,23689,8,3.12,NA,NA,hr,NA,NA,475,1,LTPA,4,NA,NA,23689,Non-fatal,missing RRs,TRUE,TRUE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,374,173824,29928,8,1.25,NA,NA,hr,NA,NA,780,1,LTPA,4,NA,NA,29928,Non-fatal,missing RRs,TRUE,TRUE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,970,173824,77639,8,0,NA,NA,hr,NA,NA,1921,1,LTPA,4,NA,NA,77639,Non-fatal,missing RRs,TRUE,TRUE
+9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,3973,32835,21851.5,5.5,0,NA,NA,or,NA,NA,381,1,LTPA,5,NA,NA,21851.5,Non-fatal,missing RRs,TRUE,TRUE
+9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,903,32835,4966.5,5.5,9,NA,NA,or,NA,NA,84,1,LTPA,5,NA,NA,4966.5,Non-fatal,missing RRs,TRUE,TRUE
+9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,1094,32835,6017,5.5,22,NA,NA,or,NA,NA,129,1,LTPA,5,NA,NA,6017,Non-fatal,missing RRs,TRUE,TRUE
+9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,5597,163059,59193,10.5,3.29,NA,NA,hr,NA,NA,366,1,LTPA,6,NA,NA,59193,Non-fatal,missing RRs,TRUE,TRUE
+9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,3548,163059,37606,10.5,11.34,NA,NA,hr,NA,NA,193,1,LTPA,6,NA,NA,37606,Non-fatal,missing RRs,TRUE,TRUE
+9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,6343,163059,66260,10.5,19.66,NA,NA,hr,NA,NA,311,1,LTPA,6,NA,NA,66260,Non-fatal,missing RRs,TRUE,TRUE
+9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,4854.761129,267722,63111.89467,13,3.1,NA,NA,hr,NA,NA,80,1,LTPA,7,NA,NA,63111.89467,Non-fatal,missing RRs,TRUE,TRUE
+9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,7865.584561,267722,102252.5993,13,9.38,NA,NA,hr,NA,NA,111,1,LTPA,7,NA,NA,102252.5993,Non-fatal,missing RRs,TRUE,TRUE
+9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,7873.65431,267722,102357.506,13,15.62,NA,NA,hr,NA,NA,98,1,LTPA,7,NA,NA,102357.506,Non-fatal,missing RRs,TRUE,TRUE
+999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,4479.200195,429208,116459.2031,26,10.5,NA,NA,hr,NA,NA,92,1,LTPA,1,NA,NA,116459.2031,Both,missing RRs,TRUE,TRUE
+999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,9057.360352,429208,235491.3594,26,5,NA,NA,hr,NA,NA,235,1,LTPA,1,NA,NA,235491.3594,Both,missing RRs,TRUE,TRUE
+999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,2971.439941,429208,77257.4375,26,1,NA,NA,hr,NA,NA,109,1,LTPA,1,NA,NA,77257.4375,Both,missing RRs,TRUE,TRUE
+9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3468,244220,83035,25,4.73,NA,NA,rr,NA,NA,154,1,LTPA,2,NA,NA,83035,Both,missing RRs,TRUE,TRUE
+9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3468,244220,83035,25,18.79,NA,NA,rr,NA,NA,129,1,LTPA,2,NA,NA,83035,Both,missing RRs,TRUE,TRUE
+9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3264,244220,78150,25,36.16,NA,NA,rr,NA,NA,104,1,LTPA,2,NA,NA,78150,Both,missing RRs,TRUE,TRUE
+9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,1799.971564,11994,5399.914692,3,0,NA,NA,or,NA,NA,132,1,LTPA,3,NA,NA,5399.914692,Both,missing RRs,TRUE,TRUE
+9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,1267.949708,11994,3803.849124,3,5,NA,NA,or,NA,NA,58,1,LTPA,3,NA,NA,3803.849124,Both,missing RRs,TRUE,TRUE
+9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,930.078728,11994,2790.236184,3,11.25,NA,NA,or,NA,NA,54,1,LTPA,3,NA,NA,2790.236184,Both,missing RRs,TRUE,TRUE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,303,173824,24206,8,15.62,NA,NA,hr,NA,NA,334,1,LTPA,4,NA,NA,24206,Both,missing RRs,TRUE,TRUE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,308,173824,24678,8,9.38,NA,NA,hr,NA,NA,435,1,LTPA,4,NA,NA,24678,Both,missing RRs,TRUE,TRUE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,296,173824,23689,8,3.12,NA,NA,hr,NA,NA,475,1,LTPA,4,NA,NA,23689,Both,missing RRs,TRUE,TRUE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,374,173824,29928,8,1.25,NA,NA,hr,NA,NA,780,1,LTPA,4,NA,NA,29928,Both,missing RRs,TRUE,TRUE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,970,173824,77639,8,0,NA,NA,hr,NA,NA,1921,1,LTPA,4,NA,NA,77639,Both,missing RRs,TRUE,TRUE
+9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,3973,32835,21851.5,5.5,0,NA,NA,or,NA,NA,381,1,LTPA,5,NA,NA,21851.5,Both,missing RRs,TRUE,TRUE
+9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,903,32835,4966.5,5.5,9,NA,NA,or,NA,NA,84,1,LTPA,5,NA,NA,4966.5,Both,missing RRs,TRUE,TRUE
+9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,1094,32835,6017,5.5,22,NA,NA,or,NA,NA,129,1,LTPA,5,NA,NA,6017,Both,missing RRs,TRUE,TRUE
+9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,5597,163059,59193,10.5,3.29,NA,NA,hr,NA,NA,366,1,LTPA,6,NA,NA,59193,Both,missing RRs,TRUE,TRUE
+9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,3548,163059,37606,10.5,11.34,NA,NA,hr,NA,NA,193,1,LTPA,6,NA,NA,37606,Both,missing RRs,TRUE,TRUE
+9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,6343,163059,66260,10.5,19.66,NA,NA,hr,NA,NA,311,1,LTPA,6,NA,NA,66260,Both,missing RRs,TRUE,TRUE
+9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,4854.761129,267722,63111.89467,13,3.1,NA,NA,hr,NA,NA,80,1,LTPA,7,NA,NA,63111.89467,Both,missing RRs,TRUE,TRUE
+9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,7865.584561,267722,102252.5993,13,9.38,NA,NA,hr,NA,NA,111,1,LTPA,7,NA,NA,102252.5993,Both,missing RRs,TRUE,TRUE
+9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,7873.65431,267722,102357.506,13,15.62,NA,NA,hr,NA,NA,98,1,LTPA,7,NA,NA,102357.506,Both,missing RRs,TRUE,TRUE
 332,"Arem, H",Myeloid leukemia,Fatal,3,ci,293511,41165,3551483,498097,12.1,0,NA,NA,hr,NA,NA,54,1,LTPA,2,NA,NA,498097,Fatal,missing RRs,TRUE,TRUE
 332,"Arem, H",Myeloid leukemia,Fatal,3,ci,293511,31095,3551483,376250,12.1,1.25,NA,NA,hr,NA,NA,50,1,LTPA,2,NA,NA,376250,Fatal,missing RRs,TRUE,TRUE
 332,"Arem, H",Myeloid leukemia,Fatal,3,ci,293511,74502,3551483,901474,12.1,5,NA,NA,hr,NA,NA,81,1,LTPA,2,NA,NA,901474,Fatal,missing RRs,TRUE,TRUE
@@ -944,14 +1052,14 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 332,"Arem, H",Myeloma,Fatal,3,ci,293511,74502,3551483,901474,12.1,5,NA,NA,hr,NA,NA,63,1,LTPA,2,NA,NA,901474,Fatal,missing RRs,TRUE,TRUE
 332,"Arem, H",Myeloma,Fatal,3,ci,293511,76049,3551483,920193,12.1,13.75,NA,NA,hr,NA,NA,90,1,LTPA,2,NA,NA,920193,Fatal,missing RRs,TRUE,TRUE
 332,"Arem, H",Myeloma,Fatal,3,ci,293511,70700,3551483,855470,12.1,23.75,NA,NA,hr,NA,NA,93,1,LTPA,2,NA,NA,855470,Fatal,missing RRs,TRUE,TRUE
-131,Hofmann JN,Myeloma,Both,3,ci,305618,11122,4405154,1282448,14.41392195,6.8,NA,NA,hr,NA,NA,125,1,LTPA,1,NA,NA,1282448,Both,missing RRs,TRUE,TRUE
-131,Hofmann JN,Myeloma,Both,3,ci,305618,6875,4405154,792786,14.41392195,18.05,NA,NA,hr,NA,NA,85,1,LTPA,1,NA,NA,792786,Both,missing RRs,TRUE,TRUE
-131,Hofmann JN,Myeloma,Both,3,ci,305618,9140,4405154,1053939,14.41392195,32.29,NA,NA,hr,NA,NA,113,1,LTPA,1,NA,NA,1053939,Both,missing RRs,TRUE,TRUE
-131,Hofmann JN,Myeloma,Both,3,ci,305618,11066,4405154,1275982,14.41392195,49.37,NA,NA,hr,NA,NA,148,1,LTPA,1,NA,NA,1275982,Both,missing RRs,TRUE,TRUE
-169,Birmann B,Myeloma,Both,3,ci,136623,6553,2282665,875866,16.70776516,2.5,NA,NA,hr,NA,NA,92,1,LTPA,2,NA,NA,875866,Both,missing RRs,TRUE,TRUE
-169,Birmann B,Myeloma,Both,3,ci,136623,5043,2282665,674009,16.70776516,7.38,NA,NA,hr,NA,NA,47,1,LTPA,2,NA,NA,674009,Both,missing RRs,TRUE,TRUE
-169,Birmann B,Myeloma,Both,3,ci,136623,3758,2282665,502289,16.70776516,13.63,NA,NA,hr,NA,NA,47,1,LTPA,2,NA,NA,502289,Both,missing RRs,TRUE,TRUE
-169,Birmann B,Myeloma,Both,3,ci,136623,1737,2282665,232123,16.70776516,21.13,NA,NA,hr,NA,NA,29,1,LTPA,2,NA,NA,232123,Both,missing RRs,TRUE,TRUE
+131,Hofmann JN,Myeloma,Both,3,ci,305618,11122,4405154,1282448,14.41392195485868,6.8,NA,NA,hr,NA,NA,125,1,LTPA,1,NA,NA,1282448,Both,missing RRs,TRUE,TRUE
+131,Hofmann JN,Myeloma,Both,3,ci,305618,6875,4405154,792786,14.41392195485868,18.05,NA,NA,hr,NA,NA,85,1,LTPA,1,NA,NA,792786,Both,missing RRs,TRUE,TRUE
+131,Hofmann JN,Myeloma,Both,3,ci,305618,9140,4405154,1053939,14.41392195485868,32.29,NA,NA,hr,NA,NA,113,1,LTPA,1,NA,NA,1053939,Both,missing RRs,TRUE,TRUE
+131,Hofmann JN,Myeloma,Both,3,ci,305618,11066,4405154,1275982,14.41392195485868,49.37,NA,NA,hr,NA,NA,148,1,LTPA,1,NA,NA,1275982,Both,missing RRs,TRUE,TRUE
+169,Birmann B,Myeloma,Both,3,ci,136623,6553,2282665,875866,16.70776516399142,2.5,NA,NA,hr,NA,NA,92,1,LTPA,2,NA,NA,875866,Both,missing RRs,TRUE,TRUE
+169,Birmann B,Myeloma,Both,3,ci,136623,5043,2282665,674009,16.70776516399142,7.38,NA,NA,hr,NA,NA,47,1,LTPA,2,NA,NA,674009,Both,missing RRs,TRUE,TRUE
+169,Birmann B,Myeloma,Both,3,ci,136623,3758,2282665,502289,16.70776516399142,13.63,NA,NA,hr,NA,NA,47,1,LTPA,2,NA,NA,502289,Both,missing RRs,TRUE,TRUE
+169,Birmann B,Myeloma,Both,3,ci,136623,1737,2282665,232123,16.70776516399142,21.13,NA,NA,hr,NA,NA,29,1,LTPA,2,NA,NA,232123,Both,missing RRs,TRUE,TRUE
 332,"Arem, H",Myeloma,Fatal,3,ci,293511,41165,3551483,498097,12.1,0,NA,NA,hr,NA,NA,61,1,LTPA,4,NA,NA,498097,Both,missing RRs,TRUE,TRUE
 332,"Arem, H",Myeloma,Fatal,3,ci,293511,31095,3551483,376250,12.1,1.25,NA,NA,hr,NA,NA,34,1,LTPA,4,NA,NA,376250,Both,missing RRs,TRUE,TRUE
 332,"Arem, H",Myeloma,Fatal,3,ci,293511,74502,3551483,901474,12.1,5,NA,NA,hr,NA,NA,63,1,LTPA,4,NA,NA,901474,Both,missing RRs,TRUE,TRUE
@@ -983,10 +1091,10 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 9924,Xu Q.,Parkinson's disease,Non-fatal,3,ir,212582,54058,1913238,486522,9,2.5,NA,NA,or,NA,NA,195,1,LTPA,6,NA,NA,486522,Non-fatal,missing RRs,TRUE,TRUE
 9924,Xu Q.,Parkinson's disease,Non-fatal,3,ir,212582,56704,1913238,510336,9,6.88,NA,NA,or,NA,NA,207,1,LTPA,6,NA,NA,510336,Non-fatal,missing RRs,TRUE,TRUE
 9924,Xu Q.,Parkinson's disease,Non-fatal,3,ir,212582,52318,1913238,470862,9,10.62,NA,NA,or,NA,NA,158,1,LTPA,6,NA,NA,470862,Non-fatal,missing RRs,TRUE,TRUE
-9915,Logroscino G.,Parkinson's disease,Both,1,ci,7858,515,47148,12363,6,4.73,NA,NA,hr,NA,NA,19,1,LTPA,1,NA,NA,12363,Both,missing RRs,TRUE,TRUE
-9915,Logroscino G.,Parkinson's disease,Both,1,ci,7858,624,47148,14976,6,15.93,NA,NA,hr,NA,NA,29,1,LTPA,1,NA,NA,14976,Both,missing RRs,TRUE,TRUE
-9915,Logroscino G.,Parkinson's disease,Both,1,ci,7858,425,47148,10191,6,27.44,NA,NA,hr,NA,NA,13,1,LTPA,1,NA,NA,10191,Both,missing RRs,TRUE,TRUE
-9915,Logroscino G.,Parkinson's disease,Both,1,ci,7858,401,47148,9619,6,39.07,NA,NA,hr,NA,NA,17,1,LTPA,1,NA,NA,9619,Both,missing RRs,TRUE,TRUE
+9915,Logroscino G.,Parkinson's disease,Both,1,ci,7858,515,47148,12363,6,5.32,NA,NA,hr,NA,NA,19,1,LTPA,1,NA,NA,12363,Both,missing RRs,TRUE,TRUE
+9915,Logroscino G.,Parkinson's disease,Both,1,ci,7858,624,47148,14976,6,17.79,NA,NA,hr,NA,NA,29,1,LTPA,1,NA,NA,14976,Both,missing RRs,TRUE,TRUE
+9915,Logroscino G.,Parkinson's disease,Both,1,ci,7858,425,47148,10191,6,30.59,NA,NA,hr,NA,NA,13,1,LTPA,1,NA,NA,10191,Both,missing RRs,TRUE,TRUE
+9915,Logroscino G.,Parkinson's disease,Both,1,ci,7858,401,47148,9619,6,43.52,NA,NA,hr,NA,NA,17,1,LTPA,1,NA,NA,9619,Both,missing RRs,TRUE,TRUE
 996,Thacker E.,Parkinson's disease,Non-fatal,3,ci,141339,976,646417,63563,9,0,NA,NA,hr,NA,NA,23,1,LTPA,2,NA,NA,63563,Both,missing RRs,TRUE,TRUE
 996,Thacker E.,Parkinson's disease,Non-fatal,3,ci,141339,2771,646417,180528,9,2.14,NA,NA,hr,NA,NA,67,1,LTPA,2,NA,NA,180528,Both,missing RRs,TRUE,TRUE
 996,Thacker E.,Parkinson's disease,Non-fatal,3,ci,141339,1620,646417,105565,9,5.25,NA,NA,hr,NA,NA,46,1,LTPA,2,NA,NA,105565,Both,missing RRs,TRUE,TRUE
@@ -1049,9 +1157,9 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 234,Larsson et al.,Rectum cancer,Both,1,ci,45906,1032,325933,58590,7.1,5.83,NA,NA,hr,NA,NA,45,1,LTPA,7,NA,NA,58590,Both,missing RRs,TRUE,TRUE
 234,Larsson et al.,Rectum cancer,Both,1,ci,45906,1983,325933,112654,7.1,13.13,NA,NA,hr,NA,NA,58,1,LTPA,7,NA,NA,112654,Both,missing RRs,TRUE,TRUE
 234,Larsson et al.,Rectum cancer,Both,1,ci,45906,2369,325933,134547,7.1,21.88,NA,NA,hr,NA,NA,67,1,LTPA,7,NA,NA,134547,Both,missing RRs,TRUE,TRUE
-255,Thune et al.,Rectum cancer,Both,3,ci,81457,16976,1305607,271728,16.02817437,0,NA,NA,hr,NA,NA,38,1,LTPA,8,NA,NA,271728,Both,missing RRs,TRUE,TRUE
-255,Thune et al.,Rectum cancer,Both,3,ci,81457,48140,1305607,769633,16.02817437,10,NA,NA,hr,NA,NA,146,1,LTPA,8,NA,NA,769633,Both,missing RRs,TRUE,TRUE
-255,Thune et al.,Rectum cancer,Both,3,ci,81457,16341,1305607,264247,16.02817437,24,NA,NA,hr,NA,NA,40,1,LTPA,8,NA,NA,264247,Both,missing RRs,TRUE,TRUE
+255,Thune et al.,Rectum cancer,Both,3,ci,81457,16976,1305607,271728,16.028174374209705,0,NA,NA,hr,NA,NA,38,1,LTPA,8,NA,NA,271728,Both,missing RRs,TRUE,TRUE
+255,Thune et al.,Rectum cancer,Both,3,ci,81457,48140,1305607,769633,16.028174374209705,10,NA,NA,hr,NA,NA,146,1,LTPA,8,NA,NA,769633,Both,missing RRs,TRUE,TRUE
+255,Thune et al.,Rectum cancer,Both,3,ci,81457,16341,1305607,264247,16.028174374209705,24,NA,NA,hr,NA,NA,40,1,LTPA,8,NA,NA,264247,Both,missing RRs,TRUE,TRUE
 267,Wei E.,Rectum cancer,Both,1,ir,46632,6517,652848,91240,14,0.25,NA,NA,rr,NA,NA,23,1,LTPA,9,NA,NA,91240,Both,missing RRs,TRUE,TRUE
 267,Wei E.,Rectum cancer,Both,1,ir,46632,13395,652848,187534,14,1.92,NA,NA,rr,NA,NA,26,1,LTPA,9,NA,NA,187534,Both,missing RRs,TRUE,TRUE
 267,Wei E.,Rectum cancer,Both,1,ir,46632,8967,652848,125541,14,5.41,NA,NA,rr,NA,NA,25,1,LTPA,9,NA,NA,125541,Both,missing RRs,TRUE,TRUE
@@ -1108,25 +1216,25 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 995,Laurin D.,Vascular dementia,Non-fatal,3,ir,3733,490,18665,2450,5,2.81,NA,NA,or,NA,NA,5,1,LTPA,1,NA,NA,2450,Non-fatal,missing RRs,TRUE,TRUE
 995,Laurin D.,Vascular dementia,Non-fatal,3,ir,3733,1378,18665,6890,5,5.62,NA,NA,or,NA,NA,18,1,LTPA,1,NA,NA,6890,Non-fatal,missing RRs,TRUE,TRUE
 995,Laurin D.,Vascular dementia,Non-fatal,3,ir,3733,739,18665,3695,5,13.5,NA,NA,or,NA,NA,8,1,LTPA,1,NA,NA,3695,Non-fatal,missing RRs,TRUE,TRUE
-997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,844,18214.2,4365.079365,5.4,0.72,NA,NA,hr,NA,NA,55,1,LTPA,2,NA,NA,4365.079365,Non-fatal,missing RRs,TRUE,TRUE
-997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,842,18214.2,4496.124031,5.4,4.18,NA,NA,hr,NA,NA,58,1,LTPA,2,NA,NA,4496.124031,Non-fatal,missing RRs,TRUE,TRUE
-997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,844,18214.2,4642.857143,5.4,11.25,NA,NA,hr,NA,NA,52,1,LTPA,2,NA,NA,4642.857143,Non-fatal,missing RRs,TRUE,TRUE
-997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,843,18214.2,4705.882353,5.4,20.7,NA,NA,hr,NA,NA,48,1,LTPA,2,NA,NA,4705.882353,Non-fatal,missing RRs,TRUE,TRUE
+997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,844,18214.2,4365.079365,5.4,1.01,NA,NA,hr,NA,NA,55,1,LTPA,2,NA,NA,4365.079365,Non-fatal,missing RRs,TRUE,TRUE
+997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,842,18214.2,4496.124031,5.4,5.51,NA,NA,hr,NA,NA,58,1,LTPA,2,NA,NA,4496.124031,Non-fatal,missing RRs,TRUE,TRUE
+997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,844,18214.2,4642.857143,5.4,14.61,NA,NA,hr,NA,NA,52,1,LTPA,2,NA,NA,4642.857143,Non-fatal,missing RRs,TRUE,TRUE
+997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,843,18214.2,4705.882353,5.4,26.73,NA,NA,hr,NA,NA,48,1,LTPA,2,NA,NA,4705.882353,Non-fatal,missing RRs,TRUE,TRUE
 9936,Hansson O.,Vascular dementia,Non-fatal,3,ci,20609,6870,309135,103050,15,10.52,NA,NA,hr,NA,NA,102,1,LTPA,3,NA,NA,103050,Non-fatal,missing RRs,TRUE,TRUE
 9936,Hansson O.,Vascular dementia,Non-fatal,3,ci,20609,6870,309135,103050,15,21.95,NA,NA,hr,NA,NA,94,1,LTPA,3,NA,NA,103050,Non-fatal,missing RRs,TRUE,TRUE
 9936,Hansson O.,Vascular dementia,Non-fatal,3,ci,20609,6870,309135,103050,15,39.65,NA,NA,hr,NA,NA,67,1,LTPA,3,NA,NA,103050,Non-fatal,missing RRs,TRUE,TRUE
-9927,Neergaard J.,Vascular dementia,Both,2,ci,4963,1491,59059.7,17742.9,11.9,0,NA,NA,hr,NA,NA,22,1,LTPA,1,NA,NA,17742.9,Both,missing RRs,TRUE,TRUE
-9927,Neergaard J.,Vascular dementia,Both,2,ci,4963,1057,59059.7,12578.3,11.9,1.25,NA,NA,hr,NA,NA,8,1,LTPA,1,NA,NA,12578.3,Both,missing RRs,TRUE,TRUE
-9927,Neergaard J.,Vascular dementia,Both,2,ci,4963,643,59059.7,7651.7,11.9,2.5,NA,NA,hr,NA,NA,4,1,LTPA,1,NA,NA,7651.7,Both,missing RRs,TRUE,TRUE
-9927,Neergaard J.,Vascular dementia,Both,2,ci,4963,1772,59059.7,21086.8,11.9,4.38,NA,NA,hr,NA,NA,9,1,LTPA,1,NA,NA,21086.8,Both,missing RRs,TRUE,TRUE
+9927,Neergaard J.,Vascular dementia,Both,2,ci,4963,1491,59059.700000000004,17742.9,11.9,0,NA,NA,hr,NA,NA,22,1,LTPA,1,NA,NA,17742.9,Both,missing RRs,TRUE,TRUE
+9927,Neergaard J.,Vascular dementia,Both,2,ci,4963,1057,59059.700000000004,12578.3,11.9,1.25,NA,NA,hr,NA,NA,8,1,LTPA,1,NA,NA,12578.3,Both,missing RRs,TRUE,TRUE
+9927,Neergaard J.,Vascular dementia,Both,2,ci,4963,643,59059.700000000004,7651.7,11.9,2.5,NA,NA,hr,NA,NA,4,1,LTPA,1,NA,NA,7651.7,Both,missing RRs,TRUE,TRUE
+9927,Neergaard J.,Vascular dementia,Both,2,ci,4963,1772,59059.700000000004,21086.8,11.9,4.38,NA,NA,hr,NA,NA,9,1,LTPA,1,NA,NA,21086.8,Both,missing RRs,TRUE,TRUE
 995,Laurin D.,Vascular dementia,Non-fatal,3,ir,3733,1126,18665,5630,5,0,NA,NA,or,NA,NA,23,1,LTPA,2,NA,NA,5630,Both,missing RRs,TRUE,TRUE
 995,Laurin D.,Vascular dementia,Non-fatal,3,ir,3733,490,18665,2450,5,2.81,NA,NA,or,NA,NA,5,1,LTPA,2,NA,NA,2450,Both,missing RRs,TRUE,TRUE
 995,Laurin D.,Vascular dementia,Non-fatal,3,ir,3733,1378,18665,6890,5,5.62,NA,NA,or,NA,NA,18,1,LTPA,2,NA,NA,6890,Both,missing RRs,TRUE,TRUE
 995,Laurin D.,Vascular dementia,Non-fatal,3,ir,3733,739,18665,3695,5,13.5,NA,NA,or,NA,NA,8,1,LTPA,2,NA,NA,3695,Both,missing RRs,TRUE,TRUE
-997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,844,18214.2,4365.079365,5.4,0.72,NA,NA,hr,NA,NA,55,1,LTPA,3,NA,NA,4365.079365,Both,missing RRs,TRUE,TRUE
-997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,842,18214.2,4496.124031,5.4,4.18,NA,NA,hr,NA,NA,58,1,LTPA,3,NA,NA,4496.124031,Both,missing RRs,TRUE,TRUE
-997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,844,18214.2,4642.857143,5.4,11.25,NA,NA,hr,NA,NA,52,1,LTPA,3,NA,NA,4642.857143,Both,missing RRs,TRUE,TRUE
-997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,843,18214.2,4705.882353,5.4,20.7,NA,NA,hr,NA,NA,48,1,LTPA,3,NA,NA,4705.882353,Both,missing RRs,TRUE,TRUE
+997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,844,18214.2,4365.079365,5.4,1.01,NA,NA,hr,NA,NA,55,1,LTPA,3,NA,NA,4365.079365,Both,missing RRs,TRUE,TRUE
+997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,842,18214.2,4496.124031,5.4,5.51,NA,NA,hr,NA,NA,58,1,LTPA,3,NA,NA,4496.124031,Both,missing RRs,TRUE,TRUE
+997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,844,18214.2,4642.857143,5.4,14.61,NA,NA,hr,NA,NA,52,1,LTPA,3,NA,NA,4642.857143,Both,missing RRs,TRUE,TRUE
+997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,843,18214.2,4705.882353,5.4,26.73,NA,NA,hr,NA,NA,48,1,LTPA,3,NA,NA,4705.882353,Both,missing RRs,TRUE,TRUE
 9936,Hansson O.,Vascular dementia,Non-fatal,3,ci,20609,6870,309135,103050,15,10.52,NA,NA,hr,NA,NA,102,1,LTPA,4,NA,NA,103050,Both,missing RRs,TRUE,TRUE
 9936,Hansson O.,Vascular dementia,Non-fatal,3,ci,20609,6870,309135,103050,15,21.95,NA,NA,hr,NA,NA,94,1,LTPA,4,NA,NA,103050,Both,missing RRs,TRUE,TRUE
 9936,Hansson O.,Vascular dementia,Non-fatal,3,ci,20609,6870,309135,103050,15,39.65,NA,NA,hr,NA,NA,67,1,LTPA,4,NA,NA,103050,Both,missing RRs,TRUE,TRUE
@@ -1160,9 +1268,9 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 295-2,Kabat G.,All-cause cancer,Fatal,2,ci,189575,40234,1990538,422459,13,1.88,NA,NA,hr,NA,NA,1175,0,LTPA,8,NA,NA,422459,Fatal,missing RRs,TRUE,TRUE
 295-2,Kabat G.,All-cause cancer,Fatal,2,ci,189575,47916,1990538,503113,13,4.38,NA,NA,hr,NA,NA,1325,0,LTPA,8,NA,NA,503113,Fatal,missing RRs,TRUE,TRUE
 295-2,Kabat G.,All-cause cancer,Fatal,2,ci,189575,31041,1990538,325934,13,6.88,NA,NA,hr,NA,NA,907,0,LTPA,8,NA,NA,325934,Fatal,missing RRs,TRUE,TRUE
-28-Jan,Holtermann et al.,All-cause cvd,Fatal,1,ci,7411,1882,166006.4,557277,22.4,1.5,NA,NA,hr,NA,NA,402,0,LTPA,1,NA,NA,557277,Fatal,missing RRs,TRUE,TRUE
-28-Jan,Holtermann et al.,All-cause cvd,Fatal,1,ci,7411,5816,166006.4,1721984,22.4,4.5,NA,NA,hr,NA,NA,874,0,LTPA,1,NA,NA,1721984,Fatal,missing RRs,TRUE,TRUE
-28-Jan,Holtermann et al.,All-cause cvd,Fatal,1,ci,7411,4647,166006.4,1375818,22.4,18.2,NA,NA,hr,NA,NA,669,0,LTPA,1,NA,NA,1375818,Fatal,missing RRs,TRUE,TRUE
+28-1,Holtermann et al.,All-cause cvd,Fatal,1,ci,7411,1882,166006.4,557277,22.4,1.5,NA,NA,hr,NA,NA,402,0,LTPA,1,NA,NA,557277,Fatal,missing RRs,TRUE,TRUE
+28-1,Holtermann et al.,All-cause cvd,Fatal,1,ci,7411,5816,166006.4,1721984,22.4,4.5,NA,NA,hr,NA,NA,874,0,LTPA,1,NA,NA,1721984,Fatal,missing RRs,TRUE,TRUE
+28-1,Holtermann et al.,All-cause cvd,Fatal,1,ci,7411,4647,166006.4,1375818,22.4,18.2,NA,NA,hr,NA,NA,669,0,LTPA,1,NA,NA,1375818,Fatal,missing RRs,TRUE,TRUE
 193-1,Matthews C,All-cause cvd,Fatal,1,ci,26207,7031,167726,45001,6.4,3.52,NA,NA,hr,NA,NA,250,0,LTPA,5,NA,NA,45001,Fatal,missing RRs,TRUE,TRUE
 193-1,Matthews C,All-cause cvd,Fatal,1,ci,26207,5176,167726,33126,6.4,10.66,NA,NA,hr,NA,NA,123,0,LTPA,5,NA,NA,33126,Fatal,missing RRs,TRUE,TRUE
 193-1,Matthews C,All-cause cvd,Fatal,1,ci,26207,5340,167726,34174,6.4,20.05,NA,NA,hr,NA,NA,98,0,LTPA,5,NA,NA,34174,Fatal,missing RRs,TRUE,TRUE
@@ -1174,9 +1282,9 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 239-1,Patel et al.,All-cause cvd,Fatal,1,ci,53440,100,549438,115894,14,38.51,NA,NA,hr,NA,NA,638,0,LTPA,8,NA,NA,115894,Fatal,missing RRs,TRUE,TRUE
 239-1,Patel et al.,All-cause cvd,Fatal,1,ci,53440,76,549438,88468,14,47.48,NA,NA,hr,NA,NA,516,0,LTPA,8,NA,NA,88468,Fatal,missing RRs,TRUE,TRUE
 239-1,Patel et al.,All-cause cvd,Fatal,1,ci,53440,2,549438,2136,14,56.49,NA,NA,hr,NA,NA,753,0,LTPA,8,NA,NA,2136,Fatal,missing RRs,TRUE,TRUE
-28-Feb,Holtermann et al.,All-cause cvd,Fatal,2,ci,8916,146,199718.4,35965,22.4,1.5,NA,NA,hr,NA,NA,457,0,LTPA,1,NA,NA,35965,Fatal,missing RRs,TRUE,TRUE
-28-Feb,Holtermann et al.,All-cause cvd,Fatal,2,ci,8916,471,199718.4,115989,22.4,4.5,NA,NA,hr,NA,NA,1004,0,LTPA,1,NA,NA,115989,Fatal,missing RRs,TRUE,TRUE
-28-Feb,Holtermann et al.,All-cause cvd,Fatal,2,ci,8916,194,199718.4,47765,22.4,18.2,NA,NA,hr,NA,NA,353,0,LTPA,1,NA,NA,47765,Fatal,missing RRs,TRUE,TRUE
+28-2,Holtermann et al.,All-cause cvd,Fatal,2,ci,8916,146,199718.4,35965,22.4,1.5,NA,NA,hr,NA,NA,457,0,LTPA,1,NA,NA,35965,Fatal,missing RRs,TRUE,TRUE
+28-2,Holtermann et al.,All-cause cvd,Fatal,2,ci,8916,471,199718.4,115989,22.4,4.5,NA,NA,hr,NA,NA,1004,0,LTPA,1,NA,NA,115989,Fatal,missing RRs,TRUE,TRUE
+28-2,Holtermann et al.,All-cause cvd,Fatal,2,ci,8916,194,199718.4,47765,22.4,18.2,NA,NA,hr,NA,NA,353,0,LTPA,1,NA,NA,47765,Fatal,missing RRs,TRUE,TRUE
 193-2,Matthews C,All-cause cvd,Fatal,2,ci,37101,8770,237445,56125,6.4,3.52,NA,NA,hr,NA,NA,139,0,LTPA,5,NA,NA,56125,Fatal,missing RRs,TRUE,TRUE
 193-2,Matthews C,All-cause cvd,Fatal,2,ci,37101,10701,237445,68487,6.4,10.66,NA,NA,hr,NA,NA,115,0,LTPA,5,NA,NA,68487,Fatal,missing RRs,TRUE,TRUE
 193-2,Matthews C,All-cause cvd,Fatal,2,ci,37101,10458,237445,66933,6.4,20.05,NA,NA,hr,NA,NA,109,0,LTPA,5,NA,NA,66933,Fatal,missing RRs,TRUE,TRUE
@@ -1258,12 +1366,12 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 350-2,Nalini M.,All-cause mortality,Fatal,2,ci,25800,3745,247462,31252,10,10.52,NA,NA,hr,NA,NA,625,0,LTPA,18,NA,NA,31252,Fatal,missing RRs,TRUE,TRUE
 350-2,Nalini M.,All-cause mortality,Fatal,2,ci,25800,10151,247462,96373,10,15.48,NA,NA,hr,NA,NA,841,0,LTPA,18,NA,NA,96373,Fatal,missing RRs,TRUE,TRUE
 350-2,Nalini M.,All-cause mortality,Fatal,2,ci,25800,11904,247462,119837,10,75.23,NA,NA,hr,NA,NA,510,0,LTPA,18,NA,NA,119837,Fatal,missing RRs,TRUE,TRUE
-02-Jan,Fraser G.,Coronary heart disease,Fatal,1,ir,10376,3291,53627,17007,6,0,NA,NA,rr,NA,NA,37,0,LTPA,1,NA,NA,17007,Fatal,missing RRs,TRUE,TRUE
-02-Jan,Fraser G.,Coronary heart disease,Fatal,1,ir,10376,2312,53627,11951,6,6.75,NA,NA,rr,NA,NA,26,0,LTPA,1,NA,NA,11951,Fatal,missing RRs,TRUE,TRUE
-02-Jan,Fraser G.,Coronary heart disease,Fatal,1,ir,10376,4773,53627,24669,6,13.5,NA,NA,rr,NA,NA,42,0,LTPA,1,NA,NA,24669,Fatal,missing RRs,TRUE,TRUE
-02-Feb,Fraser G.,Coronary heart disease,Fatal,2,ir,17282,8065,85987,40128,6,0,NA,NA,rr,NA,NA,92,0,LTPA,1,NA,NA,40128,Fatal,missing RRs,TRUE,TRUE
-02-Feb,Fraser G.,Coronary heart disease,Fatal,2,ir,17282,2941,85987,14633,6,6.75,NA,NA,rr,NA,NA,21,0,LTPA,1,NA,NA,14633,Fatal,missing RRs,TRUE,TRUE
-02-Feb,Fraser G.,Coronary heart disease,Fatal,2,ir,17282,6276,85987,31226,6,13.5,NA,NA,rr,NA,NA,26,0,LTPA,1,NA,NA,31226,Fatal,missing RRs,TRUE,TRUE
+2-1,Fraser G.,Coronary heart disease,Fatal,1,ir,10376,3291,53627,17007,6,0,NA,NA,rr,NA,NA,37,0,LTPA,1,NA,NA,17007,Fatal,missing RRs,TRUE,TRUE
+2-1,Fraser G.,Coronary heart disease,Fatal,1,ir,10376,2312,53627,11951,6,6.75,NA,NA,rr,NA,NA,26,0,LTPA,1,NA,NA,11951,Fatal,missing RRs,TRUE,TRUE
+2-1,Fraser G.,Coronary heart disease,Fatal,1,ir,10376,4773,53627,24669,6,13.5,NA,NA,rr,NA,NA,42,0,LTPA,1,NA,NA,24669,Fatal,missing RRs,TRUE,TRUE
+2-2,Fraser G.,Coronary heart disease,Fatal,2,ir,17282,8065,85987,40128,6,0,NA,NA,rr,NA,NA,92,0,LTPA,1,NA,NA,40128,Fatal,missing RRs,TRUE,TRUE
+2-2,Fraser G.,Coronary heart disease,Fatal,2,ir,17282,2941,85987,14633,6,6.75,NA,NA,rr,NA,NA,21,0,LTPA,1,NA,NA,14633,Fatal,missing RRs,TRUE,TRUE
+2-2,Fraser G.,Coronary heart disease,Fatal,2,ir,17282,6276,85987,31226,6,13.5,NA,NA,rr,NA,NA,26,0,LTPA,1,NA,NA,31226,Fatal,missing RRs,TRUE,TRUE
 26,Orsini N,All-cause cancer,Fatal,1,ir,28880,7662,272425,68106,7,0,NA,NA,rr,NA,NA,217,1,LTPA,1,NA,NA,68106,Fatal,missing RRs,TRUE,FALSE
 26,Orsini N,All-cause cancer,Fatal,1,ir,28880,7662,272426,68106,7,18.13,NA,NA,rr,NA,NA,181,1,LTPA,1,NA,NA,68106,Fatal,missing RRs,TRUE,FALSE
 26,Orsini N,All-cause cancer,Fatal,1,ir,28880,7662,272427,68106,7,36.31,NA,NA,rr,NA,NA,197,1,LTPA,1,NA,NA,68106,Fatal,missing RRs,TRUE,FALSE
@@ -1320,11 +1428,11 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 295,Kabat G.,All-cause cancer,Both,3,ci,476396,103502,5002159,1086777,10.5,3.94,NA,NA,hr,NA,NA,17052,1,LTPA,3,NA,NA,1086777,Both,missing RRs,TRUE,FALSE
 295,Kabat G.,All-cause cancer,Both,3,ci,476396,128885,5002159,1353282,10.5,9.19,NA,NA,hr,NA,NA,20324,1,LTPA,3,NA,NA,1353282,Both,missing RRs,TRUE,FALSE
 295,Kabat G.,All-cause cancer,Both,3,ci,476396,92603,5002159,972331,10.5,14.44,NA,NA,hr,NA,NA,14378,1,LTPA,3,NA,NA,972331,Both,missing RRs,TRUE,FALSE
-300,McKenzie,All-cause cancer,Both,3,ci,121200,2424,4345837,869167.4,35.85674092,0,NA,NA,hr,NA,NA,5882,1,LTPA,4,NA,NA,869167.4,Both,missing RRs,TRUE,FALSE
-300,McKenzie,All-cause cancer,Both,3,ci,121200,2424,4345837,869167.4,35.85674092,20.44,NA,NA,hr,NA,NA,5820,1,LTPA,4,NA,NA,869167.4,Both,missing RRs,TRUE,FALSE
-300,McKenzie,All-cause cancer,Both,3,ci,121200,2424,4345837,869167.4,35.85674092,42.36,NA,NA,hr,NA,NA,5671,1,LTPA,4,NA,NA,869167.4,Both,missing RRs,TRUE,FALSE
-300,McKenzie,All-cause cancer,Both,3,ci,121200,2424,4345837,869167.4,35.85674092,70.45,NA,NA,hr,NA,NA,5616,1,LTPA,4,NA,NA,869167.4,Both,missing RRs,TRUE,FALSE
-300,McKenzie,All-cause cancer,Both,3,ci,121200,2424,4345837,869167.4,35.85674092,103.45,NA,NA,hr,NA,NA,5525,1,LTPA,4,NA,NA,869167.4,Both,missing RRs,TRUE,FALSE
+300,McKenzie,All-cause cancer,Both,3,ci,121200,2424,4345837,869167.4,35.856740924092406,0,NA,NA,hr,NA,NA,5882,1,LTPA,4,NA,NA,869167.4,Both,missing RRs,TRUE,FALSE
+300,McKenzie,All-cause cancer,Both,3,ci,121200,2424,4345837,869167.4,35.856740924092406,20.44,NA,NA,hr,NA,NA,5820,1,LTPA,4,NA,NA,869167.4,Both,missing RRs,TRUE,FALSE
+300,McKenzie,All-cause cancer,Both,3,ci,121200,2424,4345837,869167.4,35.856740924092406,42.36,NA,NA,hr,NA,NA,5671,1,LTPA,4,NA,NA,869167.4,Both,missing RRs,TRUE,FALSE
+300,McKenzie,All-cause cancer,Both,3,ci,121200,2424,4345837,869167.4,35.856740924092406,70.45,NA,NA,hr,NA,NA,5616,1,LTPA,4,NA,NA,869167.4,Both,missing RRs,TRUE,FALSE
+300,McKenzie,All-cause cancer,Both,3,ci,121200,2424,4345837,869167.4,35.856740924092406,103.45,NA,NA,hr,NA,NA,5525,1,LTPA,4,NA,NA,869167.4,Both,missing RRs,TRUE,FALSE
 26,Orsini N,All-cause cancer,Fatal,1,ir,28880,7662,272425,68106,7,0,NA,NA,rr,NA,NA,217,1,LTPA,8,NA,NA,68106,Both,missing RRs,TRUE,FALSE
 26,Orsini N,All-cause cancer,Fatal,1,ir,28880,7662,272426,68106,7,18.13,NA,NA,rr,NA,NA,181,1,LTPA,8,NA,NA,68106,Both,missing RRs,TRUE,FALSE
 26,Orsini N,All-cause cancer,Fatal,1,ir,28880,7662,272427,68106,7,36.31,NA,NA,rr,NA,NA,197,1,LTPA,8,NA,NA,68106,Both,missing RRs,TRUE,FALSE
@@ -1466,17 +1574,17 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 998,Rosness T.,All-cause dementia,Fatal,3,ci,26055,6664,268366.5,68639.2,10.3,6.75,NA,NA,hr,NA,NA,343,1,LTPA,1,NA,NA,68639.2,Fatal,missing RRs,TRUE,FALSE
 998,Rosness T.,All-cause dementia,Fatal,3,ci,26055,6851,268366.5,70565.3,10.3,5.25,NA,NA,hr,NA,NA,242,1,LTPA,1,NA,NA,70565.3,Fatal,missing RRs,TRUE,FALSE
 998,Rosness T.,All-cause dementia,Fatal,3,ci,26055,2077,268366.5,21393.1,10.3,15.75,NA,NA,hr,NA,NA,86,1,LTPA,1,NA,NA,21393.1,Fatal,missing RRs,TRUE,FALSE
-9938,Koolhaas C.,All-cause dementia,Fatal,3,ci,5046,1682,66102.6,22034.2,13.1,0,NA,NA,hr,NA,NA,97,1,LTPA,2,NA,NA,22034.2,Fatal,missing RRs,TRUE,FALSE
-9938,Koolhaas C.,All-cause dementia,Fatal,3,ci,5046,1682,66102.6,22034.2,13.1,31,NA,NA,hr,NA,NA,122,1,LTPA,2,NA,NA,22034.2,Fatal,missing RRs,TRUE,FALSE
-9938,Koolhaas C.,All-cause dementia,Fatal,3,ci,5046,1682,66102.6,22034.2,13.1,73,NA,NA,hr,NA,NA,119,1,LTPA,2,NA,NA,22034.2,Fatal,missing RRs,TRUE,FALSE
+9938,Koolhaas C.,All-cause dementia,Fatal,3,ci,5046,1682,66102.59999999999,22034.2,13.1,0,NA,NA,hr,NA,NA,97,1,LTPA,2,NA,NA,22034.2,Fatal,missing RRs,TRUE,FALSE
+9938,Koolhaas C.,All-cause dementia,Fatal,3,ci,5046,1682,66102.59999999999,22034.2,13.1,31,NA,NA,hr,NA,NA,122,1,LTPA,2,NA,NA,22034.2,Fatal,missing RRs,TRUE,FALSE
+9938,Koolhaas C.,All-cause dementia,Fatal,3,ci,5046,1682,66102.59999999999,22034.2,13.1,73,NA,NA,hr,NA,NA,119,1,LTPA,2,NA,NA,22034.2,Fatal,missing RRs,TRUE,FALSE
 995,Laurin D.,All-cause dementia,Non-fatal,3,ir,3927,1213,19635,6065,5,0,NA,NA,or,NA,NA,110,1,LTPA,1,NA,NA,6065,Non-fatal,missing RRs,TRUE,FALSE
 995,Laurin D.,All-cause dementia,Non-fatal,3,ir,3927,513,19635,2565,5,5.91,NA,NA,or,NA,NA,28,1,LTPA,1,NA,NA,2565,Non-fatal,missing RRs,TRUE,FALSE
 995,Laurin D.,All-cause dementia,Non-fatal,3,ir,3927,1439,19635,7195,5,11.81,NA,NA,or,NA,NA,79,1,LTPA,1,NA,NA,7195,Non-fatal,missing RRs,TRUE,FALSE
 995,Laurin D.,All-cause dementia,Non-fatal,3,ir,3927,762,19635,3810,5,23.62,NA,NA,or,NA,NA,31,1,LTPA,1,NA,NA,3810,Non-fatal,missing RRs,TRUE,FALSE
-997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,844,18214.2,4372.881356,5.4,0.72,NA,NA,hr,NA,NA,129,1,LTPA,2,NA,NA,4372.881356,Non-fatal,missing RRs,TRUE,FALSE
-997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,842,18214.2,4503.311258,5.4,4.18,NA,NA,hr,NA,NA,136,1,LTPA,2,NA,NA,4503.311258,Non-fatal,missing RRs,TRUE,FALSE
-997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,844,18214.2,4644.351464,5.4,11.25,NA,NA,hr,NA,NA,111,1,LTPA,2,NA,NA,4644.351464,Non-fatal,missing RRs,TRUE,FALSE
-997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,843,18214.2,4724.770642,5.4,20.7,NA,NA,hr,NA,NA,103,1,LTPA,2,NA,NA,4724.770642,Non-fatal,missing RRs,TRUE,FALSE
+997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,844,18214.2,4372.881356,5.4,1,NA,NA,hr,NA,NA,129,1,LTPA,2,NA,NA,4372.881356,Non-fatal,missing RRs,TRUE,FALSE
+997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,842,18214.2,4503.311258,5.4,6,NA,NA,hr,NA,NA,136,1,LTPA,2,NA,NA,4503.311258,Non-fatal,missing RRs,TRUE,FALSE
+997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,844,18214.2,4644.351464,5.4,15,NA,NA,hr,NA,NA,111,1,LTPA,2,NA,NA,4644.351464,Non-fatal,missing RRs,TRUE,FALSE
+997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,843,18214.2,4724.770642,5.4,27,NA,NA,hr,NA,NA,103,1,LTPA,2,NA,NA,4724.770642,Non-fatal,missing RRs,TRUE,FALSE
 9911,Soni M.,All-cause dementia,Non-fatal,3,ci,11025,1065,99225,9585,9,0.56,NA,NA,hr,NA,NA,76,1,LTPA,3,NA,NA,9585,Non-fatal,missing RRs,TRUE,FALSE
 9911,Soni M.,All-cause dementia,Non-fatal,3,ci,11025,1597,99225,14373,9,1.12,NA,NA,hr,NA,NA,83,1,LTPA,3,NA,NA,14373,Non-fatal,missing RRs,TRUE,FALSE
 9911,Soni M.,All-cause dementia,Non-fatal,3,ci,11025,1597,99225,14373,9,2.62,NA,NA,hr,NA,NA,60,1,LTPA,3,NA,NA,14373,Non-fatal,missing RRs,TRUE,FALSE
@@ -1493,10 +1601,10 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 9923,Llamas-Velasco S.,All-cause dementia,Non-fatal,3,ci,3105,865,9315,2595,3,2.25,NA,NA,hr,NA,NA,30,1,LTPA,6,NA,NA,2595,Non-fatal,missing RRs,TRUE,FALSE
 9923,Llamas-Velasco S.,All-cause dementia,Non-fatal,3,ci,3105,681,9315,2043,3,5.25,NA,NA,hr,NA,NA,19,1,LTPA,6,NA,NA,2043,Non-fatal,missing RRs,TRUE,FALSE
 9923,Llamas-Velasco S.,All-cause dementia,Non-fatal,3,ci,3105,769,9315,2307,3,13.12,NA,NA,hr,NA,NA,15,1,LTPA,6,NA,NA,2307,Non-fatal,missing RRs,TRUE,FALSE
-9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1470,44407.5,11025,7.5,2.31,NA,NA,or,NA,NA,354,1,LTPA,7,NA,NA,11025,Non-fatal,missing RRs,TRUE,FALSE
-9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1491,44407.5,11182.5,7.5,10,NA,NA,or,NA,NA,306,1,LTPA,7,NA,NA,11182.5,Non-fatal,missing RRs,TRUE,FALSE
-9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1480,44407.5,11100,7.5,18.75,NA,NA,or,NA,NA,266,1,LTPA,7,NA,NA,11100,Non-fatal,missing RRs,TRUE,FALSE
-9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1480,44407.5,11100,7.5,31.02,NA,NA,or,NA,NA,252,1,LTPA,7,NA,NA,11100,Non-fatal,missing RRs,TRUE,FALSE
+9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1470,44407.5,11025,7.5,3.44,NA,NA,or,NA,NA,354,1,LTPA,7,NA,NA,11025,Non-fatal,missing RRs,TRUE,FALSE
+9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1491,44407.5,11182.5,7.5,14.38,NA,NA,or,NA,NA,306,1,LTPA,7,NA,NA,11182.5,Non-fatal,missing RRs,TRUE,FALSE
+9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1480,44407.5,11100,7.5,26.74,NA,NA,or,NA,NA,266,1,LTPA,7,NA,NA,11100,Non-fatal,missing RRs,TRUE,FALSE
+9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1480,44407.5,11100,7.5,44.03,NA,NA,or,NA,NA,252,1,LTPA,7,NA,NA,11100,Non-fatal,missing RRs,TRUE,FALSE
 9932,Chang M.,All-cause dementia,Non-fatal,3,ir,4945,3413,128570,88738,26,0,NA,NA,or,NA,NA,145,1,LTPA,8,NA,NA,88738,Non-fatal,missing RRs,TRUE,FALSE
 9932,Chang M.,All-cause dementia,Non-fatal,3,ir,4945,1309,128570,34034,26,8.75,NA,NA,or,NA,NA,32,1,LTPA,8,NA,NA,34034,Non-fatal,missing RRs,TRUE,FALSE
 9932,Chang M.,All-cause dementia,Non-fatal,3,ir,4945,223,128570,5798,26,26.25,NA,NA,or,NA,NA,7,1,LTPA,8,NA,NA,5798,Non-fatal,missing RRs,TRUE,FALSE
@@ -1521,10 +1629,10 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 9931,Sabia S.,All-cause dementia,Both,3,ci,10308,4285,274192.8,113981,26.6,0,NA,NA,hr,NA,NA,142,1,LTPA,2,NA,NA,113981,Both,missing RRs,TRUE,FALSE
 9931,Sabia S.,All-cause dementia,Both,3,ci,10308,3451,274192.8,91796.6,26.6,21,NA,NA,hr,NA,NA,71,1,LTPA,2,NA,NA,91796.6,Both,missing RRs,TRUE,FALSE
 9931,Sabia S.,All-cause dementia,Both,3,ci,10308,2572,274192.8,68415.2,26.6,35,NA,NA,hr,NA,NA,116,1,LTPA,2,NA,NA,68415.2,Both,missing RRs,TRUE,FALSE
-9940,Palta P.,All-cause dementia,Both,3,ci,10705,3590,186267,62466,17.4,0,NA,NA,hr,NA,NA,379,1,LTPA,3,NA,NA,62466,Both,missing RRs,TRUE,FALSE
-9940,Palta P.,All-cause dementia,Both,3,ci,10705,2372,186267,41272.8,17.4,3.34,NA,NA,hr,NA,NA,235,1,LTPA,3,NA,NA,41272.8,Both,missing RRs,TRUE,FALSE
-9940,Palta P.,All-cause dementia,Both,3,ci,10705,2372,186267,41272.8,17.4,11.21,NA,NA,hr,NA,NA,233,1,LTPA,3,NA,NA,41272.8,Both,missing RRs,TRUE,FALSE
-9940,Palta P.,All-cause dementia,Both,3,ci,10705,2371,186267,41255.4,17.4,19.03,NA,NA,hr,NA,NA,216,1,LTPA,3,NA,NA,41255.4,Both,missing RRs,TRUE,FALSE
+9940,Palta P.,All-cause dementia,Both,3,ci,10705,3590,186266.99999999997,62466,17.4,0,NA,NA,hr,NA,NA,379,1,LTPA,3,NA,NA,62466,Both,missing RRs,TRUE,FALSE
+9940,Palta P.,All-cause dementia,Both,3,ci,10705,2372,186266.99999999997,41272.8,17.4,3.34,NA,NA,hr,NA,NA,235,1,LTPA,3,NA,NA,41272.8,Both,missing RRs,TRUE,FALSE
+9940,Palta P.,All-cause dementia,Both,3,ci,10705,2372,186266.99999999997,41272.8,17.4,11.21,NA,NA,hr,NA,NA,233,1,LTPA,3,NA,NA,41272.8,Both,missing RRs,TRUE,FALSE
+9940,Palta P.,All-cause dementia,Both,3,ci,10705,2371,186266.99999999997,41255.4,17.4,19.03,NA,NA,hr,NA,NA,216,1,LTPA,3,NA,NA,41255.4,Both,missing RRs,TRUE,FALSE
 9943,Nabe-Nielsen K.,All-cause dementia,Both,1,ir,4721,811,86558,14119,18,0,NA,NA,rr,NA,NA,127,1,LTPA,4,NA,NA,14119,Both,missing RRs,TRUE,FALSE
 9943,Nabe-Nielsen K.,All-cause dementia,Both,1,ir,4721,3396,86558,63081,18,9,NA,NA,rr,NA,NA,492,1,LTPA,4,NA,NA,63081,Both,missing RRs,TRUE,FALSE
 9943,Nabe-Nielsen K.,All-cause dementia,Both,1,ir,4721,514,86558,9358,18,31.5,NA,NA,rr,NA,NA,78,1,LTPA,4,NA,NA,9358,Both,missing RRs,TRUE,FALSE
@@ -1533,17 +1641,17 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 998,Rosness T.,All-cause dementia,Fatal,3,ci,26055,6664,268366.5,68639.2,10.3,6.75,NA,NA,hr,NA,NA,343,1,LTPA,5,NA,NA,68639.2,Both,missing RRs,TRUE,FALSE
 998,Rosness T.,All-cause dementia,Fatal,3,ci,26055,6851,268366.5,70565.3,10.3,5.25,NA,NA,hr,NA,NA,242,1,LTPA,5,NA,NA,70565.3,Both,missing RRs,TRUE,FALSE
 998,Rosness T.,All-cause dementia,Fatal,3,ci,26055,2077,268366.5,21393.1,10.3,15.75,NA,NA,hr,NA,NA,86,1,LTPA,5,NA,NA,21393.1,Both,missing RRs,TRUE,FALSE
-9938,Koolhaas C.,All-cause dementia,Fatal,3,ci,5046,1682,66102.6,22034.2,13.1,0,NA,NA,hr,NA,NA,97,1,LTPA,6,NA,NA,22034.2,Both,missing RRs,TRUE,FALSE
-9938,Koolhaas C.,All-cause dementia,Fatal,3,ci,5046,1682,66102.6,22034.2,13.1,31,NA,NA,hr,NA,NA,122,1,LTPA,6,NA,NA,22034.2,Both,missing RRs,TRUE,FALSE
-9938,Koolhaas C.,All-cause dementia,Fatal,3,ci,5046,1682,66102.6,22034.2,13.1,73,NA,NA,hr,NA,NA,119,1,LTPA,6,NA,NA,22034.2,Both,missing RRs,TRUE,FALSE
+9938,Koolhaas C.,All-cause dementia,Fatal,3,ci,5046,1682,66102.59999999999,22034.2,13.1,0,NA,NA,hr,NA,NA,97,1,LTPA,6,NA,NA,22034.2,Both,missing RRs,TRUE,FALSE
+9938,Koolhaas C.,All-cause dementia,Fatal,3,ci,5046,1682,66102.59999999999,22034.2,13.1,31,NA,NA,hr,NA,NA,122,1,LTPA,6,NA,NA,22034.2,Both,missing RRs,TRUE,FALSE
+9938,Koolhaas C.,All-cause dementia,Fatal,3,ci,5046,1682,66102.59999999999,22034.2,13.1,73,NA,NA,hr,NA,NA,119,1,LTPA,6,NA,NA,22034.2,Both,missing RRs,TRUE,FALSE
 995,Laurin D.,All-cause dementia,Non-fatal,3,ir,3927,1213,19635,6065,5,0,NA,NA,or,NA,NA,110,1,LTPA,7,NA,NA,6065,Both,missing RRs,TRUE,FALSE
 995,Laurin D.,All-cause dementia,Non-fatal,3,ir,3927,513,19635,2565,5,5.91,NA,NA,or,NA,NA,28,1,LTPA,7,NA,NA,2565,Both,missing RRs,TRUE,FALSE
 995,Laurin D.,All-cause dementia,Non-fatal,3,ir,3927,1439,19635,7195,5,11.81,NA,NA,or,NA,NA,79,1,LTPA,7,NA,NA,7195,Both,missing RRs,TRUE,FALSE
 995,Laurin D.,All-cause dementia,Non-fatal,3,ir,3927,762,19635,3810,5,23.62,NA,NA,or,NA,NA,31,1,LTPA,7,NA,NA,3810,Both,missing RRs,TRUE,FALSE
-997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,844,18214.2,4372.881356,5.4,0.72,NA,NA,hr,NA,NA,129,1,LTPA,8,NA,NA,4372.881356,Both,missing RRs,TRUE,FALSE
-997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,842,18214.2,4503.311258,5.4,4.18,NA,NA,hr,NA,NA,136,1,LTPA,8,NA,NA,4503.311258,Both,missing RRs,TRUE,FALSE
-997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,844,18214.2,4644.351464,5.4,11.25,NA,NA,hr,NA,NA,111,1,LTPA,8,NA,NA,4644.351464,Both,missing RRs,TRUE,FALSE
-997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,843,18214.2,4724.770642,5.4,20.7,NA,NA,hr,NA,NA,103,1,LTPA,8,NA,NA,4724.770642,Both,missing RRs,TRUE,FALSE
+997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,844,18214.2,4372.881356,5.4,1,NA,NA,hr,NA,NA,129,1,LTPA,8,NA,NA,4372.881356,Both,missing RRs,TRUE,FALSE
+997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,842,18214.2,4503.311258,5.4,6,NA,NA,hr,NA,NA,136,1,LTPA,8,NA,NA,4503.311258,Both,missing RRs,TRUE,FALSE
+997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,844,18214.2,4644.351464,5.4,15,NA,NA,hr,NA,NA,111,1,LTPA,8,NA,NA,4644.351464,Both,missing RRs,TRUE,FALSE
+997,Podewils LJ.,All-cause dementia,Non-fatal,3,ci,3373,843,18214.2,4724.770642,5.4,27,NA,NA,hr,NA,NA,103,1,LTPA,8,NA,NA,4724.770642,Both,missing RRs,TRUE,FALSE
 9911,Soni M.,All-cause dementia,Non-fatal,3,ci,11025,1065,99225,9585,9,0.56,NA,NA,hr,NA,NA,76,1,LTPA,9,NA,NA,9585,Both,missing RRs,TRUE,FALSE
 9911,Soni M.,All-cause dementia,Non-fatal,3,ci,11025,1597,99225,14373,9,1.12,NA,NA,hr,NA,NA,83,1,LTPA,9,NA,NA,14373,Both,missing RRs,TRUE,FALSE
 9911,Soni M.,All-cause dementia,Non-fatal,3,ci,11025,1597,99225,14373,9,2.62,NA,NA,hr,NA,NA,60,1,LTPA,9,NA,NA,14373,Both,missing RRs,TRUE,FALSE
@@ -1560,10 +1668,10 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 9923,Llamas-Velasco S.,All-cause dementia,Non-fatal,3,ci,3105,865,9315,2595,3,2.25,NA,NA,hr,NA,NA,30,1,LTPA,12,NA,NA,2595,Both,missing RRs,TRUE,FALSE
 9923,Llamas-Velasco S.,All-cause dementia,Non-fatal,3,ci,3105,681,9315,2043,3,5.25,NA,NA,hr,NA,NA,19,1,LTPA,12,NA,NA,2043,Both,missing RRs,TRUE,FALSE
 9923,Llamas-Velasco S.,All-cause dementia,Non-fatal,3,ci,3105,769,9315,2307,3,13.12,NA,NA,hr,NA,NA,15,1,LTPA,12,NA,NA,2307,Both,missing RRs,TRUE,FALSE
-9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1470,44407.5,11025,7.5,2.31,NA,NA,or,NA,NA,354,1,LTPA,13,NA,NA,11025,Both,missing RRs,TRUE,FALSE
-9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1491,44407.5,11182.5,7.5,10,NA,NA,or,NA,NA,306,1,LTPA,13,NA,NA,11182.5,Both,missing RRs,TRUE,FALSE
-9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1480,44407.5,11100,7.5,18.75,NA,NA,or,NA,NA,266,1,LTPA,13,NA,NA,11100,Both,missing RRs,TRUE,FALSE
-9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1480,44407.5,11100,7.5,31.02,NA,NA,or,NA,NA,252,1,LTPA,13,NA,NA,11100,Both,missing RRs,TRUE,FALSE
+9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1470,44407.5,11025,7.5,3.44,NA,NA,or,NA,NA,354,1,LTPA,13,NA,NA,11025,Both,missing RRs,TRUE,FALSE
+9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1491,44407.5,11182.5,7.5,14.38,NA,NA,or,NA,NA,306,1,LTPA,13,NA,NA,11182.5,Both,missing RRs,TRUE,FALSE
+9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1480,44407.5,11100,7.5,26.74,NA,NA,or,NA,NA,266,1,LTPA,13,NA,NA,11100,Both,missing RRs,TRUE,FALSE
+9930,Yaffe K.,All-cause dementia,Non-fatal,2,ir,5921,1480,44407.5,11100,7.5,44.03,NA,NA,or,NA,NA,252,1,LTPA,13,NA,NA,11100,Both,missing RRs,TRUE,FALSE
 9932,Chang M.,All-cause dementia,Non-fatal,3,ir,4945,3413,128570,88738,26,0,NA,NA,or,NA,NA,145,1,LTPA,14,NA,NA,88738,Both,missing RRs,TRUE,FALSE
 9932,Chang M.,All-cause dementia,Non-fatal,3,ir,4945,1309,128570,34034,26,8.75,NA,NA,or,NA,NA,32,1,LTPA,14,NA,NA,34034,Both,missing RRs,TRUE,FALSE
 9932,Chang M.,All-cause dementia,Non-fatal,3,ir,4945,223,128570,5798,26,26.25,NA,NA,or,NA,NA,7,1,LTPA,14,NA,NA,5798,Both,missing RRs,TRUE,FALSE
@@ -1767,10 +1875,10 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 3284,"Arem, H.",All-cause mortality,Fatal,2,ci,32768,746,131072,20889,4,24.92,NA,NA,hr,NA,NA,36,1,LTPA,49,NA,NA,20889,Both,missing RRs,TRUE,FALSE
 3284,"Arem, H.",All-cause mortality,Fatal,2,ci,32768,336,131072,9409,4,47.27,NA,NA,hr,NA,NA,15,1,LTPA,49,NA,NA,9409,Both,missing RRs,TRUE,FALSE
 3284,"Arem, H.",All-cause mortality,Fatal,2,ci,32768,25,131072,696,4,77.39,NA,NA,hr,NA,NA,3,1,LTPA,49,NA,NA,696,Both,missing RRs,TRUE,FALSE
-9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,66389,1781017.6,770112.4,11.6,2.33,NA,NA,hr,NA,NA,85,1,LTPA,1,NA,NA,770112.4,Fatal,missing RRs,TRUE,FALSE
-9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,35298,1781017.6,409456.8,11.6,7.27,NA,NA,hr,NA,NA,42,1,LTPA,1,NA,NA,409456.8,Fatal,missing RRs,TRUE,FALSE
-9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,43696,1781017.6,506873.6,11.6,14.57,NA,NA,hr,NA,NA,42,1,LTPA,1,NA,NA,506873.6,Fatal,missing RRs,TRUE,FALSE
-9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,8153,1781017.6,94574.8,11.6,25.13,NA,NA,hr,NA,NA,6,1,LTPA,1,NA,NA,94574.8,Fatal,missing RRs,TRUE,FALSE
+9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,66389,1781017.5999999999,770112.4,11.6,2.33,NA,NA,hr,NA,NA,85,1,LTPA,1,NA,NA,770112.4,Fatal,missing RRs,TRUE,FALSE
+9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,35298,1781017.5999999999,409456.8,11.6,7.27,NA,NA,hr,NA,NA,42,1,LTPA,1,NA,NA,409456.8,Fatal,missing RRs,TRUE,FALSE
+9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,43696,1781017.5999999999,506873.6,11.6,14.57,NA,NA,hr,NA,NA,42,1,LTPA,1,NA,NA,506873.6,Fatal,missing RRs,TRUE,FALSE
+9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,8153,1781017.5999999999,94574.8,11.6,25.13,NA,NA,hr,NA,NA,6,1,LTPA,1,NA,NA,94574.8,Fatal,missing RRs,TRUE,FALSE
 9933,Zhao M.,Alzheimer's disease,Fatal,3,ci,479856,268193,4198740,2346688.75,8.75,4.38,NA,NA,hr,NA,NA,1091,1,LTPA,2,NA,NA,2346688.75,Fatal,missing RRs,TRUE,FALSE
 9933,Zhao M.,Alzheimer's disease,Fatal,3,ci,479856,21428,4198740,187495,8.75,7.88,NA,NA,hr,NA,NA,63,1,LTPA,2,NA,NA,187495,Fatal,missing RRs,TRUE,FALSE
 9933,Zhao M.,Alzheimer's disease,Fatal,3,ci,479856,113851,4198740,996196.25,8.75,13.12,NA,NA,hr,NA,NA,250,1,LTPA,2,NA,NA,996196.25,Fatal,missing RRs,TRUE,FALSE
@@ -1779,10 +1887,10 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 995,Laurin D.,Alzheimer's disease,Non-fatal,3,ir,3848,506,19240,2530,5,5.91,NA,NA,or,NA,NA,21,1,LTPA,1,NA,NA,2530,Non-fatal,missing RRs,TRUE,FALSE
 995,Laurin D.,Alzheimer's disease,Non-fatal,3,ir,3848,1412,19240,7060,5,11.81,NA,NA,or,NA,NA,52,1,LTPA,1,NA,NA,7060,Non-fatal,missing RRs,TRUE,FALSE
 995,Laurin D.,Alzheimer's disease,Non-fatal,3,ir,3848,747,19240,3735,5,23.62,NA,NA,or,NA,NA,16,1,LTPA,1,NA,NA,3735,Non-fatal,missing RRs,TRUE,FALSE
-997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,844,18214.2,4367.088608,5.4,0.72,NA,NA,hr,NA,NA,69,1,LTPA,2,NA,NA,4367.088608,Non-fatal,missing RRs,TRUE,FALSE
-997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,842,18214.2,4516.129032,5.4,4.18,NA,NA,hr,NA,NA,70,1,LTPA,2,NA,NA,4516.129032,Non-fatal,missing RRs,TRUE,FALSE
-997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,844,18214.2,4640,5.4,11.25,NA,NA,hr,NA,NA,58,1,LTPA,2,NA,NA,4640,Non-fatal,missing RRs,TRUE,FALSE
-997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,843,18214.2,4705.882353,5.4,20.7,NA,NA,hr,NA,NA,48,1,LTPA,2,NA,NA,4705.882353,Non-fatal,missing RRs,TRUE,FALSE
+997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,844,18214.2,4367.088608,5.4,1,NA,NA,hr,NA,NA,69,1,LTPA,2,NA,NA,4367.088608,Non-fatal,missing RRs,TRUE,FALSE
+997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,842,18214.2,4516.129032,5.4,6,NA,NA,hr,NA,NA,70,1,LTPA,2,NA,NA,4516.129032,Non-fatal,missing RRs,TRUE,FALSE
+997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,844,18214.2,4640,5.4,15,NA,NA,hr,NA,NA,58,1,LTPA,2,NA,NA,4640,Non-fatal,missing RRs,TRUE,FALSE
+997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,843,18214.2,4705.882353,5.4,27,NA,NA,hr,NA,NA,48,1,LTPA,2,NA,NA,4705.882353,Non-fatal,missing RRs,TRUE,FALSE
 9913,Tan Z.,Alzheimer's disease,Non-fatal,3,ci,2958,591.6,29580,5916,10,0.2,NA,NA,hr,NA,NA,40,1,LTPA,3,NA,NA,5916,Non-fatal,missing RRs,TRUE,FALSE
 9913,Tan Z.,Alzheimer's disease,Non-fatal,3,ci,2958,591.6,29580,5916,10,2,NA,NA,hr,NA,NA,20,1,LTPA,3,NA,NA,5916,Non-fatal,missing RRs,TRUE,FALSE
 9913,Tan Z.,Alzheimer's disease,Non-fatal,3,ci,2958,591.6,29580,5916,10,7.46,NA,NA,hr,NA,NA,29,1,LTPA,3,NA,NA,5916,Non-fatal,missing RRs,TRUE,FALSE
@@ -1795,10 +1903,10 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 9927,Neergaard J.,Alzheimer's disease,Both,2,ci,5270,1197,62713,14244.3,11.9,2.62,NA,NA,hr,NA,NA,48,1,LTPA,1,NA,NA,14244.3,Both,missing RRs,TRUE,FALSE
 9927,Neergaard J.,Alzheimer's disease,Both,2,ci,5270,674,62713,8020.6,11.9,5.25,NA,NA,hr,NA,NA,35,1,LTPA,1,NA,NA,8020.6,Both,missing RRs,TRUE,FALSE
 9927,Neergaard J.,Alzheimer's disease,Both,2,ci,5270,1849,62713,22003.1,11.9,9.19,NA,NA,hr,NA,NA,86,1,LTPA,1,NA,NA,22003.1,Both,missing RRs,TRUE,FALSE
-9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,66389,1781017.6,770112.4,11.6,2.33,NA,NA,hr,NA,NA,85,1,LTPA,2,NA,NA,770112.4,Both,missing RRs,TRUE,FALSE
-9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,35298,1781017.6,409456.8,11.6,7.27,NA,NA,hr,NA,NA,42,1,LTPA,2,NA,NA,409456.8,Both,missing RRs,TRUE,FALSE
-9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,43696,1781017.6,506873.6,11.6,14.57,NA,NA,hr,NA,NA,42,1,LTPA,2,NA,NA,506873.6,Both,missing RRs,TRUE,FALSE
-9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,8153,1781017.6,94574.8,11.6,25.13,NA,NA,hr,NA,NA,6,1,LTPA,2,NA,NA,94574.8,Both,missing RRs,TRUE,FALSE
+9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,66389,1781017.5999999999,770112.4,11.6,2.33,NA,NA,hr,NA,NA,85,1,LTPA,2,NA,NA,770112.4,Both,missing RRs,TRUE,FALSE
+9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,35298,1781017.5999999999,409456.8,11.6,7.27,NA,NA,hr,NA,NA,42,1,LTPA,2,NA,NA,409456.8,Both,missing RRs,TRUE,FALSE
+9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,43696,1781017.5999999999,506873.6,11.6,14.57,NA,NA,hr,NA,NA,42,1,LTPA,2,NA,NA,506873.6,Both,missing RRs,TRUE,FALSE
+9921,Williams T.,Alzheimer's disease,Fatal,3,ci,153536,8153,1781017.5999999999,94574.8,11.6,25.13,NA,NA,hr,NA,NA,6,1,LTPA,2,NA,NA,94574.8,Both,missing RRs,TRUE,FALSE
 9933,Zhao M.,Alzheimer's disease,Fatal,3,ci,479856,268193,4198740,2346688.75,8.75,4.38,NA,NA,hr,NA,NA,1091,1,LTPA,3,NA,NA,2346688.75,Both,missing RRs,TRUE,FALSE
 9933,Zhao M.,Alzheimer's disease,Fatal,3,ci,479856,21428,4198740,187495,8.75,7.88,NA,NA,hr,NA,NA,63,1,LTPA,3,NA,NA,187495,Both,missing RRs,TRUE,FALSE
 9933,Zhao M.,Alzheimer's disease,Fatal,3,ci,479856,113851,4198740,996196.25,8.75,13.12,NA,NA,hr,NA,NA,250,1,LTPA,3,NA,NA,996196.25,Both,missing RRs,TRUE,FALSE
@@ -1807,10 +1915,10 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 995,Laurin D.,Alzheimer's disease,Non-fatal,3,ir,3848,506,19240,2530,5,5.91,NA,NA,or,NA,NA,21,1,LTPA,4,NA,NA,2530,Both,missing RRs,TRUE,FALSE
 995,Laurin D.,Alzheimer's disease,Non-fatal,3,ir,3848,1412,19240,7060,5,11.81,NA,NA,or,NA,NA,52,1,LTPA,4,NA,NA,7060,Both,missing RRs,TRUE,FALSE
 995,Laurin D.,Alzheimer's disease,Non-fatal,3,ir,3848,747,19240,3735,5,23.62,NA,NA,or,NA,NA,16,1,LTPA,4,NA,NA,3735,Both,missing RRs,TRUE,FALSE
-997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,844,18214.2,4367.088608,5.4,0.72,NA,NA,hr,NA,NA,69,1,LTPA,5,NA,NA,4367.088608,Both,missing RRs,TRUE,FALSE
-997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,842,18214.2,4516.129032,5.4,4.18,NA,NA,hr,NA,NA,70,1,LTPA,5,NA,NA,4516.129032,Both,missing RRs,TRUE,FALSE
-997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,844,18214.2,4640,5.4,11.25,NA,NA,hr,NA,NA,58,1,LTPA,5,NA,NA,4640,Both,missing RRs,TRUE,FALSE
-997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,843,18214.2,4705.882353,5.4,20.7,NA,NA,hr,NA,NA,48,1,LTPA,5,NA,NA,4705.882353,Both,missing RRs,TRUE,FALSE
+997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,844,18214.2,4367.088608,5.4,1,NA,NA,hr,NA,NA,69,1,LTPA,5,NA,NA,4367.088608,Both,missing RRs,TRUE,FALSE
+997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,842,18214.2,4516.129032,5.4,6,NA,NA,hr,NA,NA,70,1,LTPA,5,NA,NA,4516.129032,Both,missing RRs,TRUE,FALSE
+997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,844,18214.2,4640,5.4,15,NA,NA,hr,NA,NA,58,1,LTPA,5,NA,NA,4640,Both,missing RRs,TRUE,FALSE
+997,Podewils LJ.,Alzheimer's disease,Non-fatal,3,ci,3373,843,18214.2,4705.882353,5.4,27,NA,NA,hr,NA,NA,48,1,LTPA,5,NA,NA,4705.882353,Both,missing RRs,TRUE,FALSE
 9913,Tan Z.,Alzheimer's disease,Non-fatal,3,ci,2958,591.6,29580,5916,10,0.2,NA,NA,hr,NA,NA,40,1,LTPA,6,NA,NA,5916,Both,missing RRs,TRUE,FALSE
 9913,Tan Z.,Alzheimer's disease,Non-fatal,3,ci,2958,591.6,29580,5916,10,2,NA,NA,hr,NA,NA,20,1,LTPA,6,NA,NA,5916,Both,missing RRs,TRUE,FALSE
 9913,Tan Z.,Alzheimer's disease,Non-fatal,3,ci,2958,591.6,29580,5916,10,7.46,NA,NA,hr,NA,NA,29,1,LTPA,6,NA,NA,5916,Both,missing RRs,TRUE,FALSE
@@ -1893,9 +2001,9 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 238,Chao et al.,Colon cancer,Both,3,ci,151174,3041,907044,218960,6,14.24,NA,NA,hr,NA,NA,216,1,LTPA,12,NA,NA,218960,Both,missing RRs,TRUE,FALSE
 238,Chao et al.,Colon cancer,Both,3,ci,151174,1207,907044,86917,6,20.92,NA,NA,hr,NA,NA,93,1,LTPA,12,NA,NA,86917,Both,missing RRs,TRUE,FALSE
 238,Chao et al.,Colon cancer,Both,3,ci,151174,1111,907044,80003,6,25.98,NA,NA,hr,NA,NA,93,1,LTPA,12,NA,NA,80003,Both,missing RRs,TRUE,FALSE
-255,Thune et al.,Colon cancer,Both,3,ci,81457,21280,1305607,347116,16.02817437,0,NA,NA,hr,NA,NA,70,1,LTPA,13,NA,NA,347116,Both,missing RRs,TRUE,FALSE
-255,Thune et al.,Colon cancer,Both,3,ci,81457,58080,1305607,947392,16.02817437,14,NA,NA,hr,NA,NA,231,1,LTPA,13,NA,NA,947392,Both,missing RRs,TRUE,FALSE
-255,Thune et al.,Colon cancer,Both,3,ci,81457,27044,1305607,441138,16.02817437,28,NA,NA,hr,NA,NA,98,1,LTPA,13,NA,NA,441138,Both,missing RRs,TRUE,FALSE
+255,Thune et al.,Colon cancer,Both,3,ci,81457,21280,1305607,347116,16.028174374209705,0,NA,NA,hr,NA,NA,70,1,LTPA,13,NA,NA,347116,Both,missing RRs,TRUE,FALSE
+255,Thune et al.,Colon cancer,Both,3,ci,81457,58080,1305607,947392,16.028174374209705,14,NA,NA,hr,NA,NA,231,1,LTPA,13,NA,NA,947392,Both,missing RRs,TRUE,FALSE
+255,Thune et al.,Colon cancer,Both,3,ci,81457,27044,1305607,441138,16.028174374209705,28,NA,NA,hr,NA,NA,98,1,LTPA,13,NA,NA,441138,Both,missing RRs,TRUE,FALSE
 340,"Murphy, N.",Colon cancer,Both,3,ci,481874,12558,6508182,1356890,14.9,0,NA,NA,hr,NA,NA,524,1,LTPA,17,NA,NA,1356890,Both,missing RRs,TRUE,FALSE
 340,"Murphy, N.",Colon cancer,Both,3,ci,481874,20222,6508182,2184965,14.9,9.34,NA,NA,hr,NA,NA,605,1,LTPA,17,NA,NA,2184965,Both,missing RRs,TRUE,FALSE
 340,"Murphy, N.",Colon cancer,Both,3,ci,481874,16185,6508182,1748711,14.9,16.71,NA,NA,hr,NA,NA,416,1,LTPA,17,NA,NA,1748711,Both,missing RRs,TRUE,FALSE
@@ -1915,9 +2023,9 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 38,"Zhou, Y",Coronary heart disease,Fatal,3,ci,24606,4995,125591,25495,5.1,46.2,NA,NA,hr,NA,NA,25,1,LTPA,2,NA,NA,25495,Fatal,missing RRs,TRUE,FALSE
 38,"Zhou, Y",Coronary heart disease,Fatal,3,ci,24606,1411,125591,7202,5.1,78.47,NA,NA,hr,NA,NA,8,1,LTPA,2,NA,NA,7202,Fatal,missing RRs,TRUE,FALSE
 120,Williams P,Coronary heart disease,Fatal,3,ci,42022,9624,403411,92390,9.6,2.33,1,1,hr,NA,NA,108,1,LTPA,4,0,NA,92390,Fatal,missing RRs,TRUE,FALSE
-120,Williams P,Coronary heart disease,Fatal,3,ci,42022,6759,403411,64886,9.6,7.3,0.87,0.87,hr,0.66,1.15,76,1,LTPA,4,-0.139262067,0.141654997,64886,Fatal,missing RRs,TRUE,FALSE
-120,Williams P,Coronary heart disease,Fatal,3,ci,42022,13985,403411,134256,9.6,14.57,0.69,0.69,hr,0.62,1.02,144,1,LTPA,4,-0.371063681,0.127001933,134256,Fatal,missing RRs,TRUE,FALSE
-120,Williams P,Coronary heart disease,Fatal,3,ci,42022,11654,403411,111878,9.6,25.13,NA,NA,hr,0.52,0.91,114,1,LTPA,4,NA,0.142761753,111878,Fatal,missing RRs,TRUE,FALSE
+120,Williams P,Coronary heart disease,Fatal,3,ci,42022,6759,403411,64886,9.6,7.3,0.87,0.87,hr,0.66,1.15,76,1,LTPA,4,-0.13926206733350766,0.14165499741749893,64886,Fatal,missing RRs,TRUE,FALSE
+120,Williams P,Coronary heart disease,Fatal,3,ci,42022,13985,403411,134256,9.6,14.57,0.69,0.69,hr,0.62,1.02,144,1,LTPA,4,-0.37106368139083207,0.12700193273092406,134256,Fatal,missing RRs,TRUE,FALSE
+120,Williams P,Coronary heart disease,Fatal,3,ci,42022,11654,403411,111878,9.6,25.13,NA,NA,hr,0.52,0.91,114,1,LTPA,4,NA,0.14276175285607307,111878,Fatal,missing RRs,TRUE,FALSE
 258,Wen et al.,Coronary heart disease,Fatal,3,ci,360318,201307,2900560,1620521,8.1,0.9,NA,NA,hr,NA,NA,98,1,LTPA,7,NA,NA,1620521,Fatal,missing RRs,TRUE,FALSE
 258,Wen et al.,Coronary heart disease,Fatal,3,ci,360318,79709,2900560,641657,8.1,4.1,NA,NA,hr,NA,NA,26,1,LTPA,7,NA,NA,641657,Fatal,missing RRs,TRUE,FALSE
 258,Wen et al.,Coronary heart disease,Fatal,3,ci,360318,46513,2900560,374430,8.1,8.3,NA,NA,hr,NA,NA,27,1,LTPA,7,NA,NA,374430,Fatal,missing RRs,TRUE,FALSE
@@ -1937,9 +2045,9 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 38,"Zhou, Y",Coronary heart disease,Fatal,3,ci,24606,4995,125591,25495,5.1,46.2,NA,NA,hr,NA,NA,25,1,LTPA,15,NA,NA,25495,Both,missing RRs,TRUE,FALSE
 38,"Zhou, Y",Coronary heart disease,Fatal,3,ci,24606,1411,125591,7202,5.1,78.47,NA,NA,hr,NA,NA,8,1,LTPA,15,NA,NA,7202,Both,missing RRs,TRUE,FALSE
 120,Williams P,Coronary heart disease,Fatal,3,ci,42022,9624,403411,92390,9.6,2.33,1,1,hr,NA,NA,108,1,LTPA,17,0,NA,92390,Both,missing RRs,TRUE,FALSE
-120,Williams P,Coronary heart disease,Fatal,3,ci,42022,6759,403411,64886,9.6,7.3,0.87,0.87,hr,0.66,1.15,76,1,LTPA,17,-0.139262067,0.141654997,64886,Both,missing RRs,TRUE,FALSE
-120,Williams P,Coronary heart disease,Fatal,3,ci,42022,13985,403411,134256,9.6,14.57,0.69,0.69,hr,0.62,1.02,144,1,LTPA,17,-0.371063681,0.127001933,134256,Both,missing RRs,TRUE,FALSE
-120,Williams P,Coronary heart disease,Fatal,3,ci,42022,11654,403411,111878,9.6,25.13,NA,NA,hr,0.52,0.91,114,1,LTPA,17,NA,0.142761753,111878,Both,missing RRs,TRUE,FALSE
+120,Williams P,Coronary heart disease,Fatal,3,ci,42022,6759,403411,64886,9.6,7.3,0.87,0.87,hr,0.66,1.15,76,1,LTPA,17,-0.13926206733350766,0.14165499741749893,64886,Both,missing RRs,TRUE,FALSE
+120,Williams P,Coronary heart disease,Fatal,3,ci,42022,13985,403411,134256,9.6,14.57,0.69,0.69,hr,0.62,1.02,144,1,LTPA,17,-0.37106368139083207,0.12700193273092406,134256,Both,missing RRs,TRUE,FALSE
+120,Williams P,Coronary heart disease,Fatal,3,ci,42022,11654,403411,111878,9.6,25.13,NA,NA,hr,0.52,0.91,114,1,LTPA,17,NA,0.14276175285607307,111878,Both,missing RRs,TRUE,FALSE
 258,Wen et al.,Coronary heart disease,Fatal,3,ci,360318,201307,2900560,1620521,8.1,0.9,NA,NA,hr,NA,NA,98,1,LTPA,20,NA,NA,1620521,Both,missing RRs,TRUE,FALSE
 258,Wen et al.,Coronary heart disease,Fatal,3,ci,360318,79709,2900560,641657,8.1,4.1,NA,NA,hr,NA,NA,26,1,LTPA,20,NA,NA,641657,Both,missing RRs,TRUE,FALSE
 258,Wen et al.,Coronary heart disease,Fatal,3,ci,360318,46513,2900560,374430,8.1,8.3,NA,NA,hr,NA,NA,27,1,LTPA,20,NA,NA,374430,Both,missing RRs,TRUE,FALSE
@@ -1949,58 +2057,130 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 196,"de Souto Barreto, P.",Coronary heart disease,Non-fatal,3,ci,47723,2500,214754,11250,4.5,1.31,NA,NA,hr,NA,NA,137,1,LTPA,26,NA,NA,11250,Both,missing RRs,TRUE,FALSE
 196,"de Souto Barreto, P.",Coronary heart disease,Non-fatal,3,ci,47723,6199,214754,27896,4.5,2.63,NA,NA,hr,NA,NA,354,1,LTPA,26,NA,NA,27896,Both,missing RRs,TRUE,FALSE
 196,"de Souto Barreto, P.",Coronary heart disease,Non-fatal,3,ci,47723,34505,214754,155273,4.5,3.94,NA,NA,hr,NA,NA,1728,1,LTPA,26,NA,NA,155273,Both,missing RRs,TRUE,FALSE
-999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,4479.200195,429208,116459.2031,26,13.5,NA,NA,hr,NA,NA,92,1,LTPA,1,NA,NA,116459.2031,Non-fatal,missing RRs,TRUE,FALSE
-999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,9057.360352,429208,235491.3594,26,4.5,NA,NA,hr,NA,NA,235,1,LTPA,1,NA,NA,235491.3594,Non-fatal,missing RRs,TRUE,FALSE
-999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,2971.439941,429208,77257.4375,26,0.75,NA,NA,hr,NA,NA,109,1,LTPA,1,NA,NA,77257.4375,Non-fatal,missing RRs,TRUE,FALSE
-9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,4.73,NA,NA,rr,NA,NA,154,1,LTPA,2,NA,NA,83035,Non-fatal,missing RRs,TRUE,FALSE
-9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,18.79,NA,NA,rr,NA,NA,129,1,LTPA,2,NA,NA,83035,Non-fatal,missing RRs,TRUE,FALSE
-9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3264,244220,78150,25,36.16,NA,NA,rr,NA,NA,104,1,LTPA,2,NA,NA,78150,Non-fatal,missing RRs,TRUE,FALSE
-9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1799.971564,11994,5399.914692,3,0,NA,NA,or,NA,NA,132,1,LTPA,3,NA,NA,5399.914692,Non-fatal,missing RRs,TRUE,FALSE
-9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1267.949708,11994,3803.849124,3,7,NA,NA,or,NA,NA,58,1,LTPA,3,NA,NA,3803.849124,Non-fatal,missing RRs,TRUE,FALSE
-9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,930.078728,11994,2790.236184,3,15.75,NA,NA,or,NA,NA,54,1,LTPA,3,NA,NA,2790.236184,Non-fatal,missing RRs,TRUE,FALSE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,605,173824,24206,8,21.88,NA,NA,hr,NA,NA,334,1,LTPA,4,NA,NA,24206,Non-fatal,missing RRs,TRUE,FALSE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,617,173824,24678,8,13.12,NA,NA,hr,NA,NA,435,1,LTPA,4,NA,NA,24678,Non-fatal,missing RRs,TRUE,FALSE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,592,173824,23689,8,4.38,NA,NA,hr,NA,NA,475,1,LTPA,4,NA,NA,23689,Non-fatal,missing RRs,TRUE,FALSE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,748,173824,29928,8,1.75,NA,NA,hr,NA,NA,780,1,LTPA,4,NA,NA,29928,Non-fatal,missing RRs,TRUE,FALSE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,1941,173824,77639,8,0,NA,NA,hr,NA,NA,1921,1,LTPA,4,NA,NA,77639,Non-fatal,missing RRs,TRUE,FALSE
-9928,S‡nchez-Villegas A.,Depression,Non-fatal,3,ci,11800,1392,100874,35697,8.5,1.99,NA,NA,hr,NA,NA,316,1,LTPA,5,NA,NA,35697,Non-fatal,missing RRs,TRUE,FALSE
-9928,S‡nchez-Villegas A.,Depression,Non-fatal,3,ci,11800,1266,100874,32459,8.5,11.75,NA,NA,hr,NA,NA,269,1,LTPA,5,NA,NA,32459,Non-fatal,missing RRs,TRUE,FALSE
-9928,S‡nchez-Villegas A.,Depression,Non-fatal,3,ci,11800,1276,100874,32718,8.5,21.34,NA,NA,hr,NA,NA,221,1,LTPA,5,NA,NA,32718,Non-fatal,missing RRs,TRUE,FALSE
-9929,Cabello M.,Depression,Non-fatal,3,ir,5970,3973,32835,21851.5,5.5,25,NA,NA,or,NA,NA,381,1,LTPA,6,NA,NA,21851.5,Non-fatal,missing RRs,TRUE,FALSE
-9929,Cabello M.,Depression,Non-fatal,3,ir,5970,903,32835,4966.5,5.5,10,NA,NA,or,NA,NA,84,1,LTPA,6,NA,NA,4966.5,Non-fatal,missing RRs,TRUE,FALSE
-9929,Cabello M.,Depression,Non-fatal,3,ir,5970,1094,32835,6017,5.5,0,NA,NA,or,NA,NA,129,1,LTPA,6,NA,NA,6017,Non-fatal,missing RRs,TRUE,FALSE
-9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,5597,163059,59193,10.5,3.29,NA,NA,hr,NA,NA,366,1,LTPA,7,NA,NA,59193,Non-fatal,missing RRs,TRUE,FALSE
-9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,3548,163059,37606,10.5,11.34,NA,NA,hr,NA,NA,193,1,LTPA,7,NA,NA,37606,Non-fatal,missing RRs,TRUE,FALSE
-9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,6343,163059,66260,10.5,19.66,NA,NA,hr,NA,NA,311,1,LTPA,7,NA,NA,66260,Non-fatal,missing RRs,TRUE,FALSE
-9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,4854.761129,267722,63111.89467,13,4.35,NA,NA,hr,NA,NA,80,1,LTPA,8,NA,NA,63111.89467,Non-fatal,missing RRs,TRUE,FALSE
-9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7865.584561,267722,102252.5993,13,13.12,NA,NA,hr,NA,NA,111,1,LTPA,8,NA,NA,102252.5993,Non-fatal,missing RRs,TRUE,FALSE
-9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7873.65431,267722,102357.506,13,21.88,NA,NA,hr,NA,NA,98,1,LTPA,8,NA,NA,102357.506,Non-fatal,missing RRs,TRUE,FALSE
-999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,4479.200195,429208,116459.2031,26,13.5,NA,NA,hr,NA,NA,92,1,LTPA,1,NA,NA,116459.2031,Both,missing RRs,TRUE,FALSE
-999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,9057.360352,429208,235491.3594,26,4.5,NA,NA,hr,NA,NA,235,1,LTPA,1,NA,NA,235491.3594,Both,missing RRs,TRUE,FALSE
-999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,2971.439941,429208,77257.4375,26,0.75,NA,NA,hr,NA,NA,109,1,LTPA,1,NA,NA,77257.4375,Both,missing RRs,TRUE,FALSE
-9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,4.73,NA,NA,rr,NA,NA,154,1,LTPA,2,NA,NA,83035,Both,missing RRs,TRUE,FALSE
-9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,18.79,NA,NA,rr,NA,NA,129,1,LTPA,2,NA,NA,83035,Both,missing RRs,TRUE,FALSE
-9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3264,244220,78150,25,36.16,NA,NA,rr,NA,NA,104,1,LTPA,2,NA,NA,78150,Both,missing RRs,TRUE,FALSE
-9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1799.971564,11994,5399.914692,3,0,NA,NA,or,NA,NA,132,1,LTPA,3,NA,NA,5399.914692,Both,missing RRs,TRUE,FALSE
-9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1267.949708,11994,3803.849124,3,7,NA,NA,or,NA,NA,58,1,LTPA,3,NA,NA,3803.849124,Both,missing RRs,TRUE,FALSE
-9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,930.078728,11994,2790.236184,3,15.75,NA,NA,or,NA,NA,54,1,LTPA,3,NA,NA,2790.236184,Both,missing RRs,TRUE,FALSE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,605,173824,24206,8,21.88,NA,NA,hr,NA,NA,334,1,LTPA,4,NA,NA,24206,Both,missing RRs,TRUE,FALSE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,617,173824,24678,8,13.12,NA,NA,hr,NA,NA,435,1,LTPA,4,NA,NA,24678,Both,missing RRs,TRUE,FALSE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,592,173824,23689,8,4.38,NA,NA,hr,NA,NA,475,1,LTPA,4,NA,NA,23689,Both,missing RRs,TRUE,FALSE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,748,173824,29928,8,1.75,NA,NA,hr,NA,NA,780,1,LTPA,4,NA,NA,29928,Both,missing RRs,TRUE,FALSE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,1941,173824,77639,8,0,NA,NA,hr,NA,NA,1921,1,LTPA,4,NA,NA,77639,Both,missing RRs,TRUE,FALSE
-9928,S‡nchez-Villegas A.,Depression,Non-fatal,3,ci,11800,1392,100874,35697,8.5,1.99,NA,NA,hr,NA,NA,316,1,LTPA,5,NA,NA,35697,Both,missing RRs,TRUE,FALSE
-9928,S‡nchez-Villegas A.,Depression,Non-fatal,3,ci,11800,1266,100874,32459,8.5,11.75,NA,NA,hr,NA,NA,269,1,LTPA,5,NA,NA,32459,Both,missing RRs,TRUE,FALSE
-9928,S‡nchez-Villegas A.,Depression,Non-fatal,3,ci,11800,1276,100874,32718,8.5,21.34,NA,NA,hr,NA,NA,221,1,LTPA,5,NA,NA,32718,Both,missing RRs,TRUE,FALSE
-9929,Cabello M.,Depression,Non-fatal,3,ir,5970,3973,32835,21851.5,5.5,25,NA,NA,or,NA,NA,381,1,LTPA,6,NA,NA,21851.5,Both,missing RRs,TRUE,FALSE
-9929,Cabello M.,Depression,Non-fatal,3,ir,5970,903,32835,4966.5,5.5,10,NA,NA,or,NA,NA,84,1,LTPA,6,NA,NA,4966.5,Both,missing RRs,TRUE,FALSE
-9929,Cabello M.,Depression,Non-fatal,3,ir,5970,1094,32835,6017,5.5,0,NA,NA,or,NA,NA,129,1,LTPA,6,NA,NA,6017,Both,missing RRs,TRUE,FALSE
-9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,5597,163059,59193,10.5,3.29,NA,NA,hr,NA,NA,366,1,LTPA,7,NA,NA,59193,Both,missing RRs,TRUE,FALSE
-9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,3548,163059,37606,10.5,11.34,NA,NA,hr,NA,NA,193,1,LTPA,7,NA,NA,37606,Both,missing RRs,TRUE,FALSE
-9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,6343,163059,66260,10.5,19.66,NA,NA,hr,NA,NA,311,1,LTPA,7,NA,NA,66260,Both,missing RRs,TRUE,FALSE
-9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,4854.761129,267722,63111.89467,13,4.35,NA,NA,hr,NA,NA,80,1,LTPA,8,NA,NA,63111.89467,Both,missing RRs,TRUE,FALSE
-9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7865.584561,267722,102252.5993,13,13.12,NA,NA,hr,NA,NA,111,1,LTPA,8,NA,NA,102252.5993,Both,missing RRs,TRUE,FALSE
-9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7873.65431,267722,102357.506,13,21.88,NA,NA,hr,NA,NA,98,1,LTPA,8,NA,NA,102357.506,Both,missing RRs,TRUE,FALSE
+991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,1250,31171,7625,6.1,0,NA,NA,or,NA,NA,161,1,LTPA,1,NA,NA,7625,Non-fatal,missing RRs,TRUE,FALSE
+991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,2109,31171,12864.9,6.1,2.65,NA,NA,or,NA,NA,304,1,LTPA,1,NA,NA,12864.9,Non-fatal,missing RRs,TRUE,FALSE
+991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,1751,31171,10681.1,6.1,9.29,NA,NA,or,NA,NA,176,1,LTPA,1,NA,NA,10681.1,Non-fatal,missing RRs,TRUE,FALSE
+992,Camacho T.,Depression,Non-fatal,3,ir,3664,1173,32976,10557,9,6.4,NA,NA,or,NA,NA,252,1,LTPA,2,NA,NA,10557,Non-fatal,missing RRs,TRUE,FALSE
+992,Camacho T.,Depression,Non-fatal,3,ir,3664,1709,32976,15381,9,21,NA,NA,or,NA,NA,285,1,LTPA,2,NA,NA,15381,Non-fatal,missing RRs,TRUE,FALSE
+992,Camacho T.,Depression,Non-fatal,3,ir,3664,782,32976,7038,9,37,NA,NA,or,NA,NA,89,1,LTPA,2,NA,NA,7038,Non-fatal,missing RRs,TRUE,FALSE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,5034,36282,15102,3,0,NA,NA,or,NA,NA,1501,1,LTPA,3,NA,NA,15102,Non-fatal,missing RRs,TRUE,FALSE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,358,36282,1074,3,2.65,NA,NA,or,NA,NA,63,1,LTPA,3,NA,NA,1074,Non-fatal,missing RRs,TRUE,FALSE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,1160,36282,3480,3,9.29,NA,NA,or,NA,NA,156,1,LTPA,3,NA,NA,3480,Non-fatal,missing RRs,TRUE,FALSE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,1454,36282,4362,3,16.18,NA,NA,or,NA,NA,186,1,LTPA,3,NA,NA,4362,Non-fatal,missing RRs,TRUE,FALSE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,1495,36282,4485,3,23.17,NA,NA,or,NA,NA,187,1,LTPA,3,NA,NA,4485,Non-fatal,missing RRs,TRUE,FALSE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,2593,36282,7779,3,30.21,NA,NA,or,NA,NA,325,1,LTPA,3,NA,NA,7779,Non-fatal,missing RRs,TRUE,FALSE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,8437,140896,33748,4,0,NA,NA,or,NA,NA,2488.915,1,LTPA,4,NA,NA,33748,Non-fatal,missing RRs,TRUE,FALSE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,8852,140896,35408,4,3.5,NA,NA,or,NA,NA,2478.56,1,LTPA,4,NA,NA,35408,Non-fatal,missing RRs,TRUE,FALSE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,5900,140896,23600,4,7,NA,NA,or,NA,NA,1581.2,1,LTPA,4,NA,NA,23600,Non-fatal,missing RRs,TRUE,FALSE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,4692,140896,18768,4,14,NA,NA,or,NA,NA,1116.696,1,LTPA,4,NA,NA,18768,Non-fatal,missing RRs,TRUE,FALSE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,3775,140896,15100,4,24.5,NA,NA,or,NA,NA,879.575,1,LTPA,4,NA,NA,15100,Non-fatal,missing RRs,TRUE,FALSE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,2139,140896,8556,4,38.5,NA,NA,or,NA,NA,562.557,1,LTPA,4,NA,NA,8556,Non-fatal,missing RRs,TRUE,FALSE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,1429,140896,5716,4,52.5,NA,NA,or,NA,NA,357.25,1,LTPA,4,NA,NA,5716,Non-fatal,missing RRs,TRUE,FALSE
+999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,4479.200195,429208,116459.2031,26,13.5,NA,NA,hr,NA,NA,92,1,LTPA,5,NA,NA,116459.2031,Non-fatal,missing RRs,TRUE,FALSE
+999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,9057.360352,429208,235491.3594,26,4.5,NA,NA,hr,NA,NA,235,1,LTPA,5,NA,NA,235491.3594,Non-fatal,missing RRs,TRUE,FALSE
+999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,2971.439941,429208,77257.4375,26,0.75,NA,NA,hr,NA,NA,109,1,LTPA,5,NA,NA,77257.4375,Non-fatal,missing RRs,TRUE,FALSE
+9910,Hamer M.,Depression,Non-fatal,3,ir,4323,674,17292,2696,4,0.84,NA,NA,or,NA,NA,108,1,LTPA,6,NA,NA,2696,Non-fatal,missing RRs,TRUE,FALSE
+9910,Hamer M.,Depression,Non-fatal,3,ir,4323,2142,17292,8568,4,3.94,NA,NA,or,NA,NA,161,1,LTPA,6,NA,NA,8568,Non-fatal,missing RRs,TRUE,FALSE
+9910,Hamer M.,Depression,Non-fatal,3,ir,4323,1507,17292,6028,4,7.88,NA,NA,or,NA,NA,79,1,LTPA,6,NA,NA,6028,Non-fatal,missing RRs,TRUE,FALSE
+9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,4.73,NA,NA,rr,NA,NA,154,1,LTPA,7,NA,NA,83035,Non-fatal,missing RRs,TRUE,FALSE
+9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,18.79,NA,NA,rr,NA,NA,129,1,LTPA,7,NA,NA,83035,Non-fatal,missing RRs,TRUE,FALSE
+9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3264,244220,78150,25,36.16,NA,NA,rr,NA,NA,104,1,LTPA,7,NA,NA,78150,Non-fatal,missing RRs,TRUE,FALSE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,17704,135747,82641,4.7,43.52,NA,NA,hr,NA,NA,3954,1,LTPA,8,NA,NA,82641,Non-fatal,missing RRs,TRUE,FALSE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,2753,135747,12860,4.7,0.96,NA,NA,hr,NA,NA,603,1,LTPA,8,NA,NA,12860,Non-fatal,missing RRs,TRUE,FALSE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,2627,135747,12255,4.7,4.17,NA,NA,hr,NA,NA,516,1,LTPA,8,NA,NA,12255,Non-fatal,missing RRs,TRUE,FALSE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,3422,135747,15983,4.7,8.88,NA,NA,hr,NA,NA,650,1,LTPA,8,NA,NA,15983,Non-fatal,missing RRs,TRUE,FALSE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,1284,135747,5984,4.7,16.32,NA,NA,hr,NA,NA,209,1,LTPA,8,NA,NA,5984,Non-fatal,missing RRs,TRUE,FALSE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,1292,135747,6024,4.7,23.87,NA,NA,hr,NA,NA,245,1,LTPA,8,NA,NA,6024,Non-fatal,missing RRs,TRUE,FALSE
+9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1799.971564,11994,5399.914692,3,0,NA,NA,or,NA,NA,132,1,LTPA,9,NA,NA,5399.914692,Non-fatal,missing RRs,TRUE,FALSE
+9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1267.949708,11994,3803.849124,3,7,NA,NA,or,NA,NA,58,1,LTPA,9,NA,NA,3803.849124,Non-fatal,missing RRs,TRUE,FALSE
+9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,930.078728,11994,2790.236184,3,15.75,NA,NA,or,NA,NA,54,1,LTPA,9,NA,NA,2790.236184,Non-fatal,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,2818.836969,248204,31007.20666,11,0,NA,NA,or,NA,NA,277,1,LTPA,10,NA,NA,31007.20666,Non-fatal,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,5688.396374,248204,62572.36011,11,0.88,NA,NA,or,NA,NA,427,1,LTPA,10,NA,NA,62572.36011,Non-fatal,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,5411.501769,248204,59526.51946,11,2.62,NA,NA,or,NA,NA,359,1,LTPA,10,NA,NA,59526.51946,Non-fatal,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,4509.307636,248204,49602.384,11,5.25,NA,NA,or,NA,NA,262,1,LTPA,10,NA,NA,49602.384,Non-fatal,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,2144.478037,248204,23589.25841,11,10.5,NA,NA,or,NA,NA,135,1,LTPA,10,NA,NA,23589.25841,Non-fatal,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,1991.479216,248204,21906.27138,11,17.5,NA,NA,or,NA,NA,119,1,LTPA,10,NA,NA,21906.27138,Non-fatal,missing RRs,TRUE,FALSE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,303,173824,24206,8,21.88,NA,NA,hr,NA,NA,334,1,LTPA,11,NA,NA,24206,Non-fatal,missing RRs,TRUE,FALSE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,308,173824,24678,8,13.12,NA,NA,hr,NA,NA,435,1,LTPA,11,NA,NA,24678,Non-fatal,missing RRs,TRUE,FALSE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,296,173824,23689,8,4.38,NA,NA,hr,NA,NA,475,1,LTPA,11,NA,NA,23689,Non-fatal,missing RRs,TRUE,FALSE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,374,173824,29928,8,1.75,NA,NA,hr,NA,NA,780,1,LTPA,11,NA,NA,29928,Non-fatal,missing RRs,TRUE,FALSE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,970,173824,77639,8,0,NA,NA,hr,NA,NA,1921,1,LTPA,11,NA,NA,77639,Non-fatal,missing RRs,TRUE,FALSE
+9929,Cabello M.,Depression,Non-fatal,3,ir,5970,3973,32835,21851.5,5.5,0,NA,NA,or,NA,NA,381,1,LTPA,12,NA,NA,21851.5,Non-fatal,missing RRs,TRUE,FALSE
+9929,Cabello M.,Depression,Non-fatal,3,ir,5970,903,32835,4966.5,5.5,9,NA,NA,or,NA,NA,84,1,LTPA,12,NA,NA,4966.5,Non-fatal,missing RRs,TRUE,FALSE
+9929,Cabello M.,Depression,Non-fatal,3,ir,5970,1094,32835,6017,5.5,22,NA,NA,or,NA,NA,129,1,LTPA,12,NA,NA,6017,Non-fatal,missing RRs,TRUE,FALSE
+9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,5597,163059,59193,10.5,3.29,NA,NA,hr,NA,NA,366,1,LTPA,13,NA,NA,59193,Non-fatal,missing RRs,TRUE,FALSE
+9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,3548,163059,37606,10.5,11.34,NA,NA,hr,NA,NA,193,1,LTPA,13,NA,NA,37606,Non-fatal,missing RRs,TRUE,FALSE
+9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,6343,163059,66260,10.5,19.66,NA,NA,hr,NA,NA,311,1,LTPA,13,NA,NA,66260,Non-fatal,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,0.37,NA,NA,or,NA,NA,191.8544,1,LTPA,14,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,3.44,NA,NA,or,NA,NA,157.775,1,LTPA,14,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,8.88,NA,NA,or,NA,NA,150.2018,1,LTPA,14,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,18.16,NA,NA,or,NA,NA,155.2506,1,LTPA,14,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,48.04,NA,NA,or,NA,NA,132.531,1,LTPA,14,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,FALSE
+9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,4854.761129,267722,63111.89467,13,4.35,NA,NA,hr,NA,NA,80,1,LTPA,15,NA,NA,63111.89467,Non-fatal,missing RRs,TRUE,FALSE
+9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7865.584561,267722,102252.5993,13,13.12,NA,NA,hr,NA,NA,111,1,LTPA,15,NA,NA,102252.5993,Non-fatal,missing RRs,TRUE,FALSE
+9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7873.65431,267722,102357.506,13,21.88,NA,NA,hr,NA,NA,98,1,LTPA,15,NA,NA,102357.506,Non-fatal,missing RRs,TRUE,FALSE
+991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,1250,31171,7625,6.1,0,NA,NA,or,NA,NA,161,1,LTPA,1,NA,NA,7625,Both,missing RRs,TRUE,FALSE
+991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,2109,31171,12864.9,6.1,2.65,NA,NA,or,NA,NA,304,1,LTPA,1,NA,NA,12864.9,Both,missing RRs,TRUE,FALSE
+991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,1751,31171,10681.1,6.1,9.29,NA,NA,or,NA,NA,176,1,LTPA,1,NA,NA,10681.1,Both,missing RRs,TRUE,FALSE
+992,Camacho T.,Depression,Non-fatal,3,ir,3664,1173,32976,10557,9,6.4,NA,NA,or,NA,NA,252,1,LTPA,2,NA,NA,10557,Both,missing RRs,TRUE,FALSE
+992,Camacho T.,Depression,Non-fatal,3,ir,3664,1709,32976,15381,9,21,NA,NA,or,NA,NA,285,1,LTPA,2,NA,NA,15381,Both,missing RRs,TRUE,FALSE
+992,Camacho T.,Depression,Non-fatal,3,ir,3664,782,32976,7038,9,37,NA,NA,or,NA,NA,89,1,LTPA,2,NA,NA,7038,Both,missing RRs,TRUE,FALSE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,5034,36282,15102,3,0,NA,NA,or,NA,NA,1501,1,LTPA,3,NA,NA,15102,Both,missing RRs,TRUE,FALSE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,358,36282,1074,3,2.65,NA,NA,or,NA,NA,63,1,LTPA,3,NA,NA,1074,Both,missing RRs,TRUE,FALSE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,1160,36282,3480,3,9.29,NA,NA,or,NA,NA,156,1,LTPA,3,NA,NA,3480,Both,missing RRs,TRUE,FALSE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,1454,36282,4362,3,16.18,NA,NA,or,NA,NA,186,1,LTPA,3,NA,NA,4362,Both,missing RRs,TRUE,FALSE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,1495,36282,4485,3,23.17,NA,NA,or,NA,NA,187,1,LTPA,3,NA,NA,4485,Both,missing RRs,TRUE,FALSE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,2593,36282,7779,3,30.21,NA,NA,or,NA,NA,325,1,LTPA,3,NA,NA,7779,Both,missing RRs,TRUE,FALSE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,8437,140896,33748,4,0,NA,NA,or,NA,NA,2488.915,1,LTPA,4,NA,NA,33748,Both,missing RRs,TRUE,FALSE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,8852,140896,35408,4,3.5,NA,NA,or,NA,NA,2478.56,1,LTPA,4,NA,NA,35408,Both,missing RRs,TRUE,FALSE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,5900,140896,23600,4,7,NA,NA,or,NA,NA,1581.2,1,LTPA,4,NA,NA,23600,Both,missing RRs,TRUE,FALSE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,4692,140896,18768,4,14,NA,NA,or,NA,NA,1116.696,1,LTPA,4,NA,NA,18768,Both,missing RRs,TRUE,FALSE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,3775,140896,15100,4,24.5,NA,NA,or,NA,NA,879.575,1,LTPA,4,NA,NA,15100,Both,missing RRs,TRUE,FALSE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,2139,140896,8556,4,38.5,NA,NA,or,NA,NA,562.557,1,LTPA,4,NA,NA,8556,Both,missing RRs,TRUE,FALSE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,1429,140896,5716,4,52.5,NA,NA,or,NA,NA,357.25,1,LTPA,4,NA,NA,5716,Both,missing RRs,TRUE,FALSE
+999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,4479.200195,429208,116459.2031,26,13.5,NA,NA,hr,NA,NA,92,1,LTPA,5,NA,NA,116459.2031,Both,missing RRs,TRUE,FALSE
+999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,9057.360352,429208,235491.3594,26,4.5,NA,NA,hr,NA,NA,235,1,LTPA,5,NA,NA,235491.3594,Both,missing RRs,TRUE,FALSE
+999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,2971.439941,429208,77257.4375,26,0.75,NA,NA,hr,NA,NA,109,1,LTPA,5,NA,NA,77257.4375,Both,missing RRs,TRUE,FALSE
+9910,Hamer M.,Depression,Non-fatal,3,ir,4323,674,17292,2696,4,0.84,NA,NA,or,NA,NA,108,1,LTPA,6,NA,NA,2696,Both,missing RRs,TRUE,FALSE
+9910,Hamer M.,Depression,Non-fatal,3,ir,4323,2142,17292,8568,4,3.94,NA,NA,or,NA,NA,161,1,LTPA,6,NA,NA,8568,Both,missing RRs,TRUE,FALSE
+9910,Hamer M.,Depression,Non-fatal,3,ir,4323,1507,17292,6028,4,7.88,NA,NA,or,NA,NA,79,1,LTPA,6,NA,NA,6028,Both,missing RRs,TRUE,FALSE
+9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,4.73,NA,NA,rr,NA,NA,154,1,LTPA,7,NA,NA,83035,Both,missing RRs,TRUE,FALSE
+9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,18.79,NA,NA,rr,NA,NA,129,1,LTPA,7,NA,NA,83035,Both,missing RRs,TRUE,FALSE
+9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3264,244220,78150,25,36.16,NA,NA,rr,NA,NA,104,1,LTPA,7,NA,NA,78150,Both,missing RRs,TRUE,FALSE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,17704,135747,82641,4.7,43.52,NA,NA,hr,NA,NA,3954,1,LTPA,8,NA,NA,82641,Both,missing RRs,TRUE,FALSE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,2753,135747,12860,4.7,0.96,NA,NA,hr,NA,NA,603,1,LTPA,8,NA,NA,12860,Both,missing RRs,TRUE,FALSE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,2627,135747,12255,4.7,4.17,NA,NA,hr,NA,NA,516,1,LTPA,8,NA,NA,12255,Both,missing RRs,TRUE,FALSE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,3422,135747,15983,4.7,8.88,NA,NA,hr,NA,NA,650,1,LTPA,8,NA,NA,15983,Both,missing RRs,TRUE,FALSE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,1284,135747,5984,4.7,16.32,NA,NA,hr,NA,NA,209,1,LTPA,8,NA,NA,5984,Both,missing RRs,TRUE,FALSE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,1292,135747,6024,4.7,23.87,NA,NA,hr,NA,NA,245,1,LTPA,8,NA,NA,6024,Both,missing RRs,TRUE,FALSE
+9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1799.971564,11994,5399.914692,3,0,NA,NA,or,NA,NA,132,1,LTPA,9,NA,NA,5399.914692,Both,missing RRs,TRUE,FALSE
+9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1267.949708,11994,3803.849124,3,7,NA,NA,or,NA,NA,58,1,LTPA,9,NA,NA,3803.849124,Both,missing RRs,TRUE,FALSE
+9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,930.078728,11994,2790.236184,3,15.75,NA,NA,or,NA,NA,54,1,LTPA,9,NA,NA,2790.236184,Both,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,2818.836969,248204,31007.20666,11,0,NA,NA,or,NA,NA,277,1,LTPA,10,NA,NA,31007.20666,Both,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,5688.396374,248204,62572.36011,11,0.88,NA,NA,or,NA,NA,427,1,LTPA,10,NA,NA,62572.36011,Both,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,5411.501769,248204,59526.51946,11,2.62,NA,NA,or,NA,NA,359,1,LTPA,10,NA,NA,59526.51946,Both,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,4509.307636,248204,49602.384,11,5.25,NA,NA,or,NA,NA,262,1,LTPA,10,NA,NA,49602.384,Both,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,2144.478037,248204,23589.25841,11,10.5,NA,NA,or,NA,NA,135,1,LTPA,10,NA,NA,23589.25841,Both,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,1991.479216,248204,21906.27138,11,17.5,NA,NA,or,NA,NA,119,1,LTPA,10,NA,NA,21906.27138,Both,missing RRs,TRUE,FALSE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,303,173824,24206,8,21.88,NA,NA,hr,NA,NA,334,1,LTPA,11,NA,NA,24206,Both,missing RRs,TRUE,FALSE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,308,173824,24678,8,13.12,NA,NA,hr,NA,NA,435,1,LTPA,11,NA,NA,24678,Both,missing RRs,TRUE,FALSE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,296,173824,23689,8,4.38,NA,NA,hr,NA,NA,475,1,LTPA,11,NA,NA,23689,Both,missing RRs,TRUE,FALSE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,374,173824,29928,8,1.75,NA,NA,hr,NA,NA,780,1,LTPA,11,NA,NA,29928,Both,missing RRs,TRUE,FALSE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,970,173824,77639,8,0,NA,NA,hr,NA,NA,1921,1,LTPA,11,NA,NA,77639,Both,missing RRs,TRUE,FALSE
+9929,Cabello M.,Depression,Non-fatal,3,ir,5970,3973,32835,21851.5,5.5,0,NA,NA,or,NA,NA,381,1,LTPA,12,NA,NA,21851.5,Both,missing RRs,TRUE,FALSE
+9929,Cabello M.,Depression,Non-fatal,3,ir,5970,903,32835,4966.5,5.5,9,NA,NA,or,NA,NA,84,1,LTPA,12,NA,NA,4966.5,Both,missing RRs,TRUE,FALSE
+9929,Cabello M.,Depression,Non-fatal,3,ir,5970,1094,32835,6017,5.5,22,NA,NA,or,NA,NA,129,1,LTPA,12,NA,NA,6017,Both,missing RRs,TRUE,FALSE
+9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,5597,163059,59193,10.5,3.29,NA,NA,hr,NA,NA,366,1,LTPA,13,NA,NA,59193,Both,missing RRs,TRUE,FALSE
+9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,3548,163059,37606,10.5,11.34,NA,NA,hr,NA,NA,193,1,LTPA,13,NA,NA,37606,Both,missing RRs,TRUE,FALSE
+9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,6343,163059,66260,10.5,19.66,NA,NA,hr,NA,NA,311,1,LTPA,13,NA,NA,66260,Both,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,0.37,NA,NA,or,NA,NA,191.8544,1,LTPA,14,NA,NA,27768.4,Both,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,3.44,NA,NA,or,NA,NA,157.775,1,LTPA,14,NA,NA,27768.4,Both,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,8.88,NA,NA,or,NA,NA,150.2018,1,LTPA,14,NA,NA,27768.4,Both,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,18.16,NA,NA,or,NA,NA,155.2506,1,LTPA,14,NA,NA,27768.4,Both,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,48.04,NA,NA,or,NA,NA,132.531,1,LTPA,14,NA,NA,27768.4,Both,missing RRs,TRUE,FALSE
+9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,4854.761129,267722,63111.89467,13,4.35,NA,NA,hr,NA,NA,80,1,LTPA,15,NA,NA,63111.89467,Both,missing RRs,TRUE,FALSE
+9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7865.584561,267722,102252.5993,13,13.12,NA,NA,hr,NA,NA,111,1,LTPA,15,NA,NA,102252.5993,Both,missing RRs,TRUE,FALSE
+9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7873.65431,267722,102357.506,13,21.88,NA,NA,hr,NA,NA,98,1,LTPA,15,NA,NA,102357.506,Both,missing RRs,TRUE,FALSE
 991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,1250,31171,7625,6.1,0,NA,NA,or,NA,NA,161,1,LTPA,1,NA,NA,7625,Non-fatal,missing RRs,TRUE,FALSE
 991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,2109,31171,12864.9,6.1,2.65,NA,NA,or,NA,NA,304,1,LTPA,1,NA,NA,12864.9,Non-fatal,missing RRs,TRUE,FALSE
 991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,1751,31171,10681.1,6.1,9.29,NA,NA,or,NA,NA,176,1,LTPA,1,NA,NA,10681.1,Non-fatal,missing RRs,TRUE,FALSE
@@ -2039,12 +2219,7 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,3.44,NA,NA,or,NA,NA,157.775,1,LTPA,8,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,FALSE
 9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,8.88,NA,NA,or,NA,NA,150.2018,1,LTPA,8,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,FALSE
 9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,18.16,NA,NA,or,NA,NA,155.2506,1,LTPA,8,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,FALSE
-99389,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,48.04,NA,NA,or,NA,NA,132.531,1,LTPA,9,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,FALSE
-99389,Hughes K.,Depressive symptoms,Non-fatal,2,ir,11673,2334.6,256806,51361.2,22,0.37,NA,NA,or,NA,NA,436.5702,1,LTPA,9,NA,NA,51361.2,Non-fatal,missing RRs,TRUE,FALSE
-99389,Hughes K.,Depressive symptoms,Non-fatal,2,ir,11673,2334.6,256806,51361.2,22,2.14,NA,NA,or,NA,NA,380.5398,1,LTPA,9,NA,NA,51361.2,Non-fatal,missing RRs,TRUE,FALSE
-99389,Hughes K.,Depressive symptoms,Non-fatal,2,ir,11673,2334.6,256806,51361.2,22,5.65,NA,NA,or,NA,NA,368.8668,1,LTPA,9,NA,NA,51361.2,Non-fatal,missing RRs,TRUE,FALSE
-99389,Hughes K.,Depressive symptoms,Non-fatal,2,ir,11673,2334.6,256806,51361.2,22,12.5,NA,NA,or,NA,NA,340.8516,1,LTPA,9,NA,NA,51361.2,Non-fatal,missing RRs,TRUE,FALSE
-99389,Hughes K.,Depressive symptoms,Non-fatal,2,ir,11673,2334.6,256806,51361.2,22,36.08,NA,NA,or,NA,NA,347.8554,1,LTPA,9,NA,NA,51361.2,Non-fatal,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,48.04,NA,NA,or,NA,NA,132.531,1,LTPA,8,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,FALSE
 991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,1250,31171,7625,6.1,0,NA,NA,or,NA,NA,161,1,LTPA,1,NA,NA,7625,Both,missing RRs,TRUE,FALSE
 991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,2109,31171,12864.9,6.1,2.65,NA,NA,or,NA,NA,304,1,LTPA,1,NA,NA,12864.9,Both,missing RRs,TRUE,FALSE
 991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,1751,31171,10681.1,6.1,9.29,NA,NA,or,NA,NA,176,1,LTPA,1,NA,NA,10681.1,Both,missing RRs,TRUE,FALSE
@@ -2083,12 +2258,7 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,3.44,NA,NA,or,NA,NA,157.775,1,LTPA,8,NA,NA,27768.4,Both,missing RRs,TRUE,FALSE
 9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,8.88,NA,NA,or,NA,NA,150.2018,1,LTPA,8,NA,NA,27768.4,Both,missing RRs,TRUE,FALSE
 9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,18.16,NA,NA,or,NA,NA,155.2506,1,LTPA,8,NA,NA,27768.4,Both,missing RRs,TRUE,FALSE
-99389,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,48.04,NA,NA,or,NA,NA,132.531,1,LTPA,9,NA,NA,27768.4,Both,missing RRs,TRUE,FALSE
-99389,Hughes K.,Depressive symptoms,Non-fatal,2,ir,11673,2334.6,256806,51361.2,22,0.37,NA,NA,or,NA,NA,436.5702,1,LTPA,9,NA,NA,51361.2,Both,missing RRs,TRUE,FALSE
-99389,Hughes K.,Depressive symptoms,Non-fatal,2,ir,11673,2334.6,256806,51361.2,22,2.14,NA,NA,or,NA,NA,380.5398,1,LTPA,9,NA,NA,51361.2,Both,missing RRs,TRUE,FALSE
-99389,Hughes K.,Depressive symptoms,Non-fatal,2,ir,11673,2334.6,256806,51361.2,22,5.65,NA,NA,or,NA,NA,368.8668,1,LTPA,9,NA,NA,51361.2,Both,missing RRs,TRUE,FALSE
-99389,Hughes K.,Depressive symptoms,Non-fatal,2,ir,11673,2334.6,256806,51361.2,22,12.5,NA,NA,or,NA,NA,340.8516,1,LTPA,9,NA,NA,51361.2,Both,missing RRs,TRUE,FALSE
-99389,Hughes K.,Depressive symptoms,Non-fatal,2,ir,11673,2334.6,256806,51361.2,22,36.08,NA,NA,or,NA,NA,347.8554,1,LTPA,9,NA,NA,51361.2,Both,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,48.04,NA,NA,or,NA,NA,132.531,1,LTPA,8,NA,NA,27768.4,Both,missing RRs,TRUE,FALSE
 332,"Arem, H",Endometrial cancer,Fatal,2,ci,121913,17166,1475147,207707,12.1,0,NA,NA,hr,NA,NA,23,1,LTPA,1,NA,NA,207707,Fatal,missing RRs,TRUE,FALSE
 332,"Arem, H",Endometrial cancer,Fatal,2,ci,121913,12998,1475147,157273,12.1,1.75,NA,NA,hr,NA,NA,24,1,LTPA,1,NA,NA,157273,Fatal,missing RRs,TRUE,FALSE
 332,"Arem, H",Endometrial cancer,Fatal,2,ci,121913,31142,1475147,376817,12.1,7,NA,NA,hr,NA,NA,27,1,LTPA,1,NA,NA,376817,Fatal,missing RRs,TRUE,FALSE
@@ -2133,10 +2303,10 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 27,"Rahman, I",Heart failure,Both,1,ci,31141,7981,450523,115463,13,24.18,NA,NA,hr,NA,NA,885,1,LTPA,3,NA,NA,115463,Both,missing RRs,TRUE,FALSE
 27,"Rahman, I",Heart failure,Both,1,ci,31141,7619,450523,110226,13,45.42,NA,NA,hr,NA,NA,845,1,LTPA,3,NA,NA,110226,Both,missing RRs,TRUE,FALSE
 27,"Rahman, I",Heart failure,Both,1,ci,31141,7614,450523,110153,13,63.67,NA,NA,hr,NA,NA,1025,1,LTPA,3,NA,NA,110153,Both,missing RRs,TRUE,FALSE
-220,"Pandey, A.",Heart failure,Both,3,ci,51451,10623,645515,133278,12.54620901,0,NA,NA,hr,NA,NA,742,1,LTPA,8,NA,NA,133278,Both,missing RRs,TRUE,FALSE
-220,"Pandey, A.",Heart failure,Both,3,ci,51451,17714,645515,222244,12.54620901,2.33,NA,NA,hr,NA,NA,1163,1,LTPA,8,NA,NA,222244,Both,missing RRs,TRUE,FALSE
-220,"Pandey, A.",Heart failure,Both,3,ci,51451,9349,645515,117295,12.54620901,8.72,NA,NA,hr,NA,NA,555,1,LTPA,8,NA,NA,117295,Both,missing RRs,TRUE,FALSE
-220,"Pandey, A.",Heart failure,Both,3,ci,51451,13765,645515,172699,12.54620901,21.76,NA,NA,hr,NA,NA,721,1,LTPA,8,NA,NA,172699,Both,missing RRs,TRUE,FALSE
+220,"Pandey, A.",Heart failure,Both,3,ci,51451,10623,645515,133278,12.546209014402052,0,NA,NA,hr,NA,NA,742,1,LTPA,8,NA,NA,133278,Both,missing RRs,TRUE,FALSE
+220,"Pandey, A.",Heart failure,Both,3,ci,51451,17714,645515,222244,12.546209014402052,2.33,NA,NA,hr,NA,NA,1163,1,LTPA,8,NA,NA,222244,Both,missing RRs,TRUE,FALSE
+220,"Pandey, A.",Heart failure,Both,3,ci,51451,9349,645515,117295,12.546209014402052,8.72,NA,NA,hr,NA,NA,555,1,LTPA,8,NA,NA,117295,Both,missing RRs,TRUE,FALSE
+220,"Pandey, A.",Heart failure,Both,3,ci,51451,13765,645515,172699,12.546209014402052,21.76,NA,NA,hr,NA,NA,721,1,LTPA,8,NA,NA,172699,Both,missing RRs,TRUE,FALSE
 332,"Arem, H",Kidney cancer,Fatal,3,ci,293511,41165,3551483,498097,12.1,0,NA,NA,hr,NA,NA,47,1,LTPA,2,NA,NA,498097,Fatal,missing RRs,TRUE,FALSE
 332,"Arem, H",Kidney cancer,Fatal,3,ci,293511,31095,3551483,376250,12.1,1.75,NA,NA,hr,NA,NA,36,1,LTPA,2,NA,NA,376250,Fatal,missing RRs,TRUE,FALSE
 332,"Arem, H",Kidney cancer,Fatal,3,ci,293511,74502,3551483,901474,12.1,7,NA,NA,hr,NA,NA,85,1,LTPA,2,NA,NA,901474,Fatal,missing RRs,TRUE,FALSE
@@ -2194,6 +2364,52 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 332,"Arem, H",Lung cancer,Fatal,3,ci,293511,74502,3551483,901474,12.1,7,NA,NA,hr,NA,NA,1258,1,LTPA,14,NA,NA,901474,Both,missing RRs,TRUE,FALSE
 332,"Arem, H",Lung cancer,Fatal,3,ci,293511,76049,3551483,920193,12.1,19.25,NA,NA,hr,NA,NA,1095,1,LTPA,14,NA,NA,920193,Both,missing RRs,TRUE,FALSE
 332,"Arem, H",Lung cancer,Fatal,3,ci,293511,70700,3551483,855470,12.1,33.25,NA,NA,hr,NA,NA,1073,1,LTPA,14,NA,NA,855470,Both,missing RRs,TRUE,FALSE
+999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,4479.200195,429208,116459.2031,26,13.5,NA,NA,hr,NA,NA,92,1,LTPA,1,NA,NA,116459.2031,Non-fatal,missing RRs,TRUE,FALSE
+999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,9057.360352,429208,235491.3594,26,4.5,NA,NA,hr,NA,NA,235,1,LTPA,1,NA,NA,235491.3594,Non-fatal,missing RRs,TRUE,FALSE
+999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,2971.439941,429208,77257.4375,26,0.75,NA,NA,hr,NA,NA,109,1,LTPA,1,NA,NA,77257.4375,Non-fatal,missing RRs,TRUE,FALSE
+9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3468,244220,83035,25,5,NA,NA,rr,NA,NA,154,1,LTPA,2,NA,NA,83035,Non-fatal,missing RRs,TRUE,FALSE
+9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3468,244220,83035,25,19,NA,NA,rr,NA,NA,129,1,LTPA,2,NA,NA,83035,Non-fatal,missing RRs,TRUE,FALSE
+9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3264,244220,78150,25,36,NA,NA,rr,NA,NA,104,1,LTPA,2,NA,NA,78150,Non-fatal,missing RRs,TRUE,FALSE
+9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,1799.971564,11994,5399.914692,3,0,NA,NA,or,NA,NA,132,1,LTPA,3,NA,NA,5399.914692,Non-fatal,missing RRs,TRUE,FALSE
+9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,1267.949708,11994,3803.849124,3,7,NA,NA,or,NA,NA,58,1,LTPA,3,NA,NA,3803.849124,Non-fatal,missing RRs,TRUE,FALSE
+9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,930.078728,11994,2790.236184,3,15.75,NA,NA,or,NA,NA,54,1,LTPA,3,NA,NA,2790.236184,Non-fatal,missing RRs,TRUE,FALSE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,303,173824,24206,8,21.88,NA,NA,hr,NA,NA,334,1,LTPA,4,NA,NA,24206,Non-fatal,missing RRs,TRUE,FALSE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,308,173824,24678,8,13.12,NA,NA,hr,NA,NA,435,1,LTPA,4,NA,NA,24678,Non-fatal,missing RRs,TRUE,FALSE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,296,173824,23689,8,4.38,NA,NA,hr,NA,NA,475,1,LTPA,4,NA,NA,23689,Non-fatal,missing RRs,TRUE,FALSE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,374,173824,29928,8,1.75,NA,NA,hr,NA,NA,780,1,LTPA,4,NA,NA,29928,Non-fatal,missing RRs,TRUE,FALSE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,970,173824,77639,8,0,NA,NA,hr,NA,NA,1921,1,LTPA,4,NA,NA,77639,Non-fatal,missing RRs,TRUE,FALSE
+9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,3973,32835,21851.5,5.5,0,NA,NA,or,NA,NA,381,1,LTPA,5,NA,NA,21851.5,Non-fatal,missing RRs,TRUE,FALSE
+9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,903,32835,4966.5,5.5,9,NA,NA,or,NA,NA,84,1,LTPA,5,NA,NA,4966.5,Non-fatal,missing RRs,TRUE,FALSE
+9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,1094,32835,6017,5.5,22,NA,NA,or,NA,NA,129,1,LTPA,5,NA,NA,6017,Non-fatal,missing RRs,TRUE,FALSE
+9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,5597,163059,59193,10.5,3.29,NA,NA,hr,NA,NA,366,1,LTPA,6,NA,NA,59193,Non-fatal,missing RRs,TRUE,FALSE
+9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,3548,163059,37606,10.5,11.34,NA,NA,hr,NA,NA,193,1,LTPA,6,NA,NA,37606,Non-fatal,missing RRs,TRUE,FALSE
+9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,6343,163059,66260,10.5,19.66,NA,NA,hr,NA,NA,311,1,LTPA,6,NA,NA,66260,Non-fatal,missing RRs,TRUE,FALSE
+9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,4854.761129,267722,63111.89467,13,4.35,NA,NA,hr,NA,NA,80,1,LTPA,7,NA,NA,63111.89467,Non-fatal,missing RRs,TRUE,FALSE
+9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,7865.584561,267722,102252.5993,13,13.12,NA,NA,hr,NA,NA,111,1,LTPA,7,NA,NA,102252.5993,Non-fatal,missing RRs,TRUE,FALSE
+9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,7873.65431,267722,102357.506,13,21.88,NA,NA,hr,NA,NA,98,1,LTPA,7,NA,NA,102357.506,Non-fatal,missing RRs,TRUE,FALSE
+999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,4479.200195,429208,116459.2031,26,13.5,NA,NA,hr,NA,NA,92,1,LTPA,1,NA,NA,116459.2031,Both,missing RRs,TRUE,FALSE
+999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,9057.360352,429208,235491.3594,26,4.5,NA,NA,hr,NA,NA,235,1,LTPA,1,NA,NA,235491.3594,Both,missing RRs,TRUE,FALSE
+999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,2971.439941,429208,77257.4375,26,0.75,NA,NA,hr,NA,NA,109,1,LTPA,1,NA,NA,77257.4375,Both,missing RRs,TRUE,FALSE
+9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3468,244220,83035,25,5,NA,NA,rr,NA,NA,154,1,LTPA,2,NA,NA,83035,Both,missing RRs,TRUE,FALSE
+9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3468,244220,83035,25,19,NA,NA,rr,NA,NA,129,1,LTPA,2,NA,NA,83035,Both,missing RRs,TRUE,FALSE
+9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3264,244220,78150,25,36,NA,NA,rr,NA,NA,104,1,LTPA,2,NA,NA,78150,Both,missing RRs,TRUE,FALSE
+9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,1799.971564,11994,5399.914692,3,0,NA,NA,or,NA,NA,132,1,LTPA,3,NA,NA,5399.914692,Both,missing RRs,TRUE,FALSE
+9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,1267.949708,11994,3803.849124,3,7,NA,NA,or,NA,NA,58,1,LTPA,3,NA,NA,3803.849124,Both,missing RRs,TRUE,FALSE
+9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,930.078728,11994,2790.236184,3,15.75,NA,NA,or,NA,NA,54,1,LTPA,3,NA,NA,2790.236184,Both,missing RRs,TRUE,FALSE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,303,173824,24206,8,21.88,NA,NA,hr,NA,NA,334,1,LTPA,4,NA,NA,24206,Both,missing RRs,TRUE,FALSE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,308,173824,24678,8,13.12,NA,NA,hr,NA,NA,435,1,LTPA,4,NA,NA,24678,Both,missing RRs,TRUE,FALSE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,296,173824,23689,8,4.38,NA,NA,hr,NA,NA,475,1,LTPA,4,NA,NA,23689,Both,missing RRs,TRUE,FALSE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,374,173824,29928,8,1.75,NA,NA,hr,NA,NA,780,1,LTPA,4,NA,NA,29928,Both,missing RRs,TRUE,FALSE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,970,173824,77639,8,0,NA,NA,hr,NA,NA,1921,1,LTPA,4,NA,NA,77639,Both,missing RRs,TRUE,FALSE
+9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,3973,32835,21851.5,5.5,0,NA,NA,or,NA,NA,381,1,LTPA,5,NA,NA,21851.5,Both,missing RRs,TRUE,FALSE
+9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,903,32835,4966.5,5.5,9,NA,NA,or,NA,NA,84,1,LTPA,5,NA,NA,4966.5,Both,missing RRs,TRUE,FALSE
+9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,1094,32835,6017,5.5,22,NA,NA,or,NA,NA,129,1,LTPA,5,NA,NA,6017,Both,missing RRs,TRUE,FALSE
+9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,5597,163059,59193,10.5,3.29,NA,NA,hr,NA,NA,366,1,LTPA,6,NA,NA,59193,Both,missing RRs,TRUE,FALSE
+9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,3548,163059,37606,10.5,11.34,NA,NA,hr,NA,NA,193,1,LTPA,6,NA,NA,37606,Both,missing RRs,TRUE,FALSE
+9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,6343,163059,66260,10.5,19.66,NA,NA,hr,NA,NA,311,1,LTPA,6,NA,NA,66260,Both,missing RRs,TRUE,FALSE
+9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,4854.761129,267722,63111.89467,13,4.35,NA,NA,hr,NA,NA,80,1,LTPA,7,NA,NA,63111.89467,Both,missing RRs,TRUE,FALSE
+9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,7865.584561,267722,102252.5993,13,13.12,NA,NA,hr,NA,NA,111,1,LTPA,7,NA,NA,102252.5993,Both,missing RRs,TRUE,FALSE
+9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,7873.65431,267722,102357.506,13,21.88,NA,NA,hr,NA,NA,98,1,LTPA,7,NA,NA,102357.506,Both,missing RRs,TRUE,FALSE
 332,"Arem, H",Myeloid leukemia,Fatal,3,ci,293511,41165,3551483,498097,12.1,0,NA,NA,hr,NA,NA,54,1,LTPA,2,NA,NA,498097,Fatal,missing RRs,TRUE,FALSE
 332,"Arem, H",Myeloid leukemia,Fatal,3,ci,293511,31095,3551483,376250,12.1,1.75,NA,NA,hr,NA,NA,50,1,LTPA,2,NA,NA,376250,Fatal,missing RRs,TRUE,FALSE
 332,"Arem, H",Myeloid leukemia,Fatal,3,ci,293511,74502,3551483,901474,12.1,7,NA,NA,hr,NA,NA,81,1,LTPA,2,NA,NA,901474,Fatal,missing RRs,TRUE,FALSE
@@ -2209,14 +2425,14 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 332,"Arem, H",Myeloma,Fatal,3,ci,293511,74502,3551483,901474,12.1,7,NA,NA,hr,NA,NA,63,1,LTPA,2,NA,NA,901474,Fatal,missing RRs,TRUE,FALSE
 332,"Arem, H",Myeloma,Fatal,3,ci,293511,76049,3551483,920193,12.1,19.25,NA,NA,hr,NA,NA,90,1,LTPA,2,NA,NA,920193,Fatal,missing RRs,TRUE,FALSE
 332,"Arem, H",Myeloma,Fatal,3,ci,293511,70700,3551483,855470,12.1,33.25,NA,NA,hr,NA,NA,93,1,LTPA,2,NA,NA,855470,Fatal,missing RRs,TRUE,FALSE
-131,Hofmann JN,Myeloma,Both,3,ci,305618,11122,4405154,1282448,14.41392195,6.8,NA,NA,hr,NA,NA,125,1,LTPA,1,NA,NA,1282448,Both,missing RRs,TRUE,FALSE
-131,Hofmann JN,Myeloma,Both,3,ci,305618,6875,4405154,792786,14.41392195,18.05,NA,NA,hr,NA,NA,85,1,LTPA,1,NA,NA,792786,Both,missing RRs,TRUE,FALSE
-131,Hofmann JN,Myeloma,Both,3,ci,305618,9140,4405154,1053939,14.41392195,32.29,NA,NA,hr,NA,NA,113,1,LTPA,1,NA,NA,1053939,Both,missing RRs,TRUE,FALSE
-131,Hofmann JN,Myeloma,Both,3,ci,305618,11066,4405154,1275982,14.41392195,49.37,NA,NA,hr,NA,NA,148,1,LTPA,1,NA,NA,1275982,Both,missing RRs,TRUE,FALSE
-169,Birmann B,Myeloma,Both,3,ci,136623,6553,2282665,875866,16.70776516,3.5,NA,NA,hr,NA,NA,92,1,LTPA,2,NA,NA,875866,Both,missing RRs,TRUE,FALSE
-169,Birmann B,Myeloma,Both,3,ci,136623,5043,2282665,674009,16.70776516,10.33,NA,NA,hr,NA,NA,47,1,LTPA,2,NA,NA,674009,Both,missing RRs,TRUE,FALSE
-169,Birmann B,Myeloma,Both,3,ci,136623,3758,2282665,502289,16.70776516,19.08,NA,NA,hr,NA,NA,47,1,LTPA,2,NA,NA,502289,Both,missing RRs,TRUE,FALSE
-169,Birmann B,Myeloma,Both,3,ci,136623,1737,2282665,232123,16.70776516,29.58,NA,NA,hr,NA,NA,29,1,LTPA,2,NA,NA,232123,Both,missing RRs,TRUE,FALSE
+131,Hofmann JN,Myeloma,Both,3,ci,305618,11122,4405154,1282448,14.41392195485868,6.8,NA,NA,hr,NA,NA,125,1,LTPA,1,NA,NA,1282448,Both,missing RRs,TRUE,FALSE
+131,Hofmann JN,Myeloma,Both,3,ci,305618,6875,4405154,792786,14.41392195485868,18.05,NA,NA,hr,NA,NA,85,1,LTPA,1,NA,NA,792786,Both,missing RRs,TRUE,FALSE
+131,Hofmann JN,Myeloma,Both,3,ci,305618,9140,4405154,1053939,14.41392195485868,32.29,NA,NA,hr,NA,NA,113,1,LTPA,1,NA,NA,1053939,Both,missing RRs,TRUE,FALSE
+131,Hofmann JN,Myeloma,Both,3,ci,305618,11066,4405154,1275982,14.41392195485868,49.37,NA,NA,hr,NA,NA,148,1,LTPA,1,NA,NA,1275982,Both,missing RRs,TRUE,FALSE
+169,Birmann B,Myeloma,Both,3,ci,136623,6553,2282665,875866,16.70776516399142,3.5,NA,NA,hr,NA,NA,92,1,LTPA,2,NA,NA,875866,Both,missing RRs,TRUE,FALSE
+169,Birmann B,Myeloma,Both,3,ci,136623,5043,2282665,674009,16.70776516399142,10.33,NA,NA,hr,NA,NA,47,1,LTPA,2,NA,NA,674009,Both,missing RRs,TRUE,FALSE
+169,Birmann B,Myeloma,Both,3,ci,136623,3758,2282665,502289,16.70776516399142,19.08,NA,NA,hr,NA,NA,47,1,LTPA,2,NA,NA,502289,Both,missing RRs,TRUE,FALSE
+169,Birmann B,Myeloma,Both,3,ci,136623,1737,2282665,232123,16.70776516399142,29.58,NA,NA,hr,NA,NA,29,1,LTPA,2,NA,NA,232123,Both,missing RRs,TRUE,FALSE
 332,"Arem, H",Myeloma,Fatal,3,ci,293511,41165,3551483,498097,12.1,0,NA,NA,hr,NA,NA,61,1,LTPA,4,NA,NA,498097,Both,missing RRs,TRUE,FALSE
 332,"Arem, H",Myeloma,Fatal,3,ci,293511,31095,3551483,376250,12.1,1.75,NA,NA,hr,NA,NA,34,1,LTPA,4,NA,NA,376250,Both,missing RRs,TRUE,FALSE
 332,"Arem, H",Myeloma,Fatal,3,ci,293511,74502,3551483,901474,12.1,7,NA,NA,hr,NA,NA,63,1,LTPA,4,NA,NA,901474,Both,missing RRs,TRUE,FALSE
@@ -2248,10 +2464,10 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 9924,Xu Q.,Parkinson's disease,Non-fatal,3,ir,212582,54058,1913238,486522,9,3.5,NA,NA,or,NA,NA,195,1,LTPA,6,NA,NA,486522,Non-fatal,missing RRs,TRUE,FALSE
 9924,Xu Q.,Parkinson's disease,Non-fatal,3,ir,212582,56704,1913238,510336,9,9.62,NA,NA,or,NA,NA,207,1,LTPA,6,NA,NA,510336,Non-fatal,missing RRs,TRUE,FALSE
 9924,Xu Q.,Parkinson's disease,Non-fatal,3,ir,212582,52318,1913238,470862,9,14.88,NA,NA,or,NA,NA,158,1,LTPA,6,NA,NA,470862,Non-fatal,missing RRs,TRUE,FALSE
-9915,Logroscino G.,Parkinson's disease,Both,1,ci,7858,515,47148,12363,6,4.73,NA,NA,hr,NA,NA,19,1,LTPA,1,NA,NA,12363,Both,missing RRs,TRUE,FALSE
-9915,Logroscino G.,Parkinson's disease,Both,1,ci,7858,624,47148,14976,6,15.93,NA,NA,hr,NA,NA,29,1,LTPA,1,NA,NA,14976,Both,missing RRs,TRUE,FALSE
-9915,Logroscino G.,Parkinson's disease,Both,1,ci,7858,425,47148,10191,6,27.44,NA,NA,hr,NA,NA,13,1,LTPA,1,NA,NA,10191,Both,missing RRs,TRUE,FALSE
-9915,Logroscino G.,Parkinson's disease,Both,1,ci,7858,401,47148,9619,6,39.07,NA,NA,hr,NA,NA,17,1,LTPA,1,NA,NA,9619,Both,missing RRs,TRUE,FALSE
+9915,Logroscino G.,Parkinson's disease,Both,1,ci,7858,515,47148,12363,6,5.32,NA,NA,hr,NA,NA,19,1,LTPA,1,NA,NA,12363,Both,missing RRs,TRUE,FALSE
+9915,Logroscino G.,Parkinson's disease,Both,1,ci,7858,624,47148,14976,6,17.79,NA,NA,hr,NA,NA,29,1,LTPA,1,NA,NA,14976,Both,missing RRs,TRUE,FALSE
+9915,Logroscino G.,Parkinson's disease,Both,1,ci,7858,425,47148,10191,6,30.59,NA,NA,hr,NA,NA,13,1,LTPA,1,NA,NA,10191,Both,missing RRs,TRUE,FALSE
+9915,Logroscino G.,Parkinson's disease,Both,1,ci,7858,401,47148,9619,6,43.52,NA,NA,hr,NA,NA,17,1,LTPA,1,NA,NA,9619,Both,missing RRs,TRUE,FALSE
 996,Thacker E.,Parkinson's disease,Non-fatal,3,ci,141339,976,646417,63563,9,0,NA,NA,hr,NA,NA,23,1,LTPA,2,NA,NA,63563,Both,missing RRs,TRUE,FALSE
 996,Thacker E.,Parkinson's disease,Non-fatal,3,ci,141339,2771,646417,180528,9,2.14,NA,NA,hr,NA,NA,67,1,LTPA,2,NA,NA,180528,Both,missing RRs,TRUE,FALSE
 996,Thacker E.,Parkinson's disease,Non-fatal,3,ci,141339,1620,646417,105565,9,5.25,NA,NA,hr,NA,NA,46,1,LTPA,2,NA,NA,105565,Both,missing RRs,TRUE,FALSE
@@ -2314,9 +2530,9 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 234,Larsson et al.,Rectum cancer,Both,1,ci,45906,1032,325933,58590,7.1,8.17,NA,NA,hr,NA,NA,45,1,LTPA,7,NA,NA,58590,Both,missing RRs,TRUE,FALSE
 234,Larsson et al.,Rectum cancer,Both,1,ci,45906,1983,325933,112654,7.1,18.38,NA,NA,hr,NA,NA,58,1,LTPA,7,NA,NA,112654,Both,missing RRs,TRUE,FALSE
 234,Larsson et al.,Rectum cancer,Both,1,ci,45906,2369,325933,134547,7.1,30.63,NA,NA,hr,NA,NA,67,1,LTPA,7,NA,NA,134547,Both,missing RRs,TRUE,FALSE
-255,Thune et al.,Rectum cancer,Both,3,ci,81457,16976,1305607,271728,16.02817437,0,NA,NA,hr,NA,NA,38,1,LTPA,8,NA,NA,271728,Both,missing RRs,TRUE,FALSE
-255,Thune et al.,Rectum cancer,Both,3,ci,81457,48140,1305607,769633,16.02817437,14,NA,NA,hr,NA,NA,146,1,LTPA,8,NA,NA,769633,Both,missing RRs,TRUE,FALSE
-255,Thune et al.,Rectum cancer,Both,3,ci,81457,16341,1305607,264247,16.02817437,28,NA,NA,hr,NA,NA,40,1,LTPA,8,NA,NA,264247,Both,missing RRs,TRUE,FALSE
+255,Thune et al.,Rectum cancer,Both,3,ci,81457,16976,1305607,271728,16.028174374209705,0,NA,NA,hr,NA,NA,38,1,LTPA,8,NA,NA,271728,Both,missing RRs,TRUE,FALSE
+255,Thune et al.,Rectum cancer,Both,3,ci,81457,48140,1305607,769633,16.028174374209705,14,NA,NA,hr,NA,NA,146,1,LTPA,8,NA,NA,769633,Both,missing RRs,TRUE,FALSE
+255,Thune et al.,Rectum cancer,Both,3,ci,81457,16341,1305607,264247,16.028174374209705,28,NA,NA,hr,NA,NA,40,1,LTPA,8,NA,NA,264247,Both,missing RRs,TRUE,FALSE
 267,Wei E.,Rectum cancer,Both,1,ir,46632,6517,652848,91240,14,0.25,NA,NA,rr,NA,NA,23,1,LTPA,9,NA,NA,91240,Both,missing RRs,TRUE,FALSE
 267,Wei E.,Rectum cancer,Both,1,ir,46632,13395,652848,187534,14,1.92,NA,NA,rr,NA,NA,26,1,LTPA,9,NA,NA,187534,Both,missing RRs,TRUE,FALSE
 267,Wei E.,Rectum cancer,Both,1,ir,46632,8967,652848,125541,14,5.41,NA,NA,rr,NA,NA,25,1,LTPA,9,NA,NA,125541,Both,missing RRs,TRUE,FALSE
@@ -2373,25 +2589,25 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 995,Laurin D.,Vascular dementia,Non-fatal,3,ir,3733,490,18665,2450,5,5.91,NA,NA,or,NA,NA,5,1,LTPA,1,NA,NA,2450,Non-fatal,missing RRs,TRUE,FALSE
 995,Laurin D.,Vascular dementia,Non-fatal,3,ir,3733,1378,18665,6890,5,11.81,NA,NA,or,NA,NA,18,1,LTPA,1,NA,NA,6890,Non-fatal,missing RRs,TRUE,FALSE
 995,Laurin D.,Vascular dementia,Non-fatal,3,ir,3733,739,18665,3695,5,23.62,NA,NA,or,NA,NA,8,1,LTPA,1,NA,NA,3695,Non-fatal,missing RRs,TRUE,FALSE
-997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,844,18214.2,4365.079365,5.4,0.72,NA,NA,hr,NA,NA,55,1,LTPA,2,NA,NA,4365.079365,Non-fatal,missing RRs,TRUE,FALSE
-997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,842,18214.2,4496.124031,5.4,4.18,NA,NA,hr,NA,NA,58,1,LTPA,2,NA,NA,4496.124031,Non-fatal,missing RRs,TRUE,FALSE
-997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,844,18214.2,4642.857143,5.4,11.25,NA,NA,hr,NA,NA,52,1,LTPA,2,NA,NA,4642.857143,Non-fatal,missing RRs,TRUE,FALSE
-997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,843,18214.2,4705.882353,5.4,20.7,NA,NA,hr,NA,NA,48,1,LTPA,2,NA,NA,4705.882353,Non-fatal,missing RRs,TRUE,FALSE
+997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,844,18214.2,4365.079365,5.4,1,NA,NA,hr,NA,NA,55,1,LTPA,2,NA,NA,4365.079365,Non-fatal,missing RRs,TRUE,FALSE
+997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,842,18214.2,4496.124031,5.4,6,NA,NA,hr,NA,NA,58,1,LTPA,2,NA,NA,4496.124031,Non-fatal,missing RRs,TRUE,FALSE
+997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,844,18214.2,4642.857143,5.4,15,NA,NA,hr,NA,NA,52,1,LTPA,2,NA,NA,4642.857143,Non-fatal,missing RRs,TRUE,FALSE
+997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,843,18214.2,4705.882353,5.4,27,NA,NA,hr,NA,NA,48,1,LTPA,2,NA,NA,4705.882353,Non-fatal,missing RRs,TRUE,FALSE
 9936,Hansson O.,Vascular dementia,Non-fatal,3,ci,20609,6870,309135,103050,15,10.52,NA,NA,hr,NA,NA,102,1,LTPA,3,NA,NA,103050,Non-fatal,missing RRs,TRUE,FALSE
 9936,Hansson O.,Vascular dementia,Non-fatal,3,ci,20609,6870,309135,103050,15,21.95,NA,NA,hr,NA,NA,94,1,LTPA,3,NA,NA,103050,Non-fatal,missing RRs,TRUE,FALSE
 9936,Hansson O.,Vascular dementia,Non-fatal,3,ci,20609,6870,309135,103050,15,39.65,NA,NA,hr,NA,NA,67,1,LTPA,3,NA,NA,103050,Non-fatal,missing RRs,TRUE,FALSE
-9927,Neergaard J.,Vascular dementia,Both,2,ci,4963,1491,59059.7,17742.9,11.9,0,NA,NA,hr,NA,NA,22,1,LTPA,1,NA,NA,17742.9,Both,missing RRs,TRUE,FALSE
-9927,Neergaard J.,Vascular dementia,Both,2,ci,4963,1057,59059.7,12578.3,11.9,2.62,NA,NA,hr,NA,NA,8,1,LTPA,1,NA,NA,12578.3,Both,missing RRs,TRUE,FALSE
-9927,Neergaard J.,Vascular dementia,Both,2,ci,4963,643,59059.7,7651.7,11.9,5.25,NA,NA,hr,NA,NA,4,1,LTPA,1,NA,NA,7651.7,Both,missing RRs,TRUE,FALSE
-9927,Neergaard J.,Vascular dementia,Both,2,ci,4963,1772,59059.7,21086.8,11.9,9.19,NA,NA,hr,NA,NA,9,1,LTPA,1,NA,NA,21086.8,Both,missing RRs,TRUE,FALSE
+9927,Neergaard J.,Vascular dementia,Both,2,ci,4963,1491,59059.700000000004,17742.9,11.9,0,NA,NA,hr,NA,NA,22,1,LTPA,1,NA,NA,17742.9,Both,missing RRs,TRUE,FALSE
+9927,Neergaard J.,Vascular dementia,Both,2,ci,4963,1057,59059.700000000004,12578.3,11.9,2.62,NA,NA,hr,NA,NA,8,1,LTPA,1,NA,NA,12578.3,Both,missing RRs,TRUE,FALSE
+9927,Neergaard J.,Vascular dementia,Both,2,ci,4963,643,59059.700000000004,7651.7,11.9,5.25,NA,NA,hr,NA,NA,4,1,LTPA,1,NA,NA,7651.7,Both,missing RRs,TRUE,FALSE
+9927,Neergaard J.,Vascular dementia,Both,2,ci,4963,1772,59059.700000000004,21086.8,11.9,9.19,NA,NA,hr,NA,NA,9,1,LTPA,1,NA,NA,21086.8,Both,missing RRs,TRUE,FALSE
 995,Laurin D.,Vascular dementia,Non-fatal,3,ir,3733,1126,18665,5630,5,0,NA,NA,or,NA,NA,23,1,LTPA,2,NA,NA,5630,Both,missing RRs,TRUE,FALSE
 995,Laurin D.,Vascular dementia,Non-fatal,3,ir,3733,490,18665,2450,5,5.91,NA,NA,or,NA,NA,5,1,LTPA,2,NA,NA,2450,Both,missing RRs,TRUE,FALSE
 995,Laurin D.,Vascular dementia,Non-fatal,3,ir,3733,1378,18665,6890,5,11.81,NA,NA,or,NA,NA,18,1,LTPA,2,NA,NA,6890,Both,missing RRs,TRUE,FALSE
 995,Laurin D.,Vascular dementia,Non-fatal,3,ir,3733,739,18665,3695,5,23.62,NA,NA,or,NA,NA,8,1,LTPA,2,NA,NA,3695,Both,missing RRs,TRUE,FALSE
-997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,844,18214.2,4365.079365,5.4,0.72,NA,NA,hr,NA,NA,55,1,LTPA,3,NA,NA,4365.079365,Both,missing RRs,TRUE,FALSE
-997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,842,18214.2,4496.124031,5.4,4.18,NA,NA,hr,NA,NA,58,1,LTPA,3,NA,NA,4496.124031,Both,missing RRs,TRUE,FALSE
-997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,844,18214.2,4642.857143,5.4,11.25,NA,NA,hr,NA,NA,52,1,LTPA,3,NA,NA,4642.857143,Both,missing RRs,TRUE,FALSE
-997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,843,18214.2,4705.882353,5.4,20.7,NA,NA,hr,NA,NA,48,1,LTPA,3,NA,NA,4705.882353,Both,missing RRs,TRUE,FALSE
+997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,844,18214.2,4365.079365,5.4,1,NA,NA,hr,NA,NA,55,1,LTPA,3,NA,NA,4365.079365,Both,missing RRs,TRUE,FALSE
+997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,842,18214.2,4496.124031,5.4,6,NA,NA,hr,NA,NA,58,1,LTPA,3,NA,NA,4496.124031,Both,missing RRs,TRUE,FALSE
+997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,844,18214.2,4642.857143,5.4,15,NA,NA,hr,NA,NA,52,1,LTPA,3,NA,NA,4642.857143,Both,missing RRs,TRUE,FALSE
+997,Podewils LJ.,Vascular dementia,Non-fatal,3,ci,3373,843,18214.2,4705.882353,5.4,27,NA,NA,hr,NA,NA,48,1,LTPA,3,NA,NA,4705.882353,Both,missing RRs,TRUE,FALSE
 9936,Hansson O.,Vascular dementia,Non-fatal,3,ci,20609,6870,309135,103050,15,10.52,NA,NA,hr,NA,NA,102,1,LTPA,4,NA,NA,103050,Both,missing RRs,TRUE,FALSE
 9936,Hansson O.,Vascular dementia,Non-fatal,3,ci,20609,6870,309135,103050,15,21.95,NA,NA,hr,NA,NA,94,1,LTPA,4,NA,NA,103050,Both,missing RRs,TRUE,FALSE
 9936,Hansson O.,Vascular dementia,Non-fatal,3,ci,20609,6870,309135,103050,15,39.65,NA,NA,hr,NA,NA,67,1,LTPA,4,NA,NA,103050,Both,missing RRs,TRUE,FALSE
@@ -2425,9 +2641,9 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 295-2,Kabat G.,All-cause cancer,Fatal,2,ci,189575,40234,1990538,422459,13,3.94,NA,NA,hr,NA,NA,1175,0,LTPA,8,NA,NA,422459,Fatal,missing RRs,TRUE,FALSE
 295-2,Kabat G.,All-cause cancer,Fatal,2,ci,189575,47916,1990538,503113,13,9.19,NA,NA,hr,NA,NA,1325,0,LTPA,8,NA,NA,503113,Fatal,missing RRs,TRUE,FALSE
 295-2,Kabat G.,All-cause cancer,Fatal,2,ci,189575,31041,1990538,325934,13,14.44,NA,NA,hr,NA,NA,907,0,LTPA,8,NA,NA,325934,Fatal,missing RRs,TRUE,FALSE
-28-Jan,Holtermann et al.,All-cause cvd,Fatal,1,ci,7411,1882,166006.4,557277,22.4,1.5,NA,NA,hr,NA,NA,402,0,LTPA,1,NA,NA,557277,Fatal,missing RRs,TRUE,FALSE
-28-Jan,Holtermann et al.,All-cause cvd,Fatal,1,ci,7411,5816,166006.4,1721984,22.4,4.5,NA,NA,hr,NA,NA,874,0,LTPA,1,NA,NA,1721984,Fatal,missing RRs,TRUE,FALSE
-28-Jan,Holtermann et al.,All-cause cvd,Fatal,1,ci,7411,4647,166006.4,1375818,22.4,22.4,NA,NA,hr,NA,NA,669,0,LTPA,1,NA,NA,1375818,Fatal,missing RRs,TRUE,FALSE
+28-1,Holtermann et al.,All-cause cvd,Fatal,1,ci,7411,1882,166006.4,557277,22.4,1.5,NA,NA,hr,NA,NA,402,0,LTPA,1,NA,NA,557277,Fatal,missing RRs,TRUE,FALSE
+28-1,Holtermann et al.,All-cause cvd,Fatal,1,ci,7411,5816,166006.4,1721984,22.4,4.5,NA,NA,hr,NA,NA,874,0,LTPA,1,NA,NA,1721984,Fatal,missing RRs,TRUE,FALSE
+28-1,Holtermann et al.,All-cause cvd,Fatal,1,ci,7411,4647,166006.4,1375818,22.4,22.4,NA,NA,hr,NA,NA,669,0,LTPA,1,NA,NA,1375818,Fatal,missing RRs,TRUE,FALSE
 193-1,Matthews C,All-cause cvd,Fatal,1,ci,26207,7031,167726,45001,6.4,3.52,NA,NA,hr,NA,NA,250,0,LTPA,5,NA,NA,45001,Fatal,missing RRs,TRUE,FALSE
 193-1,Matthews C,All-cause cvd,Fatal,1,ci,26207,5176,167726,33126,6.4,10.66,NA,NA,hr,NA,NA,123,0,LTPA,5,NA,NA,33126,Fatal,missing RRs,TRUE,FALSE
 193-1,Matthews C,All-cause cvd,Fatal,1,ci,26207,5340,167726,34174,6.4,20.05,NA,NA,hr,NA,NA,98,0,LTPA,5,NA,NA,34174,Fatal,missing RRs,TRUE,FALSE
@@ -2439,9 +2655,9 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 239-1,Patel et al.,All-cause cvd,Fatal,1,ci,53440,100,549438,115894,14,38.51,NA,NA,hr,NA,NA,638,0,LTPA,8,NA,NA,115894,Fatal,missing RRs,TRUE,FALSE
 239-1,Patel et al.,All-cause cvd,Fatal,1,ci,53440,76,549438,88468,14,47.48,NA,NA,hr,NA,NA,516,0,LTPA,8,NA,NA,88468,Fatal,missing RRs,TRUE,FALSE
 239-1,Patel et al.,All-cause cvd,Fatal,1,ci,53440,2,549438,2136,14,56.49,NA,NA,hr,NA,NA,753,0,LTPA,8,NA,NA,2136,Fatal,missing RRs,TRUE,FALSE
-28-Feb,Holtermann et al.,All-cause cvd,Fatal,2,ci,8916,146,199718.4,35965,22.4,1.5,NA,NA,hr,NA,NA,457,0,LTPA,1,NA,NA,35965,Fatal,missing RRs,TRUE,FALSE
-28-Feb,Holtermann et al.,All-cause cvd,Fatal,2,ci,8916,471,199718.4,115989,22.4,4.5,NA,NA,hr,NA,NA,1004,0,LTPA,1,NA,NA,115989,Fatal,missing RRs,TRUE,FALSE
-28-Feb,Holtermann et al.,All-cause cvd,Fatal,2,ci,8916,194,199718.4,47765,22.4,22.4,NA,NA,hr,NA,NA,353,0,LTPA,1,NA,NA,47765,Fatal,missing RRs,TRUE,FALSE
+28-2,Holtermann et al.,All-cause cvd,Fatal,2,ci,8916,146,199718.4,35965,22.4,1.5,NA,NA,hr,NA,NA,457,0,LTPA,1,NA,NA,35965,Fatal,missing RRs,TRUE,FALSE
+28-2,Holtermann et al.,All-cause cvd,Fatal,2,ci,8916,471,199718.4,115989,22.4,4.5,NA,NA,hr,NA,NA,1004,0,LTPA,1,NA,NA,115989,Fatal,missing RRs,TRUE,FALSE
+28-2,Holtermann et al.,All-cause cvd,Fatal,2,ci,8916,194,199718.4,47765,22.4,22.4,NA,NA,hr,NA,NA,353,0,LTPA,1,NA,NA,47765,Fatal,missing RRs,TRUE,FALSE
 193-2,Matthews C,All-cause cvd,Fatal,2,ci,37101,8770,237445,56125,6.4,3.52,NA,NA,hr,NA,NA,139,0,LTPA,5,NA,NA,56125,Fatal,missing RRs,TRUE,FALSE
 193-2,Matthews C,All-cause cvd,Fatal,2,ci,37101,10701,237445,68487,6.4,10.66,NA,NA,hr,NA,NA,115,0,LTPA,5,NA,NA,68487,Fatal,missing RRs,TRUE,FALSE
 193-2,Matthews C,All-cause cvd,Fatal,2,ci,37101,10458,237445,66933,6.4,20.05,NA,NA,hr,NA,NA,109,0,LTPA,5,NA,NA,66933,Fatal,missing RRs,TRUE,FALSE
@@ -2523,9 +2739,9 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 350-2,Nalini M.,All-cause mortality,Fatal,2,ci,25800,3745,247462,31252,10,10.52,NA,NA,hr,NA,NA,625,0,LTPA,18,NA,NA,31252,Fatal,missing RRs,TRUE,FALSE
 350-2,Nalini M.,All-cause mortality,Fatal,2,ci,25800,10151,247462,96373,10,15.48,NA,NA,hr,NA,NA,841,0,LTPA,18,NA,NA,96373,Fatal,missing RRs,TRUE,FALSE
 350-2,Nalini M.,All-cause mortality,Fatal,2,ci,25800,11904,247462,119837,10,75.23,NA,NA,hr,NA,NA,510,0,LTPA,18,NA,NA,119837,Fatal,missing RRs,TRUE,FALSE
-02-Jan,Fraser G.,Coronary heart disease,Fatal,1,ir,10376,3291,53627,17007,6,0,NA,NA,rr,NA,NA,37,0,LTPA,1,NA,NA,17007,Fatal,missing RRs,TRUE,FALSE
-02-Jan,Fraser G.,Coronary heart disease,Fatal,1,ir,10376,2312,53627,11951,6,7.88,NA,NA,rr,NA,NA,26,0,LTPA,1,NA,NA,11951,Fatal,missing RRs,TRUE,FALSE
-02-Jan,Fraser G.,Coronary heart disease,Fatal,1,ir,10376,4773,53627,24669,6,15.75,NA,NA,rr,NA,NA,42,0,LTPA,1,NA,NA,24669,Fatal,missing RRs,TRUE,FALSE
-02-Feb,Fraser G.,Coronary heart disease,Fatal,2,ir,17282,8065,85987,40128,6,0,NA,NA,rr,NA,NA,92,0,LTPA,1,NA,NA,40128,Fatal,missing RRs,TRUE,FALSE
-02-Feb,Fraser G.,Coronary heart disease,Fatal,2,ir,17282,2941,85987,14633,6,7.88,NA,NA,rr,NA,NA,21,0,LTPA,1,NA,NA,14633,Fatal,missing RRs,TRUE,FALSE
-02-Feb,Fraser G.,Coronary heart disease,Fatal,2,ir,17282,6276,85987,31226,6,15.75,NA,NA,rr,NA,NA,26,0,LTPA,1,NA,NA,31226,Fatal,missing RRs,TRUE,FALSE
+2-1,Fraser G.,Coronary heart disease,Fatal,1,ir,10376,3291,53627,17007,6,0,NA,NA,rr,NA,NA,37,0,LTPA,1,NA,NA,17007,Fatal,missing RRs,TRUE,FALSE
+2-1,Fraser G.,Coronary heart disease,Fatal,1,ir,10376,2312,53627,11951,6,7.88,NA,NA,rr,NA,NA,26,0,LTPA,1,NA,NA,11951,Fatal,missing RRs,TRUE,FALSE
+2-1,Fraser G.,Coronary heart disease,Fatal,1,ir,10376,4773,53627,24669,6,15.75,NA,NA,rr,NA,NA,42,0,LTPA,1,NA,NA,24669,Fatal,missing RRs,TRUE,FALSE
+2-2,Fraser G.,Coronary heart disease,Fatal,2,ir,17282,8065,85987,40128,6,0,NA,NA,rr,NA,NA,92,0,LTPA,1,NA,NA,40128,Fatal,missing RRs,TRUE,FALSE
+2-2,Fraser G.,Coronary heart disease,Fatal,2,ir,17282,2941,85987,14633,6,7.88,NA,NA,rr,NA,NA,21,0,LTPA,1,NA,NA,14633,Fatal,missing RRs,TRUE,FALSE
+2-2,Fraser G.,Coronary heart disease,Fatal,2,ir,17282,6276,85987,31226,6,15.75,NA,NA,rr,NA,NA,26,0,LTPA,1,NA,NA,31226,Fatal,missing RRs,TRUE,FALSE
