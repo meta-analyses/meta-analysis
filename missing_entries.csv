@@ -684,208 +684,208 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 196,"de Souto Barreto, P.",Coronary heart disease,Non-fatal,3,ci,47723,2500,214754,11250,4.5,0.63,NA,NA,hr,NA,NA,137,1,LTPA,26,NA,NA,11250,Both,missing RRs,TRUE,TRUE
 196,"de Souto Barreto, P.",Coronary heart disease,Non-fatal,3,ci,47723,6199,214754,27896,4.5,1.25,NA,NA,hr,NA,NA,354,1,LTPA,26,NA,NA,27896,Both,missing RRs,TRUE,TRUE
 196,"de Souto Barreto, P.",Coronary heart disease,Non-fatal,3,ci,47723,34505,214754,155273,4.5,1.88,NA,NA,hr,NA,NA,1728,1,LTPA,26,NA,NA,155273,Both,missing RRs,TRUE,TRUE
-991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,1250,31171,7625,6.1,0,NA,NA,or,NA,NA,161,1,LTPA,1,NA,NA,7625,Non-fatal,missing RRs,TRUE,TRUE
-991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,2109,31171,12864.9,6.1,2.65,NA,NA,or,NA,NA,304,1,LTPA,1,NA,NA,12864.9,Non-fatal,missing RRs,TRUE,TRUE
-991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,1751,31171,10681.1,6.1,9.29,NA,NA,or,NA,NA,176,1,LTPA,1,NA,NA,10681.1,Non-fatal,missing RRs,TRUE,TRUE
+9929,Cabello M.,Depression,Non-fatal,3,ir,5970,3973,32835,21851.5,5.5,0,NA,NA,or,NA,NA,381,1,LTPA,1,NA,NA,21851.5,Non-fatal,missing RRs,TRUE,TRUE
+9929,Cabello M.,Depression,Non-fatal,3,ir,5970,903,32835,4966.5,5.5,9,NA,NA,or,NA,NA,84,1,LTPA,1,NA,NA,4966.5,Non-fatal,missing RRs,TRUE,TRUE
+9929,Cabello M.,Depression,Non-fatal,3,ir,5970,1094,32835,6017,5.5,22,NA,NA,or,NA,NA,129,1,LTPA,1,NA,NA,6017,Non-fatal,missing RRs,TRUE,TRUE
 992,Camacho T.,Depression,Non-fatal,3,ir,3664,1173,32976,10557,9,5,NA,NA,or,NA,NA,252,1,LTPA,2,NA,NA,10557,Non-fatal,missing RRs,TRUE,TRUE
 992,Camacho T.,Depression,Non-fatal,3,ir,3664,1709,32976,15381,9,16,NA,NA,or,NA,NA,285,1,LTPA,2,NA,NA,15381,Non-fatal,missing RRs,TRUE,TRUE
 992,Camacho T.,Depression,Non-fatal,3,ir,3664,782,32976,7038,9,28,NA,NA,or,NA,NA,89,1,LTPA,2,NA,NA,7038,Non-fatal,missing RRs,TRUE,TRUE
-993,Pavey T.,Depression,Non-fatal,2,ir,12094,5034,36282,15102,3,0,NA,NA,or,NA,NA,1501,1,LTPA,3,NA,NA,15102,Non-fatal,missing RRs,TRUE,TRUE
-993,Pavey T.,Depression,Non-fatal,2,ir,12094,358,36282,1074,3,2.65,NA,NA,or,NA,NA,63,1,LTPA,3,NA,NA,1074,Non-fatal,missing RRs,TRUE,TRUE
-993,Pavey T.,Depression,Non-fatal,2,ir,12094,1160,36282,3480,3,9.29,NA,NA,or,NA,NA,156,1,LTPA,3,NA,NA,3480,Non-fatal,missing RRs,TRUE,TRUE
-993,Pavey T.,Depression,Non-fatal,2,ir,12094,1454,36282,4362,3,16.18,NA,NA,or,NA,NA,186,1,LTPA,3,NA,NA,4362,Non-fatal,missing RRs,TRUE,TRUE
-993,Pavey T.,Depression,Non-fatal,2,ir,12094,1495,36282,4485,3,23.17,NA,NA,or,NA,NA,187,1,LTPA,3,NA,NA,4485,Non-fatal,missing RRs,TRUE,TRUE
-993,Pavey T.,Depression,Non-fatal,2,ir,12094,2593,36282,7779,3,30.21,NA,NA,or,NA,NA,325,1,LTPA,3,NA,NA,7779,Non-fatal,missing RRs,TRUE,TRUE
-994,Wise L.,Depression,Non-fatal,2,ir,35224,8437,140896,33748,4,0,NA,NA,or,NA,NA,2488.915,1,LTPA,4,NA,NA,33748,Non-fatal,missing RRs,TRUE,TRUE
-994,Wise L.,Depression,Non-fatal,2,ir,35224,8852,140896,35408,4,3,NA,NA,or,NA,NA,2478.56,1,LTPA,4,NA,NA,35408,Non-fatal,missing RRs,TRUE,TRUE
-994,Wise L.,Depression,Non-fatal,2,ir,35224,5900,140896,23600,4,6,NA,NA,or,NA,NA,1581.2,1,LTPA,4,NA,NA,23600,Non-fatal,missing RRs,TRUE,TRUE
-994,Wise L.,Depression,Non-fatal,2,ir,35224,4692,140896,18768,4,12,NA,NA,or,NA,NA,1116.696,1,LTPA,4,NA,NA,18768,Non-fatal,missing RRs,TRUE,TRUE
-994,Wise L.,Depression,Non-fatal,2,ir,35224,3775,140896,15100,4,21,NA,NA,or,NA,NA,879.575,1,LTPA,4,NA,NA,15100,Non-fatal,missing RRs,TRUE,TRUE
-994,Wise L.,Depression,Non-fatal,2,ir,35224,2139,140896,8556,4,33,NA,NA,or,NA,NA,562.557,1,LTPA,4,NA,NA,8556,Non-fatal,missing RRs,TRUE,TRUE
-994,Wise L.,Depression,Non-fatal,2,ir,35224,1429,140896,5716,4,45,NA,NA,or,NA,NA,357.25,1,LTPA,4,NA,NA,5716,Non-fatal,missing RRs,TRUE,TRUE
-999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,4479.200195,429208,116459.2031,26,10.5,NA,NA,hr,NA,NA,92,1,LTPA,5,NA,NA,116459.2031,Non-fatal,missing RRs,TRUE,TRUE
-999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,9057.360352,429208,235491.3594,26,5,NA,NA,hr,NA,NA,235,1,LTPA,5,NA,NA,235491.3594,Non-fatal,missing RRs,TRUE,TRUE
-999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,2971.439941,429208,77257.4375,26,1,NA,NA,hr,NA,NA,109,1,LTPA,5,NA,NA,77257.4375,Non-fatal,missing RRs,TRUE,TRUE
-9910,Hamer M.,Depression,Non-fatal,3,ir,4323,674,17292,2696,4,0.56,NA,NA,or,NA,NA,108,1,LTPA,6,NA,NA,2696,Non-fatal,missing RRs,TRUE,TRUE
-9910,Hamer M.,Depression,Non-fatal,3,ir,4323,2142,17292,8568,4,1.88,NA,NA,or,NA,NA,161,1,LTPA,6,NA,NA,8568,Non-fatal,missing RRs,TRUE,TRUE
-9910,Hamer M.,Depression,Non-fatal,3,ir,4323,1507,17292,6028,4,4.5,NA,NA,or,NA,NA,79,1,LTPA,6,NA,NA,6028,Non-fatal,missing RRs,TRUE,TRUE
-9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,4.73,NA,NA,rr,NA,NA,154,1,LTPA,7,NA,NA,83035,Non-fatal,missing RRs,TRUE,TRUE
-9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,18.79,NA,NA,rr,NA,NA,129,1,LTPA,7,NA,NA,83035,Non-fatal,missing RRs,TRUE,TRUE
-9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3264,244220,78150,25,36.16,NA,NA,rr,NA,NA,104,1,LTPA,7,NA,NA,78150,Non-fatal,missing RRs,TRUE,TRUE
-9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,17704,135747,82641,4.7,43.52,NA,NA,hr,NA,NA,3954,1,LTPA,8,NA,NA,82641,Non-fatal,missing RRs,TRUE,TRUE
-9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,2753,135747,12860,4.7,0.96,NA,NA,hr,NA,NA,603,1,LTPA,8,NA,NA,12860,Non-fatal,missing RRs,TRUE,TRUE
-9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,2627,135747,12255,4.7,4.17,NA,NA,hr,NA,NA,516,1,LTPA,8,NA,NA,12255,Non-fatal,missing RRs,TRUE,TRUE
-9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,3422,135747,15983,4.7,8.88,NA,NA,hr,NA,NA,650,1,LTPA,8,NA,NA,15983,Non-fatal,missing RRs,TRUE,TRUE
-9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,1284,135747,5984,4.7,16.32,NA,NA,hr,NA,NA,209,1,LTPA,8,NA,NA,5984,Non-fatal,missing RRs,TRUE,TRUE
-9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,1292,135747,6024,4.7,23.87,NA,NA,hr,NA,NA,245,1,LTPA,8,NA,NA,6024,Non-fatal,missing RRs,TRUE,TRUE
-9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1799.971564,11994,5399.914692,3,0,NA,NA,or,NA,NA,132,1,LTPA,9,NA,NA,5399.914692,Non-fatal,missing RRs,TRUE,TRUE
-9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1267.949708,11994,3803.849124,3,5,NA,NA,or,NA,NA,58,1,LTPA,9,NA,NA,3803.849124,Non-fatal,missing RRs,TRUE,TRUE
-9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,930.078728,11994,2790.236184,3,11.25,NA,NA,or,NA,NA,54,1,LTPA,9,NA,NA,2790.236184,Non-fatal,missing RRs,TRUE,TRUE
-9925,Harvey S.,Depression,Non-fatal,3,ir,22564,2818.836969,248204,31007.20666,11,0,NA,NA,or,NA,NA,277,1,LTPA,10,NA,NA,31007.20666,Non-fatal,missing RRs,TRUE,TRUE
-9925,Harvey S.,Depression,Non-fatal,3,ir,22564,5688.396374,248204,62572.36011,11,0.62,NA,NA,or,NA,NA,427,1,LTPA,10,NA,NA,62572.36011,Non-fatal,missing RRs,TRUE,TRUE
-9925,Harvey S.,Depression,Non-fatal,3,ir,22564,5411.501769,248204,59526.51946,11,1.88,NA,NA,or,NA,NA,359,1,LTPA,10,NA,NA,59526.51946,Non-fatal,missing RRs,TRUE,TRUE
-9925,Harvey S.,Depression,Non-fatal,3,ir,22564,4509.307636,248204,49602.384,11,3.75,NA,NA,or,NA,NA,262,1,LTPA,10,NA,NA,49602.384,Non-fatal,missing RRs,TRUE,TRUE
-9925,Harvey S.,Depression,Non-fatal,3,ir,22564,2144.478037,248204,23589.25841,11,7.5,NA,NA,or,NA,NA,135,1,LTPA,10,NA,NA,23589.25841,Non-fatal,missing RRs,TRUE,TRUE
-9925,Harvey S.,Depression,Non-fatal,3,ir,22564,1991.479216,248204,21906.27138,11,12.5,NA,NA,or,NA,NA,119,1,LTPA,10,NA,NA,21906.27138,Non-fatal,missing RRs,TRUE,TRUE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,303,173824,24206,8,15.62,NA,NA,hr,NA,NA,334,1,LTPA,11,NA,NA,24206,Non-fatal,missing RRs,TRUE,TRUE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,308,173824,24678,8,9.38,NA,NA,hr,NA,NA,435,1,LTPA,11,NA,NA,24678,Non-fatal,missing RRs,TRUE,TRUE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,296,173824,23689,8,3.12,NA,NA,hr,NA,NA,475,1,LTPA,11,NA,NA,23689,Non-fatal,missing RRs,TRUE,TRUE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,374,173824,29928,8,1.25,NA,NA,hr,NA,NA,780,1,LTPA,11,NA,NA,29928,Non-fatal,missing RRs,TRUE,TRUE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,970,173824,77639,8,0,NA,NA,hr,NA,NA,1921,1,LTPA,11,NA,NA,77639,Non-fatal,missing RRs,TRUE,TRUE
-9929,Cabello M.,Depression,Non-fatal,3,ir,5970,3973,32835,21851.5,5.5,0,NA,NA,or,NA,NA,381,1,LTPA,12,NA,NA,21851.5,Non-fatal,missing RRs,TRUE,TRUE
-9929,Cabello M.,Depression,Non-fatal,3,ir,5970,903,32835,4966.5,5.5,9,NA,NA,or,NA,NA,84,1,LTPA,12,NA,NA,4966.5,Non-fatal,missing RRs,TRUE,TRUE
-9929,Cabello M.,Depression,Non-fatal,3,ir,5970,1094,32835,6017,5.5,22,NA,NA,or,NA,NA,129,1,LTPA,12,NA,NA,6017,Non-fatal,missing RRs,TRUE,TRUE
-9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,5597,163059,59193,10.5,3.29,NA,NA,hr,NA,NA,366,1,LTPA,13,NA,NA,59193,Non-fatal,missing RRs,TRUE,TRUE
-9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,3548,163059,37606,10.5,11.34,NA,NA,hr,NA,NA,193,1,LTPA,13,NA,NA,37606,Non-fatal,missing RRs,TRUE,TRUE
-9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,6343,163059,66260,10.5,19.66,NA,NA,hr,NA,NA,311,1,LTPA,13,NA,NA,66260,Non-fatal,missing RRs,TRUE,TRUE
-9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,0.37,NA,NA,or,NA,NA,191.8544,1,LTPA,14,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,TRUE
-9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,3.44,NA,NA,or,NA,NA,157.775,1,LTPA,14,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,TRUE
-9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,8.88,NA,NA,or,NA,NA,150.2018,1,LTPA,14,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,TRUE
-9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,18.16,NA,NA,or,NA,NA,155.2506,1,LTPA,14,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,TRUE
-9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,48.04,NA,NA,or,NA,NA,132.531,1,LTPA,14,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,TRUE
-9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,4854.761129,267722,63111.89467,13,3.1,NA,NA,hr,NA,NA,80,1,LTPA,15,NA,NA,63111.89467,Non-fatal,missing RRs,TRUE,TRUE
-9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7865.584561,267722,102252.5993,13,9.38,NA,NA,hr,NA,NA,111,1,LTPA,15,NA,NA,102252.5993,Non-fatal,missing RRs,TRUE,TRUE
-9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7873.65431,267722,102357.506,13,15.62,NA,NA,hr,NA,NA,98,1,LTPA,15,NA,NA,102357.506,Non-fatal,missing RRs,TRUE,TRUE
-991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,1250,31171,7625,6.1,0,NA,NA,or,NA,NA,161,1,LTPA,1,NA,NA,7625,Both,missing RRs,TRUE,TRUE
-991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,2109,31171,12864.9,6.1,2.65,NA,NA,or,NA,NA,304,1,LTPA,1,NA,NA,12864.9,Both,missing RRs,TRUE,TRUE
-991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,1751,31171,10681.1,6.1,9.29,NA,NA,or,NA,NA,176,1,LTPA,1,NA,NA,10681.1,Both,missing RRs,TRUE,TRUE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,303,173824,24206,8,15.62,NA,NA,hr,NA,NA,334,1,LTPA,3,NA,NA,24206,Non-fatal,missing RRs,TRUE,TRUE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,308,173824,24678,8,9.38,NA,NA,hr,NA,NA,435,1,LTPA,3,NA,NA,24678,Non-fatal,missing RRs,TRUE,TRUE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,296,173824,23689,8,3.12,NA,NA,hr,NA,NA,475,1,LTPA,3,NA,NA,23689,Non-fatal,missing RRs,TRUE,TRUE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,374,173824,29928,8,1.25,NA,NA,hr,NA,NA,780,1,LTPA,3,NA,NA,29928,Non-fatal,missing RRs,TRUE,TRUE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,970,173824,77639,8,0,NA,NA,hr,NA,NA,1921,1,LTPA,3,NA,NA,77639,Non-fatal,missing RRs,TRUE,TRUE
+991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,1250,31171,7625,6.1,0,NA,NA,or,NA,NA,161,1,LTPA,4,NA,NA,7625,Non-fatal,missing RRs,TRUE,TRUE
+991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,2109,31171,12864.9,6.1,2.65,NA,NA,or,NA,NA,304,1,LTPA,4,NA,NA,12864.9,Non-fatal,missing RRs,TRUE,TRUE
+991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,1751,31171,10681.1,6.1,9.29,NA,NA,or,NA,NA,176,1,LTPA,4,NA,NA,10681.1,Non-fatal,missing RRs,TRUE,TRUE
+9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,5597,163059,59193,10.5,3.29,NA,NA,hr,NA,NA,366,1,LTPA,5,NA,NA,59193,Non-fatal,missing RRs,TRUE,TRUE
+9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,3548,163059,37606,10.5,11.34,NA,NA,hr,NA,NA,193,1,LTPA,5,NA,NA,37606,Non-fatal,missing RRs,TRUE,TRUE
+9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,6343,163059,66260,10.5,19.66,NA,NA,hr,NA,NA,311,1,LTPA,5,NA,NA,66260,Non-fatal,missing RRs,TRUE,TRUE
+9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,4854.761129,267722,63111.89467,13,3.1,NA,NA,hr,NA,NA,80,1,LTPA,6,NA,NA,63111.89467,Non-fatal,missing RRs,TRUE,TRUE
+9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7865.584561,267722,102252.5993,13,9.38,NA,NA,hr,NA,NA,111,1,LTPA,6,NA,NA,102252.5993,Non-fatal,missing RRs,TRUE,TRUE
+9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7873.65431,267722,102357.506,13,15.62,NA,NA,hr,NA,NA,98,1,LTPA,6,NA,NA,102357.506,Non-fatal,missing RRs,TRUE,TRUE
+9910,Hamer M.,Depression,Non-fatal,3,ir,4323,674,17292,2696,4,0.56,NA,NA,or,NA,NA,108,1,LTPA,7,NA,NA,2696,Non-fatal,missing RRs,TRUE,TRUE
+9910,Hamer M.,Depression,Non-fatal,3,ir,4323,2142,17292,8568,4,1.88,NA,NA,or,NA,NA,161,1,LTPA,7,NA,NA,8568,Non-fatal,missing RRs,TRUE,TRUE
+9910,Hamer M.,Depression,Non-fatal,3,ir,4323,1507,17292,6028,4,4.5,NA,NA,or,NA,NA,79,1,LTPA,7,NA,NA,6028,Non-fatal,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,2818.836969,248204,31007.20666,11,0,NA,NA,or,NA,NA,277,1,LTPA,8,NA,NA,31007.20666,Non-fatal,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,5688.396374,248204,62572.36011,11,0.62,NA,NA,or,NA,NA,427,1,LTPA,8,NA,NA,62572.36011,Non-fatal,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,5411.501769,248204,59526.51946,11,1.88,NA,NA,or,NA,NA,359,1,LTPA,8,NA,NA,59526.51946,Non-fatal,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,4509.307636,248204,49602.384,11,3.75,NA,NA,or,NA,NA,262,1,LTPA,8,NA,NA,49602.384,Non-fatal,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,2144.478037,248204,23589.25841,11,7.5,NA,NA,or,NA,NA,135,1,LTPA,8,NA,NA,23589.25841,Non-fatal,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,1991.479216,248204,21906.27138,11,12.5,NA,NA,or,NA,NA,119,1,LTPA,8,NA,NA,21906.27138,Non-fatal,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,0.37,NA,NA,or,NA,NA,191.8544,1,LTPA,9,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,3.44,NA,NA,or,NA,NA,157.775,1,LTPA,9,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,8.88,NA,NA,or,NA,NA,150.2018,1,LTPA,9,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,18.16,NA,NA,or,NA,NA,155.2506,1,LTPA,9,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,48.04,NA,NA,or,NA,NA,132.531,1,LTPA,9,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,TRUE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,17704,135747,82641,4.7,0,NA,NA,hr,NA,NA,3954,1,LTPA,10,NA,NA,82641,Non-fatal,missing RRs,TRUE,TRUE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,2753,135747,12860,4.7,0.96,NA,NA,hr,NA,NA,603,1,LTPA,10,NA,NA,12860,Non-fatal,missing RRs,TRUE,TRUE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,2627,135747,12255,4.7,4.17,NA,NA,hr,NA,NA,516,1,LTPA,10,NA,NA,12255,Non-fatal,missing RRs,TRUE,TRUE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,3422,135747,15983,4.7,8.88,NA,NA,hr,NA,NA,650,1,LTPA,10,NA,NA,15983,Non-fatal,missing RRs,TRUE,TRUE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,1284,135747,5984,4.7,16.32,NA,NA,hr,NA,NA,209,1,LTPA,10,NA,NA,5984,Non-fatal,missing RRs,TRUE,TRUE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,1292,135747,6024,4.7,23.87,NA,NA,hr,NA,NA,245,1,LTPA,10,NA,NA,6024,Non-fatal,missing RRs,TRUE,TRUE
+999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,4479.200195,429208,116459.2031,26,10.5,NA,NA,hr,NA,NA,92,1,LTPA,11,NA,NA,116459.2031,Non-fatal,missing RRs,TRUE,TRUE
+999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,9057.360352,429208,235491.3594,26,5,NA,NA,hr,NA,NA,235,1,LTPA,11,NA,NA,235491.3594,Non-fatal,missing RRs,TRUE,TRUE
+999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,2971.439941,429208,77257.4375,26,1,NA,NA,hr,NA,NA,109,1,LTPA,11,NA,NA,77257.4375,Non-fatal,missing RRs,TRUE,TRUE
+9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,4.73,NA,NA,rr,NA,NA,154,1,LTPA,12,NA,NA,83035,Non-fatal,missing RRs,TRUE,TRUE
+9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,18.79,NA,NA,rr,NA,NA,129,1,LTPA,12,NA,NA,83035,Non-fatal,missing RRs,TRUE,TRUE
+9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3264,244220,78150,25,36.16,NA,NA,rr,NA,NA,104,1,LTPA,12,NA,NA,78150,Non-fatal,missing RRs,TRUE,TRUE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,5034,36282,15102,3,0,NA,NA,or,NA,NA,1501,1,LTPA,13,NA,NA,15102,Non-fatal,missing RRs,TRUE,TRUE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,358,36282,1074,3,2.65,NA,NA,or,NA,NA,63,1,LTPA,13,NA,NA,1074,Non-fatal,missing RRs,TRUE,TRUE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,1160,36282,3480,3,9.29,NA,NA,or,NA,NA,156,1,LTPA,13,NA,NA,3480,Non-fatal,missing RRs,TRUE,TRUE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,1454,36282,4362,3,16.18,NA,NA,or,NA,NA,186,1,LTPA,13,NA,NA,4362,Non-fatal,missing RRs,TRUE,TRUE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,1495,36282,4485,3,23.17,NA,NA,or,NA,NA,187,1,LTPA,13,NA,NA,4485,Non-fatal,missing RRs,TRUE,TRUE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,2593,36282,7779,3,30.21,NA,NA,or,NA,NA,325,1,LTPA,13,NA,NA,7779,Non-fatal,missing RRs,TRUE,TRUE
+9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1799.971564,11994,5399.914692,3,0,NA,NA,or,NA,NA,132,1,LTPA,14,NA,NA,5399.914692,Non-fatal,missing RRs,TRUE,TRUE
+9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1267.949708,11994,3803.849124,3,5,NA,NA,or,NA,NA,58,1,LTPA,14,NA,NA,3803.849124,Non-fatal,missing RRs,TRUE,TRUE
+9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,930.078728,11994,2790.236184,3,11.25,NA,NA,or,NA,NA,54,1,LTPA,14,NA,NA,2790.236184,Non-fatal,missing RRs,TRUE,TRUE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,8437,140896,33748,4,0,NA,NA,or,NA,NA,2488.915,1,LTPA,15,NA,NA,33748,Non-fatal,missing RRs,TRUE,TRUE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,8852,140896,35408,4,3,NA,NA,or,NA,NA,2478.56,1,LTPA,15,NA,NA,35408,Non-fatal,missing RRs,TRUE,TRUE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,5900,140896,23600,4,6,NA,NA,or,NA,NA,1581.2,1,LTPA,15,NA,NA,23600,Non-fatal,missing RRs,TRUE,TRUE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,4692,140896,18768,4,12,NA,NA,or,NA,NA,1116.696,1,LTPA,15,NA,NA,18768,Non-fatal,missing RRs,TRUE,TRUE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,3775,140896,15100,4,21,NA,NA,or,NA,NA,879.575,1,LTPA,15,NA,NA,15100,Non-fatal,missing RRs,TRUE,TRUE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,2139,140896,8556,4,33,NA,NA,or,NA,NA,562.557,1,LTPA,15,NA,NA,8556,Non-fatal,missing RRs,TRUE,TRUE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,1429,140896,5716,4,45,NA,NA,or,NA,NA,357.25,1,LTPA,15,NA,NA,5716,Non-fatal,missing RRs,TRUE,TRUE
+9929,Cabello M.,Depression,Non-fatal,3,ir,5970,3973,32835,21851.5,5.5,0,NA,NA,or,NA,NA,381,1,LTPA,1,NA,NA,21851.5,Both,missing RRs,TRUE,TRUE
+9929,Cabello M.,Depression,Non-fatal,3,ir,5970,903,32835,4966.5,5.5,9,NA,NA,or,NA,NA,84,1,LTPA,1,NA,NA,4966.5,Both,missing RRs,TRUE,TRUE
+9929,Cabello M.,Depression,Non-fatal,3,ir,5970,1094,32835,6017,5.5,22,NA,NA,or,NA,NA,129,1,LTPA,1,NA,NA,6017,Both,missing RRs,TRUE,TRUE
 992,Camacho T.,Depression,Non-fatal,3,ir,3664,1173,32976,10557,9,5,NA,NA,or,NA,NA,252,1,LTPA,2,NA,NA,10557,Both,missing RRs,TRUE,TRUE
 992,Camacho T.,Depression,Non-fatal,3,ir,3664,1709,32976,15381,9,16,NA,NA,or,NA,NA,285,1,LTPA,2,NA,NA,15381,Both,missing RRs,TRUE,TRUE
 992,Camacho T.,Depression,Non-fatal,3,ir,3664,782,32976,7038,9,28,NA,NA,or,NA,NA,89,1,LTPA,2,NA,NA,7038,Both,missing RRs,TRUE,TRUE
-993,Pavey T.,Depression,Non-fatal,2,ir,12094,5034,36282,15102,3,0,NA,NA,or,NA,NA,1501,1,LTPA,3,NA,NA,15102,Both,missing RRs,TRUE,TRUE
-993,Pavey T.,Depression,Non-fatal,2,ir,12094,358,36282,1074,3,2.65,NA,NA,or,NA,NA,63,1,LTPA,3,NA,NA,1074,Both,missing RRs,TRUE,TRUE
-993,Pavey T.,Depression,Non-fatal,2,ir,12094,1160,36282,3480,3,9.29,NA,NA,or,NA,NA,156,1,LTPA,3,NA,NA,3480,Both,missing RRs,TRUE,TRUE
-993,Pavey T.,Depression,Non-fatal,2,ir,12094,1454,36282,4362,3,16.18,NA,NA,or,NA,NA,186,1,LTPA,3,NA,NA,4362,Both,missing RRs,TRUE,TRUE
-993,Pavey T.,Depression,Non-fatal,2,ir,12094,1495,36282,4485,3,23.17,NA,NA,or,NA,NA,187,1,LTPA,3,NA,NA,4485,Both,missing RRs,TRUE,TRUE
-993,Pavey T.,Depression,Non-fatal,2,ir,12094,2593,36282,7779,3,30.21,NA,NA,or,NA,NA,325,1,LTPA,3,NA,NA,7779,Both,missing RRs,TRUE,TRUE
-994,Wise L.,Depression,Non-fatal,2,ir,35224,8437,140896,33748,4,0,NA,NA,or,NA,NA,2488.915,1,LTPA,4,NA,NA,33748,Both,missing RRs,TRUE,TRUE
-994,Wise L.,Depression,Non-fatal,2,ir,35224,8852,140896,35408,4,3,NA,NA,or,NA,NA,2478.56,1,LTPA,4,NA,NA,35408,Both,missing RRs,TRUE,TRUE
-994,Wise L.,Depression,Non-fatal,2,ir,35224,5900,140896,23600,4,6,NA,NA,or,NA,NA,1581.2,1,LTPA,4,NA,NA,23600,Both,missing RRs,TRUE,TRUE
-994,Wise L.,Depression,Non-fatal,2,ir,35224,4692,140896,18768,4,12,NA,NA,or,NA,NA,1116.696,1,LTPA,4,NA,NA,18768,Both,missing RRs,TRUE,TRUE
-994,Wise L.,Depression,Non-fatal,2,ir,35224,3775,140896,15100,4,21,NA,NA,or,NA,NA,879.575,1,LTPA,4,NA,NA,15100,Both,missing RRs,TRUE,TRUE
-994,Wise L.,Depression,Non-fatal,2,ir,35224,2139,140896,8556,4,33,NA,NA,or,NA,NA,562.557,1,LTPA,4,NA,NA,8556,Both,missing RRs,TRUE,TRUE
-994,Wise L.,Depression,Non-fatal,2,ir,35224,1429,140896,5716,4,45,NA,NA,or,NA,NA,357.25,1,LTPA,4,NA,NA,5716,Both,missing RRs,TRUE,TRUE
-999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,4479.200195,429208,116459.2031,26,10.5,NA,NA,hr,NA,NA,92,1,LTPA,5,NA,NA,116459.2031,Both,missing RRs,TRUE,TRUE
-999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,9057.360352,429208,235491.3594,26,5,NA,NA,hr,NA,NA,235,1,LTPA,5,NA,NA,235491.3594,Both,missing RRs,TRUE,TRUE
-999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,2971.439941,429208,77257.4375,26,1,NA,NA,hr,NA,NA,109,1,LTPA,5,NA,NA,77257.4375,Both,missing RRs,TRUE,TRUE
-9910,Hamer M.,Depression,Non-fatal,3,ir,4323,674,17292,2696,4,0.56,NA,NA,or,NA,NA,108,1,LTPA,6,NA,NA,2696,Both,missing RRs,TRUE,TRUE
-9910,Hamer M.,Depression,Non-fatal,3,ir,4323,2142,17292,8568,4,1.88,NA,NA,or,NA,NA,161,1,LTPA,6,NA,NA,8568,Both,missing RRs,TRUE,TRUE
-9910,Hamer M.,Depression,Non-fatal,3,ir,4323,1507,17292,6028,4,4.5,NA,NA,or,NA,NA,79,1,LTPA,6,NA,NA,6028,Both,missing RRs,TRUE,TRUE
-9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,4.73,NA,NA,rr,NA,NA,154,1,LTPA,7,NA,NA,83035,Both,missing RRs,TRUE,TRUE
-9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,18.79,NA,NA,rr,NA,NA,129,1,LTPA,7,NA,NA,83035,Both,missing RRs,TRUE,TRUE
-9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3264,244220,78150,25,36.16,NA,NA,rr,NA,NA,104,1,LTPA,7,NA,NA,78150,Both,missing RRs,TRUE,TRUE
-9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,17704,135747,82641,4.7,43.52,NA,NA,hr,NA,NA,3954,1,LTPA,8,NA,NA,82641,Both,missing RRs,TRUE,TRUE
-9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,2753,135747,12860,4.7,0.96,NA,NA,hr,NA,NA,603,1,LTPA,8,NA,NA,12860,Both,missing RRs,TRUE,TRUE
-9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,2627,135747,12255,4.7,4.17,NA,NA,hr,NA,NA,516,1,LTPA,8,NA,NA,12255,Both,missing RRs,TRUE,TRUE
-9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,3422,135747,15983,4.7,8.88,NA,NA,hr,NA,NA,650,1,LTPA,8,NA,NA,15983,Both,missing RRs,TRUE,TRUE
-9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,1284,135747,5984,4.7,16.32,NA,NA,hr,NA,NA,209,1,LTPA,8,NA,NA,5984,Both,missing RRs,TRUE,TRUE
-9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,1292,135747,6024,4.7,23.87,NA,NA,hr,NA,NA,245,1,LTPA,8,NA,NA,6024,Both,missing RRs,TRUE,TRUE
-9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1799.971564,11994,5399.914692,3,0,NA,NA,or,NA,NA,132,1,LTPA,9,NA,NA,5399.914692,Both,missing RRs,TRUE,TRUE
-9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1267.949708,11994,3803.849124,3,5,NA,NA,or,NA,NA,58,1,LTPA,9,NA,NA,3803.849124,Both,missing RRs,TRUE,TRUE
-9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,930.078728,11994,2790.236184,3,11.25,NA,NA,or,NA,NA,54,1,LTPA,9,NA,NA,2790.236184,Both,missing RRs,TRUE,TRUE
-9925,Harvey S.,Depression,Non-fatal,3,ir,22564,2818.836969,248204,31007.20666,11,0,NA,NA,or,NA,NA,277,1,LTPA,10,NA,NA,31007.20666,Both,missing RRs,TRUE,TRUE
-9925,Harvey S.,Depression,Non-fatal,3,ir,22564,5688.396374,248204,62572.36011,11,0.62,NA,NA,or,NA,NA,427,1,LTPA,10,NA,NA,62572.36011,Both,missing RRs,TRUE,TRUE
-9925,Harvey S.,Depression,Non-fatal,3,ir,22564,5411.501769,248204,59526.51946,11,1.88,NA,NA,or,NA,NA,359,1,LTPA,10,NA,NA,59526.51946,Both,missing RRs,TRUE,TRUE
-9925,Harvey S.,Depression,Non-fatal,3,ir,22564,4509.307636,248204,49602.384,11,3.75,NA,NA,or,NA,NA,262,1,LTPA,10,NA,NA,49602.384,Both,missing RRs,TRUE,TRUE
-9925,Harvey S.,Depression,Non-fatal,3,ir,22564,2144.478037,248204,23589.25841,11,7.5,NA,NA,or,NA,NA,135,1,LTPA,10,NA,NA,23589.25841,Both,missing RRs,TRUE,TRUE
-9925,Harvey S.,Depression,Non-fatal,3,ir,22564,1991.479216,248204,21906.27138,11,12.5,NA,NA,or,NA,NA,119,1,LTPA,10,NA,NA,21906.27138,Both,missing RRs,TRUE,TRUE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,303,173824,24206,8,15.62,NA,NA,hr,NA,NA,334,1,LTPA,11,NA,NA,24206,Both,missing RRs,TRUE,TRUE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,308,173824,24678,8,9.38,NA,NA,hr,NA,NA,435,1,LTPA,11,NA,NA,24678,Both,missing RRs,TRUE,TRUE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,296,173824,23689,8,3.12,NA,NA,hr,NA,NA,475,1,LTPA,11,NA,NA,23689,Both,missing RRs,TRUE,TRUE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,374,173824,29928,8,1.25,NA,NA,hr,NA,NA,780,1,LTPA,11,NA,NA,29928,Both,missing RRs,TRUE,TRUE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,970,173824,77639,8,0,NA,NA,hr,NA,NA,1921,1,LTPA,11,NA,NA,77639,Both,missing RRs,TRUE,TRUE
-9929,Cabello M.,Depression,Non-fatal,3,ir,5970,3973,32835,21851.5,5.5,0,NA,NA,or,NA,NA,381,1,LTPA,12,NA,NA,21851.5,Both,missing RRs,TRUE,TRUE
-9929,Cabello M.,Depression,Non-fatal,3,ir,5970,903,32835,4966.5,5.5,9,NA,NA,or,NA,NA,84,1,LTPA,12,NA,NA,4966.5,Both,missing RRs,TRUE,TRUE
-9929,Cabello M.,Depression,Non-fatal,3,ir,5970,1094,32835,6017,5.5,22,NA,NA,or,NA,NA,129,1,LTPA,12,NA,NA,6017,Both,missing RRs,TRUE,TRUE
-9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,5597,163059,59193,10.5,3.29,NA,NA,hr,NA,NA,366,1,LTPA,13,NA,NA,59193,Both,missing RRs,TRUE,TRUE
-9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,3548,163059,37606,10.5,11.34,NA,NA,hr,NA,NA,193,1,LTPA,13,NA,NA,37606,Both,missing RRs,TRUE,TRUE
-9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,6343,163059,66260,10.5,19.66,NA,NA,hr,NA,NA,311,1,LTPA,13,NA,NA,66260,Both,missing RRs,TRUE,TRUE
-9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,0.37,NA,NA,or,NA,NA,191.8544,1,LTPA,14,NA,NA,27768.4,Both,missing RRs,TRUE,TRUE
-9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,3.44,NA,NA,or,NA,NA,157.775,1,LTPA,14,NA,NA,27768.4,Both,missing RRs,TRUE,TRUE
-9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,8.88,NA,NA,or,NA,NA,150.2018,1,LTPA,14,NA,NA,27768.4,Both,missing RRs,TRUE,TRUE
-9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,18.16,NA,NA,or,NA,NA,155.2506,1,LTPA,14,NA,NA,27768.4,Both,missing RRs,TRUE,TRUE
-9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,48.04,NA,NA,or,NA,NA,132.531,1,LTPA,14,NA,NA,27768.4,Both,missing RRs,TRUE,TRUE
-9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,4854.761129,267722,63111.89467,13,3.1,NA,NA,hr,NA,NA,80,1,LTPA,15,NA,NA,63111.89467,Both,missing RRs,TRUE,TRUE
-9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7865.584561,267722,102252.5993,13,9.38,NA,NA,hr,NA,NA,111,1,LTPA,15,NA,NA,102252.5993,Both,missing RRs,TRUE,TRUE
-9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7873.65431,267722,102357.506,13,15.62,NA,NA,hr,NA,NA,98,1,LTPA,15,NA,NA,102357.506,Both,missing RRs,TRUE,TRUE
-991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,1250,31171,7625,6.1,0,NA,NA,or,NA,NA,161,1,LTPA,1,NA,NA,7625,Non-fatal,missing RRs,TRUE,TRUE
-991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,2109,31171,12864.9,6.1,2.65,NA,NA,or,NA,NA,304,1,LTPA,1,NA,NA,12864.9,Non-fatal,missing RRs,TRUE,TRUE
-991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,1751,31171,10681.1,6.1,9.29,NA,NA,or,NA,NA,176,1,LTPA,1,NA,NA,10681.1,Non-fatal,missing RRs,TRUE,TRUE
-992,Camacho T.,Depressive symptoms,Non-fatal,3,ir,3664,1173,32976,10557,9,5,NA,NA,or,NA,NA,252,1,LTPA,2,NA,NA,10557,Non-fatal,missing RRs,TRUE,TRUE
-992,Camacho T.,Depressive symptoms,Non-fatal,3,ir,3664,1709,32976,15381,9,16,NA,NA,or,NA,NA,285,1,LTPA,2,NA,NA,15381,Non-fatal,missing RRs,TRUE,TRUE
-992,Camacho T.,Depressive symptoms,Non-fatal,3,ir,3664,782,32976,7038,9,28,NA,NA,or,NA,NA,89,1,LTPA,2,NA,NA,7038,Non-fatal,missing RRs,TRUE,TRUE
-993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,5034,36282,15102,3,0,NA,NA,or,NA,NA,1501,1,LTPA,3,NA,NA,15102,Non-fatal,missing RRs,TRUE,TRUE
-993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,358,36282,1074,3,2.65,NA,NA,or,NA,NA,63,1,LTPA,3,NA,NA,1074,Non-fatal,missing RRs,TRUE,TRUE
-993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,1160,36282,3480,3,9.29,NA,NA,or,NA,NA,156,1,LTPA,3,NA,NA,3480,Non-fatal,missing RRs,TRUE,TRUE
-993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,1454,36282,4362,3,16.18,NA,NA,or,NA,NA,186,1,LTPA,3,NA,NA,4362,Non-fatal,missing RRs,TRUE,TRUE
-993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,1495,36282,4485,3,23.17,NA,NA,or,NA,NA,187,1,LTPA,3,NA,NA,4485,Non-fatal,missing RRs,TRUE,TRUE
-993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,2593,36282,7779,3,30.21,NA,NA,or,NA,NA,325,1,LTPA,3,NA,NA,7779,Non-fatal,missing RRs,TRUE,TRUE
-994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,8437,140896,33748,4,0,NA,NA,or,NA,NA,2488.915,1,LTPA,4,NA,NA,33748,Non-fatal,missing RRs,TRUE,TRUE
-994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,8852,140896,35408,4,3,NA,NA,or,NA,NA,2478.56,1,LTPA,4,NA,NA,35408,Non-fatal,missing RRs,TRUE,TRUE
-994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,5900,140896,23600,4,6,NA,NA,or,NA,NA,1581.2,1,LTPA,4,NA,NA,23600,Non-fatal,missing RRs,TRUE,TRUE
-994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,4692,140896,18768,4,12,NA,NA,or,NA,NA,1116.696,1,LTPA,4,NA,NA,18768,Non-fatal,missing RRs,TRUE,TRUE
-994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,3775,140896,15100,4,21,NA,NA,or,NA,NA,879.575,1,LTPA,4,NA,NA,15100,Non-fatal,missing RRs,TRUE,TRUE
-994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,2139,140896,8556,4,33,NA,NA,or,NA,NA,562.557,1,LTPA,4,NA,NA,8556,Non-fatal,missing RRs,TRUE,TRUE
-994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,1429,140896,5716,4,45,NA,NA,or,NA,NA,357.25,1,LTPA,4,NA,NA,5716,Non-fatal,missing RRs,TRUE,TRUE
-9910,Hamer M.,Depressive symptoms,Non-fatal,3,ir,4323,674,17292,2696,4,0.56,NA,NA,or,NA,NA,108,1,LTPA,5,NA,NA,2696,Non-fatal,missing RRs,TRUE,TRUE
-9910,Hamer M.,Depressive symptoms,Non-fatal,3,ir,4323,2142,17292,8568,4,1.88,NA,NA,or,NA,NA,161,1,LTPA,5,NA,NA,8568,Non-fatal,missing RRs,TRUE,TRUE
-9910,Hamer M.,Depressive symptoms,Non-fatal,3,ir,4323,1507,17292,6028,4,4.5,NA,NA,or,NA,NA,79,1,LTPA,5,NA,NA,6028,Non-fatal,missing RRs,TRUE,TRUE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,303,173824,24206,8,15.62,NA,NA,hr,NA,NA,334,1,LTPA,3,NA,NA,24206,Both,missing RRs,TRUE,TRUE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,308,173824,24678,8,9.38,NA,NA,hr,NA,NA,435,1,LTPA,3,NA,NA,24678,Both,missing RRs,TRUE,TRUE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,296,173824,23689,8,3.12,NA,NA,hr,NA,NA,475,1,LTPA,3,NA,NA,23689,Both,missing RRs,TRUE,TRUE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,374,173824,29928,8,1.25,NA,NA,hr,NA,NA,780,1,LTPA,3,NA,NA,29928,Both,missing RRs,TRUE,TRUE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,970,173824,77639,8,0,NA,NA,hr,NA,NA,1921,1,LTPA,3,NA,NA,77639,Both,missing RRs,TRUE,TRUE
+991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,1250,31171,7625,6.1,0,NA,NA,or,NA,NA,161,1,LTPA,4,NA,NA,7625,Both,missing RRs,TRUE,TRUE
+991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,2109,31171,12864.9,6.1,2.65,NA,NA,or,NA,NA,304,1,LTPA,4,NA,NA,12864.9,Both,missing RRs,TRUE,TRUE
+991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,1751,31171,10681.1,6.1,9.29,NA,NA,or,NA,NA,176,1,LTPA,4,NA,NA,10681.1,Both,missing RRs,TRUE,TRUE
+9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,5597,163059,59193,10.5,3.29,NA,NA,hr,NA,NA,366,1,LTPA,5,NA,NA,59193,Both,missing RRs,TRUE,TRUE
+9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,3548,163059,37606,10.5,11.34,NA,NA,hr,NA,NA,193,1,LTPA,5,NA,NA,37606,Both,missing RRs,TRUE,TRUE
+9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,6343,163059,66260,10.5,19.66,NA,NA,hr,NA,NA,311,1,LTPA,5,NA,NA,66260,Both,missing RRs,TRUE,TRUE
+9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,4854.761129,267722,63111.89467,13,3.1,NA,NA,hr,NA,NA,80,1,LTPA,6,NA,NA,63111.89467,Both,missing RRs,TRUE,TRUE
+9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7865.584561,267722,102252.5993,13,9.38,NA,NA,hr,NA,NA,111,1,LTPA,6,NA,NA,102252.5993,Both,missing RRs,TRUE,TRUE
+9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7873.65431,267722,102357.506,13,15.62,NA,NA,hr,NA,NA,98,1,LTPA,6,NA,NA,102357.506,Both,missing RRs,TRUE,TRUE
+9910,Hamer M.,Depression,Non-fatal,3,ir,4323,674,17292,2696,4,0.56,NA,NA,or,NA,NA,108,1,LTPA,7,NA,NA,2696,Both,missing RRs,TRUE,TRUE
+9910,Hamer M.,Depression,Non-fatal,3,ir,4323,2142,17292,8568,4,1.88,NA,NA,or,NA,NA,161,1,LTPA,7,NA,NA,8568,Both,missing RRs,TRUE,TRUE
+9910,Hamer M.,Depression,Non-fatal,3,ir,4323,1507,17292,6028,4,4.5,NA,NA,or,NA,NA,79,1,LTPA,7,NA,NA,6028,Both,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,2818.836969,248204,31007.20666,11,0,NA,NA,or,NA,NA,277,1,LTPA,8,NA,NA,31007.20666,Both,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,5688.396374,248204,62572.36011,11,0.62,NA,NA,or,NA,NA,427,1,LTPA,8,NA,NA,62572.36011,Both,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,5411.501769,248204,59526.51946,11,1.88,NA,NA,or,NA,NA,359,1,LTPA,8,NA,NA,59526.51946,Both,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,4509.307636,248204,49602.384,11,3.75,NA,NA,or,NA,NA,262,1,LTPA,8,NA,NA,49602.384,Both,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,2144.478037,248204,23589.25841,11,7.5,NA,NA,or,NA,NA,135,1,LTPA,8,NA,NA,23589.25841,Both,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,1991.479216,248204,21906.27138,11,12.5,NA,NA,or,NA,NA,119,1,LTPA,8,NA,NA,21906.27138,Both,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,0.37,NA,NA,or,NA,NA,191.8544,1,LTPA,9,NA,NA,27768.4,Both,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,3.44,NA,NA,or,NA,NA,157.775,1,LTPA,9,NA,NA,27768.4,Both,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,8.88,NA,NA,or,NA,NA,150.2018,1,LTPA,9,NA,NA,27768.4,Both,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,18.16,NA,NA,or,NA,NA,155.2506,1,LTPA,9,NA,NA,27768.4,Both,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,48.04,NA,NA,or,NA,NA,132.531,1,LTPA,9,NA,NA,27768.4,Both,missing RRs,TRUE,TRUE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,17704,135747,82641,4.7,0,NA,NA,hr,NA,NA,3954,1,LTPA,10,NA,NA,82641,Both,missing RRs,TRUE,TRUE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,2753,135747,12860,4.7,0.96,NA,NA,hr,NA,NA,603,1,LTPA,10,NA,NA,12860,Both,missing RRs,TRUE,TRUE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,2627,135747,12255,4.7,4.17,NA,NA,hr,NA,NA,516,1,LTPA,10,NA,NA,12255,Both,missing RRs,TRUE,TRUE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,3422,135747,15983,4.7,8.88,NA,NA,hr,NA,NA,650,1,LTPA,10,NA,NA,15983,Both,missing RRs,TRUE,TRUE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,1284,135747,5984,4.7,16.32,NA,NA,hr,NA,NA,209,1,LTPA,10,NA,NA,5984,Both,missing RRs,TRUE,TRUE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,1292,135747,6024,4.7,23.87,NA,NA,hr,NA,NA,245,1,LTPA,10,NA,NA,6024,Both,missing RRs,TRUE,TRUE
+999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,4479.200195,429208,116459.2031,26,10.5,NA,NA,hr,NA,NA,92,1,LTPA,11,NA,NA,116459.2031,Both,missing RRs,TRUE,TRUE
+999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,9057.360352,429208,235491.3594,26,5,NA,NA,hr,NA,NA,235,1,LTPA,11,NA,NA,235491.3594,Both,missing RRs,TRUE,TRUE
+999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,2971.439941,429208,77257.4375,26,1,NA,NA,hr,NA,NA,109,1,LTPA,11,NA,NA,77257.4375,Both,missing RRs,TRUE,TRUE
+9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,4.73,NA,NA,rr,NA,NA,154,1,LTPA,12,NA,NA,83035,Both,missing RRs,TRUE,TRUE
+9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,18.79,NA,NA,rr,NA,NA,129,1,LTPA,12,NA,NA,83035,Both,missing RRs,TRUE,TRUE
+9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3264,244220,78150,25,36.16,NA,NA,rr,NA,NA,104,1,LTPA,12,NA,NA,78150,Both,missing RRs,TRUE,TRUE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,5034,36282,15102,3,0,NA,NA,or,NA,NA,1501,1,LTPA,13,NA,NA,15102,Both,missing RRs,TRUE,TRUE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,358,36282,1074,3,2.65,NA,NA,or,NA,NA,63,1,LTPA,13,NA,NA,1074,Both,missing RRs,TRUE,TRUE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,1160,36282,3480,3,9.29,NA,NA,or,NA,NA,156,1,LTPA,13,NA,NA,3480,Both,missing RRs,TRUE,TRUE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,1454,36282,4362,3,16.18,NA,NA,or,NA,NA,186,1,LTPA,13,NA,NA,4362,Both,missing RRs,TRUE,TRUE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,1495,36282,4485,3,23.17,NA,NA,or,NA,NA,187,1,LTPA,13,NA,NA,4485,Both,missing RRs,TRUE,TRUE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,2593,36282,7779,3,30.21,NA,NA,or,NA,NA,325,1,LTPA,13,NA,NA,7779,Both,missing RRs,TRUE,TRUE
+9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1799.971564,11994,5399.914692,3,0,NA,NA,or,NA,NA,132,1,LTPA,14,NA,NA,5399.914692,Both,missing RRs,TRUE,TRUE
+9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1267.949708,11994,3803.849124,3,5,NA,NA,or,NA,NA,58,1,LTPA,14,NA,NA,3803.849124,Both,missing RRs,TRUE,TRUE
+9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,930.078728,11994,2790.236184,3,11.25,NA,NA,or,NA,NA,54,1,LTPA,14,NA,NA,2790.236184,Both,missing RRs,TRUE,TRUE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,8437,140896,33748,4,0,NA,NA,or,NA,NA,2488.915,1,LTPA,15,NA,NA,33748,Both,missing RRs,TRUE,TRUE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,8852,140896,35408,4,3,NA,NA,or,NA,NA,2478.56,1,LTPA,15,NA,NA,35408,Both,missing RRs,TRUE,TRUE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,5900,140896,23600,4,6,NA,NA,or,NA,NA,1581.2,1,LTPA,15,NA,NA,23600,Both,missing RRs,TRUE,TRUE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,4692,140896,18768,4,12,NA,NA,or,NA,NA,1116.696,1,LTPA,15,NA,NA,18768,Both,missing RRs,TRUE,TRUE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,3775,140896,15100,4,21,NA,NA,or,NA,NA,879.575,1,LTPA,15,NA,NA,15100,Both,missing RRs,TRUE,TRUE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,2139,140896,8556,4,33,NA,NA,or,NA,NA,562.557,1,LTPA,15,NA,NA,8556,Both,missing RRs,TRUE,TRUE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,1429,140896,5716,4,45,NA,NA,or,NA,NA,357.25,1,LTPA,15,NA,NA,5716,Both,missing RRs,TRUE,TRUE
+992,Camacho T.,Depressive symptoms,Non-fatal,3,ir,3664,1173,32976,10557,9,5,NA,NA,or,NA,NA,252,1,LTPA,1,NA,NA,10557,Non-fatal,missing RRs,TRUE,TRUE
+992,Camacho T.,Depressive symptoms,Non-fatal,3,ir,3664,1709,32976,15381,9,16,NA,NA,or,NA,NA,285,1,LTPA,1,NA,NA,15381,Non-fatal,missing RRs,TRUE,TRUE
+992,Camacho T.,Depressive symptoms,Non-fatal,3,ir,3664,782,32976,7038,9,28,NA,NA,or,NA,NA,89,1,LTPA,1,NA,NA,7038,Non-fatal,missing RRs,TRUE,TRUE
+991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,1250,31171,7625,6.1,0,NA,NA,or,NA,NA,161,1,LTPA,2,NA,NA,7625,Non-fatal,missing RRs,TRUE,TRUE
+991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,2109,31171,12864.9,6.1,2.65,NA,NA,or,NA,NA,304,1,LTPA,2,NA,NA,12864.9,Non-fatal,missing RRs,TRUE,TRUE
+991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,1751,31171,10681.1,6.1,9.29,NA,NA,or,NA,NA,176,1,LTPA,2,NA,NA,10681.1,Non-fatal,missing RRs,TRUE,TRUE
+9910,Hamer M.,Depressive symptoms,Non-fatal,3,ir,4323,674,17292,2696,4,0.56,NA,NA,or,NA,NA,108,1,LTPA,3,NA,NA,2696,Non-fatal,missing RRs,TRUE,TRUE
+9910,Hamer M.,Depressive symptoms,Non-fatal,3,ir,4323,2142,17292,8568,4,1.88,NA,NA,or,NA,NA,161,1,LTPA,3,NA,NA,8568,Non-fatal,missing RRs,TRUE,TRUE
+9910,Hamer M.,Depressive symptoms,Non-fatal,3,ir,4323,1507,17292,6028,4,4.5,NA,NA,or,NA,NA,79,1,LTPA,3,NA,NA,6028,Non-fatal,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,2818.836969,248204,31007.20666,11,0,NA,NA,or,NA,NA,277,1,LTPA,4,NA,NA,31007.20666,Non-fatal,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,5688.396374,248204,62572.36011,11,0.62,NA,NA,or,NA,NA,427,1,LTPA,4,NA,NA,62572.36011,Non-fatal,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,5411.501769,248204,59526.51946,11,1.88,NA,NA,or,NA,NA,359,1,LTPA,4,NA,NA,59526.51946,Non-fatal,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,4509.307636,248204,49602.384,11,3.75,NA,NA,or,NA,NA,262,1,LTPA,4,NA,NA,49602.384,Non-fatal,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,2144.478037,248204,23589.25841,11,7.5,NA,NA,or,NA,NA,135,1,LTPA,4,NA,NA,23589.25841,Non-fatal,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,1991.479216,248204,21906.27138,11,12.5,NA,NA,or,NA,NA,119,1,LTPA,4,NA,NA,21906.27138,Non-fatal,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,0.37,NA,NA,or,NA,NA,191.8544,1,LTPA,5,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,3.44,NA,NA,or,NA,NA,157.775,1,LTPA,5,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,8.88,NA,NA,or,NA,NA,150.2018,1,LTPA,5,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,18.16,NA,NA,or,NA,NA,155.2506,1,LTPA,5,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,48.04,NA,NA,or,NA,NA,132.531,1,LTPA,5,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,TRUE
 9919,Kuwahara K.,Depressive symptoms,Non-fatal,3,ci,29082,17704,135747,82641,4.7,0,NA,NA,hr,NA,NA,3954,1,LTPA,6,NA,NA,82641,Non-fatal,missing RRs,TRUE,TRUE
 9919,Kuwahara K.,Depressive symptoms,Non-fatal,3,ci,29082,2753,135747,12860,4.7,0.96,NA,NA,hr,NA,NA,603,1,LTPA,6,NA,NA,12860,Non-fatal,missing RRs,TRUE,TRUE
 9919,Kuwahara K.,Depressive symptoms,Non-fatal,3,ci,29082,2627,135747,12255,4.7,4.17,NA,NA,hr,NA,NA,516,1,LTPA,6,NA,NA,12255,Non-fatal,missing RRs,TRUE,TRUE
 9919,Kuwahara K.,Depressive symptoms,Non-fatal,3,ci,29082,3422,135747,15983,4.7,8.88,NA,NA,hr,NA,NA,650,1,LTPA,6,NA,NA,15983,Non-fatal,missing RRs,TRUE,TRUE
 9919,Kuwahara K.,Depressive symptoms,Non-fatal,3,ci,29082,1284,135747,5984,4.7,16.32,NA,NA,hr,NA,NA,209,1,LTPA,6,NA,NA,5984,Non-fatal,missing RRs,TRUE,TRUE
 9919,Kuwahara K.,Depressive symptoms,Non-fatal,3,ci,29082,1292,135747,6024,4.7,23.87,NA,NA,hr,NA,NA,245,1,LTPA,6,NA,NA,6024,Non-fatal,missing RRs,TRUE,TRUE
-9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,2818.836969,248204,31007.20666,11,0,NA,NA,or,NA,NA,277,1,LTPA,7,NA,NA,31007.20666,Non-fatal,missing RRs,TRUE,TRUE
-9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,5688.396374,248204,62572.36011,11,0.62,NA,NA,or,NA,NA,427,1,LTPA,7,NA,NA,62572.36011,Non-fatal,missing RRs,TRUE,TRUE
-9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,5411.501769,248204,59526.51946,11,1.88,NA,NA,or,NA,NA,359,1,LTPA,7,NA,NA,59526.51946,Non-fatal,missing RRs,TRUE,TRUE
-9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,4509.307636,248204,49602.384,11,3.75,NA,NA,or,NA,NA,262,1,LTPA,7,NA,NA,49602.384,Non-fatal,missing RRs,TRUE,TRUE
-9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,2144.478037,248204,23589.25841,11,7.5,NA,NA,or,NA,NA,135,1,LTPA,7,NA,NA,23589.25841,Non-fatal,missing RRs,TRUE,TRUE
-9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,1991.479216,248204,21906.27138,11,12.5,NA,NA,or,NA,NA,119,1,LTPA,7,NA,NA,21906.27138,Non-fatal,missing RRs,TRUE,TRUE
-9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,0.37,NA,NA,or,NA,NA,191.8544,1,LTPA,8,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,TRUE
-9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,3.44,NA,NA,or,NA,NA,157.775,1,LTPA,8,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,TRUE
-9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,8.88,NA,NA,or,NA,NA,150.2018,1,LTPA,8,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,TRUE
-9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,18.16,NA,NA,or,NA,NA,155.2506,1,LTPA,8,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,TRUE
-9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,48.04,NA,NA,or,NA,NA,132.531,1,LTPA,8,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,TRUE
-991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,1250,31171,7625,6.1,0,NA,NA,or,NA,NA,161,1,LTPA,1,NA,NA,7625,Both,missing RRs,TRUE,TRUE
-991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,2109,31171,12864.9,6.1,2.65,NA,NA,or,NA,NA,304,1,LTPA,1,NA,NA,12864.9,Both,missing RRs,TRUE,TRUE
-991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,1751,31171,10681.1,6.1,9.29,NA,NA,or,NA,NA,176,1,LTPA,1,NA,NA,10681.1,Both,missing RRs,TRUE,TRUE
-992,Camacho T.,Depressive symptoms,Non-fatal,3,ir,3664,1173,32976,10557,9,5,NA,NA,or,NA,NA,252,1,LTPA,2,NA,NA,10557,Both,missing RRs,TRUE,TRUE
-992,Camacho T.,Depressive symptoms,Non-fatal,3,ir,3664,1709,32976,15381,9,16,NA,NA,or,NA,NA,285,1,LTPA,2,NA,NA,15381,Both,missing RRs,TRUE,TRUE
-992,Camacho T.,Depressive symptoms,Non-fatal,3,ir,3664,782,32976,7038,9,28,NA,NA,or,NA,NA,89,1,LTPA,2,NA,NA,7038,Both,missing RRs,TRUE,TRUE
-993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,5034,36282,15102,3,0,NA,NA,or,NA,NA,1501,1,LTPA,3,NA,NA,15102,Both,missing RRs,TRUE,TRUE
-993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,358,36282,1074,3,2.65,NA,NA,or,NA,NA,63,1,LTPA,3,NA,NA,1074,Both,missing RRs,TRUE,TRUE
-993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,1160,36282,3480,3,9.29,NA,NA,or,NA,NA,156,1,LTPA,3,NA,NA,3480,Both,missing RRs,TRUE,TRUE
-993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,1454,36282,4362,3,16.18,NA,NA,or,NA,NA,186,1,LTPA,3,NA,NA,4362,Both,missing RRs,TRUE,TRUE
-993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,1495,36282,4485,3,23.17,NA,NA,or,NA,NA,187,1,LTPA,3,NA,NA,4485,Both,missing RRs,TRUE,TRUE
-993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,2593,36282,7779,3,30.21,NA,NA,or,NA,NA,325,1,LTPA,3,NA,NA,7779,Both,missing RRs,TRUE,TRUE
-994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,8437,140896,33748,4,0,NA,NA,or,NA,NA,2488.915,1,LTPA,4,NA,NA,33748,Both,missing RRs,TRUE,TRUE
-994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,8852,140896,35408,4,3,NA,NA,or,NA,NA,2478.56,1,LTPA,4,NA,NA,35408,Both,missing RRs,TRUE,TRUE
-994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,5900,140896,23600,4,6,NA,NA,or,NA,NA,1581.2,1,LTPA,4,NA,NA,23600,Both,missing RRs,TRUE,TRUE
-994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,4692,140896,18768,4,12,NA,NA,or,NA,NA,1116.696,1,LTPA,4,NA,NA,18768,Both,missing RRs,TRUE,TRUE
-994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,3775,140896,15100,4,21,NA,NA,or,NA,NA,879.575,1,LTPA,4,NA,NA,15100,Both,missing RRs,TRUE,TRUE
-994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,2139,140896,8556,4,33,NA,NA,or,NA,NA,562.557,1,LTPA,4,NA,NA,8556,Both,missing RRs,TRUE,TRUE
-994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,1429,140896,5716,4,45,NA,NA,or,NA,NA,357.25,1,LTPA,4,NA,NA,5716,Both,missing RRs,TRUE,TRUE
-9910,Hamer M.,Depressive symptoms,Non-fatal,3,ir,4323,674,17292,2696,4,0.56,NA,NA,or,NA,NA,108,1,LTPA,5,NA,NA,2696,Both,missing RRs,TRUE,TRUE
-9910,Hamer M.,Depressive symptoms,Non-fatal,3,ir,4323,2142,17292,8568,4,1.88,NA,NA,or,NA,NA,161,1,LTPA,5,NA,NA,8568,Both,missing RRs,TRUE,TRUE
-9910,Hamer M.,Depressive symptoms,Non-fatal,3,ir,4323,1507,17292,6028,4,4.5,NA,NA,or,NA,NA,79,1,LTPA,5,NA,NA,6028,Both,missing RRs,TRUE,TRUE
+993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,5034,36282,15102,3,0,NA,NA,or,NA,NA,1501,1,LTPA,7,NA,NA,15102,Non-fatal,missing RRs,TRUE,TRUE
+993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,358,36282,1074,3,2.65,NA,NA,or,NA,NA,63,1,LTPA,7,NA,NA,1074,Non-fatal,missing RRs,TRUE,TRUE
+993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,1160,36282,3480,3,9.29,NA,NA,or,NA,NA,156,1,LTPA,7,NA,NA,3480,Non-fatal,missing RRs,TRUE,TRUE
+993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,1454,36282,4362,3,16.18,NA,NA,or,NA,NA,186,1,LTPA,7,NA,NA,4362,Non-fatal,missing RRs,TRUE,TRUE
+993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,1495,36282,4485,3,23.17,NA,NA,or,NA,NA,187,1,LTPA,7,NA,NA,4485,Non-fatal,missing RRs,TRUE,TRUE
+993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,2593,36282,7779,3,30.21,NA,NA,or,NA,NA,325,1,LTPA,7,NA,NA,7779,Non-fatal,missing RRs,TRUE,TRUE
+994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,8437,140896,33748,4,0,NA,NA,or,NA,NA,2488.915,1,LTPA,8,NA,NA,33748,Non-fatal,missing RRs,TRUE,TRUE
+994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,8852,140896,35408,4,3,NA,NA,or,NA,NA,2478.56,1,LTPA,8,NA,NA,35408,Non-fatal,missing RRs,TRUE,TRUE
+994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,5900,140896,23600,4,6,NA,NA,or,NA,NA,1581.2,1,LTPA,8,NA,NA,23600,Non-fatal,missing RRs,TRUE,TRUE
+994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,4692,140896,18768,4,12,NA,NA,or,NA,NA,1116.696,1,LTPA,8,NA,NA,18768,Non-fatal,missing RRs,TRUE,TRUE
+994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,3775,140896,15100,4,21,NA,NA,or,NA,NA,879.575,1,LTPA,8,NA,NA,15100,Non-fatal,missing RRs,TRUE,TRUE
+994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,2139,140896,8556,4,33,NA,NA,or,NA,NA,562.557,1,LTPA,8,NA,NA,8556,Non-fatal,missing RRs,TRUE,TRUE
+994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,1429,140896,5716,4,45,NA,NA,or,NA,NA,357.25,1,LTPA,8,NA,NA,5716,Non-fatal,missing RRs,TRUE,TRUE
+992,Camacho T.,Depressive symptoms,Non-fatal,3,ir,3664,1173,32976,10557,9,5,NA,NA,or,NA,NA,252,1,LTPA,1,NA,NA,10557,Both,missing RRs,TRUE,TRUE
+992,Camacho T.,Depressive symptoms,Non-fatal,3,ir,3664,1709,32976,15381,9,16,NA,NA,or,NA,NA,285,1,LTPA,1,NA,NA,15381,Both,missing RRs,TRUE,TRUE
+992,Camacho T.,Depressive symptoms,Non-fatal,3,ir,3664,782,32976,7038,9,28,NA,NA,or,NA,NA,89,1,LTPA,1,NA,NA,7038,Both,missing RRs,TRUE,TRUE
+991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,1250,31171,7625,6.1,0,NA,NA,or,NA,NA,161,1,LTPA,2,NA,NA,7625,Both,missing RRs,TRUE,TRUE
+991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,2109,31171,12864.9,6.1,2.65,NA,NA,or,NA,NA,304,1,LTPA,2,NA,NA,12864.9,Both,missing RRs,TRUE,TRUE
+991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,1751,31171,10681.1,6.1,9.29,NA,NA,or,NA,NA,176,1,LTPA,2,NA,NA,10681.1,Both,missing RRs,TRUE,TRUE
+9910,Hamer M.,Depressive symptoms,Non-fatal,3,ir,4323,674,17292,2696,4,0.56,NA,NA,or,NA,NA,108,1,LTPA,3,NA,NA,2696,Both,missing RRs,TRUE,TRUE
+9910,Hamer M.,Depressive symptoms,Non-fatal,3,ir,4323,2142,17292,8568,4,1.88,NA,NA,or,NA,NA,161,1,LTPA,3,NA,NA,8568,Both,missing RRs,TRUE,TRUE
+9910,Hamer M.,Depressive symptoms,Non-fatal,3,ir,4323,1507,17292,6028,4,4.5,NA,NA,or,NA,NA,79,1,LTPA,3,NA,NA,6028,Both,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,2818.836969,248204,31007.20666,11,0,NA,NA,or,NA,NA,277,1,LTPA,4,NA,NA,31007.20666,Both,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,5688.396374,248204,62572.36011,11,0.62,NA,NA,or,NA,NA,427,1,LTPA,4,NA,NA,62572.36011,Both,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,5411.501769,248204,59526.51946,11,1.88,NA,NA,or,NA,NA,359,1,LTPA,4,NA,NA,59526.51946,Both,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,4509.307636,248204,49602.384,11,3.75,NA,NA,or,NA,NA,262,1,LTPA,4,NA,NA,49602.384,Both,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,2144.478037,248204,23589.25841,11,7.5,NA,NA,or,NA,NA,135,1,LTPA,4,NA,NA,23589.25841,Both,missing RRs,TRUE,TRUE
+9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,1991.479216,248204,21906.27138,11,12.5,NA,NA,or,NA,NA,119,1,LTPA,4,NA,NA,21906.27138,Both,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,0.37,NA,NA,or,NA,NA,191.8544,1,LTPA,5,NA,NA,27768.4,Both,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,3.44,NA,NA,or,NA,NA,157.775,1,LTPA,5,NA,NA,27768.4,Both,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,8.88,NA,NA,or,NA,NA,150.2018,1,LTPA,5,NA,NA,27768.4,Both,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,18.16,NA,NA,or,NA,NA,155.2506,1,LTPA,5,NA,NA,27768.4,Both,missing RRs,TRUE,TRUE
+9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,48.04,NA,NA,or,NA,NA,132.531,1,LTPA,5,NA,NA,27768.4,Both,missing RRs,TRUE,TRUE
 9919,Kuwahara K.,Depressive symptoms,Non-fatal,3,ci,29082,17704,135747,82641,4.7,0,NA,NA,hr,NA,NA,3954,1,LTPA,6,NA,NA,82641,Both,missing RRs,TRUE,TRUE
 9919,Kuwahara K.,Depressive symptoms,Non-fatal,3,ci,29082,2753,135747,12860,4.7,0.96,NA,NA,hr,NA,NA,603,1,LTPA,6,NA,NA,12860,Both,missing RRs,TRUE,TRUE
 9919,Kuwahara K.,Depressive symptoms,Non-fatal,3,ci,29082,2627,135747,12255,4.7,4.17,NA,NA,hr,NA,NA,516,1,LTPA,6,NA,NA,12255,Both,missing RRs,TRUE,TRUE
 9919,Kuwahara K.,Depressive symptoms,Non-fatal,3,ci,29082,3422,135747,15983,4.7,8.88,NA,NA,hr,NA,NA,650,1,LTPA,6,NA,NA,15983,Both,missing RRs,TRUE,TRUE
 9919,Kuwahara K.,Depressive symptoms,Non-fatal,3,ci,29082,1284,135747,5984,4.7,16.32,NA,NA,hr,NA,NA,209,1,LTPA,6,NA,NA,5984,Both,missing RRs,TRUE,TRUE
 9919,Kuwahara K.,Depressive symptoms,Non-fatal,3,ci,29082,1292,135747,6024,4.7,23.87,NA,NA,hr,NA,NA,245,1,LTPA,6,NA,NA,6024,Both,missing RRs,TRUE,TRUE
-9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,2818.836969,248204,31007.20666,11,0,NA,NA,or,NA,NA,277,1,LTPA,7,NA,NA,31007.20666,Both,missing RRs,TRUE,TRUE
-9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,5688.396374,248204,62572.36011,11,0.62,NA,NA,or,NA,NA,427,1,LTPA,7,NA,NA,62572.36011,Both,missing RRs,TRUE,TRUE
-9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,5411.501769,248204,59526.51946,11,1.88,NA,NA,or,NA,NA,359,1,LTPA,7,NA,NA,59526.51946,Both,missing RRs,TRUE,TRUE
-9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,4509.307636,248204,49602.384,11,3.75,NA,NA,or,NA,NA,262,1,LTPA,7,NA,NA,49602.384,Both,missing RRs,TRUE,TRUE
-9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,2144.478037,248204,23589.25841,11,7.5,NA,NA,or,NA,NA,135,1,LTPA,7,NA,NA,23589.25841,Both,missing RRs,TRUE,TRUE
-9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,1991.479216,248204,21906.27138,11,12.5,NA,NA,or,NA,NA,119,1,LTPA,7,NA,NA,21906.27138,Both,missing RRs,TRUE,TRUE
-9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,0.37,NA,NA,or,NA,NA,191.8544,1,LTPA,8,NA,NA,27768.4,Both,missing RRs,TRUE,TRUE
-9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,3.44,NA,NA,or,NA,NA,157.775,1,LTPA,8,NA,NA,27768.4,Both,missing RRs,TRUE,TRUE
-9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,8.88,NA,NA,or,NA,NA,150.2018,1,LTPA,8,NA,NA,27768.4,Both,missing RRs,TRUE,TRUE
-9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,18.16,NA,NA,or,NA,NA,155.2506,1,LTPA,8,NA,NA,27768.4,Both,missing RRs,TRUE,TRUE
-9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,48.04,NA,NA,or,NA,NA,132.531,1,LTPA,8,NA,NA,27768.4,Both,missing RRs,TRUE,TRUE
+993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,5034,36282,15102,3,0,NA,NA,or,NA,NA,1501,1,LTPA,7,NA,NA,15102,Both,missing RRs,TRUE,TRUE
+993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,358,36282,1074,3,2.65,NA,NA,or,NA,NA,63,1,LTPA,7,NA,NA,1074,Both,missing RRs,TRUE,TRUE
+993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,1160,36282,3480,3,9.29,NA,NA,or,NA,NA,156,1,LTPA,7,NA,NA,3480,Both,missing RRs,TRUE,TRUE
+993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,1454,36282,4362,3,16.18,NA,NA,or,NA,NA,186,1,LTPA,7,NA,NA,4362,Both,missing RRs,TRUE,TRUE
+993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,1495,36282,4485,3,23.17,NA,NA,or,NA,NA,187,1,LTPA,7,NA,NA,4485,Both,missing RRs,TRUE,TRUE
+993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,2593,36282,7779,3,30.21,NA,NA,or,NA,NA,325,1,LTPA,7,NA,NA,7779,Both,missing RRs,TRUE,TRUE
+994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,8437,140896,33748,4,0,NA,NA,or,NA,NA,2488.915,1,LTPA,8,NA,NA,33748,Both,missing RRs,TRUE,TRUE
+994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,8852,140896,35408,4,3,NA,NA,or,NA,NA,2478.56,1,LTPA,8,NA,NA,35408,Both,missing RRs,TRUE,TRUE
+994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,5900,140896,23600,4,6,NA,NA,or,NA,NA,1581.2,1,LTPA,8,NA,NA,23600,Both,missing RRs,TRUE,TRUE
+994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,4692,140896,18768,4,12,NA,NA,or,NA,NA,1116.696,1,LTPA,8,NA,NA,18768,Both,missing RRs,TRUE,TRUE
+994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,3775,140896,15100,4,21,NA,NA,or,NA,NA,879.575,1,LTPA,8,NA,NA,15100,Both,missing RRs,TRUE,TRUE
+994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,2139,140896,8556,4,33,NA,NA,or,NA,NA,562.557,1,LTPA,8,NA,NA,8556,Both,missing RRs,TRUE,TRUE
+994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,1429,140896,5716,4,45,NA,NA,or,NA,NA,357.25,1,LTPA,8,NA,NA,5716,Both,missing RRs,TRUE,TRUE
 332,"Arem, H",Endometrial cancer,Fatal,2,ci,121913,17166,1475147,207707,12.1,0,NA,NA,hr,NA,NA,23,1,LTPA,1,NA,NA,207707,Fatal,missing RRs,TRUE,TRUE
 332,"Arem, H",Endometrial cancer,Fatal,2,ci,121913,12998,1475147,157273,12.1,1.25,NA,NA,hr,NA,NA,24,1,LTPA,1,NA,NA,157273,Fatal,missing RRs,TRUE,TRUE
 332,"Arem, H",Endometrial cancer,Fatal,2,ci,121913,31142,1475147,376817,12.1,5,NA,NA,hr,NA,NA,27,1,LTPA,1,NA,NA,376817,Fatal,missing RRs,TRUE,TRUE
@@ -991,52 +991,52 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 332,"Arem, H",Lung cancer,Fatal,3,ci,293511,74502,3551483,901474,12.1,5,NA,NA,hr,NA,NA,1258,1,LTPA,15,NA,NA,901474,Both,missing RRs,TRUE,TRUE
 332,"Arem, H",Lung cancer,Fatal,3,ci,293511,76049,3551483,920193,12.1,13.75,NA,NA,hr,NA,NA,1095,1,LTPA,15,NA,NA,920193,Both,missing RRs,TRUE,TRUE
 332,"Arem, H",Lung cancer,Fatal,3,ci,293511,70700,3551483,855470,12.1,23.75,NA,NA,hr,NA,NA,1073,1,LTPA,15,NA,NA,855470,Both,missing RRs,TRUE,TRUE
-999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,4479.200195,429208,116459.2031,26,10.5,NA,NA,hr,NA,NA,92,1,LTPA,1,NA,NA,116459.2031,Non-fatal,missing RRs,TRUE,TRUE
-999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,9057.360352,429208,235491.3594,26,5,NA,NA,hr,NA,NA,235,1,LTPA,1,NA,NA,235491.3594,Non-fatal,missing RRs,TRUE,TRUE
-999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,2971.439941,429208,77257.4375,26,1,NA,NA,hr,NA,NA,109,1,LTPA,1,NA,NA,77257.4375,Non-fatal,missing RRs,TRUE,TRUE
-9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3468,244220,83035,25,4.73,NA,NA,rr,NA,NA,154,1,LTPA,2,NA,NA,83035,Non-fatal,missing RRs,TRUE,TRUE
-9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3468,244220,83035,25,18.79,NA,NA,rr,NA,NA,129,1,LTPA,2,NA,NA,83035,Non-fatal,missing RRs,TRUE,TRUE
-9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3264,244220,78150,25,36.16,NA,NA,rr,NA,NA,104,1,LTPA,2,NA,NA,78150,Non-fatal,missing RRs,TRUE,TRUE
-9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,1799.971564,11994,5399.914692,3,0,NA,NA,or,NA,NA,132,1,LTPA,3,NA,NA,5399.914692,Non-fatal,missing RRs,TRUE,TRUE
-9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,1267.949708,11994,3803.849124,3,5,NA,NA,or,NA,NA,58,1,LTPA,3,NA,NA,3803.849124,Non-fatal,missing RRs,TRUE,TRUE
-9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,930.078728,11994,2790.236184,3,11.25,NA,NA,or,NA,NA,54,1,LTPA,3,NA,NA,2790.236184,Non-fatal,missing RRs,TRUE,TRUE
-9926,Chang S.,Major depression,Non-fatal,2,ci,21728,303,173824,24206,8,15.62,NA,NA,hr,NA,NA,334,1,LTPA,4,NA,NA,24206,Non-fatal,missing RRs,TRUE,TRUE
-9926,Chang S.,Major depression,Non-fatal,2,ci,21728,308,173824,24678,8,9.38,NA,NA,hr,NA,NA,435,1,LTPA,4,NA,NA,24678,Non-fatal,missing RRs,TRUE,TRUE
-9926,Chang S.,Major depression,Non-fatal,2,ci,21728,296,173824,23689,8,3.12,NA,NA,hr,NA,NA,475,1,LTPA,4,NA,NA,23689,Non-fatal,missing RRs,TRUE,TRUE
-9926,Chang S.,Major depression,Non-fatal,2,ci,21728,374,173824,29928,8,1.25,NA,NA,hr,NA,NA,780,1,LTPA,4,NA,NA,29928,Non-fatal,missing RRs,TRUE,TRUE
-9926,Chang S.,Major depression,Non-fatal,2,ci,21728,970,173824,77639,8,0,NA,NA,hr,NA,NA,1921,1,LTPA,4,NA,NA,77639,Non-fatal,missing RRs,TRUE,TRUE
-9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,3973,32835,21851.5,5.5,0,NA,NA,or,NA,NA,381,1,LTPA,5,NA,NA,21851.5,Non-fatal,missing RRs,TRUE,TRUE
-9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,903,32835,4966.5,5.5,9,NA,NA,or,NA,NA,84,1,LTPA,5,NA,NA,4966.5,Non-fatal,missing RRs,TRUE,TRUE
-9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,1094,32835,6017,5.5,22,NA,NA,or,NA,NA,129,1,LTPA,5,NA,NA,6017,Non-fatal,missing RRs,TRUE,TRUE
-9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,5597,163059,59193,10.5,3.29,NA,NA,hr,NA,NA,366,1,LTPA,6,NA,NA,59193,Non-fatal,missing RRs,TRUE,TRUE
-9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,3548,163059,37606,10.5,11.34,NA,NA,hr,NA,NA,193,1,LTPA,6,NA,NA,37606,Non-fatal,missing RRs,TRUE,TRUE
-9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,6343,163059,66260,10.5,19.66,NA,NA,hr,NA,NA,311,1,LTPA,6,NA,NA,66260,Non-fatal,missing RRs,TRUE,TRUE
-9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,4854.761129,267722,63111.89467,13,3.1,NA,NA,hr,NA,NA,80,1,LTPA,7,NA,NA,63111.89467,Non-fatal,missing RRs,TRUE,TRUE
-9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,7865.584561,267722,102252.5993,13,9.38,NA,NA,hr,NA,NA,111,1,LTPA,7,NA,NA,102252.5993,Non-fatal,missing RRs,TRUE,TRUE
-9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,7873.65431,267722,102357.506,13,15.62,NA,NA,hr,NA,NA,98,1,LTPA,7,NA,NA,102357.506,Non-fatal,missing RRs,TRUE,TRUE
-999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,4479.200195,429208,116459.2031,26,10.5,NA,NA,hr,NA,NA,92,1,LTPA,1,NA,NA,116459.2031,Both,missing RRs,TRUE,TRUE
-999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,9057.360352,429208,235491.3594,26,5,NA,NA,hr,NA,NA,235,1,LTPA,1,NA,NA,235491.3594,Both,missing RRs,TRUE,TRUE
-999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,2971.439941,429208,77257.4375,26,1,NA,NA,hr,NA,NA,109,1,LTPA,1,NA,NA,77257.4375,Both,missing RRs,TRUE,TRUE
-9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3468,244220,83035,25,4.73,NA,NA,rr,NA,NA,154,1,LTPA,2,NA,NA,83035,Both,missing RRs,TRUE,TRUE
-9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3468,244220,83035,25,18.79,NA,NA,rr,NA,NA,129,1,LTPA,2,NA,NA,83035,Both,missing RRs,TRUE,TRUE
-9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3264,244220,78150,25,36.16,NA,NA,rr,NA,NA,104,1,LTPA,2,NA,NA,78150,Both,missing RRs,TRUE,TRUE
-9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,1799.971564,11994,5399.914692,3,0,NA,NA,or,NA,NA,132,1,LTPA,3,NA,NA,5399.914692,Both,missing RRs,TRUE,TRUE
-9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,1267.949708,11994,3803.849124,3,5,NA,NA,or,NA,NA,58,1,LTPA,3,NA,NA,3803.849124,Both,missing RRs,TRUE,TRUE
-9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,930.078728,11994,2790.236184,3,11.25,NA,NA,or,NA,NA,54,1,LTPA,3,NA,NA,2790.236184,Both,missing RRs,TRUE,TRUE
-9926,Chang S.,Major depression,Non-fatal,2,ci,21728,303,173824,24206,8,15.62,NA,NA,hr,NA,NA,334,1,LTPA,4,NA,NA,24206,Both,missing RRs,TRUE,TRUE
-9926,Chang S.,Major depression,Non-fatal,2,ci,21728,308,173824,24678,8,9.38,NA,NA,hr,NA,NA,435,1,LTPA,4,NA,NA,24678,Both,missing RRs,TRUE,TRUE
-9926,Chang S.,Major depression,Non-fatal,2,ci,21728,296,173824,23689,8,3.12,NA,NA,hr,NA,NA,475,1,LTPA,4,NA,NA,23689,Both,missing RRs,TRUE,TRUE
-9926,Chang S.,Major depression,Non-fatal,2,ci,21728,374,173824,29928,8,1.25,NA,NA,hr,NA,NA,780,1,LTPA,4,NA,NA,29928,Both,missing RRs,TRUE,TRUE
-9926,Chang S.,Major depression,Non-fatal,2,ci,21728,970,173824,77639,8,0,NA,NA,hr,NA,NA,1921,1,LTPA,4,NA,NA,77639,Both,missing RRs,TRUE,TRUE
-9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,3973,32835,21851.5,5.5,0,NA,NA,or,NA,NA,381,1,LTPA,5,NA,NA,21851.5,Both,missing RRs,TRUE,TRUE
-9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,903,32835,4966.5,5.5,9,NA,NA,or,NA,NA,84,1,LTPA,5,NA,NA,4966.5,Both,missing RRs,TRUE,TRUE
-9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,1094,32835,6017,5.5,22,NA,NA,or,NA,NA,129,1,LTPA,5,NA,NA,6017,Both,missing RRs,TRUE,TRUE
-9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,5597,163059,59193,10.5,3.29,NA,NA,hr,NA,NA,366,1,LTPA,6,NA,NA,59193,Both,missing RRs,TRUE,TRUE
-9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,3548,163059,37606,10.5,11.34,NA,NA,hr,NA,NA,193,1,LTPA,6,NA,NA,37606,Both,missing RRs,TRUE,TRUE
-9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,6343,163059,66260,10.5,19.66,NA,NA,hr,NA,NA,311,1,LTPA,6,NA,NA,66260,Both,missing RRs,TRUE,TRUE
-9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,4854.761129,267722,63111.89467,13,3.1,NA,NA,hr,NA,NA,80,1,LTPA,7,NA,NA,63111.89467,Both,missing RRs,TRUE,TRUE
-9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,7865.584561,267722,102252.5993,13,9.38,NA,NA,hr,NA,NA,111,1,LTPA,7,NA,NA,102252.5993,Both,missing RRs,TRUE,TRUE
-9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,7873.65431,267722,102357.506,13,15.62,NA,NA,hr,NA,NA,98,1,LTPA,7,NA,NA,102357.506,Both,missing RRs,TRUE,TRUE
+9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,3973,32835,21851.5,5.5,0,NA,NA,or,NA,NA,381,1,LTPA,1,NA,NA,21851.5,Non-fatal,missing RRs,TRUE,TRUE
+9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,903,32835,4966.5,5.5,9,NA,NA,or,NA,NA,84,1,LTPA,1,NA,NA,4966.5,Non-fatal,missing RRs,TRUE,TRUE
+9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,1094,32835,6017,5.5,22,NA,NA,or,NA,NA,129,1,LTPA,1,NA,NA,6017,Non-fatal,missing RRs,TRUE,TRUE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,303,173824,24206,8,15.62,NA,NA,hr,NA,NA,334,1,LTPA,2,NA,NA,24206,Non-fatal,missing RRs,TRUE,TRUE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,308,173824,24678,8,9.38,NA,NA,hr,NA,NA,435,1,LTPA,2,NA,NA,24678,Non-fatal,missing RRs,TRUE,TRUE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,296,173824,23689,8,3.12,NA,NA,hr,NA,NA,475,1,LTPA,2,NA,NA,23689,Non-fatal,missing RRs,TRUE,TRUE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,374,173824,29928,8,1.25,NA,NA,hr,NA,NA,780,1,LTPA,2,NA,NA,29928,Non-fatal,missing RRs,TRUE,TRUE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,970,173824,77639,8,0,NA,NA,hr,NA,NA,1921,1,LTPA,2,NA,NA,77639,Non-fatal,missing RRs,TRUE,TRUE
+9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,5597,163059,59193,10.5,3.29,NA,NA,hr,NA,NA,366,1,LTPA,3,NA,NA,59193,Non-fatal,missing RRs,TRUE,TRUE
+9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,3548,163059,37606,10.5,11.34,NA,NA,hr,NA,NA,193,1,LTPA,3,NA,NA,37606,Non-fatal,missing RRs,TRUE,TRUE
+9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,6343,163059,66260,10.5,19.66,NA,NA,hr,NA,NA,311,1,LTPA,3,NA,NA,66260,Non-fatal,missing RRs,TRUE,TRUE
+9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,4854.761129,267722,63111.89467,13,3.1,NA,NA,hr,NA,NA,80,1,LTPA,4,NA,NA,63111.89467,Non-fatal,missing RRs,TRUE,TRUE
+9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,7865.584561,267722,102252.5993,13,9.38,NA,NA,hr,NA,NA,111,1,LTPA,4,NA,NA,102252.5993,Non-fatal,missing RRs,TRUE,TRUE
+9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,7873.65431,267722,102357.506,13,15.62,NA,NA,hr,NA,NA,98,1,LTPA,4,NA,NA,102357.506,Non-fatal,missing RRs,TRUE,TRUE
+999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,4479.200195,429208,116459.2031,26,10.5,NA,NA,hr,NA,NA,92,1,LTPA,5,NA,NA,116459.2031,Non-fatal,missing RRs,TRUE,TRUE
+999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,9057.360352,429208,235491.3594,26,5,NA,NA,hr,NA,NA,235,1,LTPA,5,NA,NA,235491.3594,Non-fatal,missing RRs,TRUE,TRUE
+999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,2971.439941,429208,77257.4375,26,1,NA,NA,hr,NA,NA,109,1,LTPA,5,NA,NA,77257.4375,Non-fatal,missing RRs,TRUE,TRUE
+9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3468,244220,83035,25,4.73,NA,NA,rr,NA,NA,154,1,LTPA,6,NA,NA,83035,Non-fatal,missing RRs,TRUE,TRUE
+9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3468,244220,83035,25,18.79,NA,NA,rr,NA,NA,129,1,LTPA,6,NA,NA,83035,Non-fatal,missing RRs,TRUE,TRUE
+9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3264,244220,78150,25,36.16,NA,NA,rr,NA,NA,104,1,LTPA,6,NA,NA,78150,Non-fatal,missing RRs,TRUE,TRUE
+9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,1799.971564,11994,5399.914692,3,0,NA,NA,or,NA,NA,132,1,LTPA,7,NA,NA,5399.914692,Non-fatal,missing RRs,TRUE,TRUE
+9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,1267.949708,11994,3803.849124,3,5,NA,NA,or,NA,NA,58,1,LTPA,7,NA,NA,3803.849124,Non-fatal,missing RRs,TRUE,TRUE
+9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,930.078728,11994,2790.236184,3,11.25,NA,NA,or,NA,NA,54,1,LTPA,7,NA,NA,2790.236184,Non-fatal,missing RRs,TRUE,TRUE
+9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,3973,32835,21851.5,5.5,0,NA,NA,or,NA,NA,381,1,LTPA,1,NA,NA,21851.5,Both,missing RRs,TRUE,TRUE
+9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,903,32835,4966.5,5.5,9,NA,NA,or,NA,NA,84,1,LTPA,1,NA,NA,4966.5,Both,missing RRs,TRUE,TRUE
+9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,1094,32835,6017,5.5,22,NA,NA,or,NA,NA,129,1,LTPA,1,NA,NA,6017,Both,missing RRs,TRUE,TRUE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,303,173824,24206,8,15.62,NA,NA,hr,NA,NA,334,1,LTPA,2,NA,NA,24206,Both,missing RRs,TRUE,TRUE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,308,173824,24678,8,9.38,NA,NA,hr,NA,NA,435,1,LTPA,2,NA,NA,24678,Both,missing RRs,TRUE,TRUE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,296,173824,23689,8,3.12,NA,NA,hr,NA,NA,475,1,LTPA,2,NA,NA,23689,Both,missing RRs,TRUE,TRUE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,374,173824,29928,8,1.25,NA,NA,hr,NA,NA,780,1,LTPA,2,NA,NA,29928,Both,missing RRs,TRUE,TRUE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,970,173824,77639,8,0,NA,NA,hr,NA,NA,1921,1,LTPA,2,NA,NA,77639,Both,missing RRs,TRUE,TRUE
+9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,5597,163059,59193,10.5,3.29,NA,NA,hr,NA,NA,366,1,LTPA,3,NA,NA,59193,Both,missing RRs,TRUE,TRUE
+9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,3548,163059,37606,10.5,11.34,NA,NA,hr,NA,NA,193,1,LTPA,3,NA,NA,37606,Both,missing RRs,TRUE,TRUE
+9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,6343,163059,66260,10.5,19.66,NA,NA,hr,NA,NA,311,1,LTPA,3,NA,NA,66260,Both,missing RRs,TRUE,TRUE
+9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,4854.761129,267722,63111.89467,13,3.1,NA,NA,hr,NA,NA,80,1,LTPA,4,NA,NA,63111.89467,Both,missing RRs,TRUE,TRUE
+9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,7865.584561,267722,102252.5993,13,9.38,NA,NA,hr,NA,NA,111,1,LTPA,4,NA,NA,102252.5993,Both,missing RRs,TRUE,TRUE
+9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,7873.65431,267722,102357.506,13,15.62,NA,NA,hr,NA,NA,98,1,LTPA,4,NA,NA,102357.506,Both,missing RRs,TRUE,TRUE
+999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,4479.200195,429208,116459.2031,26,10.5,NA,NA,hr,NA,NA,92,1,LTPA,5,NA,NA,116459.2031,Both,missing RRs,TRUE,TRUE
+999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,9057.360352,429208,235491.3594,26,5,NA,NA,hr,NA,NA,235,1,LTPA,5,NA,NA,235491.3594,Both,missing RRs,TRUE,TRUE
+999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,2971.439941,429208,77257.4375,26,1,NA,NA,hr,NA,NA,109,1,LTPA,5,NA,NA,77257.4375,Both,missing RRs,TRUE,TRUE
+9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3468,244220,83035,25,4.73,NA,NA,rr,NA,NA,154,1,LTPA,6,NA,NA,83035,Both,missing RRs,TRUE,TRUE
+9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3468,244220,83035,25,18.79,NA,NA,rr,NA,NA,129,1,LTPA,6,NA,NA,83035,Both,missing RRs,TRUE,TRUE
+9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3264,244220,78150,25,36.16,NA,NA,rr,NA,NA,104,1,LTPA,6,NA,NA,78150,Both,missing RRs,TRUE,TRUE
+9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,1799.971564,11994,5399.914692,3,0,NA,NA,or,NA,NA,132,1,LTPA,7,NA,NA,5399.914692,Both,missing RRs,TRUE,TRUE
+9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,1267.949708,11994,3803.849124,3,5,NA,NA,or,NA,NA,58,1,LTPA,7,NA,NA,3803.849124,Both,missing RRs,TRUE,TRUE
+9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,930.078728,11994,2790.236184,3,11.25,NA,NA,or,NA,NA,54,1,LTPA,7,NA,NA,2790.236184,Both,missing RRs,TRUE,TRUE
 332,"Arem, H",Myeloid leukemia,Fatal,3,ci,293511,41165,3551483,498097,12.1,0,NA,NA,hr,NA,NA,54,1,LTPA,2,NA,NA,498097,Fatal,missing RRs,TRUE,TRUE
 332,"Arem, H",Myeloid leukemia,Fatal,3,ci,293511,31095,3551483,376250,12.1,1.25,NA,NA,hr,NA,NA,50,1,LTPA,2,NA,NA,376250,Fatal,missing RRs,TRUE,TRUE
 332,"Arem, H",Myeloid leukemia,Fatal,3,ci,293511,74502,3551483,901474,12.1,5,NA,NA,hr,NA,NA,81,1,LTPA,2,NA,NA,901474,Fatal,missing RRs,TRUE,TRUE
@@ -2057,208 +2057,208 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 196,"de Souto Barreto, P.",Coronary heart disease,Non-fatal,3,ci,47723,2500,214754,11250,4.5,1.31,NA,NA,hr,NA,NA,137,1,LTPA,26,NA,NA,11250,Both,missing RRs,TRUE,FALSE
 196,"de Souto Barreto, P.",Coronary heart disease,Non-fatal,3,ci,47723,6199,214754,27896,4.5,2.63,NA,NA,hr,NA,NA,354,1,LTPA,26,NA,NA,27896,Both,missing RRs,TRUE,FALSE
 196,"de Souto Barreto, P.",Coronary heart disease,Non-fatal,3,ci,47723,34505,214754,155273,4.5,3.94,NA,NA,hr,NA,NA,1728,1,LTPA,26,NA,NA,155273,Both,missing RRs,TRUE,FALSE
-991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,1250,31171,7625,6.1,0,NA,NA,or,NA,NA,161,1,LTPA,1,NA,NA,7625,Non-fatal,missing RRs,TRUE,FALSE
-991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,2109,31171,12864.9,6.1,2.65,NA,NA,or,NA,NA,304,1,LTPA,1,NA,NA,12864.9,Non-fatal,missing RRs,TRUE,FALSE
-991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,1751,31171,10681.1,6.1,9.29,NA,NA,or,NA,NA,176,1,LTPA,1,NA,NA,10681.1,Non-fatal,missing RRs,TRUE,FALSE
+9929,Cabello M.,Depression,Non-fatal,3,ir,5970,3973,32835,21851.5,5.5,0,NA,NA,or,NA,NA,381,1,LTPA,1,NA,NA,21851.5,Non-fatal,missing RRs,TRUE,FALSE
+9929,Cabello M.,Depression,Non-fatal,3,ir,5970,903,32835,4966.5,5.5,9,NA,NA,or,NA,NA,84,1,LTPA,1,NA,NA,4966.5,Non-fatal,missing RRs,TRUE,FALSE
+9929,Cabello M.,Depression,Non-fatal,3,ir,5970,1094,32835,6017,5.5,22,NA,NA,or,NA,NA,129,1,LTPA,1,NA,NA,6017,Non-fatal,missing RRs,TRUE,FALSE
 992,Camacho T.,Depression,Non-fatal,3,ir,3664,1173,32976,10557,9,6.4,NA,NA,or,NA,NA,252,1,LTPA,2,NA,NA,10557,Non-fatal,missing RRs,TRUE,FALSE
 992,Camacho T.,Depression,Non-fatal,3,ir,3664,1709,32976,15381,9,21,NA,NA,or,NA,NA,285,1,LTPA,2,NA,NA,15381,Non-fatal,missing RRs,TRUE,FALSE
 992,Camacho T.,Depression,Non-fatal,3,ir,3664,782,32976,7038,9,37,NA,NA,or,NA,NA,89,1,LTPA,2,NA,NA,7038,Non-fatal,missing RRs,TRUE,FALSE
-993,Pavey T.,Depression,Non-fatal,2,ir,12094,5034,36282,15102,3,0,NA,NA,or,NA,NA,1501,1,LTPA,3,NA,NA,15102,Non-fatal,missing RRs,TRUE,FALSE
-993,Pavey T.,Depression,Non-fatal,2,ir,12094,358,36282,1074,3,2.65,NA,NA,or,NA,NA,63,1,LTPA,3,NA,NA,1074,Non-fatal,missing RRs,TRUE,FALSE
-993,Pavey T.,Depression,Non-fatal,2,ir,12094,1160,36282,3480,3,9.29,NA,NA,or,NA,NA,156,1,LTPA,3,NA,NA,3480,Non-fatal,missing RRs,TRUE,FALSE
-993,Pavey T.,Depression,Non-fatal,2,ir,12094,1454,36282,4362,3,16.18,NA,NA,or,NA,NA,186,1,LTPA,3,NA,NA,4362,Non-fatal,missing RRs,TRUE,FALSE
-993,Pavey T.,Depression,Non-fatal,2,ir,12094,1495,36282,4485,3,23.17,NA,NA,or,NA,NA,187,1,LTPA,3,NA,NA,4485,Non-fatal,missing RRs,TRUE,FALSE
-993,Pavey T.,Depression,Non-fatal,2,ir,12094,2593,36282,7779,3,30.21,NA,NA,or,NA,NA,325,1,LTPA,3,NA,NA,7779,Non-fatal,missing RRs,TRUE,FALSE
-994,Wise L.,Depression,Non-fatal,2,ir,35224,8437,140896,33748,4,0,NA,NA,or,NA,NA,2488.915,1,LTPA,4,NA,NA,33748,Non-fatal,missing RRs,TRUE,FALSE
-994,Wise L.,Depression,Non-fatal,2,ir,35224,8852,140896,35408,4,3.5,NA,NA,or,NA,NA,2478.56,1,LTPA,4,NA,NA,35408,Non-fatal,missing RRs,TRUE,FALSE
-994,Wise L.,Depression,Non-fatal,2,ir,35224,5900,140896,23600,4,7,NA,NA,or,NA,NA,1581.2,1,LTPA,4,NA,NA,23600,Non-fatal,missing RRs,TRUE,FALSE
-994,Wise L.,Depression,Non-fatal,2,ir,35224,4692,140896,18768,4,14,NA,NA,or,NA,NA,1116.696,1,LTPA,4,NA,NA,18768,Non-fatal,missing RRs,TRUE,FALSE
-994,Wise L.,Depression,Non-fatal,2,ir,35224,3775,140896,15100,4,24.5,NA,NA,or,NA,NA,879.575,1,LTPA,4,NA,NA,15100,Non-fatal,missing RRs,TRUE,FALSE
-994,Wise L.,Depression,Non-fatal,2,ir,35224,2139,140896,8556,4,38.5,NA,NA,or,NA,NA,562.557,1,LTPA,4,NA,NA,8556,Non-fatal,missing RRs,TRUE,FALSE
-994,Wise L.,Depression,Non-fatal,2,ir,35224,1429,140896,5716,4,52.5,NA,NA,or,NA,NA,357.25,1,LTPA,4,NA,NA,5716,Non-fatal,missing RRs,TRUE,FALSE
-999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,4479.200195,429208,116459.2031,26,13.5,NA,NA,hr,NA,NA,92,1,LTPA,5,NA,NA,116459.2031,Non-fatal,missing RRs,TRUE,FALSE
-999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,9057.360352,429208,235491.3594,26,4.5,NA,NA,hr,NA,NA,235,1,LTPA,5,NA,NA,235491.3594,Non-fatal,missing RRs,TRUE,FALSE
-999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,2971.439941,429208,77257.4375,26,0.75,NA,NA,hr,NA,NA,109,1,LTPA,5,NA,NA,77257.4375,Non-fatal,missing RRs,TRUE,FALSE
-9910,Hamer M.,Depression,Non-fatal,3,ir,4323,674,17292,2696,4,0.84,NA,NA,or,NA,NA,108,1,LTPA,6,NA,NA,2696,Non-fatal,missing RRs,TRUE,FALSE
-9910,Hamer M.,Depression,Non-fatal,3,ir,4323,2142,17292,8568,4,3.94,NA,NA,or,NA,NA,161,1,LTPA,6,NA,NA,8568,Non-fatal,missing RRs,TRUE,FALSE
-9910,Hamer M.,Depression,Non-fatal,3,ir,4323,1507,17292,6028,4,7.88,NA,NA,or,NA,NA,79,1,LTPA,6,NA,NA,6028,Non-fatal,missing RRs,TRUE,FALSE
-9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,4.73,NA,NA,rr,NA,NA,154,1,LTPA,7,NA,NA,83035,Non-fatal,missing RRs,TRUE,FALSE
-9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,18.79,NA,NA,rr,NA,NA,129,1,LTPA,7,NA,NA,83035,Non-fatal,missing RRs,TRUE,FALSE
-9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3264,244220,78150,25,36.16,NA,NA,rr,NA,NA,104,1,LTPA,7,NA,NA,78150,Non-fatal,missing RRs,TRUE,FALSE
-9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,17704,135747,82641,4.7,43.52,NA,NA,hr,NA,NA,3954,1,LTPA,8,NA,NA,82641,Non-fatal,missing RRs,TRUE,FALSE
-9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,2753,135747,12860,4.7,0.96,NA,NA,hr,NA,NA,603,1,LTPA,8,NA,NA,12860,Non-fatal,missing RRs,TRUE,FALSE
-9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,2627,135747,12255,4.7,4.17,NA,NA,hr,NA,NA,516,1,LTPA,8,NA,NA,12255,Non-fatal,missing RRs,TRUE,FALSE
-9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,3422,135747,15983,4.7,8.88,NA,NA,hr,NA,NA,650,1,LTPA,8,NA,NA,15983,Non-fatal,missing RRs,TRUE,FALSE
-9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,1284,135747,5984,4.7,16.32,NA,NA,hr,NA,NA,209,1,LTPA,8,NA,NA,5984,Non-fatal,missing RRs,TRUE,FALSE
-9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,1292,135747,6024,4.7,23.87,NA,NA,hr,NA,NA,245,1,LTPA,8,NA,NA,6024,Non-fatal,missing RRs,TRUE,FALSE
-9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1799.971564,11994,5399.914692,3,0,NA,NA,or,NA,NA,132,1,LTPA,9,NA,NA,5399.914692,Non-fatal,missing RRs,TRUE,FALSE
-9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1267.949708,11994,3803.849124,3,7,NA,NA,or,NA,NA,58,1,LTPA,9,NA,NA,3803.849124,Non-fatal,missing RRs,TRUE,FALSE
-9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,930.078728,11994,2790.236184,3,15.75,NA,NA,or,NA,NA,54,1,LTPA,9,NA,NA,2790.236184,Non-fatal,missing RRs,TRUE,FALSE
-9925,Harvey S.,Depression,Non-fatal,3,ir,22564,2818.836969,248204,31007.20666,11,0,NA,NA,or,NA,NA,277,1,LTPA,10,NA,NA,31007.20666,Non-fatal,missing RRs,TRUE,FALSE
-9925,Harvey S.,Depression,Non-fatal,3,ir,22564,5688.396374,248204,62572.36011,11,0.88,NA,NA,or,NA,NA,427,1,LTPA,10,NA,NA,62572.36011,Non-fatal,missing RRs,TRUE,FALSE
-9925,Harvey S.,Depression,Non-fatal,3,ir,22564,5411.501769,248204,59526.51946,11,2.62,NA,NA,or,NA,NA,359,1,LTPA,10,NA,NA,59526.51946,Non-fatal,missing RRs,TRUE,FALSE
-9925,Harvey S.,Depression,Non-fatal,3,ir,22564,4509.307636,248204,49602.384,11,5.25,NA,NA,or,NA,NA,262,1,LTPA,10,NA,NA,49602.384,Non-fatal,missing RRs,TRUE,FALSE
-9925,Harvey S.,Depression,Non-fatal,3,ir,22564,2144.478037,248204,23589.25841,11,10.5,NA,NA,or,NA,NA,135,1,LTPA,10,NA,NA,23589.25841,Non-fatal,missing RRs,TRUE,FALSE
-9925,Harvey S.,Depression,Non-fatal,3,ir,22564,1991.479216,248204,21906.27138,11,17.5,NA,NA,or,NA,NA,119,1,LTPA,10,NA,NA,21906.27138,Non-fatal,missing RRs,TRUE,FALSE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,303,173824,24206,8,21.88,NA,NA,hr,NA,NA,334,1,LTPA,11,NA,NA,24206,Non-fatal,missing RRs,TRUE,FALSE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,308,173824,24678,8,13.12,NA,NA,hr,NA,NA,435,1,LTPA,11,NA,NA,24678,Non-fatal,missing RRs,TRUE,FALSE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,296,173824,23689,8,4.38,NA,NA,hr,NA,NA,475,1,LTPA,11,NA,NA,23689,Non-fatal,missing RRs,TRUE,FALSE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,374,173824,29928,8,1.75,NA,NA,hr,NA,NA,780,1,LTPA,11,NA,NA,29928,Non-fatal,missing RRs,TRUE,FALSE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,970,173824,77639,8,0,NA,NA,hr,NA,NA,1921,1,LTPA,11,NA,NA,77639,Non-fatal,missing RRs,TRUE,FALSE
-9929,Cabello M.,Depression,Non-fatal,3,ir,5970,3973,32835,21851.5,5.5,0,NA,NA,or,NA,NA,381,1,LTPA,12,NA,NA,21851.5,Non-fatal,missing RRs,TRUE,FALSE
-9929,Cabello M.,Depression,Non-fatal,3,ir,5970,903,32835,4966.5,5.5,9,NA,NA,or,NA,NA,84,1,LTPA,12,NA,NA,4966.5,Non-fatal,missing RRs,TRUE,FALSE
-9929,Cabello M.,Depression,Non-fatal,3,ir,5970,1094,32835,6017,5.5,22,NA,NA,or,NA,NA,129,1,LTPA,12,NA,NA,6017,Non-fatal,missing RRs,TRUE,FALSE
-9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,5597,163059,59193,10.5,3.29,NA,NA,hr,NA,NA,366,1,LTPA,13,NA,NA,59193,Non-fatal,missing RRs,TRUE,FALSE
-9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,3548,163059,37606,10.5,11.34,NA,NA,hr,NA,NA,193,1,LTPA,13,NA,NA,37606,Non-fatal,missing RRs,TRUE,FALSE
-9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,6343,163059,66260,10.5,19.66,NA,NA,hr,NA,NA,311,1,LTPA,13,NA,NA,66260,Non-fatal,missing RRs,TRUE,FALSE
-9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,0.37,NA,NA,or,NA,NA,191.8544,1,LTPA,14,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,FALSE
-9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,3.44,NA,NA,or,NA,NA,157.775,1,LTPA,14,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,FALSE
-9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,8.88,NA,NA,or,NA,NA,150.2018,1,LTPA,14,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,FALSE
-9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,18.16,NA,NA,or,NA,NA,155.2506,1,LTPA,14,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,FALSE
-9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,48.04,NA,NA,or,NA,NA,132.531,1,LTPA,14,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,FALSE
-9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,4854.761129,267722,63111.89467,13,4.35,NA,NA,hr,NA,NA,80,1,LTPA,15,NA,NA,63111.89467,Non-fatal,missing RRs,TRUE,FALSE
-9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7865.584561,267722,102252.5993,13,13.12,NA,NA,hr,NA,NA,111,1,LTPA,15,NA,NA,102252.5993,Non-fatal,missing RRs,TRUE,FALSE
-9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7873.65431,267722,102357.506,13,21.88,NA,NA,hr,NA,NA,98,1,LTPA,15,NA,NA,102357.506,Non-fatal,missing RRs,TRUE,FALSE
-991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,1250,31171,7625,6.1,0,NA,NA,or,NA,NA,161,1,LTPA,1,NA,NA,7625,Both,missing RRs,TRUE,FALSE
-991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,2109,31171,12864.9,6.1,2.65,NA,NA,or,NA,NA,304,1,LTPA,1,NA,NA,12864.9,Both,missing RRs,TRUE,FALSE
-991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,1751,31171,10681.1,6.1,9.29,NA,NA,or,NA,NA,176,1,LTPA,1,NA,NA,10681.1,Both,missing RRs,TRUE,FALSE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,303,173824,24206,8,21.88,NA,NA,hr,NA,NA,334,1,LTPA,3,NA,NA,24206,Non-fatal,missing RRs,TRUE,FALSE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,308,173824,24678,8,13.12,NA,NA,hr,NA,NA,435,1,LTPA,3,NA,NA,24678,Non-fatal,missing RRs,TRUE,FALSE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,296,173824,23689,8,4.38,NA,NA,hr,NA,NA,475,1,LTPA,3,NA,NA,23689,Non-fatal,missing RRs,TRUE,FALSE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,374,173824,29928,8,1.75,NA,NA,hr,NA,NA,780,1,LTPA,3,NA,NA,29928,Non-fatal,missing RRs,TRUE,FALSE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,970,173824,77639,8,0,NA,NA,hr,NA,NA,1921,1,LTPA,3,NA,NA,77639,Non-fatal,missing RRs,TRUE,FALSE
+991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,1250,31171,7625,6.1,0,NA,NA,or,NA,NA,161,1,LTPA,4,NA,NA,7625,Non-fatal,missing RRs,TRUE,FALSE
+991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,2109,31171,12864.9,6.1,2.65,NA,NA,or,NA,NA,304,1,LTPA,4,NA,NA,12864.9,Non-fatal,missing RRs,TRUE,FALSE
+991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,1751,31171,10681.1,6.1,9.29,NA,NA,or,NA,NA,176,1,LTPA,4,NA,NA,10681.1,Non-fatal,missing RRs,TRUE,FALSE
+9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,5597,163059,59193,10.5,3.29,NA,NA,hr,NA,NA,366,1,LTPA,5,NA,NA,59193,Non-fatal,missing RRs,TRUE,FALSE
+9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,3548,163059,37606,10.5,11.34,NA,NA,hr,NA,NA,193,1,LTPA,5,NA,NA,37606,Non-fatal,missing RRs,TRUE,FALSE
+9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,6343,163059,66260,10.5,19.66,NA,NA,hr,NA,NA,311,1,LTPA,5,NA,NA,66260,Non-fatal,missing RRs,TRUE,FALSE
+9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,4854.761129,267722,63111.89467,13,4.35,NA,NA,hr,NA,NA,80,1,LTPA,6,NA,NA,63111.89467,Non-fatal,missing RRs,TRUE,FALSE
+9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7865.584561,267722,102252.5993,13,13.12,NA,NA,hr,NA,NA,111,1,LTPA,6,NA,NA,102252.5993,Non-fatal,missing RRs,TRUE,FALSE
+9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7873.65431,267722,102357.506,13,21.88,NA,NA,hr,NA,NA,98,1,LTPA,6,NA,NA,102357.506,Non-fatal,missing RRs,TRUE,FALSE
+9910,Hamer M.,Depression,Non-fatal,3,ir,4323,674,17292,2696,4,0.84,NA,NA,or,NA,NA,108,1,LTPA,7,NA,NA,2696,Non-fatal,missing RRs,TRUE,FALSE
+9910,Hamer M.,Depression,Non-fatal,3,ir,4323,2142,17292,8568,4,3.94,NA,NA,or,NA,NA,161,1,LTPA,7,NA,NA,8568,Non-fatal,missing RRs,TRUE,FALSE
+9910,Hamer M.,Depression,Non-fatal,3,ir,4323,1507,17292,6028,4,7.88,NA,NA,or,NA,NA,79,1,LTPA,7,NA,NA,6028,Non-fatal,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,2818.836969,248204,31007.20666,11,0,NA,NA,or,NA,NA,277,1,LTPA,8,NA,NA,31007.20666,Non-fatal,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,5688.396374,248204,62572.36011,11,0.88,NA,NA,or,NA,NA,427,1,LTPA,8,NA,NA,62572.36011,Non-fatal,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,5411.501769,248204,59526.51946,11,2.62,NA,NA,or,NA,NA,359,1,LTPA,8,NA,NA,59526.51946,Non-fatal,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,4509.307636,248204,49602.384,11,5.25,NA,NA,or,NA,NA,262,1,LTPA,8,NA,NA,49602.384,Non-fatal,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,2144.478037,248204,23589.25841,11,10.5,NA,NA,or,NA,NA,135,1,LTPA,8,NA,NA,23589.25841,Non-fatal,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,1991.479216,248204,21906.27138,11,17.5,NA,NA,or,NA,NA,119,1,LTPA,8,NA,NA,21906.27138,Non-fatal,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,0.37,NA,NA,or,NA,NA,191.8544,1,LTPA,9,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,3.44,NA,NA,or,NA,NA,157.775,1,LTPA,9,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,8.88,NA,NA,or,NA,NA,150.2018,1,LTPA,9,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,18.16,NA,NA,or,NA,NA,155.2506,1,LTPA,9,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,48.04,NA,NA,or,NA,NA,132.531,1,LTPA,9,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,FALSE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,17704,135747,82641,4.7,0,NA,NA,hr,NA,NA,3954,1,LTPA,10,NA,NA,82641,Non-fatal,missing RRs,TRUE,FALSE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,2753,135747,12860,4.7,0.96,NA,NA,hr,NA,NA,603,1,LTPA,10,NA,NA,12860,Non-fatal,missing RRs,TRUE,FALSE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,2627,135747,12255,4.7,4.17,NA,NA,hr,NA,NA,516,1,LTPA,10,NA,NA,12255,Non-fatal,missing RRs,TRUE,FALSE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,3422,135747,15983,4.7,8.88,NA,NA,hr,NA,NA,650,1,LTPA,10,NA,NA,15983,Non-fatal,missing RRs,TRUE,FALSE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,1284,135747,5984,4.7,16.32,NA,NA,hr,NA,NA,209,1,LTPA,10,NA,NA,5984,Non-fatal,missing RRs,TRUE,FALSE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,1292,135747,6024,4.7,23.87,NA,NA,hr,NA,NA,245,1,LTPA,10,NA,NA,6024,Non-fatal,missing RRs,TRUE,FALSE
+999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,4479.200195,429208,116459.2031,26,13.5,NA,NA,hr,NA,NA,92,1,LTPA,11,NA,NA,116459.2031,Non-fatal,missing RRs,TRUE,FALSE
+999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,9057.360352,429208,235491.3594,26,4.5,NA,NA,hr,NA,NA,235,1,LTPA,11,NA,NA,235491.3594,Non-fatal,missing RRs,TRUE,FALSE
+999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,2971.439941,429208,77257.4375,26,0.75,NA,NA,hr,NA,NA,109,1,LTPA,11,NA,NA,77257.4375,Non-fatal,missing RRs,TRUE,FALSE
+9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,4.73,NA,NA,rr,NA,NA,154,1,LTPA,12,NA,NA,83035,Non-fatal,missing RRs,TRUE,FALSE
+9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,18.79,NA,NA,rr,NA,NA,129,1,LTPA,12,NA,NA,83035,Non-fatal,missing RRs,TRUE,FALSE
+9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3264,244220,78150,25,36.16,NA,NA,rr,NA,NA,104,1,LTPA,12,NA,NA,78150,Non-fatal,missing RRs,TRUE,FALSE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,5034,36282,15102,3,0,NA,NA,or,NA,NA,1501,1,LTPA,13,NA,NA,15102,Non-fatal,missing RRs,TRUE,FALSE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,358,36282,1074,3,2.65,NA,NA,or,NA,NA,63,1,LTPA,13,NA,NA,1074,Non-fatal,missing RRs,TRUE,FALSE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,1160,36282,3480,3,9.29,NA,NA,or,NA,NA,156,1,LTPA,13,NA,NA,3480,Non-fatal,missing RRs,TRUE,FALSE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,1454,36282,4362,3,16.18,NA,NA,or,NA,NA,186,1,LTPA,13,NA,NA,4362,Non-fatal,missing RRs,TRUE,FALSE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,1495,36282,4485,3,23.17,NA,NA,or,NA,NA,187,1,LTPA,13,NA,NA,4485,Non-fatal,missing RRs,TRUE,FALSE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,2593,36282,7779,3,30.21,NA,NA,or,NA,NA,325,1,LTPA,13,NA,NA,7779,Non-fatal,missing RRs,TRUE,FALSE
+9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1799.971564,11994,5399.914692,3,0,NA,NA,or,NA,NA,132,1,LTPA,14,NA,NA,5399.914692,Non-fatal,missing RRs,TRUE,FALSE
+9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1267.949708,11994,3803.849124,3,7,NA,NA,or,NA,NA,58,1,LTPA,14,NA,NA,3803.849124,Non-fatal,missing RRs,TRUE,FALSE
+9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,930.078728,11994,2790.236184,3,15.75,NA,NA,or,NA,NA,54,1,LTPA,14,NA,NA,2790.236184,Non-fatal,missing RRs,TRUE,FALSE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,8437,140896,33748,4,0,NA,NA,or,NA,NA,2488.915,1,LTPA,15,NA,NA,33748,Non-fatal,missing RRs,TRUE,FALSE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,8852,140896,35408,4,3.5,NA,NA,or,NA,NA,2478.56,1,LTPA,15,NA,NA,35408,Non-fatal,missing RRs,TRUE,FALSE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,5900,140896,23600,4,7,NA,NA,or,NA,NA,1581.2,1,LTPA,15,NA,NA,23600,Non-fatal,missing RRs,TRUE,FALSE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,4692,140896,18768,4,14,NA,NA,or,NA,NA,1116.696,1,LTPA,15,NA,NA,18768,Non-fatal,missing RRs,TRUE,FALSE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,3775,140896,15100,4,24.5,NA,NA,or,NA,NA,879.575,1,LTPA,15,NA,NA,15100,Non-fatal,missing RRs,TRUE,FALSE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,2139,140896,8556,4,38.5,NA,NA,or,NA,NA,562.557,1,LTPA,15,NA,NA,8556,Non-fatal,missing RRs,TRUE,FALSE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,1429,140896,5716,4,52.5,NA,NA,or,NA,NA,357.25,1,LTPA,15,NA,NA,5716,Non-fatal,missing RRs,TRUE,FALSE
+9929,Cabello M.,Depression,Non-fatal,3,ir,5970,3973,32835,21851.5,5.5,0,NA,NA,or,NA,NA,381,1,LTPA,1,NA,NA,21851.5,Both,missing RRs,TRUE,FALSE
+9929,Cabello M.,Depression,Non-fatal,3,ir,5970,903,32835,4966.5,5.5,9,NA,NA,or,NA,NA,84,1,LTPA,1,NA,NA,4966.5,Both,missing RRs,TRUE,FALSE
+9929,Cabello M.,Depression,Non-fatal,3,ir,5970,1094,32835,6017,5.5,22,NA,NA,or,NA,NA,129,1,LTPA,1,NA,NA,6017,Both,missing RRs,TRUE,FALSE
 992,Camacho T.,Depression,Non-fatal,3,ir,3664,1173,32976,10557,9,6.4,NA,NA,or,NA,NA,252,1,LTPA,2,NA,NA,10557,Both,missing RRs,TRUE,FALSE
 992,Camacho T.,Depression,Non-fatal,3,ir,3664,1709,32976,15381,9,21,NA,NA,or,NA,NA,285,1,LTPA,2,NA,NA,15381,Both,missing RRs,TRUE,FALSE
 992,Camacho T.,Depression,Non-fatal,3,ir,3664,782,32976,7038,9,37,NA,NA,or,NA,NA,89,1,LTPA,2,NA,NA,7038,Both,missing RRs,TRUE,FALSE
-993,Pavey T.,Depression,Non-fatal,2,ir,12094,5034,36282,15102,3,0,NA,NA,or,NA,NA,1501,1,LTPA,3,NA,NA,15102,Both,missing RRs,TRUE,FALSE
-993,Pavey T.,Depression,Non-fatal,2,ir,12094,358,36282,1074,3,2.65,NA,NA,or,NA,NA,63,1,LTPA,3,NA,NA,1074,Both,missing RRs,TRUE,FALSE
-993,Pavey T.,Depression,Non-fatal,2,ir,12094,1160,36282,3480,3,9.29,NA,NA,or,NA,NA,156,1,LTPA,3,NA,NA,3480,Both,missing RRs,TRUE,FALSE
-993,Pavey T.,Depression,Non-fatal,2,ir,12094,1454,36282,4362,3,16.18,NA,NA,or,NA,NA,186,1,LTPA,3,NA,NA,4362,Both,missing RRs,TRUE,FALSE
-993,Pavey T.,Depression,Non-fatal,2,ir,12094,1495,36282,4485,3,23.17,NA,NA,or,NA,NA,187,1,LTPA,3,NA,NA,4485,Both,missing RRs,TRUE,FALSE
-993,Pavey T.,Depression,Non-fatal,2,ir,12094,2593,36282,7779,3,30.21,NA,NA,or,NA,NA,325,1,LTPA,3,NA,NA,7779,Both,missing RRs,TRUE,FALSE
-994,Wise L.,Depression,Non-fatal,2,ir,35224,8437,140896,33748,4,0,NA,NA,or,NA,NA,2488.915,1,LTPA,4,NA,NA,33748,Both,missing RRs,TRUE,FALSE
-994,Wise L.,Depression,Non-fatal,2,ir,35224,8852,140896,35408,4,3.5,NA,NA,or,NA,NA,2478.56,1,LTPA,4,NA,NA,35408,Both,missing RRs,TRUE,FALSE
-994,Wise L.,Depression,Non-fatal,2,ir,35224,5900,140896,23600,4,7,NA,NA,or,NA,NA,1581.2,1,LTPA,4,NA,NA,23600,Both,missing RRs,TRUE,FALSE
-994,Wise L.,Depression,Non-fatal,2,ir,35224,4692,140896,18768,4,14,NA,NA,or,NA,NA,1116.696,1,LTPA,4,NA,NA,18768,Both,missing RRs,TRUE,FALSE
-994,Wise L.,Depression,Non-fatal,2,ir,35224,3775,140896,15100,4,24.5,NA,NA,or,NA,NA,879.575,1,LTPA,4,NA,NA,15100,Both,missing RRs,TRUE,FALSE
-994,Wise L.,Depression,Non-fatal,2,ir,35224,2139,140896,8556,4,38.5,NA,NA,or,NA,NA,562.557,1,LTPA,4,NA,NA,8556,Both,missing RRs,TRUE,FALSE
-994,Wise L.,Depression,Non-fatal,2,ir,35224,1429,140896,5716,4,52.5,NA,NA,or,NA,NA,357.25,1,LTPA,4,NA,NA,5716,Both,missing RRs,TRUE,FALSE
-999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,4479.200195,429208,116459.2031,26,13.5,NA,NA,hr,NA,NA,92,1,LTPA,5,NA,NA,116459.2031,Both,missing RRs,TRUE,FALSE
-999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,9057.360352,429208,235491.3594,26,4.5,NA,NA,hr,NA,NA,235,1,LTPA,5,NA,NA,235491.3594,Both,missing RRs,TRUE,FALSE
-999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,2971.439941,429208,77257.4375,26,0.75,NA,NA,hr,NA,NA,109,1,LTPA,5,NA,NA,77257.4375,Both,missing RRs,TRUE,FALSE
-9910,Hamer M.,Depression,Non-fatal,3,ir,4323,674,17292,2696,4,0.84,NA,NA,or,NA,NA,108,1,LTPA,6,NA,NA,2696,Both,missing RRs,TRUE,FALSE
-9910,Hamer M.,Depression,Non-fatal,3,ir,4323,2142,17292,8568,4,3.94,NA,NA,or,NA,NA,161,1,LTPA,6,NA,NA,8568,Both,missing RRs,TRUE,FALSE
-9910,Hamer M.,Depression,Non-fatal,3,ir,4323,1507,17292,6028,4,7.88,NA,NA,or,NA,NA,79,1,LTPA,6,NA,NA,6028,Both,missing RRs,TRUE,FALSE
-9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,4.73,NA,NA,rr,NA,NA,154,1,LTPA,7,NA,NA,83035,Both,missing RRs,TRUE,FALSE
-9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,18.79,NA,NA,rr,NA,NA,129,1,LTPA,7,NA,NA,83035,Both,missing RRs,TRUE,FALSE
-9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3264,244220,78150,25,36.16,NA,NA,rr,NA,NA,104,1,LTPA,7,NA,NA,78150,Both,missing RRs,TRUE,FALSE
-9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,17704,135747,82641,4.7,43.52,NA,NA,hr,NA,NA,3954,1,LTPA,8,NA,NA,82641,Both,missing RRs,TRUE,FALSE
-9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,2753,135747,12860,4.7,0.96,NA,NA,hr,NA,NA,603,1,LTPA,8,NA,NA,12860,Both,missing RRs,TRUE,FALSE
-9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,2627,135747,12255,4.7,4.17,NA,NA,hr,NA,NA,516,1,LTPA,8,NA,NA,12255,Both,missing RRs,TRUE,FALSE
-9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,3422,135747,15983,4.7,8.88,NA,NA,hr,NA,NA,650,1,LTPA,8,NA,NA,15983,Both,missing RRs,TRUE,FALSE
-9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,1284,135747,5984,4.7,16.32,NA,NA,hr,NA,NA,209,1,LTPA,8,NA,NA,5984,Both,missing RRs,TRUE,FALSE
-9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,1292,135747,6024,4.7,23.87,NA,NA,hr,NA,NA,245,1,LTPA,8,NA,NA,6024,Both,missing RRs,TRUE,FALSE
-9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1799.971564,11994,5399.914692,3,0,NA,NA,or,NA,NA,132,1,LTPA,9,NA,NA,5399.914692,Both,missing RRs,TRUE,FALSE
-9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1267.949708,11994,3803.849124,3,7,NA,NA,or,NA,NA,58,1,LTPA,9,NA,NA,3803.849124,Both,missing RRs,TRUE,FALSE
-9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,930.078728,11994,2790.236184,3,15.75,NA,NA,or,NA,NA,54,1,LTPA,9,NA,NA,2790.236184,Both,missing RRs,TRUE,FALSE
-9925,Harvey S.,Depression,Non-fatal,3,ir,22564,2818.836969,248204,31007.20666,11,0,NA,NA,or,NA,NA,277,1,LTPA,10,NA,NA,31007.20666,Both,missing RRs,TRUE,FALSE
-9925,Harvey S.,Depression,Non-fatal,3,ir,22564,5688.396374,248204,62572.36011,11,0.88,NA,NA,or,NA,NA,427,1,LTPA,10,NA,NA,62572.36011,Both,missing RRs,TRUE,FALSE
-9925,Harvey S.,Depression,Non-fatal,3,ir,22564,5411.501769,248204,59526.51946,11,2.62,NA,NA,or,NA,NA,359,1,LTPA,10,NA,NA,59526.51946,Both,missing RRs,TRUE,FALSE
-9925,Harvey S.,Depression,Non-fatal,3,ir,22564,4509.307636,248204,49602.384,11,5.25,NA,NA,or,NA,NA,262,1,LTPA,10,NA,NA,49602.384,Both,missing RRs,TRUE,FALSE
-9925,Harvey S.,Depression,Non-fatal,3,ir,22564,2144.478037,248204,23589.25841,11,10.5,NA,NA,or,NA,NA,135,1,LTPA,10,NA,NA,23589.25841,Both,missing RRs,TRUE,FALSE
-9925,Harvey S.,Depression,Non-fatal,3,ir,22564,1991.479216,248204,21906.27138,11,17.5,NA,NA,or,NA,NA,119,1,LTPA,10,NA,NA,21906.27138,Both,missing RRs,TRUE,FALSE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,303,173824,24206,8,21.88,NA,NA,hr,NA,NA,334,1,LTPA,11,NA,NA,24206,Both,missing RRs,TRUE,FALSE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,308,173824,24678,8,13.12,NA,NA,hr,NA,NA,435,1,LTPA,11,NA,NA,24678,Both,missing RRs,TRUE,FALSE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,296,173824,23689,8,4.38,NA,NA,hr,NA,NA,475,1,LTPA,11,NA,NA,23689,Both,missing RRs,TRUE,FALSE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,374,173824,29928,8,1.75,NA,NA,hr,NA,NA,780,1,LTPA,11,NA,NA,29928,Both,missing RRs,TRUE,FALSE
-9926,Chang S.,Depression,Non-fatal,2,ci,21728,970,173824,77639,8,0,NA,NA,hr,NA,NA,1921,1,LTPA,11,NA,NA,77639,Both,missing RRs,TRUE,FALSE
-9929,Cabello M.,Depression,Non-fatal,3,ir,5970,3973,32835,21851.5,5.5,0,NA,NA,or,NA,NA,381,1,LTPA,12,NA,NA,21851.5,Both,missing RRs,TRUE,FALSE
-9929,Cabello M.,Depression,Non-fatal,3,ir,5970,903,32835,4966.5,5.5,9,NA,NA,or,NA,NA,84,1,LTPA,12,NA,NA,4966.5,Both,missing RRs,TRUE,FALSE
-9929,Cabello M.,Depression,Non-fatal,3,ir,5970,1094,32835,6017,5.5,22,NA,NA,or,NA,NA,129,1,LTPA,12,NA,NA,6017,Both,missing RRs,TRUE,FALSE
-9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,5597,163059,59193,10.5,3.29,NA,NA,hr,NA,NA,366,1,LTPA,13,NA,NA,59193,Both,missing RRs,TRUE,FALSE
-9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,3548,163059,37606,10.5,11.34,NA,NA,hr,NA,NA,193,1,LTPA,13,NA,NA,37606,Both,missing RRs,TRUE,FALSE
-9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,6343,163059,66260,10.5,19.66,NA,NA,hr,NA,NA,311,1,LTPA,13,NA,NA,66260,Both,missing RRs,TRUE,FALSE
-9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,0.37,NA,NA,or,NA,NA,191.8544,1,LTPA,14,NA,NA,27768.4,Both,missing RRs,TRUE,FALSE
-9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,3.44,NA,NA,or,NA,NA,157.775,1,LTPA,14,NA,NA,27768.4,Both,missing RRs,TRUE,FALSE
-9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,8.88,NA,NA,or,NA,NA,150.2018,1,LTPA,14,NA,NA,27768.4,Both,missing RRs,TRUE,FALSE
-9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,18.16,NA,NA,or,NA,NA,155.2506,1,LTPA,14,NA,NA,27768.4,Both,missing RRs,TRUE,FALSE
-9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,48.04,NA,NA,or,NA,NA,132.531,1,LTPA,14,NA,NA,27768.4,Both,missing RRs,TRUE,FALSE
-9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,4854.761129,267722,63111.89467,13,4.35,NA,NA,hr,NA,NA,80,1,LTPA,15,NA,NA,63111.89467,Both,missing RRs,TRUE,FALSE
-9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7865.584561,267722,102252.5993,13,13.12,NA,NA,hr,NA,NA,111,1,LTPA,15,NA,NA,102252.5993,Both,missing RRs,TRUE,FALSE
-9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7873.65431,267722,102357.506,13,21.88,NA,NA,hr,NA,NA,98,1,LTPA,15,NA,NA,102357.506,Both,missing RRs,TRUE,FALSE
-991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,1250,31171,7625,6.1,0,NA,NA,or,NA,NA,161,1,LTPA,1,NA,NA,7625,Non-fatal,missing RRs,TRUE,FALSE
-991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,2109,31171,12864.9,6.1,2.65,NA,NA,or,NA,NA,304,1,LTPA,1,NA,NA,12864.9,Non-fatal,missing RRs,TRUE,FALSE
-991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,1751,31171,10681.1,6.1,9.29,NA,NA,or,NA,NA,176,1,LTPA,1,NA,NA,10681.1,Non-fatal,missing RRs,TRUE,FALSE
-992,Camacho T.,Depressive symptoms,Non-fatal,3,ir,3664,1173,32976,10557,9,6.4,NA,NA,or,NA,NA,252,1,LTPA,2,NA,NA,10557,Non-fatal,missing RRs,TRUE,FALSE
-992,Camacho T.,Depressive symptoms,Non-fatal,3,ir,3664,1709,32976,15381,9,21,NA,NA,or,NA,NA,285,1,LTPA,2,NA,NA,15381,Non-fatal,missing RRs,TRUE,FALSE
-992,Camacho T.,Depressive symptoms,Non-fatal,3,ir,3664,782,32976,7038,9,37,NA,NA,or,NA,NA,89,1,LTPA,2,NA,NA,7038,Non-fatal,missing RRs,TRUE,FALSE
-993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,5034,36282,15102,3,0,NA,NA,or,NA,NA,1501,1,LTPA,3,NA,NA,15102,Non-fatal,missing RRs,TRUE,FALSE
-993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,358,36282,1074,3,2.65,NA,NA,or,NA,NA,63,1,LTPA,3,NA,NA,1074,Non-fatal,missing RRs,TRUE,FALSE
-993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,1160,36282,3480,3,9.29,NA,NA,or,NA,NA,156,1,LTPA,3,NA,NA,3480,Non-fatal,missing RRs,TRUE,FALSE
-993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,1454,36282,4362,3,16.18,NA,NA,or,NA,NA,186,1,LTPA,3,NA,NA,4362,Non-fatal,missing RRs,TRUE,FALSE
-993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,1495,36282,4485,3,23.17,NA,NA,or,NA,NA,187,1,LTPA,3,NA,NA,4485,Non-fatal,missing RRs,TRUE,FALSE
-993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,2593,36282,7779,3,30.21,NA,NA,or,NA,NA,325,1,LTPA,3,NA,NA,7779,Non-fatal,missing RRs,TRUE,FALSE
-994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,8437,140896,33748,4,0,NA,NA,or,NA,NA,2488.915,1,LTPA,4,NA,NA,33748,Non-fatal,missing RRs,TRUE,FALSE
-994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,8852,140896,35408,4,3.5,NA,NA,or,NA,NA,2478.56,1,LTPA,4,NA,NA,35408,Non-fatal,missing RRs,TRUE,FALSE
-994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,5900,140896,23600,4,7,NA,NA,or,NA,NA,1581.2,1,LTPA,4,NA,NA,23600,Non-fatal,missing RRs,TRUE,FALSE
-994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,4692,140896,18768,4,14,NA,NA,or,NA,NA,1116.696,1,LTPA,4,NA,NA,18768,Non-fatal,missing RRs,TRUE,FALSE
-994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,3775,140896,15100,4,24.5,NA,NA,or,NA,NA,879.575,1,LTPA,4,NA,NA,15100,Non-fatal,missing RRs,TRUE,FALSE
-994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,2139,140896,8556,4,38.5,NA,NA,or,NA,NA,562.557,1,LTPA,4,NA,NA,8556,Non-fatal,missing RRs,TRUE,FALSE
-994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,1429,140896,5716,4,52.5,NA,NA,or,NA,NA,357.25,1,LTPA,4,NA,NA,5716,Non-fatal,missing RRs,TRUE,FALSE
-9910,Hamer M.,Depressive symptoms,Non-fatal,3,ir,4323,674,17292,2696,4,0.84,NA,NA,or,NA,NA,108,1,LTPA,5,NA,NA,2696,Non-fatal,missing RRs,TRUE,FALSE
-9910,Hamer M.,Depressive symptoms,Non-fatal,3,ir,4323,2142,17292,8568,4,3.94,NA,NA,or,NA,NA,161,1,LTPA,5,NA,NA,8568,Non-fatal,missing RRs,TRUE,FALSE
-9910,Hamer M.,Depressive symptoms,Non-fatal,3,ir,4323,1507,17292,6028,4,7.88,NA,NA,or,NA,NA,79,1,LTPA,5,NA,NA,6028,Non-fatal,missing RRs,TRUE,FALSE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,303,173824,24206,8,21.88,NA,NA,hr,NA,NA,334,1,LTPA,3,NA,NA,24206,Both,missing RRs,TRUE,FALSE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,308,173824,24678,8,13.12,NA,NA,hr,NA,NA,435,1,LTPA,3,NA,NA,24678,Both,missing RRs,TRUE,FALSE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,296,173824,23689,8,4.38,NA,NA,hr,NA,NA,475,1,LTPA,3,NA,NA,23689,Both,missing RRs,TRUE,FALSE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,374,173824,29928,8,1.75,NA,NA,hr,NA,NA,780,1,LTPA,3,NA,NA,29928,Both,missing RRs,TRUE,FALSE
+9926,Chang S.,Depression,Non-fatal,2,ci,21728,970,173824,77639,8,0,NA,NA,hr,NA,NA,1921,1,LTPA,3,NA,NA,77639,Both,missing RRs,TRUE,FALSE
+991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,1250,31171,7625,6.1,0,NA,NA,or,NA,NA,161,1,LTPA,4,NA,NA,7625,Both,missing RRs,TRUE,FALSE
+991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,2109,31171,12864.9,6.1,2.65,NA,NA,or,NA,NA,304,1,LTPA,4,NA,NA,12864.9,Both,missing RRs,TRUE,FALSE
+991,Espana-Romero V.,Depression,Non-fatal,3,ir,5110,1751,31171,10681.1,6.1,9.29,NA,NA,or,NA,NA,176,1,LTPA,4,NA,NA,10681.1,Both,missing RRs,TRUE,FALSE
+9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,5597,163059,59193,10.5,3.29,NA,NA,hr,NA,NA,366,1,LTPA,5,NA,NA,59193,Both,missing RRs,TRUE,FALSE
+9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,3548,163059,37606,10.5,11.34,NA,NA,hr,NA,NA,193,1,LTPA,5,NA,NA,37606,Both,missing RRs,TRUE,FALSE
+9934,Fernandez-Montero A.,Depression,Non-fatal,3,ci,15488,6343,163059,66260,10.5,19.66,NA,NA,hr,NA,NA,311,1,LTPA,5,NA,NA,66260,Both,missing RRs,TRUE,FALSE
+9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,4854.761129,267722,63111.89467,13,4.35,NA,NA,hr,NA,NA,80,1,LTPA,6,NA,NA,63111.89467,Both,missing RRs,TRUE,FALSE
+9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7865.584561,267722,102252.5993,13,13.12,NA,NA,hr,NA,NA,111,1,LTPA,6,NA,NA,102252.5993,Both,missing RRs,TRUE,FALSE
+9941,Hallgren M.,Depression,Non-fatal,3,ci,20594,7873.65431,267722,102357.506,13,21.88,NA,NA,hr,NA,NA,98,1,LTPA,6,NA,NA,102357.506,Both,missing RRs,TRUE,FALSE
+9910,Hamer M.,Depression,Non-fatal,3,ir,4323,674,17292,2696,4,0.84,NA,NA,or,NA,NA,108,1,LTPA,7,NA,NA,2696,Both,missing RRs,TRUE,FALSE
+9910,Hamer M.,Depression,Non-fatal,3,ir,4323,2142,17292,8568,4,3.94,NA,NA,or,NA,NA,161,1,LTPA,7,NA,NA,8568,Both,missing RRs,TRUE,FALSE
+9910,Hamer M.,Depression,Non-fatal,3,ir,4323,1507,17292,6028,4,7.88,NA,NA,or,NA,NA,79,1,LTPA,7,NA,NA,6028,Both,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,2818.836969,248204,31007.20666,11,0,NA,NA,or,NA,NA,277,1,LTPA,8,NA,NA,31007.20666,Both,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,5688.396374,248204,62572.36011,11,0.88,NA,NA,or,NA,NA,427,1,LTPA,8,NA,NA,62572.36011,Both,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,5411.501769,248204,59526.51946,11,2.62,NA,NA,or,NA,NA,359,1,LTPA,8,NA,NA,59526.51946,Both,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,4509.307636,248204,49602.384,11,5.25,NA,NA,or,NA,NA,262,1,LTPA,8,NA,NA,49602.384,Both,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,2144.478037,248204,23589.25841,11,10.5,NA,NA,or,NA,NA,135,1,LTPA,8,NA,NA,23589.25841,Both,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depression,Non-fatal,3,ir,22564,1991.479216,248204,21906.27138,11,17.5,NA,NA,or,NA,NA,119,1,LTPA,8,NA,NA,21906.27138,Both,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,0.37,NA,NA,or,NA,NA,191.8544,1,LTPA,9,NA,NA,27768.4,Both,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,3.44,NA,NA,or,NA,NA,157.775,1,LTPA,9,NA,NA,27768.4,Both,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,8.88,NA,NA,or,NA,NA,150.2018,1,LTPA,9,NA,NA,27768.4,Both,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,18.16,NA,NA,or,NA,NA,155.2506,1,LTPA,9,NA,NA,27768.4,Both,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depression,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,48.04,NA,NA,or,NA,NA,132.531,1,LTPA,9,NA,NA,27768.4,Both,missing RRs,TRUE,FALSE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,17704,135747,82641,4.7,0,NA,NA,hr,NA,NA,3954,1,LTPA,10,NA,NA,82641,Both,missing RRs,TRUE,FALSE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,2753,135747,12860,4.7,0.96,NA,NA,hr,NA,NA,603,1,LTPA,10,NA,NA,12860,Both,missing RRs,TRUE,FALSE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,2627,135747,12255,4.7,4.17,NA,NA,hr,NA,NA,516,1,LTPA,10,NA,NA,12255,Both,missing RRs,TRUE,FALSE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,3422,135747,15983,4.7,8.88,NA,NA,hr,NA,NA,650,1,LTPA,10,NA,NA,15983,Both,missing RRs,TRUE,FALSE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,1284,135747,5984,4.7,16.32,NA,NA,hr,NA,NA,209,1,LTPA,10,NA,NA,5984,Both,missing RRs,TRUE,FALSE
+9919,Kuwahara K.,Depression,Non-fatal,3,ci,29082,1292,135747,6024,4.7,23.87,NA,NA,hr,NA,NA,245,1,LTPA,10,NA,NA,6024,Both,missing RRs,TRUE,FALSE
+999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,4479.200195,429208,116459.2031,26,13.5,NA,NA,hr,NA,NA,92,1,LTPA,11,NA,NA,116459.2031,Both,missing RRs,TRUE,FALSE
+999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,9057.360352,429208,235491.3594,26,4.5,NA,NA,hr,NA,NA,235,1,LTPA,11,NA,NA,235491.3594,Both,missing RRs,TRUE,FALSE
+999,Mikkelsen S.,Depression,Non-fatal,3,ci,16508,2971.439941,429208,77257.4375,26,0.75,NA,NA,hr,NA,NA,109,1,LTPA,11,NA,NA,77257.4375,Both,missing RRs,TRUE,FALSE
+9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,4.73,NA,NA,rr,NA,NA,154,1,LTPA,12,NA,NA,83035,Both,missing RRs,TRUE,FALSE
+9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3468,244220,83035,25,18.79,NA,NA,rr,NA,NA,129,1,LTPA,12,NA,NA,83035,Both,missing RRs,TRUE,FALSE
+9914,Paffenbarger Jr R.,Depression,Non-fatal,1,ir,10201,3264,244220,78150,25,36.16,NA,NA,rr,NA,NA,104,1,LTPA,12,NA,NA,78150,Both,missing RRs,TRUE,FALSE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,5034,36282,15102,3,0,NA,NA,or,NA,NA,1501,1,LTPA,13,NA,NA,15102,Both,missing RRs,TRUE,FALSE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,358,36282,1074,3,2.65,NA,NA,or,NA,NA,63,1,LTPA,13,NA,NA,1074,Both,missing RRs,TRUE,FALSE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,1160,36282,3480,3,9.29,NA,NA,or,NA,NA,156,1,LTPA,13,NA,NA,3480,Both,missing RRs,TRUE,FALSE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,1454,36282,4362,3,16.18,NA,NA,or,NA,NA,186,1,LTPA,13,NA,NA,4362,Both,missing RRs,TRUE,FALSE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,1495,36282,4485,3,23.17,NA,NA,or,NA,NA,187,1,LTPA,13,NA,NA,4485,Both,missing RRs,TRUE,FALSE
+993,Pavey T.,Depression,Non-fatal,2,ir,12094,2593,36282,7779,3,30.21,NA,NA,or,NA,NA,325,1,LTPA,13,NA,NA,7779,Both,missing RRs,TRUE,FALSE
+9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1799.971564,11994,5399.914692,3,0,NA,NA,or,NA,NA,132,1,LTPA,14,NA,NA,5399.914692,Both,missing RRs,TRUE,FALSE
+9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,1267.949708,11994,3803.849124,3,7,NA,NA,or,NA,NA,58,1,LTPA,14,NA,NA,3803.849124,Both,missing RRs,TRUE,FALSE
+9922,Ten Have M.,Depression,Non-fatal,3,ir,3998,930.078728,11994,2790.236184,3,15.75,NA,NA,or,NA,NA,54,1,LTPA,14,NA,NA,2790.236184,Both,missing RRs,TRUE,FALSE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,8437,140896,33748,4,0,NA,NA,or,NA,NA,2488.915,1,LTPA,15,NA,NA,33748,Both,missing RRs,TRUE,FALSE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,8852,140896,35408,4,3.5,NA,NA,or,NA,NA,2478.56,1,LTPA,15,NA,NA,35408,Both,missing RRs,TRUE,FALSE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,5900,140896,23600,4,7,NA,NA,or,NA,NA,1581.2,1,LTPA,15,NA,NA,23600,Both,missing RRs,TRUE,FALSE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,4692,140896,18768,4,14,NA,NA,or,NA,NA,1116.696,1,LTPA,15,NA,NA,18768,Both,missing RRs,TRUE,FALSE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,3775,140896,15100,4,24.5,NA,NA,or,NA,NA,879.575,1,LTPA,15,NA,NA,15100,Both,missing RRs,TRUE,FALSE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,2139,140896,8556,4,38.5,NA,NA,or,NA,NA,562.557,1,LTPA,15,NA,NA,8556,Both,missing RRs,TRUE,FALSE
+994,Wise L.,Depression,Non-fatal,2,ir,35224,1429,140896,5716,4,52.5,NA,NA,or,NA,NA,357.25,1,LTPA,15,NA,NA,5716,Both,missing RRs,TRUE,FALSE
+992,Camacho T.,Depressive symptoms,Non-fatal,3,ir,3664,1173,32976,10557,9,6.4,NA,NA,or,NA,NA,252,1,LTPA,1,NA,NA,10557,Non-fatal,missing RRs,TRUE,FALSE
+992,Camacho T.,Depressive symptoms,Non-fatal,3,ir,3664,1709,32976,15381,9,21,NA,NA,or,NA,NA,285,1,LTPA,1,NA,NA,15381,Non-fatal,missing RRs,TRUE,FALSE
+992,Camacho T.,Depressive symptoms,Non-fatal,3,ir,3664,782,32976,7038,9,37,NA,NA,or,NA,NA,89,1,LTPA,1,NA,NA,7038,Non-fatal,missing RRs,TRUE,FALSE
+991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,1250,31171,7625,6.1,0,NA,NA,or,NA,NA,161,1,LTPA,2,NA,NA,7625,Non-fatal,missing RRs,TRUE,FALSE
+991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,2109,31171,12864.9,6.1,2.65,NA,NA,or,NA,NA,304,1,LTPA,2,NA,NA,12864.9,Non-fatal,missing RRs,TRUE,FALSE
+991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,1751,31171,10681.1,6.1,9.29,NA,NA,or,NA,NA,176,1,LTPA,2,NA,NA,10681.1,Non-fatal,missing RRs,TRUE,FALSE
+9910,Hamer M.,Depressive symptoms,Non-fatal,3,ir,4323,674,17292,2696,4,0.84,NA,NA,or,NA,NA,108,1,LTPA,3,NA,NA,2696,Non-fatal,missing RRs,TRUE,FALSE
+9910,Hamer M.,Depressive symptoms,Non-fatal,3,ir,4323,2142,17292,8568,4,3.94,NA,NA,or,NA,NA,161,1,LTPA,3,NA,NA,8568,Non-fatal,missing RRs,TRUE,FALSE
+9910,Hamer M.,Depressive symptoms,Non-fatal,3,ir,4323,1507,17292,6028,4,7.88,NA,NA,or,NA,NA,79,1,LTPA,3,NA,NA,6028,Non-fatal,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,2818.836969,248204,31007.20666,11,0,NA,NA,or,NA,NA,277,1,LTPA,4,NA,NA,31007.20666,Non-fatal,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,5688.396374,248204,62572.36011,11,0.88,NA,NA,or,NA,NA,427,1,LTPA,4,NA,NA,62572.36011,Non-fatal,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,5411.501769,248204,59526.51946,11,2.62,NA,NA,or,NA,NA,359,1,LTPA,4,NA,NA,59526.51946,Non-fatal,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,4509.307636,248204,49602.384,11,5.25,NA,NA,or,NA,NA,262,1,LTPA,4,NA,NA,49602.384,Non-fatal,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,2144.478037,248204,23589.25841,11,10.5,NA,NA,or,NA,NA,135,1,LTPA,4,NA,NA,23589.25841,Non-fatal,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,1991.479216,248204,21906.27138,11,17.5,NA,NA,or,NA,NA,119,1,LTPA,4,NA,NA,21906.27138,Non-fatal,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,0.37,NA,NA,or,NA,NA,191.8544,1,LTPA,5,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,3.44,NA,NA,or,NA,NA,157.775,1,LTPA,5,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,8.88,NA,NA,or,NA,NA,150.2018,1,LTPA,5,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,18.16,NA,NA,or,NA,NA,155.2506,1,LTPA,5,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,48.04,NA,NA,or,NA,NA,132.531,1,LTPA,5,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,FALSE
 9919,Kuwahara K.,Depressive symptoms,Non-fatal,3,ci,29082,17704,135747,82641,4.7,0,NA,NA,hr,NA,NA,3954,1,LTPA,6,NA,NA,82641,Non-fatal,missing RRs,TRUE,FALSE
 9919,Kuwahara K.,Depressive symptoms,Non-fatal,3,ci,29082,2753,135747,12860,4.7,0.96,NA,NA,hr,NA,NA,603,1,LTPA,6,NA,NA,12860,Non-fatal,missing RRs,TRUE,FALSE
 9919,Kuwahara K.,Depressive symptoms,Non-fatal,3,ci,29082,2627,135747,12255,4.7,4.17,NA,NA,hr,NA,NA,516,1,LTPA,6,NA,NA,12255,Non-fatal,missing RRs,TRUE,FALSE
 9919,Kuwahara K.,Depressive symptoms,Non-fatal,3,ci,29082,3422,135747,15983,4.7,8.88,NA,NA,hr,NA,NA,650,1,LTPA,6,NA,NA,15983,Non-fatal,missing RRs,TRUE,FALSE
 9919,Kuwahara K.,Depressive symptoms,Non-fatal,3,ci,29082,1284,135747,5984,4.7,16.32,NA,NA,hr,NA,NA,209,1,LTPA,6,NA,NA,5984,Non-fatal,missing RRs,TRUE,FALSE
 9919,Kuwahara K.,Depressive symptoms,Non-fatal,3,ci,29082,1292,135747,6024,4.7,23.87,NA,NA,hr,NA,NA,245,1,LTPA,6,NA,NA,6024,Non-fatal,missing RRs,TRUE,FALSE
-9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,2818.836969,248204,31007.20666,11,0,NA,NA,or,NA,NA,277,1,LTPA,7,NA,NA,31007.20666,Non-fatal,missing RRs,TRUE,FALSE
-9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,5688.396374,248204,62572.36011,11,0.88,NA,NA,or,NA,NA,427,1,LTPA,7,NA,NA,62572.36011,Non-fatal,missing RRs,TRUE,FALSE
-9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,5411.501769,248204,59526.51946,11,2.62,NA,NA,or,NA,NA,359,1,LTPA,7,NA,NA,59526.51946,Non-fatal,missing RRs,TRUE,FALSE
-9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,4509.307636,248204,49602.384,11,5.25,NA,NA,or,NA,NA,262,1,LTPA,7,NA,NA,49602.384,Non-fatal,missing RRs,TRUE,FALSE
-9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,2144.478037,248204,23589.25841,11,10.5,NA,NA,or,NA,NA,135,1,LTPA,7,NA,NA,23589.25841,Non-fatal,missing RRs,TRUE,FALSE
-9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,1991.479216,248204,21906.27138,11,17.5,NA,NA,or,NA,NA,119,1,LTPA,7,NA,NA,21906.27138,Non-fatal,missing RRs,TRUE,FALSE
-9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,0.37,NA,NA,or,NA,NA,191.8544,1,LTPA,8,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,FALSE
-9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,3.44,NA,NA,or,NA,NA,157.775,1,LTPA,8,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,FALSE
-9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,8.88,NA,NA,or,NA,NA,150.2018,1,LTPA,8,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,FALSE
-9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,18.16,NA,NA,or,NA,NA,155.2506,1,LTPA,8,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,FALSE
-9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,48.04,NA,NA,or,NA,NA,132.531,1,LTPA,8,NA,NA,27768.4,Non-fatal,missing RRs,TRUE,FALSE
-991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,1250,31171,7625,6.1,0,NA,NA,or,NA,NA,161,1,LTPA,1,NA,NA,7625,Both,missing RRs,TRUE,FALSE
-991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,2109,31171,12864.9,6.1,2.65,NA,NA,or,NA,NA,304,1,LTPA,1,NA,NA,12864.9,Both,missing RRs,TRUE,FALSE
-991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,1751,31171,10681.1,6.1,9.29,NA,NA,or,NA,NA,176,1,LTPA,1,NA,NA,10681.1,Both,missing RRs,TRUE,FALSE
-992,Camacho T.,Depressive symptoms,Non-fatal,3,ir,3664,1173,32976,10557,9,6.4,NA,NA,or,NA,NA,252,1,LTPA,2,NA,NA,10557,Both,missing RRs,TRUE,FALSE
-992,Camacho T.,Depressive symptoms,Non-fatal,3,ir,3664,1709,32976,15381,9,21,NA,NA,or,NA,NA,285,1,LTPA,2,NA,NA,15381,Both,missing RRs,TRUE,FALSE
-992,Camacho T.,Depressive symptoms,Non-fatal,3,ir,3664,782,32976,7038,9,37,NA,NA,or,NA,NA,89,1,LTPA,2,NA,NA,7038,Both,missing RRs,TRUE,FALSE
-993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,5034,36282,15102,3,0,NA,NA,or,NA,NA,1501,1,LTPA,3,NA,NA,15102,Both,missing RRs,TRUE,FALSE
-993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,358,36282,1074,3,2.65,NA,NA,or,NA,NA,63,1,LTPA,3,NA,NA,1074,Both,missing RRs,TRUE,FALSE
-993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,1160,36282,3480,3,9.29,NA,NA,or,NA,NA,156,1,LTPA,3,NA,NA,3480,Both,missing RRs,TRUE,FALSE
-993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,1454,36282,4362,3,16.18,NA,NA,or,NA,NA,186,1,LTPA,3,NA,NA,4362,Both,missing RRs,TRUE,FALSE
-993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,1495,36282,4485,3,23.17,NA,NA,or,NA,NA,187,1,LTPA,3,NA,NA,4485,Both,missing RRs,TRUE,FALSE
-993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,2593,36282,7779,3,30.21,NA,NA,or,NA,NA,325,1,LTPA,3,NA,NA,7779,Both,missing RRs,TRUE,FALSE
-994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,8437,140896,33748,4,0,NA,NA,or,NA,NA,2488.915,1,LTPA,4,NA,NA,33748,Both,missing RRs,TRUE,FALSE
-994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,8852,140896,35408,4,3.5,NA,NA,or,NA,NA,2478.56,1,LTPA,4,NA,NA,35408,Both,missing RRs,TRUE,FALSE
-994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,5900,140896,23600,4,7,NA,NA,or,NA,NA,1581.2,1,LTPA,4,NA,NA,23600,Both,missing RRs,TRUE,FALSE
-994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,4692,140896,18768,4,14,NA,NA,or,NA,NA,1116.696,1,LTPA,4,NA,NA,18768,Both,missing RRs,TRUE,FALSE
-994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,3775,140896,15100,4,24.5,NA,NA,or,NA,NA,879.575,1,LTPA,4,NA,NA,15100,Both,missing RRs,TRUE,FALSE
-994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,2139,140896,8556,4,38.5,NA,NA,or,NA,NA,562.557,1,LTPA,4,NA,NA,8556,Both,missing RRs,TRUE,FALSE
-994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,1429,140896,5716,4,52.5,NA,NA,or,NA,NA,357.25,1,LTPA,4,NA,NA,5716,Both,missing RRs,TRUE,FALSE
-9910,Hamer M.,Depressive symptoms,Non-fatal,3,ir,4323,674,17292,2696,4,0.84,NA,NA,or,NA,NA,108,1,LTPA,5,NA,NA,2696,Both,missing RRs,TRUE,FALSE
-9910,Hamer M.,Depressive symptoms,Non-fatal,3,ir,4323,2142,17292,8568,4,3.94,NA,NA,or,NA,NA,161,1,LTPA,5,NA,NA,8568,Both,missing RRs,TRUE,FALSE
-9910,Hamer M.,Depressive symptoms,Non-fatal,3,ir,4323,1507,17292,6028,4,7.88,NA,NA,or,NA,NA,79,1,LTPA,5,NA,NA,6028,Both,missing RRs,TRUE,FALSE
+993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,5034,36282,15102,3,0,NA,NA,or,NA,NA,1501,1,LTPA,7,NA,NA,15102,Non-fatal,missing RRs,TRUE,FALSE
+993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,358,36282,1074,3,2.65,NA,NA,or,NA,NA,63,1,LTPA,7,NA,NA,1074,Non-fatal,missing RRs,TRUE,FALSE
+993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,1160,36282,3480,3,9.29,NA,NA,or,NA,NA,156,1,LTPA,7,NA,NA,3480,Non-fatal,missing RRs,TRUE,FALSE
+993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,1454,36282,4362,3,16.18,NA,NA,or,NA,NA,186,1,LTPA,7,NA,NA,4362,Non-fatal,missing RRs,TRUE,FALSE
+993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,1495,36282,4485,3,23.17,NA,NA,or,NA,NA,187,1,LTPA,7,NA,NA,4485,Non-fatal,missing RRs,TRUE,FALSE
+993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,2593,36282,7779,3,30.21,NA,NA,or,NA,NA,325,1,LTPA,7,NA,NA,7779,Non-fatal,missing RRs,TRUE,FALSE
+994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,8437,140896,33748,4,0,NA,NA,or,NA,NA,2488.915,1,LTPA,8,NA,NA,33748,Non-fatal,missing RRs,TRUE,FALSE
+994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,8852,140896,35408,4,3.5,NA,NA,or,NA,NA,2478.56,1,LTPA,8,NA,NA,35408,Non-fatal,missing RRs,TRUE,FALSE
+994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,5900,140896,23600,4,7,NA,NA,or,NA,NA,1581.2,1,LTPA,8,NA,NA,23600,Non-fatal,missing RRs,TRUE,FALSE
+994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,4692,140896,18768,4,14,NA,NA,or,NA,NA,1116.696,1,LTPA,8,NA,NA,18768,Non-fatal,missing RRs,TRUE,FALSE
+994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,3775,140896,15100,4,24.5,NA,NA,or,NA,NA,879.575,1,LTPA,8,NA,NA,15100,Non-fatal,missing RRs,TRUE,FALSE
+994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,2139,140896,8556,4,38.5,NA,NA,or,NA,NA,562.557,1,LTPA,8,NA,NA,8556,Non-fatal,missing RRs,TRUE,FALSE
+994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,1429,140896,5716,4,52.5,NA,NA,or,NA,NA,357.25,1,LTPA,8,NA,NA,5716,Non-fatal,missing RRs,TRUE,FALSE
+992,Camacho T.,Depressive symptoms,Non-fatal,3,ir,3664,1173,32976,10557,9,6.4,NA,NA,or,NA,NA,252,1,LTPA,1,NA,NA,10557,Both,missing RRs,TRUE,FALSE
+992,Camacho T.,Depressive symptoms,Non-fatal,3,ir,3664,1709,32976,15381,9,21,NA,NA,or,NA,NA,285,1,LTPA,1,NA,NA,15381,Both,missing RRs,TRUE,FALSE
+992,Camacho T.,Depressive symptoms,Non-fatal,3,ir,3664,782,32976,7038,9,37,NA,NA,or,NA,NA,89,1,LTPA,1,NA,NA,7038,Both,missing RRs,TRUE,FALSE
+991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,1250,31171,7625,6.1,0,NA,NA,or,NA,NA,161,1,LTPA,2,NA,NA,7625,Both,missing RRs,TRUE,FALSE
+991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,2109,31171,12864.9,6.1,2.65,NA,NA,or,NA,NA,304,1,LTPA,2,NA,NA,12864.9,Both,missing RRs,TRUE,FALSE
+991,Espana-Romero V.,Depressive symptoms,Non-fatal,3,ir,5110,1751,31171,10681.1,6.1,9.29,NA,NA,or,NA,NA,176,1,LTPA,2,NA,NA,10681.1,Both,missing RRs,TRUE,FALSE
+9910,Hamer M.,Depressive symptoms,Non-fatal,3,ir,4323,674,17292,2696,4,0.84,NA,NA,or,NA,NA,108,1,LTPA,3,NA,NA,2696,Both,missing RRs,TRUE,FALSE
+9910,Hamer M.,Depressive symptoms,Non-fatal,3,ir,4323,2142,17292,8568,4,3.94,NA,NA,or,NA,NA,161,1,LTPA,3,NA,NA,8568,Both,missing RRs,TRUE,FALSE
+9910,Hamer M.,Depressive symptoms,Non-fatal,3,ir,4323,1507,17292,6028,4,7.88,NA,NA,or,NA,NA,79,1,LTPA,3,NA,NA,6028,Both,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,2818.836969,248204,31007.20666,11,0,NA,NA,or,NA,NA,277,1,LTPA,4,NA,NA,31007.20666,Both,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,5688.396374,248204,62572.36011,11,0.88,NA,NA,or,NA,NA,427,1,LTPA,4,NA,NA,62572.36011,Both,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,5411.501769,248204,59526.51946,11,2.62,NA,NA,or,NA,NA,359,1,LTPA,4,NA,NA,59526.51946,Both,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,4509.307636,248204,49602.384,11,5.25,NA,NA,or,NA,NA,262,1,LTPA,4,NA,NA,49602.384,Both,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,2144.478037,248204,23589.25841,11,10.5,NA,NA,or,NA,NA,135,1,LTPA,4,NA,NA,23589.25841,Both,missing RRs,TRUE,FALSE
+9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,1991.479216,248204,21906.27138,11,17.5,NA,NA,or,NA,NA,119,1,LTPA,4,NA,NA,21906.27138,Both,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,0.37,NA,NA,or,NA,NA,191.8544,1,LTPA,5,NA,NA,27768.4,Both,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,3.44,NA,NA,or,NA,NA,157.775,1,LTPA,5,NA,NA,27768.4,Both,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,8.88,NA,NA,or,NA,NA,150.2018,1,LTPA,5,NA,NA,27768.4,Both,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,18.16,NA,NA,or,NA,NA,155.2506,1,LTPA,5,NA,NA,27768.4,Both,missing RRs,TRUE,FALSE
+9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,48.04,NA,NA,or,NA,NA,132.531,1,LTPA,5,NA,NA,27768.4,Both,missing RRs,TRUE,FALSE
 9919,Kuwahara K.,Depressive symptoms,Non-fatal,3,ci,29082,17704,135747,82641,4.7,0,NA,NA,hr,NA,NA,3954,1,LTPA,6,NA,NA,82641,Both,missing RRs,TRUE,FALSE
 9919,Kuwahara K.,Depressive symptoms,Non-fatal,3,ci,29082,2753,135747,12860,4.7,0.96,NA,NA,hr,NA,NA,603,1,LTPA,6,NA,NA,12860,Both,missing RRs,TRUE,FALSE
 9919,Kuwahara K.,Depressive symptoms,Non-fatal,3,ci,29082,2627,135747,12255,4.7,4.17,NA,NA,hr,NA,NA,516,1,LTPA,6,NA,NA,12255,Both,missing RRs,TRUE,FALSE
 9919,Kuwahara K.,Depressive symptoms,Non-fatal,3,ci,29082,3422,135747,15983,4.7,8.88,NA,NA,hr,NA,NA,650,1,LTPA,6,NA,NA,15983,Both,missing RRs,TRUE,FALSE
 9919,Kuwahara K.,Depressive symptoms,Non-fatal,3,ci,29082,1284,135747,5984,4.7,16.32,NA,NA,hr,NA,NA,209,1,LTPA,6,NA,NA,5984,Both,missing RRs,TRUE,FALSE
 9919,Kuwahara K.,Depressive symptoms,Non-fatal,3,ci,29082,1292,135747,6024,4.7,23.87,NA,NA,hr,NA,NA,245,1,LTPA,6,NA,NA,6024,Both,missing RRs,TRUE,FALSE
-9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,2818.836969,248204,31007.20666,11,0,NA,NA,or,NA,NA,277,1,LTPA,7,NA,NA,31007.20666,Both,missing RRs,TRUE,FALSE
-9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,5688.396374,248204,62572.36011,11,0.88,NA,NA,or,NA,NA,427,1,LTPA,7,NA,NA,62572.36011,Both,missing RRs,TRUE,FALSE
-9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,5411.501769,248204,59526.51946,11,2.62,NA,NA,or,NA,NA,359,1,LTPA,7,NA,NA,59526.51946,Both,missing RRs,TRUE,FALSE
-9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,4509.307636,248204,49602.384,11,5.25,NA,NA,or,NA,NA,262,1,LTPA,7,NA,NA,49602.384,Both,missing RRs,TRUE,FALSE
-9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,2144.478037,248204,23589.25841,11,10.5,NA,NA,or,NA,NA,135,1,LTPA,7,NA,NA,23589.25841,Both,missing RRs,TRUE,FALSE
-9925,Harvey S.,Depressive symptoms,Non-fatal,3,ir,22564,1991.479216,248204,21906.27138,11,17.5,NA,NA,or,NA,NA,119,1,LTPA,7,NA,NA,21906.27138,Both,missing RRs,TRUE,FALSE
-9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,0.37,NA,NA,or,NA,NA,191.8544,1,LTPA,8,NA,NA,27768.4,Both,missing RRs,TRUE,FALSE
-9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,3.44,NA,NA,or,NA,NA,157.775,1,LTPA,8,NA,NA,27768.4,Both,missing RRs,TRUE,FALSE
-9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,8.88,NA,NA,or,NA,NA,150.2018,1,LTPA,8,NA,NA,27768.4,Both,missing RRs,TRUE,FALSE
-9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,18.16,NA,NA,or,NA,NA,155.2506,1,LTPA,8,NA,NA,27768.4,Both,missing RRs,TRUE,FALSE
-9937,Hughes K.,Depressive symptoms,Non-fatal,1,ir,6311,1262.2,138842,27768.4,22,48.04,NA,NA,or,NA,NA,132.531,1,LTPA,8,NA,NA,27768.4,Both,missing RRs,TRUE,FALSE
+993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,5034,36282,15102,3,0,NA,NA,or,NA,NA,1501,1,LTPA,7,NA,NA,15102,Both,missing RRs,TRUE,FALSE
+993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,358,36282,1074,3,2.65,NA,NA,or,NA,NA,63,1,LTPA,7,NA,NA,1074,Both,missing RRs,TRUE,FALSE
+993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,1160,36282,3480,3,9.29,NA,NA,or,NA,NA,156,1,LTPA,7,NA,NA,3480,Both,missing RRs,TRUE,FALSE
+993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,1454,36282,4362,3,16.18,NA,NA,or,NA,NA,186,1,LTPA,7,NA,NA,4362,Both,missing RRs,TRUE,FALSE
+993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,1495,36282,4485,3,23.17,NA,NA,or,NA,NA,187,1,LTPA,7,NA,NA,4485,Both,missing RRs,TRUE,FALSE
+993,Pavey T.,Depressive symptoms,Non-fatal,2,ir,12094,2593,36282,7779,3,30.21,NA,NA,or,NA,NA,325,1,LTPA,7,NA,NA,7779,Both,missing RRs,TRUE,FALSE
+994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,8437,140896,33748,4,0,NA,NA,or,NA,NA,2488.915,1,LTPA,8,NA,NA,33748,Both,missing RRs,TRUE,FALSE
+994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,8852,140896,35408,4,3.5,NA,NA,or,NA,NA,2478.56,1,LTPA,8,NA,NA,35408,Both,missing RRs,TRUE,FALSE
+994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,5900,140896,23600,4,7,NA,NA,or,NA,NA,1581.2,1,LTPA,8,NA,NA,23600,Both,missing RRs,TRUE,FALSE
+994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,4692,140896,18768,4,14,NA,NA,or,NA,NA,1116.696,1,LTPA,8,NA,NA,18768,Both,missing RRs,TRUE,FALSE
+994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,3775,140896,15100,4,24.5,NA,NA,or,NA,NA,879.575,1,LTPA,8,NA,NA,15100,Both,missing RRs,TRUE,FALSE
+994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,2139,140896,8556,4,38.5,NA,NA,or,NA,NA,562.557,1,LTPA,8,NA,NA,8556,Both,missing RRs,TRUE,FALSE
+994,Wise L.,Depressive symptoms,Non-fatal,2,ir,35224,1429,140896,5716,4,52.5,NA,NA,or,NA,NA,357.25,1,LTPA,8,NA,NA,5716,Both,missing RRs,TRUE,FALSE
 332,"Arem, H",Endometrial cancer,Fatal,2,ci,121913,17166,1475147,207707,12.1,0,NA,NA,hr,NA,NA,23,1,LTPA,1,NA,NA,207707,Fatal,missing RRs,TRUE,FALSE
 332,"Arem, H",Endometrial cancer,Fatal,2,ci,121913,12998,1475147,157273,12.1,1.75,NA,NA,hr,NA,NA,24,1,LTPA,1,NA,NA,157273,Fatal,missing RRs,TRUE,FALSE
 332,"Arem, H",Endometrial cancer,Fatal,2,ci,121913,31142,1475147,376817,12.1,7,NA,NA,hr,NA,NA,27,1,LTPA,1,NA,NA,376817,Fatal,missing RRs,TRUE,FALSE
@@ -2364,52 +2364,52 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 332,"Arem, H",Lung cancer,Fatal,3,ci,293511,74502,3551483,901474,12.1,7,NA,NA,hr,NA,NA,1258,1,LTPA,15,NA,NA,901474,Both,missing RRs,TRUE,FALSE
 332,"Arem, H",Lung cancer,Fatal,3,ci,293511,76049,3551483,920193,12.1,19.25,NA,NA,hr,NA,NA,1095,1,LTPA,15,NA,NA,920193,Both,missing RRs,TRUE,FALSE
 332,"Arem, H",Lung cancer,Fatal,3,ci,293511,70700,3551483,855470,12.1,33.25,NA,NA,hr,NA,NA,1073,1,LTPA,15,NA,NA,855470,Both,missing RRs,TRUE,FALSE
-999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,4479.200195,429208,116459.2031,26,13.5,NA,NA,hr,NA,NA,92,1,LTPA,1,NA,NA,116459.2031,Non-fatal,missing RRs,TRUE,FALSE
-999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,9057.360352,429208,235491.3594,26,4.5,NA,NA,hr,NA,NA,235,1,LTPA,1,NA,NA,235491.3594,Non-fatal,missing RRs,TRUE,FALSE
-999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,2971.439941,429208,77257.4375,26,0.75,NA,NA,hr,NA,NA,109,1,LTPA,1,NA,NA,77257.4375,Non-fatal,missing RRs,TRUE,FALSE
-9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3468,244220,83035,25,5,NA,NA,rr,NA,NA,154,1,LTPA,2,NA,NA,83035,Non-fatal,missing RRs,TRUE,FALSE
-9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3468,244220,83035,25,19,NA,NA,rr,NA,NA,129,1,LTPA,2,NA,NA,83035,Non-fatal,missing RRs,TRUE,FALSE
-9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3264,244220,78150,25,36,NA,NA,rr,NA,NA,104,1,LTPA,2,NA,NA,78150,Non-fatal,missing RRs,TRUE,FALSE
-9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,1799.971564,11994,5399.914692,3,0,NA,NA,or,NA,NA,132,1,LTPA,3,NA,NA,5399.914692,Non-fatal,missing RRs,TRUE,FALSE
-9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,1267.949708,11994,3803.849124,3,7,NA,NA,or,NA,NA,58,1,LTPA,3,NA,NA,3803.849124,Non-fatal,missing RRs,TRUE,FALSE
-9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,930.078728,11994,2790.236184,3,15.75,NA,NA,or,NA,NA,54,1,LTPA,3,NA,NA,2790.236184,Non-fatal,missing RRs,TRUE,FALSE
-9926,Chang S.,Major depression,Non-fatal,2,ci,21728,303,173824,24206,8,21.88,NA,NA,hr,NA,NA,334,1,LTPA,4,NA,NA,24206,Non-fatal,missing RRs,TRUE,FALSE
-9926,Chang S.,Major depression,Non-fatal,2,ci,21728,308,173824,24678,8,13.12,NA,NA,hr,NA,NA,435,1,LTPA,4,NA,NA,24678,Non-fatal,missing RRs,TRUE,FALSE
-9926,Chang S.,Major depression,Non-fatal,2,ci,21728,296,173824,23689,8,4.38,NA,NA,hr,NA,NA,475,1,LTPA,4,NA,NA,23689,Non-fatal,missing RRs,TRUE,FALSE
-9926,Chang S.,Major depression,Non-fatal,2,ci,21728,374,173824,29928,8,1.75,NA,NA,hr,NA,NA,780,1,LTPA,4,NA,NA,29928,Non-fatal,missing RRs,TRUE,FALSE
-9926,Chang S.,Major depression,Non-fatal,2,ci,21728,970,173824,77639,8,0,NA,NA,hr,NA,NA,1921,1,LTPA,4,NA,NA,77639,Non-fatal,missing RRs,TRUE,FALSE
-9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,3973,32835,21851.5,5.5,0,NA,NA,or,NA,NA,381,1,LTPA,5,NA,NA,21851.5,Non-fatal,missing RRs,TRUE,FALSE
-9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,903,32835,4966.5,5.5,9,NA,NA,or,NA,NA,84,1,LTPA,5,NA,NA,4966.5,Non-fatal,missing RRs,TRUE,FALSE
-9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,1094,32835,6017,5.5,22,NA,NA,or,NA,NA,129,1,LTPA,5,NA,NA,6017,Non-fatal,missing RRs,TRUE,FALSE
-9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,5597,163059,59193,10.5,3.29,NA,NA,hr,NA,NA,366,1,LTPA,6,NA,NA,59193,Non-fatal,missing RRs,TRUE,FALSE
-9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,3548,163059,37606,10.5,11.34,NA,NA,hr,NA,NA,193,1,LTPA,6,NA,NA,37606,Non-fatal,missing RRs,TRUE,FALSE
-9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,6343,163059,66260,10.5,19.66,NA,NA,hr,NA,NA,311,1,LTPA,6,NA,NA,66260,Non-fatal,missing RRs,TRUE,FALSE
-9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,4854.761129,267722,63111.89467,13,4.35,NA,NA,hr,NA,NA,80,1,LTPA,7,NA,NA,63111.89467,Non-fatal,missing RRs,TRUE,FALSE
-9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,7865.584561,267722,102252.5993,13,13.12,NA,NA,hr,NA,NA,111,1,LTPA,7,NA,NA,102252.5993,Non-fatal,missing RRs,TRUE,FALSE
-9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,7873.65431,267722,102357.506,13,21.88,NA,NA,hr,NA,NA,98,1,LTPA,7,NA,NA,102357.506,Non-fatal,missing RRs,TRUE,FALSE
-999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,4479.200195,429208,116459.2031,26,13.5,NA,NA,hr,NA,NA,92,1,LTPA,1,NA,NA,116459.2031,Both,missing RRs,TRUE,FALSE
-999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,9057.360352,429208,235491.3594,26,4.5,NA,NA,hr,NA,NA,235,1,LTPA,1,NA,NA,235491.3594,Both,missing RRs,TRUE,FALSE
-999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,2971.439941,429208,77257.4375,26,0.75,NA,NA,hr,NA,NA,109,1,LTPA,1,NA,NA,77257.4375,Both,missing RRs,TRUE,FALSE
-9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3468,244220,83035,25,5,NA,NA,rr,NA,NA,154,1,LTPA,2,NA,NA,83035,Both,missing RRs,TRUE,FALSE
-9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3468,244220,83035,25,19,NA,NA,rr,NA,NA,129,1,LTPA,2,NA,NA,83035,Both,missing RRs,TRUE,FALSE
-9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3264,244220,78150,25,36,NA,NA,rr,NA,NA,104,1,LTPA,2,NA,NA,78150,Both,missing RRs,TRUE,FALSE
-9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,1799.971564,11994,5399.914692,3,0,NA,NA,or,NA,NA,132,1,LTPA,3,NA,NA,5399.914692,Both,missing RRs,TRUE,FALSE
-9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,1267.949708,11994,3803.849124,3,7,NA,NA,or,NA,NA,58,1,LTPA,3,NA,NA,3803.849124,Both,missing RRs,TRUE,FALSE
-9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,930.078728,11994,2790.236184,3,15.75,NA,NA,or,NA,NA,54,1,LTPA,3,NA,NA,2790.236184,Both,missing RRs,TRUE,FALSE
-9926,Chang S.,Major depression,Non-fatal,2,ci,21728,303,173824,24206,8,21.88,NA,NA,hr,NA,NA,334,1,LTPA,4,NA,NA,24206,Both,missing RRs,TRUE,FALSE
-9926,Chang S.,Major depression,Non-fatal,2,ci,21728,308,173824,24678,8,13.12,NA,NA,hr,NA,NA,435,1,LTPA,4,NA,NA,24678,Both,missing RRs,TRUE,FALSE
-9926,Chang S.,Major depression,Non-fatal,2,ci,21728,296,173824,23689,8,4.38,NA,NA,hr,NA,NA,475,1,LTPA,4,NA,NA,23689,Both,missing RRs,TRUE,FALSE
-9926,Chang S.,Major depression,Non-fatal,2,ci,21728,374,173824,29928,8,1.75,NA,NA,hr,NA,NA,780,1,LTPA,4,NA,NA,29928,Both,missing RRs,TRUE,FALSE
-9926,Chang S.,Major depression,Non-fatal,2,ci,21728,970,173824,77639,8,0,NA,NA,hr,NA,NA,1921,1,LTPA,4,NA,NA,77639,Both,missing RRs,TRUE,FALSE
-9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,3973,32835,21851.5,5.5,0,NA,NA,or,NA,NA,381,1,LTPA,5,NA,NA,21851.5,Both,missing RRs,TRUE,FALSE
-9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,903,32835,4966.5,5.5,9,NA,NA,or,NA,NA,84,1,LTPA,5,NA,NA,4966.5,Both,missing RRs,TRUE,FALSE
-9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,1094,32835,6017,5.5,22,NA,NA,or,NA,NA,129,1,LTPA,5,NA,NA,6017,Both,missing RRs,TRUE,FALSE
-9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,5597,163059,59193,10.5,3.29,NA,NA,hr,NA,NA,366,1,LTPA,6,NA,NA,59193,Both,missing RRs,TRUE,FALSE
-9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,3548,163059,37606,10.5,11.34,NA,NA,hr,NA,NA,193,1,LTPA,6,NA,NA,37606,Both,missing RRs,TRUE,FALSE
-9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,6343,163059,66260,10.5,19.66,NA,NA,hr,NA,NA,311,1,LTPA,6,NA,NA,66260,Both,missing RRs,TRUE,FALSE
-9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,4854.761129,267722,63111.89467,13,4.35,NA,NA,hr,NA,NA,80,1,LTPA,7,NA,NA,63111.89467,Both,missing RRs,TRUE,FALSE
-9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,7865.584561,267722,102252.5993,13,13.12,NA,NA,hr,NA,NA,111,1,LTPA,7,NA,NA,102252.5993,Both,missing RRs,TRUE,FALSE
-9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,7873.65431,267722,102357.506,13,21.88,NA,NA,hr,NA,NA,98,1,LTPA,7,NA,NA,102357.506,Both,missing RRs,TRUE,FALSE
+9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,3973,32835,21851.5,5.5,0,NA,NA,or,NA,NA,381,1,LTPA,1,NA,NA,21851.5,Non-fatal,missing RRs,TRUE,FALSE
+9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,903,32835,4966.5,5.5,9,NA,NA,or,NA,NA,84,1,LTPA,1,NA,NA,4966.5,Non-fatal,missing RRs,TRUE,FALSE
+9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,1094,32835,6017,5.5,22,NA,NA,or,NA,NA,129,1,LTPA,1,NA,NA,6017,Non-fatal,missing RRs,TRUE,FALSE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,303,173824,24206,8,21.88,NA,NA,hr,NA,NA,334,1,LTPA,2,NA,NA,24206,Non-fatal,missing RRs,TRUE,FALSE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,308,173824,24678,8,13.12,NA,NA,hr,NA,NA,435,1,LTPA,2,NA,NA,24678,Non-fatal,missing RRs,TRUE,FALSE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,296,173824,23689,8,4.38,NA,NA,hr,NA,NA,475,1,LTPA,2,NA,NA,23689,Non-fatal,missing RRs,TRUE,FALSE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,374,173824,29928,8,1.75,NA,NA,hr,NA,NA,780,1,LTPA,2,NA,NA,29928,Non-fatal,missing RRs,TRUE,FALSE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,970,173824,77639,8,0,NA,NA,hr,NA,NA,1921,1,LTPA,2,NA,NA,77639,Non-fatal,missing RRs,TRUE,FALSE
+9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,5597,163059,59193,10.5,3.29,NA,NA,hr,NA,NA,366,1,LTPA,3,NA,NA,59193,Non-fatal,missing RRs,TRUE,FALSE
+9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,3548,163059,37606,10.5,11.34,NA,NA,hr,NA,NA,193,1,LTPA,3,NA,NA,37606,Non-fatal,missing RRs,TRUE,FALSE
+9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,6343,163059,66260,10.5,19.66,NA,NA,hr,NA,NA,311,1,LTPA,3,NA,NA,66260,Non-fatal,missing RRs,TRUE,FALSE
+9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,4854.761129,267722,63111.89467,13,4.35,NA,NA,hr,NA,NA,80,1,LTPA,4,NA,NA,63111.89467,Non-fatal,missing RRs,TRUE,FALSE
+9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,7865.584561,267722,102252.5993,13,13.12,NA,NA,hr,NA,NA,111,1,LTPA,4,NA,NA,102252.5993,Non-fatal,missing RRs,TRUE,FALSE
+9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,7873.65431,267722,102357.506,13,21.88,NA,NA,hr,NA,NA,98,1,LTPA,4,NA,NA,102357.506,Non-fatal,missing RRs,TRUE,FALSE
+999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,4479.200195,429208,116459.2031,26,13.5,NA,NA,hr,NA,NA,92,1,LTPA,5,NA,NA,116459.2031,Non-fatal,missing RRs,TRUE,FALSE
+999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,9057.360352,429208,235491.3594,26,4.5,NA,NA,hr,NA,NA,235,1,LTPA,5,NA,NA,235491.3594,Non-fatal,missing RRs,TRUE,FALSE
+999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,2971.439941,429208,77257.4375,26,0.75,NA,NA,hr,NA,NA,109,1,LTPA,5,NA,NA,77257.4375,Non-fatal,missing RRs,TRUE,FALSE
+9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3468,244220,83035,25,4.73,NA,NA,rr,NA,NA,154,1,LTPA,6,NA,NA,83035,Non-fatal,missing RRs,TRUE,FALSE
+9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3468,244220,83035,25,18.79,NA,NA,rr,NA,NA,129,1,LTPA,6,NA,NA,83035,Non-fatal,missing RRs,TRUE,FALSE
+9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3264,244220,78150,25,36.16,NA,NA,rr,NA,NA,104,1,LTPA,6,NA,NA,78150,Non-fatal,missing RRs,TRUE,FALSE
+9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,1799.971564,11994,5399.914692,3,0,NA,NA,or,NA,NA,132,1,LTPA,7,NA,NA,5399.914692,Non-fatal,missing RRs,TRUE,FALSE
+9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,1267.949708,11994,3803.849124,3,7,NA,NA,or,NA,NA,58,1,LTPA,7,NA,NA,3803.849124,Non-fatal,missing RRs,TRUE,FALSE
+9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,930.078728,11994,2790.236184,3,15.75,NA,NA,or,NA,NA,54,1,LTPA,7,NA,NA,2790.236184,Non-fatal,missing RRs,TRUE,FALSE
+9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,3973,32835,21851.5,5.5,0,NA,NA,or,NA,NA,381,1,LTPA,1,NA,NA,21851.5,Both,missing RRs,TRUE,FALSE
+9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,903,32835,4966.5,5.5,9,NA,NA,or,NA,NA,84,1,LTPA,1,NA,NA,4966.5,Both,missing RRs,TRUE,FALSE
+9929,Cabello M.,Major depression,Non-fatal,3,ir,5970,1094,32835,6017,5.5,22,NA,NA,or,NA,NA,129,1,LTPA,1,NA,NA,6017,Both,missing RRs,TRUE,FALSE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,303,173824,24206,8,21.88,NA,NA,hr,NA,NA,334,1,LTPA,2,NA,NA,24206,Both,missing RRs,TRUE,FALSE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,308,173824,24678,8,13.12,NA,NA,hr,NA,NA,435,1,LTPA,2,NA,NA,24678,Both,missing RRs,TRUE,FALSE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,296,173824,23689,8,4.38,NA,NA,hr,NA,NA,475,1,LTPA,2,NA,NA,23689,Both,missing RRs,TRUE,FALSE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,374,173824,29928,8,1.75,NA,NA,hr,NA,NA,780,1,LTPA,2,NA,NA,29928,Both,missing RRs,TRUE,FALSE
+9926,Chang S.,Major depression,Non-fatal,2,ci,21728,970,173824,77639,8,0,NA,NA,hr,NA,NA,1921,1,LTPA,2,NA,NA,77639,Both,missing RRs,TRUE,FALSE
+9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,5597,163059,59193,10.5,3.29,NA,NA,hr,NA,NA,366,1,LTPA,3,NA,NA,59193,Both,missing RRs,TRUE,FALSE
+9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,3548,163059,37606,10.5,11.34,NA,NA,hr,NA,NA,193,1,LTPA,3,NA,NA,37606,Both,missing RRs,TRUE,FALSE
+9934,Fernandez-Montero A.,Major depression,Non-fatal,3,ci,15488,6343,163059,66260,10.5,19.66,NA,NA,hr,NA,NA,311,1,LTPA,3,NA,NA,66260,Both,missing RRs,TRUE,FALSE
+9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,4854.761129,267722,63111.89467,13,4.35,NA,NA,hr,NA,NA,80,1,LTPA,4,NA,NA,63111.89467,Both,missing RRs,TRUE,FALSE
+9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,7865.584561,267722,102252.5993,13,13.12,NA,NA,hr,NA,NA,111,1,LTPA,4,NA,NA,102252.5993,Both,missing RRs,TRUE,FALSE
+9941,Hallgren M.,Major depression,Non-fatal,3,ci,20594,7873.65431,267722,102357.506,13,21.88,NA,NA,hr,NA,NA,98,1,LTPA,4,NA,NA,102357.506,Both,missing RRs,TRUE,FALSE
+999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,4479.200195,429208,116459.2031,26,13.5,NA,NA,hr,NA,NA,92,1,LTPA,5,NA,NA,116459.2031,Both,missing RRs,TRUE,FALSE
+999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,9057.360352,429208,235491.3594,26,4.5,NA,NA,hr,NA,NA,235,1,LTPA,5,NA,NA,235491.3594,Both,missing RRs,TRUE,FALSE
+999,Mikkelsen S.,Major depression,Non-fatal,3,ci,16508,2971.439941,429208,77257.4375,26,0.75,NA,NA,hr,NA,NA,109,1,LTPA,5,NA,NA,77257.4375,Both,missing RRs,TRUE,FALSE
+9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3468,244220,83035,25,4.73,NA,NA,rr,NA,NA,154,1,LTPA,6,NA,NA,83035,Both,missing RRs,TRUE,FALSE
+9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3468,244220,83035,25,18.79,NA,NA,rr,NA,NA,129,1,LTPA,6,NA,NA,83035,Both,missing RRs,TRUE,FALSE
+9914,Paffenbarger Jr R.,Major depression,Non-fatal,1,ir,10201,3264,244220,78150,25,36.16,NA,NA,rr,NA,NA,104,1,LTPA,6,NA,NA,78150,Both,missing RRs,TRUE,FALSE
+9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,1799.971564,11994,5399.914692,3,0,NA,NA,or,NA,NA,132,1,LTPA,7,NA,NA,5399.914692,Both,missing RRs,TRUE,FALSE
+9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,1267.949708,11994,3803.849124,3,7,NA,NA,or,NA,NA,58,1,LTPA,7,NA,NA,3803.849124,Both,missing RRs,TRUE,FALSE
+9922,Ten Have M.,Major depression,Non-fatal,3,ir,3998,930.078728,11994,2790.236184,3,15.75,NA,NA,or,NA,NA,54,1,LTPA,7,NA,NA,2790.236184,Both,missing RRs,TRUE,FALSE
 332,"Arem, H",Myeloid leukemia,Fatal,3,ci,293511,41165,3551483,498097,12.1,0,NA,NA,hr,NA,NA,54,1,LTPA,2,NA,NA,498097,Fatal,missing RRs,TRUE,FALSE
 332,"Arem, H",Myeloid leukemia,Fatal,3,ci,293511,31095,3551483,376250,12.1,1.75,NA,NA,hr,NA,NA,50,1,LTPA,2,NA,NA,376250,Fatal,missing RRs,TRUE,FALSE
 332,"Arem, H",Myeloid leukemia,Fatal,3,ci,293511,74502,3551483,901474,12.1,7,NA,NA,hr,NA,NA,81,1,LTPA,2,NA,NA,901474,Fatal,missing RRs,TRUE,FALSE
