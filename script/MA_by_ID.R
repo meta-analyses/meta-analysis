@@ -62,7 +62,7 @@ for (i in 1:length(files_path_main_analysis)){
     ub_df <- get_ma_table(dataset2, "ub")
     
     
-    rr_conf <- data.frame(outcome = "All-cause mortality", id = uid, ref_number = unique(cause_by_id$ref_number), lowest_guideline = rr_df[1],
+    rr_conf <- data.frame(outcome = gsub('^.*main-\\s*|\\s*-fatal.*$', '', files_path_main_analysis[i]), id = uid, ref_number = unique(cause_by_id$ref_number), lowest_guideline = rr_df[1],
                           lowest_CFI = paste0("(",lb_df[1], " - ", ub_df[1], ")"), mid_guideline = rr_df[2],
                           mid_CFI = paste0("(", lb_df[2], " - ", ub_df[2], ")"), mid_lb=lb_df[2], mid_ub=ub_df[2],
                           highest_guideline = rr_df[3],
