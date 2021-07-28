@@ -5,8 +5,8 @@ All-cause cvd,Fatal,"Q-test = 261.869 (df = 56), p-value = 0.000",I-square stati
 All-cause cvd,Both,"Q-test = 352.544 (df = 72), p-value = 0.000",I-square statistic = 79.6%
 All-cause dementia,Non-fatal,"Q-test = 95.890 (df = 22), p-value = 0.000",I-square statistic = 77.1%
 All-cause dementia,Both,"Q-test = 140.479 (df = 34), p-value = 0.000",I-square statistic = 75.8%
-All-cause mortality,Fatal,"Q-test = 1739.545 (df = 96), p-value = 0.000",I-square statistic = 94.5%
-All-cause mortality,Both,"Q-test = 1739.545 (df = 96), p-value = 0.000",I-square statistic = 94.5%
+All-cause mortality,Fatal,"Q-test = 1748.836 (df = 98), p-value = 0.000",I-square statistic = 94.4%
+All-cause mortality,Both,"Q-test = 1748.836 (df = 98), p-value = 0.000",I-square statistic = 94.4%
 Alzheimer's disease,Non-fatal,"Q-test = 7.792 (df = 6), p-value = 0.254",I-square statistic = 23.0%
 Alzheimer's disease,Both,"Q-test = 20.606 (df = 12), p-value = 0.056",I-square statistic = 41.8%
 Bladder cancer,Both,"Q-test = 4.423 (df = 6), p-value = 0.620",I-square statistic = 0.0%
@@ -26,8 +26,8 @@ Head and neck cancer,Both,"Q-test = 9.293 (df = 6), p-value = 0.158",I-square st
 Heart failure,Both,"Q-test = 340.136 (df = 20), p-value = 0.000",I-square statistic = 94.1%
 Kidney cancer,Both,"Q-test = 16.720 (df = 12), p-value = 0.160",I-square statistic = 28.2%
 Liver cancer,Both,"Q-test = 19.411 (df = 10), p-value = 0.035",I-square statistic = 48.5%
-Lung cancer,Fatal,"Q-test = 26.498 (df = 6), p-value = 0.000",I-square statistic = 77.4%
-Lung cancer,Both,"Q-test = 159.964 (df = 28), p-value = 0.000",I-square statistic = 82.5%
+Lung cancer,Fatal,"Q-test = 27.963 (df = 8), p-value = 0.000",I-square statistic = 71.4%
+Lung cancer,Both,"Q-test = 167.788 (df = 30), p-value = 0.000",I-square statistic = 82.1%
 Major depression,Non-fatal,"Q-test = 27.609 (df = 12), p-value = 0.006",I-square statistic = 56.5%
 Major depression,Both,"Q-test = 27.609 (df = 12), p-value = 0.006",I-square statistic = 56.5%
 Myeloid leukemia,Both,"Q-test = 6.861 (df = 6), p-value = 0.334",I-square statistic = 12.5%

@@ -5,8 +5,8 @@ All-cause cvd,Fatal,"Q-test = 227.579 (df = 56), p-value = 0.000",I-square stati
 All-cause cvd,Both,"Q-test = 332.315 (df = 72), p-value = 0.000",I-square statistic = 78.3%
 All-cause dementia,Non-fatal,"Q-test = 96.368 (df = 22), p-value = 0.000",I-square statistic = 77.2%
 All-cause dementia,Both,"Q-test = 136.289 (df = 34), p-value = 0.000",I-square statistic = 75.1%
-All-cause mortality,Fatal,"Q-test = 1570.905 (df = 96), p-value = 0.000",I-square statistic = 93.9%
-All-cause mortality,Both,"Q-test = 1570.905 (df = 96), p-value = 0.000",I-square statistic = 93.9%
+All-cause mortality,Fatal,"Q-test = 1596.836 (df = 98), p-value = 0.000",I-square statistic = 93.9%
+All-cause mortality,Both,"Q-test = 1596.836 (df = 98), p-value = 0.000",I-square statistic = 93.9%
 Alzheimer's disease,Non-fatal,"Q-test = 7.749 (df = 6), p-value = 0.257",I-square statistic = 22.6%
 Alzheimer's disease,Both,"Q-test = 22.545 (df = 12), p-value = 0.032",I-square statistic = 46.8%
 Bladder cancer,Both,"Q-test = 4.291 (df = 6), p-value = 0.637",I-square statistic = 0.0%
@@ -26,8 +26,8 @@ Head and neck cancer,Both,"Q-test = 9.282 (df = 6), p-value = 0.158",I-square st
 Heart failure,Both,"Q-test = 341.312 (df = 20), p-value = 0.000",I-square statistic = 94.1%
 Kidney cancer,Both,"Q-test = 16.744 (df = 12), p-value = 0.159",I-square statistic = 28.3%
 Liver cancer,Both,"Q-test = 19.226 (df = 10), p-value = 0.037",I-square statistic = 48.0%
-Lung cancer,Fatal,"Q-test = 26.207 (df = 6), p-value = 0.000",I-square statistic = 77.1%
-Lung cancer,Both,"Q-test = 158.073 (df = 28), p-value = 0.000",I-square statistic = 82.3%
+Lung cancer,Fatal,"Q-test = 27.812 (df = 8), p-value = 0.001",I-square statistic = 71.2%
+Lung cancer,Both,"Q-test = 166.233 (df = 30), p-value = 0.000",I-square statistic = 82.0%
 Major depression,Non-fatal,"Q-test = 27.336 (df = 12), p-value = 0.007",I-square statistic = 56.1%
 Major depression,Both,"Q-test = 27.336 (df = 12), p-value = 0.007",I-square statistic = 56.1%
 Myeloid leukemia,Both,"Q-test = 5.848 (df = 6), p-value = 0.440",I-square statistic = 0.0%
