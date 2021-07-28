@@ -1,0 +1,7 @@
+outcome,id,ref_number,lowest_guideline,lowest_CFI,mid_guideline,mid_CFI,mid_lb,mid_ub,highest_guideline,highest_CFI
+All-cause mortality,6,9924,0.87,(0.7 - 1.08),0.78,(0.64 - 0.96),0.64,0.96,0.67,(0.55 - 0.83)
+All-cause mortality,5,9920,1,(1 - 1),1,(1 - 1),1,1,0.97,(0.8 - 1.18)
+All-cause mortality,4,99162,0.75,(0.51 - 1.1),0.59,(0.31 - 1.14),0.31,1.14,0.49,(0.25 - 0.95)
+All-cause mortality,3,99161,1.46,(0.88 - 2.43),1.55,(0.83 - 2.89),0.83,2.89,1.16,(0.66 - 2.05)
+All-cause mortality,2,9912,0.95,(0.55 - 1.61),0.67,(0.39 - 1.15),0.39,1.15,0.25,(0.06 - 1.07)
+All-cause mortality,1,996,1.25,(0.84 - 1.87),1.23,(0.76 - 2.01),0.76,2.01,0.95,(0.62 - 1.45)
