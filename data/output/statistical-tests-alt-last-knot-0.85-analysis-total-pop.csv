@@ -15,8 +15,8 @@ Breast cancer,Both,"Q-test = 83.287 (df = 56), p-value = 0.010",I-square statist
 Colon cancer,Both,"Q-test = 64.818 (df = 38), p-value = 0.004",I-square statistic = 41.4%
 Coronary heart disease,Fatal,"Q-test = 42.074 (df = 22), p-value = 0.006",I-square statistic = 47.7%
 Coronary heart disease,Both,"Q-test = 354.861 (df = 50), p-value = 0.000",I-square statistic = 85.9%
-Depression,Non-fatal,"Q-test = 118.981 (df = 28), p-value = 0.000",I-square statistic = 76.5%
-Depression,Both,"Q-test = 118.981 (df = 28), p-value = 0.000",I-square statistic = 76.5%
+Depression,Non-fatal,"Q-test = 109.595 (df = 28), p-value = 0.000",I-square statistic = 74.5%
+Depression,Both,"Q-test = 109.595 (df = 28), p-value = 0.000",I-square statistic = 74.5%
 Depressive symptoms,Non-fatal,"Q-test = 76.876 (df = 14), p-value = 0.000",I-square statistic = 81.8%
 Depressive symptoms,Both,"Q-test = 76.876 (df = 14), p-value = 0.000",I-square statistic = 81.8%
 Endometrial cancer,Both,"Q-test = 27.813 (df = 24), p-value = 0.268",I-square statistic = 13.7%

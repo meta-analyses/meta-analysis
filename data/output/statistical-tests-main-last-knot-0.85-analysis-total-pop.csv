@@ -15,8 +15,8 @@ Breast cancer,Both,"Q-test = 80.968 (df = 56), p-value = 0.016",I-square statist
 Colon cancer,Both,"Q-test = 67.626 (df = 38), p-value = 0.002",I-square statistic = 43.8%
 Coronary heart disease,Fatal,"Q-test = 41.668 (df = 22), p-value = 0.007",I-square statistic = 47.2%
 Coronary heart disease,Both,"Q-test = 282.279 (df = 50), p-value = 0.000",I-square statistic = 82.3%
-Depression,Non-fatal,"Q-test = 121.977 (df = 28), p-value = 0.000",I-square statistic = 77.0%
-Depression,Both,"Q-test = 121.977 (df = 28), p-value = 0.000",I-square statistic = 77.0%
+Depression,Non-fatal,"Q-test = 107.594 (df = 28), p-value = 0.000",I-square statistic = 74.0%
+Depression,Both,"Q-test = 107.594 (df = 28), p-value = 0.000",I-square statistic = 74.0%
 Depressive symptoms,Non-fatal,"Q-test = 73.928 (df = 14), p-value = 0.000",I-square statistic = 81.1%
 Depressive symptoms,Both,"Q-test = 73.928 (df = 14), p-value = 0.000",I-square statistic = 81.1%
 Endometrial cancer,Both,"Q-test = 26.539 (df = 24), p-value = 0.326",I-square statistic = 9.6%
@@ -28,8 +28,8 @@ Kidney cancer,Both,"Q-test = 17.891 (df = 12), p-value = 0.119",I-square statist
 Liver cancer,Both,"Q-test = 19.938 (df = 10), p-value = 0.030",I-square statistic = 49.8%
 Lung cancer,Fatal,"Q-test = 30.324 (df = 8), p-value = 0.000",I-square statistic = 73.6%
 Lung cancer,Both,"Q-test = 160.541 (df = 30), p-value = 0.000",I-square statistic = 81.3%
-Major depression,Non-fatal,"Q-test = 26.202 (df = 12), p-value = 0.010",I-square statistic = 54.2%
-Major depression,Both,"Q-test = 26.202 (df = 12), p-value = 0.010",I-square statistic = 54.2%
+Major depression,Non-fatal,"Q-test = 26.198 (df = 12), p-value = 0.010",I-square statistic = 54.2%
+Major depression,Both,"Q-test = 26.198 (df = 12), p-value = 0.010",I-square statistic = 54.2%
 Myeloid leukemia,Both,"Q-test = 5.595 (df = 6), p-value = 0.470",I-square statistic = 0.0%
 Myeloma,Both,"Q-test = 7.435 (df = 6), p-value = 0.282",I-square statistic = 19.3%
 Parkinson's disease,Non-fatal,"Q-test = 11.826 (df = 10), p-value = 0.297",I-square statistic = 15.4%
