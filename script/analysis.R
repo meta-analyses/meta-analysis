@@ -270,12 +270,12 @@ if (total_population) {
               "\n Last knot: ", last_knot_title
             )
             
-            if (!NO_BMI_EFFECT && local_last_knot == 0.75)
-              write_csv(dataset, paste0("data/csv/", ifelse(ALT, "ALT", "main"), "-", uoutcome$outcome[i], "-", dir_name, ".csv"))
-            
             snake_case_outcome <- gsub(x = uoutcome$outcome[i], pattern = " ", replacement = "-") %>% tolower()
             snake_case_outcome_type <- gsub(x = dir_name, pattern = " ", replacement = "-") %>% tolower()
             ma_filename <- paste0(snake_case_outcome, "-", snake_case_outcome_type)
+            
+            if (!NO_BMI_EFFECT && local_last_knot == 0.75)
+              write_csv(dataset, paste0("data/csv/", ifelse(ALT, "ALT", "main"), "-", ma_filename, ".csv"))
             
             if (!NO_BMI_EFFECT && create_MA_tables && local_last_knot == 0.75){
               write_csv(dataset2, paste0("data/csv/MA-DR/", ma_filename, ".csv"))
