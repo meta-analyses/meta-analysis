@@ -30,7 +30,7 @@ for(local_last_knot in c(0.75, 0.85))
       
     }
 
-source("script/acm_MA_by_ID.R")
+source("script/MA_by_ID.R")
 
 # Once these lines are executed, the markdown documents can be knitted to produce plots
 rmarkdown::render("plots/gen_plots.Rmd")
