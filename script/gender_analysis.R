@@ -30,8 +30,8 @@ rr_conf_df <- NULL
 for (i in 1:nrow(uoutcome)) {
   # Loop through all three outcome types
   for(gg in unique(raw_data_gsp_ltpa$sex_subgroups)){
-    for (local_outcome_type in c("Fatal", "Non-fatal", "Both")) {
-      # local_outcome_type <- "Fatal"; i <- 3; gg <- '1'
+    for (local_outcome_type in c("Both", "Fatal", "Non-fatal")) {
+      # local_outcome_type <- "Both"; i <- 7; gg <- '2'
       
       # Select output directory according to outcome type
       if (local_outcome_type == "Fatal") {
@@ -85,8 +85,8 @@ for (i in 1:nrow(uoutcome)) {
       
       print(length(unique(acmfdata$ref_number)))
       
-      if(length(unique(acmfdata$ref_number)) < 5)
-        break
+      if(length(unique(acmfdata$ref_number)) < 3)
+         break
       
       # Use default covariance method
       local_cov_method <- TRUE
@@ -148,7 +148,7 @@ for (i in 1:nrow(uoutcome)) {
         
         # NOTE TO MATT/LEANDRO
         # This removes all studies with repeating rows such as studies with both sex and ethnicity entries
-        # Won'TRUE need it if we remove all such rows from the dataset
+        # Won't need it if we remove all such rows from the dataset
         # Identify all studies with repeating IDs
         local_filter <- acmfdata %>%
           group_by(id) %>%
@@ -218,9 +218,9 @@ for (i in 1:nrow(uoutcome)) {
             # if (!is.null(res))
             #   next()
             
-            if (length(unique(dataset$id)) < 4) {
-              next
-            }
+            # if (length(unique(dataset$id)) < 4) {
+            #   next
+            # }
             
             stats_Q_lbl <- ""
             stats_I_lbl <- ""
