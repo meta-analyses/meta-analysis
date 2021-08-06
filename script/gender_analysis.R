@@ -50,6 +50,10 @@ for (i in 1:nrow(uoutcome)) {
         dir_name, " and index ", i, "\n"
       )
       
+      if (uoutcome$outcome[i] == "All-cause dementia" && 
+          dir_name == "Fatal and non-fatal")
+        break
+      
       # Subset according to outcome, domain and outcome type
       acmfdata <- subset(raw_data_gsp_ltpa, sex_subgroups == gg & outcome == uoutcome$outcome[i] &
                            pa_domain_subgroup == local_pa_domain_subgroup &
@@ -85,7 +89,7 @@ for (i in 1:nrow(uoutcome)) {
       
       print(length(unique(acmfdata$ref_number)))
       
-      if(length(unique(acmfdata$ref_number)) < 3)
+      if(length(unique(acmfdata$ref_number)) < 4)
          break
       
       # Use default covariance method
