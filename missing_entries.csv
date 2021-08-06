@@ -1238,6 +1238,26 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 9936,Hansson O.,Vascular dementia,Non-fatal,3,ci,20609,6870,309135,103050,15,10.52,NA,NA,hr,NA,NA,102,1,LTPA,4,NA,NA,103050,Both,missing RRs,TRUE,TRUE
 9936,Hansson O.,Vascular dementia,Non-fatal,3,ci,20609,6870,309135,103050,15,21.95,NA,NA,hr,NA,NA,94,1,LTPA,4,NA,NA,103050,Both,missing RRs,TRUE,TRUE
 9936,Hansson O.,Vascular dementia,Non-fatal,3,ci,20609,6870,309135,103050,15,39.65,NA,NA,hr,NA,NA,67,1,LTPA,4,NA,NA,103050,Both,missing RRs,TRUE,TRUE
+295-1,Kabat G.,All-cause cancer,Both,1,ci,286821,81023,3011621,850736,11,0.47,NA,NA,hr,NA,NA,14392,0,LTPA,3,NA,NA,850736,Both,missing RRs,TRUE,TRUE
+295-1,Kabat G.,All-cause cancer,Both,1,ci,286821,63268,3011621,664318,11,1.88,NA,NA,hr,NA,NA,11126,0,LTPA,3,NA,NA,664318,Both,missing RRs,TRUE,TRUE
+295-1,Kabat G.,All-cause cancer,Both,1,ci,286821,80969,3011621,850169,11,4.38,NA,NA,hr,NA,NA,14527,0,LTPA,3,NA,NA,850169,Both,missing RRs,TRUE,TRUE
+295-1,Kabat G.,All-cause cancer,Both,1,ci,286821,61562,3011621,646397,11,6.88,NA,NA,hr,NA,NA,10717,0,LTPA,3,NA,NA,646397,Both,missing RRs,TRUE,TRUE
+300-1,McKenzie,All-cause cancer,Both,1,ci,121200,747,1339718,267944,11.6,0,NA,NA,hr,NA,NA,2200,0,LTPA,4,NA,NA,267944,Both,missing RRs,TRUE,TRUE
+300-1,McKenzie,All-cause cancer,Both,1,ci,121200,747,1339718,267944,11.6,20.44,NA,NA,hr,NA,NA,2200,0,LTPA,4,NA,NA,267944,Both,missing RRs,TRUE,TRUE
+300-1,McKenzie,All-cause cancer,Both,1,ci,121200,747,1339718,267944,11.6,42.36,NA,NA,hr,NA,NA,2195,0,LTPA,4,NA,NA,267944,Both,missing RRs,TRUE,TRUE
+300-1,McKenzie,All-cause cancer,Both,1,ci,121200,747,1339718,267944,11.6,70.45,NA,NA,hr,NA,NA,2184,0,LTPA,4,NA,NA,267944,Both,missing RRs,TRUE,TRUE
+300-1,McKenzie,All-cause cancer,Both,1,ci,121200,747,1339718,267944,11.6,103.45,NA,NA,hr,NA,NA,2171,0,LTPA,4,NA,NA,267944,Both,missing RRs,TRUE,TRUE
+193-1,Matthews C,All-cause cancer,Fatal,1,ci,26207,7031,167726,45001,6.4,3.52,NA,NA,hr,NA,NA,203,0,LTPA,7,NA,NA,45001,Both,missing RRs,TRUE,TRUE
+193-1,Matthews C,All-cause cancer,Fatal,1,ci,26207,5176,167726,33126,6.4,10.66,NA,NA,hr,NA,NA,101,0,LTPA,7,NA,NA,33126,Both,missing RRs,TRUE,TRUE
+193-1,Matthews C,All-cause cancer,Fatal,1,ci,26207,5340,167726,34174,6.4,20.05,NA,NA,hr,NA,NA,81,0,LTPA,7,NA,NA,34174,Both,missing RRs,TRUE,TRUE
+193-1,Matthews C,All-cause cancer,Fatal,1,ci,26207,8660,167726,55425,6.4,31.63,NA,NA,hr,NA,NA,122,0,LTPA,7,NA,NA,55425,Both,missing RRs,TRUE,TRUE
+239-1,Patel et al.,All-cause cancer,Fatal,1,ci,53440,55,549438,63336,14,6.25,NA,NA,hr,NA,NA,379,0,LTPA,9,NA,NA,63336,Both,missing RRs,TRUE,TRUE
+239-1,Patel et al.,All-cause cancer,Fatal,1,ci,53440,51,549438,59365,14,16.32,NA,NA,hr,NA,NA,314,0,LTPA,9,NA,NA,59365,Both,missing RRs,TRUE,TRUE
+239-1,Patel et al.,All-cause cancer,Fatal,1,ci,53440,75,549438,86898,14,22.18,NA,NA,hr,NA,NA,488,0,LTPA,9,NA,NA,86898,Both,missing RRs,TRUE,TRUE
+239-1,Patel et al.,All-cause cancer,Fatal,1,ci,53440,115,549438,133341,14,29.58,NA,NA,hr,NA,NA,781,0,LTPA,9,NA,NA,133341,Both,missing RRs,TRUE,TRUE
+239-1,Patel et al.,All-cause cancer,Fatal,1,ci,53440,100,549438,115894,14,38.51,NA,NA,hr,NA,NA,636,0,LTPA,9,NA,NA,115894,Both,missing RRs,TRUE,TRUE
+239-1,Patel et al.,All-cause cancer,Fatal,1,ci,53440,76,549438,88468,14,47.48,NA,NA,hr,NA,NA,511,0,LTPA,9,NA,NA,88468,Both,missing RRs,TRUE,TRUE
+239-1,Patel et al.,All-cause cancer,Fatal,1,ci,53440,2,549438,2136,14,56.49,NA,NA,hr,NA,NA,772,0,LTPA,9,NA,NA,2136,Both,missing RRs,TRUE,TRUE
 193-1,Matthews C,All-cause cancer,Fatal,1,ci,26207,7031,167726,45001,6.4,3.52,NA,NA,hr,NA,NA,203,0,LTPA,3,NA,NA,45001,Fatal,missing RRs,TRUE,TRUE
 193-1,Matthews C,All-cause cancer,Fatal,1,ci,26207,5176,167726,33126,6.4,10.66,NA,NA,hr,NA,NA,101,0,LTPA,3,NA,NA,33126,Fatal,missing RRs,TRUE,TRUE
 193-1,Matthews C,All-cause cancer,Fatal,1,ci,26207,5340,167726,34174,6.4,20.05,NA,NA,hr,NA,NA,81,0,LTPA,3,NA,NA,34174,Fatal,missing RRs,TRUE,TRUE
@@ -1253,6 +1273,26 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 295-1,Kabat G.,All-cause cancer,Fatal,1,ci,286821,63268,3011621,664318,13,1.88,NA,NA,hr,NA,NA,2415,0,LTPA,8,NA,NA,664318,Fatal,missing RRs,TRUE,TRUE
 295-1,Kabat G.,All-cause cancer,Fatal,1,ci,286821,80969,3011621,850169,13,4.38,NA,NA,hr,NA,NA,2870,0,LTPA,8,NA,NA,850169,Fatal,missing RRs,TRUE,TRUE
 295-1,Kabat G.,All-cause cancer,Fatal,1,ci,286821,61562,3011621,646397,13,6.88,NA,NA,hr,NA,NA,2158,0,LTPA,8,NA,NA,646397,Fatal,missing RRs,TRUE,TRUE
+295-2,Kabat G.,All-cause cancer,Both,2,ci,189575,70384,1990538,739031,11,0.47,NA,NA,hr,NA,NA,8730,0,LTPA,3,NA,NA,739031,Both,missing RRs,TRUE,TRUE
+295-2,Kabat G.,All-cause cancer,Both,2,ci,189575,40234,1990538,422459,11,1.88,NA,NA,hr,NA,NA,4891,0,LTPA,3,NA,NA,422459,Both,missing RRs,TRUE,TRUE
+295-2,Kabat G.,All-cause cancer,Both,2,ci,189575,47916,1990538,503113,11,4.38,NA,NA,hr,NA,NA,5705,0,LTPA,3,NA,NA,503113,Both,missing RRs,TRUE,TRUE
+295-2,Kabat G.,All-cause cancer,Both,2,ci,189575,31041,1990538,325934,11,6.88,NA,NA,hr,NA,NA,3696,0,LTPA,3,NA,NA,325934,Both,missing RRs,TRUE,TRUE
+300-2,McKenzie,All-cause cancer,Both,2,ci,270408,3741,3006119,601224,11.8,0,NA,NA,hr,NA,NA,3682,0,LTPA,4,NA,NA,601224,Both,missing RRs,TRUE,TRUE
+300-2,McKenzie,All-cause cancer,Both,2,ci,270408,3741,3006119,601224,11.8,20.44,NA,NA,hr,NA,NA,3620,0,LTPA,4,NA,NA,601224,Both,missing RRs,TRUE,TRUE
+300-2,McKenzie,All-cause cancer,Both,2,ci,270408,3741,3006119,601224,11.8,42.36,NA,NA,hr,NA,NA,3476,0,LTPA,4,NA,NA,601224,Both,missing RRs,TRUE,TRUE
+300-2,McKenzie,All-cause cancer,Both,2,ci,270408,3741,3006119,601224,11.8,70.45,NA,NA,hr,NA,NA,3432,0,LTPA,4,NA,NA,601224,Both,missing RRs,TRUE,TRUE
+300-2,McKenzie,All-cause cancer,Both,2,ci,270408,3741,3006119,601224,11.8,103.45,NA,NA,hr,NA,NA,3354,0,LTPA,4,NA,NA,601224,Both,missing RRs,TRUE,TRUE
+193-2,Matthews C,All-cause cancer,Fatal,2,ci,37101,8770,237445,56125,6.4,3.52,NA,NA,hr,NA,NA,125,0,LTPA,7,NA,NA,56125,Both,missing RRs,TRUE,TRUE
+193-2,Matthews C,All-cause cancer,Fatal,2,ci,37101,10701,237445,68487,6.4,10.66,NA,NA,hr,NA,NA,118,0,LTPA,7,NA,NA,68487,Both,missing RRs,TRUE,TRUE
+193-2,Matthews C,All-cause cancer,Fatal,2,ci,37101,10458,237445,66933,6.4,20.05,NA,NA,hr,NA,NA,98,0,LTPA,7,NA,NA,66933,Both,missing RRs,TRUE,TRUE
+193-2,Matthews C,All-cause cancer,Fatal,2,ci,37101,7172,237445,45900,6.4,31.63,NA,NA,hr,NA,NA,57,0,LTPA,7,NA,NA,45900,Both,missing RRs,TRUE,TRUE
+239-2,Patel et al.,All-cause cancer,Fatal,2,ci,69776,121,925686,107418,14,6.25,NA,NA,hr,NA,NA,413,0,LTPA,9,NA,NA,107418,Both,missing RRs,TRUE,TRUE
+239-2,Patel et al.,All-cause cancer,Fatal,2,ci,69776,72,925686,63751,14,16.32,NA,NA,hr,NA,NA,260,0,LTPA,9,NA,NA,63751,Both,missing RRs,TRUE,TRUE
+239-2,Patel et al.,All-cause cancer,Fatal,2,ci,69776,180,925686,159718,14,22.18,NA,NA,hr,NA,NA,536,0,LTPA,9,NA,NA,159718,Both,missing RRs,TRUE,TRUE
+239-2,Patel et al.,All-cause cancer,Fatal,2,ci,69776,220,925686,195423,14,29.58,NA,NA,hr,NA,NA,608,0,LTPA,9,NA,NA,195423,Both,missing RRs,TRUE,TRUE
+239-2,Patel et al.,All-cause cancer,Fatal,2,ci,69776,178,925686,157978,14,38.51,NA,NA,hr,NA,NA,499,0,LTPA,9,NA,NA,157978,Both,missing RRs,TRUE,TRUE
+239-2,Patel et al.,All-cause cancer,Fatal,2,ci,69776,112,925686,99477,14,47.48,NA,NA,hr,NA,NA,328,0,LTPA,9,NA,NA,99477,Both,missing RRs,TRUE,TRUE
+239-2,Patel et al.,All-cause cancer,Fatal,2,ci,69776,160,925686,141921,14,56.49,NA,NA,hr,NA,NA,464,0,LTPA,9,NA,NA,141921,Both,missing RRs,TRUE,TRUE
 193-2,Matthews C,All-cause cancer,Fatal,2,ci,37101,8770,237445,56125,6.4,3.52,NA,NA,hr,NA,NA,125,0,LTPA,3,NA,NA,56125,Fatal,missing RRs,TRUE,TRUE
 193-2,Matthews C,All-cause cancer,Fatal,2,ci,37101,10701,237445,68487,6.4,10.66,NA,NA,hr,NA,NA,118,0,LTPA,3,NA,NA,68487,Fatal,missing RRs,TRUE,TRUE
 193-2,Matthews C,All-cause cancer,Fatal,2,ci,37101,10458,237445,66933,6.4,20.05,NA,NA,hr,NA,NA,98,0,LTPA,3,NA,NA,66933,Fatal,missing RRs,TRUE,TRUE
@@ -1268,6 +1308,20 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 295-2,Kabat G.,All-cause cancer,Fatal,2,ci,189575,40234,1990538,422459,13,1.88,NA,NA,hr,NA,NA,1175,0,LTPA,8,NA,NA,422459,Fatal,missing RRs,TRUE,TRUE
 295-2,Kabat G.,All-cause cancer,Fatal,2,ci,189575,47916,1990538,503113,13,4.38,NA,NA,hr,NA,NA,1325,0,LTPA,8,NA,NA,503113,Fatal,missing RRs,TRUE,TRUE
 295-2,Kabat G.,All-cause cancer,Fatal,2,ci,189575,31041,1990538,325934,13,6.88,NA,NA,hr,NA,NA,907,0,LTPA,8,NA,NA,325934,Fatal,missing RRs,TRUE,TRUE
+28-1,Holtermann et al.,All-cause cvd,Fatal,1,ci,7411,1882,166006.4,557277,22.4,1.5,NA,NA,hr,NA,NA,402,0,LTPA,4,NA,NA,557277,Both,missing RRs,TRUE,TRUE
+28-1,Holtermann et al.,All-cause cvd,Fatal,1,ci,7411,5816,166006.4,1721984,22.4,4.5,NA,NA,hr,NA,NA,874,0,LTPA,4,NA,NA,1721984,Both,missing RRs,TRUE,TRUE
+28-1,Holtermann et al.,All-cause cvd,Fatal,1,ci,7411,4647,166006.4,1375818,22.4,18.2,NA,NA,hr,NA,NA,669,0,LTPA,4,NA,NA,1375818,Both,missing RRs,TRUE,TRUE
+193-1,Matthews C,All-cause cvd,Fatal,1,ci,26207,7031,167726,45001,6.4,3.52,NA,NA,hr,NA,NA,250,0,LTPA,8,NA,NA,45001,Both,missing RRs,TRUE,TRUE
+193-1,Matthews C,All-cause cvd,Fatal,1,ci,26207,5176,167726,33126,6.4,10.66,NA,NA,hr,NA,NA,123,0,LTPA,8,NA,NA,33126,Both,missing RRs,TRUE,TRUE
+193-1,Matthews C,All-cause cvd,Fatal,1,ci,26207,5340,167726,34174,6.4,20.05,NA,NA,hr,NA,NA,98,0,LTPA,8,NA,NA,34174,Both,missing RRs,TRUE,TRUE
+193-1,Matthews C,All-cause cvd,Fatal,1,ci,26207,8660,167726,55425,6.4,31.63,NA,NA,hr,NA,NA,138,0,LTPA,8,NA,NA,55425,Both,missing RRs,TRUE,TRUE
+239-1,Patel et al.,All-cause cvd,Fatal,1,ci,53440,55,549438,63336,14,6.25,NA,NA,hr,NA,NA,435,0,LTPA,11,NA,NA,63336,Both,missing RRs,TRUE,TRUE
+239-1,Patel et al.,All-cause cvd,Fatal,1,ci,53440,51,549438,59365,14,16.32,NA,NA,hr,NA,NA,353,0,LTPA,11,NA,NA,59365,Both,missing RRs,TRUE,TRUE
+239-1,Patel et al.,All-cause cvd,Fatal,1,ci,53440,75,549438,86898,14,22.18,NA,NA,hr,NA,NA,496,0,LTPA,11,NA,NA,86898,Both,missing RRs,TRUE,TRUE
+239-1,Patel et al.,All-cause cvd,Fatal,1,ci,53440,115,549438,133341,14,29.58,NA,NA,hr,NA,NA,818,0,LTPA,11,NA,NA,133341,Both,missing RRs,TRUE,TRUE
+239-1,Patel et al.,All-cause cvd,Fatal,1,ci,53440,100,549438,115894,14,38.51,NA,NA,hr,NA,NA,638,0,LTPA,11,NA,NA,115894,Both,missing RRs,TRUE,TRUE
+239-1,Patel et al.,All-cause cvd,Fatal,1,ci,53440,76,549438,88468,14,47.48,NA,NA,hr,NA,NA,516,0,LTPA,11,NA,NA,88468,Both,missing RRs,TRUE,TRUE
+239-1,Patel et al.,All-cause cvd,Fatal,1,ci,53440,2,549438,2136,14,56.49,NA,NA,hr,NA,NA,753,0,LTPA,11,NA,NA,2136,Both,missing RRs,TRUE,TRUE
 28-1,Holtermann et al.,All-cause cvd,Fatal,1,ci,7411,1882,166006.4,557277,22.4,1.5,NA,NA,hr,NA,NA,402,0,LTPA,1,NA,NA,557277,Fatal,missing RRs,TRUE,TRUE
 28-1,Holtermann et al.,All-cause cvd,Fatal,1,ci,7411,5816,166006.4,1721984,22.4,4.5,NA,NA,hr,NA,NA,874,0,LTPA,1,NA,NA,1721984,Fatal,missing RRs,TRUE,TRUE
 28-1,Holtermann et al.,All-cause cvd,Fatal,1,ci,7411,4647,166006.4,1375818,22.4,18.2,NA,NA,hr,NA,NA,669,0,LTPA,1,NA,NA,1375818,Fatal,missing RRs,TRUE,TRUE
@@ -1282,6 +1336,20 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 239-1,Patel et al.,All-cause cvd,Fatal,1,ci,53440,100,549438,115894,14,38.51,NA,NA,hr,NA,NA,638,0,LTPA,8,NA,NA,115894,Fatal,missing RRs,TRUE,TRUE
 239-1,Patel et al.,All-cause cvd,Fatal,1,ci,53440,76,549438,88468,14,47.48,NA,NA,hr,NA,NA,516,0,LTPA,8,NA,NA,88468,Fatal,missing RRs,TRUE,TRUE
 239-1,Patel et al.,All-cause cvd,Fatal,1,ci,53440,2,549438,2136,14,56.49,NA,NA,hr,NA,NA,753,0,LTPA,8,NA,NA,2136,Fatal,missing RRs,TRUE,TRUE
+28-2,Holtermann et al.,All-cause cvd,Fatal,2,ci,8916,146,199718.4,35965,22.4,1.5,NA,NA,hr,NA,NA,457,0,LTPA,4,NA,NA,35965,Both,missing RRs,TRUE,TRUE
+28-2,Holtermann et al.,All-cause cvd,Fatal,2,ci,8916,471,199718.4,115989,22.4,4.5,NA,NA,hr,NA,NA,1004,0,LTPA,4,NA,NA,115989,Both,missing RRs,TRUE,TRUE
+28-2,Holtermann et al.,All-cause cvd,Fatal,2,ci,8916,194,199718.4,47765,22.4,18.2,NA,NA,hr,NA,NA,353,0,LTPA,4,NA,NA,47765,Both,missing RRs,TRUE,TRUE
+193-2,Matthews C,All-cause cvd,Fatal,2,ci,37101,8770,237445,56125,6.4,3.52,NA,NA,hr,NA,NA,139,0,LTPA,8,NA,NA,56125,Both,missing RRs,TRUE,TRUE
+193-2,Matthews C,All-cause cvd,Fatal,2,ci,37101,10701,237445,68487,6.4,10.66,NA,NA,hr,NA,NA,115,0,LTPA,8,NA,NA,68487,Both,missing RRs,TRUE,TRUE
+193-2,Matthews C,All-cause cvd,Fatal,2,ci,37101,10458,237445,66933,6.4,20.05,NA,NA,hr,NA,NA,109,0,LTPA,8,NA,NA,66933,Both,missing RRs,TRUE,TRUE
+193-2,Matthews C,All-cause cvd,Fatal,2,ci,37101,7172,237445,45900,6.4,31.63,NA,NA,hr,NA,NA,68,0,LTPA,8,NA,NA,45900,Both,missing RRs,TRUE,TRUE
+239-2,Patel et al.,All-cause cvd,Fatal,2,ci,69776,121,925686,107418,14,6.25,NA,NA,hr,NA,NA,370,0,LTPA,11,NA,NA,107418,Both,missing RRs,TRUE,TRUE
+239-2,Patel et al.,All-cause cvd,Fatal,2,ci,69776,72,925686,63751,14,16.32,NA,NA,hr,NA,NA,224,0,LTPA,11,NA,NA,63751,Both,missing RRs,TRUE,TRUE
+239-2,Patel et al.,All-cause cvd,Fatal,2,ci,69776,180,925686,159718,14,22.18,NA,NA,hr,NA,NA,400,0,LTPA,11,NA,NA,159718,Both,missing RRs,TRUE,TRUE
+239-2,Patel et al.,All-cause cvd,Fatal,2,ci,69776,220,925686,195423,14,29.58,NA,NA,hr,NA,NA,484,0,LTPA,11,NA,NA,195423,Both,missing RRs,TRUE,TRUE
+239-2,Patel et al.,All-cause cvd,Fatal,2,ci,69776,178,925686,157978,14,38.51,NA,NA,hr,NA,NA,369,0,LTPA,11,NA,NA,157978,Both,missing RRs,TRUE,TRUE
+239-2,Patel et al.,All-cause cvd,Fatal,2,ci,69776,112,925686,99477,14,47.48,NA,NA,hr,NA,NA,224,0,LTPA,11,NA,NA,99477,Both,missing RRs,TRUE,TRUE
+239-2,Patel et al.,All-cause cvd,Fatal,2,ci,69776,160,925686,141921,14,56.49,NA,NA,hr,NA,NA,289,0,LTPA,11,NA,NA,141921,Both,missing RRs,TRUE,TRUE
 28-2,Holtermann et al.,All-cause cvd,Fatal,2,ci,8916,146,199718.4,35965,22.4,1.5,NA,NA,hr,NA,NA,457,0,LTPA,1,NA,NA,35965,Fatal,missing RRs,TRUE,TRUE
 28-2,Holtermann et al.,All-cause cvd,Fatal,2,ci,8916,471,199718.4,115989,22.4,4.5,NA,NA,hr,NA,NA,1004,0,LTPA,1,NA,NA,115989,Fatal,missing RRs,TRUE,TRUE
 28-2,Holtermann et al.,All-cause cvd,Fatal,2,ci,8916,194,199718.4,47765,22.4,18.2,NA,NA,hr,NA,NA,353,0,LTPA,1,NA,NA,47765,Fatal,missing RRs,TRUE,TRUE
@@ -1296,6 +1364,41 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 239-2,Patel et al.,All-cause cvd,Fatal,2,ci,69776,178,925686,157978,14,38.51,NA,NA,hr,NA,NA,369,0,LTPA,8,NA,NA,157978,Fatal,missing RRs,TRUE,TRUE
 239-2,Patel et al.,All-cause cvd,Fatal,2,ci,69776,112,925686,99477,14,47.48,NA,NA,hr,NA,NA,224,0,LTPA,8,NA,NA,99477,Fatal,missing RRs,TRUE,TRUE
 239-2,Patel et al.,All-cause cvd,Fatal,2,ci,69776,160,925686,141921,14,56.49,NA,NA,hr,NA,NA,289,0,LTPA,8,NA,NA,141921,Fatal,missing RRs,TRUE,TRUE
+95-1,Inoue M.,All-cause mortality,Fatal,1,ci,39183,30526,725071,264625,8.7,0.63,NA,NA,hr,NA,NA,2547,0,LTPA,3,NA,NA,264625,Both,missing RRs,TRUE,TRUE
+95-1,Inoue M.,All-cause mortality,Fatal,1,ci,39183,4377,725071,37299,8.7,1.88,NA,NA,hr,NA,NA,231,0,LTPA,3,NA,NA,37299,Both,missing RRs,TRUE,TRUE
+95-1,Inoue M.,All-cause mortality,Fatal,1,ci,39183,4280,725071,35422,8.7,4.38,NA,NA,hr,NA,NA,320,0,LTPA,3,NA,NA,35422,Both,missing RRs,TRUE,TRUE
+125-1,Richard A.,All-cause mortality,Fatal,1,ci,7146,1032,94327,13622,13.2,0,NA,NA,hr,NA,NA,319,0,LTPA,6,NA,NA,13622,Both,missing RRs,TRUE,TRUE
+125-1,Richard A.,All-cause mortality,Fatal,1,ci,7146,2497,94327,32960,13.2,2.5,NA,NA,hr,NA,NA,444,0,LTPA,6,NA,NA,32960,Both,missing RRs,TRUE,TRUE
+125-1,Richard A.,All-cause mortality,Fatal,1,ci,7146,3617,94327,47744,13.2,7.5,NA,NA,hr,NA,NA,785,0,LTPA,6,NA,NA,47744,Both,missing RRs,TRUE,TRUE
+193-1,Matthews C,All-cause mortality,Fatal,1,ci,26207,7031,167726,45001,6.4,3.52,NA,NA,hr,NA,NA,835,0,LTPA,9,NA,NA,45001,Both,missing RRs,TRUE,TRUE
+193-1,Matthews C,All-cause mortality,Fatal,1,ci,26207,5176,167726,33126,6.4,10.66,NA,NA,hr,NA,NA,441,0,LTPA,9,NA,NA,33126,Both,missing RRs,TRUE,TRUE
+193-1,Matthews C,All-cause mortality,Fatal,1,ci,26207,5340,167726,34174,6.4,20.05,NA,NA,hr,NA,NA,344,0,LTPA,9,NA,NA,34174,Both,missing RRs,TRUE,TRUE
+193-1,Matthews C,All-cause mortality,Fatal,1,ci,26207,8660,167726,55425,6.4,31.63,NA,NA,hr,NA,NA,490,0,LTPA,9,NA,NA,55425,Both,missing RRs,TRUE,TRUE
+229-1,Brown et al.,All-cause mortality,Fatal,1,ci,11668,3008,140016,36096,12,0,NA,NA,hr,NA,NA,1247,0,LTPA,12,NA,NA,36096,Both,missing RRs,TRUE,TRUE
+229-1,Brown et al.,All-cause mortality,Fatal,1,ci,11668,591,140016,7092,12,1.4,NA,NA,hr,NA,NA,245,0,LTPA,12,NA,NA,7092,Both,missing RRs,TRUE,TRUE
+229-1,Brown et al.,All-cause mortality,Fatal,1,ci,11668,720,140016,8640,12,4.26,NA,NA,hr,NA,NA,257,0,LTPA,12,NA,NA,8640,Both,missing RRs,TRUE,TRUE
+229-1,Brown et al.,All-cause mortality,Fatal,1,ci,11668,834,140016,10008,12,6.25,NA,NA,hr,NA,NA,311,0,LTPA,12,NA,NA,10008,Both,missing RRs,TRUE,TRUE
+229-1,Brown et al.,All-cause mortality,Fatal,1,ci,11668,2005,140016,24060,12,10.32,NA,NA,hr,NA,NA,698,0,LTPA,12,NA,NA,24060,Both,missing RRs,TRUE,TRUE
+229-1,Brown et al.,All-cause mortality,Fatal,1,ci,11668,1825,140016,21900,12,16.53,NA,NA,hr,NA,NA,620,0,LTPA,12,NA,NA,21900,Both,missing RRs,TRUE,TRUE
+229-1,Brown et al.,All-cause mortality,Fatal,1,ci,11668,2685,140016,32220,12,22.82,NA,NA,hr,NA,NA,835,0,LTPA,12,NA,NA,32220,Both,missing RRs,TRUE,TRUE
+239-1,Patel et al.,All-cause mortality,Fatal,1,ci,53440,55,549438,63336,14,6.25,NA,NA,hr,NA,NA,1186,0,LTPA,13,NA,NA,63336,Both,missing RRs,TRUE,TRUE
+239-1,Patel et al.,All-cause mortality,Fatal,1,ci,53440,51,549438,59365,14,16.32,NA,NA,hr,NA,NA,991,0,LTPA,13,NA,NA,59365,Both,missing RRs,TRUE,TRUE
+239-1,Patel et al.,All-cause mortality,Fatal,1,ci,53440,75,549438,86898,14,22.18,NA,NA,hr,NA,NA,1397,0,LTPA,13,NA,NA,86898,Both,missing RRs,TRUE,TRUE
+239-1,Patel et al.,All-cause mortality,Fatal,1,ci,53440,115,549438,133341,14,29.58,NA,NA,hr,NA,NA,2284,0,LTPA,13,NA,NA,133341,Both,missing RRs,TRUE,TRUE
+239-1,Patel et al.,All-cause mortality,Fatal,1,ci,53440,100,549438,115894,14,38.51,NA,NA,hr,NA,NA,1857,0,LTPA,13,NA,NA,115894,Both,missing RRs,TRUE,TRUE
+239-1,Patel et al.,All-cause mortality,Fatal,1,ci,53440,76,549438,88468,14,47.48,NA,NA,hr,NA,NA,1453,0,LTPA,13,NA,NA,88468,Both,missing RRs,TRUE,TRUE
+239-1,Patel et al.,All-cause mortality,Fatal,1,ci,53440,2,549438,2136,14,56.49,NA,NA,hr,NA,NA,2139,0,LTPA,13,NA,NA,2136,Both,missing RRs,TRUE,TRUE
+295-1,Kabat G.,All-cause mortality,Fatal,1,ci,286821,81023,3011621,850736,14,0.47,NA,NA,hr,NA,NA,18669,0,LTPA,16,NA,NA,850736,Both,missing RRs,TRUE,TRUE
+295-1,Kabat G.,All-cause mortality,Fatal,1,ci,286821,63268,3011621,664318,14,1.88,NA,NA,hr,NA,NA,11954,0,LTPA,16,NA,NA,664318,Both,missing RRs,TRUE,TRUE
+295-1,Kabat G.,All-cause mortality,Fatal,1,ci,286821,80969,3011621,850169,14,4.38,NA,NA,hr,NA,NA,14552,0,LTPA,16,NA,NA,850169,Both,missing RRs,TRUE,TRUE
+295-1,Kabat G.,All-cause mortality,Fatal,1,ci,286821,61562,3011621,646397,14,6.88,NA,NA,hr,NA,NA,10639,0,LTPA,16,NA,NA,646397,Both,missing RRs,TRUE,TRUE
+304-1,Ekelund U,All-cause mortality,Fatal,1,ci,116980,21329,862900,232814.3125,12.4,0,NA,NA,hr,NA,NA,3598,0,LTPA,17,NA,NA,232814.3125,Both,missing RRs,TRUE,TRUE
+304-1,Ekelund U,All-cause mortality,Fatal,1,ci,116980,36549,862900,414946.7734,12.4,15.05,NA,NA,hr,NA,NA,3262,0,LTPA,17,NA,NA,414946.7734,Both,missing RRs,TRUE,TRUE
+304-1,Ekelund U,All-cause mortality,Fatal,1,ci,116980,29024,862900,329780.0391,12.4,21.8,NA,NA,hr,NA,NA,2180,0,LTPA,17,NA,NA,329780.0391,Both,missing RRs,TRUE,TRUE
+304-1,Ekelund U,All-cause mortality,Fatal,1,ci,116980,30078,862900,342996.207,12.4,31.6,NA,NA,hr,NA,NA,2046,0,LTPA,17,NA,NA,342996.207,Both,missing RRs,TRUE,TRUE
+350-1,Nalini M.,All-cause mortality,Fatal,1,ci,18456,10619,170126,96035,10,10.52,NA,NA,hr,NA,NA,1554,0,LTPA,18,NA,NA,96035,Both,missing RRs,TRUE,TRUE
+350-1,Nalini M.,All-cause mortality,Fatal,1,ci,18456,4046,170126,37881,10,15.48,NA,NA,hr,NA,NA,479,0,LTPA,18,NA,NA,37881,Both,missing RRs,TRUE,TRUE
+350-1,Nalini M.,All-cause mortality,Fatal,1,ci,18456,3791,170126,36209,10,75.23,NA,NA,hr,NA,NA,369,0,LTPA,18,NA,NA,36209,Both,missing RRs,TRUE,TRUE
 95-1,Inoue M.,All-cause mortality,Fatal,1,ci,39183,30526,725071,264625,8.7,0.63,NA,NA,hr,NA,NA,2547,0,LTPA,3,NA,NA,264625,Fatal,missing RRs,TRUE,TRUE
 95-1,Inoue M.,All-cause mortality,Fatal,1,ci,39183,4377,725071,37299,8.7,1.88,NA,NA,hr,NA,NA,231,0,LTPA,3,NA,NA,37299,Fatal,missing RRs,TRUE,TRUE
 95-1,Inoue M.,All-cause mortality,Fatal,1,ci,39183,4280,725071,35422,8.7,4.38,NA,NA,hr,NA,NA,320,0,LTPA,3,NA,NA,35422,Fatal,missing RRs,TRUE,TRUE
@@ -1331,6 +1434,41 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 350-1,Nalini M.,All-cause mortality,Fatal,1,ci,18456,10619,170126,96035,10,10.52,NA,NA,hr,NA,NA,1554,0,LTPA,18,NA,NA,96035,Fatal,missing RRs,TRUE,TRUE
 350-1,Nalini M.,All-cause mortality,Fatal,1,ci,18456,4046,170126,37881,10,15.48,NA,NA,hr,NA,NA,479,0,LTPA,18,NA,NA,37881,Fatal,missing RRs,TRUE,TRUE
 350-1,Nalini M.,All-cause mortality,Fatal,1,ci,18456,3791,170126,36209,10,75.23,NA,NA,hr,NA,NA,369,0,LTPA,18,NA,NA,36209,Fatal,missing RRs,TRUE,TRUE
+95-2,Inoue M.,All-cause mortality,Fatal,2,ci,43851,34239,725071,306097,8.7,0.63,NA,NA,hr,NA,NA,1221,0,LTPA,3,NA,NA,306097,Both,missing RRs,TRUE,TRUE
+95-2,Inoue M.,All-cause mortality,Fatal,2,ci,43851,4733,725071,40481,8.7,1.88,NA,NA,hr,NA,NA,96,0,LTPA,3,NA,NA,40481,Both,missing RRs,TRUE,TRUE
+95-2,Inoue M.,All-cause mortality,Fatal,2,ci,43851,4879,725071,41147,8.7,4.38,NA,NA,hr,NA,NA,149,0,LTPA,3,NA,NA,41147,Both,missing RRs,TRUE,TRUE
+125-2,Richard A.,All-cause mortality,Fatal,2,ci,8161,2028,107725,26770,13.2,0,NA,NA,hr,NA,NA,505,0,LTPA,6,NA,NA,26770,Both,missing RRs,TRUE,TRUE
+125-2,Richard A.,All-cause mortality,Fatal,2,ci,8161,3158,107725,41686,13.2,2.5,NA,NA,hr,NA,NA,365,0,LTPA,6,NA,NA,41686,Both,missing RRs,TRUE,TRUE
+125-2,Richard A.,All-cause mortality,Fatal,2,ci,8161,2975,107725,39270,13.2,7.5,NA,NA,hr,NA,NA,446,0,LTPA,6,NA,NA,39270,Both,missing RRs,TRUE,TRUE
+193-2,Matthews C,All-cause mortality,Fatal,2,ci,37101,8770,237445,56125,6.4,3.52,NA,NA,hr,NA,NA,490,0,LTPA,9,NA,NA,56125,Both,missing RRs,TRUE,TRUE
+193-2,Matthews C,All-cause mortality,Fatal,2,ci,37101,10701,237445,68487,6.4,10.66,NA,NA,hr,NA,NA,440,0,LTPA,9,NA,NA,68487,Both,missing RRs,TRUE,TRUE
+193-2,Matthews C,All-cause mortality,Fatal,2,ci,37101,10458,237445,66933,6.4,20.05,NA,NA,hr,NA,NA,361,0,LTPA,9,NA,NA,66933,Both,missing RRs,TRUE,TRUE
+193-2,Matthews C,All-cause mortality,Fatal,2,ci,37101,7172,237445,45900,6.4,31.63,NA,NA,hr,NA,NA,212,0,LTPA,9,NA,NA,45900,Both,missing RRs,TRUE,TRUE
+229-2,Brown et al.,All-cause mortality,Fatal,2,ci,7080,2172,70800,21720,10,0,NA,NA,hr,NA,NA,694,0,LTPA,12,NA,NA,21720,Both,missing RRs,TRUE,TRUE
+229-2,Brown et al.,All-cause mortality,Fatal,2,ci,7080,1258,70800,12580,10,1.4,NA,NA,hr,NA,NA,285,0,LTPA,12,NA,NA,12580,Both,missing RRs,TRUE,TRUE
+229-2,Brown et al.,All-cause mortality,Fatal,2,ci,7080,539,70800,5390,10,4.26,NA,NA,hr,NA,NA,103,0,LTPA,12,NA,NA,5390,Both,missing RRs,TRUE,TRUE
+229-2,Brown et al.,All-cause mortality,Fatal,2,ci,7080,616,70800,6160,10,6.25,NA,NA,hr,NA,NA,116,0,LTPA,12,NA,NA,6160,Both,missing RRs,TRUE,TRUE
+229-2,Brown et al.,All-cause mortality,Fatal,2,ci,7080,982,70800,9820,10,10.32,NA,NA,hr,NA,NA,172,0,LTPA,12,NA,NA,9820,Both,missing RRs,TRUE,TRUE
+229-2,Brown et al.,All-cause mortality,Fatal,2,ci,7080,670,70800,6700,10,16.53,NA,NA,hr,NA,NA,135,0,LTPA,12,NA,NA,6700,Both,missing RRs,TRUE,TRUE
+229-2,Brown et al.,All-cause mortality,Fatal,2,ci,7080,843,70800,8430,10,22.82,NA,NA,hr,NA,NA,151,0,LTPA,12,NA,NA,8430,Both,missing RRs,TRUE,TRUE
+239-2,Patel et al.,All-cause mortality,Fatal,2,ci,69776,121,925686,107418,14,6.25,NA,NA,hr,NA,NA,1157,0,LTPA,13,NA,NA,107418,Both,missing RRs,TRUE,TRUE
+239-2,Patel et al.,All-cause mortality,Fatal,2,ci,69776,72,925686,63751,14,16.32,NA,NA,hr,NA,NA,699,0,LTPA,13,NA,NA,63751,Both,missing RRs,TRUE,TRUE
+239-2,Patel et al.,All-cause mortality,Fatal,2,ci,69776,180,925686,159718,14,22.18,NA,NA,hr,NA,NA,1382,0,LTPA,13,NA,NA,159718,Both,missing RRs,TRUE,TRUE
+239-2,Patel et al.,All-cause mortality,Fatal,2,ci,69776,220,925686,195423,14,29.58,NA,NA,hr,NA,NA,1588,0,LTPA,13,NA,NA,195423,Both,missing RRs,TRUE,TRUE
+239-2,Patel et al.,All-cause mortality,Fatal,2,ci,69776,178,925686,157978,14,38.51,NA,NA,hr,NA,NA,1255,0,LTPA,13,NA,NA,157978,Both,missing RRs,TRUE,TRUE
+239-2,Patel et al.,All-cause mortality,Fatal,2,ci,69776,112,925686,99477,14,47.48,NA,NA,hr,NA,NA,772,0,LTPA,13,NA,NA,99477,Both,missing RRs,TRUE,TRUE
+239-2,Patel et al.,All-cause mortality,Fatal,2,ci,69776,160,925686,141921,14,56.49,NA,NA,hr,NA,NA,1070,0,LTPA,13,NA,NA,141921,Both,missing RRs,TRUE,TRUE
+295-2,Kabat G.,All-cause mortality,Fatal,2,ci,189575,70384,1990538,739031,14,0.47,NA,NA,hr,NA,NA,11010,0,LTPA,16,NA,NA,739031,Both,missing RRs,TRUE,TRUE
+295-2,Kabat G.,All-cause mortality,Fatal,2,ci,189575,40234,1990538,422459,14,1.88,NA,NA,hr,NA,NA,5098,0,LTPA,16,NA,NA,422459,Both,missing RRs,TRUE,TRUE
+295-2,Kabat G.,All-cause mortality,Fatal,2,ci,189575,47916,1990538,503113,14,4.38,NA,NA,hr,NA,NA,5772,0,LTPA,16,NA,NA,503113,Both,missing RRs,TRUE,TRUE
+295-2,Kabat G.,All-cause mortality,Fatal,2,ci,189575,31041,1990538,325934,14,6.88,NA,NA,hr,NA,NA,3739,0,LTPA,16,NA,NA,325934,Both,missing RRs,TRUE,TRUE
+304-2,Ekelund U,All-cause mortality,Fatal,2,ci,217181,54620,920448,637549.8125,12.4,0,NA,NA,hr,NA,NA,3824,0,LTPA,17,NA,NA,637549.8125,Both,missing RRs,TRUE,TRUE
+304-2,Ekelund U,All-cause mortality,Fatal,2,ci,217181,76254,920448,908131.7969,12.4,15.05,NA,NA,hr,NA,NA,3356,0,LTPA,17,NA,NA,908131.7969,Both,missing RRs,TRUE,TRUE
+304-2,Ekelund U,All-cause mortality,Fatal,2,ci,217181,48635,920448,579952.6016,12.4,21.8,NA,NA,hr,NA,NA,1752,0,LTPA,17,NA,NA,579952.6016,Both,missing RRs,TRUE,TRUE
+304-2,Ekelund U,All-cause mortality,Fatal,2,ci,217181,37672,920448,446333.6953,12.4,31.6,NA,NA,hr,NA,NA,1420,0,LTPA,17,NA,NA,446333.6953,Both,missing RRs,TRUE,TRUE
+350-2,Nalini M.,All-cause mortality,Fatal,2,ci,25800,3745,247462,31252,10,10.52,NA,NA,hr,NA,NA,625,0,LTPA,18,NA,NA,31252,Both,missing RRs,TRUE,TRUE
+350-2,Nalini M.,All-cause mortality,Fatal,2,ci,25800,10151,247462,96373,10,15.48,NA,NA,hr,NA,NA,841,0,LTPA,18,NA,NA,96373,Both,missing RRs,TRUE,TRUE
+350-2,Nalini M.,All-cause mortality,Fatal,2,ci,25800,11904,247462,119837,10,75.23,NA,NA,hr,NA,NA,510,0,LTPA,18,NA,NA,119837,Both,missing RRs,TRUE,TRUE
 95-2,Inoue M.,All-cause mortality,Fatal,2,ci,43851,34239,725071,306097,8.7,0.63,NA,NA,hr,NA,NA,1221,0,LTPA,3,NA,NA,306097,Fatal,missing RRs,TRUE,TRUE
 95-2,Inoue M.,All-cause mortality,Fatal,2,ci,43851,4733,725071,40481,8.7,1.88,NA,NA,hr,NA,NA,96,0,LTPA,3,NA,NA,40481,Fatal,missing RRs,TRUE,TRUE
 95-2,Inoue M.,All-cause mortality,Fatal,2,ci,43851,4879,725071,41147,8.7,4.38,NA,NA,hr,NA,NA,149,0,LTPA,3,NA,NA,41147,Fatal,missing RRs,TRUE,TRUE
@@ -1366,12 +1504,79 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 350-2,Nalini M.,All-cause mortality,Fatal,2,ci,25800,3745,247462,31252,10,10.52,NA,NA,hr,NA,NA,625,0,LTPA,18,NA,NA,31252,Fatal,missing RRs,TRUE,TRUE
 350-2,Nalini M.,All-cause mortality,Fatal,2,ci,25800,10151,247462,96373,10,15.48,NA,NA,hr,NA,NA,841,0,LTPA,18,NA,NA,96373,Fatal,missing RRs,TRUE,TRUE
 350-2,Nalini M.,All-cause mortality,Fatal,2,ci,25800,11904,247462,119837,10,75.23,NA,NA,hr,NA,NA,510,0,LTPA,18,NA,NA,119837,Fatal,missing RRs,TRUE,TRUE
+21-2,"Ma, H",Breast cancer,Both,2,ci,108907,9984,1601226,355905,15,0.64,NA,NA,hr,NA,NA,1438,1,LTPA,2,NA,NA,355905,Both,missing RRs,TRUE,TRUE
+21-2,"Ma, H",Breast cancer,Both,2,ci,108907,31942,1601226,457799,15,3.76,NA,NA,hr,NA,NA,1708,1,LTPA,2,NA,NA,457799,Both,missing RRs,TRUE,TRUE
+21-2,"Ma, H",Breast cancer,Both,2,ci,108907,25442,1601226,279320,15,8.76,NA,NA,hr,NA,NA,972,1,LTPA,2,NA,NA,279320,Both,missing RRs,TRUE,TRUE
+21-2,"Ma, H",Breast cancer,Both,2,ci,108907,19466,1601226,256204,15,14.39,NA,NA,hr,NA,NA,901,1,LTPA,2,NA,NA,256204,Both,missing RRs,TRUE,TRUE
+21-2,"Ma, H",Breast cancer,Both,2,ci,108907,22073,1601226,251999,15,20.61,NA,NA,hr,NA,NA,863,1,LTPA,2,NA,NA,251999,Both,missing RRs,TRUE,TRUE
+252-2,Borch et al.,Breast cancer,Both,2,ci,80202,4196,648731,33940,8.2,4.7,NA,NA,hr,NA,NA,105,1,LTPA,12,NA,NA,33940,Both,missing RRs,TRUE,TRUE
+252-2,Borch et al.,Breast cancer,Both,2,ci,80202,16773,648731,135672,8.2,11.4,NA,NA,hr,NA,NA,401,1,LTPA,12,NA,NA,135672,Both,missing RRs,TRUE,TRUE
+252-2,Borch et al.,Breast cancer,Both,2,ci,80202,33538,648731,271279,8.2,21.1,NA,NA,hr,NA,NA,722,1,LTPA,12,NA,NA,271279,Both,missing RRs,TRUE,TRUE
+252-2,Borch et al.,Breast cancer,Both,2,ci,80202,20564,648731,166336,8.2,30.6,NA,NA,hr,NA,NA,443,1,LTPA,12,NA,NA,166336,Both,missing RRs,TRUE,TRUE
+252-2,Borch et al.,Breast cancer,Both,2,ci,80202,5131,648731,41503,8.2,54.5,NA,NA,hr,NA,NA,96,1,LTPA,12,NA,NA,41503,Both,missing RRs,TRUE,TRUE
+305-2,Steindorf K,Breast cancer,Both,2,ci,257805,16267,2782367,702262,11.6,0,NA,NA,hr,NA,NA,2431,1,LTPA,17,NA,NA,702262,Both,missing RRs,TRUE,TRUE
+305-2,Steindorf K,Breast cancer,Both,2,ci,257805,16061,2782367,693368,11.6,26.46,NA,NA,hr,NA,NA,2087,1,LTPA,17,NA,NA,693368,Both,missing RRs,TRUE,TRUE
+305-2,Steindorf K,Breast cancer,Both,2,ci,257805,15815,2782367,682755,11.6,57.51,NA,NA,hr,NA,NA,1823,1,LTPA,17,NA,NA,682755,Both,missing RRs,TRUE,TRUE
+305-2,Steindorf K,Breast cancer,Both,2,ci,257805,16307,2782367,703982,11.6,93.93,NA,NA,hr,NA,NA,1693,1,LTPA,17,NA,NA,703982,Both,missing RRs,TRUE,TRUE
+334-2,McTiernan,Breast cancer,Both,2,ci,73370,9630,347519,45613,4.7,0,NA,NA,hr,NA,NA,239,1,LTPA,19,NA,NA,45613,Both,missing RRs,TRUE,TRUE
+334-2,McTiernan,Breast cancer,Both,2,ci,73370,14786,347519,70034,4.7,1.4,NA,NA,hr,NA,NA,351,1,LTPA,19,NA,NA,70034,Both,missing RRs,TRUE,TRUE
+334-2,McTiernan,Breast cancer,Both,2,ci,73370,11987,347519,56777,4.7,5.29,NA,NA,hr,NA,NA,270,1,LTPA,19,NA,NA,56777,Both,missing RRs,TRUE,TRUE
+334-2,McTiernan,Breast cancer,Both,2,ci,73370,17939,347519,84969,4.7,11.38,NA,NA,hr,NA,NA,456,1,LTPA,19,NA,NA,84969,Both,missing RRs,TRUE,TRUE
+334-2,McTiernan,Breast cancer,Both,2,ci,73370,14654,347519,69409,4.7,23.91,NA,NA,hr,NA,NA,355,1,LTPA,19,NA,NA,69409,Both,missing RRs,TRUE,TRUE
+334-2,McTiernan,Breast cancer,Both,2,ci,73370,4374,347519,20718,4.7,40.81,NA,NA,hr,NA,NA,97,1,LTPA,19,NA,NA,20718,Both,missing RRs,TRUE,TRUE
+196-2,"de Souto Barreto, P.",Breast cancer,Non-fatal,2,ci,30222,3692,135999,16614,4.5,0,NA,NA,hr,NA,NA,22,1,LTPA,23,NA,NA,16614,Both,missing RRs,TRUE,TRUE
+196-2,"de Souto Barreto, P.",Breast cancer,Non-fatal,2,ci,30222,1601,135999,7205,4.5,0.63,NA,NA,hr,NA,NA,7,1,LTPA,23,NA,NA,7205,Both,missing RRs,TRUE,TRUE
+196-2,"de Souto Barreto, P.",Breast cancer,Non-fatal,2,ci,30222,3910,135999,17595,4.5,1.25,NA,NA,hr,NA,NA,24,1,LTPA,23,NA,NA,17595,Both,missing RRs,TRUE,TRUE
+196-2,"de Souto Barreto, P.",Breast cancer,Non-fatal,2,ci,30222,21019,135999,94586,4.5,1.88,NA,NA,hr,NA,NA,148,1,LTPA,23,NA,NA,94586,Both,missing RRs,TRUE,TRUE
+255-1,Thune et al.,Colon cancer,Both,1,ci,53202,10640,867822,173558,16.3,0,NA,NA,hr,NA,NA,41,0,LTPA,4,NA,NA,173558,Both,missing RRs,TRUE,TRUE
+255-1,Thune et al.,Colon cancer,Both,1,ci,53202,29040,867822,473696,16.3,10,NA,NA,hr,NA,NA,125,0,LTPA,4,NA,NA,473696,Both,missing RRs,TRUE,TRUE
+255-1,Thune et al.,Colon cancer,Both,1,ci,53202,13522,867822,220569,16.3,24,NA,NA,hr,NA,NA,64,0,LTPA,4,NA,NA,220569,Both,missing RRs,TRUE,TRUE
+255-2,Thune et al.,Colon cancer,Both,2,ci,28255,6336,437785,98170,15.5,0,NA,NA,hr,NA,NA,30,0,LTPA,4,NA,NA,98170,Both,missing RRs,TRUE,TRUE
+255-2,Thune et al.,Colon cancer,Both,2,ci,28255,19100,437785,295937,15.5,10,NA,NA,hr,NA,NA,57,0,LTPA,4,NA,NA,295937,Both,missing RRs,TRUE,TRUE
+255-2,Thune et al.,Colon cancer,Both,2,ci,28255,2819,437785,43678,15.5,24,NA,NA,hr,NA,NA,12,0,LTPA,4,NA,NA,43678,Both,missing RRs,TRUE,TRUE
+24-1,Lv J.,Coronary heart disease,Both,1,ci,189153,2343,1322379,323749,7.2,0,NA,NA,hr,NA,NA,3817,0,LTPA,1,NA,NA,323749,Both,missing RRs,TRUE,TRUE
+24-1,Lv J.,Coronary heart disease,Both,1,ci,189153,2360,1322379,326049,7.2,51.38,NA,NA,hr,NA,NA,2253,0,LTPA,1,NA,NA,326049,Both,missing RRs,TRUE,TRUE
+24-1,Lv J.,Coronary heart disease,Both,1,ci,189153,2423,1322379,334790,7.2,119.46,NA,NA,hr,NA,NA,1915,0,LTPA,1,NA,NA,334790,Both,missing RRs,TRUE,TRUE
+24-1,Lv J.,Coronary heart disease,Both,1,ci,189153,2437,1322379,336612,7.2,201.84,NA,NA,hr,NA,NA,1232,0,LTPA,1,NA,NA,336612,Both,missing RRs,TRUE,TRUE
+2-1,Fraser G.,Coronary heart disease,Fatal,1,ir,10376,3291,53627,17007,6,0,NA,NA,rr,NA,NA,37,0,LTPA,3,NA,NA,17007,Both,missing RRs,TRUE,TRUE
+2-1,Fraser G.,Coronary heart disease,Fatal,1,ir,10376,2312,53627,11951,6,6.75,NA,NA,rr,NA,NA,26,0,LTPA,3,NA,NA,11951,Both,missing RRs,TRUE,TRUE
+2-1,Fraser G.,Coronary heart disease,Fatal,1,ir,10376,4773,53627,24669,6,13.5,NA,NA,rr,NA,NA,42,0,LTPA,3,NA,NA,24669,Both,missing RRs,TRUE,TRUE
 2-1,Fraser G.,Coronary heart disease,Fatal,1,ir,10376,3291,53627,17007,6,0,NA,NA,rr,NA,NA,37,0,LTPA,1,NA,NA,17007,Fatal,missing RRs,TRUE,TRUE
 2-1,Fraser G.,Coronary heart disease,Fatal,1,ir,10376,2312,53627,11951,6,6.75,NA,NA,rr,NA,NA,26,0,LTPA,1,NA,NA,11951,Fatal,missing RRs,TRUE,TRUE
 2-1,Fraser G.,Coronary heart disease,Fatal,1,ir,10376,4773,53627,24669,6,13.5,NA,NA,rr,NA,NA,42,0,LTPA,1,NA,NA,24669,Fatal,missing RRs,TRUE,TRUE
+24-2,Lv J.,Coronary heart disease,Both,2,ci,272058,4745,1945334,455775,7.2,0,NA,NA,hr,NA,NA,4854,0,LTPA,1,NA,NA,455775,Both,missing RRs,TRUE,TRUE
+24-2,Lv J.,Coronary heart disease,Both,2,ci,272058,5369,1945334,515686,7.2,40.18,NA,NA,hr,NA,NA,3945,0,LTPA,1,NA,NA,515686,Both,missing RRs,TRUE,TRUE
+24-2,Lv J.,Coronary heart disease,Both,2,ci,272058,5024,1945334,482609,7.2,95.98,NA,NA,hr,NA,NA,2109,0,LTPA,1,NA,NA,482609,Both,missing RRs,TRUE,TRUE
+24-2,Lv J.,Coronary heart disease,Both,2,ci,272058,5009,1945334,481111,7.2,166,NA,NA,hr,NA,NA,1732,0,LTPA,1,NA,NA,481111,Both,missing RRs,TRUE,TRUE
+2-2,Fraser G.,Coronary heart disease,Fatal,2,ir,17282,8065,85987,40128,6,0,NA,NA,rr,NA,NA,92,0,LTPA,3,NA,NA,40128,Both,missing RRs,TRUE,TRUE
+2-2,Fraser G.,Coronary heart disease,Fatal,2,ir,17282,2941,85987,14633,6,6.75,NA,NA,rr,NA,NA,21,0,LTPA,3,NA,NA,14633,Both,missing RRs,TRUE,TRUE
+2-2,Fraser G.,Coronary heart disease,Fatal,2,ir,17282,6276,85987,31226,6,13.5,NA,NA,rr,NA,NA,26,0,LTPA,3,NA,NA,31226,Both,missing RRs,TRUE,TRUE
 2-2,Fraser G.,Coronary heart disease,Fatal,2,ir,17282,8065,85987,40128,6,0,NA,NA,rr,NA,NA,92,0,LTPA,1,NA,NA,40128,Fatal,missing RRs,TRUE,TRUE
 2-2,Fraser G.,Coronary heart disease,Fatal,2,ir,17282,2941,85987,14633,6,6.75,NA,NA,rr,NA,NA,21,0,LTPA,1,NA,NA,14633,Fatal,missing RRs,TRUE,TRUE
 2-2,Fraser G.,Coronary heart disease,Fatal,2,ir,17282,6276,85987,31226,6,13.5,NA,NA,rr,NA,NA,26,0,LTPA,1,NA,NA,31226,Fatal,missing RRs,TRUE,TRUE
+233-2,Dieli-Conwright et al.,Endometrial cancer,Both,2,ci,93888,2062,1031458,90597,12,0.63,NA,NA,hr,NA,NA,134,1,LTPA,4,NA,NA,90597,Both,missing RRs,TRUE,TRUE
+233-2,Dieli-Conwright et al.,Endometrial cancer,Both,2,ci,93888,7006,1031458,307874,12,2.51,NA,NA,hr,NA,NA,351,1,LTPA,4,NA,NA,307874,Both,missing RRs,TRUE,TRUE
+233-2,Dieli-Conwright et al.,Endometrial cancer,Both,2,ci,93888,7300,1031458,320794,12,5.63,NA,NA,hr,NA,NA,282,1,LTPA,4,NA,NA,320794,Both,missing RRs,TRUE,TRUE
+233-2,Dieli-Conwright et al.,Endometrial cancer,Both,2,ci,93888,7104,1031458,312193,12,9.35,NA,NA,hr,NA,NA,209,1,LTPA,4,NA,NA,312193,Both,missing RRs,TRUE,TRUE
+268-2,Du M.,Endometrial cancer,Both,2,ci,71570,2158,1009508,152164,22,0.7,NA,NA,hr,NA,NA,112,1,LTPA,7,NA,NA,152164,Both,missing RRs,TRUE,TRUE
+268-2,Du M.,Endometrial cancer,Both,2,ci,71570,3803,1009508,268222,22,4.07,NA,NA,hr,NA,NA,181,1,LTPA,7,NA,NA,268222,Both,missing RRs,TRUE,TRUE
+268-2,Du M.,Endometrial cancer,Both,2,ci,71570,3756,1009508,264877,22,10.11,NA,NA,hr,NA,NA,176,1,LTPA,7,NA,NA,264877,Both,missing RRs,TRUE,TRUE
+268-2,Du M.,Endometrial cancer,Both,2,ci,71570,2106,1009508,148550,22,17.57,NA,NA,hr,NA,NA,98,1,LTPA,7,NA,NA,148550,Both,missing RRs,TRUE,TRUE
+268-2,Du M.,Endometrial cancer,Both,2,ci,71570,2491,1009508,175695,22,25.13,NA,NA,hr,NA,NA,116,1,LTPA,7,NA,NA,175695,Both,missing RRs,TRUE,TRUE
+255-1,Thune et al.,Rectum cancer,Both,1,ci,53202,10640,867822,173558,16.3,0,NA,NA,hr,NA,NA,29,0,LTPA,2,NA,NA,173558,Both,missing RRs,TRUE,TRUE
+255-1,Thune et al.,Rectum cancer,Both,1,ci,53202,29040,867822,473696,16.3,10,NA,NA,hr,NA,NA,106,0,LTPA,2,NA,NA,473696,Both,missing RRs,TRUE,TRUE
+255-1,Thune et al.,Rectum cancer,Both,1,ci,53202,13522,867822,220569,16.3,24,NA,NA,hr,NA,NA,34,0,LTPA,2,NA,NA,220569,Both,missing RRs,TRUE,TRUE
+255-2,Thune et al.,Rectum cancer,Both,2,ci,28255,6336,437785,98170,15.5,0,NA,NA,hr,NA,NA,9,0,LTPA,2,NA,NA,98170,Both,missing RRs,TRUE,TRUE
+255-2,Thune et al.,Rectum cancer,Both,2,ci,28255,19100,437785,295937,15.5,10,NA,NA,hr,NA,NA,40,0,LTPA,2,NA,NA,295937,Both,missing RRs,TRUE,TRUE
+255-2,Thune et al.,Rectum cancer,Both,2,ci,28255,2819,437785,43678,15.5,24,NA,NA,hr,NA,NA,6,0,LTPA,2,NA,NA,43678,Both,missing RRs,TRUE,TRUE
+325-1,"Huerta, J.M.",Stroke,Both,1,ci,13576,4635,166588,56396,12.3,7.06,NA,NA,hr,NA,NA,98,0,LTPA,7,NA,NA,56396,Both,missing RRs,TRUE,TRUE
+325-1,"Huerta, J.M.",Stroke,Both,1,ci,13576,3537,166588,43368,12.3,21.03,NA,NA,hr,NA,NA,58,0,LTPA,7,NA,NA,43368,Both,missing RRs,TRUE,TRUE
+325-1,"Huerta, J.M.",Stroke,Both,1,ci,13576,2911,166588,35966,12.3,35.96,NA,NA,hr,NA,NA,61,0,LTPA,7,NA,NA,35966,Both,missing RRs,TRUE,TRUE
+325-1,"Huerta, J.M.",Stroke,Both,1,ci,13576,2493,166588,30858,12.3,53.91,NA,NA,hr,NA,NA,54,0,LTPA,7,NA,NA,30858,Both,missing RRs,TRUE,TRUE
+325-2,"Huerta, J.M.",Stroke,Both,2,ci,19416,7206,240788,88531,12.3,7.06,NA,NA,hr,NA,NA,79,0,LTPA,7,NA,NA,88531,Both,missing RRs,TRUE,TRUE
+325-2,"Huerta, J.M.",Stroke,Both,2,ci,19416,6496,240788,80288,12.3,21.03,NA,NA,hr,NA,NA,52,0,LTPA,7,NA,NA,80288,Both,missing RRs,TRUE,TRUE
+325-2,"Huerta, J.M.",Stroke,Both,2,ci,19416,3903,240788,48996,12.3,35.96,NA,NA,hr,NA,NA,29,0,LTPA,7,NA,NA,48996,Both,missing RRs,TRUE,TRUE
+325-2,"Huerta, J.M.",Stroke,Both,2,ci,19416,1811,240788,22973,12.3,53.91,NA,NA,hr,NA,NA,11,0,LTPA,7,NA,NA,22973,Both,missing RRs,TRUE,TRUE
 26,Orsini N,All-cause cancer,Fatal,1,ir,28880,7662,272425,68106,7,0,NA,NA,rr,NA,NA,217,1,LTPA,1,NA,NA,68106,Fatal,missing RRs,TRUE,FALSE
 26,Orsini N,All-cause cancer,Fatal,1,ir,28880,7662,272426,68106,7,18.13,NA,NA,rr,NA,NA,181,1,LTPA,1,NA,NA,68106,Fatal,missing RRs,TRUE,FALSE
 26,Orsini N,All-cause cancer,Fatal,1,ir,28880,7662,272427,68106,7,36.31,NA,NA,rr,NA,NA,197,1,LTPA,1,NA,NA,68106,Fatal,missing RRs,TRUE,FALSE
@@ -2611,6 +2816,26 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 9936,Hansson O.,Vascular dementia,Non-fatal,3,ci,20609,6870,309135,103050,15,10.52,NA,NA,hr,NA,NA,102,1,LTPA,4,NA,NA,103050,Both,missing RRs,TRUE,FALSE
 9936,Hansson O.,Vascular dementia,Non-fatal,3,ci,20609,6870,309135,103050,15,21.95,NA,NA,hr,NA,NA,94,1,LTPA,4,NA,NA,103050,Both,missing RRs,TRUE,FALSE
 9936,Hansson O.,Vascular dementia,Non-fatal,3,ci,20609,6870,309135,103050,15,39.65,NA,NA,hr,NA,NA,67,1,LTPA,4,NA,NA,103050,Both,missing RRs,TRUE,FALSE
+295-1,Kabat G.,All-cause cancer,Both,1,ci,286821,81023,3011621,850736,11,0.98,NA,NA,hr,NA,NA,14392,0,LTPA,3,NA,NA,850736,Both,missing RRs,TRUE,FALSE
+295-1,Kabat G.,All-cause cancer,Both,1,ci,286821,63268,3011621,664318,11,3.94,NA,NA,hr,NA,NA,11126,0,LTPA,3,NA,NA,664318,Both,missing RRs,TRUE,FALSE
+295-1,Kabat G.,All-cause cancer,Both,1,ci,286821,80969,3011621,850169,11,9.19,NA,NA,hr,NA,NA,14527,0,LTPA,3,NA,NA,850169,Both,missing RRs,TRUE,FALSE
+295-1,Kabat G.,All-cause cancer,Both,1,ci,286821,61562,3011621,646397,11,14.44,NA,NA,hr,NA,NA,10717,0,LTPA,3,NA,NA,646397,Both,missing RRs,TRUE,FALSE
+300-1,McKenzie,All-cause cancer,Both,1,ci,121200,747,1339718,267944,11.6,0,NA,NA,hr,NA,NA,2200,0,LTPA,4,NA,NA,267944,Both,missing RRs,TRUE,FALSE
+300-1,McKenzie,All-cause cancer,Both,1,ci,121200,747,1339718,267944,11.6,20.44,NA,NA,hr,NA,NA,2200,0,LTPA,4,NA,NA,267944,Both,missing RRs,TRUE,FALSE
+300-1,McKenzie,All-cause cancer,Both,1,ci,121200,747,1339718,267944,11.6,42.36,NA,NA,hr,NA,NA,2195,0,LTPA,4,NA,NA,267944,Both,missing RRs,TRUE,FALSE
+300-1,McKenzie,All-cause cancer,Both,1,ci,121200,747,1339718,267944,11.6,70.45,NA,NA,hr,NA,NA,2184,0,LTPA,4,NA,NA,267944,Both,missing RRs,TRUE,FALSE
+300-1,McKenzie,All-cause cancer,Both,1,ci,121200,747,1339718,267944,11.6,103.45,NA,NA,hr,NA,NA,2171,0,LTPA,4,NA,NA,267944,Both,missing RRs,TRUE,FALSE
+193-1,Matthews C,All-cause cancer,Fatal,1,ci,26207,7031,167726,45001,6.4,3.52,NA,NA,hr,NA,NA,203,0,LTPA,7,NA,NA,45001,Both,missing RRs,TRUE,FALSE
+193-1,Matthews C,All-cause cancer,Fatal,1,ci,26207,5176,167726,33126,6.4,10.66,NA,NA,hr,NA,NA,101,0,LTPA,7,NA,NA,33126,Both,missing RRs,TRUE,FALSE
+193-1,Matthews C,All-cause cancer,Fatal,1,ci,26207,5340,167726,34174,6.4,20.05,NA,NA,hr,NA,NA,81,0,LTPA,7,NA,NA,34174,Both,missing RRs,TRUE,FALSE
+193-1,Matthews C,All-cause cancer,Fatal,1,ci,26207,8660,167726,55425,6.4,31.63,NA,NA,hr,NA,NA,122,0,LTPA,7,NA,NA,55425,Both,missing RRs,TRUE,FALSE
+239-1,Patel et al.,All-cause cancer,Fatal,1,ci,53440,55,549438,63336,14,6.25,NA,NA,hr,NA,NA,379,0,LTPA,9,NA,NA,63336,Both,missing RRs,TRUE,FALSE
+239-1,Patel et al.,All-cause cancer,Fatal,1,ci,53440,51,549438,59365,14,16.32,NA,NA,hr,NA,NA,314,0,LTPA,9,NA,NA,59365,Both,missing RRs,TRUE,FALSE
+239-1,Patel et al.,All-cause cancer,Fatal,1,ci,53440,75,549438,86898,14,22.18,NA,NA,hr,NA,NA,488,0,LTPA,9,NA,NA,86898,Both,missing RRs,TRUE,FALSE
+239-1,Patel et al.,All-cause cancer,Fatal,1,ci,53440,115,549438,133341,14,29.58,NA,NA,hr,NA,NA,781,0,LTPA,9,NA,NA,133341,Both,missing RRs,TRUE,FALSE
+239-1,Patel et al.,All-cause cancer,Fatal,1,ci,53440,100,549438,115894,14,38.51,NA,NA,hr,NA,NA,636,0,LTPA,9,NA,NA,115894,Both,missing RRs,TRUE,FALSE
+239-1,Patel et al.,All-cause cancer,Fatal,1,ci,53440,76,549438,88468,14,47.48,NA,NA,hr,NA,NA,511,0,LTPA,9,NA,NA,88468,Both,missing RRs,TRUE,FALSE
+239-1,Patel et al.,All-cause cancer,Fatal,1,ci,53440,2,549438,2136,14,56.49,NA,NA,hr,NA,NA,772,0,LTPA,9,NA,NA,2136,Both,missing RRs,TRUE,FALSE
 193-1,Matthews C,All-cause cancer,Fatal,1,ci,26207,7031,167726,45001,6.4,3.52,NA,NA,hr,NA,NA,203,0,LTPA,3,NA,NA,45001,Fatal,missing RRs,TRUE,FALSE
 193-1,Matthews C,All-cause cancer,Fatal,1,ci,26207,5176,167726,33126,6.4,10.66,NA,NA,hr,NA,NA,101,0,LTPA,3,NA,NA,33126,Fatal,missing RRs,TRUE,FALSE
 193-1,Matthews C,All-cause cancer,Fatal,1,ci,26207,5340,167726,34174,6.4,20.05,NA,NA,hr,NA,NA,81,0,LTPA,3,NA,NA,34174,Fatal,missing RRs,TRUE,FALSE
@@ -2626,6 +2851,26 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 295-1,Kabat G.,All-cause cancer,Fatal,1,ci,286821,63268,3011621,664318,13,3.94,NA,NA,hr,NA,NA,2415,0,LTPA,8,NA,NA,664318,Fatal,missing RRs,TRUE,FALSE
 295-1,Kabat G.,All-cause cancer,Fatal,1,ci,286821,80969,3011621,850169,13,9.19,NA,NA,hr,NA,NA,2870,0,LTPA,8,NA,NA,850169,Fatal,missing RRs,TRUE,FALSE
 295-1,Kabat G.,All-cause cancer,Fatal,1,ci,286821,61562,3011621,646397,13,14.44,NA,NA,hr,NA,NA,2158,0,LTPA,8,NA,NA,646397,Fatal,missing RRs,TRUE,FALSE
+295-2,Kabat G.,All-cause cancer,Both,2,ci,189575,70384,1990538,739031,11,0.98,NA,NA,hr,NA,NA,8730,0,LTPA,3,NA,NA,739031,Both,missing RRs,TRUE,FALSE
+295-2,Kabat G.,All-cause cancer,Both,2,ci,189575,40234,1990538,422459,11,3.94,NA,NA,hr,NA,NA,4891,0,LTPA,3,NA,NA,422459,Both,missing RRs,TRUE,FALSE
+295-2,Kabat G.,All-cause cancer,Both,2,ci,189575,47916,1990538,503113,11,9.19,NA,NA,hr,NA,NA,5705,0,LTPA,3,NA,NA,503113,Both,missing RRs,TRUE,FALSE
+295-2,Kabat G.,All-cause cancer,Both,2,ci,189575,31041,1990538,325934,11,14.44,NA,NA,hr,NA,NA,3696,0,LTPA,3,NA,NA,325934,Both,missing RRs,TRUE,FALSE
+300-2,McKenzie,All-cause cancer,Both,2,ci,270408,3741,3006119,601224,11.8,0,NA,NA,hr,NA,NA,3682,0,LTPA,4,NA,NA,601224,Both,missing RRs,TRUE,FALSE
+300-2,McKenzie,All-cause cancer,Both,2,ci,270408,3741,3006119,601224,11.8,20.44,NA,NA,hr,NA,NA,3620,0,LTPA,4,NA,NA,601224,Both,missing RRs,TRUE,FALSE
+300-2,McKenzie,All-cause cancer,Both,2,ci,270408,3741,3006119,601224,11.8,42.36,NA,NA,hr,NA,NA,3476,0,LTPA,4,NA,NA,601224,Both,missing RRs,TRUE,FALSE
+300-2,McKenzie,All-cause cancer,Both,2,ci,270408,3741,3006119,601224,11.8,70.45,NA,NA,hr,NA,NA,3432,0,LTPA,4,NA,NA,601224,Both,missing RRs,TRUE,FALSE
+300-2,McKenzie,All-cause cancer,Both,2,ci,270408,3741,3006119,601224,11.8,103.45,NA,NA,hr,NA,NA,3354,0,LTPA,4,NA,NA,601224,Both,missing RRs,TRUE,FALSE
+193-2,Matthews C,All-cause cancer,Fatal,2,ci,37101,8770,237445,56125,6.4,3.52,NA,NA,hr,NA,NA,125,0,LTPA,7,NA,NA,56125,Both,missing RRs,TRUE,FALSE
+193-2,Matthews C,All-cause cancer,Fatal,2,ci,37101,10701,237445,68487,6.4,10.66,NA,NA,hr,NA,NA,118,0,LTPA,7,NA,NA,68487,Both,missing RRs,TRUE,FALSE
+193-2,Matthews C,All-cause cancer,Fatal,2,ci,37101,10458,237445,66933,6.4,20.05,NA,NA,hr,NA,NA,98,0,LTPA,7,NA,NA,66933,Both,missing RRs,TRUE,FALSE
+193-2,Matthews C,All-cause cancer,Fatal,2,ci,37101,7172,237445,45900,6.4,31.63,NA,NA,hr,NA,NA,57,0,LTPA,7,NA,NA,45900,Both,missing RRs,TRUE,FALSE
+239-2,Patel et al.,All-cause cancer,Fatal,2,ci,69776,121,925686,107418,14,6.25,NA,NA,hr,NA,NA,413,0,LTPA,9,NA,NA,107418,Both,missing RRs,TRUE,FALSE
+239-2,Patel et al.,All-cause cancer,Fatal,2,ci,69776,72,925686,63751,14,16.32,NA,NA,hr,NA,NA,260,0,LTPA,9,NA,NA,63751,Both,missing RRs,TRUE,FALSE
+239-2,Patel et al.,All-cause cancer,Fatal,2,ci,69776,180,925686,159718,14,22.18,NA,NA,hr,NA,NA,536,0,LTPA,9,NA,NA,159718,Both,missing RRs,TRUE,FALSE
+239-2,Patel et al.,All-cause cancer,Fatal,2,ci,69776,220,925686,195423,14,29.58,NA,NA,hr,NA,NA,608,0,LTPA,9,NA,NA,195423,Both,missing RRs,TRUE,FALSE
+239-2,Patel et al.,All-cause cancer,Fatal,2,ci,69776,178,925686,157978,14,38.51,NA,NA,hr,NA,NA,499,0,LTPA,9,NA,NA,157978,Both,missing RRs,TRUE,FALSE
+239-2,Patel et al.,All-cause cancer,Fatal,2,ci,69776,112,925686,99477,14,47.48,NA,NA,hr,NA,NA,328,0,LTPA,9,NA,NA,99477,Both,missing RRs,TRUE,FALSE
+239-2,Patel et al.,All-cause cancer,Fatal,2,ci,69776,160,925686,141921,14,56.49,NA,NA,hr,NA,NA,464,0,LTPA,9,NA,NA,141921,Both,missing RRs,TRUE,FALSE
 193-2,Matthews C,All-cause cancer,Fatal,2,ci,37101,8770,237445,56125,6.4,3.52,NA,NA,hr,NA,NA,125,0,LTPA,3,NA,NA,56125,Fatal,missing RRs,TRUE,FALSE
 193-2,Matthews C,All-cause cancer,Fatal,2,ci,37101,10701,237445,68487,6.4,10.66,NA,NA,hr,NA,NA,118,0,LTPA,3,NA,NA,68487,Fatal,missing RRs,TRUE,FALSE
 193-2,Matthews C,All-cause cancer,Fatal,2,ci,37101,10458,237445,66933,6.4,20.05,NA,NA,hr,NA,NA,98,0,LTPA,3,NA,NA,66933,Fatal,missing RRs,TRUE,FALSE
@@ -2641,6 +2886,20 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 295-2,Kabat G.,All-cause cancer,Fatal,2,ci,189575,40234,1990538,422459,13,3.94,NA,NA,hr,NA,NA,1175,0,LTPA,8,NA,NA,422459,Fatal,missing RRs,TRUE,FALSE
 295-2,Kabat G.,All-cause cancer,Fatal,2,ci,189575,47916,1990538,503113,13,9.19,NA,NA,hr,NA,NA,1325,0,LTPA,8,NA,NA,503113,Fatal,missing RRs,TRUE,FALSE
 295-2,Kabat G.,All-cause cancer,Fatal,2,ci,189575,31041,1990538,325934,13,14.44,NA,NA,hr,NA,NA,907,0,LTPA,8,NA,NA,325934,Fatal,missing RRs,TRUE,FALSE
+28-1,Holtermann et al.,All-cause cvd,Fatal,1,ci,7411,1882,166006.4,557277,22.4,1.5,NA,NA,hr,NA,NA,402,0,LTPA,4,NA,NA,557277,Both,missing RRs,TRUE,FALSE
+28-1,Holtermann et al.,All-cause cvd,Fatal,1,ci,7411,5816,166006.4,1721984,22.4,4.5,NA,NA,hr,NA,NA,874,0,LTPA,4,NA,NA,1721984,Both,missing RRs,TRUE,FALSE
+28-1,Holtermann et al.,All-cause cvd,Fatal,1,ci,7411,4647,166006.4,1375818,22.4,22.4,NA,NA,hr,NA,NA,669,0,LTPA,4,NA,NA,1375818,Both,missing RRs,TRUE,FALSE
+193-1,Matthews C,All-cause cvd,Fatal,1,ci,26207,7031,167726,45001,6.4,3.52,NA,NA,hr,NA,NA,250,0,LTPA,8,NA,NA,45001,Both,missing RRs,TRUE,FALSE
+193-1,Matthews C,All-cause cvd,Fatal,1,ci,26207,5176,167726,33126,6.4,10.66,NA,NA,hr,NA,NA,123,0,LTPA,8,NA,NA,33126,Both,missing RRs,TRUE,FALSE
+193-1,Matthews C,All-cause cvd,Fatal,1,ci,26207,5340,167726,34174,6.4,20.05,NA,NA,hr,NA,NA,98,0,LTPA,8,NA,NA,34174,Both,missing RRs,TRUE,FALSE
+193-1,Matthews C,All-cause cvd,Fatal,1,ci,26207,8660,167726,55425,6.4,31.63,NA,NA,hr,NA,NA,138,0,LTPA,8,NA,NA,55425,Both,missing RRs,TRUE,FALSE
+239-1,Patel et al.,All-cause cvd,Fatal,1,ci,53440,55,549438,63336,14,6.25,NA,NA,hr,NA,NA,435,0,LTPA,11,NA,NA,63336,Both,missing RRs,TRUE,FALSE
+239-1,Patel et al.,All-cause cvd,Fatal,1,ci,53440,51,549438,59365,14,16.32,NA,NA,hr,NA,NA,353,0,LTPA,11,NA,NA,59365,Both,missing RRs,TRUE,FALSE
+239-1,Patel et al.,All-cause cvd,Fatal,1,ci,53440,75,549438,86898,14,22.18,NA,NA,hr,NA,NA,496,0,LTPA,11,NA,NA,86898,Both,missing RRs,TRUE,FALSE
+239-1,Patel et al.,All-cause cvd,Fatal,1,ci,53440,115,549438,133341,14,29.58,NA,NA,hr,NA,NA,818,0,LTPA,11,NA,NA,133341,Both,missing RRs,TRUE,FALSE
+239-1,Patel et al.,All-cause cvd,Fatal,1,ci,53440,100,549438,115894,14,38.51,NA,NA,hr,NA,NA,638,0,LTPA,11,NA,NA,115894,Both,missing RRs,TRUE,FALSE
+239-1,Patel et al.,All-cause cvd,Fatal,1,ci,53440,76,549438,88468,14,47.48,NA,NA,hr,NA,NA,516,0,LTPA,11,NA,NA,88468,Both,missing RRs,TRUE,FALSE
+239-1,Patel et al.,All-cause cvd,Fatal,1,ci,53440,2,549438,2136,14,56.49,NA,NA,hr,NA,NA,753,0,LTPA,11,NA,NA,2136,Both,missing RRs,TRUE,FALSE
 28-1,Holtermann et al.,All-cause cvd,Fatal,1,ci,7411,1882,166006.4,557277,22.4,1.5,NA,NA,hr,NA,NA,402,0,LTPA,1,NA,NA,557277,Fatal,missing RRs,TRUE,FALSE
 28-1,Holtermann et al.,All-cause cvd,Fatal,1,ci,7411,5816,166006.4,1721984,22.4,4.5,NA,NA,hr,NA,NA,874,0,LTPA,1,NA,NA,1721984,Fatal,missing RRs,TRUE,FALSE
 28-1,Holtermann et al.,All-cause cvd,Fatal,1,ci,7411,4647,166006.4,1375818,22.4,22.4,NA,NA,hr,NA,NA,669,0,LTPA,1,NA,NA,1375818,Fatal,missing RRs,TRUE,FALSE
@@ -2655,6 +2914,20 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 239-1,Patel et al.,All-cause cvd,Fatal,1,ci,53440,100,549438,115894,14,38.51,NA,NA,hr,NA,NA,638,0,LTPA,8,NA,NA,115894,Fatal,missing RRs,TRUE,FALSE
 239-1,Patel et al.,All-cause cvd,Fatal,1,ci,53440,76,549438,88468,14,47.48,NA,NA,hr,NA,NA,516,0,LTPA,8,NA,NA,88468,Fatal,missing RRs,TRUE,FALSE
 239-1,Patel et al.,All-cause cvd,Fatal,1,ci,53440,2,549438,2136,14,56.49,NA,NA,hr,NA,NA,753,0,LTPA,8,NA,NA,2136,Fatal,missing RRs,TRUE,FALSE
+28-2,Holtermann et al.,All-cause cvd,Fatal,2,ci,8916,146,199718.4,35965,22.4,1.5,NA,NA,hr,NA,NA,457,0,LTPA,4,NA,NA,35965,Both,missing RRs,TRUE,FALSE
+28-2,Holtermann et al.,All-cause cvd,Fatal,2,ci,8916,471,199718.4,115989,22.4,4.5,NA,NA,hr,NA,NA,1004,0,LTPA,4,NA,NA,115989,Both,missing RRs,TRUE,FALSE
+28-2,Holtermann et al.,All-cause cvd,Fatal,2,ci,8916,194,199718.4,47765,22.4,22.4,NA,NA,hr,NA,NA,353,0,LTPA,4,NA,NA,47765,Both,missing RRs,TRUE,FALSE
+193-2,Matthews C,All-cause cvd,Fatal,2,ci,37101,8770,237445,56125,6.4,3.52,NA,NA,hr,NA,NA,139,0,LTPA,8,NA,NA,56125,Both,missing RRs,TRUE,FALSE
+193-2,Matthews C,All-cause cvd,Fatal,2,ci,37101,10701,237445,68487,6.4,10.66,NA,NA,hr,NA,NA,115,0,LTPA,8,NA,NA,68487,Both,missing RRs,TRUE,FALSE
+193-2,Matthews C,All-cause cvd,Fatal,2,ci,37101,10458,237445,66933,6.4,20.05,NA,NA,hr,NA,NA,109,0,LTPA,8,NA,NA,66933,Both,missing RRs,TRUE,FALSE
+193-2,Matthews C,All-cause cvd,Fatal,2,ci,37101,7172,237445,45900,6.4,31.63,NA,NA,hr,NA,NA,68,0,LTPA,8,NA,NA,45900,Both,missing RRs,TRUE,FALSE
+239-2,Patel et al.,All-cause cvd,Fatal,2,ci,69776,121,925686,107418,14,6.25,NA,NA,hr,NA,NA,370,0,LTPA,11,NA,NA,107418,Both,missing RRs,TRUE,FALSE
+239-2,Patel et al.,All-cause cvd,Fatal,2,ci,69776,72,925686,63751,14,16.32,NA,NA,hr,NA,NA,224,0,LTPA,11,NA,NA,63751,Both,missing RRs,TRUE,FALSE
+239-2,Patel et al.,All-cause cvd,Fatal,2,ci,69776,180,925686,159718,14,22.18,NA,NA,hr,NA,NA,400,0,LTPA,11,NA,NA,159718,Both,missing RRs,TRUE,FALSE
+239-2,Patel et al.,All-cause cvd,Fatal,2,ci,69776,220,925686,195423,14,29.58,NA,NA,hr,NA,NA,484,0,LTPA,11,NA,NA,195423,Both,missing RRs,TRUE,FALSE
+239-2,Patel et al.,All-cause cvd,Fatal,2,ci,69776,178,925686,157978,14,38.51,NA,NA,hr,NA,NA,369,0,LTPA,11,NA,NA,157978,Both,missing RRs,TRUE,FALSE
+239-2,Patel et al.,All-cause cvd,Fatal,2,ci,69776,112,925686,99477,14,47.48,NA,NA,hr,NA,NA,224,0,LTPA,11,NA,NA,99477,Both,missing RRs,TRUE,FALSE
+239-2,Patel et al.,All-cause cvd,Fatal,2,ci,69776,160,925686,141921,14,56.49,NA,NA,hr,NA,NA,289,0,LTPA,11,NA,NA,141921,Both,missing RRs,TRUE,FALSE
 28-2,Holtermann et al.,All-cause cvd,Fatal,2,ci,8916,146,199718.4,35965,22.4,1.5,NA,NA,hr,NA,NA,457,0,LTPA,1,NA,NA,35965,Fatal,missing RRs,TRUE,FALSE
 28-2,Holtermann et al.,All-cause cvd,Fatal,2,ci,8916,471,199718.4,115989,22.4,4.5,NA,NA,hr,NA,NA,1004,0,LTPA,1,NA,NA,115989,Fatal,missing RRs,TRUE,FALSE
 28-2,Holtermann et al.,All-cause cvd,Fatal,2,ci,8916,194,199718.4,47765,22.4,22.4,NA,NA,hr,NA,NA,353,0,LTPA,1,NA,NA,47765,Fatal,missing RRs,TRUE,FALSE
@@ -2669,6 +2942,41 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 239-2,Patel et al.,All-cause cvd,Fatal,2,ci,69776,178,925686,157978,14,38.51,NA,NA,hr,NA,NA,369,0,LTPA,8,NA,NA,157978,Fatal,missing RRs,TRUE,FALSE
 239-2,Patel et al.,All-cause cvd,Fatal,2,ci,69776,112,925686,99477,14,47.48,NA,NA,hr,NA,NA,224,0,LTPA,8,NA,NA,99477,Fatal,missing RRs,TRUE,FALSE
 239-2,Patel et al.,All-cause cvd,Fatal,2,ci,69776,160,925686,141921,14,56.49,NA,NA,hr,NA,NA,289,0,LTPA,8,NA,NA,141921,Fatal,missing RRs,TRUE,FALSE
+95-1,Inoue M.,All-cause mortality,Fatal,1,ci,39183,30526,725071,264625,8.7,1.31,NA,NA,hr,NA,NA,2547,0,LTPA,3,NA,NA,264625,Both,missing RRs,TRUE,FALSE
+95-1,Inoue M.,All-cause mortality,Fatal,1,ci,39183,4377,725071,37299,8.7,3.94,NA,NA,hr,NA,NA,231,0,LTPA,3,NA,NA,37299,Both,missing RRs,TRUE,FALSE
+95-1,Inoue M.,All-cause mortality,Fatal,1,ci,39183,4280,725071,35422,8.7,9.19,NA,NA,hr,NA,NA,320,0,LTPA,3,NA,NA,35422,Both,missing RRs,TRUE,FALSE
+125-1,Richard A.,All-cause mortality,Fatal,1,ci,7146,1032,94327,13622,13.2,0,NA,NA,hr,NA,NA,319,0,LTPA,6,NA,NA,13622,Both,missing RRs,TRUE,FALSE
+125-1,Richard A.,All-cause mortality,Fatal,1,ci,7146,2497,94327,32960,13.2,5.25,NA,NA,hr,NA,NA,444,0,LTPA,6,NA,NA,32960,Both,missing RRs,TRUE,FALSE
+125-1,Richard A.,All-cause mortality,Fatal,1,ci,7146,3617,94327,47744,13.2,15.75,NA,NA,hr,NA,NA,785,0,LTPA,6,NA,NA,47744,Both,missing RRs,TRUE,FALSE
+193-1,Matthews C,All-cause mortality,Fatal,1,ci,26207,7031,167726,45001,6.4,3.52,NA,NA,hr,NA,NA,835,0,LTPA,9,NA,NA,45001,Both,missing RRs,TRUE,FALSE
+193-1,Matthews C,All-cause mortality,Fatal,1,ci,26207,5176,167726,33126,6.4,10.66,NA,NA,hr,NA,NA,441,0,LTPA,9,NA,NA,33126,Both,missing RRs,TRUE,FALSE
+193-1,Matthews C,All-cause mortality,Fatal,1,ci,26207,5340,167726,34174,6.4,20.05,NA,NA,hr,NA,NA,344,0,LTPA,9,NA,NA,34174,Both,missing RRs,TRUE,FALSE
+193-1,Matthews C,All-cause mortality,Fatal,1,ci,26207,8660,167726,55425,6.4,31.63,NA,NA,hr,NA,NA,490,0,LTPA,9,NA,NA,55425,Both,missing RRs,TRUE,FALSE
+229-1,Brown et al.,All-cause mortality,Fatal,1,ci,11668,3008,140016,36096,12,0,NA,NA,hr,NA,NA,1247,0,LTPA,12,NA,NA,36096,Both,missing RRs,TRUE,FALSE
+229-1,Brown et al.,All-cause mortality,Fatal,1,ci,11668,591,140016,7092,12,1.4,NA,NA,hr,NA,NA,245,0,LTPA,12,NA,NA,7092,Both,missing RRs,TRUE,FALSE
+229-1,Brown et al.,All-cause mortality,Fatal,1,ci,11668,720,140016,8640,12,4.26,NA,NA,hr,NA,NA,257,0,LTPA,12,NA,NA,8640,Both,missing RRs,TRUE,FALSE
+229-1,Brown et al.,All-cause mortality,Fatal,1,ci,11668,834,140016,10008,12,6.25,NA,NA,hr,NA,NA,311,0,LTPA,12,NA,NA,10008,Both,missing RRs,TRUE,FALSE
+229-1,Brown et al.,All-cause mortality,Fatal,1,ci,11668,2005,140016,24060,12,10.32,NA,NA,hr,NA,NA,698,0,LTPA,12,NA,NA,24060,Both,missing RRs,TRUE,FALSE
+229-1,Brown et al.,All-cause mortality,Fatal,1,ci,11668,1825,140016,21900,12,16.53,NA,NA,hr,NA,NA,620,0,LTPA,12,NA,NA,21900,Both,missing RRs,TRUE,FALSE
+229-1,Brown et al.,All-cause mortality,Fatal,1,ci,11668,2685,140016,32220,12,22.82,NA,NA,hr,NA,NA,835,0,LTPA,12,NA,NA,32220,Both,missing RRs,TRUE,FALSE
+239-1,Patel et al.,All-cause mortality,Fatal,1,ci,53440,55,549438,63336,14,6.25,NA,NA,hr,NA,NA,1186,0,LTPA,13,NA,NA,63336,Both,missing RRs,TRUE,FALSE
+239-1,Patel et al.,All-cause mortality,Fatal,1,ci,53440,51,549438,59365,14,16.32,NA,NA,hr,NA,NA,991,0,LTPA,13,NA,NA,59365,Both,missing RRs,TRUE,FALSE
+239-1,Patel et al.,All-cause mortality,Fatal,1,ci,53440,75,549438,86898,14,22.18,NA,NA,hr,NA,NA,1397,0,LTPA,13,NA,NA,86898,Both,missing RRs,TRUE,FALSE
+239-1,Patel et al.,All-cause mortality,Fatal,1,ci,53440,115,549438,133341,14,29.58,NA,NA,hr,NA,NA,2284,0,LTPA,13,NA,NA,133341,Both,missing RRs,TRUE,FALSE
+239-1,Patel et al.,All-cause mortality,Fatal,1,ci,53440,100,549438,115894,14,38.51,NA,NA,hr,NA,NA,1857,0,LTPA,13,NA,NA,115894,Both,missing RRs,TRUE,FALSE
+239-1,Patel et al.,All-cause mortality,Fatal,1,ci,53440,76,549438,88468,14,47.48,NA,NA,hr,NA,NA,1453,0,LTPA,13,NA,NA,88468,Both,missing RRs,TRUE,FALSE
+239-1,Patel et al.,All-cause mortality,Fatal,1,ci,53440,2,549438,2136,14,56.49,NA,NA,hr,NA,NA,2139,0,LTPA,13,NA,NA,2136,Both,missing RRs,TRUE,FALSE
+295-1,Kabat G.,All-cause mortality,Fatal,1,ci,286821,81023,3011621,850736,14,0.98,NA,NA,hr,NA,NA,18669,0,LTPA,16,NA,NA,850736,Both,missing RRs,TRUE,FALSE
+295-1,Kabat G.,All-cause mortality,Fatal,1,ci,286821,63268,3011621,664318,14,3.94,NA,NA,hr,NA,NA,11954,0,LTPA,16,NA,NA,664318,Both,missing RRs,TRUE,FALSE
+295-1,Kabat G.,All-cause mortality,Fatal,1,ci,286821,80969,3011621,850169,14,9.19,NA,NA,hr,NA,NA,14552,0,LTPA,16,NA,NA,850169,Both,missing RRs,TRUE,FALSE
+295-1,Kabat G.,All-cause mortality,Fatal,1,ci,286821,61562,3011621,646397,14,14.44,NA,NA,hr,NA,NA,10639,0,LTPA,16,NA,NA,646397,Both,missing RRs,TRUE,FALSE
+304-1,Ekelund U,All-cause mortality,Fatal,1,ci,116980,21329,862900,232814.3125,12.4,0,NA,NA,hr,NA,NA,3598,0,LTPA,17,NA,NA,232814.3125,Both,missing RRs,TRUE,FALSE
+304-1,Ekelund U,All-cause mortality,Fatal,1,ci,116980,36549,862900,414946.7734,12.4,15.05,NA,NA,hr,NA,NA,3262,0,LTPA,17,NA,NA,414946.7734,Both,missing RRs,TRUE,FALSE
+304-1,Ekelund U,All-cause mortality,Fatal,1,ci,116980,29024,862900,329780.0391,12.4,21.8,NA,NA,hr,NA,NA,2180,0,LTPA,17,NA,NA,329780.0391,Both,missing RRs,TRUE,FALSE
+304-1,Ekelund U,All-cause mortality,Fatal,1,ci,116980,30078,862900,342996.207,12.4,31.6,NA,NA,hr,NA,NA,2046,0,LTPA,17,NA,NA,342996.207,Both,missing RRs,TRUE,FALSE
+350-1,Nalini M.,All-cause mortality,Fatal,1,ci,18456,10619,170126,96035,10,10.52,NA,NA,hr,NA,NA,1554,0,LTPA,18,NA,NA,96035,Both,missing RRs,TRUE,FALSE
+350-1,Nalini M.,All-cause mortality,Fatal,1,ci,18456,4046,170126,37881,10,15.48,NA,NA,hr,NA,NA,479,0,LTPA,18,NA,NA,37881,Both,missing RRs,TRUE,FALSE
+350-1,Nalini M.,All-cause mortality,Fatal,1,ci,18456,3791,170126,36209,10,75.23,NA,NA,hr,NA,NA,369,0,LTPA,18,NA,NA,36209,Both,missing RRs,TRUE,FALSE
 95-1,Inoue M.,All-cause mortality,Fatal,1,ci,39183,30526,725071,264625,8.7,1.31,NA,NA,hr,NA,NA,2547,0,LTPA,3,NA,NA,264625,Fatal,missing RRs,TRUE,FALSE
 95-1,Inoue M.,All-cause mortality,Fatal,1,ci,39183,4377,725071,37299,8.7,3.94,NA,NA,hr,NA,NA,231,0,LTPA,3,NA,NA,37299,Fatal,missing RRs,TRUE,FALSE
 95-1,Inoue M.,All-cause mortality,Fatal,1,ci,39183,4280,725071,35422,8.7,9.19,NA,NA,hr,NA,NA,320,0,LTPA,3,NA,NA,35422,Fatal,missing RRs,TRUE,FALSE
@@ -2704,6 +3012,41 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 350-1,Nalini M.,All-cause mortality,Fatal,1,ci,18456,10619,170126,96035,10,10.52,NA,NA,hr,NA,NA,1554,0,LTPA,18,NA,NA,96035,Fatal,missing RRs,TRUE,FALSE
 350-1,Nalini M.,All-cause mortality,Fatal,1,ci,18456,4046,170126,37881,10,15.48,NA,NA,hr,NA,NA,479,0,LTPA,18,NA,NA,37881,Fatal,missing RRs,TRUE,FALSE
 350-1,Nalini M.,All-cause mortality,Fatal,1,ci,18456,3791,170126,36209,10,75.23,NA,NA,hr,NA,NA,369,0,LTPA,18,NA,NA,36209,Fatal,missing RRs,TRUE,FALSE
+95-2,Inoue M.,All-cause mortality,Fatal,2,ci,43851,34239,725071,306097,8.7,1.31,NA,NA,hr,NA,NA,1221,0,LTPA,3,NA,NA,306097,Both,missing RRs,TRUE,FALSE
+95-2,Inoue M.,All-cause mortality,Fatal,2,ci,43851,4733,725071,40481,8.7,3.94,NA,NA,hr,NA,NA,96,0,LTPA,3,NA,NA,40481,Both,missing RRs,TRUE,FALSE
+95-2,Inoue M.,All-cause mortality,Fatal,2,ci,43851,4879,725071,41147,8.7,9.19,NA,NA,hr,NA,NA,149,0,LTPA,3,NA,NA,41147,Both,missing RRs,TRUE,FALSE
+125-2,Richard A.,All-cause mortality,Fatal,2,ci,8161,2028,107725,26770,13.2,0,NA,NA,hr,NA,NA,505,0,LTPA,6,NA,NA,26770,Both,missing RRs,TRUE,FALSE
+125-2,Richard A.,All-cause mortality,Fatal,2,ci,8161,3158,107725,41686,13.2,5.25,NA,NA,hr,NA,NA,365,0,LTPA,6,NA,NA,41686,Both,missing RRs,TRUE,FALSE
+125-2,Richard A.,All-cause mortality,Fatal,2,ci,8161,2975,107725,39270,13.2,15.75,NA,NA,hr,NA,NA,446,0,LTPA,6,NA,NA,39270,Both,missing RRs,TRUE,FALSE
+193-2,Matthews C,All-cause mortality,Fatal,2,ci,37101,8770,237445,56125,6.4,3.52,NA,NA,hr,NA,NA,490,0,LTPA,9,NA,NA,56125,Both,missing RRs,TRUE,FALSE
+193-2,Matthews C,All-cause mortality,Fatal,2,ci,37101,10701,237445,68487,6.4,10.66,NA,NA,hr,NA,NA,440,0,LTPA,9,NA,NA,68487,Both,missing RRs,TRUE,FALSE
+193-2,Matthews C,All-cause mortality,Fatal,2,ci,37101,10458,237445,66933,6.4,20.05,NA,NA,hr,NA,NA,361,0,LTPA,9,NA,NA,66933,Both,missing RRs,TRUE,FALSE
+193-2,Matthews C,All-cause mortality,Fatal,2,ci,37101,7172,237445,45900,6.4,31.63,NA,NA,hr,NA,NA,212,0,LTPA,9,NA,NA,45900,Both,missing RRs,TRUE,FALSE
+229-2,Brown et al.,All-cause mortality,Fatal,2,ci,7080,2172,70800,21720,10,0,NA,NA,hr,NA,NA,694,0,LTPA,12,NA,NA,21720,Both,missing RRs,TRUE,FALSE
+229-2,Brown et al.,All-cause mortality,Fatal,2,ci,7080,1258,70800,12580,10,1.4,NA,NA,hr,NA,NA,285,0,LTPA,12,NA,NA,12580,Both,missing RRs,TRUE,FALSE
+229-2,Brown et al.,All-cause mortality,Fatal,2,ci,7080,539,70800,5390,10,4.26,NA,NA,hr,NA,NA,103,0,LTPA,12,NA,NA,5390,Both,missing RRs,TRUE,FALSE
+229-2,Brown et al.,All-cause mortality,Fatal,2,ci,7080,616,70800,6160,10,6.25,NA,NA,hr,NA,NA,116,0,LTPA,12,NA,NA,6160,Both,missing RRs,TRUE,FALSE
+229-2,Brown et al.,All-cause mortality,Fatal,2,ci,7080,982,70800,9820,10,10.32,NA,NA,hr,NA,NA,172,0,LTPA,12,NA,NA,9820,Both,missing RRs,TRUE,FALSE
+229-2,Brown et al.,All-cause mortality,Fatal,2,ci,7080,670,70800,6700,10,16.53,NA,NA,hr,NA,NA,135,0,LTPA,12,NA,NA,6700,Both,missing RRs,TRUE,FALSE
+229-2,Brown et al.,All-cause mortality,Fatal,2,ci,7080,843,70800,8430,10,22.82,NA,NA,hr,NA,NA,151,0,LTPA,12,NA,NA,8430,Both,missing RRs,TRUE,FALSE
+239-2,Patel et al.,All-cause mortality,Fatal,2,ci,69776,121,925686,107418,14,6.25,NA,NA,hr,NA,NA,1157,0,LTPA,13,NA,NA,107418,Both,missing RRs,TRUE,FALSE
+239-2,Patel et al.,All-cause mortality,Fatal,2,ci,69776,72,925686,63751,14,16.32,NA,NA,hr,NA,NA,699,0,LTPA,13,NA,NA,63751,Both,missing RRs,TRUE,FALSE
+239-2,Patel et al.,All-cause mortality,Fatal,2,ci,69776,180,925686,159718,14,22.18,NA,NA,hr,NA,NA,1382,0,LTPA,13,NA,NA,159718,Both,missing RRs,TRUE,FALSE
+239-2,Patel et al.,All-cause mortality,Fatal,2,ci,69776,220,925686,195423,14,29.58,NA,NA,hr,NA,NA,1588,0,LTPA,13,NA,NA,195423,Both,missing RRs,TRUE,FALSE
+239-2,Patel et al.,All-cause mortality,Fatal,2,ci,69776,178,925686,157978,14,38.51,NA,NA,hr,NA,NA,1255,0,LTPA,13,NA,NA,157978,Both,missing RRs,TRUE,FALSE
+239-2,Patel et al.,All-cause mortality,Fatal,2,ci,69776,112,925686,99477,14,47.48,NA,NA,hr,NA,NA,772,0,LTPA,13,NA,NA,99477,Both,missing RRs,TRUE,FALSE
+239-2,Patel et al.,All-cause mortality,Fatal,2,ci,69776,160,925686,141921,14,56.49,NA,NA,hr,NA,NA,1070,0,LTPA,13,NA,NA,141921,Both,missing RRs,TRUE,FALSE
+295-2,Kabat G.,All-cause mortality,Fatal,2,ci,189575,70384,1990538,739031,14,0.98,NA,NA,hr,NA,NA,11010,0,LTPA,16,NA,NA,739031,Both,missing RRs,TRUE,FALSE
+295-2,Kabat G.,All-cause mortality,Fatal,2,ci,189575,40234,1990538,422459,14,3.94,NA,NA,hr,NA,NA,5098,0,LTPA,16,NA,NA,422459,Both,missing RRs,TRUE,FALSE
+295-2,Kabat G.,All-cause mortality,Fatal,2,ci,189575,47916,1990538,503113,14,9.19,NA,NA,hr,NA,NA,5772,0,LTPA,16,NA,NA,503113,Both,missing RRs,TRUE,FALSE
+295-2,Kabat G.,All-cause mortality,Fatal,2,ci,189575,31041,1990538,325934,14,14.44,NA,NA,hr,NA,NA,3739,0,LTPA,16,NA,NA,325934,Both,missing RRs,TRUE,FALSE
+304-2,Ekelund U,All-cause mortality,Fatal,2,ci,217181,54620,920448,637549.8125,12.4,0,NA,NA,hr,NA,NA,3824,0,LTPA,17,NA,NA,637549.8125,Both,missing RRs,TRUE,FALSE
+304-2,Ekelund U,All-cause mortality,Fatal,2,ci,217181,76254,920448,908131.7969,12.4,15.05,NA,NA,hr,NA,NA,3356,0,LTPA,17,NA,NA,908131.7969,Both,missing RRs,TRUE,FALSE
+304-2,Ekelund U,All-cause mortality,Fatal,2,ci,217181,48635,920448,579952.6016,12.4,21.8,NA,NA,hr,NA,NA,1752,0,LTPA,17,NA,NA,579952.6016,Both,missing RRs,TRUE,FALSE
+304-2,Ekelund U,All-cause mortality,Fatal,2,ci,217181,37672,920448,446333.6953,12.4,31.6,NA,NA,hr,NA,NA,1420,0,LTPA,17,NA,NA,446333.6953,Both,missing RRs,TRUE,FALSE
+350-2,Nalini M.,All-cause mortality,Fatal,2,ci,25800,3745,247462,31252,10,10.52,NA,NA,hr,NA,NA,625,0,LTPA,18,NA,NA,31252,Both,missing RRs,TRUE,FALSE
+350-2,Nalini M.,All-cause mortality,Fatal,2,ci,25800,10151,247462,96373,10,15.48,NA,NA,hr,NA,NA,841,0,LTPA,18,NA,NA,96373,Both,missing RRs,TRUE,FALSE
+350-2,Nalini M.,All-cause mortality,Fatal,2,ci,25800,11904,247462,119837,10,75.23,NA,NA,hr,NA,NA,510,0,LTPA,18,NA,NA,119837,Both,missing RRs,TRUE,FALSE
 95-2,Inoue M.,All-cause mortality,Fatal,2,ci,43851,34239,725071,306097,8.7,1.31,NA,NA,hr,NA,NA,1221,0,LTPA,3,NA,NA,306097,Fatal,missing RRs,TRUE,FALSE
 95-2,Inoue M.,All-cause mortality,Fatal,2,ci,43851,4733,725071,40481,8.7,3.94,NA,NA,hr,NA,NA,96,0,LTPA,3,NA,NA,40481,Fatal,missing RRs,TRUE,FALSE
 95-2,Inoue M.,All-cause mortality,Fatal,2,ci,43851,4879,725071,41147,8.7,9.19,NA,NA,hr,NA,NA,149,0,LTPA,3,NA,NA,41147,Fatal,missing RRs,TRUE,FALSE
@@ -2739,9 +3082,76 @@ ref_number,first_author,outcome,outcome_type,sex_subgroups,type,n_baseline,total
 350-2,Nalini M.,All-cause mortality,Fatal,2,ci,25800,3745,247462,31252,10,10.52,NA,NA,hr,NA,NA,625,0,LTPA,18,NA,NA,31252,Fatal,missing RRs,TRUE,FALSE
 350-2,Nalini M.,All-cause mortality,Fatal,2,ci,25800,10151,247462,96373,10,15.48,NA,NA,hr,NA,NA,841,0,LTPA,18,NA,NA,96373,Fatal,missing RRs,TRUE,FALSE
 350-2,Nalini M.,All-cause mortality,Fatal,2,ci,25800,11904,247462,119837,10,75.23,NA,NA,hr,NA,NA,510,0,LTPA,18,NA,NA,119837,Fatal,missing RRs,TRUE,FALSE
+21-2,"Ma, H",Breast cancer,Both,2,ci,108907,9984,1601226,355905,15,0.89,NA,NA,hr,NA,NA,1438,1,LTPA,2,NA,NA,355905,Both,missing RRs,TRUE,FALSE
+21-2,"Ma, H",Breast cancer,Both,2,ci,108907,31942,1601226,457799,15,5.27,NA,NA,hr,NA,NA,1708,1,LTPA,2,NA,NA,457799,Both,missing RRs,TRUE,FALSE
+21-2,"Ma, H",Breast cancer,Both,2,ci,108907,25442,1601226,279320,15,12.27,NA,NA,hr,NA,NA,972,1,LTPA,2,NA,NA,279320,Both,missing RRs,TRUE,FALSE
+21-2,"Ma, H",Breast cancer,Both,2,ci,108907,19466,1601226,256204,15,20.14,NA,NA,hr,NA,NA,901,1,LTPA,2,NA,NA,256204,Both,missing RRs,TRUE,FALSE
+21-2,"Ma, H",Breast cancer,Both,2,ci,108907,22073,1601226,251999,15,28.85,NA,NA,hr,NA,NA,863,1,LTPA,2,NA,NA,251999,Both,missing RRs,TRUE,FALSE
+252-2,Borch et al.,Breast cancer,Both,2,ci,80202,4196,648731,33940,8.2,4.7,NA,NA,hr,NA,NA,105,1,LTPA,12,NA,NA,33940,Both,missing RRs,TRUE,FALSE
+252-2,Borch et al.,Breast cancer,Both,2,ci,80202,16773,648731,135672,8.2,11.4,NA,NA,hr,NA,NA,401,1,LTPA,12,NA,NA,135672,Both,missing RRs,TRUE,FALSE
+252-2,Borch et al.,Breast cancer,Both,2,ci,80202,33538,648731,271279,8.2,21.1,NA,NA,hr,NA,NA,722,1,LTPA,12,NA,NA,271279,Both,missing RRs,TRUE,FALSE
+252-2,Borch et al.,Breast cancer,Both,2,ci,80202,20564,648731,166336,8.2,30.6,NA,NA,hr,NA,NA,443,1,LTPA,12,NA,NA,166336,Both,missing RRs,TRUE,FALSE
+252-2,Borch et al.,Breast cancer,Both,2,ci,80202,5131,648731,41503,8.2,54.5,NA,NA,hr,NA,NA,96,1,LTPA,12,NA,NA,41503,Both,missing RRs,TRUE,FALSE
+305-2,Steindorf K,Breast cancer,Both,2,ci,257805,16267,2782367,702262,11.6,0,NA,NA,hr,NA,NA,2431,1,LTPA,17,NA,NA,702262,Both,missing RRs,TRUE,FALSE
+305-2,Steindorf K,Breast cancer,Both,2,ci,257805,16061,2782367,693368,11.6,26.46,NA,NA,hr,NA,NA,2087,1,LTPA,17,NA,NA,693368,Both,missing RRs,TRUE,FALSE
+305-2,Steindorf K,Breast cancer,Both,2,ci,257805,15815,2782367,682755,11.6,57.51,NA,NA,hr,NA,NA,1823,1,LTPA,17,NA,NA,682755,Both,missing RRs,TRUE,FALSE
+305-2,Steindorf K,Breast cancer,Both,2,ci,257805,16307,2782367,703982,11.6,93.93,NA,NA,hr,NA,NA,1693,1,LTPA,17,NA,NA,703982,Both,missing RRs,TRUE,FALSE
+334-2,McTiernan,Breast cancer,Both,2,ci,73370,9630,347519,45613,4.7,0,NA,NA,hr,NA,NA,239,1,LTPA,19,NA,NA,45613,Both,missing RRs,TRUE,FALSE
+334-2,McTiernan,Breast cancer,Both,2,ci,73370,14786,347519,70034,4.7,1.4,NA,NA,hr,NA,NA,351,1,LTPA,19,NA,NA,70034,Both,missing RRs,TRUE,FALSE
+334-2,McTiernan,Breast cancer,Both,2,ci,73370,11987,347519,56777,4.7,5.29,NA,NA,hr,NA,NA,270,1,LTPA,19,NA,NA,56777,Both,missing RRs,TRUE,FALSE
+334-2,McTiernan,Breast cancer,Both,2,ci,73370,17939,347519,84969,4.7,11.38,NA,NA,hr,NA,NA,456,1,LTPA,19,NA,NA,84969,Both,missing RRs,TRUE,FALSE
+334-2,McTiernan,Breast cancer,Both,2,ci,73370,14654,347519,69409,4.7,23.91,NA,NA,hr,NA,NA,355,1,LTPA,19,NA,NA,69409,Both,missing RRs,TRUE,FALSE
+334-2,McTiernan,Breast cancer,Both,2,ci,73370,4374,347519,20718,4.7,40.81,NA,NA,hr,NA,NA,97,1,LTPA,19,NA,NA,20718,Both,missing RRs,TRUE,FALSE
+196-2,"de Souto Barreto, P.",Breast cancer,Non-fatal,2,ci,30222,3692,135999,16614,4.5,0,NA,NA,hr,NA,NA,22,1,LTPA,23,NA,NA,16614,Both,missing RRs,TRUE,FALSE
+196-2,"de Souto Barreto, P.",Breast cancer,Non-fatal,2,ci,30222,1601,135999,7205,4.5,1.31,NA,NA,hr,NA,NA,7,1,LTPA,23,NA,NA,7205,Both,missing RRs,TRUE,FALSE
+196-2,"de Souto Barreto, P.",Breast cancer,Non-fatal,2,ci,30222,3910,135999,17595,4.5,2.63,NA,NA,hr,NA,NA,24,1,LTPA,23,NA,NA,17595,Both,missing RRs,TRUE,FALSE
+196-2,"de Souto Barreto, P.",Breast cancer,Non-fatal,2,ci,30222,21019,135999,94586,4.5,3.94,NA,NA,hr,NA,NA,148,1,LTPA,23,NA,NA,94586,Both,missing RRs,TRUE,FALSE
+255-1,Thune et al.,Colon cancer,Both,1,ci,53202,10640,867822,173558,16.3,0,NA,NA,hr,NA,NA,41,0,LTPA,4,NA,NA,173558,Both,missing RRs,TRUE,FALSE
+255-1,Thune et al.,Colon cancer,Both,1,ci,53202,29040,867822,473696,16.3,14,NA,NA,hr,NA,NA,125,0,LTPA,4,NA,NA,473696,Both,missing RRs,TRUE,FALSE
+255-1,Thune et al.,Colon cancer,Both,1,ci,53202,13522,867822,220569,16.3,28,NA,NA,hr,NA,NA,64,0,LTPA,4,NA,NA,220569,Both,missing RRs,TRUE,FALSE
+255-2,Thune et al.,Colon cancer,Both,2,ci,28255,6336,437785,98170,15.5,0,NA,NA,hr,NA,NA,30,0,LTPA,4,NA,NA,98170,Both,missing RRs,TRUE,FALSE
+255-2,Thune et al.,Colon cancer,Both,2,ci,28255,19100,437785,295937,15.5,14,NA,NA,hr,NA,NA,57,0,LTPA,4,NA,NA,295937,Both,missing RRs,TRUE,FALSE
+255-2,Thune et al.,Colon cancer,Both,2,ci,28255,2819,437785,43678,15.5,28,NA,NA,hr,NA,NA,12,0,LTPA,4,NA,NA,43678,Both,missing RRs,TRUE,FALSE
+24-1,Lv J.,Coronary heart disease,Both,1,ci,189153,2343,1322379,323749,7.2,0,NA,NA,hr,NA,NA,3817,0,LTPA,1,NA,NA,323749,Both,missing RRs,TRUE,FALSE
+24-1,Lv J.,Coronary heart disease,Both,1,ci,189153,2360,1322379,326049,7.2,51.38,NA,NA,hr,NA,NA,2253,0,LTPA,1,NA,NA,326049,Both,missing RRs,TRUE,FALSE
+24-1,Lv J.,Coronary heart disease,Both,1,ci,189153,2423,1322379,334790,7.2,119.46,NA,NA,hr,NA,NA,1915,0,LTPA,1,NA,NA,334790,Both,missing RRs,TRUE,FALSE
+24-1,Lv J.,Coronary heart disease,Both,1,ci,189153,2437,1322379,336612,7.2,201.84,NA,NA,hr,NA,NA,1232,0,LTPA,1,NA,NA,336612,Both,missing RRs,TRUE,FALSE
+2-1,Fraser G.,Coronary heart disease,Fatal,1,ir,10376,3291,53627,17007,6,0,NA,NA,rr,NA,NA,37,0,LTPA,3,NA,NA,17007,Both,missing RRs,TRUE,FALSE
+2-1,Fraser G.,Coronary heart disease,Fatal,1,ir,10376,2312,53627,11951,6,7.88,NA,NA,rr,NA,NA,26,0,LTPA,3,NA,NA,11951,Both,missing RRs,TRUE,FALSE
+2-1,Fraser G.,Coronary heart disease,Fatal,1,ir,10376,4773,53627,24669,6,15.75,NA,NA,rr,NA,NA,42,0,LTPA,3,NA,NA,24669,Both,missing RRs,TRUE,FALSE
 2-1,Fraser G.,Coronary heart disease,Fatal,1,ir,10376,3291,53627,17007,6,0,NA,NA,rr,NA,NA,37,0,LTPA,1,NA,NA,17007,Fatal,missing RRs,TRUE,FALSE
 2-1,Fraser G.,Coronary heart disease,Fatal,1,ir,10376,2312,53627,11951,6,7.88,NA,NA,rr,NA,NA,26,0,LTPA,1,NA,NA,11951,Fatal,missing RRs,TRUE,FALSE
 2-1,Fraser G.,Coronary heart disease,Fatal,1,ir,10376,4773,53627,24669,6,15.75,NA,NA,rr,NA,NA,42,0,LTPA,1,NA,NA,24669,Fatal,missing RRs,TRUE,FALSE
+24-2,Lv J.,Coronary heart disease,Both,2,ci,272058,4745,1945334,455775,7.2,0,NA,NA,hr,NA,NA,4854,0,LTPA,1,NA,NA,455775,Both,missing RRs,TRUE,FALSE
+24-2,Lv J.,Coronary heart disease,Both,2,ci,272058,5369,1945334,515686,7.2,40.18,NA,NA,hr,NA,NA,3945,0,LTPA,1,NA,NA,515686,Both,missing RRs,TRUE,FALSE
+24-2,Lv J.,Coronary heart disease,Both,2,ci,272058,5024,1945334,482609,7.2,95.98,NA,NA,hr,NA,NA,2109,0,LTPA,1,NA,NA,482609,Both,missing RRs,TRUE,FALSE
+24-2,Lv J.,Coronary heart disease,Both,2,ci,272058,5009,1945334,481111,7.2,166,NA,NA,hr,NA,NA,1732,0,LTPA,1,NA,NA,481111,Both,missing RRs,TRUE,FALSE
+2-2,Fraser G.,Coronary heart disease,Fatal,2,ir,17282,8065,85987,40128,6,0,NA,NA,rr,NA,NA,92,0,LTPA,3,NA,NA,40128,Both,missing RRs,TRUE,FALSE
+2-2,Fraser G.,Coronary heart disease,Fatal,2,ir,17282,2941,85987,14633,6,7.88,NA,NA,rr,NA,NA,21,0,LTPA,3,NA,NA,14633,Both,missing RRs,TRUE,FALSE
+2-2,Fraser G.,Coronary heart disease,Fatal,2,ir,17282,6276,85987,31226,6,15.75,NA,NA,rr,NA,NA,26,0,LTPA,3,NA,NA,31226,Both,missing RRs,TRUE,FALSE
 2-2,Fraser G.,Coronary heart disease,Fatal,2,ir,17282,8065,85987,40128,6,0,NA,NA,rr,NA,NA,92,0,LTPA,1,NA,NA,40128,Fatal,missing RRs,TRUE,FALSE
 2-2,Fraser G.,Coronary heart disease,Fatal,2,ir,17282,2941,85987,14633,6,7.88,NA,NA,rr,NA,NA,21,0,LTPA,1,NA,NA,14633,Fatal,missing RRs,TRUE,FALSE
 2-2,Fraser G.,Coronary heart disease,Fatal,2,ir,17282,6276,85987,31226,6,15.75,NA,NA,rr,NA,NA,26,0,LTPA,1,NA,NA,31226,Fatal,missing RRs,TRUE,FALSE
+233-2,Dieli-Conwright et al.,Endometrial cancer,Both,2,ci,93888,2062,1031458,90597,12,0.88,NA,NA,hr,NA,NA,134,1,LTPA,4,NA,NA,90597,Both,missing RRs,TRUE,FALSE
+233-2,Dieli-Conwright et al.,Endometrial cancer,Both,2,ci,93888,7006,1031458,307874,12,3.52,NA,NA,hr,NA,NA,351,1,LTPA,4,NA,NA,307874,Both,missing RRs,TRUE,FALSE
+233-2,Dieli-Conwright et al.,Endometrial cancer,Both,2,ci,93888,7300,1031458,320794,12,7.88,NA,NA,hr,NA,NA,282,1,LTPA,4,NA,NA,320794,Both,missing RRs,TRUE,FALSE
+233-2,Dieli-Conwright et al.,Endometrial cancer,Both,2,ci,93888,7104,1031458,312193,12,13.09,NA,NA,hr,NA,NA,209,1,LTPA,4,NA,NA,312193,Both,missing RRs,TRUE,FALSE
+268-2,Du M.,Endometrial cancer,Both,2,ci,71570,2158,1009508,152164,22,0.7,NA,NA,hr,NA,NA,112,1,LTPA,7,NA,NA,152164,Both,missing RRs,TRUE,FALSE
+268-2,Du M.,Endometrial cancer,Both,2,ci,71570,3803,1009508,268222,22,4.07,NA,NA,hr,NA,NA,181,1,LTPA,7,NA,NA,268222,Both,missing RRs,TRUE,FALSE
+268-2,Du M.,Endometrial cancer,Both,2,ci,71570,3756,1009508,264877,22,10.11,NA,NA,hr,NA,NA,176,1,LTPA,7,NA,NA,264877,Both,missing RRs,TRUE,FALSE
+268-2,Du M.,Endometrial cancer,Both,2,ci,71570,2106,1009508,148550,22,17.57,NA,NA,hr,NA,NA,98,1,LTPA,7,NA,NA,148550,Both,missing RRs,TRUE,FALSE
+268-2,Du M.,Endometrial cancer,Both,2,ci,71570,2491,1009508,175695,22,25.13,NA,NA,hr,NA,NA,116,1,LTPA,7,NA,NA,175695,Both,missing RRs,TRUE,FALSE
+255-1,Thune et al.,Rectum cancer,Both,1,ci,53202,10640,867822,173558,16.3,0,NA,NA,hr,NA,NA,29,0,LTPA,2,NA,NA,173558,Both,missing RRs,TRUE,FALSE
+255-1,Thune et al.,Rectum cancer,Both,1,ci,53202,29040,867822,473696,16.3,14,NA,NA,hr,NA,NA,106,0,LTPA,2,NA,NA,473696,Both,missing RRs,TRUE,FALSE
+255-1,Thune et al.,Rectum cancer,Both,1,ci,53202,13522,867822,220569,16.3,28,NA,NA,hr,NA,NA,34,0,LTPA,2,NA,NA,220569,Both,missing RRs,TRUE,FALSE
+255-2,Thune et al.,Rectum cancer,Both,2,ci,28255,6336,437785,98170,15.5,0,NA,NA,hr,NA,NA,9,0,LTPA,2,NA,NA,98170,Both,missing RRs,TRUE,FALSE
+255-2,Thune et al.,Rectum cancer,Both,2,ci,28255,19100,437785,295937,15.5,14,NA,NA,hr,NA,NA,40,0,LTPA,2,NA,NA,295937,Both,missing RRs,TRUE,FALSE
+255-2,Thune et al.,Rectum cancer,Both,2,ci,28255,2819,437785,43678,15.5,28,NA,NA,hr,NA,NA,6,0,LTPA,2,NA,NA,43678,Both,missing RRs,TRUE,FALSE
+325-1,"Huerta, J.M.",Stroke,Both,1,ci,13576,4635,166588,56396,12.3,7.06,NA,NA,hr,NA,NA,98,0,LTPA,7,NA,NA,56396,Both,missing RRs,TRUE,FALSE
+325-1,"Huerta, J.M.",Stroke,Both,1,ci,13576,3537,166588,43368,12.3,21.03,NA,NA,hr,NA,NA,58,0,LTPA,7,NA,NA,43368,Both,missing RRs,TRUE,FALSE
+325-1,"Huerta, J.M.",Stroke,Both,1,ci,13576,2911,166588,35966,12.3,35.96,NA,NA,hr,NA,NA,61,0,LTPA,7,NA,NA,35966,Both,missing RRs,TRUE,FALSE
+325-1,"Huerta, J.M.",Stroke,Both,1,ci,13576,2493,166588,30858,12.3,53.91,NA,NA,hr,NA,NA,54,0,LTPA,7,NA,NA,30858,Both,missing RRs,TRUE,FALSE
+325-2,"Huerta, J.M.",Stroke,Both,2,ci,19416,7206,240788,88531,12.3,7.06,NA,NA,hr,NA,NA,79,0,LTPA,7,NA,NA,88531,Both,missing RRs,TRUE,FALSE
+325-2,"Huerta, J.M.",Stroke,Both,2,ci,19416,6496,240788,80288,12.3,21.03,NA,NA,hr,NA,NA,52,0,LTPA,7,NA,NA,80288,Both,missing RRs,TRUE,FALSE
+325-2,"Huerta, J.M.",Stroke,Both,2,ci,19416,3903,240788,48996,12.3,35.96,NA,NA,hr,NA,NA,29,0,LTPA,7,NA,NA,48996,Both,missing RRs,TRUE,FALSE
+325-2,"Huerta, J.M.",Stroke,Both,2,ci,19416,1811,240788,22973,12.3,53.91,NA,NA,hr,NA,NA,11,0,LTPA,7,NA,NA,22973,Both,missing RRs,TRUE,FALSE
