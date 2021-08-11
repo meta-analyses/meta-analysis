@@ -1,6 +1,6 @@
 ---
 title: "Meta-Analysis plots (gender specific)"
-date: "`r format(Sys.time(), '%d %B, %Y')`"
+date: "`r format(Sys.time(), '%a %b %d %X %Y')`"
 output:
   html_document:
     toc: true
