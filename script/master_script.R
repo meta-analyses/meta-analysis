@@ -1,6 +1,9 @@
 # Remove all elements from the memory
 rm (list = ls())
 
+# set seed
+set.seed(2021)
+
 # Set log file
 record_removed_entries <- "missing_entries.csv"
 
