@@ -34,7 +34,7 @@ test_df <- NULL
 rr_conf_df <- NULL
 
 # Variable to save MA tables for DRPA package
-create_MA_tables <- FALSE
+create_MA_tables <- TRUE
 
 if (total_population) {
   for (i in 1:nrow(uoutcome)) {
@@ -387,7 +387,7 @@ write_csv(test_df, paste0("data/output/statistical-tests-", sub_title, "-last-kn
 
 if (!NO_BMI_EFFECT && create_MA_tables && local_last_knot == 0.75){
   # Save last quantile for each outcome and outcome type for MA
-  write_csv(last_quantile_df, "data/csv/MA-DR/75p_diseases.csv.csv")
+  write_csv(last_quantile_df, "data/csv/MA-DR/75p_diseases.csv")
 }
 
 if (!NO_BMI_EFFECT && local_last_knot == 0.75){
