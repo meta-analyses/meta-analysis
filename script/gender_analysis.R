@@ -9,7 +9,10 @@ record_removed_entries <- "missing_entries.csv"
 #   # Delete file if it exists
 #   file.remove(record_removed_entries)
 # }
+
+
 if (!NO_BMI_EFFECT && local_last_knot == 0.75){
+  
   fold <- ifelse(ALT, "plots/gender/alt_analysis/", "plots/gender/main_analysis/")
   
   # get all png files in the directories, recursively
@@ -369,12 +372,12 @@ if (!NO_BMI_EFFECT && local_last_knot == 0.75){
   save(fatal_non_fatal_plots, file = paste0(fold, "html_widgets/fatal_non_fatal_plots.RData"))
 }
 
-# Read csv file and append column name
-if (file.exists("missing_entries.csv")) {
-  temp <- read_csv("missing_entries.csv", col_names = FALSE)
-  if (!any(colnames(temp) == "reason")) {
-    colnames(temp) <- append(orig_col_names, c("reason", "NO_BMI_EFFECT", "is_alt_analysis"))
-    temp <- temp[!duplicated(temp), ]
-    readr::write_csv(temp, "missing_entries.csv")
-  }
-}
+# # Read csv file and append column name
+# if (file.exists("missing_entries.csv")) {
+#   temp <- read_csv("missing_entries.csv", col_names = FALSE)
+#   if (!any(colnames(temp) == "reason")) {
+#     colnames(temp) <- append(orig_col_names, c("reason", "NO_BMI_EFFECT", "is_alt_analysis"))
+#     temp <- temp[!duplicated(temp), ]
+#     readr::write_csv(temp, "missing_entries.csv")
+#   }
+# }

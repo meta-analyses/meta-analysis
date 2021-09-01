@@ -3,10 +3,10 @@ options(warn = -1)
 
 total_population <- TRUE
 
-# Set log file
-record_removed_entries <- "missing_entries.csv"
-
-# # Check its existence
+# # Set log file
+# record_removed_entries <- "missing_entries.csv"
+# 
+# # # Check its existence
 # if (file.exists(record_removed_entries)) {
 #   # Delete file if it exists
 #   file.remove(record_removed_entries)
@@ -396,12 +396,14 @@ if (!NO_BMI_EFFECT && local_last_knot == 0.75){
   save(fatal_non_fatal_plots, file = paste0(fold, "html_widgets/fatal_non_fatal_plots.RData"))
 }
 
-# Read csv file and append column name
-if (file.exists("missing_entries.csv")) {
-  temp <- read_csv("missing_entries.csv", col_names = FALSE)
-  if (!any(colnames(temp) == "reason")) {
-    colnames(temp) <- append(orig_col_names, c("reason", "NO_BMI_EFFECT", "is_alt_analysis"))
-    temp <- temp[!duplicated(temp), ]
-    readr::write_csv(temp, "missing_entries.csv")
-  }
-}
+# browser()
+
+# # Read csv file and append column name
+# if (file.exists("missing_entries.csv")) {
+#   temp <- read_csv("missing_entries.csv", col_names = FALSE)
+#   if (!any(colnames(temp) == "reason")) {
+#     colnames(temp) <- append(orig_col_names, c("reason", "NO_BMI_EFFECT", "is_alt_analysis"))
+#     temp <- temp[!duplicated(temp), ]
+#     readr::write_csv(temp, "missing_entries.csv")
+#   }
+# }
