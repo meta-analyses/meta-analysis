@@ -23,7 +23,7 @@ raw_data_gsp_ltpa %>%
   do({x <- .$weighted_dose
   map_dfr(.x = c(0, 0.025, .05, 0.25, .5, .75, 0.95, 0.975, 1),
           .f = ~ data_frame(Quantile = .x,
-                            Value = quantile(x, probs = .x)))
+                            Value = round(quantile(x, probs = .x), 2)))
   }) %>% 
   pivot_wider(names_from = Quantile, values_from = c(Value) ) %>% 
   readr::write_csv('data/csv/distr/dose_distr_by_sex.csv')
