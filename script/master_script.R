@@ -24,7 +24,7 @@ if (file.exists(record_removed_entries)) {
 # NO_BMI_EFFECT <- FALSE
 
 
-for(local_last_knot in c(0.75, 0.85))
+for(local_last_knot in c(0.75, 0.85, 0.95))
   for(ALT in c(TRUE, FALSE))
     for (NO_BMI_EFFECT in c(TRUE, FALSE)){
       print(paste(local_last_knot, ALT, NO_BMI_EFFECT, sep = "-"))
@@ -33,9 +33,9 @@ for(local_last_knot in c(0.75, 0.85))
       
     }
 
-source("script/MA_by_ID.R")
-
-# Once these lines are executed, the markdown documents can be knitted to produce plots
-rmarkdown::render("plots/gen_plots.Rmd")
-rmarkdown::render("plots/gen_plots_alt.Rmd")
-rmarkdown::render("plots/gen_gender_plots.Rmd")
+# source("script/MA_by_ID.R")
+# 
+# # Once these lines are executed, the markdown documents can be knitted to produce plots
+# rmarkdown::render("plots/gen_plots.Rmd")
+# rmarkdown::render("plots/gen_plots_alt.Rmd")
+# rmarkdown::render("plots/gen_gender_plots.Rmd")
