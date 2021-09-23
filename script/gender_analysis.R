@@ -29,6 +29,13 @@ PIF_df <- NULL
 test_df <- NULL
 rr_conf_df <- NULL
 
+last_quantile_df <- data.frame(matrix (ncol = 5, nrow = length(uoutcome$outcome) * 2))
+names(last_quantile_df) <- c('disease', 'sex', 'fatal', 'non-fatal', 'fatal-and-non-fatal')
+last_quantile_df$disease <- gsub(x = uoutcome$outcome, pattern = " ", replacement = "-") %>% tolower()
+last_quantile_df$sex <- c('male', 'female') 
+
+create_MA_tables <- TRUE
+
 
 for (i in 1:nrow(uoutcome)) {
   # Loop through all three outcome types
@@ -269,6 +276,15 @@ for (i in 1:nrow(uoutcome)) {
               "\n Last knot: ", last_knot_title
             )
             
+            snake_case_outcome <- gsub(x = uoutcome$outcome[i], pattern = " ", replacement = "-") %>% tolower()
+            snake_case_outcome_type <- gsub(x = dir_name, pattern = " ", replacement = "-") %>% tolower()
+            ma_filename <- paste0(ifelse(gg == "1", "male-", "female-"), snake_case_outcome, "-", snake_case_outcome_type)
+            
+            if (!NO_BMI_EFFECT && create_MA_tables){# && local_last_knot == 0.75){
+              write_csv(dataset2, paste0("data/csv/MA-DR/", local_last_knot,"/", ma_filename, ".csv"))
+              last_quantile_df[last_quantile_df$disease == snake_case_outcome & last_quantile_df$sex == ifelse(gg == "1", "male", "female"),][[snake_case_outcome_type]] <- as.numeric(q)
+            }
+            
             dataset$ref_number <- as.factor(dataset$ref_number)
             # Create plot
             p <- ggplot() +
@@ -370,6 +386,11 @@ if (!NO_BMI_EFFECT && local_last_knot == 0.75){
   save(fatal_plots, file = paste0(fold, "html_widgets/fatal_plots.RData"))
   save(non_fatal_plots, file = paste0(fold, "html_widgets/non_fatal_plots.RData"))
   save(fatal_non_fatal_plots, file = paste0(fold, "html_widgets/fatal_non_fatal_plots.RData"))
+}
+
+if (!NO_BMI_EFFECT && create_MA_tables){# && local_last_knot == 0.75){
+  # Save last quantile for each outcome and outcome type for MA
+  write_csv(last_quantile_df, paste0("data/csv/MA-DR/", local_last_knot,"/", "75p_diseases_by_sex.csv"))
 }
 
 # # Read csv file and append column name
