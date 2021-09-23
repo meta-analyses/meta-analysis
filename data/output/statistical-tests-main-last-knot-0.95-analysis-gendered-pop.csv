@@ -1,0 +1,25 @@
+outcome,population,outcome_type,q_test,i_test
+All-cause cancer,Male Population,Both,"Q-test = 36.256 (df = 18), p-value = 0.007",I-square statistic = 50.4%
+All-cause cancer,Male Population,Fatal,"Q-test = 17.485 (df = 14), p-value = 0.231",I-square statistic = 19.9%
+All-cause cancer,Female Population,Both,"Q-test = 26.193 (df = 18), p-value = 0.095",I-square statistic = 31.3%
+All-cause cancer,Female Population,Fatal,"Q-test = 22.734 (df = 14), p-value = 0.065",I-square statistic = 38.4%
+All-cause cvd,Male Population,Both,"Q-test = 43.793 (df = 24), p-value = 0.008",I-square statistic = 45.2%
+All-cause cvd,Male Population,Fatal,"Q-test = 40.159 (df = 18), p-value = 0.002",I-square statistic = 55.2%
+All-cause cvd,Female Population,Both,"Q-test = 97.014 (df = 24), p-value = 0.000",I-square statistic = 75.3%
+All-cause cvd,Female Population,Fatal,"Q-test = 80.606 (df = 18), p-value = 0.000",I-square statistic = 77.7%
+All-cause mortality,Male Population,Both,"Q-test = 168.672 (df = 36), p-value = 0.000",I-square statistic = 78.7%
+All-cause mortality,Male Population,Fatal,"Q-test = 168.672 (df = 36), p-value = 0.000",I-square statistic = 78.7%
+All-cause mortality,Female Population,Both,"Q-test = 234.914 (df = 36), p-value = 0.000",I-square statistic = 84.7%
+All-cause mortality,Female Population,Fatal,"Q-test = 234.914 (df = 36), p-value = 0.000",I-square statistic = 84.7%
+Breast cancer,Female Population,Both,"Q-test = 46.690 (df = 44), p-value = 0.362",I-square statistic = 5.8%
+Colon cancer,Male Population,Both,"Q-test = 8.769 (df = 8), p-value = 0.362",I-square statistic = 8.8%
+Colon cancer,Female Population,Both,"Q-test = 16.019 (df = 8), p-value = 0.042",I-square statistic = 50.1%
+Coronary heart disease,Male Population,Both,"Q-test = 25.012 (df = 12), p-value = 0.015",I-square statistic = 52.0%
+Coronary heart disease,Male Population,Fatal,"Q-test = 10.814 (df = 8), p-value = 0.212",I-square statistic = 26.0%
+Coronary heart disease,Female Population,Both,"Q-test = 44.564 (df = 12), p-value = 0.000",I-square statistic = 73.1%
+Coronary heart disease,Female Population,Fatal,"Q-test = 13.149 (df = 8), p-value = 0.107",I-square statistic = 39.2%
+Endometrial cancer,Female Population,Both,"Q-test = 21.563 (df = 20), p-value = 0.365",I-square statistic = 7.2%
+Rectum cancer,Male Population,Both,"Q-test = 11.478 (df = 6), p-value = 0.075",I-square statistic = 47.7%
+Rectum cancer,Female Population,Both,"Q-test = 9.173 (df = 6), p-value = 0.164",I-square statistic = 34.6%
+Stroke,Male Population,Both,"Q-test = 21.018 (df = 18), p-value = 0.278",I-square statistic = 14.4%
+Stroke,Female Population,Both,"Q-test = 21.823 (df = 18), p-value = 0.240",I-square statistic = 17.5%
