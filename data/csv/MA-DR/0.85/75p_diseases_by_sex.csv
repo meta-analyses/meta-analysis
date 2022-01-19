@@ -1,8 +1,8 @@
 disease,sex,fatal,non-fatal,fatal-and-non-fatal
-all-cause-cancer,male,27.22941176470589,NA,39.151666666666685
-all-cause-cvd,female,24.289999999999992,NA,24.299180327868854
+all-cause-cancer,male,22.7764705882353,NA,39.151666666666685
+all-cause-cvd,female,24.243333333333332,NA,22.64098360655738
 all-cause-dementia,male,NA,NA,NA
-all-cause-mortality,female,30.201369863013692,NA,30.201369863013692
+all-cause-mortality,female,27.34438356164382,NA,27.34438356164382
 alzheimer's-disease,male,NA,NA,NA
 bladder-cancer,female,NA,NA,NA
 breast-cancer,male,NA,NA,NA
@@ -10,7 +10,7 @@ colon-cancer,female,NA,NA,26.31666666666667
 coronary-heart-disease,male,16.0625,NA,23.73942857142862
 depression,female,NA,NA,NA
 depressive-symptoms,male,NA,NA,NA
-endometrial-cancer,female,NA,NA,26.908085106382966
+endometrial-cancer,female,NA,NA,26.2995744680851
 esophageal-cancer,male,NA,NA,NA
 gastric-cardia-cancer,female,NA,NA,NA
 head-and-neck-cancer,male,NA,NA,NA
@@ -27,12 +27,12 @@ rectum-cancer,male,NA,NA,24.55833333333334
 stroke,female,NA,NA,21.91717391304347
 vascular-dementia,male,NA,NA,NA
 all-cause-cancer,female,29.67,NA,39.151666666666685
-all-cause-cvd,male,22.688235294117646,NA,22.713278688524582
+all-cause-cvd,male,22.659411764705872,NA,22.665081967213112
 all-cause-dementia,female,NA,NA,NA
-all-cause-mortality,male,26.934246575342446,NA,26.934246575342446
+all-cause-mortality,male,28.440410958904113,NA,28.440410958904113
 alzheimer's-disease,female,NA,NA,NA
 bladder-cancer,male,NA,NA,NA
-breast-cancer,female,NA,NA,40.69980952380952
+breast-cancer,female,NA,NA,38.840666666666664
 colon-cancer,male,NA,NA,26.31666666666667
 coronary-heart-disease,female,16.0625,NA,23.73942857142862
 depression,male,NA,NA,NA

@@ -1,23 +1,23 @@
 outcome,outcome_type,q_test,i_test
-All-cause cancer,Fatal,"Q-test = 93.137 (df = 24), p-value = 0.000",I-square statistic = 74.2%
-All-cause cancer,Both,"Q-test = 132.877 (df = 32), p-value = 0.000",I-square statistic = 75.9%
-All-cause cvd,Fatal,"Q-test = 313.793 (df = 36), p-value = 0.000",I-square statistic = 88.5%
-All-cause cvd,Both,"Q-test = 402.176 (df = 52), p-value = 0.000",I-square statistic = 87.1%
-All-cause mortality,Fatal,"Q-test = 1460.682 (df = 58), p-value = 0.000",I-square statistic = 96.0%
-All-cause mortality,Both,"Q-test = 1460.682 (df = 58), p-value = 0.000",I-square statistic = 96.0%
+All-cause cancer,Fatal,"Q-test = 102.862 (df = 24), p-value = 0.000",I-square statistic = 76.7%
+All-cause cancer,Both,"Q-test = 144.641 (df = 32), p-value = 0.000",I-square statistic = 77.9%
+All-cause cvd,Fatal,"Q-test = 315.997 (df = 36), p-value = 0.000",I-square statistic = 88.6%
+All-cause cvd,Both,"Q-test = 401.517 (df = 52), p-value = 0.000",I-square statistic = 87.0%
+All-cause mortality,Fatal,"Q-test = 1476.777 (df = 58), p-value = 0.000",I-square statistic = 96.1%
+All-cause mortality,Both,"Q-test = 1476.777 (df = 58), p-value = 0.000",I-square statistic = 96.1%
 Breast cancer,Fatal,"Q-test = 27.167 (df = 6), p-value = 0.000",I-square statistic = 77.9%
-Breast cancer,Both,"Q-test = 77.629 (df = 44), p-value = 0.001",I-square statistic = 43.3%
+Breast cancer,Both,"Q-test = 77.346 (df = 44), p-value = 0.001",I-square statistic = 43.1%
 Colon cancer,Both,"Q-test = 34.242 (df = 22), p-value = 0.046",I-square statistic = 35.8%
-Coronary heart disease,Fatal,"Q-test = 22.029 (df = 14), p-value = 0.078",I-square statistic = 36.4%
-Coronary heart disease,Both,"Q-test = 1044.601 (df = 40), p-value = 0.000",I-square statistic = 96.2%
-Endometrial cancer,Both,"Q-test = 35.474 (df = 18), p-value = 0.008",I-square statistic = 49.3%
+Coronary heart disease,Fatal,"Q-test = 21.927 (df = 14), p-value = 0.080",I-square statistic = 36.2%
+Coronary heart disease,Both,"Q-test = 1076.118 (df = 40), p-value = 0.000",I-square statistic = 96.3%
+Endometrial cancer,Both,"Q-test = 35.196 (df = 18), p-value = 0.009",I-square statistic = 48.9%
 Esophageal cancer,Both,"Q-test = 11.033 (df = 8), p-value = 0.200",I-square statistic = 27.5%
 Gastric cardia cancer,Both,"Q-test = 5.998 (df = 6), p-value = 0.423",I-square statistic = 0.0%
 Head and neck cancer,Both,"Q-test = 12.407 (df = 6), p-value = 0.053",I-square statistic = 51.6%
-Heart failure,Both,"Q-test = 90.077 (df = 14), p-value = 0.000",I-square statistic = 84.5%
-Kidney cancer,Both,"Q-test = 4.575 (df = 8), p-value = 0.802",I-square statistic = 0.0%
+Heart failure,Both,"Q-test = 108.520 (df = 14), p-value = 0.000",I-square statistic = 87.1%
+Kidney cancer,Both,"Q-test = 4.418 (df = 8), p-value = 0.818",I-square statistic = 0.0%
 Liver cancer,Both,"Q-test = 25.125 (df = 8), p-value = 0.001",I-square statistic = 68.2%
-Lung cancer,Both,"Q-test = 113.692 (df = 20), p-value = 0.000",I-square statistic = 82.4%
+Lung cancer,Both,"Q-test = 103.777 (df = 20), p-value = 0.000",I-square statistic = 80.7%
 Prostate cancer,Fatal,"Q-test = 6.681 (df = 6), p-value = 0.351",I-square statistic = 10.2%
 Prostate cancer,Both,"Q-test = 39.625 (df = 22), p-value = 0.012",I-square statistic = 44.5%
 Rectum cancer,Both,"Q-test = 10.913 (df = 14), p-value = 0.693",I-square statistic = 0.0%

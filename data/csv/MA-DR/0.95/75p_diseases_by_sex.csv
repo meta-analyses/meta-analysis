@@ -10,7 +10,7 @@ colon-cancer,female,NA,NA,30.674999999999986
 coronary-heart-disease,male,38.02571428571431,NA,103.9122857142857
 depression,female,NA,NA,NA
 depressive-symptoms,male,NA,NA,NA
-endometrial-cancer,female,NA,NA,42.15489361702127
+endometrial-cancer,female,NA,NA,41.37191489361702
 esophageal-cancer,male,NA,NA,NA
 gastric-cardia-cancer,female,NA,NA,NA
 head-and-neck-cancer,male,NA,NA,NA
@@ -29,7 +29,7 @@ vascular-dementia,male,NA,NA,NA
 all-cause-cancer,female,51.90647058823531,NA,57.487142857142835
 all-cause-cvd,male,29.821176470588235,NA,29.815245901639344
 all-cause-dementia,female,NA,NA,NA
-all-cause-mortality,male,39.49301369863011,NA,39.49301369863011
+all-cause-mortality,male,40.79301369863011,NA,40.79301369863011
 alzheimer's-disease,female,NA,NA,NA
 bladder-cancer,male,NA,NA,NA
 breast-cancer,female,NA,NA,58.3788571428571

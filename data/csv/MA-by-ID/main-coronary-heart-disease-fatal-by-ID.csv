@@ -1,7 +1,7 @@
 outcome,id,ref_number,lowest_guideline,lowest_CFI,mid_guideline,mid_CFI,mid_lb,mid_ub,highest_guideline,highest_CFI
 coronary-heart-disease,12,346,0.69,(0.59 - 0.8),0.55,(0.44 - 0.7),0.44,0.7,0.52,(0.41 - 0.64)
 coronary-heart-disease,11,345,1,(0.87 - 1.16),0.96,(0.78 - 1.17),0.78,1.17,0.81,(0.65 - 1.01)
-coronary-heart-disease,10,322,0.79,(0.47 - 1.32),0.92,(0.6 - 1.39),0.6,1.39,1.1,(0.69 - 1.76)
+coronary-heart-disease,10,322,0.81,(0.51 - 1.27),0.87,(0.55 - 1.36),0.55,1.36,1.1,(0.69 - 1.76)
 coronary-heart-disease,9,270,0.47,(0.2 - 1.11),0.56,(0.28 - 1.11),0.28,1.11,0.96,(0.53 - 1.74)
 coronary-heart-disease,8,262,0.95,(0.8 - 1.13),0.85,(0.63 - 1.16),0.63,1.16,0.65,(0.5 - 0.84)
 coronary-heart-disease,7,258,0.81,(0.66 - 1.01),0.72,(0.54 - 0.96),0.54,0.96,0.7,(0.52 - 0.94)
