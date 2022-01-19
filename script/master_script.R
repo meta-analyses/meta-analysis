@@ -33,9 +33,9 @@ for(local_last_knot in c(0.75, 0.85, 0.95))
       
     }
 
-# source("script/MA_by_ID.R")
-# 
-# # Once these lines are executed, the markdown documents can be knitted to produce plots
-# rmarkdown::render("plots/gen_plots.Rmd")
-# rmarkdown::render("plots/gen_plots_alt.Rmd")
-# rmarkdown::render("plots/gen_gender_plots.Rmd")
+source("script/MA_by_ID.R")
+
+# Once these lines are executed, the markdown documents can be knitted to produce plots
+rmarkdown::render("plots/gen_plots.Rmd")
+rmarkdown::render("plots/gen_plots_alt.Rmd")
+rmarkdown::render("plots/gen_gender_plots.Rmd")
