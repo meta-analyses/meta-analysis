@@ -38,7 +38,7 @@ NO_BMI_EFFECT <- FALSE
 source("script/filter_studies.R")
 
 # Select specific outcomes
-uoutcome_depression <- uoutcome %>% filter(outcome %in% c("Depression", "Depressive symptoms", "Major depression"))
+uoutcome_depression <- uoutcome %>% filter(outcome %in% c("Depression", "Elevated depressive symptoms", "Major depression"))
 
 # Read total population's RR
 prefix_path <- "data/csv/MA-DR/"
@@ -80,10 +80,6 @@ dataset <- df_list$`major-depression-fatal-and-non-fatal-last-knot-0.75`
 q <- last_knot_df$`lastknot-0.75` %>% filter(disease == "major-depression") %>% dplyr::select("fatal-and-non-fatal") %>% as.numeric() %>%
   round(1)
 
-plot_RR(dataset, q)
-
-
-
 plot_RR <- function(dataset, q){
   
   # Create plot
@@ -102,4 +98,10 @@ plot_RR <- function(dataset, q){
   
   p
 }
+
+plot_RR(dataset, q)
+
+
+
+
     
