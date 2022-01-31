@@ -14,7 +14,7 @@ This is used for establishing dose-repose `DR` relationship between `Physical-Ac
 * Colon cancer
 * Coronary heart disease
 * Depression
-* Depressive symptoms
+* Elevated depressive symptoms
 * Endometrial cancer
 * Esophageal cancer
 * Gastric cardia cancer
