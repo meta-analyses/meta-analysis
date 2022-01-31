@@ -17,8 +17,8 @@ Coronary heart disease,Fatal,"Q-test = 42.983 (df = 22), p-value = 0.005",I-squa
 Coronary heart disease,Both,"Q-test = 277.488 (df = 50), p-value = 0.000",I-square statistic = 82.0%
 Depression,Non-fatal,"Q-test = 107.979 (df = 28), p-value = 0.000",I-square statistic = 74.1%
 Depression,Both,"Q-test = 107.979 (df = 28), p-value = 0.000",I-square statistic = 74.1%
-Depressive symptoms,Non-fatal,"Q-test = 76.946 (df = 14), p-value = 0.000",I-square statistic = 81.8%
-Depressive symptoms,Both,"Q-test = 76.946 (df = 14), p-value = 0.000",I-square statistic = 81.8%
+Elevated depressive symptoms,Non-fatal,"Q-test = 76.946 (df = 14), p-value = 0.000",I-square statistic = 81.8%
+Elevated depressive symptoms,Both,"Q-test = 76.946 (df = 14), p-value = 0.000",I-square statistic = 81.8%
 Endometrial cancer,Both,"Q-test = 27.952 (df = 24), p-value = 0.262",I-square statistic = 14.1%
 Esophageal cancer,Both,"Q-test = 12.991 (df = 12), p-value = 0.370",I-square statistic = 7.6%
 Gastric cardia cancer,Both,"Q-test = 12.748 (df = 8), p-value = 0.121",I-square statistic = 37.2%

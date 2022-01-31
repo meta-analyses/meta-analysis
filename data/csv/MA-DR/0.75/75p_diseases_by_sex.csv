@@ -9,7 +9,7 @@ breast-cancer,male,NA,NA,NA
 colon-cancer,female,NA,NA,21.657500000000002
 coronary-heart-disease,male,11.92,NA,16.200000000000003
 depression,female,NA,NA,NA
-depressive-symptoms,male,NA,NA,NA
+elevated-depressive-symptoms,male,NA,NA,NA
 endometrial-cancer,female,NA,NA,22.214680851063843
 esophageal-cancer,male,NA,NA,NA
 gastric-cardia-cancer,female,NA,NA,NA
@@ -36,7 +36,7 @@ breast-cancer,female,NA,NA,28.322571428571436
 colon-cancer,male,NA,NA,21.657500000000002
 coronary-heart-disease,female,10.874285714285714,NA,16.200000000000003
 depression,male,NA,NA,NA
-depressive-symptoms,female,NA,NA,NA
+elevated-depressive-symptoms,female,NA,NA,NA
 endometrial-cancer,male,NA,NA,NA
 esophageal-cancer,female,NA,NA,NA
 gastric-cardia-cancer,male,NA,NA,NA
