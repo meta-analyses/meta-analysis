@@ -1,4 +1,4 @@
-#### Plot depression, major depression and depressive symptoms
+#### Plot depression, major depression and elevated depressive symptoms
 
 # ASSUMPTION: the main script has been run, which is available at script/master_script. This runs 
 # the meta-analyses, and saves the output in CSV files. The current list of outcomes (causes and diseases) are:
@@ -40,6 +40,7 @@ source("script/filter_studies.R")
 # Select specific outcomes
 uoutcome_depression <- uoutcome %>% filter(outcome %in% c("Depression", "Elevated depressive symptoms", "Major depression"))
 
+# Function to plot
 plot_RR <- function(dataset, q, plot_title){
   
   # Create plot
@@ -83,6 +84,8 @@ for(local_last_knot in c(0.75, 0.85, 0.95)){
         dir_name <- "Fatal and non-fatal"
       }
       
+      # Create snake cases
+      
       snake_case_outcome <- gsub(x = uoutcome_depression$outcome[i], pattern = " ", replacement = "-") %>% tolower()
       snake_case_outcome_type <- gsub(x = dir_name, pattern = " ", replacement = "-") %>% tolower()
       ma_filename <- paste0(snake_case_outcome, "-", snake_case_outcome_type)
@@ -96,6 +99,7 @@ for(local_last_knot in c(0.75, 0.85, 0.95)){
           dplyr::select(snake_case_outcome_type) %>% 
           as.numeric() %>% round(1)
         
+        # Print plot
         print(plot_RR(df_list[[paste0(ma_filename, "-last-knot-", local_last_knot)]], q, plot_title))
         
       }
@@ -103,17 +107,3 @@ for(local_last_knot in c(0.75, 0.85, 0.95)){
     }
   }
 }
-
-dataset <- df_list$`major-depression-fatal-and-non-fatal-last-knot-0.75`
-
-q <- last_knot_df$`lastknot-0.75` %>% filter(disease == "major-depression") %>% dplyr::select("fatal-and-non-fatal") %>% as.numeric() %>%
-  round(1)
-
-
-
-plot_RR(dataset, q)
-
-
-
-
-    
