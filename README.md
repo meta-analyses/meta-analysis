@@ -40,7 +40,7 @@ The main script which runs the analysis, and saves the outputs (in `CSV` files a
 We have written a script which reads the output from `meta-analyis` for:
 
 * Depression
-* Depressive symptoms
+* Elevated depressive symptoms
 * Major depression
 
 And plots them in [script/plot-depression-outcomes](script/plot-depression-outcomes.R)
