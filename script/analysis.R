@@ -283,31 +283,62 @@ if (total_population) {
             }
             
             dataset$ref_number <- as.factor(dataset$ref_number)
-            # Create plot
-            p <- ggplot() +
-              geom_line(data = dataset, aes(dose, RR, col = ref_number, group = ref_number)) +
-              annotate("text",  x = 30, y = 0.2, hjust = 0, vjust = 0, label = stats_Q_lbl, size = 3) +
-              annotate("text",  x = 30, y = 0, hjust = 0, vjust = 0, label = stats_I_lbl, size = 3) +
-              geom_point(data = dataset, aes(dose, RR, col = ref_number, label = first_author, group = personyrs), size = 4 * (dataset$personyrs - min(dataset$personyrs)) / diff(range(dataset$personyrs))) +
-              geom_line(data = subset(dataset2, dose < as.numeric(q)), aes(x = dose, y = RR)) +
-              geom_line(data = subset(dataset2, dose >= as.numeric(q)), aes(x = dose, y = RR), linetype = "dashed") +
-              geom_ribbon(data = subset(dataset2, dose < as.numeric(q)), aes(x = dose, ymin = `lb`, ymax = `ub`), alpha = 0.25) +
-              geom_ribbon(data = subset(dataset2, dose >= as.numeric(q)), aes(x = dose, ymin = `lb`, ymax = `ub`), alpha = 0.10) +
-              geom_vline(xintercept = q, linetype = "dotted", alpha = 0.6) +
-              coord_fixed(ylim = c(0, 1.5), x = c(0, 40), ratio = 10) +
+            
+            dataset2 <- dataset2 |> filter(dose <= 35)
+            
+            ymax <- dataset2 %>% filter(dose <= 35) %>% dplyr::select(dose) %>% max(na.rm = T) %>% as.numeric()
+            
+            ymin <- dataset2 %>% filter(dose <= 35) %>% dplyr::select(dose) %>% min(na.rm = T) %>% as.numeric()
+            
+            p <- ggplot() + 
+              geom_line(data = subset(dataset2, dose < as.numeric(q[1])), aes(x = dose, y = RR)) +
+              geom_ribbon(data = subset(dataset2, dose < as.numeric(q[1])), aes(x = dose, ymin=`lb`,ymax=`ub`), alpha = 0.25) + # && dose <= 35
+              geom_line(data = subset(dataset2, dose >= as.numeric(q[1])), aes(x = dose, y = RR), linetype = "dashed") +
+              geom_line(data = subset(dataset2, dose >= as.numeric(q[1] / 2)), aes(x = dose, y = RR), linetype = "dashed") +
+              geom_ribbon(data = subset(dataset2, dose >= as.numeric(q[1])), aes(x = dose, ymin=`lb`,ymax=`ub`), alpha = 0.10,   stat = "identity") +
+              xlab(paste("Marginal MET hours per week")) +
+              # 75th percentile
+              geom_vline(xintercept= q, linetype="dotted", alpha=0.4) +
+              # 37.5th percentile
+              geom_vline(xintercept= q / 2, linetype="dotted", alpha=0.4) +
+              
               theme(
-                legend.position = "none",
-                plot.title = element_text(hjust = 0.5, size = 9)
-              ) +
-              xlab("\nMarginal MET hours per week\n") +
-              ylab("\nRelative Risk\n") +
-              labs(title = paste(plot_title))
+                plot.margin = unit(c(2, 1, 1, 1), "cm"), 
+                plot.title = element_text(size = 12, colour = "black", vjust = 7),
+                plot.subtitle = element_text(size = 10, hjust=0.5, face="italic", color="black"),
+                legend.direction = "horizontal",
+                legend.position = c(0.1, 1.05)) + 
+              labs(title = paste(plot_title)) +
+              scale_y_log10() +
+              ylab("Relative Risk (log)") +
+              scale_x_continuous(expand = c(0, 0),
+                                 breaks = seq(from = 0, to = 35, by = 5)) + 
+              scale_y_continuous(expand = c(0, 0),
+                                 breaks = seq(from = ifelse(ymin > 0, 0, round(ymin, 1) + 0.2), to = ymax, by = 0.2),
+                                 trans = "log")
             
-            # Print plot
-            print(p)
-            
-            # Save the plot as a .Rds file
-            # saveRDS(p, paste0("plots/", dir_name, "/", uoutcome$outcome[i], "-", dir_name, ".Rds"), version = 2)
+            # # Create plot
+            # p <- ggplot() +
+            #   geom_line(data = dataset, aes(dose, RR, col = ref_number, group = ref_number)) +
+            #   # annotate("text",  x = 30, y = 0.2, hjust = 0, vjust = 0, label = stats_Q_lbl, size = 3) +
+            #   # annotate("text",  x = 30, y = 0, hjust = 0, vjust = 0, label = stats_I_lbl, size = 3) +
+            #   geom_point(data = dataset, aes(dose, RR, col = ref_number, label = first_author, group = personyrs), size = 4 * (dataset$personyrs - min(dataset$personyrs)) / diff(range(dataset$personyrs))) +
+            #   geom_line(data = subset(dataset2, dose < as.numeric(q)), aes(x = dose, y = RR)) +
+            #   geom_line(data = subset(dataset2, dose >= as.numeric(q)), aes(x = dose, y = RR), linetype = "dashed") +
+            #   geom_ribbon(data = subset(dataset2, dose < as.numeric(q)), aes(x = dose, ymin = `lb`, ymax = `ub`), alpha = 0.25) +
+            #   geom_ribbon(data = subset(dataset2, dose >= as.numeric(q)), aes(x = dose, ymin = `lb`, ymax = `ub`), alpha = 0.10) +
+            #   geom_vline(xintercept = q, linetype = "dotted", alpha = 0.6) +
+            #   coord_fixed(ylim = c(0, 1.5), x = c(0, 40), ratio = 10) +
+            #   theme(
+            #     legend.position = "none",
+            #     plot.title = element_text(hjust = 0.5, size = 9)
+            #   ) +
+            #   xlab("\nMarginal MET hours per week\n") +
+            #   ylab("\nRelative Risk\n") +
+            #   labs(title = paste(plot_title))
+            # 
+            # # Print plot
+            # print(p)
             
             if (!NO_BMI_EFFECT && local_last_knot == 0.75){
             
